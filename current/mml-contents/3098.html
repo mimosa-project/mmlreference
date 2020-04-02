@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>final</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr final</h1>
+<h2>List of Definitions (3)</h2>
+<ol>
+<li><span data-link='3098.html#ELM8646'>final</span> [<span data-href='fsm_1.html#V4'>fsm_1</span>]</li>
+<li><span data-link='3098.html#ELM13620'>final</span> [<span data-href='lattices.html#V19'>lattices</span>]</li>
+<li><span data-link='3098.html#ELM16394'>final</span> [<span data-href='modelc_3.html#V4'>modelc_3</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM8646'>
+<h2>1.   <span data-link='3098.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fsm_1.html#V4'>fsm_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">IAlph</font>, <font color="Maroon" title="c2">OAlph</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">tfsm</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="FSM_1:struct.2" data-link="3084.html#ELM8630">Mealy-FSM</span> over <font color="Maroon" title="c1">IAlph</font>,<font color="Maroon" title="c2">OAlph</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">IT</font> be    <span title="EQREL_1:mode.1" data-link="2427.html#ELM6262">a_partition</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c3">tfsm</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V4"><span class="kw">attr</span> </a><font color="Maroon" title="c4">IT</font> is  <span title="FSM_1:attr.4" data-link="3098.html#ELM8646">final</span> <span class="kw"> means </span><a name="D14"><span class="comment"><font color="firebrick">:: FSM_1:def 14</font></span><br></a> for <font color="Olive" title="b1">qa</font>, <font color="Olive" title="b2">qb</font> being   <span title="FSM_1:NM.1" data-link="1714.html#ELM8632">State</span> of <font color="Maroon" title="c3">tfsm</font> holds <br> ( <font color="Olive" title="b1">qa</font>,<font color="Olive" title="b2">qb</font> <span title="FSM_1:pred.5" data-link="3080.html#ELM8626">-are_equivalent</span>  iff  ex <font color="Olive" title="b3">X</font> being    <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of <font color="Maroon" title="c4">IT</font> st <br>( <font color="Olive" title="b1">qa</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Olive" title="b3">X</font> &amp; <font color="Olive" title="b2">qb</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Olive" title="b3">X</font> ) );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM13620'>
+<h2>2.   <span data-link='3098.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='lattices.html#V19'>lattices</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be   <span title="LATTICES:NM.1" data-link="4731.html#ELM13590">Lattice</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">L</font>;<br><div about="#D33" typeof="oo:Definition">
+<a name="V18"><span class="kw">attr</span> </a><font color="Maroon" title="c2">S</font> is  <span title="LATTICES:attr.18" data-link="243.html#ELM13619">initial</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E33">Def22</font></span>: <a name="D22"><span class="comment"><font color="firebrick">:: LATTICES:def 22</font></span><br></a> for <font color="Olive" title="b1">p</font>, <font color="Olive" title="b2">q</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>  st <font color="Olive" title="b1">p</font> <span title="LATTICES:pred.3" data-link="4726.html#ELM13586">[=</span> <font color="Olive" title="b2">q</font> &amp; <font color="Olive" title="b2">q</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">S</font> holds <br><font color="Olive" title="b1">p</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">S</font>;<br>
+</div>
+<div about="#D34" typeof="oo:Definition" class="main-sentence">
+<a name="V19"><span class="kw">attr</span> </a><font color="Maroon" title="c2">S</font> is  <span title="LATTICES:attr.19" data-link="3098.html#ELM13620">final</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E34">Def23</font></span>: <a name="D23"><span class="comment"><font color="firebrick">:: LATTICES:def 23</font></span><br></a> for <font color="Olive" title="b1">p</font>, <font color="Olive" title="b2">q</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>  st <font color="Olive" title="b1">p</font> <span title="LATTICES:pred.3" data-link="4726.html#ELM13586">[=</span> <font color="Olive" title="b2">q</font> &amp; <font color="Olive" title="b1">p</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">S</font> holds <br><font color="Olive" title="b2">q</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">S</font>;<br>
+</div>
+<div about="#D0" typeof="oo:Definition">
+<a name="V20"><span class="kw">attr</span> </a><font color="Maroon" title="c2">S</font> is  <span title="LATTICES:attr.20" data-link="4646.html#ELM13621">meet-closed</span> <span class="kw"> means </span><a name="D24"><span class="comment"><font color="firebrick">:: LATTICES:def 24</font></span><br></a> for <font color="Olive" title="b1">p</font>, <font color="Olive" title="b2">q</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>  st <font color="Olive" title="b1">p</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">S</font> &amp; <font color="Olive" title="b2">q</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">S</font> holds <br><font color="Olive" title="b1">p</font> <span title="LATTICES:func.4" data-link="1856.html#ELM13601">"/\"</span> <font color="Olive" title="b2">q</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">S</font>;<br>
+</div>
+<div about="#D0" typeof="oo:Definition">
+<a name="V21"><span class="kw">attr</span> </a><font color="Maroon" title="c2">S</font> is  <span title="LATTICES:attr.21" data-link="4647.html#ELM13622">join-closed</span> <span class="kw"> means </span><a name="D25"><span class="comment"><font color="firebrick">:: LATTICES:def 25</font></span><br></a> for <font color="Olive" title="b1">p</font>, <font color="Olive" title="b2">q</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>  st <font color="Olive" title="b1">p</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">S</font> &amp; <font color="Olive" title="b2">q</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">S</font> holds <br><font color="Olive" title="b1">p</font> <span title="LATTICES:func.3" data-link="1857.html#ELM13600">"\/"</span> <font color="Olive" title="b2">q</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">S</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster F1 "/\" F2 ->  final   meet-closed  ;
+</td><td><span data-href='filter_0.html#FC2'>filter_0</span></td></tr>
+<tr><td>
+cluster F .:  ->  initial   for  Subset of (L .:);
+</td><td><span data-href='filter_2.html#FC7'>filter_2</span></td></tr>
+<tr><td>
+cluster F .:  ->  final   for  Subset of (L .:);
+</td><td><span data-href='filter_2.html#FC8'>filter_2</span></td></tr>
+<tr><td>
+cluster  .: F ->  initial   for  Subset of L;
+</td><td><span data-href='filter_2.html#FC9'>filter_2</span></td></tr>
+<tr><td>
+cluster F .:  ->  final   for  Subset of L;
+</td><td><span data-href='filter_2.html#FC10'>filter_2</span></td></tr>
+<tr><td>
+cluster  non  empty   final   meet-closed   maximal   ->  proper   for    Element of K19( the carrier of L);
+</td><td><span data-href='latticea.html#CC1'>latticea</span></td></tr>
+<tr><td>
+cluster  non  empty   final   meet-closed   maximal   ->  being_ultrafilter   for    Element of K19( the carrier of L);
+</td><td><span data-href='latticea.html#CC2'>latticea</span></td></tr>
+<tr><td>
+cluster  non  empty   final   meet-closed   being_ultrafilter   ->  maximal   for    Element of K19( the carrier of L);
+</td><td><span data-href='latticea.html#CC3'>latticea</span></td></tr>
+<tr><td>
+cluster  non  empty   final   meet-closed   maximal   ->  prime   for    Element of K19( the carrier of L);
+</td><td><span data-href='latticea.html#CC7'>latticea</span></td></tr>
+<tr><td>
+cluster  PseudoCocomplements a ->  non  empty   final   meet-closed  ;
+</td><td><span data-href='latticea.html#FC5'>latticea</span></td></tr>
+<tr><td>
+cluster  [#] L ->  non  empty   initial   final  ;
+</td><td><span data-href='lattices.html#FC4'>lattices</span></td></tr>
+<tr><td>
+cluster  non  empty   initial   final   for   M3( bool  the carrier of L);
+</td><td><span data-href='lattices.html#RC14'>lattices</span></td></tr>
+<tr><td>
+cluster  empty   ->  initial   final   for   M3( bool  the carrier of L);
+</td><td><span data-href='lattices.html#CC8'>lattices</span></td></tr>
+<tr><td>
+cluster  final   ->  join-closed   for   M3( bool  the carrier of L);
+</td><td><span data-href='lattices.html#CC10'>lattices</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM16394'>
+<h2>3.   <span data-link='3098.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='modelc_3.html#V4'>modelc_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">v</font> be   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">N</font> be    <span title="MODELC_3:struct.1" data-link="5578.html#ELM16353">LTLnode</span> over <font color="Maroon" title="c1">v</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V4"><span class="kw">attr</span> </a><font color="Maroon" title="c2">N</font> is  <span title="MODELC_3:attr.4" data-link="3098.html#ELM16394">final</span> <span class="kw"> means </span><a name="D12"><span class="comment"><font color="firebrick">:: MODELC_3:def 12</font></span><br></a>( <font color="Maroon" title="c2">N</font> is  <span title="MODELC_3:attr.3" data-link="712.html#ELM16393">elementary</span>  &amp;  the <span title="MODELC_3:sel.3" data-href="modelc_3.html#U3">LTLnext</span> of <font color="Maroon" title="c2">N</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span>  );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

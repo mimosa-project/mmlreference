@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>-succ_of</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func -succ_of</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='3086.html#ELM8633'>-succ_of</span> [<span data-href='fsm_1.html#K1'>fsm_1</span>]</li>
+<li><span data-link='3086.html#ELM22625'>-succ_of</span> [<span data-href='rewrite3.html#K3'>rewrite3</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM8633'>
+<h2>1.   <span data-link='3086.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fsm_1.html#K1'>fsm_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">IAlph</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">fsm</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="FSM_1:struct.1" data-link="3083.html#ELM8629">FSM</span> over <font color="Maroon" title="c1">IAlph</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">s</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">IAlph</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">q</font> be   <span title="FSM_1:NM.1" data-link="1714.html#ELM8632">State</span> of <font color="Maroon" title="c2">fsm</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a><font color="Maroon" title="c3">s</font> <span title="FSM_1:func.1" data-link="3086.html#ELM8633">-succ_of</span> <font color="Maroon" title="c4">q</font><span class="kw"> -&gt; </span>  <span title="FSM_1:NM.1" data-link="1714.html#ELM8632">State</span> of <font color="Maroon" title="c2">fsm</font><span class="kw"> equals </span><a name="D1"><span class="comment"><font color="firebrick">:: FSM_1:def 1</font></span><br></a> the <span title="FSM_1:sel.1" data-href="fsm_1.html#U1">Tran</span> of <font color="Maroon" title="c2">fsm</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <span class="p1"><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">[</span><span class="default"><font color="Maroon" title="c4">q</font>,<font color="Maroon" title="c3">s</font></span><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">]</span></span>;<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM22625'>
+<h2>2.   <span data-link='3086.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rewrite3.html#K3'>rewrite3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">E</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">F</font> be   <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span class="p1">(<span class="default"><font color="Maroon" title="c1">E</font> <span title="AFINSQ_1:func.8" data-link="236.html#ELM505">^omega</span></span>)</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">TS</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="REWRITE3:struct.1" data-link="7422.html#ELM22622">transition-system</span> over <font color="Maroon" title="c2">F</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">x</font> be    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span> ;<br><span class="kw">let </span><font color="Maroon" title="c5">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a><font color="Maroon" title="c4">x</font> <span title="REWRITE3:func.3" data-link="3086.html#ELM22625">-succ_of</span> (<font color="Maroon" title="c5">X</font>,<font color="Maroon" title="c3">TS</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c3">TS</font><span class="kw"> equals </span><a name="D8"><span class="comment"><font color="firebrick">:: REWRITE3:def 8</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">s</font> where <font color="Olive" title="b1">s</font> is   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c3">TS</font> :  ex <font color="Olive" title="b2">t</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c3">TS</font> st <br>( <font color="Olive" title="b2">t</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c5">X</font> &amp; <font color="Olive" title="b2">t</font>,<font color="Maroon" title="c4">x</font> <span title="REWRITE3:pred.4" data-link="7416.html#ELM22621">==&gt;*</span> <font color="Olive" title="b1">s</font>,<font color="Maroon" title="c3">TS</font> ) </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

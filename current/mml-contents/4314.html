@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_integrable_on</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_integrable_on</h1>
+<h2>List of Definitions (9)</h2>
+<ol>
+<li><span data-link='4314.html#ELM12536'>is_integrable_on</span> [<span data-href='integr1c.html#R1'>integr1c</span>]</li>
+<li><span data-link='4314.html#ELM12556'>is_integrable_on</span> [<span data-href='integr15.html#R1'>integr15</span>]</li>
+<li><span data-link='4314.html#ELM12576'>is_integrable_on</span> [<span data-href='integr16.html#R1'>integr16</span>]</li>
+<li><span data-link='4314.html#ELM12592'>is_integrable_on</span> [<span data-href='integr18.html#R1'>integr18</span>]</li>
+<li><span data-link='4314.html#ELM12652'>is_integrable_on</span> [<span data-href='integra5.html#R1'>integra5</span>]</li>
+<li><span data-link='4314.html#ELM15488'>is_integrable_on</span> [<span data-href='mesfun6c.html#R1'>mesfun6c</span>]</li>
+<li><span data-link='4314.html#ELM15577'>is_integrable_on</span> [<span data-href='mesfunc5.html#R1'>mesfunc5</span>]</li>
+<li><span data-link='4314.html#ELM15600'>is_integrable_on</span> [<span data-href='mesfunc6.html#R2'>mesfunc6</span>]</li>
+<li><span data-link='4314.html#ELM21933'>is_integrable_on</span> [<span data-href='random_1.html#R1'>random_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM12536'>
+<h2>1.   <span data-link='4314.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integr1c.html#R1'>integr1c</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.2" data-link="5210.html#ELM18625">COMPLEX</span>,<span title="NUMBERS:func.2" data-link="5210.html#ELM18625">COMPLEX</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">C</font> be   <span title="INTEGR1C:NM.1" data-link="4316.html#ELM12538">C1-curve</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c1">f</font> <span title="INTEGR1C:pred.1" data-link="4314.html#ELM12536">is_integrable_on</span> <font color="Maroon" title="c2">C</font><span class="kw"> means </span><a name="D5"><span class="comment"><font color="firebrick">:: INTEGR1C:def 5</font></span><br></a> for <font color="Olive" title="b1">a</font>, <font color="Olive" title="b2">b</font> being   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span><br>  for <font color="Olive" title="b3">x</font>, <font color="Olive" title="b4">y</font> being   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span><br>  for <font color="Olive" title="b5">Z</font> being   <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span><br>  for <font color="Olive" title="b6">u0</font>, <font color="Olive" title="b7">v0</font> being   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>  st <font color="Olive" title="b1">a</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b2">b</font> &amp; <span class="p1"><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">[.</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font></span><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">.]</span></span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <font color="Maroon" title="c2">C</font> &amp; <span class="p1"><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">[.</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font></span><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">.]</span></span> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <font color="Olive" title="b3">x</font> &amp; <span class="p1"><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">[.</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font></span><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">.]</span></span> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <font color="Olive" title="b4">y</font> &amp; <font color="Olive" title="b5">Z</font> is  <span title="RCOMP_1:attr.3" data-link="1613.html#ELM22090">open</span>  &amp; <span class="p1"><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">[.</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font></span><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">.]</span></span> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span> <font color="Olive" title="b5">Z</font> &amp; <font color="Olive" title="b3">x</font> <span title="FDIFF_1:pred.2" data-link="1602.html#ELM6744">is_differentiable_on</span> <font color="Olive" title="b5">Z</font> &amp; <font color="Olive" title="b4">y</font> <span title="FDIFF_1:pred.2" data-link="1602.html#ELM6744">is_differentiable_on</span> <font color="Olive" title="b5">Z</font> &amp; <font color="Olive" title="b3">x</font> <span title="FDIFF_1:func.2" data-link="1608.html#ELM6748">`|</span> <font color="Olive" title="b5">Z</font> is  <span title="FCONT_1:attr.1" data-link="1206.html#ELM6709">continuous</span>  &amp; <font color="Olive" title="b4">y</font> <span title="FDIFF_1:func.2" data-link="1608.html#ELM6748">`|</span> <font color="Olive" title="b5">Z</font> is  <span title="FCONT_1:attr.1" data-link="1206.html#ELM6709">continuous</span>  &amp; <font color="Maroon" title="c2">C</font> <span title="RELSET_1:pred.2" data-link="1122.html#ELM22505">=</span> <span class="p1">(<span class="default"><font color="Olive" title="b3">x</font> <span title="VALUED_1:func.2" data-link="229.html#ELM27988">+</span> <span class="p2">(<span class="default"><span title="COMPLEX1:func.7" data-link="1907.html#ELM4937">&lt;i&gt;</span> <span title="VALUED_1:func.25" data-link="728.html#ELM28013">(#)</span> <font color="Olive" title="b4">y</font></span>)</span></span>)</span> <span title="PARTFUN1:func.2" data-link="909.html#ELM19579">|</span> <span class="p1"><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">[.</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font></span><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">.]</span></span> holds <br>( <span class="p1">(<span class="default"><font color="Olive" title="b6">u0</font> <span title="VALUED_1:func.20" data-link="728.html#ELM28007">(#)</span> <span class="p2">(<span class="default"><font color="Olive" title="b3">x</font> <span title="FDIFF_1:func.2" data-link="1608.html#ELM6748">`|</span> <font color="Olive" title="b5">Z</font></span>)</span></span>)</span> <span title="VALUED_1:func.47" data-link="327.html#ELM28035">-</span> <span class="p1">(<span class="default"><font color="Olive" title="b7">v0</font> <span title="VALUED_1:func.20" data-link="728.html#ELM28007">(#)</span> <span class="p2">(<span class="default"><font color="Olive" title="b4">y</font> <span title="FDIFF_1:func.2" data-link="1608.html#ELM6748">`|</span> <font color="Olive" title="b5">Z</font></span>)</span></span>)</span> <span title="INTEGRA5:pred.1" data-link="4314.html#ELM12652">is_integrable_on</span> <span class="p1"><span title="INTEGRA5:func.3" data-link="4360.html#ELM12656">['</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font></span><span title="INTEGRA5:func.3" data-link="4360.html#ELM12656">']</span></span> &amp; <span class="p1">(<span class="default"><font color="Olive" title="b7">v0</font> <span title="VALUED_1:func.20" data-link="728.html#ELM28007">(#)</span> <span class="p2">(<span class="default"><font color="Olive" title="b3">x</font> <span title="FDIFF_1:func.2" data-link="1608.html#ELM6748">`|</span> <font color="Olive" title="b5">Z</font></span>)</span></span>)</span> <span title="VALUED_1:func.3" data-link="229.html#ELM27989">+</span> <span class="p1">(<span class="default"><font color="Olive" title="b6">u0</font> <span title="VALUED_1:func.20" data-link="728.html#ELM28007">(#)</span> <span class="p2">(<span class="default"><font color="Olive" title="b4">y</font> <span title="FDIFF_1:func.2" data-link="1608.html#ELM6748">`|</span> <font color="Olive" title="b5">Z</font></span>)</span></span>)</span> <span title="INTEGRA5:pred.1" data-link="4314.html#ELM12652">is_integrable_on</span> <span class="p1"><span title="INTEGRA5:func.3" data-link="4360.html#ELM12656">['</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font></span><span title="INTEGRA5:func.3" data-link="4360.html#ELM12656">']</span></span> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12556'>
+<h2>2.   <span data-link='4314.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integr15.html#R1'>integr15</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="MEASURE5:attr.2" data-link="5194.html#ELM15070">closed_interval</span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>,<span class="p1">(<span class="default"><span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c1">n</font></span>)</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c3">f</font> <span title="INTEGR15:pred.1" data-link="4314.html#ELM12556">is_integrable_on</span> <font color="Maroon" title="c2">A</font><span class="kw"> means </span><a name="D16"><span class="comment"><font color="firebrick">:: INTEGR15:def 16</font></span><br></a> for <font color="Olive" title="b1">i</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>   st <font color="Olive" title="b1">i</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.2" data-link="2722.html#ELM7094">Seg</span> <font color="Maroon" title="c1">n</font> holds <br><span class="p1">(<span class="default"><span title="PDIFF_1:func.1" data-link="1348.html#ELM20065">proj</span> (<font color="Olive" title="b1">i</font>,<font color="Maroon" title="c1">n</font>)</span>)</span> <span title="PARTFUN1:func.1" data-link="47.html#ELM19578">*</span> <font color="Maroon" title="c3">f</font> <span title="INTEGRA5:pred.1" data-link="4314.html#ELM12652">is_integrable_on</span> <font color="Maroon" title="c2">A</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12576'>
+<h2>3.   <span data-link='4314.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integr16.html#R1'>integr16</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="MEASURE5:attr.2" data-link="5194.html#ELM15070">closed_interval</span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>,<span title="NUMBERS:func.2" data-link="5210.html#ELM18625">COMPLEX</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c2">f</font> <span title="INTEGR16:pred.1" data-link="4314.html#ELM12576">is_integrable_on</span> <font color="Maroon" title="c1">A</font><span class="kw"> means </span><a name="D7"><span class="comment"><font color="firebrick">:: INTEGR16:def 7</font></span><br></a>(  <span title="COMSEQ_3:func.5" data-link="1903.html#ELM5251">Re</span> <font color="Maroon" title="c2">f</font> <span title="INTEGRA5:pred.1" data-link="4314.html#ELM12652">is_integrable_on</span> <font color="Maroon" title="c1">A</font> &amp;  <span title="COMSEQ_3:func.6" data-link="1904.html#ELM5252">Im</span> <font color="Maroon" title="c2">f</font> <span title="INTEGRA5:pred.1" data-link="4314.html#ELM12652">is_integrable_on</span> <font color="Maroon" title="c1">A</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12592'>
+<h2>4.   <span data-link='4314.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integr18.html#R1'>integr18</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">X</font> be   <span title="NORMSP_1:NM.1" data-link="6167.html#ELM18544">RealNormSpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="MEASURE5:attr.2" data-link="5194.html#ELM15070">closed_interval</span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c4">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>, the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c2">X</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c3">f</font> <span title="INTEGR18:pred.1" data-link="4314.html#ELM12592">is_integrable_on</span> <font color="Maroon" title="c2">A</font><span class="kw"> means </span><a name="D7"><span class="comment"><font color="firebrick">:: INTEGR18:def 7</font></span><br></a> ex <font color="Olive" title="b1">g</font> being   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c2">A</font>, the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">X</font> st <br>( <font color="Olive" title="b1">g</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">f</font> <span title="PARTFUN1:func.2" data-link="909.html#ELM19579">|</span> <font color="Maroon" title="c2">A</font> &amp; <font color="Olive" title="b1">g</font> is  <span title="INTEGR18:attr.1" data-link="4335.html#ELM12601">integrable</span>  );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12652'>
+<h2>5.   <span data-link='4314.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integra5.html#R1'>integra5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="MEASURE5:attr.2" data-link="5194.html#ELM15070">closed_interval</span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c2">f</font> <span title="INTEGRA5:pred.1" data-link="4314.html#ELM12652">is_integrable_on</span> <font color="Maroon" title="c1">A</font><span class="kw"> means </span><a name="D1"><span class="comment"><font color="firebrick">:: INTEGRA5:def 1</font></span><br></a><font color="Maroon" title="c2">f</font> <span title="INTEGRA5:func.1" data-link="4359.html#ELM12654">||</span> <font color="Maroon" title="c1">A</font> is  <span title="INTEGRA1:attr.3" data-link="4335.html#ELM12634">integrable</span> ;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM15488'>
+<h2>6.   <span data-link='4314.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='mesfun6c.html#R1'>mesfun6c</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be   <span title="PROB_1:NM.3" data-link="6995.html#ELM21277">SigmaField</span> of <font color="Maroon" title="c1">X</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">M</font> be   <span title="MEASURE1:NM.5" data-link="5181.html#ELM15018">sigma_Measure</span> of <font color="Maroon" title="c2">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <font color="Maroon" title="c1">X</font>,<span title="NUMBERS:func.2" data-link="5210.html#ELM18625">COMPLEX</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c4">f</font> <span title="MESFUN6C:pred.1" data-link="4314.html#ELM15488">is_integrable_on</span> <font color="Maroon" title="c3">M</font><span class="kw"> means </span><a name="D2"><span class="comment"><font color="firebrick">:: MESFUN6C:def 2</font></span><br></a>(  <span title="COMSEQ_3:func.5" data-link="1903.html#ELM5251">Re</span> <font color="Maroon" title="c4">f</font> <span title="MESFUNC6:pred.2" data-link="4314.html#ELM15600">is_integrable_on</span> <font color="Maroon" title="c3">M</font> &amp;  <span title="COMSEQ_3:func.6" data-link="1904.html#ELM5252">Im</span> <font color="Maroon" title="c4">f</font> <span title="MESFUNC6:pred.2" data-link="4314.html#ELM15600">is_integrable_on</span> <font color="Maroon" title="c3">M</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM15577'>
+<h2>7.   <span data-link='4314.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='mesfunc5.html#R1'>mesfunc5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">X</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">S</font> be   <span title="PROB_1:NM.3" data-link="6995.html#ELM21277">SigmaField</span> of <font color="Maroon" title="c2">X</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">M</font> be   <span title="MEASURE1:NM.5" data-link="5181.html#ELM15018">sigma_Measure</span> of <font color="Maroon" title="c3">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <font color="Maroon" title="c2">X</font>,<span title="NUMBERS:func.6" data-link="6193.html#ELM18629">ExtREAL</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c4">f</font> <span title="MESFUNC5:pred.1" data-link="4314.html#ELM15577">is_integrable_on</span> <font color="Maroon" title="c3">M</font><span class="kw"> means </span><a name="D17"><span class="comment"><font color="firebrick">:: MESFUNC5:def 17</font></span><br></a>(  ex <font color="Olive" title="b1">A</font> being    <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of <font color="Maroon" title="c2">S</font> st <br>( <font color="Olive" title="b1">A</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <font color="Maroon" title="c4">f</font> &amp; <font color="Maroon" title="c4">f</font> is <font color="Olive" title="b1">A</font> <span title="MESFUNC1:attr.1" data-link="5256.html#ELM15565">-measurable</span>  ) &amp;  <span title="MESFUNC5:func.6" data-link="5287.html#ELM15584">integral+</span> (<font color="Maroon" title="c3">M</font>,<span class="p1">(<span class="default"><span title="MESFUNC2:func.1" data-link="5282.html#ELM15570">max+</span> <font color="Maroon" title="c4">f</font></span>)</span>) <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span>  <span title="SUPINF_1:func.1" data-link="8109.html#ELM25991">+infty</span>  &amp;  <span title="MESFUNC5:func.6" data-link="5287.html#ELM15584">integral+</span> (<font color="Maroon" title="c3">M</font>,<span class="p1">(<span class="default"><span title="MESFUNC2:func.2" data-link="5283.html#ELM15571">max-</span> <font color="Maroon" title="c4">f</font></span>)</span>) <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span>  <span title="SUPINF_1:func.1" data-link="8109.html#ELM25991">+infty</span>  );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM15600'>
+<h2>8.   <span data-link='4314.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='mesfunc6.html#R2'>mesfunc6</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be   <span title="PROB_1:NM.3" data-link="6995.html#ELM21277">SigmaField</span> of <font color="Maroon" title="c1">X</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">M</font> be   <span title="MEASURE1:NM.5" data-link="5181.html#ELM15018">sigma_Measure</span> of <font color="Maroon" title="c2">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <font color="Maroon" title="c1">X</font>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c4">f</font> <span title="MESFUNC6:pred.2" data-link="4314.html#ELM15600">is_integrable_on</span> <font color="Maroon" title="c3">M</font><span class="kw"> means </span><a name="D4"><span class="comment"><font color="firebrick">:: MESFUNC6:def 4</font></span><br></a> <span title="MESFUNC5:func.1" data-link="5259.html#ELM15579">R_EAL</span> <font color="Maroon" title="c4">f</font> <span title="MESFUNC5:pred.1" data-link="4314.html#ELM15577">is_integrable_on</span> <font color="Maroon" title="c3">M</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM21933'>
+<h2>9.   <span data-link='4314.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='random_1.html#R1'>random_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">Omega</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">Sigma</font> be   <span title="PROB_1:NM.3" data-link="6995.html#ELM21277">SigmaField</span> of <font color="Maroon" title="c2">Omega</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">f</font> be    <span title="RANDOM_1:mode.1" data-link="7256.html#ELM21934">Real-Valued-Random-Variable</span> of <font color="Maroon" title="c3">Sigma</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">P</font> be    <span title="PROB_1:mode.2" data-link="2290.html#ELM21281">Probability</span> of <font color="Maroon" title="c3">Sigma</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c3">f</font> <span title="RANDOM_1:pred.1" data-link="4314.html#ELM21933">is_integrable_on</span> <font color="Maroon" title="c4">P</font><span class="kw"> means </span><a name="D3"><span class="comment"><font color="firebrick">:: RANDOM_1:def 3</font></span><br></a><font color="Maroon" title="c3">f</font> <span title="MESFUNC6:pred.2" data-link="4314.html#ELM15600">is_integrable_on</span>  <span title="PROB_4:func.2" data-link="7009.html#ELM21341">P2M</span> <font color="Maroon" title="c4">P</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

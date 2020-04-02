@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>ProperTimesBody</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred ProperTimesBody</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='7729.html#ELM24273'>ProperTimesBody</span> [<span data-href='scmfsa9a.html#R5'>scmfsa9a</span>]</li>
+<li><span data-link='7729.html#ELM25118'>ProperTimesBody</span> [<span data-href='sfmastr2.html#R1'>sfmastr2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM24273'>
+<h2>1.   <span data-link='7729.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='scmfsa9a.html#R5'>scmfsa9a</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c4">p</font> be   <span title="COMPOS_1:NM.2" data-link="1932.html#ELM5021">Instruction-Sequence</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span>;<br><span class="kw">let </span><font color="Maroon" title="c5">s</font> be   <span title="MEMSTR_0:NM.2" data-link="1714.html#ELM15430">State</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span>;<br><span class="kw">let </span><font color="Maroon" title="c6">a</font> be   <span title="SCMFSA_M:NV.2" data-link="7773.html#ELM24453">read-write</span>  <span title="SCMFSA_2:NM.1" data-link="7743.html#ELM24345">Int-Location</span>;<br><span class="kw">let </span><font color="Maroon" title="c7">I</font> be   <span title="COMPOS_1:NM.5" data-link="1935.html#ELM5024">MacroInstruction</span> of  <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R5"><span class="kw">pred</span> </a> <span title="SCMFSA9A:pred.5" data-link="7729.html#ELM24273">ProperTimesBody</span> <font color="Maroon" title="c3">a</font>,<font color="Maroon" title="c4">I</font>,<font color="Maroon" title="c2">s</font>,<font color="Maroon" title="c1">p</font><span class="kw"> means </span><a name="D9"><span class="comment"><font color="firebrick">:: SCMFSA9A:def 9</font></span><br></a> for <font color="Olive" title="b1">k</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b1">k</font> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Maroon" title="c2">s</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c3">a</font> holds <br><font color="Maroon" title="c4">I</font> <span title="SCMFSA7B:pred.5" data-link="7718.html#ELM24227">is_halting_on</span> <span class="p1">(<span class="default"><span title="SCMFSA9A:func.4" data-link="7733.html#ELM24277">StepTimes</span> (<font color="Maroon" title="c3">a</font>,<font color="Maroon" title="c4">I</font>,<font color="Maroon" title="c1">p</font>,<font color="Maroon" title="c2">s</font>)</span>)</span> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b1">k</font>,<font color="Maroon" title="c1">p</font> <span title="FUNCT_4:func.1" data-link="517.html#ELM8937">+*</span> <span class="p1">(<span class="default"><span title="SCMFSA8C:func.1" data-link="7724.html#ELM24266">Times</span> (<font color="Maroon" title="c3">a</font>,<font color="Maroon" title="c4">I</font>)</span>)</span>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM25118'>
+<h2>2.   <span data-link='7729.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='sfmastr2.html#R1'>sfmastr2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">p</font> be   <span title="COMPOS_1:NM.2" data-link="1932.html#ELM5021">Instruction-Sequence</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">s</font> be   <span title="MEMSTR_0:NM.2" data-link="1714.html#ELM15430">State</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span>;<br><span class="kw">let </span><font color="Maroon" title="c4">a</font> be   <span title="SCMFSA_2:NM.1" data-link="7743.html#ELM24345">Int-Location</span>;<br><span class="kw">let </span><font color="Maroon" title="c5">I</font> be   <span title="COMPOS_1:NM.5" data-link="1935.html#ELM5024">MacroInstruction</span> of  <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a> <span title="SFMASTR2:pred.1" data-link="7729.html#ELM25118">ProperTimesBody</span> <font color="Maroon" title="c3">a</font>,<font color="Maroon" title="c4">I</font>,<font color="Maroon" title="c2">s</font>,<font color="Maroon" title="c1">p</font><span class="kw"> means </span><a name="D4"><span class="comment"><font color="firebrick">:: SFMASTR2:def 4</font></span><br></a> for <font color="Olive" title="b1">k</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b1">k</font> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Maroon" title="c2">s</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c3">a</font> holds <br><font color="Maroon" title="c4">I</font> <span title="SCMFSA7B:pred.5" data-link="7718.html#ELM24227">is_halting_on</span> <span class="p1">(<span class="default"><span title="SFMASTR2:func.3" data-link="7733.html#ELM25121">StepTimes</span> (<font color="Maroon" title="c3">a</font>,<font color="Maroon" title="c4">I</font>,<font color="Maroon" title="c1">p</font>,<font color="Maroon" title="c2">s</font>)</span>)</span> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b1">k</font>,<font color="Maroon" title="c1">p</font> <span title="FUNCT_4:func.1" data-link="517.html#ELM8937">+*</span> <span class="p1">(<span class="default"><span title="SFMASTR2:func.1" data-link="7878.html#ELM25119">times*</span> (<font color="Maroon" title="c3">a</font>,<font color="Maroon" title="c4">I</font>)</span>)</span>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>vertices</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func vertices</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='3804.html#ELM10813'>vertices</span> [<span data-href='graph_5.html#K1'>graph_5</span>]</li>
+<li><span data-link='3804.html#ELM10814'>vertices</span> [<span data-href='graph_5.html#K2'>graph_5</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM10813'>
+<h2>1.   <span data-link='3804.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='graph_5.html#K1'>graph_5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GRAPH_1:NM.3" data-link="3764.html#ELM10712">Graph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">e</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  the <span title="STRUCT_0:sel.4" data-href="struct_0.html#U4">carrier'</span> of <font color="Maroon" title="c1">G</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="GRAPH_5:func.1" data-link="3804.html#ELM10813">vertices</span> <font color="Maroon" title="c2">e</font><span class="kw"> -&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> <span class="kw"> equals </span><a name="D1"><span class="comment"><font color="firebrick">:: GRAPH_5:def 1</font></span><br></a><span class="p1"><span title="TARSKI:func.2" data-link="857.html#ELM26066">{</span><span class="default"><span class="p2">(<span class="default"> the <span title="GRAPH_1:sel.1" data-href="graph_1.html#U1">Source</span> of <font color="Maroon" title="c1">G</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c2">e</font></span>)</span>,<span class="p2">(<span class="default"> the <span title="GRAPH_1:sel.2" data-href="graph_1.html#U2">Target</span> of <font color="Maroon" title="c1">G</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c2">e</font></span>)</span></span><span title="TARSKI:func.2" data-link="857.html#ELM26066">}</span></span>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM10814'>
+<h2>2.   <span data-link='3804.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='graph_5.html#K2'>graph_5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GRAPH_1:NM.3" data-link="3764.html#ELM10712">Graph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">pe</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  the <span title="STRUCT_0:sel.4" data-href="struct_0.html#U4">carrier'</span> of <font color="Maroon" title="c1">G</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="GRAPH_5:func.2" data-link="3804.html#ELM10814">vertices</span> <font color="Maroon" title="c2">pe</font><span class="kw"> -&gt; </span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">G</font><span class="kw"> equals </span><a name="D2"><span class="comment"><font color="firebrick">:: GRAPH_5:def 2</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">v</font> where <font color="Olive" title="b1">v</font> is   <span title="GRAPH_1:NM.1" data-link="3509.html#ELM10710">Vertex</span> of <font color="Maroon" title="c1">G</font> :  ex <font color="Olive" title="b2">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> st <br>( <font color="Olive" title="b2">i</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <font color="Maroon" title="c2">pe</font> &amp; <font color="Olive" title="b1">v</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="GRAPH_5:func.1" data-link="3804.html#ELM10813">vertices</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">pe</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b2">i</font></span>)</span> ) </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

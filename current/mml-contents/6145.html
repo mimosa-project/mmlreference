@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>valid_factorial_output</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func valid_factorial_output</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='6145.html#ELM18492'>valid_factorial_output</span> [<span data-href='nomin_5.html#K15'>nomin_5</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM18492'>
+<h2>1.   <span data-link='6145.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='nomin_5.html#K15'>nomin_5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">V</font>, <font color="Maroon" title="c2">A</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">z</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">V</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">n0</font> be   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">set </span><font color="Maroon" title="c5">D</font> = <span class="p1"> { <span class="default"> <font color="Olive" title="b1">d</font> where <font color="Olive" title="b1">d</font> is    <span title="NOMIN_1:mode.2" data-link="6073.html#ELM18361">TypeSCNominativeData</span> of <font color="Maroon" title="c1">V</font>,<font color="Maroon" title="c2">A</font> : <font color="Olive" title="b1">d</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <span class="p1">(<span class="default"><span title="NOMIN_1:func.18" data-link="6081.html#ELM18380">denaming</span> (<font color="Maroon" title="c1">V</font>,<font color="Maroon" title="c2">A</font>,<font color="Maroon" title="c3">z</font>)</span>)</span> </span> } </span> ;<br><span class="kw">defpred </span><font color="Maroon">S<sub>1</sub></font>[   <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span> ] <span class="kw">means </span> <span title="NOMIN_5:pred.2" data-link="6133.html#ELM18475">valid_factorial_output_pred</span> <font color="Maroon" title="c2">A</font>,<font color="Maroon" title="c3">z</font>,<font color="Maroon" title="c4">n0</font>,$1;<br><div about="#D10" typeof="oo:Definition" class="main-sentence">
+<a name="K15"><span class="kw">func</span> </a> <span title="NOMIN_5:func.15" data-link="6145.html#ELM18492">valid_factorial_output</span> (<font color="Maroon" title="c2">A</font>,<font color="Maroon" title="c3">z</font>,<font color="Maroon" title="c4">n0</font>)<span class="kw"> -&gt; </span>  <span title="NOMIN_2:NM.1" data-link="6087.html#ELM18396">SCPartialNominativePredicate</span> of <font color="Maroon" title="c1">V</font>,<font color="Maroon" title="c2">A</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E10">Def17</font></span>: <a name="D17"><span class="comment"><font color="firebrick">:: NOMIN_5:def 17</font></span><br></a>(  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"> { <span class="default"> <font color="Olive" title="b1">d</font> where <font color="Olive" title="b1">d</font> is    <span title="NOMIN_1:mode.2" data-link="6073.html#ELM18361">TypeSCNominativeData</span> of <font color="Maroon" title="c1">V</font>,<font color="Maroon" title="c2">A</font> : <font color="Olive" title="b1">d</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <span class="p1">(<span class="default"><span title="NOMIN_1:func.18" data-link="6081.html#ELM18380">denaming</span> (<font color="Maroon" title="c1">V</font>,<font color="Maroon" title="c2">A</font>,<font color="Maroon" title="c3">z</font>)</span>)</span> </span> } </span>  &amp; (  for <font color="Olive" title="b1">d</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>   st <font color="Olive" title="b1">d</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <span class="kw">it</span> holds <br>( (  <span title="NOMIN_5:pred.2" data-link="6133.html#ELM18475">valid_factorial_output_pred</span> <font color="Maroon" title="c2">A</font>,<font color="Maroon" title="c3">z</font>,<font color="Maroon" title="c4">n0</font>,<font color="Olive" title="b1">d</font> implies <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">d</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="MARGREL1:func.7" data-link="5000.html#ELM14380">TRUE</span>  ) &amp; (  not  <span title="NOMIN_5:pred.2" data-link="6133.html#ELM18475">valid_factorial_output_pred</span> <font color="Maroon" title="c2">A</font>,<font color="Maroon" title="c3">z</font>,<font color="Maroon" title="c4">n0</font>,<font color="Olive" title="b1">d</font> implies <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">d</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="MARGREL1:func.6" data-link="4999.html#ELM14379">FALSE</span>  ) ) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

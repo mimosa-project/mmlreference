@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Put-Option</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Put-Option</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='2708.html#ELM7066'>Put-Option</span> [<span data-href='finance6.html#K2'>finance6</span>]</li>
+<li><span data-link='2708.html#ELM7067'>Put-Option</span> [<span data-href='finance6.html#K3'>finance6</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM7066'>
+<h2>1.   <span data-link='2708.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='finance6.html#K2'>finance6</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">Omega</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">F</font> be   <span title="PROB_1:NM.3" data-link="6995.html#ELM21277">SigmaField</span> of <font color="Maroon" title="c1">Omega</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">RV</font> be   <span title="FINANCE1:NM.2" data-link="2646.html#ELM6953">random_variable</span> of <font color="Maroon" title="c2">F</font>, <span title="PROB_1:func.12" data-link="6998.html#ELM21293">Borel_Sets</span> ;<br><span class="kw">let </span><font color="Maroon" title="c4">K</font> be   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>;<br><div about="#D7" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="FINANCE6:func.2" data-link="2708.html#ELM7066">Put-Option</span> (<font color="Maroon" title="c3">RV</font>,<font color="Maroon" title="c4">K</font>)<span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c1">Omega</font>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E7">Def30</font></span>: <a name="D1"><span class="comment"><font color="firebrick">:: FINANCE6:def 1</font></span><br></a> for <font color="Olive" title="b1">w</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">Omega</font> holds <br> ( ( <span class="p1">(<span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c1">Omega</font> <span title="FUNCOP_1:func.7" data-link="488.html#ELM8736">--&gt;</span> <font color="Maroon" title="c4">K</font></span>)</span> <span title="VALUED_1:func.47" data-link="327.html#ELM28035">-</span> <font color="Maroon" title="c3">RV</font></span>)</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">w</font> <span title="XXREAL_0:NR.2" data-link="786.html#ELM29820">&gt;=</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  implies <span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">w</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c1">Omega</font> <span title="FUNCOP_1:func.7" data-link="488.html#ELM8736">--&gt;</span> <font color="Maroon" title="c4">K</font></span>)</span> <span title="VALUED_1:func.47" data-link="327.html#ELM28035">-</span> <font color="Maroon" title="c3">RV</font></span>)</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">w</font> ) &amp; ( <span class="p1">(<span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c1">Omega</font> <span title="FUNCOP_1:func.7" data-link="488.html#ELM8736">--&gt;</span> <font color="Maroon" title="c4">K</font></span>)</span> <span title="VALUED_1:func.47" data-link="327.html#ELM28035">-</span> <font color="Maroon" title="c3">RV</font></span>)</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">w</font> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  implies <span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">w</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM7067'>
+<h2>2.   <span data-link='2708.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='finance6.html#K3'>finance6</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">Omega</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">F</font> be   <span title="PROB_1:NM.3" data-link="6995.html#ELM21277">SigmaField</span> of <font color="Maroon" title="c1">Omega</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">RV</font> be   <span title="FINANCE1:NM.2" data-link="2646.html#ELM6953">random_variable</span> of <font color="Maroon" title="c2">F</font>, <span title="PROB_1:func.12" data-link="6998.html#ELM21293">Borel_Sets</span> ;<br><span class="kw">let </span><font color="Maroon" title="c4">K</font> be   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="FINANCE6:func.2" data-link="2708.html#ELM7066">Put-Option</span><br><span class="kw">redefine </span><a name="K3"><span class="kw">func</span> </a> <span title="FINANCE6:func.3" data-link="2708.html#ELM7067">Put-Option</span> (<font color="Maroon" title="c3">RV</font>,<font color="Maroon" title="c4">K</font>)<span class="kw"> -&gt; </span>  <span title="FINANCE1:NM.2" data-link="2646.html#ELM6953">random_variable</span> of <font color="Maroon" title="c2">F</font>, <span title="PROB_1:func.12" data-link="6998.html#ELM21293">Borel_Sets</span> ;<br><span class="kw">correctness </span>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

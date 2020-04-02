@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>are_naturally_equivalent</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred are_naturally_equivalent</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='3208.html#ELM9185'>are_naturally_equivalent</span> [<span data-href='functor3.html#R1'>functor3</span>]</li>
+<li><span data-link='3208.html#ELM17627'>are_naturally_equivalent</span> [<span data-href='nattra_1.html#R3'>nattra_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM9185'>
+<h2>1.   <span data-link='3208.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='functor3.html#R1'>functor3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font>, <font color="Maroon" title="c2">B</font> be   <span title="ALTCAT_1:NM.4" data-link="405.html#ELM981">category</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">F1</font>, <font color="Maroon" title="c4">F2</font> be   <span title="FUNCTOR0:attr.15" data-link="1521.html#ELM9120">covariant</span>   <span title="FUNCTOR0:mode.2" data-link="1432.html#ELM9088">Functor</span> of <font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">B</font>;<br><div about="#D25" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c3">F1</font>,<font color="Maroon" title="c4">F2</font> <span title="FUNCTOR3:pred.1" data-link="3208.html#ELM9185">are_naturally_equivalent</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E25">Def4</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: FUNCTOR3:def 4</font></span><br></a>( <font color="Maroon" title="c3">F1</font> <span title="FUNCTOR2:pred.2" data-link="1537.html#ELM9169">is_naturally_transformable_to</span> <font color="Maroon" title="c4">F2</font> &amp; <font color="Maroon" title="c4">F2</font> <span title="FUNCTOR2:pred.1" data-link="3205.html#ELM9168">is_transformable_to</span> <font color="Maroon" title="c3">F1</font> &amp;  ex <font color="Olive" title="b1">t</font> being    <span title="FUNCTOR2:mode.2" data-link="1540.html#ELM9171">natural_transformation</span> of <font color="Maroon" title="c3">F1</font>,<font color="Maroon" title="c4">F2</font> st <br> for <font color="Olive" title="b2">a</font> being   <span title="ALTCAT_1:NM.1" data-link="402.html#ELM978">Object</span> of <font color="Maroon" title="c1">A</font> holds  <font color="Olive" title="b1">t</font> <span title="FUNCTOR2:func.2" data-link="2069.html#ELM9173">!</span> <font color="Olive" title="b2">a</font> is  <span title="ALTCAT_3:attr.3" data-link="441.html#ELM1063">iso</span>  );<br>
+</div>
+<span class="kw">reflexivity</span> <span class="kw">symmetry</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM17627'>
+<h2>2.   <span data-link='3208.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='nattra_1.html#R3'>nattra_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font>, <font color="Maroon" title="c2">B</font> be   <span title="CAT_1:NM.4" data-link="1431.html#ELM3503">Category</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">F1</font>, <font color="Maroon" title="c4">F2</font> be    <span title="CAT_1:mode.2" data-link="1432.html#ELM3504">Functor</span> of <font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">B</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R3"><span class="kw">pred</span> </a><font color="Maroon" title="c3">F1</font>,<font color="Maroon" title="c4">F2</font> <span title="NATTRA_1:pred.3" data-link="3208.html#ELM17627">are_naturally_equivalent</span> <span class="kw"> means </span><a name="D11"><span class="comment"><font color="firebrick">:: NATTRA_1:def 11</font></span><br></a>( <font color="Maroon" title="c3">F1</font> <span title="NATTRA_1:pred.2" data-link="1537.html#ELM17626">is_naturally_transformable_to</span> <font color="Maroon" title="c4">F2</font> &amp;  ex <font color="Olive" title="b1">t</font> being    <span title="NATTRA_1:mode.2" data-link="1540.html#ELM17630">natural_transformation</span> of <font color="Maroon" title="c3">F1</font>,<font color="Maroon" title="c4">F2</font> st <font color="Olive" title="b1">t</font> is  <span title="NATTRA_1:attr.1" data-link="344.html#ELM17643">invertible</span>  );<br>
+</div>
+<span class="kw">reflexivity</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

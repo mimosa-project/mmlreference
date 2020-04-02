@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>coprod</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func coprod</h1>
+<h2>List of Definitions (3)</h2>
+<ol>
+<li><span data-link='5723.html#ELM16907'>coprod</span> [<span data-href='msafree.html#K2'>msafree</span>]</li>
+<li><span data-link='5723.html#ELM16908'>coprod</span> [<span data-href='msafree.html#NK3'>msafree</span>]</li>
+<li><span data-link='5723.html#ELM16909'>coprod</span> [<span data-href='msafree.html#K3'>msafree</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM16907'>
+<h2>1.   <span data-link='5723.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='msafree.html#K2'>msafree</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">I</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font> be   <span title="PBOOLE:NM.1" data-link="4273.html#ELM19812">ManySortedSet</span> of <font color="Maroon" title="c1">I</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">i</font> be    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span> ;<br><span class="kw">assume </span><a name="E1:3"></a><span class="lab"><font color="Green" title="E3">A1</font></span>: 
+<font color="Maroon" title="c3">i</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c1">I</font>
+ ;<br><div about="#D3" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="MSAFREE:func.2" data-link="5723.html#ELM16907">coprod</span> (<font color="Maroon" title="c3">i</font>,<font color="Maroon" title="c2">X</font>)<span class="kw"> -&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E3">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: MSAFREE:def 2</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>  holds <br> ( <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <span class="kw">it</span> iff  ex <font color="Olive" title="b2">a</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>  st <br>( <font color="Olive" title="b2">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">X</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c3">i</font> &amp; <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b2">a</font>,<font color="Maroon" title="c3">i</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  coprod (i,A) ->  Relation-like   Function-like  ;
+</td><td><span data-href='altcat_6.html#FC1'>altcat_6</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM16908'>
+<h2>2.   <span data-link='5723.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='msafree.html#NK3'>msafree</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">notation</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">I</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font> be   <span title="PBOOLE:NM.1" data-link="4273.html#ELM19812">ManySortedSet</span> of <font color="Maroon" title="c1">I</font>;<br><a name="NK3"><span class="kw">synonym </span> </a><span title="CARD_3:func.2" data-link="1341.html#ELM3292">coprod</span> <font color="Maroon" title="c2">X</font><span class="kw"> for </span> <span title="CARD_3:func.2" data-link="1341.html#ELM3292">disjoin</span> <font color="Maroon" title="c1">I</font>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM16909'>
+<h2>3.   <span data-link='5723.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='msafree.html#K3'>msafree</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">I</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font> be   <span title="PBOOLE:NM.1" data-link="4273.html#ELM19812">ManySortedSet</span> of <font color="Maroon" title="c1">I</font>;<br><div about="#D4" typeof="oo:Definition" class="main-sentence">
+<span class="comment"><font color="firebrick">:: original: </font></span><span title="CARD_3:func.2" data-link="1341.html#ELM3292">coprod</span><br><span class="kw">redefine </span><a name="K3"><span class="kw">func</span> </a> <span title="MSAFREE:func.3" data-link="5723.html#ELM16909">coprod</span> <font color="Maroon" title="c2">X</font><span class="kw"> -&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E4">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: MSAFREE:def 3</font></span><br></a>(  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">I</font> &amp; (  for <font color="Olive" title="b1">i</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">i</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c1">I</font> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="MSAFREE:func.2" data-link="5723.html#ELM16907">coprod</span> (<font color="Olive" title="b1">i</font>,<font color="Maroon" title="c2">X</font>) ) );<br>
+</div>
+<span class="kw">compatibility</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

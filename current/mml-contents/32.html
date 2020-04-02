@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>OperSymbol</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>mode OperSymbol</h1>
+<h2>List of Definitions (4)</h2>
+<ol>
+<li><span data-link='32.html#ELM61'>OperSymbol</span> [<span data-href='abcmiz_1.html#M2'>abcmiz_1</span>]</li>
+<li><span data-link='32.html#ELM17056'>OperSymbol</span> [<span data-href='msualg_1.html#NM2'>msualg_1</span>]</li>
+<li><span data-link='32.html#ELM19393'>OperSymbol</span> [<span data-href='osalg_1.html#NM2'>osalg_1</span>]</li>
+<li><span data-link='32.html#ELM21513'>OperSymbol</span> [<span data-href='pua2mss1.html#NM2'>pua2mss1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM61'>
+<h2>1.   <span data-link='32.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='abcmiz_1.html#M2'>abcmiz_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   non  <span title="STRUCT_0:attr.11" data-link="17.html#ELM25778">void</span>  <span title="CATALG_1:NM.1" data-link="1559.html#ELM3851">Signature</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">s</font> be   <span title="MSUALG_1:NM.1" data-link="5761.html#ELM17055">SortSymbol</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">assume </span><a name="E1:97"></a><span class="lab"><font color="Green" title="E51">A1</font></span>: 
+ ex <font color="Olive" title="b1">o</font> being   <span title="MSUALG_1:NM.2" data-link="32.html#ELM17056">OperSymbol</span> of <font color="Maroon" title="c1">S</font> st  <span title="MSUALG_1:func.2" data-link="5762.html#ELM17058">the_result_sort_of</span> <font color="Olive" title="b1">o</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">s</font>
+ ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="M2"><span class="kw">mode</span> </a> <span title="ABCMIZ_1:mode.2" data-link="32.html#ELM61">OperSymbol</span> of <font color="Maroon" title="c2">s</font><span class="kw"> -&gt; </span>  <span title="MSUALG_1:NM.2" data-link="32.html#ELM17056">OperSymbol</span> of <font color="Maroon" title="c1">S</font><span class="kw"> means </span><a name="D32"><span class="comment"><font color="firebrick">:: ABCMIZ_1:def 32</font></span><br></a> <span title="MSUALG_1:func.2" data-link="5762.html#ELM17058">the_result_sort_of</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">s</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E51">A1</font></span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-func'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>func</th></tr></thead>
+<tbody>
+<tr><td><span data-link='10.html#ELM102'>ast</span></td><td><span data-href='abcmiz_1.html#K33'>abcmiz_1</span></td></tr>
+<tr><td><span data-link='61.html#ELM250'>term</span></td><td><span data-href='abcmiz_a.html#K13'>abcmiz_a</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM17056'>
+<h2>2.   <span data-link='32.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='msualg_1.html#NM2'>msualg_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><a name="NM1"><span class="kw">mode </span>SortSymbol of <font color="Maroon" title="c1">S</font><span class="kw"> is </span></a>  <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">S</font>;<br><a name="NM2"><span class="kw">mode </span>OperSymbol of <font color="Maroon" title="c1">S</font><span class="kw"> is </span></a>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  the <span title="STRUCT_0:sel.4" data-href="struct_0.html#U4">carrier'</span> of <font color="Maroon" title="c1">S</font>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-mode'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>mode</th></tr></thead>
+<tbody>
+<tr><td><span data-link='5740.html#ELM16960'>ArgumentSeq</span></td><td><span data-href='msaterm.html#NM4'>msaterm</span></td></tr>
+<tr><td><span data-link='32.html#ELM61'>OperSymbol</span></td><td><span data-href='abcmiz_1.html#M2'>abcmiz_1</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-pred'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>pred</th></tr></thead>
+<tbody>
+<tr><td><span data-link='5770.html#ELM17082'>is_closed_on</span></td><td><span data-href='msualg_2.html#R1'>msualg_2</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-attr'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>attr</th></tr></thead>
+<tbody>
+<tr><td><span data-link='5715.html#ELM16818'>-context_including</span></td><td><span data-href='msafree5.html#V11'>msafree5</span></td></tr>
+<tr><td><span data-link='5716.html#ELM16819'>-dependent</span></td><td><span data-href='msafree5.html#V12'>msafree5</span></td></tr>
+<tr><td><span data-link='111.html#ELM262'>binary</span></td><td><span data-href='abcmiz_a.html#V6'>abcmiz_a</span></td></tr>
+<tr><td><span data-link='78.html#ELM139'>constructor</span></td><td><span data-href='abcmiz_1.html#V2'>abcmiz_1</span></td></tr>
+<tr><td><span data-link='109.html#ELM260'>nullary</span></td><td><span data-href='abcmiz_a.html#V4'>abcmiz_a</span></td></tr>
+<tr><td><span data-link='110.html#ELM261'>unary</span></td><td><span data-href='abcmiz_a.html#V5'>abcmiz_a</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-func'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>func</th></tr></thead>
+<tbody>
+<tr><td><span data-link='76.html#ELM16699'>#</span></td><td><span data-href='msafree4.html#K6'>msafree4</span></td></tr>
+<tr><td><span data-link='76.html#ELM17131'>#</span></td><td><span data-href='msualg_3.html#K5'>msualg_3</span></td></tr>
+<tr><td><span data-link='76.html#ELM17132'>#</span></td><td><span data-href='msualg_3.html'>msualg_3</span></td></tr>
+<tr><td><span data-link='76.html#ELM17147'>#</span></td><td><span data-href='msualg_4.html#K6'>msualg_4</span></td></tr>
+<tr><td><span data-link='5703.html#ELM16796'>-context_in</span></td><td><span data-href='msafree5.html#K17'>msafree5</span></td></tr>
+<tr><td><span data-link='5702.html#ELM16795'>-context_pos_in</span></td><td><span data-href='msafree5.html#K16'>msafree5</span></td></tr>
+<tr><td><span data-link='63.html#ELM16785'>-term</span></td><td><span data-href='msafree5.html#K7'>msafree5</span></td></tr>
+<tr><td><span data-link='64.html#ELM105'>-trm</span></td><td><span data-href='abcmiz_1.html#K36'>abcmiz_1</span></td></tr>
+<tr><td><span data-link='141.html#ELM17146'>.</span></td><td><span data-href='msualg_4.html#K5'>msualg_4</span></td></tr>
+<tr><td><span data-link='330.html#ELM1889'>/</span></td><td><span data-href='aofa_l00.html#K8'>aofa_l00</span></td></tr>
+<tr><td><span data-link='1458.html#ELM17087'>/.</span></td><td><span data-href='msualg_2.html#K3'>msualg_2</span></td></tr>
+<tr><td><span data-link='6923.html#ELM20998'>?.</span></td><td><span data-href='pralg_2.html#K12'>pralg_2</span></td></tr>
+<tr><td><span data-link='54.html#ELM21529'>`1</span></td><td><span data-href='pua2mss1.html#K12'>pua2mss1</span></td></tr>
+<tr><td><span data-link='55.html#ELM21530'>`2</span></td><td><span data-href='pua2mss1.html#K13'>pua2mss1</span></td></tr>
+<tr><td><span data-link='5763.html#ELM17059'>Args</span></td><td><span data-href='msualg_1.html#K3'>msualg_1</span></td></tr>
+<tr><td><span data-link='1566.html#ELM3863'>compsym</span></td><td><span data-href='catalg_1.html#K10'>catalg_1</span></td></tr>
+<tr><td><span data-link='1951.html#ELM21011'>const</span></td><td><span data-href='pralg_3.html#K1'>pralg_3</span></td></tr>
+<tr><td><span data-link='1717.html#ELM4370'>depends_on_in</span></td><td><span data-href='circuit1.html#K3'>circuit1</span></td></tr>
+<tr><td><span data-link='5764.html#ELM17061'>Den</span></td><td><span data-href='msualg_1.html#K5'>msualg_1</span></td></tr>
+<tr><td><span data-link='5726.html#ELM16915'>DenOp</span></td><td><span data-href='msafree.html#K9'>msafree</span></td></tr>
+<tr><td><span data-link='1565.html#ELM3862'>homsym</span></td><td><span data-href='catalg_1.html#K9'>catalg_1</span></td></tr>
+<tr><td><span data-link='57.html#ELM238'>loci_of</span></td><td><span data-href='abcmiz_a.html#K1'>abcmiz_a</span></td></tr>
+<tr><td><span data-link='1343.html#ELM16924'>pi</span></td><td><span data-href='msafree.html#K18'>msafree</span></td></tr>
+<tr><td><span data-link='5791.html#ELM17149'>QuotArgs</span></td><td><span data-href='msualg_4.html#K8'>msualg_4</span></td></tr>
+<tr><td><span data-link='5792.html#ELM17152'>QuotCharact</span></td><td><span data-href='msualg_4.html#K11'>msualg_4</span></td></tr>
+<tr><td><span data-link='5790.html#ELM17148'>QuotRes</span></td><td><span data-href='msualg_4.html#K7'>msualg_4</span></td></tr>
+<tr><td><span data-link='1675.html#ELM17060'>Result</span></td><td><span data-href='msualg_1.html#K4'>msualg_1</span></td></tr>
+<tr><td><span data-link='3045.html#ELM16912'>Sym</span></td><td><span data-href='msafree.html#K6'>msafree</span></td></tr>
+<tr><td><span data-link='3045.html#ELM16965'>Sym</span></td><td><span data-href='msaterm.html#K2'>msaterm</span></td></tr>
+<tr><td><span data-link='61.html#ELM98'>term</span></td><td><span data-href='abcmiz_1.html#K29'>abcmiz_1</span></td></tr>
+<tr><td><span data-link='61.html#ELM99'>term</span></td><td><span data-href='abcmiz_1.html#K30'>abcmiz_1</span></td></tr>
+<tr><td><span data-link='61.html#ELM100'>term</span></td><td><span data-href='abcmiz_1.html#K31'>abcmiz_1</span></td></tr>
+<tr><td><span data-link='4995.html#ELM17057'>the_arity_of</span></td><td><span data-href='msualg_1.html#K1'>msualg_1</span></td></tr>
+<tr><td><span data-link='5762.html#ELM17058'>the_result_sort_of</span></td><td><span data-href='msualg_1.html#K2'>msualg_1</span></td></tr>
+<tr><td><span data-link='5706.html#ELM17189'>transl</span></td><td><span data-href='msualg_6.html#K4'>msualg_6</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM19393'>
+<h2>3.   <span data-link='32.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='osalg_1.html#NM2'>osalg_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><a name="NM2"><span class="kw">mode </span>OperSymbol of <font color="Maroon" title="c1">S</font><span class="kw"> is </span></a>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  the <span title="STRUCT_0:sel.4" data-href="struct_0.html#U4">carrier'</span> of <font color="Maroon" title="c1">S</font>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-mode'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>mode</th></tr></thead>
+<tbody>
+<tr><td><span data-link='667.html#ELM19398'>Element</span></td><td><span data-href='osalg_1.html#M1'>osalg_1</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-pred'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>pred</th></tr></thead>
+<tbody>
+<tr><td><span data-link='491.html#ELM19388'>&lt;=</span></td><td><span data-href='osalg_1.html#R6'>osalg_1</span></td></tr>
+<tr><td><span data-link='6385.html#ELM19385'>has_least_args_for</span></td><td><span data-href='osalg_1.html#R3'>osalg_1</span></td></tr>
+<tr><td><span data-link='6387.html#ELM19387'>has_least_rank_for</span></td><td><span data-href='osalg_1.html#R5'>osalg_1</span></td></tr>
+<tr><td><span data-link='6386.html#ELM19386'>has_least_sort_for</span></td><td><span data-href='osalg_1.html#R4'>osalg_1</span></td></tr>
+<tr><td><span data-link='1497.html#ELM19383'>~=</span></td><td><span data-href='osalg_1.html#R1'>osalg_1</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-attr'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>attr</th></tr></thead>
+<tbody>
+<tr><td><span data-link='6299.html#ELM19411'>monotone</span></td><td><span data-href='osalg_1.html#V7'>osalg_1</span></td></tr>
+<tr><td><span data-link='84.html#ELM19413'>regular</span></td><td><span data-href='osalg_1.html#V9'>osalg_1</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-func'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>func</th></tr></thead>
+<tbody>
+<tr><td><span data-link='1387.html#ELM19400'>LBound</span></td><td><span data-href='osalg_1.html#K2'>osalg_1</span></td></tr>
+<tr><td><span data-link='6401.html#ELM19406'>Name</span></td><td><span data-href='osalg_1.html#K8'>osalg_1</span></td></tr>
+<tr><td><span data-link='6367.html#ELM19341'>OSSym</span></td><td><span data-href='osafree.html#K3'>osafree</span></td></tr>
+<tr><td><span data-link='6367.html#ELM19347'>OSSym</span></td><td><span data-href='osafree.html#K9'>osafree</span></td></tr>
+<tr><td><span data-link='1343.html#ELM19350'>pi</span></td><td><span data-href='osafree.html#K12'>osafree</span></td></tr>
+<tr><td><span data-link='6369.html#ELM19344'>PTDenOp</span></td><td><span data-href='osafree.html#K6'>osafree</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM21513'>
+<h2>4.   <span data-link='32.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='pua2mss1.html#NM2'>pua2mss1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be   <span title="UNIALG_1:attr.4" data-link="3057.html#ELM27602">non-empty</span>   <span title="UNIALG_1:struct.1" data-link="8470.html#ELM27597">UAStr</span> ;<br><a name="NM2"><span class="kw">mode </span>OperSymbol of <font color="Maroon" title="c1">A</font><span class="kw"> is </span></a>   <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span>  the <span title="UNIALG_1:sel.1" data-href="unialg_1.html#U1">charact</span> of <font color="Maroon" title="c1">A</font>;<br><a name="NM3"><span class="kw">mode </span>operation of <font color="Maroon" title="c1">A</font><span class="kw"> is </span></a>   <span title="PUA2MSS1:mode.1" data-link="667.html#ELM21512">Element</span> of  <span title="PUA2MSS1:func.1" data-link="3141.html#ELM21518">rng</span>  the <span title="UNIALG_1:sel.1" data-href="unialg_1.html#U1">charact</span> of <font color="Maroon" title="c1">A</font>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-func'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>func</th></tr></thead>
+<tbody>
+<tr><td><span data-link='55.html#ELM21530'>`2</span></td><td><span data-href='pua2mss1.html#K13'>pua2mss1</span></td></tr>
+<tr><td><span data-link='5764.html#ELM21519'>Den</span></td><td><span data-href='pua2mss1.html#K2'>pua2mss1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

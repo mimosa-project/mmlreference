@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Neg_atomic_LTL</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Neg_atomic_LTL</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='5595.html#ELM16382'>Neg_atomic_LTL</span> [<span data-href='modelc_3.html#K28'>modelc_3</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM16382'>
+<h2>1.   <span data-link='5595.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='modelc_3.html#K28'>modelc_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">v</font> be   <span title="MODELC_3:attr.5" data-link="5604.html#ELM16395">neg-inner-most</span>  <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">N</font> be   <span title="MODELC_3:attr.1" data-href="modelc_3.html#V1">strict</span>   <span title="MODELC_3:struct.1" data-link="5578.html#ELM16353">LTLnode</span> over <font color="Maroon" title="c1">v</font>;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K27"><span class="kw">func</span> </a> <span title="MODELC_3:func.27" data-link="5548.html#ELM16381">atomic_LTL</span> <font color="Maroon" title="c2">N</font><span class="kw"> -&gt; </span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="MODELC_2:func.9" data-link="5546.html#ELM16278">LTL_WFF</span><span class="kw"> equals </span><a name="D40"><span class="comment"><font color="firebrick">:: MODELC_3:def 40</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">x</font> where <font color="Olive" title="b1">x</font> is   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span> : ( <font color="Olive" title="b1">x</font> is  <span title="MODELC_2:attr.2" data-link="3994.html#ELM16322">atomic</span>  &amp; <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  the <span title="MODELC_3:sel.1" data-href="modelc_3.html#U1">LTLold</span> of <font color="Maroon" title="c2">N</font> ) </span> } </span> ;<br>
+</div>
+<span class="kw">correctness </span><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K28"><span class="kw">func</span> </a> <span title="MODELC_3:func.28" data-link="5595.html#ELM16382">Neg_atomic_LTL</span> <font color="Maroon" title="c2">N</font><span class="kw"> -&gt; </span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="MODELC_2:func.9" data-link="5546.html#ELM16278">LTL_WFF</span><span class="kw"> equals </span><a name="D41"><span class="comment"><font color="firebrick">:: MODELC_3:def 41</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">x</font> where <font color="Olive" title="b1">x</font> is   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span> : ( <font color="Olive" title="b1">x</font> is  <span title="MODELC_2:attr.2" data-link="3994.html#ELM16322">atomic</span>  &amp;  <span title="MODELC_2:func.3" data-link="1109.html#ELM16272">'not'</span> <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  the <span title="MODELC_3:sel.1" data-href="modelc_3.html#U1">LTLold</span> of <font color="Maroon" title="c2">N</font> ) </span> } </span> ;<br>
+</div>
+<span class="kw">correctness </span>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

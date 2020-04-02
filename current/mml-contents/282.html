@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_monomorphism</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_monomorphism</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='282.html#ELM679'>is_monomorphism</span> [<span data-href='alg_1.html#R2'>alg_1</span>]</li>
+<li><span data-link='282.html#ELM17122'>is_monomorphism</span> [<span data-href='msualg_3.html#R3'>msualg_3</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM679'>
+<h2>1.   <span data-link='282.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='alg_1.html#R2'>alg_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">U1</font>, <font color="Maroon" title="c2">U2</font> be   <span title="UNIALG_1:NM.1" data-link="8471.html#ELM27598">Universal_Algebra</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">f</font> be   <span title="STRUCT_0:NM.6" data-link="3155.html#ELM25752">Function</span> of <font color="Maroon" title="c1">U1</font>,<font color="Maroon" title="c2">U2</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c3">f</font> <span title="ALG_1:pred.2" data-link="282.html#ELM679">is_monomorphism</span> <span class="kw"> means </span><a name="D2"><span class="comment"><font color="firebrick">:: ALG_1:def 2</font></span><br></a>( <font color="Maroon" title="c3">f</font> <span title="ALG_1:pred.1" data-link="281.html#ELM678">is_homomorphism</span>  &amp; <font color="Maroon" title="c3">f</font> is  <span title="FUNCT_1:attr.2" data-link="3158.html#ELM8826">one-to-one</span>  );<br>
+</div>
+<div about="#D0" typeof="oo:Definition" class="">
+<a name="R3"><span class="kw">pred</span> </a><font color="Maroon" title="c3">f</font> <span title="ALG_1:pred.3" data-link="283.html#ELM680">is_epimorphism</span> <span class="kw"> means </span><a name="D3"><span class="comment"><font color="firebrick">:: ALG_1:def 3</font></span><br></a>( <font color="Maroon" title="c3">f</font> <span title="ALG_1:pred.1" data-link="281.html#ELM678">is_homomorphism</span>  &amp;  <span title="RELSET_1:func.2" data-link="3141.html#ELM22509">rng</span> <font color="Maroon" title="c3">f</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c2">U2</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM17122'>
+<h2>2.   <span data-link='282.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='msualg_3.html#R3'>msualg_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   non  <span title="STRUCT_0:attr.11" data-link="17.html#ELM25778">void</span>   <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">U1</font>, <font color="Maroon" title="c3">U2</font> be    <span title="MSUALG_1:struct.3" data-link="5760.html#ELM17054">MSAlgebra</span> over <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">F</font> be   <span title="MSUALG_3:NM.1" data-link="5785.html#ELM17126">ManySortedFunction</span> of <font color="Maroon" title="c2">U1</font>,<font color="Maroon" title="c3">U2</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R3"><span class="kw">pred</span> </a><font color="Maroon" title="c4">F</font> <span title="MSUALG_3:pred.3" data-link="282.html#ELM17122">is_monomorphism</span> <font color="Maroon" title="c2">U1</font>,<font color="Maroon" title="c3">U2</font><span class="kw"> means </span><a name="D9"><span class="comment"><font color="firebrick">:: MSUALG_3:def 9</font></span><br></a>( <font color="Maroon" title="c4">F</font> <span title="MSUALG_3:pred.1" data-link="281.html#ELM17120">is_homomorphism</span> <font color="Maroon" title="c2">U1</font>,<font color="Maroon" title="c3">U2</font> &amp; <font color="Maroon" title="c4">F</font> is  <span title="MSUALG_3:attr.1" data-link="5786.html#ELM17134">"1-1"</span>  );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

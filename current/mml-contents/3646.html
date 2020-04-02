@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>real-weighted</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr real-weighted</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='3646.html#ELM10109'>real-weighted</span> [<span data-href='glib_003.html#V7'>glib_003</span>]</li>
+<li><span data-link='3646.html#ELM10117'>real-weighted</span> [<span data-href='glib_003.html#V15'>glib_003</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM10109'>
+<h2>1.   <span data-link='3646.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='glib_003.html#V7'>glib_003</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GLIB_003:NM.1" data-link="3600.html#ELM10054">WGraph</span>;<br><div about="#D11" typeof="oo:Definition" class="main-sentence">
+<a name="V7"><span class="kw">attr</span> </a><font color="Maroon" title="c1">G</font> is  <span title="GLIB_003:attr.7" data-link="3646.html#ELM10109">real-weighted</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E11">Def13</font></span>: <a name="D13"><span class="comment"><font color="firebrick">:: GLIB_003:def 13</font></span><br></a> <span title="GLIB_003:func.5" data-link="3631.html#ELM10093">the_Weight_of</span> <font color="Maroon" title="c1">G</font> is  <span title="VALUED_0:attr.3" data-link="5284.html#ELM27838">real-valued</span> ;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   finite   [Graph-like]   [Weighted]   nonnegative-weighted   ->  real-weighted   for    set ;
+</td><td><span data-href='glib_003.html#CC1'>glib_003</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   finite   [Graph-like]   [Weighted]   [ELabeled]   [VLabeled]   real-WEV   ->  real-weighted   real-elabeled   real-vlabeled   for    set ;
+</td><td><span data-href='glib_003.html#CC2'>glib_003</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   finite   [Graph-like]   [Weighted]   [ELabeled]   [VLabeled]   real-weighted   real-elabeled   real-vlabeled   ->  real-WEV   for    set ;
+</td><td><span data-href='glib_003.html#CC3'>glib_003</span></td></tr>
+<tr><td>
+cluster G .set (WeightSelector,X) ->  real-weighted  ;
+</td><td><span data-href='glib_003.html#FC42'>glib_003</span></td></tr>
+<tr><td>
+cluster  the_Weight_of G ->  real-valued  ;
+</td><td><span data-href='glib_003.html#FC54'>glib_003</span></td></tr>
+<tr><td>
+cluster G .set (ELabelSelector,X) ->  real-weighted  ;
+</td><td><span data-href='glib_003.html#FC57'>glib_003</span></td></tr>
+<tr><td>
+cluster G .set (VLabelSelector,X) ->  real-weighted  ;
+</td><td><span data-href='glib_003.html#FC58'>glib_003</span></td></tr>
+<tr><td>
+cluster G .labelEdge (e,x) ->  real-weighted  ;
+</td><td><span data-href='glib_003.html#FC75'>glib_003</span></td></tr>
+<tr><td>
+cluster G .labelVertex (v,x) ->  real-weighted  ;
+</td><td><span data-href='glib_003.html#FC89'>glib_003</span></td></tr>
+<tr><td>
+cluster  [Weighted]   weight-inheriting   ->  real-weighted   for    Subgraph of G;
+</td><td><span data-href='glib_003.html#CC4'>glib_003</span></td></tr>
+<tr><td>
+cluster GSq . x ->  real-weighted   for  WGraph;
+</td><td><span data-href='glib_003.html#FC96'>glib_003</span></td></tr>
+<tr><td>
+cluster  DIJK:CompSeq src ->  halting  ;
+</td><td><span data-href='glib_004.html#FC5'>glib_004</span></td></tr>
+<tr><td>
+cluster   ->  connected   for    inducedSubgraph of G1,((PRIM:CompSeq G1) . n) `1 ,G1 .edgesBetween (((PRIM:CompSeq G1) . n) `1);
+</td><td><span data-href='glib_004.html#CC1'>glib_004</span></td></tr>
+<tr><td>
+cluster   ->  connected   for    inducedSubgraph of G1,((PRIM:CompSeq G1) . n) `1 ,((PRIM:CompSeq G1) . n) `2 ;
+</td><td><span data-href='glib_004.html#CC2'>glib_004</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   finite   finite-support   [Graph-like]   finite   spanning   Tree-like   [Weighted]   weight-inheriting   real-weighted   for    Subgraph of G;
+</td><td><span data-href='glib_004.html#RC1'>glib_004</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   finite   finite-support   [Graph-like]   finite   loopless   non-multi   non-Dmulti   simple   Dsimple   spanning   connected   acyclic   Tree-like   [Weighted]   weight-inheriting   real-weighted   min-cost   for    Subgraph of G1;
+</td><td><span data-href='glib_004.html#RC2'>glib_004</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM10117'>
+<h2>2.   <span data-link='3646.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='glib_003.html#V15'>glib_003</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">GSq</font> be   <span title="GLIB_003:NM.29" data-link="3621.html#ELM10082">WGraphSeq</span>;<br><div about="#D22" typeof="oo:Definition" class="main-sentence">
+<a name="V15"><span class="kw">attr</span> </a><font color="Maroon" title="c1">GSq</font> is  <span title="GLIB_003:attr.15" data-link="3646.html#ELM10117">real-weighted</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E22">Def27</font></span>: <a name="D27"><span class="comment"><font color="firebrick">:: GLIB_003:def 27</font></span><br></a> for <font color="Olive" title="b1">x</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> holds  <font color="Maroon" title="c1">GSq</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font> is  <span title="GLIB_003:attr.7" data-link="3646.html#ELM10109">real-weighted</span> ;<br>
+</div>
+<div about="#D23" typeof="oo:Definition" class="">
+<a name="V16"><span class="kw">attr</span> </a><font color="Maroon" title="c1">GSq</font> is  <span title="GLIB_003:attr.16" data-link="3647.html#ELM10118">nonnegative-weighted</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E23">Def28</font></span>: <a name="D28"><span class="comment"><font color="firebrick">:: GLIB_003:def 28</font></span><br></a> for <font color="Olive" title="b1">x</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> holds  <font color="Maroon" title="c1">GSq</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font> is  <span title="GLIB_003:attr.8" data-link="3647.html#ELM10110">nonnegative-weighted</span> ;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   total   Graph-yielding   [Weighted]   [ELabeled]   [VLabeled]   real-WEV   ->  real-weighted   real-elabeled   real-vlabeled   for    set ;
+</td><td><span data-href='glib_003.html#CC8'>glib_003</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   total   Graph-yielding   [Weighted]   [ELabeled]   [VLabeled]   real-weighted   real-elabeled   real-vlabeled   ->  real-WEV   for    set ;
+</td><td><span data-href='glib_003.html#CC9'>glib_003</span></td></tr>
+<tr><td>
+cluster GSq . x ->  real-weighted   for  WGraph;
+</td><td><span data-href='glib_003.html#FC96'>glib_003</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

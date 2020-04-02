@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>LinPreorders</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func LinPreorders</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='835.html#ELM2059'>LinPreorders</span> [<span data-href='arrow.html#K2'>arrow</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM2059'>
+<h2>1.   <span data-link='835.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='arrow.html#K2'>arrow</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">defpred </span><font color="Maroon">S<sub>1</sub></font>[   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ] <span class="kw">means </span>( $1 is   <span title="RELSET_1:NM.2" data-link="286.html#ELM22507">Relation</span> of <font color="Maroon" title="c1">A</font> &amp; (  for <font color="Olive" title="b1">a</font>, <font color="Olive" title="b2">b</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">A</font>  holds <br>( <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> $1 or <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b2">b</font>,<font color="Olive" title="b1">a</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> $1 ) ) &amp; (  for <font color="Olive" title="b1">a</font>, <font color="Olive" title="b2">b</font>, <font color="Olive" title="b3">c</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">A</font>  st <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> $1 &amp; <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b2">b</font>,<font color="Olive" title="b3">c</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> $1 holds <br><span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b3">c</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> $1 ) );<br><span class="kw">defpred </span><font color="Maroon">S<sub>2</sub></font>[   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ] <span class="kw">means </span> for <font color="Olive" title="b1">R</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>  holds <br> ( <font color="Olive" title="b1">R</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> $1 iff <font color="Maroon">S<sub>1</sub></font>[<font color="Olive" title="b1">R</font>] );<br><div about="#D3" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="ARROW:func.2" data-link="835.html#ELM2059">LinPreorders</span> <font color="Maroon" title="c1">A</font><span class="kw"> -&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E3">Def1</font></span>: <a name="D1"><span class="comment"><font color="firebrick">:: ARROW:def 1</font></span><br></a> for <font color="Olive" title="b1">R</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>  holds <br> ( <font color="Olive" title="b1">R</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <span class="kw">it</span> iff ( <font color="Olive" title="b1">R</font> is   <span title="RELSET_1:NM.2" data-link="286.html#ELM22507">Relation</span> of <font color="Maroon" title="c1">A</font> &amp; (  for <font color="Olive" title="b2">a</font>, <font color="Olive" title="b3">b</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">A</font>  holds <br>( <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b2">a</font>,<font color="Olive" title="b3">b</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Olive" title="b1">R</font> or <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b3">b</font>,<font color="Olive" title="b2">a</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Olive" title="b1">R</font> ) ) &amp; (  for <font color="Olive" title="b2">a</font>, <font color="Olive" title="b3">b</font>, <font color="Olive" title="b4">c</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">A</font>  st <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b2">a</font>,<font color="Olive" title="b3">b</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Olive" title="b1">R</font> &amp; <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b3">b</font>,<font color="Olive" title="b4">c</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Olive" title="b1">R</font> holds <br><span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b2">a</font>,<font color="Olive" title="b4">c</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Olive" title="b1">R</font> ) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  LinPreorders A ->  non  empty  ;
+</td><td><span data-href='arrow.html#FC1'>arrow</span></td></tr>
+<tr><td>
+cluster   ->  Relation-like   for    Element of  LinPreorders A;
+</td><td><span data-href='arrow.html#CC1'>arrow</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

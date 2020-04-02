@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Flatten</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Flatten</h1>
+<h2>List of Definitions (3)</h2>
+<ol>
+<li><span data-link='5670.html#ELM16636'>Flatten</span> [<span data-href='msafree1.html#K1'>msafree1</span>]</li>
+<li><span data-link='5670.html#ELM20917'>Flatten</span> [<span data-href='poset_2.html#K5'>poset_2</span>]</li>
+<li><span data-link='5670.html#ELM20918'>Flatten</span> [<span data-href='poset_2.html#K6'>poset_2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM16636'>
+<h2>1.   <span data-link='5670.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='msafree1.html#K1'>msafree1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">I</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font> be   <span title="PROB_2:attr.1" data-link="696.html#ELM21314">disjoint_valued</span>  <span title="PBOOLE:NM.1" data-link="4273.html#ELM19812">ManySortedSet</span> of <font color="Maroon" title="c1">I</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">D</font> be  <span title="RELAT_1:attr.2" data-link="3057.html#ELM22398">V2</span>() <span title="PBOOLE:NM.1" data-link="4273.html#ELM19812">ManySortedSet</span> of <font color="Maroon" title="c1">I</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">F</font> be    <span title="PBOOLE:mode.2" data-link="5785.html#ELM19816">ManySortedFunction</span> of <font color="Maroon" title="c2">X</font>,<font color="Maroon" title="c3">D</font>;<br><div about="#D3" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="MSAFREE1:func.1" data-link="5670.html#ELM16636">Flatten</span> <font color="Maroon" title="c4">F</font><span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"><span title="CARD_3:func.3" data-link="752.html#ELM3293">Union</span> <font color="Maroon" title="c2">X</font></span>)</span>,<span class="p1">(<span class="default"><span title="CARD_3:func.3" data-link="752.html#ELM3293">Union</span> <font color="Maroon" title="c3">D</font></span>)</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E3">Def1</font></span>: <a name="D1"><span class="comment"><font color="firebrick">:: MSAFREE1:def 1</font></span><br></a> for <font color="Olive" title="b1">i</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">I</font><br>  for <font color="Olive" title="b2">x</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b2">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">X</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">i</font> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b2">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Maroon" title="c4">F</font> <span title="MSUALG_3:func.1" data-link="141.html#ELM17127">.</span> <font color="Olive" title="b1">i</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b2">x</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">correctness </span>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20917'>
+<h2>2.   <span data-link='5670.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='poset_2.html#K5'>poset_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">x</font> be    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font>, <font color="Maroon" title="c3">Y</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c4">f</font> be   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c2">X</font>,<font color="Maroon" title="c3">Y</font>;<br><div about="#D20" typeof="oo:Definition" class="main-sentence">
+<a name="K5"><span class="kw">func</span> </a> <span title="POSET_2:func.5" data-link="5670.html#ELM20917">Flatten</span> (<font color="Maroon" title="c4">f</font>,<font color="Maroon" title="c1">x</font>)<span class="kw"> -&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> <span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E20">DefFlatten01</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: POSET_2:def 4</font></span><br></a><font color="Maroon" title="c4">f</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c1">x</font><span class="kw"> if </span><font color="Maroon" title="c1">x</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c2">X</font><br><span class="kw"> otherwise </span><font color="Maroon" title="c3">Y</font>;<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20918'>
+<h2>3.   <span data-link='5670.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='poset_2.html#K6'>poset_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font>, <font color="Maroon" title="c2">Y</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">f</font> be   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c1">X</font>,<font color="Maroon" title="c2">Y</font>;<br><div about="#D21" typeof="oo:Definition" class="main-sentence">
+<a name="K6"><span class="kw">func</span> </a> <span title="POSET_2:func.6" data-link="5670.html#ELM20918">Flatten</span> <font color="Maroon" title="c3">f</font><span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.6" data-link="3155.html#ELM25752">Function</span> of <span class="p1">(<span class="default"><span title="POSET_2:func.4" data-link="6898.html#ELM20916">FlatPoset</span> <font color="Maroon" title="c1">X</font></span>)</span>,<span class="p1">(<span class="default"><span title="POSET_2:func.4" data-link="6898.html#ELM20916">FlatPoset</span> <font color="Maroon" title="c2">Y</font></span>)</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E21">DefFlatten04</font></span>: <a name="D5"><span class="comment"><font color="firebrick">:: POSET_2:def 5</font></span><br></a>( <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c1">X</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">Y</font> &amp; (  for <font color="Olive" title="b1">x</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <span class="p1">(<span class="default"><span title="POSET_2:func.4" data-link="6898.html#ELM20916">FlatPoset</span> <font color="Maroon" title="c1">X</font></span>)</span>  st <font color="Olive" title="b1">x</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Maroon" title="c1">X</font> holds <br><span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">f</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Flatten f ->  continuous  ;
+</td><td><span data-href='poset_2.html#FC4'>poset_2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

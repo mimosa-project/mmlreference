@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>sigma</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func sigma</h1>
+<h2>List of Definitions (4)</h2>
+<ol>
+<li><span data-link='5936.html#ELM17535'>sigma</span> [<span data-href='nat_5.html#K3'>nat_5</span>]</li>
+<li><span data-link='5936.html#ELM17537'>sigma</span> [<span data-href='nat_5.html#K5'>nat_5</span>]</li>
+<li><span data-link='5936.html#ELM21290'>sigma</span> [<span data-href='prob_1.html#K9'>prob_1</span>]</li>
+<li><span data-link='5936.html#ELM28723'>sigma</span> [<span data-href='waybel11.html#K5'>waybel11</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM17535'>
+<h2>1.   <span data-link='5936.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='nat_5.html#K3'>nat_5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">k</font>, <font color="Maroon" title="c2">n</font> be   <span title="ORDINAL1:attr.7" data-link="6328.html#ELM19073">natural</span>   <span title="ORDINAL1:NM.1" data-link="6317.html#ELM19055">Number</span> ;<br><div about="#D38" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="NAT_5:func.3" data-link="5936.html#ELM17535">sigma</span> (<font color="Maroon" title="c1">k</font>,<font color="Maroon" title="c2">n</font>)<span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E38">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: NAT_5:def 2</font></span><br></a> for <font color="Olive" title="b1">m</font> being   non  <span title="ORDINAL1:attr.8" data-link="1643.html#ELM19074">zero</span>  <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Maroon" title="c2">n</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">m</font> holds <br><span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="UPROOTS:func.2" data-link="252.html#ELM27783">Sum</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="NAT_5:func.2" data-link="5935.html#ELM17534">EXP</span> <font color="Maroon" title="c1">k</font></span>)</span> <span title="NAT_5:func.1" data-link="909.html#ELM17533">|</span> <span class="p2">(<span class="default"><span title="MOEBIUS1:func.3" data-link="5608.html#ELM16406">NatDivisors</span> <font color="Olive" title="b1">m</font></span>)</span></span>)</span><span class="kw"> if </span><font color="Maroon" title="c2">n</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> <br><span class="kw"> otherwise </span><span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> ;<br>
+</div>
+<span class="kw">correctness </span>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM17537'>
+<h2>2.   <span data-link='5936.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='nat_5.html#K5'>nat_5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font> be   <span title="ORDINAL1:attr.7" data-link="6328.html#ELM19073">natural</span>   <span title="ORDINAL1:NM.1" data-link="6317.html#ELM19055">Number</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K5"><span class="kw">func</span> </a> <span title="NAT_5:func.5" data-link="5936.html#ELM17537">sigma</span> <font color="Maroon" title="c1">n</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> <span class="kw"> equals </span><a name="D4"><span class="comment"><font color="firebrick">:: NAT_5:def 4</font></span><br></a> <span title="NAT_5:func.3" data-link="5936.html#ELM17535">sigma</span> (1,<font color="Maroon" title="c1">n</font>);<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM21290'>
+<h2>3.   <span data-link='5936.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='prob_1.html#K9'>prob_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">Omega</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font> be   <span title="SETFAM_1:NM.1" data-link="7849.html#ELM25001">Subset-Family</span> of <font color="Maroon" title="c1">Omega</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K9"><span class="kw">func</span> </a> <span title="PROB_1:func.9" data-link="5936.html#ELM21290">sigma</span> <font color="Maroon" title="c2">X</font><span class="kw"> -&gt; </span>  <span title="PROB_1:NM.3" data-link="6995.html#ELM21277">SigmaField</span> of <font color="Maroon" title="c1">Omega</font><span class="kw"> means </span><a name="D9"><span class="comment"><font color="firebrick">:: PROB_1:def 9</font></span><br></a>( <font color="Maroon" title="c2">X</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span> <span class="kw">it</span> &amp; (  for <font color="Olive" title="b1">Z</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Maroon" title="c2">X</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span> <font color="Olive" title="b1">Z</font> &amp; <font color="Olive" title="b1">Z</font> is   <span title="PROB_1:NM.3" data-link="6995.html#ELM21277">SigmaField</span> of <font color="Maroon" title="c1">Omega</font> holds <br><span class="kw">it</span> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span> <font color="Olive" title="b1">Z</font> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  sigma (TotFam T) ->  all-open-containing   closed_for_countable_unions  ;
+</td><td><span data-href='topgen_4.html#FC7'>topgen_4</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM28723'>
+<h2>4.   <span data-link='5936.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='waybel11.html#K5'>waybel11</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ORDERS_2:attr.3" data-link="433.html#ELM18897">reflexive</span>   <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K5"><span class="kw">func</span> </a> <span title="WAYBEL11:func.5" data-link="5936.html#ELM28723">sigma</span> <font color="Maroon" title="c1">L</font><span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.3" data-link="7849.html#ELM25749">Subset-Family</span> of <font color="Maroon" title="c1">L</font><span class="kw"> equals </span><a name="D12"><span class="comment"><font color="firebrick">:: WAYBEL11:def 12</font></span><br></a> the <span title="PRE_TOPC:sel.1" data-href="pre_topc.html#U1">topology</span> of <span class="p1">(<span class="default"><span title="YELLOW_6:func.12" data-link="8929.html#ELM30338">ConvergenceSpace</span> <span class="p2">(<span class="default"><span title="WAYBEL11:func.2" data-link="8638.html#ELM28720">Scott-Convergence</span> <font color="Maroon" title="c1">L</font></span>)</span></span>)</span>;<br>
+</div>
+<span class="kw">coherence</span> <span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('yellow_6/D24')" onmouseout="rh()" data-href="yellow_6.html#D24">YELLOW_6:def 24</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  sigma L ->  non  empty  ;
+</td><td><span data-href='waybel14.html#FC3'>waybel14</span></td></tr>
+<tr><td>
+cluster  InclPoset (sigma S) ->  non  trivial   complete  ;
+</td><td><span data-href='waybel30.html#FC4'>waybel30</span></td></tr>
+<tr><td>
+cluster  InclPoset (sigma N) ->  non  trivial   complete  ;
+</td><td><span data-href='waybel30.html#FC5'>waybel30</span></td></tr>
+<tr><td>
+cluster  InclPoset (sigma N) ->  continuous  ;
+</td><td><span data-href='waybel30.html#FC10'>waybel30</span></td></tr>
+<tr><td>
+cluster  InclPoset (sigma N) ->  algebraic  ;
+</td><td><span data-href='waybel30.html#FC11'>waybel30</span></td></tr>
+<tr><td>
+cluster  InclPoset (sigma L1) ->  with_suprema   continuous  ;
+</td><td><span data-href='waybel31.html#FC2'>waybel31</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

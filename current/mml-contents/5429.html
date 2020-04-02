@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>ROUGH</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func ROUGH</h1>
+<h2>List of Definitions (3)</h2>
+<ol>
+<li><span data-link='5429.html#ELM15984'>ROUGH</span> [<span data-href='mmlquery.html#K26'>mmlquery</span>]</li>
+<li><span data-link='5429.html#ELM15985'>ROUGH</span> [<span data-href='mmlquery.html#K27'>mmlquery</span>]</li>
+<li><span data-link='5429.html#ELM15986'>ROUGH</span> [<span data-href='mmlquery.html#K28'>mmlquery</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM15984'>
+<h2>1.   <span data-link='5429.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='mmlquery.html#K26'>mmlquery</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="SETFAM_1:func.9" data-link="1652.html#ELM25011">bool</span> <font color="Maroon" title="c1">X</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><div about="#D27" typeof="oo:Definition" class="main-sentence">
+<a name="K26"><span class="kw">func</span> </a> <span title="MMLQUERY:func.26" data-link="5429.html#ELM15984">ROUGH</span> (<font color="Maroon" title="c2">A</font>,<font color="Maroon" title="c3">n</font>)<span class="kw"> -&gt; </span>  <span title="MMLQUERY:NM.1" data-link="5414.html#ELM15946">List</span> of <font color="Maroon" title="c1">X</font><span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E27">Def24</font></span>: <a name="D24"><span class="comment"><font color="firebrick">:: MMLQUERY:def 24</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">x</font> where <font color="Olive" title="b1">x</font> is    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">X</font> : <font color="Maroon" title="c3">n</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span>  <span title="MMLQUERY:func.24" data-link="5427.html#ELM15982">#occurrences</span> (<font color="Olive" title="b1">x</font>,<font color="Maroon" title="c2">A</font>) </span> } </span> <span class="kw"> if </span><font color="Maroon" title="c1">X</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span> <br>;<br>
+</div>
+<span class="kw">consistency</span> <br><span class="kw">coherence</span> <span class="kw">let </span><font color="Maroon" title="c4">m</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><div about="#D28" typeof="oo:Definition">
+<a name="K27"><span class="kw">func</span> </a> <span title="MMLQUERY:func.27" data-link="5429.html#ELM15985">ROUGH</span> (<font color="Maroon" title="c2">A</font>,<font color="Maroon" title="c3">n</font>,<font color="Maroon" title="c4">m</font>)<span class="kw"> -&gt; </span>  <span title="MMLQUERY:NM.1" data-link="5414.html#ELM15946">List</span> of <font color="Maroon" title="c1">X</font><span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E28">Def25</font></span>: <a name="D25"><span class="comment"><font color="firebrick">:: MMLQUERY:def 25</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">x</font> where <font color="Olive" title="b1">x</font> is    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">X</font> : ( <font color="Maroon" title="c3">n</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span>  <span title="MMLQUERY:func.24" data-link="5427.html#ELM15982">#occurrences</span> (<font color="Olive" title="b1">x</font>,<font color="Maroon" title="c2">A</font>) &amp;  <span title="MMLQUERY:func.24" data-link="5427.html#ELM15982">#occurrences</span> (<font color="Olive" title="b1">x</font>,<font color="Maroon" title="c2">A</font>) <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Maroon" title="c4">m</font> ) </span> } </span> <span class="kw"> if </span><font color="Maroon" title="c1">X</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span> <br>;<br>
+</div>
+<span class="kw">consistency</span> <br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM15985'>
+<h2>2.   <span data-link='5429.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='mmlquery.html#K27'>mmlquery</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="SETFAM_1:func.9" data-link="1652.html#ELM25011">bool</span> <font color="Maroon" title="c1">X</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><div about="#D27" typeof="oo:Definition" class="">
+<a name="K26"><span class="kw">func</span> </a> <span title="MMLQUERY:func.26" data-link="5429.html#ELM15984">ROUGH</span> (<font color="Maroon" title="c2">A</font>,<font color="Maroon" title="c3">n</font>)<span class="kw"> -&gt; </span>  <span title="MMLQUERY:NM.1" data-link="5414.html#ELM15946">List</span> of <font color="Maroon" title="c1">X</font><span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E27">Def24</font></span>: <a name="D24"><span class="comment"><font color="firebrick">:: MMLQUERY:def 24</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">x</font> where <font color="Olive" title="b1">x</font> is    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">X</font> : <font color="Maroon" title="c3">n</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span>  <span title="MMLQUERY:func.24" data-link="5427.html#ELM15982">#occurrences</span> (<font color="Olive" title="b1">x</font>,<font color="Maroon" title="c2">A</font>) </span> } </span> <span class="kw"> if </span><font color="Maroon" title="c1">X</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span> <br>;<br>
+</div>
+<span class="kw">consistency</span> <br><span class="kw">coherence</span> <span class="kw">let </span><font color="Maroon" title="c4">m</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><div about="#D28" typeof="oo:Definition" class="main-sentence">
+<a name="K27"><span class="kw">func</span> </a> <span title="MMLQUERY:func.27" data-link="5429.html#ELM15985">ROUGH</span> (<font color="Maroon" title="c2">A</font>,<font color="Maroon" title="c3">n</font>,<font color="Maroon" title="c4">m</font>)<span class="kw"> -&gt; </span>  <span title="MMLQUERY:NM.1" data-link="5414.html#ELM15946">List</span> of <font color="Maroon" title="c1">X</font><span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E28">Def25</font></span>: <a name="D25"><span class="comment"><font color="firebrick">:: MMLQUERY:def 25</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">x</font> where <font color="Olive" title="b1">x</font> is    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">X</font> : ( <font color="Maroon" title="c3">n</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span>  <span title="MMLQUERY:func.24" data-link="5427.html#ELM15982">#occurrences</span> (<font color="Olive" title="b1">x</font>,<font color="Maroon" title="c2">A</font>) &amp;  <span title="MMLQUERY:func.24" data-link="5427.html#ELM15982">#occurrences</span> (<font color="Olive" title="b1">x</font>,<font color="Maroon" title="c2">A</font>) <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Maroon" title="c4">m</font> ) </span> } </span> <span class="kw"> if </span><font color="Maroon" title="c1">X</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span> <br>;<br>
+</div>
+<span class="kw">consistency</span> <br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM15986'>
+<h2>3.   <span data-link='5429.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='mmlquery.html#K28'>mmlquery</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="SETFAM_1:func.9" data-link="1652.html#ELM25011">bool</span> <font color="Maroon" title="c1">X</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K28"><span class="kw">func</span> </a> <span title="MMLQUERY:func.28" data-link="5429.html#ELM15986">ROUGH</span> <font color="Maroon" title="c2">A</font><span class="kw"> -&gt; </span>  <span title="MMLQUERY:NM.1" data-link="5414.html#ELM15946">List</span> of <font color="Maroon" title="c1">X</font><span class="kw"> equals </span><a name="D26"><span class="comment"><font color="firebrick">:: MMLQUERY:def 26</font></span><br></a> <span title="MMLQUERY:func.26" data-link="5429.html#ELM15984">ROUGH</span> (<font color="Maroon" title="c2">A</font>,<span class="p1">(<span class="default"><span title="MMLQUERY:func.25" data-link="5428.html#ELM15983">max#</span> <font color="Maroon" title="c2">A</font></span>)</span>);<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

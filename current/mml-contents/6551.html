@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>pcs-general-power-IR</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func pcs-general-power-IR</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='6551.html#ELM19900'>pcs-general-power-IR</span> [<span data-href='pcs_0.html#K24'>pcs_0</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM19900'>
+<h2>1.   <span data-link='6551.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='pcs_0.html#K24'>pcs_0</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c3">P</font> be    <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c4">D</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">defpred </span><font color="Maroon">S<sub>1</sub></font>[   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ,   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ] <span class="kw">means </span>( $1 <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c4">D</font> &amp; $2 <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c4">D</font> &amp; (  for <font color="Olive" title="b1">a</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> $1 holds <br> ex <font color="Olive" title="b2">b</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>  st <br>( <font color="Olive" title="b2">b</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> $2 &amp; <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  the <span title="ORDERS_2:sel.1" data-href="orders_2.html#U1">InternalRel</span> of <font color="Maroon" title="c3">P</font> ) ) );<br><div about="#D54" typeof="oo:Definition" class="main-sentence">
+<a name="K24"><span class="kw">func</span> </a> <span title="PCS_0:func.24" data-link="6551.html#ELM19900">pcs-general-power-IR</span> (<font color="Maroon" title="c1">P</font>,<font color="Maroon" title="c2">D</font>)<span class="kw"> -&gt; </span>  <span title="RELSET_1:NM.2" data-link="286.html#ELM22507">Relation</span> of <font color="Maroon" title="c2">D</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E54">Def45</font></span>: <a name="D46"><span class="comment"><font color="firebrick">:: PCS_0:def 46</font></span><br></a> for <font color="Olive" title="b1">A</font>, <font color="Olive" title="b2">B</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>  holds <br> ( <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">A</font>,<font color="Olive" title="b2">B</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <span class="kw">it</span> iff ( <font color="Olive" title="b1">A</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">D</font> &amp; <font color="Olive" title="b2">B</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">D</font> &amp; (  for <font color="Olive" title="b3">a</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b3">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Olive" title="b1">A</font> holds <br> ex <font color="Olive" title="b4">b</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>  st <br>( <font color="Olive" title="b4">b</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Olive" title="b2">B</font> &amp; <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b3">a</font>,<font color="Olive" title="b4">b</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  the <span title="ORDERS_2:sel.1" data-href="orders_2.html#U1">InternalRel</span> of <font color="Maroon" title="c1">P</font> ) ) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

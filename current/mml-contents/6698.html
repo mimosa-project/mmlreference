@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>connecting-firing-rule</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>mode connecting-firing-rule</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='6698.html#ELM20351'>connecting-firing-rule</span> [<span data-href='petri_2.html#M3'>petri_2</span>]</li>
+<li><span data-link='6698.html#ELM20370'>connecting-firing-rule</span> [<span data-href='petri_3.html#M2'>petri_3</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM20351'>
+<h2>1.   <span data-link='6698.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='petri_2.html#M3'>petri_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">CPNT1</font>, <font color="Maroon" title="c2">CPNT2</font> be   <span title="PETRI_2:NM.3" data-link="6696.html#ELM20349">Colored-PT-net</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">O</font> be    <span title="PETRI_2:mode.2" data-link="6697.html#ELM20350">connecting-mapping</span> of <font color="Maroon" title="c1">CPNT1</font>,<font color="Maroon" title="c2">CPNT2</font>;<br><div about="#D16" typeof="oo:Definition" class="main-sentence">
+<a name="M3"><span class="kw">mode</span> </a> <span title="PETRI_2:mode.3" data-link="6698.html#ELM20351">connecting-firing-rule</span> of <font color="Maroon" title="c1">CPNT1</font>,<font color="Maroon" title="c2">CPNT2</font>,<font color="Maroon" title="c3">O</font><span class="kw"> -&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E16">Def14</font></span>: <a name="D14"><span class="comment"><font color="firebrick">:: PETRI_2:def 14</font></span><br></a> ex <font color="Olive" title="b1">q12</font>, <font color="Olive" title="b2">q21</font> being   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span> ex <font color="Olive" title="b3">O12</font> being   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"><span title="PETRI_2:func.8" data-link="6706.html#ELM20359">Outbds</span> <font color="Maroon" title="c1">CPNT1</font></span>)</span>, the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c2">CPNT2</font> ex <font color="Olive" title="b4">O21</font> being   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"><span title="PETRI_2:func.8" data-link="6706.html#ELM20359">Outbds</span> <font color="Maroon" title="c2">CPNT2</font></span>)</span>, the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">CPNT1</font> st <br>( <font color="Maroon" title="c3">O</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">[</span><span class="default"><font color="Olive" title="b3">O12</font>,<font color="Olive" title="b4">O21</font></span><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">]</span></span> &amp;  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Olive" title="b1">q12</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="PETRI_2:func.8" data-link="6706.html#ELM20359">Outbds</span> <font color="Maroon" title="c1">CPNT1</font> &amp;  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Olive" title="b2">q21</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="PETRI_2:func.8" data-link="6706.html#ELM20359">Outbds</span> <font color="Maroon" title="c2">CPNT2</font> &amp; (  for <font color="Olive" title="b5">t01</font> being   <span title="PETRI:NM.5" data-link="6682.html#ELM20309">transition</span> of <font color="Maroon" title="c1">CPNT1</font>  st <font color="Olive" title="b5">t01</font> is  <span title="PETRI_2:attr.2" data-link="6708.html#ELM20361">outbound</span>  holds <br><font color="Olive" title="b1">q12</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b5">t01</font> is   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"><span title="PETRI_2:func.2" data-link="6700.html#ELM20353">thin_cylinders</span> ( the <span title="PETRI_2:sel.1" data-href="petri_2.html#U1">ColoredSet</span> of <font color="Maroon" title="c1">CPNT1</font>,<span class="p2">(<span class="default"><span title="PETRI:func.8" data-link="846.html#ELM20320">*'</span> <span class="p3"><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">{</span><span class="default"><font color="Olive" title="b5">t01</font></span><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">}</span></span></span>)</span>)</span>)</span>,<span class="p1">(<span class="default"><span title="PETRI_2:func.2" data-link="6700.html#ELM20353">thin_cylinders</span> ( the <span title="PETRI_2:sel.1" data-href="petri_2.html#U1">ColoredSet</span> of <font color="Maroon" title="c1">CPNT1</font>,<span class="p2">(<span class="default"><span title="RELSET_2:func.1" data-link="1904.html#ELM22533">Im</span> (<font color="Olive" title="b3">O12</font>,<font color="Olive" title="b5">t01</font>)</span>)</span>)</span>)</span> ) &amp; (  for <font color="Olive" title="b5">t02</font> being   <span title="PETRI:NM.5" data-link="6682.html#ELM20309">transition</span> of <font color="Maroon" title="c2">CPNT2</font>  st <font color="Olive" title="b5">t02</font> is  <span title="PETRI_2:attr.2" data-link="6708.html#ELM20361">outbound</span>  holds <br><font color="Olive" title="b2">q21</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b5">t02</font> is   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"><span title="PETRI_2:func.2" data-link="6700.html#ELM20353">thin_cylinders</span> ( the <span title="PETRI_2:sel.1" data-href="petri_2.html#U1">ColoredSet</span> of <font color="Maroon" title="c2">CPNT2</font>,<span class="p2">(<span class="default"><span title="PETRI:func.8" data-link="846.html#ELM20320">*'</span> <span class="p3"><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">{</span><span class="default"><font color="Olive" title="b5">t02</font></span><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">}</span></span></span>)</span>)</span>)</span>,<span class="p1">(<span class="default"><span title="PETRI_2:func.2" data-link="6700.html#ELM20353">thin_cylinders</span> ( the <span title="PETRI_2:sel.1" data-href="petri_2.html#U1">ColoredSet</span> of <font color="Maroon" title="c2">CPNT2</font>,<span class="p2">(<span class="default"><span title="RELSET_2:func.1" data-link="1904.html#ELM22533">Im</span> (<font color="Olive" title="b4">O21</font>,<font color="Olive" title="b5">t02</font>)</span>)</span>)</span>)</span> ) &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">q12</font>,<font color="Olive" title="b2">q21</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> );<br>
+</div>
+<span class="kw">correctness </span>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-func'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>func</th></tr></thead>
+<tbody>
+<tr><td><span data-link='6707.html#ELM20360'>synthesis</span></td><td><span data-href='petri_2.html#K9'>petri_2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20370'>
+<h2>2.   <span data-link='6698.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='petri_3.html#M2'>petri_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">I</font> be   non  <span title="ZFMISC_1:attr.1" data-link="3543.html#ELM30583">trivial</span>   <span title="FINSET_1:attr.1" data-link="2772.html#ELM7423">finite</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">CPNT</font> be   <span title="PETRI_3:NM.1" data-link="6711.html#ELM20368">Colored-PT-net-Family</span> of <font color="Maroon" title="c1">I</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">O</font> be    <span title="PETRI_3:mode.1" data-link="6697.html#ELM20369">connecting-mapping</span> of <font color="Maroon" title="c2">CPNT</font>;<br><div about="#D9" typeof="oo:Definition" class="main-sentence">
+<a name="M2"><span class="kw">mode</span> </a> <span title="PETRI_3:mode.2" data-link="6698.html#ELM20370">connecting-firing-rule</span> of <font color="Maroon" title="c3">O</font><span class="kw"> -&gt; </span>  <span title="PBOOLE:NM.1" data-link="4273.html#ELM19812">ManySortedSet</span> of  <span title="PETRI_3:func.2" data-link="6715.html#ELM20375">XorDelta</span> <font color="Maroon" title="c1">I</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E9">Defcntfir</font></span>: <a name="D5"><span class="comment"><font color="firebrick">:: PETRI_3:def 5</font></span><br></a> for <font color="Olive" title="b1">i</font>, <font color="Olive" title="b2">j</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">I</font>  st <font color="Olive" title="b1">i</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Olive" title="b2">j</font> holds <br> ex <font color="Olive" title="b3">Oij</font> being   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"><span title="PETRI_2:func.8" data-link="6706.html#ELM20359">Outbds</span> <span class="p2">(<span class="default"><font color="Maroon" title="c2">CPNT</font> <span title="PETRI_3:func.1" data-link="141.html#ELM20374">.</span> <font color="Olive" title="b1">i</font></span>)</span></span>)</span>, the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <span class="p1">(<span class="default"><font color="Maroon" title="c2">CPNT</font> <span title="PETRI_3:func.1" data-link="141.html#ELM20374">.</span> <font color="Olive" title="b2">j</font></span>)</span> ex <font color="Olive" title="b4">qij</font> being   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span> st <br>( <font color="Olive" title="b4">qij</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1"><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">[</span><span class="default"><font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font></span><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">]</span></span> &amp; <font color="Olive" title="b3">Oij</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">O</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1"><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">[</span><span class="default"><font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font></span><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">]</span></span> &amp;  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Olive" title="b4">qij</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="PETRI_2:func.8" data-link="6706.html#ELM20359">Outbds</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">CPNT</font> <span title="PETRI_3:func.1" data-link="141.html#ELM20374">.</span> <font color="Olive" title="b1">i</font></span>)</span> &amp; (  for <font color="Olive" title="b5">t01</font> being   <span title="PETRI:NM.5" data-link="6682.html#ELM20309">transition</span> of <span class="p1">(<span class="default"><font color="Maroon" title="c2">CPNT</font> <span title="PETRI_3:func.1" data-link="141.html#ELM20374">.</span> <font color="Olive" title="b1">i</font></span>)</span>  st <font color="Olive" title="b5">t01</font> is  <span title="PETRI_2:attr.2" data-link="6708.html#ELM20361">outbound</span>  holds <br><font color="Olive" title="b4">qij</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b5">t01</font> is   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"><span title="PETRI_2:func.2" data-link="6700.html#ELM20353">thin_cylinders</span> ( the <span title="PETRI_2:sel.1" data-href="petri_2.html#U1">ColoredSet</span> of <span class="p2">(<span class="default"><font color="Maroon" title="c2">CPNT</font> <span title="PETRI_3:func.1" data-link="141.html#ELM20374">.</span> <font color="Olive" title="b1">i</font></span>)</span>,<span class="p2">(<span class="default"><span title="PETRI:func.8" data-link="846.html#ELM20320">*'</span> <span class="p3"><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">{</span><span class="default"><font color="Olive" title="b5">t01</font></span><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">}</span></span></span>)</span>)</span>)</span>,<span class="p1">(<span class="default"><span title="PETRI_2:func.2" data-link="6700.html#ELM20353">thin_cylinders</span> ( the <span title="PETRI_2:sel.1" data-href="petri_2.html#U1">ColoredSet</span> of <span class="p2">(<span class="default"><font color="Maroon" title="c2">CPNT</font> <span title="PETRI_3:func.1" data-link="141.html#ELM20374">.</span> <font color="Olive" title="b1">i</font></span>)</span>,<span class="p2">(<span class="default"><span title="RELSET_2:func.1" data-link="1904.html#ELM22533">Im</span> (<font color="Olive" title="b3">Oij</font>,<font color="Olive" title="b5">t01</font>)</span>)</span>)</span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-func'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>func</th></tr></thead>
+<tbody>
+<tr><td><span data-link='6707.html#ELM20376'>synthesis</span></td><td><span data-href='petri_3.html#K3'>petri_3</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

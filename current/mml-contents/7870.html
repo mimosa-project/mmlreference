@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>UsedInt*Loc</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func UsedInt*Loc</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='7870.html#ELM25083'>UsedInt*Loc</span> [<span data-href='sf_mastr.html#K4'>sf_mastr</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM25083'>
+<h2>1.   <span data-link='7870.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='sf_mastr.html#K4'>sf_mastr</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">i</font> be   <span title="COMPOS_1:NM.1" data-link="1931.html#ELM5020">Instruction</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span>;<br><div about="#D31" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a> <span title="SF_MASTR:func.4" data-link="7870.html#ELM25083">UsedInt*Loc</span> <font color="Maroon" title="c1">i</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="FINSUB_1:func.5" data-link="918.html#ELM7492">Fin</span> <span title="SCMFSA_2:func.3" data-link="7747.html#ELM24350">FinSeq-Locations</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E31">Def4</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: SF_MASTR:def 4</font></span><br></a> ex <font color="Olive" title="b1">a</font>, <font color="Olive" title="b2">b</font> being   <span title="SCMFSA_2:NM.1" data-link="7743.html#ELM24345">Int-Location</span> ex <font color="Olive" title="b3">f</font> being    <span title="SCMFSA_2:mode.1" data-link="7744.html#ELM24346">FinSeq-Location</span>  st <br>( ( <font color="Maroon" title="c1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b2">b</font> <span title="SCMFSA_2:func.14" data-link="478.html#ELM24361">:=</span> (<font color="Olive" title="b3">f</font>,<font color="Olive" title="b1">a</font>) or <font color="Maroon" title="c1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> (<font color="Olive" title="b3">f</font>,<font color="Olive" title="b1">a</font>) <span title="SCMFSA_2:func.15" data-link="478.html#ELM24362">:=</span> <font color="Olive" title="b2">b</font> ) &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"><span title="TARSKI:func.1" data-link="857.html#ELM26065">{</span><span class="default"><font color="Olive" title="b3">f</font></span><span title="TARSKI:func.1" data-link="857.html#ELM26065">}</span></span> )<span class="kw"> if </span>(  <span title="COMPOS_0:func.5" data-link="1916.html#ELM4977">InsCode</span> <font color="Maroon" title="c1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> 9 or  <span title="COMPOS_0:func.5" data-link="1916.html#ELM4977">InsCode</span> <font color="Maroon" title="c1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> 10 )<br> ex <font color="Olive" title="b1">a</font> being   <span title="SCMFSA_2:NM.1" data-link="7743.html#ELM24345">Int-Location</span> ex <font color="Olive" title="b2">f</font> being    <span title="SCMFSA_2:mode.1" data-link="7744.html#ELM24346">FinSeq-Location</span>  st <br>( ( <font color="Maroon" title="c1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">a</font> <span title="SCMFSA_2:func.16" data-link="7751.html#ELM24363">:=len</span> <font color="Olive" title="b2">f</font> or <font color="Maroon" title="c1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b2">f</font> <span title="SCMFSA_2:func.17" data-link="7752.html#ELM24364">:=&lt;0,...,0&gt;</span> <font color="Olive" title="b1">a</font> ) &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"><span title="TARSKI:func.1" data-link="857.html#ELM26065">{</span><span class="default"><font color="Olive" title="b2">f</font></span><span title="TARSKI:func.1" data-link="857.html#ELM26065">}</span></span> )<span class="kw"> if </span>(  <span title="COMPOS_0:func.5" data-link="1916.html#ELM4977">InsCode</span> <font color="Maroon" title="c1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> 11 or  <span title="COMPOS_0:func.5" data-link="1916.html#ELM4977">InsCode</span> <font color="Maroon" title="c1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> 12 )<br><span class="kw"> otherwise </span><span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span> ;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <span class="kw">consistency</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

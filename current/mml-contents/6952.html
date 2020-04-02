@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>PrefSpace</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func PrefSpace</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='6952.html#ELM21175'>PrefSpace</span> [<span data-href='prefer_1.html#K2'>prefer_1</span>]</li>
+<li><span data-link='6952.html#ELM21177'>PrefSpace</span> [<span data-href='prefer_1.html#K4'>prefer_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM21175'>
+<h2>1.   <span data-link='6952.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='prefer_1.html#K2'>prefer_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="PREFER_1:func.2" data-link="6952.html#ELM21175">PrefSpace</span> <font color="Maroon" title="c1">X</font><span class="kw"> -&gt; </span>  <span title="PREFER_1:attr.3" data-href="prefer_1.html#V3">strict</span>   <span title="PREFER_1:struct.3" data-link="6949.html#ELM21172">PreferenceStr</span> <span class="kw"> equals </span><a name="D4"><span class="comment"><font color="firebrick">:: PREFER_1:def 4</font></span><br></a> <span title="PREFER_1:aggr.3" data-href="prefer_1.html#G3">PreferenceStr</span>(# <font color="Maroon" title="c1">X</font>,<span class="p1">(<span class="default"><span title="PARTIT_2:func.1" data-link="857.html#ELM19713">{}</span> (<font color="Maroon" title="c1">X</font>,<font color="Maroon" title="c1">X</font>)</span>)</span>,<span class="p1">(<span class="default"><span title="EQREL_1:func.1" data-link="1480.html#ELM6265">nabla</span> <font color="Maroon" title="c1">X</font></span>)</span>,<span class="p1">(<span class="default"><span title="PARTIT_2:func.1" data-link="857.html#ELM19713">{}</span> (<font color="Maroon" title="c1">X</font>,<font color="Maroon" title="c1">X</font>)</span>)</span> #);<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  PrefSpace A ->  non  empty   strict   preference-like  ;
+</td><td><span data-href='prefer_1.html#FC3'>prefer_1</span></td></tr>
+<tr><td>
+cluster  PrefSpace {} ->  empty   strict   preference-like  ;
+</td><td><span data-href='prefer_1.html#FC4'>prefer_1</span></td></tr>
+<tr><td>
+cluster  PrefSpace A ->  trivial   strict  ;
+</td><td><span data-href='prefer_1.html#FC5'>prefer_1</span></td></tr>
+<tr><td>
+cluster  PrefSpace A ->  non  empty   strict   preference-like  ;
+</td><td><span data-href='prefer_1.html#FC6'>prefer_1</span></td></tr>
+<tr><td>
+cluster  PrefSpace {} ->  strict   total  ;
+</td><td><span data-href='prefer_1.html#FC13'>prefer_1</span></td></tr>
+<tr><td>
+cluster  PrefSpace A ->  strict   total  ;
+</td><td><span data-href='prefer_1.html#FC15'>prefer_1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM21177'>
+<h2>2.   <span data-link='6952.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='prefer_1.html#K4'>prefer_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be  2 <span title="CARD_1:attr.3" data-link="1335.html#ELM3240">-element</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">a</font>, <font color="Maroon" title="c3">b</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">A</font>;<br><div about="#D34" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a> <span title="PREFER_1:func.4" data-link="6952.html#ELM21177">PrefSpace</span> (<font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">a</font>,<font color="Maroon" title="c3">b</font>)<span class="kw"> -&gt; </span>  <span title="PREFER_1:attr.3" data-href="prefer_1.html#V3">strict</span>   <span title="PREFER_1:struct.3" data-link="6949.html#ELM21172">PreferenceStr</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E34">Def3</font></span>: <a name="D6"><span class="comment"><font color="firebrick">:: PREFER_1:def 6</font></span><br></a>(  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">A</font> &amp;  the <span title="PREFER_1:sel.1" data-href="prefer_1.html#U1">PrefRel</span> of <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">{</span><span class="default"><span class="p2"><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">[</span><span class="default"><font color="Maroon" title="c2">a</font>,<font color="Maroon" title="c3">b</font></span><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">]</span></span></span><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">}</span></span> &amp;  the <span title="PCS_0:sel.1" data-href="pcs_0.html#U1">ToleranceRel</span> of <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"><span title="DOMAIN_1:func.7" data-link="857.html#ELM5998">{</span><span class="default"><span class="p2"><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">[</span><span class="default"><font color="Maroon" title="c2">a</font>,<font color="Maroon" title="c2">a</font></span><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">]</span></span>,<span class="p2"><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">[</span><span class="default"><font color="Maroon" title="c3">b</font>,<font color="Maroon" title="c3">b</font></span><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">]</span></span></span><span title="DOMAIN_1:func.7" data-link="857.html#ELM5998">}</span></span> &amp;  the <span title="ORDERS_2:sel.1" data-href="orders_2.html#U1">InternalRel</span> of <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span>  );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

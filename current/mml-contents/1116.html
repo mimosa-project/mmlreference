@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>In_Power</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func In_Power</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='1116.html#ELM2733'>In_Power</span> [<span data-href='binom.html#K7'>binom</span>]</li>
+<li><span data-link='1116.html#ELM18254'>In_Power</span> [<span data-href='newton.html#K5'>newton</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM2733'>
+<h2>1.   <span data-link='1116.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='binom.html#K7'>binom</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="GROUP_1:attr.1" data-link="646.html#ELM10993">unital</span>   <span title="ALGSTR_0:struct.6" data-link="324.html#ELM743">doubleLoopStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">a</font>, <font color="Maroon" title="c3">b</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">R</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><div about="#D22" typeof="oo:Definition" class="main-sentence">
+<a name="K7"><span class="kw">func</span> </a>(<font color="Maroon" title="c2">a</font>,<font color="Maroon" title="c3">b</font>) <span title="BINOM:func.7" data-link="1116.html#ELM2733">In_Power</span> <font color="Maroon" title="c4">n</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">R</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E22">Def7</font></span>: <a name="D7"><span class="comment"><font color="firebrick">:: BINOM:def 7</font></span><br></a>(  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c4">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1 &amp; (  for <font color="Olive" title="b1">i</font>, <font color="Olive" title="b2">l</font>, <font color="Olive" title="b3">m</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b1">i</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <span class="kw">it</span> &amp; <font color="Olive" title="b3">m</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">i</font> <span title="XCMPLX_0:func.6" data-link="327.html#ELM29691">-</span> 1 &amp; <font color="Olive" title="b2">l</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c4">n</font> <span title="XCMPLX_0:func.6" data-link="327.html#ELM29691">-</span> <font color="Olive" title="b3">m</font> holds <br><span class="kw">it</span> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c4">n</font> <span title="NEWTON:func.4" data-link="6064.html#ELM18253">choose</span> <font color="Olive" title="b3">m</font></span>)</span> <span title="BINOM:func.5" data-link="47.html#ELM2731">*</span> <span class="p2">(<span class="default"><font color="Maroon" title="c2">a</font> <span title="BINOM:func.2" data-link="634.html#ELM2728">|^</span> <font color="Olive" title="b2">l</font></span>)</span></span>)</span> <span title="ALGSTR_0:func.6" data-link="47.html#ELM749">*</span> <span class="p1">(<span class="default"><font color="Maroon" title="c3">b</font> <span title="BINOM:func.2" data-link="634.html#ELM2728">|^</span> <font color="Olive" title="b3">m</font></span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM18254'>
+<h2>2.   <span data-link='1116.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='newton.html#K5'>newton</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">a</font>, <font color="Maroon" title="c2">b</font> be   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">n</font> be   <span title="ORDINAL1:attr.7" data-link="6328.html#ELM19073">natural</span>   <span title="ORDINAL1:NM.1" data-link="6317.html#ELM19055">Number</span> ;<br><div about="#D19" typeof="oo:Definition" class="main-sentence">
+<a name="K5"><span class="kw">func</span> </a>(<font color="Maroon" title="c1">a</font>,<font color="Maroon" title="c2">b</font>) <span title="NEWTON:func.5" data-link="1116.html#ELM18254">In_Power</span> <font color="Maroon" title="c3">n</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E19">Def4</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: NEWTON:def 4</font></span><br></a>(  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1 &amp; (  for <font color="Olive" title="b1">i</font>, <font color="Olive" title="b2">l</font>, <font color="Olive" title="b3">m</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b1">i</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <span class="kw">it</span> &amp; <font color="Olive" title="b3">m</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">i</font> <span title="XCMPLX_0:func.6" data-link="327.html#ELM29691">-</span> 1 &amp; <font color="Olive" title="b2">l</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">n</font> <span title="XCMPLX_0:func.6" data-link="327.html#ELM29691">-</span> <font color="Olive" title="b3">m</font> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c3">n</font> <span title="NEWTON:func.3" data-link="6064.html#ELM18252">choose</span> <font color="Olive" title="b3">m</font></span>)</span> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <span class="p2">(<span class="default"><font color="Maroon" title="c1">a</font> <span title="NEWTON:func.1" data-link="634.html#ELM18250">|^</span> <font color="Olive" title="b2">l</font></span>)</span></span>)</span> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">b</font> <span title="NEWTON:func.1" data-link="634.html#ELM18250">|^</span> <font color="Olive" title="b3">m</font></span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster ((a,b) In_Power n) . m ->  natural  ;
+</td><td><span data-href='newton02.html#FC16'>newton02</span></td></tr>
+<tr><td>
+cluster (a,b) In_Power n ->  NAT  -valued  ;
+</td><td><span data-href='newton02.html#FC17'>newton02</span></td></tr>
+<tr><td>
+cluster (a,b) In_Power n -> n + 1 -element  ;
+</td><td><span data-href='newton04.html#FC34'>newton04</span></td></tr>
+<tr><td>
+cluster ((a,b) In_Power n) . m ->  integer  ;
+</td><td><span data-href='newton04.html#FC38'>newton04</span></td></tr>
+<tr><td>
+cluster (a,b) In_Power n ->  INT  -valued  ;
+</td><td><span data-href='newton04.html#FC39'>newton04</span></td></tr>
+<tr><td>
+cluster ((0,0) In_Power n) . k ->  zero  ;
+</td><td><span data-href='newton04.html#FC48'>newton04</span></td></tr>
+<tr><td>
+cluster (0,0) In_Power n ->  empty-yielding  ;
+</td><td><span data-href='newton04.html#FC50'>newton04</span></td></tr>
+<tr><td>
+cluster ((a,b) In_Power n) . k ->  non  negative  ;
+</td><td><span data-href='newton04.html#FC55'>newton04</span></td></tr>
+<tr><td>
+cluster (a,b) In_Power n ->  nonnegative-yielding  ;
+</td><td><span data-href='newton04.html#FC60'>newton04</span></td></tr>
+<tr><td>
+cluster  Sum ((a,b) In_Power n) ->  non  negative  ;
+</td><td><span data-href='newton04.html#FC62'>newton04</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-reduce'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>reduce</th></tr></thead>
+<tbody>
+<tr><td>
+reduce  len ((a,b) In_Power ((n + 1) - 1)) to n + 1;
+</td><td><span data-href='newton04.html#RD38'>newton04</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

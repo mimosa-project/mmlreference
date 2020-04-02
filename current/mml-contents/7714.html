@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>IExec</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func IExec</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='7714.html#ELM24189'>IExec</span> [<span data-href='scmfsa6b.html#K1'>scmfsa6b</span>]</li>
+<li><span data-link='7714.html#ELM24526'>IExec</span> [<span data-href='scmpds_4.html#K6'>scmpds_4</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM24189'>
+<h2>1.   <span data-link='7714.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='scmfsa6b.html#K1'>scmfsa6b</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">I</font> be   <span title="COMPOS_1:NM.4" data-link="1934.html#ELM5023">Program</span> of ;<br><span class="kw">let </span><font color="Maroon" title="c3">s</font> be   <span title="MEMSTR_0:NM.2" data-link="1714.html#ELM15430">State</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span>;<br><span class="kw">let </span><font color="Maroon" title="c4">P</font> be   <span title="COMPOS_1:NM.2" data-link="1932.html#ELM5021">Instruction-Sequence</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="SCMFSA6B:func.1" data-link="7714.html#ELM24189">IExec</span> (<font color="Maroon" title="c1">I</font>,<font color="Maroon" title="c3">P</font>,<font color="Maroon" title="c2">s</font>)<span class="kw"> -&gt; </span>  <span title="MEMSTR_0:NM.2" data-link="1714.html#ELM15430">State</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span><span class="kw"> equals </span><a name="D1"><span class="comment"><font color="firebrick">:: SCMFSA6B:def 1</font></span><br></a> <span title="EXTPRO_1:func.6" data-link="1675.html#ELM6615">Result</span> (<span class="p1">(<span class="default"><font color="Maroon" title="c3">P</font> <span title="FUNCT_4:func.1" data-link="517.html#ELM8937">+*</span> <font color="Maroon" title="c1">I</font></span>)</span>,<span class="p1">(<span class="default"><span title="SCMFSA_M:func.1" data-link="7763.html#ELM24439">Initialized</span> <font color="Maroon" title="c2">s</font></span>)</span>);<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM24526'>
+<h2>2.   <span data-link='7714.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='scmpds_4.html#K6'>scmpds_4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">I</font> be   <span title="COMPOS_1:NM.4" data-link="1934.html#ELM5023">Program</span> of ;<br><span class="kw">let </span><font color="Maroon" title="c2">s</font> be   <span title="MEMSTR_0:NM.2" data-link="1714.html#ELM15430">State</span> of <span title="SCMPDS_2:func.1" data-link="7788.html#ELM24494">SCMPDS</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">P</font> be   <span title="COMPOS_1:NM.2" data-link="1932.html#ELM5021">Instruction-Sequence</span> of <span title="SCMPDS_2:func.1" data-link="7788.html#ELM24494">SCMPDS</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K6"><span class="kw">func</span> </a> <span title="SCMPDS_4:func.6" data-link="7714.html#ELM24526">IExec</span> (<font color="Maroon" title="c1">I</font>,<font color="Maroon" title="c3">P</font>,<font color="Maroon" title="c2">s</font>)<span class="kw"> -&gt; </span>  <span title="MEMSTR_0:NM.2" data-link="1714.html#ELM15430">State</span> of <span title="SCMPDS_2:func.1" data-link="7788.html#ELM24494">SCMPDS</span><span class="kw"> equals </span><a name="D5"><span class="comment"><font color="firebrick">:: SCMPDS_4:def 5</font></span><br></a> <span title="EXTPRO_1:func.6" data-link="1675.html#ELM6615">Result</span> (<span class="p1">(<span class="default"><font color="Maroon" title="c3">P</font> <span title="FUNCT_4:func.1" data-link="517.html#ELM8937">+*</span> <span class="p2">(<span class="default"><span title="COMPOS_1:func.10" data-link="1941.html#ELM5035">stop</span> <font color="Maroon" title="c1">I</font></span>)</span></span>)</span>,<font color="Maroon" title="c2">s</font>);<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

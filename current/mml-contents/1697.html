@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>are_equivalent</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred are_equivalent</h1>
+<h2>List of Definitions (4)</h2>
+<ol>
+<li><span data-link='1697.html#ELM4336'>are_equivalent</span> [<span data-href='circtrm1.html#R2'>circtrm1</span>]</li>
+<li><span data-link='1697.html#ELM12757'>are_equivalent</span> [<span data-href='isocat_1.html#NR4'>isocat_1</span>]</li>
+<li><span data-link='1697.html#ELM22558'>are_equivalent</span> [<span data-href='rewrite1.html#R12'>rewrite1</span>]</li>
+<li><span data-link='1697.html#ELM30096'>are_equivalent</span> [<span data-href='yellow18.html#R1'>yellow18</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM4336'>
+<h2>1.   <span data-link='1697.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='circtrm1.html#R2'>circtrm1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S1</font>, <font color="Maroon" title="c2">S2</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c1">S1</font>,<font color="Maroon" title="c2">S2</font> <span title="CIRCTRM1:pred.2" data-link="1697.html#ELM4336">are_equivalent</span> <span class="kw"> means </span><a name="D10"><span class="comment"><font color="firebrick">:: CIRCTRM1:def 10</font></span><br></a> ex <font color="Olive" title="b1">f</font>, <font color="Olive" title="b2">g</font> being   <span title="FUNCT_1:attr.2" data-link="3158.html#ELM8826">one-to-one</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span> st <font color="Maroon" title="c1">S1</font>,<font color="Maroon" title="c2">S2</font> <span title="CIRCTRM1:pred.1" data-link="1696.html#ELM4335">are_equivalent_wrt</span> <font color="Olive" title="b1">f</font>,<font color="Olive" title="b2">g</font>;<br>
+</div>
+<span class="kw">reflexivity</span> <span class="kw">symmetry</span> <span class="kw">by</span> <span class="lab"><span class="ref" target="_self" onmouseover="rs('circtrm1/T26')" onmouseout="rh()" data-href="circtrm1.html#T26">Th26</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12757'>
+<h2>2.   <span data-link='1697.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='isocat_1.html#NR4'>isocat_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">notation</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font>, <font color="Maroon" title="c2">B</font> be   <span title="CAT_1:NM.4" data-link="1431.html#ELM3503">Category</span>;<br><a name="NR4"><span class="kw">synonym </span><font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">B</font> </a><span title="ISOCAT_1:pred.2" data-link="3907.html#ELM12756">are_equivalent</span> <span class="kw"> for </span><font color="Maroon" title="c1">A</font> <span title="ISOCAT_1:pred.2" data-link="3907.html#ELM12756">is_equivalent_with</span> <font color="Maroon" title="c2">B</font>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM22558'>
+<h2>3.   <span data-link='1697.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rewrite1.html#R12'>rewrite1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font>, <font color="Maroon" title="c2">Q</font> be   <span title="RELAT_1:NM.1" data-link="286.html#ELM22383">Relation</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R12"><span class="kw">pred</span> </a><font color="Maroon" title="c1">R</font>,<font color="Maroon" title="c2">Q</font> <span title="REWRITE1:pred.12" data-link="1697.html#ELM22558">are_equivalent</span> <span class="kw"> means </span><a name="D26"><span class="comment"><font color="firebrick">:: REWRITE1:def 26</font></span><br></a> for <font color="Olive" title="b1">a</font>, <font color="Olive" title="b2">b</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>  holds <br> ( <font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font> <span title="REWRITE1:pred.2" data-link="7394.html#ELM22548">are_convertible_wrt</span> <font color="Maroon" title="c1">R</font> iff <font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font> <span title="REWRITE1:pred.2" data-link="7394.html#ELM22548">are_convertible_wrt</span> <font color="Maroon" title="c2">Q</font> );<br>
+</div>
+<span class="kw">symmetry</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM30096'>
+<h2>4.   <span data-link='1697.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='yellow18.html#R1'>yellow18</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font>, <font color="Maroon" title="c2">B</font> be   <span title="ALTCAT_1:NM.4" data-link="405.html#ELM981">category</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">B</font> <span title="YELLOW18:pred.1" data-link="1697.html#ELM30096">are_equivalent</span> <span class="kw"> means </span><a name="D2"><span class="comment"><font color="firebrick">:: YELLOW18:def 2</font></span><br></a> ex <font color="Olive" title="b1">F</font> being   <span title="FUNCTOR0:attr.15" data-link="1521.html#ELM9120">covariant</span>   <span title="FUNCTOR0:mode.2" data-link="1432.html#ELM9088">Functor</span> of <font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">B</font> ex <font color="Olive" title="b2">G</font> being   <span title="FUNCTOR0:attr.15" data-link="1521.html#ELM9120">covariant</span>   <span title="FUNCTOR0:mode.2" data-link="1432.html#ELM9088">Functor</span> of <font color="Maroon" title="c2">B</font>,<font color="Maroon" title="c1">A</font> st <br>( <font color="Olive" title="b2">G</font> <span title="FUNCTOR3:func.1" data-link="47.html#ELM9187">*</span> <font color="Olive" title="b1">F</font>, <span title="FUNCTOR0:func.11" data-link="1435.html#ELM9099">id</span> <font color="Maroon" title="c1">A</font> <span title="FUNCTOR3:pred.1" data-link="3208.html#ELM9185">are_naturally_equivalent</span>  &amp; <font color="Olive" title="b1">F</font> <span title="FUNCTOR3:func.1" data-link="47.html#ELM9187">*</span> <font color="Olive" title="b2">G</font>, <span title="FUNCTOR0:func.11" data-link="1435.html#ELM9099">id</span> <font color="Maroon" title="c2">B</font> <span title="FUNCTOR3:pred.1" data-link="3208.html#ELM9185">are_naturally_equivalent</span>  );<br>
+</div>
+<span class="kw">reflexivity</span> <span class="kw">symmetry</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

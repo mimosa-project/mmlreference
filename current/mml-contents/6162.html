@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>mi</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func mi</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='6162.html#ELM18520'>mi</span> [<span data-href='normform.html#K9'>normform</span>]</li>
+<li><span data-link='6162.html#ELM25910'>mi</span> [<span data-href='substlat.html#K3'>substlat</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM18520'>
+<h2>1.   <span data-link='6162.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='normform.html#K9'>normform</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">B</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="FINSUB_1:func.5" data-link="918.html#ELM7492">Fin</span> <span class="p1">(<span class="default"><span title="NORMFORM:func.7" data-link="6160.html#ELM18518">DISJOINT_PAIRS</span> <font color="Maroon" title="c1">A</font></span>)</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K9"><span class="kw">func</span> </a> <span title="NORMFORM:func.9" data-link="6162.html#ELM18520">mi</span> <font color="Maroon" title="c2">B</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of  <span title="NORMFORM:func.8" data-link="6161.html#ELM18519">Normal_forms_on</span> <font color="Maroon" title="c1">A</font><span class="kw"> equals </span><a name="D10"><span class="comment"><font color="firebrick">:: NORMFORM:def 10</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">t</font> where <font color="Olive" title="b1">t</font> is    <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of  <span title="NORMFORM:func.7" data-link="6160.html#ELM18518">DISJOINT_PAIRS</span> <font color="Maroon" title="c1">A</font> :  for <font color="Olive" title="b2">s</font> being    <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of  <span title="NORMFORM:func.7" data-link="6160.html#ELM18518">DISJOINT_PAIRS</span> <font color="Maroon" title="c1">A</font> holds <br> ( ( <font color="Olive" title="b2">s</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">B</font> &amp; <font color="Olive" title="b2">s</font> <span title="NORMFORM:pred.1" data-link="2755.html#ELM18511">c=</span> <font color="Olive" title="b1">t</font> ) iff <font color="Olive" title="b2">s</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">t</font> ) </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> <span class="kw">correctness </span><br><span class="kw">let </span><font color="Maroon" title="c3">C</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="FINSUB_1:func.5" data-link="918.html#ELM7492">Fin</span> <span class="p1">(<span class="default"><span title="NORMFORM:func.7" data-link="6160.html#ELM18518">DISJOINT_PAIRS</span> <font color="Maroon" title="c1">A</font></span>)</span>;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K10"><span class="kw">func</span> </a><font color="Maroon" title="c2">B</font> <span title="NORMFORM:func.10" data-link="235.html#ELM18521">^</span> <font color="Maroon" title="c3">C</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="FINSUB_1:func.5" data-link="918.html#ELM7492">Fin</span> <span class="p1">(<span class="default"><span title="NORMFORM:func.7" data-link="6160.html#ELM18518">DISJOINT_PAIRS</span> <font color="Maroon" title="c1">A</font></span>)</span><span class="kw"> equals </span><a name="D11"><span class="comment"><font color="firebrick">:: NORMFORM:def 11</font></span><br></a><span class="p1">(<span class="default"><span title="NORMFORM:func.7" data-link="6160.html#ELM18518">DISJOINT_PAIRS</span> <font color="Maroon" title="c1">A</font></span>)</span> <span title="SUBSET_1:func.8" data-link="1487.html#ELM25877">/\</span> <span class="p1"> { <span class="default"> <span class="p2">(<span class="default"><font color="Olive" title="b1">s</font> <span title="NORMFORM:func.1" data-link="1743.html#ELM18512">\/</span> <font color="Olive" title="b2">t</font></span>)</span> where <font color="Olive" title="b1">s</font>, <font color="Olive" title="b2">t</font> is    <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of  <span title="NORMFORM:func.7" data-link="6160.html#ELM18518">DISJOINT_PAIRS</span> <font color="Maroon" title="c1">A</font> : ( <font color="Olive" title="b1">s</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">B</font> &amp; <font color="Olive" title="b2">t</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c3">C</font> ) </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> <span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM25910'>
+<h2>2.   <span data-link='6162.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='substlat.html#K3'>substlat</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">V</font>, <font color="Maroon" title="c2">C</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">A</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="FINSUB_1:func.5" data-link="918.html#ELM7492">Fin</span> <span class="p1">(<span class="default"><span title="PARTFUN1:func.4" data-link="6451.html#ELM19581">PFuncs</span> (<font color="Maroon" title="c1">V</font>,<font color="Maroon" title="c2">C</font>)</span>)</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="SUBSTLAT:func.3" data-link="6162.html#ELM25910">mi</span> <font color="Maroon" title="c3">A</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of  <span title="SUBSTLAT:func.1" data-link="8068.html#ELM25908">SubstitutionSet</span> (<font color="Maroon" title="c1">V</font>,<font color="Maroon" title="c2">C</font>)<span class="kw"> equals </span><a name="D2"><span class="comment"><font color="firebrick">:: SUBSTLAT:def 2</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">t</font> where <font color="Olive" title="b1">t</font> is    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="PARTFUN1:func.4" data-link="6451.html#ELM19581">PFuncs</span> (<font color="Maroon" title="c1">V</font>,<font color="Maroon" title="c2">C</font>) : ( <font color="Olive" title="b1">t</font> is  <span title="FINSET_1:attr.1" data-link="2772.html#ELM7423">finite</span>  &amp; (  for <font color="Olive" title="b2">s</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="PARTFUN1:func.4" data-link="6451.html#ELM19581">PFuncs</span> (<font color="Maroon" title="c1">V</font>,<font color="Maroon" title="c2">C</font>) holds <br> ( ( <font color="Olive" title="b2">s</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c3">A</font> &amp; <font color="Olive" title="b2">s</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span> <font color="Olive" title="b1">t</font> ) iff <font color="Olive" title="b2">s</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">t</font> ) ) ) </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>^+</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func ^+</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='7419.html#ELM22597'>^+</span> [<span data-href='rewrite2.html#K1'>rewrite2</span>]</li>
+<li><span data-link='7419.html#ELM22600'>^+</span> [<span data-href='rewrite2.html#K4'>rewrite2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM22597'>
+<h2>1.   <span data-link='7419.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rewrite2.html#K1'>rewrite2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">s</font> be   <span title="AFINSQ_1:NM.1" data-link="231.html#ELM494">XFinSequence</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">p</font> be   <span title="REWRITE2:attr.1" data-link="7421.html#ELM22605">XFinSequence-yielding</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><div about="#D6" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a><font color="Maroon" title="c1">s</font> <span title="REWRITE2:func.1" data-link="7419.html#ELM22597">^+</span> <font color="Maroon" title="c2">p</font><span class="kw"> -&gt; </span>  <span title="REWRITE2:attr.1" data-link="7421.html#ELM22605">XFinSequence-yielding</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E6">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: REWRITE2:def 2</font></span><br></a>(  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c2">p</font> &amp; (  for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c2">p</font> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">s</font> <span title="ORDINAL4:func.1" data-link="235.html#ELM19169">^</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">p</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font></span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <div about="#D7" typeof="oo:Definition" class="">
+<a name="K2"><span class="kw">func</span> </a><font color="Maroon" title="c2">p</font> <span title="REWRITE2:func.2" data-link="6332.html#ELM22598">+^</span> <font color="Maroon" title="c1">s</font><span class="kw"> -&gt; </span>  <span title="REWRITE2:attr.1" data-link="7421.html#ELM22605">XFinSequence-yielding</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E7">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: REWRITE2:def 3</font></span><br></a>(  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c2">p</font> &amp; (  for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c2">p</font> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">p</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font></span>)</span> <span title="ORDINAL4:func.1" data-link="235.html#ELM19169">^</span> <font color="Maroon" title="c1">s</font> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster s ^+ p ->  FinSequence-like   XFinSequence-yielding  ;
+</td><td><span data-href='rewrite2.html#FC5'>rewrite2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM22600'>
+<h2>2.   <span data-link='7419.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rewrite2.html#K4'>rewrite2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">E</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">s</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">E</font> <span title="AFINSQ_1:func.8" data-link="236.html#ELM505">^omega</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">p</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c1">E</font> <span title="AFINSQ_1:func.8" data-link="236.html#ELM505">^omega</span> ;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="REWRITE2:func.1" data-link="7419.html#ELM22597">^+</span><br><span class="kw">redefine </span><a name="K4"><span class="kw">func</span> </a><font color="Maroon" title="c2">s</font> <span title="REWRITE2:func.4" data-link="7419.html#ELM22600">^+</span> <font color="Maroon" title="c3">p</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c1">E</font> <span title="AFINSQ_1:func.8" data-link="236.html#ELM505">^omega</span> ;<br><span class="kw">coherence</span> <span class="comment"><font color="firebrick">:: original: </font></span><span title="REWRITE2:func.2" data-link="6332.html#ELM22598">+^</span><br><span class="kw">redefine </span><a name="K5"><span class="kw">func</span> </a><font color="Maroon" title="c3">p</font> <span title="REWRITE2:func.5" data-link="6332.html#ELM22601">+^</span> <font color="Maroon" title="c2">s</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c1">E</font> <span title="AFINSQ_1:func.8" data-link="236.html#ELM505">^omega</span> ;<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

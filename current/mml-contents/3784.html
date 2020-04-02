@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>ExtendCycle</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func ExtendCycle</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='3784.html#ELM10773'>ExtendCycle</span> [<span data-href='graph_3.html#K14'>graph_3</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM10773'>
+<h2>1.   <span data-link='3784.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='graph_3.html#K14'>graph_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GRAPH_1:attr.5" data-link="2026.html#ELM10734">connected</span>   <span title="GRAPH_1:attr.6" data-link="2772.html#ELM10735">finite</span>  <span title="GRAPH_1:NM.3" data-link="3764.html#ELM10712">Graph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">c</font> be    <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of <font color="Maroon" title="c1">G</font> <span title="GRAPH_3:func.9" data-link="3781.html#ELM10768">-CycleSet</span> ;<br><span class="kw">assume </span><span class="kw">that </span><br><a name="E1:80"></a><span class="lab"><font color="Green" title="E66">A1</font></span>: 
+ <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <font color="Maroon" title="c2">c</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  the <span title="STRUCT_0:sel.4" data-href="struct_0.html#U4">carrier'</span> of <font color="Maroon" title="c1">G</font>
+ <span class="kw">and </span><br><a name="E2:80"></a><span class="lab"><font color="Green" title="E67">A2</font></span>: 
+ not <font color="Maroon" title="c2">c</font> is  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span> 
+ ;<br><div about="#D66" typeof="oo:Definition" class="main-sentence">
+<a name="K14"><span class="kw">func</span> </a> <span title="GRAPH_3:func.14" data-link="3784.html#ELM10773">ExtendCycle</span> <font color="Maroon" title="c2">c</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of <font color="Maroon" title="c1">G</font> <span title="GRAPH_3:func.9" data-link="3781.html#ELM10768">-CycleSet</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E66">Def13</font></span>: <a name="D13"><span class="comment"><font color="firebrick">:: GRAPH_3:def 13</font></span><br></a> ex <font color="Olive" title="b1">c9</font> being    <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of <font color="Maroon" title="c1">G</font> <span title="GRAPH_3:func.9" data-link="3781.html#ELM10768">-CycleSet</span>  ex <font color="Olive" title="b2">v</font> being   <span title="GRAPH_3:NM.2" data-link="3509.html#ELM10759">Vertex</span> of <font color="Maroon" title="c1">G</font> st <br>( <font color="Olive" title="b2">v</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  the    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <span class="p1"> { <span class="default"> <font color="Olive" title="b3">v9</font> where <font color="Olive" title="b3">v9</font> is   <span title="GRAPH_3:NM.2" data-link="3509.html#ELM10759">Vertex</span> of <font color="Maroon" title="c1">G</font> : ( <font color="Olive" title="b3">v9</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c1">G</font> <span title="GRAPH_3:func.1" data-link="3775.html#ELM10760">-VSet</span> <span class="p1">(<span class="default"><span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <font color="Maroon" title="c2">c</font></span>)</span> &amp;  <span title="GRAPH_1:func.10" data-link="3771.html#ELM10729">Degree</span> <font color="Olive" title="b3">v9</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="GRAPH_3:func.7" data-link="3771.html#ELM10766">Degree</span> (<font color="Olive" title="b3">v9</font>,<span class="p1">(<span class="default"><span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <font color="Maroon" title="c2">c</font></span>)</span>) ) </span> } </span>  &amp; <font color="Olive" title="b1">c9</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  the    <span title="GRAPH_3:mode.1" data-link="667.html#ELM10758">Element</span> of <span class="p1">(<span class="default"> the <span title="STRUCT_0:sel.4" data-href="struct_0.html#U4">carrier'</span> of <font color="Maroon" title="c1">G</font> <span title="SUBSET_1:func.6" data-link="724.html#ELM25875">\</span> <span class="p2">(<span class="default"><span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <font color="Maroon" title="c2">c</font></span>)</span></span>)</span> <span title="GRAPH_3:func.13" data-link="3781.html#ELM10772">-CycleSet</span> <font color="Olive" title="b2">v</font> &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="GRAPH_3:func.11" data-link="3782.html#ELM10770">CatCycles</span> (<font color="Maroon" title="c2">c</font>,<font color="Olive" title="b1">c9</font>) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

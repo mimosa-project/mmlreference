@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>-freeInterpreter</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func -freeInterpreter</h1>
+<h2>List of Definitions (5)</h2>
+<ol>
+<li><span data-link='2948.html#ELM8228'>-freeInterpreter</span> [<span data-href='fomodel3.html#K3'>fomodel3</span>]</li>
+<li><span data-link='2948.html#ELM8229'>-freeInterpreter</span> [<span data-href='fomodel3.html#K4'>fomodel3</span>]</li>
+<li><span data-link='2948.html#ELM8230'>-freeInterpreter</span> [<span data-href='fomodel3.html#K5'>fomodel3</span>]</li>
+<li><span data-link='2948.html#ELM8231'>-freeInterpreter</span> [<span data-href='fomodel3.html#K6'>fomodel3</span>]</li>
+<li><span data-link='2948.html#ELM8232'>-freeInterpreter</span> [<span data-href='fomodel3.html#K7'>fomodel3</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM8228'>
+<h2>1.   <span data-link='2948.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fomodel3.html#K3'>fomodel3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   <span title="FOMODEL1:NM.2" data-link="744.html#ELM7902">Language</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">s</font> be   <span title="FOMODEL1:attr.10" data-link="2906.html#ELM7955">ofAtomicFormula</span>  <span title="FOMODEL1:NM.1" data-link="667.html#ELM7901">Element</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D5" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a><font color="Maroon" title="c3">X</font> <span title="FOMODEL3:func.3" data-link="2948.html#ELM8228">-freeInterpreter</span> <font color="Maroon" title="c2">s</font><span class="kw"> -&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> <span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E5">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: FOMODEL3:def 3</font></span><br></a><span class="p1">(<span class="default"><font color="Maroon" title="c2">s</font> <span title="FOMODEL3:func.2" data-link="2947.html#ELM8227">-compound</span></span>)</span> <span title="PARTFUN1:func.2" data-link="909.html#ELM19579">|</span> <span class="p1">(<span class="default"><span class="p2"><span title="INT_2:func.1" data-link="174.html#ELM12456">|.</span><span class="default"><span class="p3">(<span class="default"><span title="FOMODEL1:func.19" data-link="2889.html#ELM7922">ar</span> <font color="Maroon" title="c2">s</font></span>)</span></span><span title="INT_2:func.1" data-link="174.html#ELM12456">.|</span></span> <span title="FINSEQ_2:func.4" data-link="2732.html#ELM7182">-tuples_on</span> <span class="p2">(<span class="default"><span title="FOMODEL1:func.35" data-link="2893.html#ELM7938">AllTermsOf</span> <font color="Maroon" title="c1">S</font></span>)</span></span>)</span><span class="kw"> if </span> not <font color="Maroon" title="c2">s</font> is  <span title="FOMODEL1:attr.7" data-link="2901.html#ELM7952">relational</span> <br><span class="kw"> otherwise </span><span class="p1">(<span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c2">s</font> <span title="FOMODEL3:func.2" data-link="2947.html#ELM8227">-compound</span></span>)</span> <span title="PARTFUN1:func.2" data-link="909.html#ELM19579">|</span> <span class="p2">(<span class="default"><span class="p3"><span title="INT_2:func.1" data-link="174.html#ELM12456">|.</span><span class="default"><span class="p4">(<span class="default"><span title="FOMODEL1:func.19" data-link="2889.html#ELM7922">ar</span> <font color="Maroon" title="c2">s</font></span>)</span></span><span title="INT_2:func.1" data-link="174.html#ELM12456">.|</span></span> <span title="FINSEQ_2:func.4" data-link="2732.html#ELM7182">-tuples_on</span> <span class="p3">(<span class="default"><span title="FOMODEL1:func.35" data-link="2893.html#ELM7938">AllTermsOf</span> <font color="Maroon" title="c1">S</font></span>)</span></span>)</span></span>)</span> <span title="RELAT_1:NK.6" data-link="47.html#ELM22389">*</span> <span class="p1">(<span class="default"><span title="FOMODEL0:func.10" data-link="2846.html#ELM7661">chi</span> (<font color="Maroon" title="c3">X</font>,<span class="p2">(<span class="default"><span title="FOMODEL1:func.32" data-link="2894.html#ELM7935">AtomicFormulasOf</span> <font color="Maroon" title="c1">S</font></span>)</span>)</span>)</span>;<br>
+</div>
+<span class="kw">coherence</span> <br><span class="kw">consistency</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster X -freeInterpreter a -> (X,D) -termEq  -respecting   for   Interpreter of a, AllTermsOf S;
+</td><td><span data-href='fomodel4.html#FC51'>fomodel4</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM8229'>
+<h2>2.   <span data-link='2948.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fomodel3.html#K4'>fomodel3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   <span title="FOMODEL1:NM.2" data-link="744.html#ELM7902">Language</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">s</font> be   <span title="FOMODEL1:attr.10" data-link="2906.html#ELM7955">ofAtomicFormula</span>  <span title="FOMODEL1:NM.1" data-link="667.html#ELM7901">Element</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="FOMODEL3:func.3" data-link="2948.html#ELM8228">-freeInterpreter</span><br><span class="kw">redefine </span><a name="K4"><span class="kw">func</span> </a><font color="Maroon" title="c3">X</font> <span title="FOMODEL3:func.4" data-link="2948.html#ELM8229">-freeInterpreter</span> <font color="Maroon" title="c2">s</font><span class="kw"> -&gt; </span>   <span title="FOMODEL2:mode.2" data-link="2911.html#ELM8056">Interpreter</span> of <font color="Maroon" title="c2">s</font>, <span title="FOMODEL1:func.35" data-link="2893.html#ELM7938">AllTermsOf</span> <font color="Maroon" title="c1">S</font>;<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM8230'>
+<h2>3.   <span data-link='2948.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fomodel3.html#K5'>fomodel3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   <span title="FOMODEL1:NM.2" data-link="744.html#ELM7902">Language</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D6" typeof="oo:Definition" class="main-sentence">
+<a name="K5"><span class="kw">func</span> </a>(<font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">X</font>) <span title="FOMODEL3:func.5" data-link="2948.html#ELM8230">-freeInterpreter</span> <span class="kw"> -&gt; </span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E6">Def4</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: FOMODEL3:def 4</font></span><br></a>(  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="FOMODEL1:func.37" data-link="2885.html#ELM7940">OwnSymbolsOf</span> <font color="Maroon" title="c1">S</font> &amp; (  for <font color="Olive" title="b1">s</font> being   <span title="FOMODEL1:attr.9" data-link="2905.html#ELM7954">own</span>  <span title="FOMODEL1:NM.1" data-link="667.html#ELM7901">Element</span> of <font color="Maroon" title="c1">S</font> holds  <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">s</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">X</font> <span title="FOMODEL3:func.4" data-link="2948.html#ELM8229">-freeInterpreter</span> <font color="Olive" title="b1">s</font> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster (S,X) -freeInterpreter  ->  Function-yielding   for  Function;
+</td><td><span data-href='fomodel3.html#FC6'>fomodel3</span></td></tr>
+<tr><td>
+cluster (S,X) -freeInterpreter  -> S, AllTermsOf S -interpreter-like   for  Function;
+</td><td><span data-href='fomodel3.html#FC7'>fomodel3</span></td></tr>
+<tr><td>
+cluster (S,X) -freeInterpreter  -> S, AllTermsOf S -interpreter-like  (X,D1) -termEq  -respecting   for S, AllTermsOf S -interpreter-like  Function;
+</td><td><span data-href='fomodel4.html#FC57'>fomodel4</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM8231'>
+<h2>4.   <span data-link='2948.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fomodel3.html#K6'>fomodel3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   <span title="FOMODEL1:NM.2" data-link="744.html#ELM7902">Language</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="FOMODEL3:func.5" data-link="2948.html#ELM8230">-freeInterpreter</span><br><span class="kw">redefine </span><a name="K6"><span class="kw">func</span> </a>(<font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">X</font>) <span title="FOMODEL3:func.6" data-link="2948.html#ELM8231">-freeInterpreter</span> <span class="kw"> -&gt; </span>   <span title="FOMODEL2:mode.3" data-link="2911.html#ELM8057">Interpreter</span> of <font color="Maroon" title="c1">S</font>, <span title="FOMODEL1:func.35" data-link="2893.html#ELM7938">AllTermsOf</span> <font color="Maroon" title="c1">S</font>;<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM8232'>
+<h2>5.   <span data-link='2948.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fomodel3.html#K7'>fomodel3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   <span title="FOMODEL1:NM.2" data-link="744.html#ELM7902">Language</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="FOMODEL3:func.5" data-link="2948.html#ELM8230">-freeInterpreter</span><br><span class="kw">redefine </span><a name="K7"><span class="kw">func</span> </a>(<font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">X</font>) <span title="FOMODEL3:func.7" data-link="2948.html#ELM8232">-freeInterpreter</span> <span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of <span class="p1">(<span class="default"><span title="FOMODEL1:func.35" data-link="2893.html#ELM7938">AllTermsOf</span> <font color="Maroon" title="c1">S</font></span>)</span> <span title="FOMODEL2:func.15" data-link="2917.html#ELM8072">-InterpretersOf</span> <font color="Maroon" title="c1">S</font>;<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

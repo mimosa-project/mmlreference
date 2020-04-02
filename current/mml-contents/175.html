@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>sgn</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func sgn</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='175.html#ELM427'>sgn</span> [<span data-href='absvalue.html#K1'>absvalue</span>]</li>
+<li><span data-link='175.html#ELM14454'>sgn</span> [<span data-href='matrix11.html#K2'>matrix11</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM427'>
+<h2>1.   <span data-link='175.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='absvalue.html#K1'>absvalue</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">x</font> be   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>;<br><div about="#D2" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="ABSVALUE:func.1" data-link="175.html#ELM427">sgn</span> <font color="Maroon" title="c1">x</font><span class="kw"> -&gt; </span>  <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span><span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E2">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: ABSVALUE:def 2</font></span><br></a>1<span class="kw"> if </span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Maroon" title="c1">x</font><br> <span title="XCMPLX_0:func.4" data-link="327.html#ELM29689">-</span> 1<span class="kw"> if </span><font color="Maroon" title="c1">x</font> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> <br><span class="kw"> otherwise </span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> ;<br>
+</div>
+<span class="kw">coherence</span> <br><span class="kw">consistency</span> <br><span class="kw">projectivity</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  sgn x ->  integer  ;
+</td><td><span data-href='absvalue.html#FC1'>absvalue</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM14454'>
+<h2>2.   <span data-link='175.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='matrix11.html#K2'>matrix11</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">K</font> be   <span title="GROUP_1:attr.5" data-link="25.html#ELM10997">commutative</span>  <span title="VECTSP_1:NM.3" data-link="8605.html#ELM28500">Ring</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">perm2</font> be    <span title="MATRIX_1:mode.1" data-link="667.html#ELM14606">Element</span> of  <span title="MATRIX_1:func.9" data-link="5076.html#ELM14615">Permutations</span> <span class="p1">(<span class="default"><font color="Maroon" title="c1">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 2</span>)</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="MATRIX11:func.2" data-link="175.html#ELM14454">sgn</span> (<font color="Maroon" title="c3">perm2</font>,<font color="Maroon" title="c2">K</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c2">K</font><span class="kw"> equals </span><a name="D2"><span class="comment"><font color="firebrick">:: MATRIX11:def 2</font></span><br></a> the <span title="ALGSTR_0:sel.2" data-href="algstr_0.html#U2">multF</span> of <font color="Maroon" title="c2">K</font> <span title="SETWISEO:func.7" data-link="7864.html#ELM25067">$$</span> (<span class="p1">(<span class="default"><span title="SUBSET_1:func.10" data-link="8054.html#ELM25879">In</span> (<span class="p2">(<span class="default"><span title="MATRIX11:NK.1" data-link="5016.html#ELM14452">2Set</span> <span class="p3">(<span class="default"><span title="FINSEQ_1:func.2" data-link="2722.html#ELM7094">Seg</span> <span class="p4">(<span class="default"><font color="Maroon" title="c1">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 2</span>)</span></span>)</span></span>)</span>,<span class="p2">(<span class="default"><span title="FINSUB_1:func.5" data-link="918.html#ELM7492">Fin</span> <span class="p3">(<span class="default"><span title="MATRIX11:NK.1" data-link="5016.html#ELM14452">2Set</span> <span class="p4">(<span class="default"><span title="FINSEQ_1:func.2" data-link="2722.html#ELM7094">Seg</span> <span class="p5">(<span class="default"><font color="Maroon" title="c1">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 2</span>)</span></span>)</span></span>)</span></span>)</span>)</span>)</span>,<span class="p1">(<span class="default"><span title="MATRIX11:func.1" data-link="5017.html#ELM14453">Part_sgn</span> (<font color="Maroon" title="c3">perm2</font>,<font color="Maroon" title="c2">K</font>)</span>)</span>);<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

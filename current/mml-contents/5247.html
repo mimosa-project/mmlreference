@@ -1,0 +1,345 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>with_non-empty_values</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr with_non-empty_values</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='5247.html#ELM15446'>with_non-empty_values</span> [<span data-href='memstr_0.html#V2'>memstr_0</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM15446'>
+<h2>1.   <span data-link='5247.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='memstr_0.html#V2'>memstr_0</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">N</font> be   <span title="MEASURE6:NV.2" data-link="3055.html#ELM15092">with_zero</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be    <span title="MEMSTR_0:struct.1" data-link="5234.html#ELM15428">Mem-Struct</span> over <font color="Maroon" title="c1">N</font>;<br><div about="#D2" typeof="oo:Definition" class="main-sentence">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c2">S</font> is  <span title="MEMSTR_0:attr.2" data-link="5247.html#ELM15446">with_non-empty_values</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E2">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: MEMSTR_0:def 3</font></span><br></a> <span title="MEMSTR_0:func.2" data-link="5239.html#ELM15436">the_Values_of</span> <font color="Maroon" title="c2">S</font> is  <span title="RELAT_1:attr.2" data-link="3057.html#ELM22398">non-empty</span> ;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  SCM  ->  with_non-empty_values   strict  ;
+</td><td><span data-href='ami_3.html#FC3'>ami_3</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   halting   weakly_standard   for    AMI-Struct over N;
+</td><td><span data-href='ami_wstd.html#RC1'>ami_wstd</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   weakly_standard   ->  non  empty   with_non-empty_values   IC-Ins-separated   InsLoc-antisymmetric   for    AMI-Struct over N;
+</td><td><span data-href='ami_wstd.html#CC1'>ami_wstd</span></td></tr>
+<tr><td>
+cluster  sequential   ->  non  halting   for    Element of  the InstructionsF of S;
+</td><td><span data-href='ami_wstd.html#CC2'>ami_wstd</span></td></tr>
+<tr><td>
+cluster  halting   ->  non  sequential   for    Element of  the InstructionsF of S;
+</td><td><span data-href='ami_wstd.html#CC3'>ami_wstd</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of S -valued   empty   Function-like   finite   ->  NAT  -defined   the InstructionsF of S -valued   finite   lower   for    set ;
+</td><td><span data-href='ami_wstd.html#CC4'>ami_wstd</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of S -valued   Function-like   finite  1 -element   countable  V107()  lower   for    set ;
+</td><td><span data-href='ami_wstd.html#RC2'>ami_wstd</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of S -valued   non  empty   Function-like   finite   really-closed   lower   ->  NAT  -defined   the InstructionsF of S -valued   finite   para-closed   for    set ;
+</td><td><span data-href='ami_wstd.html#CC5'>ami_wstd</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of S -valued   non  empty   trivial   Function-like   finite   countable  V107()  lower   halt-ending   unique-halt   for    set ;
+</td><td><span data-href='ami_wstd.html#RC3'>ami_wstd</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of S -valued   non  empty   trivial   Function-like   finite   countable  V107()  really-closed   lower   for    set ;
+</td><td><span data-href='ami_wstd.html#RC4'>ami_wstd</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of S -valued   non  empty   trivial   Function-like   finite   countable  V107()  really-closed   lower   halt-ending   unique-halt   for    set ;
+</td><td><span data-href='ami_wstd.html#RC5'>ami_wstd</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of S -valued   non  empty   Function-like   finite   countable  V107()  really-closed   lower   halt-ending   unique-halt   for    set ;
+</td><td><span data-href='ami_wstd.html#RC6'>ami_wstd</span></td></tr>
+<tr><td>
+cluster ( the Execution of S . i) . s ->  Relation-like   Function-like  ;
+</td><td><span data-href='amistd_1.html#FC1'>amistd_1</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   for    AMI-Struct over N;
+</td><td><span data-href='amistd_1.html#RC1'>amistd_1</span></td></tr>
+<tr><td>
+cluster  NIC (i,l) ->  non  empty  ;
+</td><td><span data-href='amistd_1.html#FC2'>amistd_1</span></td></tr>
+<tr><td>
+cluster  STC N ->  with_non-empty_values   strict  ;
+</td><td><span data-href='amistd_1.html#FC4'>amistd_1</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   halting   standard   for    AMI-Struct over N;
+</td><td><span data-href='amistd_1.html#RC2'>amistd_1</span></td></tr>
+<tr><td>
+cluster  sequential   ->  non  halting   for    Element of  the InstructionsF of S;
+</td><td><span data-href='amistd_1.html#CC2'>amistd_1</span></td></tr>
+<tr><td>
+cluster  halting   ->  non  sequential   for    Element of  the InstructionsF of S;
+</td><td><span data-href='amistd_1.html#CC3'>amistd_1</span></td></tr>
+<tr><td>
+cluster  Stop S ->  really-closed  ;
+</td><td><span data-href='amistd_1.html#FC8'>amistd_1</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of S -valued  V10()  non  empty   trivial   Function-like   finite   initial   non  halt-free   halt-ending   unique-halt   countable  V152()  really-closed   for    set ;
+</td><td><span data-href='amistd_1.html#RC3'>amistd_1</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of S -valued   non  empty   Function-like   finite   non  halt-free   countable  V152()  parahalting   for    set ;
+</td><td><span data-href='amistd_1.html#RC4'>amistd_1</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   standard   for    AMI-Struct over N;
+</td><td><span data-href='amistd_2.html#RC1'>amistd_2</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   halting   standard   with_explicit_jumps   for    AMI-Struct over N;
+</td><td><span data-href='amistd_2.html#RC2'>amistd_2</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   halting   with_explicit_jumps   for    AMI-Struct over N;
+</td><td><span data-href='amistd_2.html#RC3'>amistd_2</span></td></tr>
+<tr><td>
+cluster   ->  with_explicit_jumps   for    Element of  the InstructionsF of S;
+</td><td><span data-href='amistd_2.html#CC1'>amistd_2</span></td></tr>
+<tr><td>
+cluster  JUMP I ->  empty  ;
+</td><td><span data-href='amistd_2.html#FC5'>amistd_2</span></td></tr>
+<tr><td>
+cluster  halting   ->  ins-loc-free   for    Element of  the InstructionsF of S;
+</td><td><span data-href='amistd_2.html#CC2'>amistd_2</span></td></tr>
+<tr><td>
+cluster  sequential   ->  ins-loc-free   for    Element of  the InstructionsF of S;
+</td><td><span data-href='amistd_2.html#CC3'>amistd_2</span></td></tr>
+<tr><td>
+cluster  IncAddr (I,k) ->  halting  ;
+</td><td><span data-href='amistd_2.html#FC6'>amistd_2</span></td></tr>
+<tr><td>
+cluster  sequential   ->  IC-relocable   for    Element of  the InstructionsF of S;
+</td><td><span data-href='amistd_2.html#CC4'>amistd_2</span></td></tr>
+<tr><td>
+cluster  halting   ->  IC-relocable   for    Element of  the InstructionsF of S;
+</td><td><span data-href='amistd_2.html#CC5'>amistd_2</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   halting   standard   with_explicit_jumps   for    AMI-Struct over N;
+</td><td><span data-href='amistd_2.html#RC4'>amistd_2</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   halting   standard   with_explicit_jumps   IC-relocable   for    AMI-Struct over N;
+</td><td><span data-href='amistd_2.html#RC5'>amistd_2</span></td></tr>
+<tr><td>
+cluster   ->  IC-relocable   for    Element of  the InstructionsF of S;
+</td><td><span data-href='amistd_2.html#CC6'>amistd_2</span></td></tr>
+<tr><td>
+cluster  with_explicit_jumps   IC-relocable   for    Element of  the InstructionsF of S;
+</td><td><span data-href='amistd_2.html#RC6'>amistd_2</span></td></tr>
+<tr><td>
+cluster F ';' G ->  really-closed  ;
+</td><td><span data-href='amistd_2.html#FC8'>amistd_2</span></td></tr>
+<tr><td>
+cluster  LocSeq (M,S) ->  one-to-one  ;
+</td><td><span data-href='amistd_3.html#FC1'>amistd_3</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   halting   with_explicit_jumps   IC-relocable   standard   with_non_trivial_Instructions   with_non_trivial_ObjectKinds   for    AMI-Struct over N;
+</td><td><span data-href='amistd_4.html#RC1'>amistd_4</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   with_non_trivial_Instructions   with_non_trivial_ObjectKinds   for    AMI-Struct over N;
+</td><td><span data-href='amistd_4.html#RC2'>amistd_4</span></td></tr>
+<tr><td>
+cluster  Values o ->  non  trivial  ;
+</td><td><span data-href='amistd_4.html#FC3'>amistd_4</span></td></tr>
+<tr><td>
+cluster  the InstructionsF of A ->  non  trivial  ;
+</td><td><span data-href='amistd_4.html#FC4'>amistd_4</span></td></tr>
+<tr><td>
+cluster  Values (IC ) ->  non  trivial  ;
+</td><td><span data-href='amistd_4.html#FC5'>amistd_4</span></td></tr>
+<tr><td>
+cluster  Input I ->  empty  ;
+</td><td><span data-href='amistd_4.html#FC6'>amistd_4</span></td></tr>
+<tr><td>
+cluster  Output I ->  empty  ;
+</td><td><span data-href='amistd_4.html#FC7'>amistd_4</span></td></tr>
+<tr><td>
+cluster  Out_U_Inp I ->  empty  ;
+</td><td><span data-href='amistd_4.html#FC8'>amistd_4</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   halting   with_non_trivial_ObjectKinds   for    AMI-Struct over N;
+</td><td><span data-href='amistd_4.html#RC3'>amistd_4</span></td></tr>
+<tr><td>
+cluster  Out_\_Inp I ->  empty  ;
+</td><td><span data-href='amistd_4.html#FC9'>amistd_4</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   with_non_trivial_Instructions   for    AMI-Struct over N;
+</td><td><span data-href='amistd_4.html#RC4'>amistd_4</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   standard   for    AMI-Struct over N;
+</td><td><span data-href='amistd_4.html#RC5'>amistd_4</span></td></tr>
+<tr><td>
+cluster  IncAddr (I,k) ->  IC-relocable  ;
+</td><td><span data-href='amistd_5.html#FC1'>amistd_5</span></td></tr>
+<tr><td>
+cluster  relocable   ->  IC-relocable   for   M3( the InstructionsF of S);
+</td><td><span data-href='amistd_5.html#CC1'>amistd_5</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   halting   standard   relocable   IC-recognized   for    AMI-Struct over N;
+</td><td><span data-href='amistd_5.html#RC1'>amistd_5</span></td></tr>
+<tr><td>
+cluster   ->  relocable   for   M3( the InstructionsF of S);
+</td><td><span data-href='amistd_5.html#CC2'>amistd_5</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   halting   relocable   IC-recognized   for    AMI-Struct over N;
+</td><td><span data-href='amistd_5.html#RC2'>amistd_5</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   halting   relocable   IC-recognized   CurIns-recognized   for    AMI-Struct over N;
+</td><td><span data-href='amistd_5.html#RC3'>amistd_5</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   halting   relocable   IC-recognized   CurIns-recognized   relocable1   relocable2   for    AMI-Struct over N;
+</td><td><span data-href='amistd_5.html#RC4'>amistd_5</span></td></tr>
+<tr><td>
+cluster  IncIC (p,k) ->  Reloc (q,k) -halted  ;
+</td><td><span data-href='amistd_5.html#FC7'>amistd_5</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of S -valued   Function-like   parahalting   ->  NAT  -defined   the InstructionsF of S -valued   0  -halting   for    set ;
+</td><td><span data-href='amistd_5.html#CC3'>amistd_5</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of S -valued   Function-like   0  -halting   ->  NAT  -defined   the InstructionsF of S -valued   parahalting   for    set ;
+</td><td><span data-href='amistd_5.html#CC4'>amistd_5</span></td></tr>
+<tr><td>
+cluster  Trivial-AMI N ->  with_non-empty_values   strict  ;
+</td><td><span data-href='extpro_1.html#FC2'>extpro_1</span></td></tr>
+<tr><td>
+cluster 1 -element   with_non-empty_values   for    AMI-Struct over N;
+</td><td><span data-href='extpro_1.html#RC3'>extpro_1</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   halting   for    AMI-Struct over N;
+</td><td><span data-href='extpro_1.html#RC4'>extpro_1</span></td></tr>
+<tr><td>
+cluster  halt S ->  halting  ;
+</td><td><span data-href='extpro_1.html#FC4'>extpro_1</span></td></tr>
+<tr><td>
+cluster  halting   for    Element of  the InstructionsF of S;
+</td><td><span data-href='extpro_1.html#RC5'>extpro_1</span></td></tr>
+<tr><td>
+cluster  non  empty   trivial   with_non-empty_values   IC-Ins-separated   strict   for    AMI-Struct over M;
+</td><td><span data-href='extpro_1.html#RC6'>extpro_1</span></td></tr>
+<tr><td>
+cluster  non  empty   trivial  V58() 1 -element   with_non-empty_values   IC-Ins-separated   strict   halting   for    AMI-Struct over N;
+</td><td><span data-href='extpro_1.html#RC7'>extpro_1</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   strict   halting   for    AMI-Struct over N;
+</td><td><span data-href='extpro_1.html#RC8'>extpro_1</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   the carrier of S -defined   Function-like   the_Values_of S -compatible  V39()  countable  P -autonomic  P -halted   for    set ;
+</td><td><span data-href='extpro_1.html#RC9'>extpro_1</span></td></tr>
+<tr><td>
+cluster  Trivial-Mem N ->  strict   with_non-empty_values  ;
+</td><td><span data-href='memstr_0.html#FC2'>memstr_0</span></td></tr>
+<tr><td>
+cluster  with_non-empty_values   for    Mem-Struct over N;
+</td><td><span data-href='memstr_0.html#RC3'>memstr_0</span></td></tr>
+<tr><td>
+cluster  the_Values_of S ->  non-empty  ;
+</td><td><span data-href='memstr_0.html#FC3'>memstr_0</span></td></tr>
+<tr><td>
+cluster  non  empty  V116()  finite  1 -element   strict   with_non-empty_values   IC-Ins-separated   for    Mem-Struct over N;
+</td><td><span data-href='memstr_0.html#RC4'>memstr_0</span></td></tr>
+<tr><td>
+cluster  Values o ->  non  empty  ;
+</td><td><span data-href='memstr_0.html#FC5'>memstr_0</span></td></tr>
+<tr><td>
+cluster la .--> a ->  the_Values_of S -compatible  ;
+</td><td><span data-href='memstr_0.html#FC6'>memstr_0</span></td></tr>
+<tr><td>
+cluster (la,lb) --> (a,b) ->  the_Values_of S -compatible  ;
+</td><td><span data-href='memstr_0.html#FC7'>memstr_0</span></td></tr>
+<tr><td>
+cluster s +* ((IC ),l) ->  the_Values_of S -compatible  ;
+</td><td><span data-href='memstr_0.html#FC9'>memstr_0</span></td></tr>
+<tr><td>
+cluster  Start-At (l,S) ->  non  empty  l -started  ;
+</td><td><span data-href='memstr_0.html#FC10'>memstr_0</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   the carrier of S -defined   Function-like   the_Values_of S -compatible   total  l -started   for    set ;
+</td><td><span data-href='memstr_0.html#RC6'>memstr_0</span></td></tr>
+<tr><td>
+cluster p +* q -> l -started  ;
+</td><td><span data-href='memstr_0.html#FC11'>memstr_0</span></td></tr>
+<tr><td>
+cluster p +* d -> k -started  ;
+</td><td><span data-href='memstr_0.html#FC12'>memstr_0</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   the carrier of S -defined   Function-like   the_Values_of S -compatible   for    set ;
+</td><td><span data-href='memstr_0.html#RC7'>memstr_0</span></td></tr>
+<tr><td>
+cluster  Initialize p ->  0  -started  ;
+</td><td><span data-href='memstr_0.html#FC13'>memstr_0</span></td></tr>
+<tr><td>
+cluster  Initialize s ->  total  ;
+</td><td><span data-href='memstr_0.html#FC14'>memstr_0</span></td></tr>
+<tr><td>
+cluster  IncIC (s,k) ->  total  ;
+</td><td><span data-href='memstr_0.html#FC15'>memstr_0</span></td></tr>
+<tr><td>
+cluster  DecIC (s,k) ->  total  ;
+</td><td><span data-href='memstr_0.html#FC16'>memstr_0</span></td></tr>
+<tr><td>
+cluster  DecIC (p,k) ->  0  -started  ;
+</td><td><span data-href='memstr_0.html#FC17'>memstr_0</span></td></tr>
+<tr><td>
+cluster  Start-At (l,S) ->  finite  ;
+</td><td><span data-href='memstr_0.html#FC18'>memstr_0</span></td></tr>
+<tr><td>
+cluster  Relation-like   the carrier of S -defined   Function-like   the_Values_of S -compatible   finite   countable  l -started   for    set ;
+</td><td><span data-href='memstr_0.html#RC8'>memstr_0</span></td></tr>
+<tr><td>
+cluster  Initialize p ->  finite  ;
+</td><td><span data-href='memstr_0.html#FC20'>memstr_0</span></td></tr>
+<tr><td>
+cluster  IncIC (p,k) ->  finite  ;
+</td><td><span data-href='memstr_0.html#FC21'>memstr_0</span></td></tr>
+<tr><td>
+cluster  DecIC (p,k) ->  finite  ;
+</td><td><span data-href='memstr_0.html#FC22'>memstr_0</span></td></tr>
+<tr><td>
+cluster  FinPartSt S ->  non  empty  ;
+</td><td><span data-href='memstr_0.html#FC23'>memstr_0</span></td></tr>
+<tr><td>
+cluster  Relation-like   FinPartSt S -defined   FinPartSt S -valued   Function-like   Function-yielding  V38()  data-only   for    Element of K10(K11((FinPartSt S),(FinPartSt S)));
+</td><td><span data-href='memstr_0.html#RC9'>memstr_0</span></td></tr>
+<tr><td>
+cluster  SCM+FSA  ->  non  empty   with_non-empty_values   strict  ;
+</td><td><span data-href='scmfsa_2.html#FC1'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster  SCMPDS  ->  with_non-empty_values   IC-Ins-separated   strict  ;
+</td><td><span data-href='scmpds_2.html#FC2'>scmpds_2</span></td></tr>
+<tr><td>
+cluster  SCM R ->  with_non-empty_values   strict  ;
+</td><td><span data-href='scmring2.html#FC2'>scmring2</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-reduce'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>reduce</th></tr></thead>
+<tbody>
+<tr><td>
+reduce  Comput (p,s,0) to s;
+</td><td><span data-href='extpro_1.html#RD1'>extpro_1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

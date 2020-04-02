@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>SliceFunctor</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func SliceFunctor</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='1490.html#ELM3651'>SliceFunctor</span> [<span data-href='cat_5.html#K19'>cat_5</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM3651'>
+<h2>1.   <span data-link='1490.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='cat_5.html#K19'>cat_5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">C</font> be   <span title="CAT_1:NM.4" data-link="1431.html#ELM3503">Category</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be   <span title="CAT_1:NM.2" data-link="403.html#ELM3501">Morphism</span> of <font color="Maroon" title="c1">C</font>;<br><div about="#D38" typeof="oo:Definition" class="main-sentence">
+<a name="K19"><span class="kw">func</span> </a> <span title="CAT_5:func.19" data-link="1490.html#ELM3651">SliceFunctor</span> <font color="Maroon" title="c2">f</font><span class="kw"> -&gt; </span>   <span title="CAT_1:mode.2" data-link="1432.html#ELM3504">Functor</span> of <font color="Maroon" title="c1">C</font> <span title="CAT_5:func.11" data-link="1489.html#ELM3643">-SliceCat</span> <span class="p1">(<span class="default"><span title="GRAPH_1:func.3" data-link="41.html#ELM10722">dom</span> <font color="Maroon" title="c2">f</font></span>)</span>,<font color="Maroon" title="c1">C</font> <span title="CAT_5:func.11" data-link="1489.html#ELM3643">-SliceCat</span> <span class="p1">(<span class="default"><span title="GRAPH_1:func.4" data-link="1503.html#ELM10723">cod</span> <font color="Maroon" title="c2">f</font></span>)</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E38">Def13</font></span>: <a name="D13"><span class="comment"><font color="firebrick">:: CAT_5:def 13</font></span><br></a> for <font color="Olive" title="b1">m</font> being   <span title="CAT_1:NM.2" data-link="403.html#ELM3501">Morphism</span> of <span class="p1">(<span class="default"><font color="Maroon" title="c1">C</font> <span title="CAT_5:func.11" data-link="1489.html#ELM3643">-SliceCat</span> <span class="p2">(<span class="default"><span title="GRAPH_1:func.3" data-link="41.html#ELM10722">dom</span> <font color="Maroon" title="c2">f</font></span>)</span></span>)</span> holds  <span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">m</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"><span title="CAT_2:func.8" data-link="802.html#ELM3550">[</span><span class="default"><span class="p2"><span title="CAT_2:func.8" data-link="802.html#ELM3550">[</span><span class="default"><span class="p3">(<span class="default"><font color="Maroon" title="c2">f</font> <span title="CAT_1:func.1" data-link="615.html#ELM3505">(*)</span> <span class="p4">(<span class="default"><font color="Olive" title="b1">m</font> <span title="CAT_5:func.14" data-link="1485.html#ELM3646">`11</span></span>)</span></span>)</span>,<span class="p3">(<span class="default"><font color="Maroon" title="c2">f</font> <span title="CAT_1:func.1" data-link="615.html#ELM3505">(*)</span> <span class="p4">(<span class="default"><font color="Olive" title="b1">m</font> <span title="CAT_5:func.15" data-link="1486.html#ELM3647">`12</span></span>)</span></span>)</span></span><span title="CAT_2:func.8" data-link="802.html#ELM3550">]</span></span>,<span class="p2">(<span class="default"><font color="Olive" title="b1">m</font> <span title="CAT_5:func.13" data-link="55.html#ELM3645">`2</span></span>)</span></span><span title="CAT_2:func.8" data-link="802.html#ELM3550">]</span></span>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <div about="#D39" typeof="oo:Definition" class="">
+<a name="K20"><span class="kw">func</span> </a> <span title="CAT_5:func.20" data-link="1491.html#ELM3652">SliceContraFunctor</span> <font color="Maroon" title="c2">f</font><span class="kw"> -&gt; </span>   <span title="CAT_1:mode.2" data-link="1432.html#ELM3504">Functor</span> of <span class="p1">(<span class="default"><span title="GRAPH_1:func.4" data-link="1503.html#ELM10723">cod</span> <font color="Maroon" title="c2">f</font></span>)</span> <span title="CAT_5:func.12" data-link="1489.html#ELM3644">-SliceCat</span> <font color="Maroon" title="c1">C</font>,<span class="p1">(<span class="default"><span title="GRAPH_1:func.3" data-link="41.html#ELM10722">dom</span> <font color="Maroon" title="c2">f</font></span>)</span> <span title="CAT_5:func.12" data-link="1489.html#ELM3644">-SliceCat</span> <font color="Maroon" title="c1">C</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E39">Def14</font></span>: <a name="D14"><span class="comment"><font color="firebrick">:: CAT_5:def 14</font></span><br></a> for <font color="Olive" title="b1">m</font> being   <span title="CAT_1:NM.2" data-link="403.html#ELM3501">Morphism</span> of <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="GRAPH_1:func.4" data-link="1503.html#ELM10723">cod</span> <font color="Maroon" title="c2">f</font></span>)</span> <span title="CAT_5:func.12" data-link="1489.html#ELM3644">-SliceCat</span> <font color="Maroon" title="c1">C</font></span>)</span> holds  <span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">m</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"><span title="CAT_2:func.8" data-link="802.html#ELM3550">[</span><span class="default"><span class="p2"><span title="CAT_2:func.8" data-link="802.html#ELM3550">[</span><span class="default"><span class="p3">(<span class="default"><span class="p4">(<span class="default"><font color="Olive" title="b1">m</font> <span title="CAT_5:func.17" data-link="1485.html#ELM3649">`11</span></span>)</span> <span title="CAT_1:func.1" data-link="615.html#ELM3505">(*)</span> <font color="Maroon" title="c2">f</font></span>)</span>,<span class="p3">(<span class="default"><span class="p4">(<span class="default"><font color="Olive" title="b1">m</font> <span title="CAT_5:func.18" data-link="1486.html#ELM3650">`12</span></span>)</span> <span title="CAT_1:func.1" data-link="615.html#ELM3505">(*)</span> <font color="Maroon" title="c2">f</font></span>)</span></span><span title="CAT_2:func.8" data-link="802.html#ELM3550">]</span></span>,<span class="p2">(<span class="default"><font color="Olive" title="b1">m</font> <span title="CAT_5:func.16" data-link="55.html#ELM3648">`2</span></span>)</span></span><span title="CAT_2:func.8" data-link="802.html#ELM3550">]</span></span>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

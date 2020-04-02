@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>-Terms</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func -Terms</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='5683.html#ELM16683'>-Terms</span> [<span data-href='msafree3.html#K5'>msafree3</span>]</li>
+<li><span data-link='5683.html#ELM16964'>-Terms</span> [<span data-href='msaterm.html#K1'>msaterm</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM16683'>
+<h2>1.   <span data-link='5683.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='msafree3.html#K5'>msafree3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   non  <span title="STRUCT_0:attr.11" data-link="17.html#ELM25778">void</span>  <span title="CATALG_1:NM.1" data-link="1559.html#ELM3851">Signature</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">Y</font> be  <span title="RELAT_1:attr.2" data-link="3057.html#ELM22398">V8</span>() <span title="PBOOLE:NM.1" data-link="4273.html#ELM19812">ManySortedSet</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">X</font> be   <span title="PBOOLE:NM.1" data-link="4273.html#ELM19812">ManySortedSet</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">S</font>;<br><div about="#D16" typeof="oo:Definition" class="main-sentence">
+<a name="K5"><span class="kw">func</span> </a><font color="Maroon" title="c1">S</font> <span title="MSAFREE3:func.5" data-link="5683.html#ELM16683">-Terms</span> (<font color="Maroon" title="c3">X</font>,<font color="Maroon" title="c2">Y</font>)<span class="kw"> -&gt; </span>  <span title="MSUALG_2:NM.1" data-link="5771.html#ELM17083">MSSubset</span> of <span class="p1">(<span class="default"><span title="MSAFREE:func.11" data-link="5728.html#ELM16917">FreeMSA</span> <font color="Maroon" title="c2">Y</font></span>)</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E16">Def5</font></span>: <a name="D5"><span class="comment"><font color="firebrick">:: MSAFREE3:def 5</font></span><br></a> for <font color="Olive" title="b1">s</font> being   <span title="MSUALG_1:NM.1" data-link="5761.html#ELM17055">SortSymbol</span> of <font color="Maroon" title="c1">S</font> holds  <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">s</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"> { <span class="default"> <font color="Olive" title="b2">t</font> where <font color="Olive" title="b2">t</font> is   <span title="MSATERM:NM.1" data-link="5739.html#ELM16957">Term</span> of <font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">Y</font> : (  <span title="MSATERM:func.7" data-link="1708.html#ELM16970">the_sort_of</span> <font color="Olive" title="b2">t</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">s</font> &amp;  <span title="MSAFREE3:func.4" data-link="69.html#ELM16682">variables_in</span> <font color="Olive" title="b2">t</font> <span title="PBOOLE:pred.2" data-link="2755.html#ELM19804">c=</span> <font color="Maroon" title="c3">X</font> ) </span> } </span> ;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">correctness </span>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM16964'>
+<h2>2.   <span data-link='5683.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='msaterm.html#K1'>msaterm</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   non  <span title="STRUCT_0:attr.11" data-link="17.html#ELM25778">void</span>   <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">V</font> be   <span title="PBOOLE:NM.1" data-link="4273.html#ELM19812">ManySortedSet</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">S</font>;<br><div about="#D3" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a><font color="Maroon" title="c1">S</font> <span title="MSATERM:func.1" data-link="5683.html#ELM16964">-Terms</span> <font color="Maroon" title="c2">V</font><span class="kw"> -&gt; </span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span class="p1">(<span class="default"><span title="TREES_3:func.5" data-link="8372.html#ELM27283">FinTrees</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <span class="p2">(<span class="default"><span title="MSAFREE:func.5" data-link="5724.html#ELM16911">DTConMSA</span> <font color="Maroon" title="c2">V</font></span>)</span></span>)</span><span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E3">Def1</font></span>: <a name="D1"><span class="comment"><font color="firebrick">:: MSATERM:def 1</font></span><br></a> <span title="DTCONSTR:func.4" data-link="2307.html#ELM6017">TS</span> <span class="p1">(<span class="default"><span title="MSAFREE:func.5" data-link="5724.html#ELM16911">DTConMSA</span> <font color="Maroon" title="c2">V</font></span>)</span>;<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster X -CircuitStr  ->  non  empty   strict   unsplit  ;
+</td><td><span data-href='circtrm1.html#FC1'>circtrm1</span></td></tr>
+<tr><td>
+cluster   ->  Relation-like   Function-like   finite   for    Element of  the carrier of (X -CircuitStr);
+</td><td><span data-href='circtrm1.html#CC1'>circtrm1</span></td></tr>
+<tr><td>
+cluster   ->  DecoratedTree-like   for    Element of  the carrier of (X -CircuitStr);
+</td><td><span data-href='circtrm1.html#CC2'>circtrm1</span></td></tr>
+<tr><td>
+cluster  the_sort_of (v,A) ->  non  empty  ;
+</td><td><span data-href='circtrm1.html#FC5'>circtrm1</span></td></tr>
+<tr><td>
+cluster X -CircuitSorts A -> V2() ;
+</td><td><span data-href='circtrm1.html#FC6'>circtrm1</span></td></tr>
+<tr><td>
+cluster x -tree p ->  finite  ;
+</td><td><span data-href='circtrm1.html#FC8'>circtrm1</span></td></tr>
+<tr><td>
+cluster p * F ->  FinSequence-like  ;
+</td><td><span data-href='msafree4.html#FC1'>msafree4</span></td></tr>
+<tr><td>
+cluster  Relation-like  S -Terms X -valued   Function-like   -> S -Terms X -valued   finite-yielding   for    set ;
+</td><td><span data-href='msafree4.html#CC1'>msafree4</span></td></tr>
+<tr><td>
+cluster S -Terms V ->  non  empty  ;
+</td><td><span data-href='msaterm.html#FC1'>msaterm</span></td></tr>
+<tr><td>
+cluster   ->  finite   for    Element of S -Terms V;
+</td><td><span data-href='msaterm.html#CC1'>msaterm</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

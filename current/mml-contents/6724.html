@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_firable_at</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_firable_at</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='6724.html#ELM20391'>is_firable_at</span> [<span data-href='petri_df.html#R1'>petri_df</span>]</li>
+<li><span data-link='6724.html#ELM20393'>is_firable_at</span> [<span data-href='petri_df.html#R2'>petri_df</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM20391'>
+<h2>1.   <span data-link='6724.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='petri_df.html#R1'>petri_df</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">PTN</font> be   <span title="PETRI:NM.2" data-link="6679.html#ELM20306">Petri_net</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">M0</font> be   <span title="PETRI_DF:NM.2" data-link="6726.html#ELM20396">marking</span> of <font color="Maroon" title="c1">PTN</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">t</font> be   <span title="PETRI:NM.5" data-link="6682.html#ELM20309">transition</span> of <font color="Maroon" title="c1">PTN</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c3">t</font> <span title="PETRI_DF:pred.1" data-link="6724.html#ELM20391">is_firable_at</span> <font color="Maroon" title="c2">M0</font><span class="kw"> means </span><a name="D11"><span class="comment"><font color="firebrick">:: PETRI_DF:def 11</font></span><br></a> for <font color="Olive" title="b1">m</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b1">m</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">M0</font> <span title="RELSET_1:func.7" data-link="1877.html#ELM22514">.:</span> <span class="p1">(<span class="default"><span title="PETRI:func.8" data-link="846.html#ELM20320">*'</span> <span class="p2"><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">{</span><span class="default"><font color="Maroon" title="c3">t</font></span><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">}</span></span></span>)</span> holds <br><font color="Olive" title="b1">m</font> <span title="XXREAL_0:NR.4" data-link="6283.html#ELM29822">&gt;</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> ;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20393'>
+<h2>2.   <span data-link='6724.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='petri_df.html#R2'>petri_df</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">PTN</font> be   <span title="PETRI:NM.2" data-link="6679.html#ELM20306">Petri_net</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">M0</font> be   <span title="PETRI_DF:NM.2" data-link="6726.html#ELM20396">marking</span> of <font color="Maroon" title="c1">PTN</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">Q</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  the <span title="STRUCT_0:sel.4" data-href="struct_0.html#U4">carrier'</span> of <font color="Maroon" title="c1">PTN</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c3">Q</font> <span title="PETRI_DF:pred.2" data-link="6724.html#ELM20393">is_firable_at</span> <font color="Maroon" title="c2">M0</font><span class="kw"> means </span><a name="D13"><span class="comment"><font color="firebrick">:: PETRI_DF:def 13</font></span><br></a>( <font color="Maroon" title="c3">Q</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span>  or  ex <font color="Olive" title="b1">M</font> being    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="PETRI_DF:func.4" data-link="6733.html#ELM20403">nat_marks_of</span> <font color="Maroon" title="c1">PTN</font> st <br>(  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c3">Q</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Olive" title="b1">M</font> &amp; <font color="Maroon" title="c3">Q</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> 1 <span title="PETRI_DF:pred.1" data-link="6724.html#ELM20391">is_firable_at</span> <font color="Maroon" title="c2">M0</font> &amp; <font color="Olive" title="b1">M</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> 1 <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="PETRI_DF:func.6" data-link="1179.html#ELM20405">Firing</span> (<span class="p1">(<span class="default"><font color="Maroon" title="c3">Q</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> 1</span>)</span>,<font color="Maroon" title="c2">M0</font>) &amp; (  for <font color="Olive" title="b2">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b2">i</font> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c3">Q</font> &amp; <font color="Olive" title="b2">i</font> <span title="XXREAL_0:NR.4" data-link="6283.html#ELM29822">&gt;</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  holds <br>( <font color="Maroon" title="c3">Q</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <span class="p1">(<span class="default"><font color="Olive" title="b2">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="PETRI_DF:pred.1" data-link="6724.html#ELM20391">is_firable_at</span> <font color="Olive" title="b1">M</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b2">i</font> &amp; <font color="Olive" title="b1">M</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <span class="p1">(<span class="default"><font color="Olive" title="b2">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="PETRI_DF:func.6" data-link="1179.html#ELM20405">Firing</span> (<span class="p1">(<span class="default"><font color="Maroon" title="c3">Q</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <span class="p2">(<span class="default"><font color="Olive" title="b2">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span></span>)</span>,<span class="p1">(<span class="default"><font color="Olive" title="b1">M</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b2">i</font></span>)</span>) ) ) ) );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

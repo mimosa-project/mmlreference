@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>are_concurrent</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred are_concurrent</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='5253.html#ELM15487'>are_concurrent</span> [<span data-href='menelaus.html#R1'>menelaus</span>]</li>
+<li><span data-link='5253.html#ELM21367'>are_concurrent</span> [<span data-href='projred2.html#R1'>projred2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM15487'>
+<h2>1.   <span data-link='5253.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='menelaus.html#R1'>menelaus</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font>, <font color="Maroon" title="c2">Y</font>, <font color="Maroon" title="c3">Z</font> be   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> 2</span>)</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c1">X</font>,<font color="Maroon" title="c2">Y</font>,<font color="Maroon" title="c3">Z</font> <span title="MENELAUS:pred.1" data-link="5253.html#ELM15487">are_concurrent</span> <span class="kw"> means </span><a name="D1"><span class="comment"><font color="firebrick">:: MENELAUS:def 1</font></span><br></a>( ( <font color="Maroon" title="c1">X</font> <span title="MENELAUS:NR.1" data-link="5252.html#ELM15486">is_parallel_to</span> <font color="Maroon" title="c2">Y</font> &amp; <font color="Maroon" title="c2">Y</font> <span title="MENELAUS:NR.1" data-link="5252.html#ELM15486">is_parallel_to</span> <font color="Maroon" title="c3">Z</font> &amp; <font color="Maroon" title="c3">Z</font> <span title="MENELAUS:NR.1" data-link="5252.html#ELM15486">is_parallel_to</span> <font color="Maroon" title="c1">X</font> ) or  ex <font color="Olive" title="b1">A</font> being   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> 2</span>)</span> st <br>( <font color="Olive" title="b1">A</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c1">X</font> &amp; <font color="Olive" title="b1">A</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">Y</font> &amp; <font color="Olive" title="b1">A</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c3">Z</font> ) );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM21367'>
+<h2>2.   <span data-link='5253.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='projred2.html#R1'>projred2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">IPS</font> be   <span title="INCPROJ:NM.2" data-link="4253.html#ELM12304">IncProjSp</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font>, <font color="Maroon" title="c3">B</font>, <font color="Maroon" title="c4">C</font> be   <span title="INCSP_1:NM.2" data-link="1873.html#ELM12337">LINE</span> of <font color="Maroon" title="c1">IPS</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c2">A</font>,<font color="Maroon" title="c3">B</font>,<font color="Maroon" title="c4">C</font> <span title="PROJRED2:pred.1" data-link="5253.html#ELM21367">are_concurrent</span> <span class="kw"> means </span><a name="D1"><span class="comment"><font color="firebrick">:: PROJRED2:def 1</font></span><br></a> ex <font color="Olive" title="b1">o</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  the <span title="INCSP_1:sel.1" data-href="incsp_1.html#U1">Points</span> of <font color="Maroon" title="c1">IPS</font> st <br>( <font color="Olive" title="b1">o</font> <span title="INCSP_1:pred.1" data-link="4258.html#ELM12329">on</span> <font color="Maroon" title="c2">A</font> &amp; <font color="Olive" title="b1">o</font> <span title="INCSP_1:pred.1" data-link="4258.html#ELM12329">on</span> <font color="Maroon" title="c3">B</font> &amp; <font color="Olive" title="b1">o</font> <span title="INCSP_1:pred.1" data-link="4258.html#ELM12329">on</span> <font color="Maroon" title="c4">C</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

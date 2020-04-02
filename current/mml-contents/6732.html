@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>transitions_of</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func transitions_of</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='6732.html#ELM20402'>transitions_of</span> [<span data-href='petri_df.html#K3'>petri_df</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM20402'>
+<h2>1.   <span data-link='6732.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='petri_df.html#K3'>petri_df</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">PTN</font> be   <span title="PETRI:NM.2" data-link="6679.html#ELM20306">Petri_net</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">fs</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="PETRI_DF:NK.2" data-link="6730.html#ELM20400">places_and_trans_of</span> <font color="Maroon" title="c1">PTN</font>;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K2"><span class="kw">func</span> </a> <span title="PETRI_DF:func.2" data-link="6731.html#ELM20401">places_of</span> <font color="Maroon" title="c2">fs</font><span class="kw"> -&gt; </span>  <span title="FINSET_1:attr.1" data-link="2772.html#ELM7423">finite</span>  <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">PTN</font><span class="kw"> equals </span><a name="D3"><span class="comment"><font color="firebrick">:: PETRI_DF:def 3</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">p</font> where <font color="Olive" title="b1">p</font> is   <span title="PETRI:NM.3" data-link="6680.html#ELM20307">place</span> of <font color="Maroon" title="c1">PTN</font> : <font color="Olive" title="b1">p</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELSET_1:func.2" data-link="3141.html#ELM22509">rng</span> <font color="Maroon" title="c2">fs</font> </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> <div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="PETRI_DF:func.3" data-link="6732.html#ELM20402">transitions_of</span> <font color="Maroon" title="c2">fs</font><span class="kw"> -&gt; </span>  <span title="FINSET_1:attr.1" data-link="2772.html#ELM7423">finite</span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of  the <span title="STRUCT_0:sel.4" data-href="struct_0.html#U4">carrier'</span> of <font color="Maroon" title="c1">PTN</font><span class="kw"> equals </span><a name="D4"><span class="comment"><font color="firebrick">:: PETRI_DF:def 4</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">t</font> where <font color="Olive" title="b1">t</font> is   <span title="PETRI:NM.5" data-link="6682.html#ELM20309">transition</span> of <font color="Maroon" title="c1">PTN</font> : <font color="Olive" title="b1">t</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELSET_1:func.2" data-link="3141.html#ELM22509">rng</span> <font color="Maroon" title="c2">fs</font> </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

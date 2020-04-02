@@ -1,0 +1,650 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>'not'</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func 'not'</h1>
+<h2>List of Definitions (24)</h2>
+<ol>
+<li><span data-link='1109.html#ELM2719'>'not'</span> [<span data-href='binarith.html#K3'>binarith</span>]</li>
+<li><span data-link='1109.html#ELM3097'>'not'</span> [<span data-href='bvfunc_1.html#K1'>bvfunc_1</span>]</li>
+<li><span data-link='1109.html#ELM4776'>'not'</span> [<span data-href='cohsp_1.html#K13'>cohsp_1</span>]</li>
+<li><span data-link='1109.html#ELM5499'>'not'</span> [<span data-href='cqc_lang.html#K6'>cqc_lang</span>]</li>
+<li><span data-link='1109.html#ELM11475'>'not'</span> [<span data-href='grzlog_1.html#K2'>grzlog_1</span>]</li>
+<li><span data-link='1109.html#ELM11481'>'not'</span> [<span data-href='grzlog_1.html#K8'>grzlog_1</span>]</li>
+<li><span data-link='1109.html#ELM11488'>'not'</span> [<span data-href='grzlog_1.html#K15'>grzlog_1</span>]</li>
+<li><span data-link='1109.html#ELM11508'>'not'</span> [<span data-href='grzlog_1.html#K35'>grzlog_1</span>]</li>
+<li><span data-link='1109.html#ELM14234'>'not'</span> [<span data-href='ltlaxio1.html#K1'>ltlaxio1</span>]</li>
+<li><span data-link='1109.html#ELM14381'>'not'</span> [<span data-href='margrel1.html'>margrel1</span>]</li>
+<li><span data-link='1109.html#ELM14383'>'not'</span> [<span data-href='margrel1.html#K8'>margrel1</span>]</li>
+<li><span data-link='1109.html#ELM14387'>'not'</span> [<span data-href='margrel1.html#K12'>margrel1</span>]</li>
+<li><span data-link='1109.html#ELM14389'>'not'</span> [<span data-href='margrel1.html#K14'>margrel1</span>]</li>
+<li><span data-link='1109.html#ELM16113'>'not'</span> [<span data-href='modal_1.html#K10'>modal_1</span>]</li>
+<li><span data-link='1109.html#ELM16174'>'not'</span> [<span data-href='modelc_1.html#K7'>modelc_1</span>]</li>
+<li><span data-link='1109.html#ELM16192'>'not'</span> [<span data-href='modelc_1.html#NK25'>modelc_1</span>]</li>
+<li><span data-link='1109.html#ELM16272'>'not'</span> [<span data-href='modelc_2.html#K3'>modelc_2</span>]</li>
+<li><span data-link='1109.html#ELM16291'>'not'</span> [<span data-href='modelc_2.html#NK22'>modelc_2</span>]</li>
+<li><span data-link='1109.html#ELM20432'>'not'</span> [<span data-href='pl_axiom.html#K6'>pl_axiom</span>]</li>
+<li><span data-link='1109.html#ELM21590'>'not'</span> [<span data-href='qc_lang1.html#K13'>qc_lang1</span>]</li>
+<li><span data-link='1109.html#ELM21686'>'not'</span> [<span data-href='qmax_1.html#K8'>qmax_1</span>]</li>
+<li><span data-link='1109.html#ELM29283'>'not'</span> [<span data-href='waybel_1.html#K7'>waybel_1</span>]</li>
+<li><span data-link='1109.html#ELM29663'>'not'</span> [<span data-href='xboolean.html#K3'>xboolean</span>]</li>
+<li><span data-link='1109.html#ELM30506'>'not'</span> [<span data-href='zf_lang.html#K5'>zf_lang</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM2719'>
+<h2>1.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='binarith.html#K3'>binarith</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">x</font> be   <span title="FINSEQ_2:NM.3" data-link="796.html#ELM7178">Tuple</span> of <font color="Maroon" title="c1">n</font>, <span title="MARGREL1:func.5" data-link="4998.html#ELM14378">BOOLEAN</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="BINARITH:func.3" data-link="1109.html#ELM2719">'not'</span> <font color="Maroon" title="c2">x</font><span class="kw"> -&gt; </span>  <span title="FINSEQ_2:NM.3" data-link="796.html#ELM7178">Tuple</span> of <font color="Maroon" title="c1">n</font>, <span title="MARGREL1:func.5" data-link="4998.html#ELM14378">BOOLEAN</span> <span class="kw"> means </span><a name="D1"><span class="comment"><font color="firebrick">:: BINARITH:def 1</font></span><br></a> for <font color="Olive" title="b1">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b1">i</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="FINSEQ_1:func.2" data-link="2722.html#ELM7094">Seg</span> <font color="Maroon" title="c1">n</font> holds <br><span class="kw">it</span> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="MARGREL1:func.8" data-link="1109.html#ELM14383">'not'</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">x</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b1">i</font></span>)</span>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM3097'>
+<h2>2.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='bvfunc_1.html#K1'>bvfunc_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">Y</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">a</font> be   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c1">Y</font>,<span title="MARGREL1:func.5" data-link="4998.html#ELM14378">BOOLEAN</span>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="MARGREL1:func.12" data-link="1109.html#ELM14387">'not'</span><br><span class="kw">redefine </span><a name="K1"><span class="kw">func</span> </a> <span title="BVFUNC_1:func.1" data-link="1109.html#ELM3097">'not'</span> <font color="Maroon" title="c2">a</font><span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c1">Y</font>,<span title="MARGREL1:func.5" data-link="4998.html#ELM14378">BOOLEAN</span>;<br><span class="kw">coherence</span> <span class="kw">let </span><font color="Maroon" title="c3">b</font> be   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c1">Y</font>,<span title="MARGREL1:func.5" data-link="4998.html#ELM14378">BOOLEAN</span>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="MARGREL1:func.13" data-link="799.html#ELM14388">'&amp;'</span><br><span class="kw">redefine </span><a name="K2"><span class="kw">func</span> </a><font color="Maroon" title="c2">a</font> <span title="BVFUNC_1:func.2" data-link="799.html#ELM3098">'&amp;'</span> <font color="Maroon" title="c3">b</font><span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c1">Y</font>,<span title="MARGREL1:func.5" data-link="4998.html#ELM14378">BOOLEAN</span>;<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM4776'>
+<h2>3.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='cohsp_1.html#K13'>cohsp_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">C</font> be   <span title="COH_SP:NM.1" data-link="1826.html#ELM4716">Coherence_Space</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K13"><span class="kw">func</span> </a> <span title="COHSP_1:func.13" data-link="1109.html#ELM4776">'not'</span> <font color="Maroon" title="c1">C</font><span class="kw"> -&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> <span class="kw"> equals </span><a name="D21"><span class="comment"><font color="firebrick">:: COHSP_1:def 21</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">a</font> where <font color="Olive" title="b1">a</font> is   <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span class="p1">(<span class="default"><span title="TARSKI:func.3" data-link="1741.html#ELM26067">union</span> <font color="Maroon" title="c1">C</font></span>)</span> :  for <font color="Olive" title="b2">b</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">C</font>  ex <font color="Olive" title="b3">x</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>  st <font color="Olive" title="b1">a</font> <span title="SUBSET_1:func.8" data-link="1487.html#ELM25877">/\</span> <font color="Olive" title="b2">b</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span> <span class="p1"><span title="TARSKI:func.1" data-link="857.html#ELM26065">{</span><span class="default"><font color="Olive" title="b3">x</font></span><span title="TARSKI:func.1" data-link="857.html#ELM26065">}</span></span> </span> } </span> ;<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  'not' C ->  non  empty   subset-closed   binary_complete  ;
+</td><td><span data-href='cohsp_1.html#FC13'>cohsp_1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM5499'>
+<h2>4.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='cqc_lang.html#K6'>cqc_lang</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be    <span title="QC_LANG1:mode.1" data-link="7084.html#ELM21567">QC-alphabet</span> ;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="QC_LANG1:func.12" data-link="2070.html#ELM21589">VERUM</span><br><span class="kw">redefine </span><a name="K5"><span class="kw">func</span> </a> <span title="CQC_LANG:func.5" data-link="2070.html#ELM5498">VERUM</span> <font color="Maroon" title="c1">A</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of  <span title="CQC_LANG:func.3" data-link="2068.html#ELM5496">CQC-WFF</span> <font color="Maroon" title="c1">A</font>;<br><span class="kw">coherence</span> <span class="kw">by</span> <span class="lab"><span class="ref" target="_self" onmouseover="rs('cqc_lang/T6')" onmouseout="rh()" data-href="cqc_lang.html#T6">Th6</span></span>;<br><span class="kw">let </span><font color="Maroon" title="c2">r</font> be    <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of  <span title="CQC_LANG:func.3" data-link="2068.html#ELM5496">CQC-WFF</span> <font color="Maroon" title="c1">A</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="QC_LANG1:func.13" data-link="1109.html#ELM21590">'not'</span><br><span class="kw">redefine </span><a name="K6"><span class="kw">func</span> </a> <span title="CQC_LANG:func.6" data-link="1109.html#ELM5499">'not'</span> <font color="Maroon" title="c2">r</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of  <span title="CQC_LANG:func.3" data-link="2068.html#ELM5496">CQC-WFF</span> <font color="Maroon" title="c1">A</font>;<br><span class="kw">coherence</span> <span class="kw">by</span> <span class="lab"><span class="ref" target="_self" onmouseover="rs('cqc_lang/T8')" onmouseout="rh()" data-href="cqc_lang.html#T8">Th8</span></span>;<br><span class="kw">let </span><font color="Maroon" title="c3">s</font> be    <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of  <span title="CQC_LANG:func.3" data-link="2068.html#ELM5496">CQC-WFF</span> <font color="Maroon" title="c1">A</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="QC_LANG1:func.14" data-link="799.html#ELM21591">'&amp;'</span><br><span class="kw">redefine </span><a name="K7"><span class="kw">func</span> </a><font color="Maroon" title="c2">r</font> <span title="CQC_LANG:func.7" data-link="799.html#ELM5500">'&amp;'</span> <font color="Maroon" title="c3">s</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of  <span title="CQC_LANG:func.3" data-link="2068.html#ELM5496">CQC-WFF</span> <font color="Maroon" title="c1">A</font>;<br><span class="kw">coherence</span> <span class="kw">by</span> <span class="lab"><span class="ref" target="_self" onmouseover="rs('cqc_lang/T9')" onmouseout="rh()" data-href="cqc_lang.html#T9">Th9</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster K166(A,(p => q),(('not' q) => ('not' p))) ->  valid  ;
+</td><td><span data-href='lukasi_1.html#FC10'>lukasi_1</span></td></tr>
+<tr><td>
+cluster K166(A,(('not' p) => ('not' q)),(q => p)) ->  valid  ;
+</td><td><span data-href='lukasi_1.html#FC11'>lukasi_1</span></td></tr>
+<tr><td>
+cluster K166(A,p,('not' ('not' p))) ->  valid  ;
+</td><td><span data-href='lukasi_1.html#FC12'>lukasi_1</span></td></tr>
+<tr><td>
+cluster K166(A,('not' ('not' p)),p) ->  valid  ;
+</td><td><span data-href='lukasi_1.html#FC13'>lukasi_1</span></td></tr>
+<tr><td>
+cluster K166(A,(('not' ('not' p)) => q),(p => q)) ->  valid  ;
+</td><td><span data-href='lukasi_1.html#FC14'>lukasi_1</span></td></tr>
+<tr><td>
+cluster K166(A,(p => ('not' ('not' q))),(p => q)) ->  valid  ;
+</td><td><span data-href='lukasi_1.html#FC15'>lukasi_1</span></td></tr>
+<tr><td>
+cluster K166(A,(p => ('not' q)),(q => ('not' p))) ->  valid  ;
+</td><td><span data-href='lukasi_1.html#FC16'>lukasi_1</span></td></tr>
+<tr><td>
+cluster K166(A,(('not' p) => q),(('not' q) => p)) ->  valid  ;
+</td><td><span data-href='lukasi_1.html#FC17'>lukasi_1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM11475'>
+<h2>5.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='grzlog_1.html#K2'>grzlog_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="GRZLOG_1:func.2" data-link="1109.html#ELM11475">'not'</span> <span class="kw"> -&gt; </span>  <span title="FINSEQ_1:NM.1" data-link="27.html#ELM7089">FinSequence</span><span class="kw"> equals </span><a name="D2"><span class="comment"><font color="firebrick">:: GRZLOG_1:def 2</font></span><br></a><span class="p1"><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">&lt;*</span><span class="default">1</span><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">*&gt;</span></span>;<br>
+</div>
+<span class="kw">coherence</span> <br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K3"><span class="kw">func</span> </a> <span title="GRZLOG_1:func.3" data-link="799.html#ELM11476">'&amp;'</span> <span class="kw"> -&gt; </span>  <span title="FINSEQ_1:NM.1" data-link="27.html#ELM7089">FinSequence</span><span class="kw"> equals </span><a name="D3"><span class="comment"><font color="firebrick">:: GRZLOG_1:def 3</font></span><br></a><span class="p1"><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">&lt;*</span><span class="default">2</span><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">*&gt;</span></span>;<br>
+</div>
+<span class="kw">coherence</span> <br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K4"><span class="kw">func</span> </a> <span title="GRZLOG_1:func.4" data-link="756.html#ELM11477">'='</span> <span class="kw"> -&gt; </span>  <span title="FINSEQ_1:NM.1" data-link="27.html#ELM7089">FinSequence</span><span class="kw"> equals </span><a name="D4"><span class="comment"><font color="firebrick">:: GRZLOG_1:def 4</font></span><br></a><span class="p1"><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">&lt;*</span><span class="default">3</span><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">*&gt;</span></span>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM11481'>
+<h2>6.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='grzlog_1.html#K8'>grzlog_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="comment"><font color="firebrick">:: original: </font></span><span title="GRZLOG_1:func.2" data-link="1109.html#ELM11475">'not'</span><br><span class="kw">redefine </span><a name="K8"><span class="kw">func</span> </a> <span title="GRZLOG_1:func.8" data-link="1109.html#ELM11481">'not'</span> <span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="GRZLOG_1:func.7" data-link="3979.html#ELM11480">GRZ-symbols</span> ;<br><span class="kw">coherence</span> <span class="comment"><font color="firebrick">:: original: </font></span><span title="GRZLOG_1:func.3" data-link="799.html#ELM11476">'&amp;'</span><br><span class="kw">redefine </span><a name="K9"><span class="kw">func</span> </a> <span title="GRZLOG_1:func.9" data-link="799.html#ELM11482">'&amp;'</span> <span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="GRZLOG_1:func.7" data-link="3979.html#ELM11480">GRZ-symbols</span> ;<br><span class="kw">coherence</span> <span class="comment"><font color="firebrick">:: original: </font></span><span title="GRZLOG_1:func.4" data-link="756.html#ELM11477">'='</span><br><span class="kw">redefine </span><a name="K10"><span class="kw">func</span> </a> <span title="GRZLOG_1:func.10" data-link="756.html#ELM11483">'='</span> <span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="GRZLOG_1:func.7" data-link="3979.html#ELM11480">GRZ-symbols</span> ;<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM11488'>
+<h2>7.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='grzlog_1.html#K15'>grzlog_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">t</font> be   <span title="GRZLOG_1:NM.2" data-link="3972.html#ELM11469">GRZ-formula</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K15"><span class="kw">func</span> </a> <span title="GRZLOG_1:func.15" data-link="1109.html#ELM11488">'not'</span> <font color="Maroon" title="c1">t</font><span class="kw"> -&gt; </span>  <span title="GRZLOG_1:NM.2" data-link="3972.html#ELM11469">GRZ-formula</span><span class="kw"> equals </span><a name="D11"><span class="comment"><font color="firebrick">:: GRZLOG_1:def 11</font></span><br></a><span class="p1">(<span class="default"><span title="POLNOT_1:func.22" data-link="6776.html#ELM20514">Polish-unOp</span> (<span title="GRZLOG_1:func.7" data-link="3979.html#ELM11480">GRZ-symbols</span>,<span title="GRZLOG_1:func.12" data-link="3981.html#ELM11485">GRZ-arity</span>,<span title="GRZLOG_1:func.8" data-link="1109.html#ELM11481">'not'</span>)</span>)</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Maroon" title="c1">t</font>;<br>
+</div>
+<span class="kw">coherence</span> <br><span class="kw">let </span><font color="Maroon" title="c2">u</font> be   <span title="GRZLOG_1:NM.2" data-link="3972.html#ELM11469">GRZ-formula</span>;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K16"><span class="kw">func</span> </a><font color="Maroon" title="c1">t</font> <span title="GRZLOG_1:func.16" data-link="799.html#ELM11489">'&amp;'</span> <font color="Maroon" title="c2">u</font><span class="kw"> -&gt; </span>  <span title="GRZLOG_1:NM.2" data-link="3972.html#ELM11469">GRZ-formula</span><span class="kw"> equals </span><a name="D12"><span class="comment"><font color="firebrick">:: GRZLOG_1:def 12</font></span><br></a><span class="p1">(<span class="default"><span title="POLNOT_1:func.23" data-link="6777.html#ELM20515">Polish-binOp</span> (<span title="GRZLOG_1:func.7" data-link="3979.html#ELM11480">GRZ-symbols</span>,<span title="GRZLOG_1:func.12" data-link="3981.html#ELM11485">GRZ-arity</span>,<span title="GRZLOG_1:func.9" data-link="799.html#ELM11482">'&amp;'</span>)</span>)</span> <span title="BINOP_1:func.4" data-link="141.html#ELM2756">.</span> (<font color="Maroon" title="c1">t</font>,<font color="Maroon" title="c2">u</font>);<br>
+</div>
+<span class="kw">coherence</span> <br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K17"><span class="kw">func</span> </a><font color="Maroon" title="c1">t</font> <span title="GRZLOG_1:func.17" data-link="756.html#ELM11490">'='</span> <font color="Maroon" title="c2">u</font><span class="kw"> -&gt; </span>  <span title="GRZLOG_1:NM.2" data-link="3972.html#ELM11469">GRZ-formula</span><span class="kw"> equals </span><a name="D13"><span class="comment"><font color="firebrick">:: GRZLOG_1:def 13</font></span><br></a><span class="p1">(<span class="default"><span title="POLNOT_1:func.23" data-link="6777.html#ELM20515">Polish-binOp</span> (<span title="GRZLOG_1:func.7" data-link="3979.html#ELM11480">GRZ-symbols</span>,<span title="GRZLOG_1:func.12" data-link="3981.html#ELM11485">GRZ-arity</span>,<span title="GRZLOG_1:func.10" data-link="756.html#ELM11483">'='</span>)</span>)</span> <span title="BINOP_1:func.4" data-link="141.html#ELM2756">.</span> (<font color="Maroon" title="c1">t</font>,<font color="Maroon" title="c2">u</font>);<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  'not' (t '&' ('not' t)) ->  GRZ-axiomatic  ;
+</td><td><span data-href='grzlog_1.html#FC3'>grzlog_1</span></td></tr>
+<tr><td>
+cluster ('not' ('not' t)) '=' t ->  GRZ-axiomatic  ;
+</td><td><span data-href='grzlog_1.html#FC4'>grzlog_1</span></td></tr>
+<tr><td>
+cluster ('not' (t '&' u)) '=' (('not' t) 'or' ('not' u)) ->  GRZ-axiomatic  ;
+</td><td><span data-href='grzlog_1.html#FC7'>grzlog_1</span></td></tr>
+<tr><td>
+cluster (t '=' u) '=' (('not' t) '=' ('not' u)) ->  GRZ-axiomatic  ;
+</td><td><span data-href='grzlog_1.html#FC9'>grzlog_1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM11508'>
+<h2>8.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='grzlog_1.html#K35'>grzlog_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">x</font> be   <span title="GRZLOG_1:NM.6" data-link="3976.html#ELM11473">LD-EqClass</span>;<br><div about="#D0" typeof="oo:Definition">
+<a name="V11"><span class="kw">attr</span> </a><font color="Maroon" title="c1">x</font> is  <span title="GRZLOG_1:attr.11" data-link="4000.html#ELM11523">LD-provable</span> <span class="kw"> means </span><a name="D42"><span class="comment"><font color="firebrick">:: GRZLOG_1:def 42</font></span><br></a> ex <font color="Olive" title="b1">t</font> being   <span title="GRZLOG_1:NM.2" data-link="3972.html#ELM11469">GRZ-formula</span> st <br>( <font color="Maroon" title="c1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="GRZLOG_1:func.34" data-link="3993.html#ELM11507">LD-EqClassOf</span> <font color="Olive" title="b1">t</font> &amp; <font color="Olive" title="b1">t</font> is  <span title="GRZLOG_1:attr.10" data-link="4000.html#ELM11522">LD-provable</span>  );<br>
+</div>
+<div about="#D41" typeof="oo:Definition" class="main-sentence">
+<a name="K35"><span class="kw">func</span> </a> <span title="GRZLOG_1:func.35" data-link="1109.html#ELM11508">'not'</span> <font color="Maroon" title="c1">x</font><span class="kw"> -&gt; </span>  <span title="GRZLOG_1:NM.6" data-link="3976.html#ELM11473">LD-EqClass</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E41">Def91</font></span>: <a name="D43"><span class="comment"><font color="firebrick">:: GRZLOG_1:def 43</font></span><br></a> ex <font color="Olive" title="b1">t</font> being   <span title="GRZLOG_1:NM.2" data-link="3972.html#ELM11469">GRZ-formula</span> st <br>( <font color="Maroon" title="c1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="GRZLOG_1:func.34" data-link="3993.html#ELM11507">LD-EqClassOf</span> <font color="Olive" title="b1">t</font> &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="GRZLOG_1:func.34" data-link="3993.html#ELM11507">LD-EqClassOf</span> <span class="p1">(<span class="default"><span title="GRZLOG_1:func.15" data-link="1109.html#ELM11488">'not'</span> <font color="Olive" title="b1">t</font></span>)</span> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <span class="kw">involutiveness</span> <span class="kw">let </span><font color="Maroon" title="c2">y</font> be   <span title="GRZLOG_1:NM.6" data-link="3976.html#ELM11473">LD-EqClass</span>;<br><div about="#D42" typeof="oo:Definition" class="">
+<a name="K36"><span class="kw">func</span> </a><font color="Maroon" title="c1">x</font> <span title="GRZLOG_1:func.36" data-link="799.html#ELM11509">'&amp;'</span> <font color="Maroon" title="c2">y</font><span class="kw"> -&gt; </span>  <span title="GRZLOG_1:NM.6" data-link="3976.html#ELM11473">LD-EqClass</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E42">Def92</font></span>: <a name="D44"><span class="comment"><font color="firebrick">:: GRZLOG_1:def 44</font></span><br></a> ex <font color="Olive" title="b1">t</font>, <font color="Olive" title="b2">u</font> being   <span title="GRZLOG_1:NM.2" data-link="3972.html#ELM11469">GRZ-formula</span> st <br>( <font color="Maroon" title="c1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="GRZLOG_1:func.34" data-link="3993.html#ELM11507">LD-EqClassOf</span> <font color="Olive" title="b1">t</font> &amp; <font color="Maroon" title="c2">y</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="GRZLOG_1:func.34" data-link="3993.html#ELM11507">LD-EqClassOf</span> <font color="Olive" title="b2">u</font> &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="GRZLOG_1:func.34" data-link="3993.html#ELM11507">LD-EqClassOf</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">t</font> <span title="GRZLOG_1:func.16" data-link="799.html#ELM11489">'&amp;'</span> <font color="Olive" title="b2">u</font></span>)</span> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <span class="kw">commutativity</span> <span class="kw">idempotence</span> <div about="#D43" typeof="oo:Definition" class="">
+<a name="K37"><span class="kw">func</span> </a><font color="Maroon" title="c1">x</font> <span title="GRZLOG_1:func.37" data-link="756.html#ELM11510">'='</span> <font color="Maroon" title="c2">y</font><span class="kw"> -&gt; </span>  <span title="GRZLOG_1:NM.6" data-link="3976.html#ELM11473">LD-EqClass</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E43">Def93</font></span>: <a name="D45"><span class="comment"><font color="firebrick">:: GRZLOG_1:def 45</font></span><br></a> ex <font color="Olive" title="b1">t</font>, <font color="Olive" title="b2">u</font> being   <span title="GRZLOG_1:NM.2" data-link="3972.html#ELM11469">GRZ-formula</span> st <br>( <font color="Maroon" title="c1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="GRZLOG_1:func.34" data-link="3993.html#ELM11507">LD-EqClassOf</span> <font color="Olive" title="b1">t</font> &amp; <font color="Maroon" title="c2">y</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="GRZLOG_1:func.34" data-link="3993.html#ELM11507">LD-EqClassOf</span> <font color="Olive" title="b2">u</font> &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="GRZLOG_1:func.34" data-link="3993.html#ELM11507">LD-EqClassOf</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">t</font> <span title="GRZLOG_1:func.17" data-link="756.html#ELM11490">'='</span> <font color="Olive" title="b2">u</font></span>)</span> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <span class="kw">commutativity</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM14234'>
+<h2>9.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='ltlaxio1.html#K1'>ltlaxio1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">p</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="LTLAXIO1:NK.1" data-link="4941.html#ELM14231">LTLB_WFF</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="LTLAXIO1:func.1" data-link="1109.html#ELM14234">'not'</span> <font color="Maroon" title="c1">p</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="LTLAXIO1:NK.1" data-link="4941.html#ELM14231">LTLB_WFF</span> <span class="kw"> equals </span><a name="D1"><span class="comment"><font color="firebrick">:: LTLAXIO1:def 1</font></span><br></a><font color="Maroon" title="c1">p</font> <span title="HILBERT1:func.3" data-link="2071.html#ELM12018">=&gt;</span> <span title="LTLAXIO1:NK.2" data-link="4942.html#ELM14232">TFALSUM</span>;<br>
+</div>
+<span class="kw">correctness </span><br><div about="#D0" typeof="oo:Definition">
+<a name="K2"><span class="kw">func</span> </a> <span title="LTLAXIO1:func.2" data-link="4944.html#ELM14235">'X'</span> <font color="Maroon" title="c1">p</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="LTLAXIO1:NK.1" data-link="4941.html#ELM14231">LTLB_WFF</span> <span class="kw"> equals </span><a name="D2"><span class="comment"><font color="firebrick">:: LTLAXIO1:def 2</font></span><br></a><span title="LTLAXIO1:NK.2" data-link="4942.html#ELM14232">TFALSUM</span> <span title="LTLAXIO1:NK.3" data-link="4943.html#ELM14233">'U'</span> <font color="Maroon" title="c1">p</font>;<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM14381'>
+<h2>10.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='margrel1.html'>margrel1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">v</font> be   <span title="XBOOLEAN:attr.1" data-link="5002.html#ELM29672">boolean</span>   <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<span class="kw">redefine </span><span class="kw">func</span>  <span title="XBOOLEAN:func.3" data-link="1109.html#ELM29663">'not'</span> <font color="Maroon" title="c1">v</font><span class="kw"> equals </span><a name="D13"><span class="comment"><font color="firebrick">:: MARGREL1:def 13</font></span><br></a> <span title="MARGREL1:func.7" data-link="5000.html#ELM14380">TRUE</span> <span class="kw"> if </span><font color="Maroon" title="c1">v</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="MARGREL1:func.6" data-link="4999.html#ELM14379">FALSE</span> <br><span class="kw"> otherwise </span> <span title="MARGREL1:func.6" data-link="4999.html#ELM14379">FALSE</span> ;<br>
+</div>
+<span class="kw">compatibility</span> <span class="kw">consistency</span> <br><span class="kw">let </span><font color="Maroon" title="c2">w</font> be   <span title="XBOOLEAN:attr.1" data-link="5002.html#ELM29672">boolean</span>   <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span> ;<br><div about="#D0" typeof="oo:Definition" class="">
+<span class="kw">redefine </span><span class="kw">func</span> <font color="Maroon" title="c1">v</font> <span title="XBOOLEAN:func.4" data-link="799.html#ELM29664">'&amp;'</span> <font color="Maroon" title="c2">w</font><span class="kw"> equals </span><a name="D14"><span class="comment"><font color="firebrick">:: MARGREL1:def 14</font></span><br></a> <span title="MARGREL1:func.7" data-link="5000.html#ELM14380">TRUE</span> <span class="kw"> if </span>( <font color="Maroon" title="c1">v</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="MARGREL1:func.7" data-link="5000.html#ELM14380">TRUE</span>  &amp; <font color="Maroon" title="c2">w</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="MARGREL1:func.7" data-link="5000.html#ELM14380">TRUE</span>  )<br><span class="kw"> otherwise </span> <span title="MARGREL1:func.6" data-link="4999.html#ELM14379">FALSE</span> ;<br>
+</div>
+<span class="kw">compatibility</span> <span class="kw">consistency</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM14383'>
+<h2>11.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='margrel1.html#K8'>margrel1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">v</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="MARGREL1:func.5" data-link="4998.html#ELM14378">BOOLEAN</span> ;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="XBOOLEAN:func.3" data-link="1109.html#ELM29663">'not'</span><br><span class="kw">redefine </span><a name="K8"><span class="kw">func</span> </a> <span title="MARGREL1:func.8" data-link="1109.html#ELM14383">'not'</span> <font color="Maroon" title="c1">v</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="MARGREL1:func.5" data-link="4998.html#ELM14378">BOOLEAN</span> ;<br><span class="kw">correctness </span><span class="kw">by</span> <span class="lab"><span class="ref" target="_self" onmouseover="rs('margrel1/D12')" onmouseout="rh()" data-href="margrel1.html#D12">Def12</span></span>;<br><span class="kw">let </span><font color="Maroon" title="c2">w</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="MARGREL1:func.5" data-link="4998.html#ELM14378">BOOLEAN</span> ;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="XBOOLEAN:func.4" data-link="799.html#ELM29664">'&amp;'</span><br><span class="kw">redefine </span><a name="K9"><span class="kw">func</span> </a><font color="Maroon" title="c1">v</font> <span title="MARGREL1:func.9" data-link="799.html#ELM14384">'&amp;'</span> <font color="Maroon" title="c2">w</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="MARGREL1:func.5" data-link="4998.html#ELM14378">BOOLEAN</span> ;<br><span class="kw">correctness </span><span class="kw">by</span> <span class="lab"><span class="ref" target="_self" onmouseover="rs('margrel1/D12')" onmouseout="rh()" data-href="margrel1.html#D12">Def12</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster (I -TruthEval (xnot phi)) \+\ ('not' (I -TruthEval phi)) ->  empty   for   set ;
+</td><td><span data-href='fomodel2.html#FC67'>fomodel2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM14387'>
+<h2>12.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='margrel1.html#K12'>margrel1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">p</font> be   <span title="MARGREL1:attr.1" data-link="5003.html#ELM14396">boolean-valued</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><div about="#D9" typeof="oo:Definition" class="main-sentence">
+<a name="K12"><span class="kw">func</span> </a> <span title="MARGREL1:func.12" data-link="1109.html#ELM14387">'not'</span> <font color="Maroon" title="c1">p</font><span class="kw"> -&gt; </span>  <span title="MARGREL1:attr.1" data-link="5003.html#ELM14396">boolean-valued</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E9">Def17</font></span>: <a name="D17"><span class="comment"><font color="firebrick">:: MARGREL1:def 17</font></span><br></a>(  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">p</font> &amp; (  for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>   st <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">p</font> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="XBOOLEAN:func.3" data-link="1109.html#ELM29663">'not'</span> <span class="p1">(<span class="default"><font color="Maroon" title="c1">p</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font></span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <span class="kw">involutiveness</span> <span class="kw">let </span><font color="Maroon" title="c2">q</font> be   <span title="MARGREL1:attr.1" data-link="5003.html#ELM14396">boolean-valued</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><div about="#D10" typeof="oo:Definition" class="">
+<a name="K13"><span class="kw">func</span> </a><font color="Maroon" title="c1">p</font> <span title="MARGREL1:func.13" data-link="799.html#ELM14388">'&amp;'</span> <font color="Maroon" title="c2">q</font><span class="kw"> -&gt; </span>  <span title="MARGREL1:attr.1" data-link="5003.html#ELM14396">boolean-valued</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E10">Def18</font></span>: <a name="D18"><span class="comment"><font color="firebrick">:: MARGREL1:def 18</font></span><br></a>(  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">p</font></span>)</span> <span title="XBOOLE_0:func.3" data-link="1487.html#ELM29650">/\</span> <span class="p1">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c2">q</font></span>)</span> &amp; (  for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>   st <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <span class="kw">it</span> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Maroon" title="c1">p</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font></span>)</span> <span title="XBOOLEAN:func.4" data-link="799.html#ELM29664">'&amp;'</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">q</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font></span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <span class="kw">commutativity</span> <br><span class="kw">idempotence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM14389'>
+<h2>13.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='margrel1.html#K14'>margrel1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">p</font> be   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c1">A</font>,<span title="MARGREL1:func.5" data-link="4998.html#ELM14378">BOOLEAN</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<span class="comment"><font color="firebrick">:: original: </font></span><span title="MARGREL1:func.12" data-link="1109.html#ELM14387">'not'</span><br><span class="kw">redefine </span><a name="K14"><span class="kw">func</span> </a> <span title="MARGREL1:func.14" data-link="1109.html#ELM14389">'not'</span> <font color="Maroon" title="c2">p</font><span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c1">A</font>,<span title="MARGREL1:func.5" data-link="4998.html#ELM14378">BOOLEAN</span><span class="kw"> means </span><a name="D19"><span class="comment"><font color="firebrick">:: MARGREL1:def 19</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">A</font> holds  <span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="MARGREL1:func.8" data-link="1109.html#ELM14383">'not'</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">p</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">x</font></span>)</span>;<br>
+</div>
+<span class="kw">coherence</span> <span class="kw">compatibility</span> <span class="kw">let </span><font color="Maroon" title="c3">q</font> be   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c1">A</font>,<span title="MARGREL1:func.5" data-link="4998.html#ELM14378">BOOLEAN</span>;<br><div about="#D0" typeof="oo:Definition" class="">
+<span class="comment"><font color="firebrick">:: original: </font></span><span title="MARGREL1:func.13" data-link="799.html#ELM14388">'&amp;'</span><br><span class="kw">redefine </span><a name="K15"><span class="kw">func</span> </a><font color="Maroon" title="c2">p</font> <span title="MARGREL1:func.15" data-link="799.html#ELM14390">'&amp;'</span> <font color="Maroon" title="c3">q</font><span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c1">A</font>,<span title="MARGREL1:func.5" data-link="4998.html#ELM14378">BOOLEAN</span><span class="kw"> means </span><a name="D20"><span class="comment"><font color="firebrick">:: MARGREL1:def 20</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">A</font> holds  <span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">p</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">x</font></span>)</span> <span title="MARGREL1:func.9" data-link="799.html#ELM14384">'&amp;'</span> <span class="p1">(<span class="default"><font color="Maroon" title="c3">q</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">x</font></span>)</span>;<br>
+</div>
+<span class="kw">coherence</span> <span class="kw">compatibility</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM16113'>
+<h2>14.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='modal_1.html#K10'>modal_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be   <span title="MODAL_1:NM.3" data-link="5459.html#ELM16103">MP-wff</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K10"><span class="kw">func</span> </a> <span title="MODAL_1:func.10" data-link="1109.html#ELM16113">'not'</span> <font color="Maroon" title="c1">A</font><span class="kw"> -&gt; </span>  <span title="MODAL_1:NM.3" data-link="5459.html#ELM16103">MP-wff</span><span class="kw"> equals </span><a name="D8"><span class="comment"><font color="firebrick">:: MODAL_1:def 8</font></span><br></a><span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="TREES_1:func.2" data-link="8359.html#ELM27218">elementary_tree</span> 1</span>)</span> <span title="FUNCOP_1:func.8" data-link="488.html#ELM8737">--&gt;</span> <span class="p2"><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">[</span><span class="default">1,<span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span></span><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">]</span></span></span>)</span> <span title="TREES_2:func.7" data-link="318.html#ELM27252">with-replacement</span> (<span class="p1"><span title="TREES_3:func.14" data-link="669.html#ELM27292">&lt;*</span><span class="default"><span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span></span><span title="TREES_3:func.14" data-link="669.html#ELM27292">*&gt;</span></span>,<font color="Maroon" title="c1">A</font>);<br>
+</div>
+<span class="kw">coherence</span> <span class="kw">by</span> <span class="lab"><span class="ref" target="_self" onmouseover="rs('modal_1/T27')" onmouseout="rh()" data-href="modal_1.html#T27">Th22</span></span>;<br><div about="#D0" typeof="oo:Definition">
+<a name="K11"><span class="kw">func</span> </a> <span title="MODAL_1:func.11" data-link="728.html#ELM16114">(#)</span> <font color="Maroon" title="c1">A</font><span class="kw"> -&gt; </span>  <span title="MODAL_1:NM.3" data-link="5459.html#ELM16103">MP-wff</span><span class="kw"> equals </span><a name="D9"><span class="comment"><font color="firebrick">:: MODAL_1:def 9</font></span><br></a><span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="TREES_1:func.2" data-link="8359.html#ELM27218">elementary_tree</span> 1</span>)</span> <span title="FUNCOP_1:func.8" data-link="488.html#ELM8737">--&gt;</span> <span class="p2"><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">[</span><span class="default">1,1</span><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">]</span></span></span>)</span> <span title="TREES_2:func.7" data-link="318.html#ELM27252">with-replacement</span> (<span class="p1"><span title="TREES_3:func.14" data-link="669.html#ELM27292">&lt;*</span><span class="default"><span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span></span><span title="TREES_3:func.14" data-link="669.html#ELM27292">*&gt;</span></span>,<font color="Maroon" title="c1">A</font>);<br>
+</div>
+<span class="kw">coherence</span> <span class="kw">by</span> <span class="lab"><span class="ref" target="_self" onmouseover="rs('modal_1/T28')" onmouseout="rh()" data-href="modal_1.html#T28">Th23</span></span>;<br><span class="kw">let </span><font color="Maroon" title="c2">B</font> be   <span title="MODAL_1:NM.3" data-link="5459.html#ELM16103">MP-wff</span>;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K12"><span class="kw">func</span> </a><font color="Maroon" title="c1">A</font> <span title="MODAL_1:func.12" data-link="799.html#ELM16115">'&amp;'</span> <font color="Maroon" title="c2">B</font><span class="kw"> -&gt; </span>  <span title="MODAL_1:NM.3" data-link="5459.html#ELM16103">MP-wff</span><span class="kw"> equals </span><a name="D10"><span class="comment"><font color="firebrick">:: MODAL_1:def 10</font></span><br></a><span class="p1">(<span class="default"><span class="p2">(<span class="default"><span class="p3">(<span class="default"><span title="TREES_1:func.2" data-link="8359.html#ELM27218">elementary_tree</span> 2</span>)</span> <span title="FUNCOP_1:func.8" data-link="488.html#ELM8737">--&gt;</span> <span class="p3"><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">[</span><span class="default">2,<span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span></span><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">]</span></span></span>)</span> <span title="TREES_2:func.7" data-link="318.html#ELM27252">with-replacement</span> (<span class="p2"><span title="TREES_3:func.14" data-link="669.html#ELM27292">&lt;*</span><span class="default"><span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span></span><span title="TREES_3:func.14" data-link="669.html#ELM27292">*&gt;</span></span>,<font color="Maroon" title="c1">A</font>)</span>)</span> <span title="TREES_2:func.7" data-link="318.html#ELM27252">with-replacement</span> (<span class="p1"><span title="TREES_3:func.14" data-link="669.html#ELM27292">&lt;*</span><span class="default">1</span><span title="TREES_3:func.14" data-link="669.html#ELM27292">*&gt;</span></span>,<font color="Maroon" title="c2">B</font>);<br>
+</div>
+<span class="kw">coherence</span> <span class="kw">by</span> <span class="lab"><span class="ref" target="_self" onmouseover="rs('modal_1/T29')" onmouseout="rh()" data-href="modal_1.html#T29">Th24</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM16174'>
+<h2>15.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='modelc_1.html#K7'>modelc_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">p</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K7"><span class="kw">func</span> </a> <span title="MODELC_1:func.7" data-link="1109.html#ELM16174">'not'</span> <font color="Maroon" title="c1">p</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> <span class="kw"> equals </span><a name="D7"><span class="comment"><font color="firebrick">:: MODELC_1:def 7</font></span><br></a><span class="p1"><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">&lt;*</span><span class="default"><span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span></span><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">*&gt;</span></span> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <font color="Maroon" title="c1">p</font>;<br>
+</div>
+<span class="kw">coherence</span> <br><span class="kw">let </span><font color="Maroon" title="c2">q</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> ;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K8"><span class="kw">func</span> </a><font color="Maroon" title="c1">p</font> <span title="MODELC_1:func.8" data-link="799.html#ELM16175">'&amp;'</span> <font color="Maroon" title="c2">q</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> <span class="kw"> equals </span><a name="D8"><span class="comment"><font color="firebrick">:: MODELC_1:def 8</font></span><br></a><span class="p1">(<span class="default"><span class="p2"><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">&lt;*</span><span class="default">1</span><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">*&gt;</span></span> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <font color="Maroon" title="c1">p</font></span>)</span> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <font color="Maroon" title="c2">q</font>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  'not' H ->  CTL-formula-like  ;
+</td><td><span data-href='modelc_1.html#FC2'>modelc_1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM16192'>
+<h2>16.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='modelc_1.html#NK25'>modelc_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">notation</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">V</font> be   <span title="MODELC_1:NM.3" data-link="5479.html#ELM16166">CTLModel</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be   <span title="MODELC_1:NM.2" data-link="5478.html#ELM16165">Assign</span> of <font color="Maroon" title="c1">V</font>;<br><a name="NK25"><span class="kw">synonym </span> </a><span title="ROBBINS1:func.3" data-link="953.html#ELM23396">'not'</span> <font color="Maroon" title="c2">f</font><span class="kw"> for </span><font color="Maroon" title="c2">f</font> <span title="ROBBINS1:func.3" data-link="953.html#ELM23396">`</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">g</font> be   <span title="MODELC_1:NM.2" data-link="5478.html#ELM16165">Assign</span> of <font color="Maroon" title="c1">V</font>;<br><a name="NK26"><span class="kw">synonym </span><font color="Maroon" title="c2">f</font> </a><span title="LATTICES:func.2" data-link="1856.html#ELM13599">'&amp;'</span> <font color="Maroon" title="c3">g</font><span class="kw"> for </span><font color="Maroon" title="c2">f</font> <span title="LATTICES:func.2" data-link="1856.html#ELM13599">"/\"</span> <font color="Maroon" title="c3">g</font>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM16272'>
+<h2>17.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='modelc_2.html#K3'>modelc_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">p</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="MODELC_2:func.3" data-link="1109.html#ELM16272">'not'</span> <font color="Maroon" title="c1">p</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> <span class="kw"> equals </span><a name="D3"><span class="comment"><font color="firebrick">:: MODELC_2:def 3</font></span><br></a><span class="p1"><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">&lt;*</span><span class="default"><span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span></span><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">*&gt;</span></span> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <font color="Maroon" title="c1">p</font>;<br>
+</div>
+<span class="kw">coherence</span> <br><span class="kw">let </span><font color="Maroon" title="c2">q</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> ;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K4"><span class="kw">func</span> </a><font color="Maroon" title="c1">p</font> <span title="MODELC_2:func.4" data-link="799.html#ELM16273">'&amp;'</span> <font color="Maroon" title="c2">q</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> <span class="kw"> equals </span><a name="D4"><span class="comment"><font color="firebrick">:: MODELC_2:def 4</font></span><br></a><span class="p1">(<span class="default"><span class="p2"><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">&lt;*</span><span class="default">1</span><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">*&gt;</span></span> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <font color="Maroon" title="c1">p</font></span>)</span> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <font color="Maroon" title="c2">q</font>;<br>
+</div>
+<span class="kw">coherence</span> <br><div about="#D0" typeof="oo:Definition">
+<a name="K5"><span class="kw">func</span> </a><font color="Maroon" title="c1">p</font> <span title="MODELC_2:func.5" data-link="1107.html#ELM16274">'or'</span> <font color="Maroon" title="c2">q</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> <span class="kw"> equals </span><a name="D5"><span class="comment"><font color="firebrick">:: MODELC_2:def 5</font></span><br></a><span class="p1">(<span class="default"><span class="p2"><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">&lt;*</span><span class="default">2</span><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">*&gt;</span></span> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <font color="Maroon" title="c1">p</font></span>)</span> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <font color="Maroon" title="c2">q</font>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  'not' H ->  LTL-formula-like  ;
+</td><td><span data-href='modelc_2.html#FC2'>modelc_2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM16291'>
+<h2>18.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='modelc_2.html#NK22'>modelc_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">notation</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">V</font> be   <span title="MODELC_2:NM.3" data-link="4940.html#ELM16269">LTLModel</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be   <span title="MODELC_2:NM.2" data-link="5478.html#ELM16268">Assign</span> of <font color="Maroon" title="c1">V</font>;<br><a name="NK22"><span class="kw">synonym </span> </a><span title="ROBBINS1:func.3" data-link="953.html#ELM23396">'not'</span> <font color="Maroon" title="c2">f</font><span class="kw"> for </span><font color="Maroon" title="c2">f</font> <span title="ROBBINS1:func.3" data-link="953.html#ELM23396">`</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">g</font> be   <span title="MODELC_2:NM.2" data-link="5478.html#ELM16268">Assign</span> of <font color="Maroon" title="c1">V</font>;<br><a name="NK23"><span class="kw">synonym </span><font color="Maroon" title="c2">f</font> </a><span title="LATTICES:func.2" data-link="1856.html#ELM13599">'&amp;'</span> <font color="Maroon" title="c3">g</font><span class="kw"> for </span><font color="Maroon" title="c2">f</font> <span title="LATTICES:func.2" data-link="1856.html#ELM13599">"/\"</span> <font color="Maroon" title="c3">g</font>;<br><a name="NK24"><span class="kw">synonym </span><font color="Maroon" title="c2">f</font> </a><span title="LATTICES:func.1" data-link="1857.html#ELM13598">'or'</span> <font color="Maroon" title="c3">g</font><span class="kw"> for </span><font color="Maroon" title="c2">f</font> <span title="LATTICES:func.1" data-link="1857.html#ELM13598">"\/"</span> <font color="Maroon" title="c3">g</font>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20432'>
+<h2>19.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='pl_axiom.html#K6'>pl_axiom</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">p</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="PL_AXIOM:func.1" data-link="6740.html#ELM20427">PL-WFF</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K6"><span class="kw">func</span> </a> <span title="PL_AXIOM:func.6" data-link="1109.html#ELM20432">'not'</span> <font color="Maroon" title="c1">p</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="PL_AXIOM:func.1" data-link="6740.html#ELM20427">PL-WFF</span> <span class="kw"> equals </span><a name="D9"><span class="comment"><font color="firebrick">:: PL_AXIOM:def 9</font></span><br></a><font color="Maroon" title="c1">p</font> <span title="PL_AXIOM:func.3" data-link="2071.html#ELM20429">=&gt;</span> <span title="PL_AXIOM:func.2" data-link="6741.html#ELM20428">FaLSUM</span>;<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM21590'>
+<h2>20.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='qc_lang1.html#K13'>qc_lang1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be    <span title="QC_LANG1:mode.1" data-link="7084.html#ELM21567">QC-alphabet</span> ;<br><div about="#D0" typeof="oo:Definition">
+<a name="K12"><span class="kw">func</span> </a> <span title="QC_LANG1:func.12" data-link="2070.html#ELM21589">VERUM</span> <font color="Maroon" title="c1">A</font><span class="kw"> -&gt; </span>  <span title="QC_LANG1:NM.10" data-link="7092.html#ELM21576">QC-formula</span> of <font color="Maroon" title="c1">A</font><span class="kw"> equals </span><a name="D14"><span class="comment"><font color="firebrick">:: QC_LANG1:def 14</font></span><br></a><span class="p1"><span title="FINSEQ_1:func.9" data-link="669.html#ELM7102">&lt;*</span><span class="default"><span class="p2"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>,<span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span></span><span title="FINSEQ_1:func.9" data-link="669.html#ELM7102">*&gt;</span></span>;<br>
+</div>
+<span class="kw">coherence</span> <span class="kw">let </span><font color="Maroon" title="c2">p</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="QC_LANG1:func.9" data-link="7100.html#ELM21586">QC-WFF</span> <font color="Maroon" title="c1">A</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K13"><span class="kw">func</span> </a> <span title="QC_LANG1:func.13" data-link="1109.html#ELM21590">'not'</span> <font color="Maroon" title="c2">p</font><span class="kw"> -&gt; </span>  <span title="QC_LANG1:NM.10" data-link="7092.html#ELM21576">QC-formula</span> of <font color="Maroon" title="c1">A</font><span class="kw"> equals </span><a name="D15"><span class="comment"><font color="firebrick">:: QC_LANG1:def 15</font></span><br></a><span class="p1"><span title="FINSEQ_1:func.9" data-link="669.html#ELM7102">&lt;*</span><span class="default"><span class="p2"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default">1,<span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span></span><span title="FINSEQ_1:func.9" data-link="669.html#ELM7102">*&gt;</span></span> <span title="FINSEQ_1:func.7" data-link="235.html#ELM7100">^</span> <span class="p1">(<span class="default"><span title="QC_LANG1:func.11" data-link="104.html#ELM21588">@</span> <font color="Maroon" title="c2">p</font></span>)</span>;<br>
+</div>
+<span class="kw">coherence</span> <span class="kw">let </span><font color="Maroon" title="c3">q</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="QC_LANG1:func.9" data-link="7100.html#ELM21586">QC-WFF</span> <font color="Maroon" title="c1">A</font>;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K14"><span class="kw">func</span> </a><font color="Maroon" title="c2">p</font> <span title="QC_LANG1:func.14" data-link="799.html#ELM21591">'&amp;'</span> <font color="Maroon" title="c3">q</font><span class="kw"> -&gt; </span>  <span title="QC_LANG1:NM.10" data-link="7092.html#ELM21576">QC-formula</span> of <font color="Maroon" title="c1">A</font><span class="kw"> equals </span><a name="D16"><span class="comment"><font color="firebrick">:: QC_LANG1:def 16</font></span><br></a><span class="p1">(<span class="default"><span class="p2"><span title="FINSEQ_1:func.9" data-link="669.html#ELM7102">&lt;*</span><span class="default"><span class="p3"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default">2,<span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span></span><span title="FINSEQ_1:func.9" data-link="669.html#ELM7102">*&gt;</span></span> <span title="FINSEQ_1:func.7" data-link="235.html#ELM7100">^</span> <span class="p2">(<span class="default"><span title="QC_LANG1:func.11" data-link="104.html#ELM21588">@</span> <font color="Maroon" title="c2">p</font></span>)</span></span>)</span> <span title="FINSEQ_1:func.7" data-link="235.html#ELM7100">^</span> <span class="p1">(<span class="default"><span title="QC_LANG1:func.11" data-link="104.html#ELM21588">@</span> <font color="Maroon" title="c3">q</font></span>)</span>;<br>
+</div>
+<span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM21686'>
+<h2>21.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='qmax_1.html#K8'>qmax_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c6">Q</font> be   <span title="QMAX_1:NM.1" data-link="7127.html#ELM21678">Quantum_Mechanics</span>;<br><span class="kw">let </span><font color="Maroon" title="c7">p</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="QMAX_1:func.5" data-link="6742.html#ELM21683">Prop</span> <font color="Maroon" title="c6">Q</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K8"><span class="kw">func</span> </a> <span title="QMAX_1:func.8" data-link="1109.html#ELM21686">'not'</span> <font color="Maroon" title="c2">p</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="QMAX_1:func.5" data-link="6742.html#ELM21683">Prop</span> <font color="Maroon" title="c1">Q</font><span class="kw"> equals </span><a name="D9"><span class="comment"><font color="firebrick">:: QMAX_1:def 9</font></span><br></a><span class="p1"><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">[</span><span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c2">p</font> <span title="QMAX_1:func.6" data-link="54.html#ELM21684">`1</span></span>)</span>,<span class="p2">(<span class="default"><span class="p3">(<span class="default"><font color="Maroon" title="c2">p</font> <span title="QMAX_1:func.7" data-link="55.html#ELM21685">`2</span></span>)</span> <span title="SUBSET_1:func.3" data-link="953.html#ELM25872">`</span></span>)</span></span><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">]</span></span>;<br>
+</div>
+<span class="kw">coherence</span> <span class="kw">involutiveness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM29283'>
+<h2>22.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='waybel_1.html#K7'>waybel_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">H</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">a</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">H</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K7"><span class="kw">func</span> </a> <span title="WAYBEL_1:func.7" data-link="1109.html#ELM29283">'not'</span> <font color="Maroon" title="c2">a</font><span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">H</font><span class="kw"> equals </span><a name="D22"><span class="comment"><font color="firebrick">:: WAYBEL_1:def 22</font></span><br></a><font color="Maroon" title="c2">a</font> <span title="WAYBEL_1:func.6" data-link="2071.html#ELM29282">=&gt;</span> <span class="p1">(<span class="default"><span title="YELLOW_0:func.3" data-link="4739.html#ELM30194">Bottom</span> <font color="Maroon" title="c1">H</font></span>)</span>;<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM29663'>
+<h2>23.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='xboolean.html#K3'>xboolean</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">p</font> be   <span title="XBOOLEAN:attr.1" data-link="5002.html#ELM29672">boolean</span>   <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="XBOOLEAN:func.3" data-link="1109.html#ELM29663">'not'</span> <font color="Maroon" title="c1">p</font><span class="kw"> -&gt; </span>  <span title="XBOOLEAN:attr.1" data-link="5002.html#ELM29672">boolean</span>   <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span> <span class="kw"> equals </span><a name="D4"><span class="comment"><font color="firebrick">:: XBOOLEAN:def 4</font></span><br></a>1 <span title="XCMPLX_0:func.6" data-link="327.html#ELM29691">-</span> <font color="Maroon" title="c1">p</font>;<br>
+</div>
+<span class="kw">coherence</span> <span class="kw">involutiveness</span> <br><span class="kw">let </span><font color="Maroon" title="c2">q</font> be   <span title="XBOOLEAN:attr.1" data-link="5002.html#ELM29672">boolean</span>   <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span> ;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K4"><span class="kw">func</span> </a><font color="Maroon" title="c1">p</font> <span title="XBOOLEAN:func.4" data-link="799.html#ELM29664">'&amp;'</span> <font color="Maroon" title="c2">q</font><span class="kw"> -&gt; </span>   <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span> <span class="kw"> equals </span><a name="D5"><span class="comment"><font color="firebrick">:: XBOOLEAN:def 5</font></span><br></a><font color="Maroon" title="c1">p</font> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <font color="Maroon" title="c2">q</font>;<br>
+</div>
+<span class="kw">correctness </span><br><span class="kw">commutativity</span> <br><span class="kw">idempotence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM30506'>
+<h2>24.   <span data-link='1109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='zf_lang.html#K5'>zf_lang</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">p</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K5"><span class="kw">func</span> </a> <span title="ZF_LANG:func.5" data-link="1109.html#ELM30506">'not'</span> <font color="Maroon" title="c1">p</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> <span class="kw"> equals </span><a name="D5"><span class="comment"><font color="firebrick">:: ZF_LANG:def 5</font></span><br></a><span class="p1"><span title="TREES_3:func.14" data-link="669.html#ELM27292">&lt;*</span><span class="default">2</span><span title="TREES_3:func.14" data-link="669.html#ELM27292">*&gt;</span></span> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <font color="Maroon" title="c1">p</font>;<br>
+</div>
+<span class="kw">coherence</span> <br><span class="kw">let </span><font color="Maroon" title="c2">q</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> ;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K6"><span class="kw">func</span> </a><font color="Maroon" title="c1">p</font> <span title="ZF_LANG:func.6" data-link="799.html#ELM30507">'&amp;'</span> <font color="Maroon" title="c2">q</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> <span class="kw"> equals </span><a name="D6"><span class="comment"><font color="firebrick">:: ZF_LANG:def 6</font></span><br></a><span class="p1">(<span class="default"><span class="p2"><span title="TREES_3:func.14" data-link="669.html#ELM27292">&lt;*</span><span class="default">3</span><span title="TREES_3:func.14" data-link="669.html#ELM27292">*&gt;</span></span> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <font color="Maroon" title="c1">p</font></span>)</span> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <font color="Maroon" title="c2">q</font>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  'not' H ->  ZF-formula-like  ;
+</td><td><span data-href='zf_lang.html#FC4'>zf_lang</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

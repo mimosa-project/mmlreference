@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>simplex-join-closed</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr simplex-join-closed</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='7933.html#ELM25301'>simplex-join-closed</span> [<span data-href='simplex1.html#V2'>simplex1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM25301'>
+<h2>1.   <span data-link='7933.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='simplex1.html#V2'>simplex1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">RLS</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="RLVECT_1:struct.1" data-link="7510.html#ELM23286">RLSStruct</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">Kr</font> be   <span title="SIMPLEX1:NM.1" data-link="7915.html#ELM25291">SimplicialComplexStr</span> of <font color="Maroon" title="c1">RLS</font>;<br><div about="#D27" typeof="oo:Definition" class="main-sentence">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c2">Kr</font> is  <span title="SIMPLEX1:attr.2" data-link="7933.html#ELM25301">simplex-join-closed</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E27">Def8</font></span>: <a name="D8"><span class="comment"><font color="firebrick">:: SIMPLEX1:def 8</font></span><br></a> for <font color="Olive" title="b1">A</font>, <font color="Olive" title="b2">B</font> being   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c2">Kr</font>  st <font color="Olive" title="b1">A</font> is  <span title="SIMPLEX0:NV.2" data-link="7926.html#ELM25225">simplex-like</span>  &amp; <font color="Olive" title="b2">B</font> is  <span title="SIMPLEX0:NV.2" data-link="7926.html#ELM25225">simplex-like</span>  holds <br><span class="p1">(<span class="default"><span title="CONVEX1:func.3" data-link="2035.html#ELM5393">conv</span> <span class="p2">(<span class="default"><span title="SIMPLEX1:func.1" data-link="104.html#ELM25295">@</span> <font color="Olive" title="b1">A</font></span>)</span></span>)</span> <span title="SUBSET_1:func.9" data-link="1487.html#ELM25878">/\</span> <span class="p1">(<span class="default"><span title="CONVEX1:func.3" data-link="2035.html#ELM5393">conv</span> <span class="p2">(<span class="default"><span title="SIMPLEX1:func.1" data-link="104.html#ELM25295">@</span> <font color="Olive" title="b2">B</font></span>)</span></span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="CONVEX1:func.3" data-link="2035.html#ELM5393">conv</span> <span class="p1">(<span class="default"><span title="SIMPLEX1:func.1" data-link="104.html#ELM25295">@</span> <span class="p2">(<span class="default"><font color="Olive" title="b1">A</font> <span title="SUBSET_1:func.9" data-link="1487.html#ELM25878">/\</span> <font color="Olive" title="b2">B</font></span>)</span></span>)</span>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  empty-membered   ->  simplex-join-closed   for    SimplicialComplexStr of  the carrier of RLS;
+</td><td><span data-href='simplex1.html#CC3'>simplex1</span></td></tr>
+<tr><td>
+cluster  Complex_of {I} ->  simplex-join-closed  ;
+</td><td><span data-href='simplex1.html#FC4'>simplex1</span></td></tr>
+<tr><td>
+cluster  subset-closed   finite-membered   finite-vertices   with_non-empty_element   total   affinely-independent   simplex-join-closed   for    SimplicialComplexStr of  the carrier of V;
+</td><td><span data-href='simplex1.html#RC4'>simplex1</span></td></tr>
+<tr><td>
+cluster   ->  simplex-join-closed   for    SubSimplicialComplex of K;
+</td><td><span data-href='simplex1.html#CC5'>simplex1</span></td></tr>
+<tr><td>
+cluster (center_of_mass V) |  the topology of Kas ->  one-to-one  ;
+</td><td><span data-href='simplex1.html#FC8'>simplex1</span></td></tr>
+<tr><td>
+cluster  BCS K ->  non  void   simplex-join-closed  ;
+</td><td><span data-href='simplex1.html#FC9'>simplex1</span></td></tr>
+<tr><td>
+cluster  BCS (n,K) ->  non  void   simplex-join-closed  ;
+</td><td><span data-href='simplex1.html#FC10'>simplex1</span></td></tr>
+<tr><td>
+cluster  non  void   subset-closed   finite-membered   finite-degree   total   affinely-independent   simplex-join-closed   bounded   for    SimplicialComplexStr of  the carrier of (TOP-REAL n);
+</td><td><span data-href='simplex2.html#RC3'>simplex2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

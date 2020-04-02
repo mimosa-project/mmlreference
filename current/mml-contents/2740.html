@@ -1,0 +1,220 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>|--</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func |--</h1>
+<h2>List of Definitions (10)</h2>
+<ol>
+<li><span data-link='2740.html#ELM7216'>|--</span> [<span data-href='finseq_4.html#K6'>finseq_4</span>]</li>
+<li><span data-link='2740.html#ELM14806'>|--</span> [<span data-href='matrlin.html#K9'>matrlin</span>]</li>
+<li><span data-link='2740.html#ELM23179'>|--</span> [<span data-href='rlaffin1.html#K5'>rlaffin1</span>]</li>
+<li><span data-link='2740.html#ELM23203'>|--</span> [<span data-href='rlaffin3.html#K1'>rlaffin3</span>]</li>
+<li><span data-link='2740.html#ELM23204'>|--</span> [<span data-href='rlaffin3.html#K2'>rlaffin3</span>]</li>
+<li><span data-link='2740.html#ELM23226'>|--</span> [<span data-href='rlsub_2.html#K4'>rlsub_2</span>]</li>
+<li><span data-link='2740.html#ELM23370'>|--</span> [<span data-href='rmod_3.html#K4'>rmod_3</span>]</li>
+<li><span data-link='2740.html#ELM23866'>|--</span> [<span data-href='rusub_2.html#K4'>rusub_2</span>]</li>
+<li><span data-link='2740.html#ELM28608'>|--</span> [<span data-href='vectsp_5.html#K4'>vectsp_5</span>]</li>
+<li><span data-link='2740.html#ELM30614'>|--</span> [<span data-href='zmatrlin.html#K9'>zmatrlin</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM7216'>
+<h2>1.   <span data-link='2740.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='finseq_4.html#K6'>finseq_4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">p</font> be   <span title="FINSEQ_1:NM.1" data-link="27.html#ELM7089">FinSequence</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">x</font> be    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span> ;<br><span class="kw">assume </span><a name="E1:48"></a><span class="lab"><font color="Green" title="E29">A1</font></span>: 
+<font color="Maroon" title="c2">x</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <font color="Maroon" title="c1">p</font>
+ ;<br><div about="#D29" typeof="oo:Definition" class="main-sentence">
+<a name="K6"><span class="kw">func</span> </a><font color="Maroon" title="c1">p</font> <span title="FINSEQ_4:func.6" data-link="2740.html#ELM7216">|--</span> <font color="Maroon" title="c2">x</font><span class="kw"> -&gt; </span>  <span title="FINSEQ_1:NM.1" data-link="27.html#ELM7089">FinSequence</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E29">Def6</font></span>: <a name="D6"><span class="comment"><font color="firebrick">:: FINSEQ_4:def 6</font></span><br></a>(  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c1">p</font></span>)</span> <span title="XCMPLX_0:func.6" data-link="327.html#ELM29691">-</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">x</font> <span title="FINSEQ_4:func.4" data-link="1668.html#ELM7214">..</span> <font color="Maroon" title="c1">p</font></span>)</span> &amp; (  for <font color="Olive" title="b1">k</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b1">k</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <span class="kw">it</span> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">k</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">p</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">k</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> <span class="p2">(<span class="default"><font color="Maroon" title="c2">x</font> <span title="FINSEQ_4:func.4" data-link="1668.html#ELM7214">..</span> <font color="Maroon" title="c1">p</font></span>)</span></span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM14806'>
+<h2>2.   <span data-link='2740.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='matrlin.html#K9'>matrlin</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">K</font> be   <span title="VECTSP_1:NM.5" data-link="4666.html#ELM28502">Field</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">V</font> be   <span title="MATRLIN:attr.1" data-link="5126.html#ELM14808">finite-dimensional</span>  <span title="VECTSP_1:NM.9" data-link="8607.html#ELM28506">VectSp</span> of <font color="Maroon" title="c1">K</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">b1</font> be    <span title="MATRLIN:mode.1" data-link="5124.html#ELM14797">OrdBasis</span> of <font color="Maroon" title="c2">V</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">W</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c2">V</font>;<br><div about="#D37" typeof="oo:Definition" class="main-sentence">
+<a name="K9"><span class="kw">func</span> </a><font color="Maroon" title="c4">W</font> <span title="MATRLIN:func.9" data-link="2740.html#ELM14806">|--</span> <font color="Maroon" title="c3">b1</font><span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.7" data-link="27.html#ELM25753">FinSequence</span> of <font color="Maroon" title="c1">K</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E37">Def7</font></span>: <a name="D7"><span class="comment"><font color="firebrick">:: MATRLIN:def 7</font></span><br></a>(  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c3">b1</font> &amp;  ex <font color="Olive" title="b1">KL</font> being    <span title="VECTSP_6:mode.1" data-link="7516.html#ELM28613">Linear_Combination</span> of <font color="Maroon" title="c2">V</font> st <br>( <font color="Maroon" title="c4">W</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="VECTSP_6:func.4" data-link="252.html#ELM28618">Sum</span> <font color="Olive" title="b1">KL</font> &amp;  <span title="VECTSP_6:func.1" data-link="2042.html#ELM28615">Carrier</span> <font color="Olive" title="b1">KL</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span>  <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <font color="Maroon" title="c3">b1</font> &amp; (  for <font color="Olive" title="b2">k</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st 1 <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b2">k</font> &amp; <font color="Olive" title="b2">k</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <span class="kw">it</span> holds <br><span class="kw">it</span> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b2">k</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">KL</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <span class="p1">(<span class="default"><font color="Maroon" title="c3">b1</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b2">k</font></span>)</span> ) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM23179'>
+<h2>3.   <span data-link='2740.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rlaffin1.html#K5'>rlaffin1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">V</font> be   <span title="RLVECT_1:NM.2" data-link="7511.html#ELM23288">RealLinearSpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">A</font> be   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c2">V</font>;<br><span class="kw">assume </span><a name="E1:93"></a><span class="lab"><font color="Green" title="E66">A1</font></span>: 
+<font color="Maroon" title="c3">A</font> is  <span title="RLAFFIN1:attr.1" data-link="7495.html#ELM23180">affinely-independent</span> 
+ ;<br><span class="kw">let </span><font color="Maroon" title="c4">x</font> be    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span> ;<br><span class="kw">assume </span><a name="E2:93"></a><span class="lab"><font color="Green" title="E67">A2</font></span>: 
+<font color="Maroon" title="c4">x</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="RLAFFIN1:func.4" data-link="7494.html#ELM23178">Affin</span> <font color="Maroon" title="c3">A</font>
+ ;<br><div about="#D66" typeof="oo:Definition" class="main-sentence">
+<a name="K5"><span class="kw">func</span> </a><font color="Maroon" title="c3">x</font> <span title="RLAFFIN1:func.5" data-link="2740.html#ELM23179">|--</span> <font color="Maroon" title="c2">A</font><span class="kw"> -&gt; </span>   <span title="RLVECT_2:mode.2" data-link="7516.html#ELM23320">Linear_Combination</span> of <font color="Maroon" title="c2">A</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E66">Def7</font></span>: <a name="D7"><span class="comment"><font color="firebrick">:: RLAFFIN1:def 7</font></span><br></a>(  <span title="RLVECT_2:func.6" data-link="252.html#ELM23327">Sum</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">x</font> &amp;  <span title="RLAFFIN1:func.3" data-link="1063.html#ELM23177">sum</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> 1 );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM23203'>
+<h2>4.   <span data-link='2740.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rlaffin3.html#K1'>rlaffin3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">V</font> be   <span title="RLVECT_1:NM.2" data-link="7511.html#ELM23288">RealLinearSpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">Av</font> be   <span title="FINSET_1:attr.1" data-link="2772.html#ELM7423">finite</span>  <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">V</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">E</font> be    <span title="RLAFFIN3:mode.2" data-link="718.html#ELM23202">Enumeration</span> of <font color="Maroon" title="c2">Av</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">x</font> be    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a><font color="Maroon" title="c4">x</font> <span title="RLAFFIN3:func.1" data-link="2740.html#ELM23203">|--</span> <font color="Maroon" title="c3">E</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span> <span class="kw"> equals </span><a name="D2"><span class="comment"><font color="firebrick">:: RLAFFIN3:def 2</font></span><br></a><span class="p1">(<span class="default"><font color="Maroon" title="c4">x</font> <span title="RLAFFIN1:func.5" data-link="2740.html#ELM23179">|--</span> <font color="Maroon" title="c2">Av</font></span>)</span> <span title="FINSEQOP:func.4" data-link="47.html#ELM7418">*</span> <font color="Maroon" title="c3">E</font>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM23204'>
+<h2>5.   <span data-link='2740.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rlaffin3.html#K2'>rlaffin3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">V</font> be   <span title="RLVECT_1:NM.2" data-link="7511.html#ELM23288">RealLinearSpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font> be   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">V</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">x</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D35" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="RLAFFIN3:func.2" data-link="2740.html#ELM23204">|--</span> (<font color="Maroon" title="c2">A</font>,<font color="Maroon" title="c3">x</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.6" data-link="3155.html#ELM25752">Function</span> of <font color="Maroon" title="c1">V</font>,<span title="TOPMETR:func.3" data-link="8217.html#ELM26817">R^1</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E35">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: RLAFFIN3:def 3</font></span><br></a> for <font color="Olive" title="b1">v</font> being   <span title="RLVECT_1:NM.1" data-link="1812.html#ELM23287">VECTOR</span> of <font color="Maroon" title="c1">V</font> holds  <span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">v</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">v</font> <span title="RLAFFIN1:func.5" data-link="2740.html#ELM23179">|--</span> <font color="Maroon" title="c2">A</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c3">x</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM23226'>
+<h2>6.   <span data-link='2740.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rlsub_2.html#K4'>rlsub_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">V</font> be   <span title="RLVECT_1:NM.2" data-link="7511.html#ELM23288">RealLinearSpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">v</font> be   <span title="RLVECT_1:NM.1" data-link="1812.html#ELM23287">VECTOR</span> of <font color="Maroon" title="c1">V</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">W1</font>, <font color="Maroon" title="c4">W2</font> be    <span title="RLSUB_1:mode.1" data-link="1814.html#ELM23214">Subspace</span> of <font color="Maroon" title="c1">V</font>;<br><span class="kw">assume </span><a name="E1:51"></a><span class="lab"><font color="Green" title="E44">A1</font></span>: 
+<font color="Maroon" title="c1">V</font> <span title="RLSUB_2:pred.1" data-link="7497.html#ELM23221">is_the_direct_sum_of</span> <font color="Maroon" title="c3">W1</font>,<font color="Maroon" title="c4">W2</font>
+ ;<br><div about="#D44" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a><font color="Maroon" title="c2">v</font> <span title="RLSUB_2:func.4" data-link="2740.html#ELM23226">|--</span> (<font color="Maroon" title="c3">W1</font>,<font color="Maroon" title="c4">W2</font>)<span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <span class="p1"><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">[:</span><span class="default"> the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">V</font>, the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">V</font></span><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">:]</span></span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E44">Def6</font></span>: <a name="D6"><span class="comment"><font color="firebrick">:: RLSUB_2:def 6</font></span><br></a>( <font color="Maroon" title="c2">v</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span class="kw">it</span> <span title="DOMAIN_1:func.2" data-link="54.html#ELM5993">`1</span></span>)</span> <span title="RLVECT_1:func.3" data-link="229.html#ELM23291">+</span> <span class="p1">(<span class="default"><span class="kw">it</span> <span title="DOMAIN_1:func.3" data-link="55.html#ELM5994">`2</span></span>)</span> &amp; <span class="kw">it</span> <span title="DOMAIN_1:func.2" data-link="54.html#ELM5993">`1</span>  <span title="STRUCT_0:pred.1" data-link="4139.html#ELM25741">in</span> <font color="Maroon" title="c3">W1</font> &amp; <span class="kw">it</span> <span title="DOMAIN_1:func.3" data-link="55.html#ELM5994">`2</span>  <span title="STRUCT_0:pred.1" data-link="4139.html#ELM25741">in</span> <font color="Maroon" title="c4">W2</font> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM23370'>
+<h2>7.   <span data-link='2740.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rmod_3.html#K4'>rmod_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font> be   <span title="VECTSP_1:NM.3" data-link="8605.html#ELM28500">Ring</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">V</font> be   <span title="VECTSP_2:NM.6" data-link="8617.html#ELM28566">RightMod</span> of <font color="Maroon" title="c1">R</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">v</font> be   <span title="VECTSP_2:NM.4" data-link="4832.html#ELM28564">Vector</span> of <font color="Maroon" title="c2">V</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">W1</font>, <font color="Maroon" title="c5">W2</font> be    <span title="RMOD_2:mode.1" data-link="3300.html#ELM23359">Submodule</span> of <font color="Maroon" title="c2">V</font>;<br><span class="kw">assume </span><a name="E1:50"></a><span class="lab"><font color="Green" title="E37">A1</font></span>: 
+<font color="Maroon" title="c2">V</font> <span title="RMOD_3:pred.1" data-link="7497.html#ELM23366">is_the_direct_sum_of</span> <font color="Maroon" title="c4">W1</font>,<font color="Maroon" title="c5">W2</font>
+ ;<br><div about="#D37" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a><font color="Maroon" title="c3">v</font> <span title="RMOD_3:func.4" data-link="2740.html#ELM23370">|--</span> (<font color="Maroon" title="c4">W1</font>,<font color="Maroon" title="c5">W2</font>)<span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <span class="p1"><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">[:</span><span class="default"> the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c2">V</font>, the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c2">V</font></span><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">:]</span></span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E37">Def5</font></span>: <a name="D5"><span class="comment"><font color="firebrick">:: RMOD_3:def 5</font></span><br></a>( <font color="Maroon" title="c3">v</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span class="kw">it</span> <span title="DOMAIN_1:func.2" data-link="54.html#ELM5993">`1</span></span>)</span> <span title="RLVECT_1:func.3" data-link="229.html#ELM23291">+</span> <span class="p1">(<span class="default"><span class="kw">it</span> <span title="DOMAIN_1:func.3" data-link="55.html#ELM5994">`2</span></span>)</span> &amp; <span class="kw">it</span> <span title="DOMAIN_1:func.2" data-link="54.html#ELM5993">`1</span>  <span title="STRUCT_0:pred.1" data-link="4139.html#ELM25741">in</span> <font color="Maroon" title="c4">W1</font> &amp; <span class="kw">it</span> <span title="DOMAIN_1:func.3" data-link="55.html#ELM5994">`2</span>  <span title="STRUCT_0:pred.1" data-link="4139.html#ELM25741">in</span> <font color="Maroon" title="c5">W2</font> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM23866'>
+<h2>8.   <span data-link='2740.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rusub_2.html#K4'>rusub_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">V</font> be   <span title="BHSP_1:NM.1" data-link="1036.html#ELM2529">RealUnitarySpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">v</font> be   <span title="RLVECT_1:NM.1" data-link="1812.html#ELM23287">VECTOR</span> of <font color="Maroon" title="c1">V</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">W1</font>, <font color="Maroon" title="c4">W2</font> be    <span title="RUSUB_1:mode.1" data-link="1814.html#ELM23855">Subspace</span> of <font color="Maroon" title="c1">V</font>;<br><span class="kw">assume </span><a name="E1:53"></a><span class="lab"><font color="Green" title="E45">A1</font></span>: 
+<font color="Maroon" title="c1">V</font> <span title="RUSUB_2:pred.1" data-link="7497.html#ELM23861">is_the_direct_sum_of</span> <font color="Maroon" title="c3">W1</font>,<font color="Maroon" title="c4">W2</font>
+ ;<br><div about="#D45" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a><font color="Maroon" title="c2">v</font> <span title="RUSUB_2:func.4" data-link="2740.html#ELM23866">|--</span> (<font color="Maroon" title="c3">W1</font>,<font color="Maroon" title="c4">W2</font>)<span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <span class="p1"><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">[:</span><span class="default"> the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">V</font>, the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">V</font></span><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">:]</span></span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E45">Def6</font></span>: <a name="D6"><span class="comment"><font color="firebrick">:: RUSUB_2:def 6</font></span><br></a>( <font color="Maroon" title="c2">v</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span class="kw">it</span> <span title="DOMAIN_1:func.2" data-link="54.html#ELM5993">`1</span></span>)</span> <span title="RLVECT_1:func.3" data-link="229.html#ELM23291">+</span> <span class="p1">(<span class="default"><span class="kw">it</span> <span title="DOMAIN_1:func.3" data-link="55.html#ELM5994">`2</span></span>)</span> &amp; <span class="kw">it</span> <span title="DOMAIN_1:func.2" data-link="54.html#ELM5993">`1</span>  <span title="STRUCT_0:pred.1" data-link="4139.html#ELM25741">in</span> <font color="Maroon" title="c3">W1</font> &amp; <span class="kw">it</span> <span title="DOMAIN_1:func.3" data-link="55.html#ELM5994">`2</span>  <span title="STRUCT_0:pred.1" data-link="4139.html#ELM25741">in</span> <font color="Maroon" title="c4">W2</font> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM28608'>
+<h2>9.   <span data-link='2740.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='vectsp_5.html#K4'>vectsp_5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">GF</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ALGSTR_0:attr.13" data-link="337.html#ELM766">right_complementable</span>   <span title="VECTSP_1:attr.4" data-link="5661.html#ELM28516">well-unital</span>   <span title="VECTSP_1:attr.5" data-link="3919.html#ELM28517">distributive</span>   <span title="RLVECT_1:attr.2" data-link="7513.html#ELM23295">Abelian</span>   <span title="RLVECT_1:attr.3" data-link="7514.html#ELM23296">add-associative</span>   <span title="RLVECT_1:attr.4" data-link="7515.html#ELM23297">right_zeroed</span>   <span title="GROUP_1:attr.3" data-link="414.html#ELM10995">associative</span>   <span title="ALGSTR_0:struct.6" data-link="324.html#ELM743">doubleLoopStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">M</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ALGSTR_0:attr.13" data-link="337.html#ELM766">right_complementable</span>   <span title="VECTSP_1:attr.8" data-link="1820.html#ELM28520">vector-distributive</span>   <span title="VECTSP_1:attr.9" data-link="1821.html#ELM28521">scalar-distributive</span>   <span title="VECTSP_1:attr.10" data-link="1822.html#ELM28522">scalar-associative</span>   <span title="VECTSP_1:attr.11" data-link="1823.html#ELM28523">scalar-unital</span>   <span title="RLVECT_1:attr.2" data-link="7513.html#ELM23295">Abelian</span>   <span title="RLVECT_1:attr.3" data-link="7514.html#ELM23296">add-associative</span>   <span title="RLVECT_1:attr.4" data-link="7515.html#ELM23297">right_zeroed</span>   <span title="VECTSP_1:struct.1" data-link="8602.html#ELM28497">ModuleStr</span> over <font color="Maroon" title="c1">GF</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">v</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c2">M</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">W1</font>, <font color="Maroon" title="c5">W2</font> be    <span title="VECTSP_4:mode.1" data-link="1814.html#ELM28596">Subspace</span> of <font color="Maroon" title="c2">M</font>;<br><span class="kw">assume </span><a name="E1:54"></a><span class="lab"><font color="Green" title="E43">A1</font></span>: 
+<font color="Maroon" title="c2">M</font> <span title="VECTSP_5:pred.1" data-link="7497.html#ELM28603">is_the_direct_sum_of</span> <font color="Maroon" title="c4">W1</font>,<font color="Maroon" title="c5">W2</font>
+ ;<br><div about="#D43" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a><font color="Maroon" title="c3">v</font> <span title="VECTSP_5:func.4" data-link="2740.html#ELM28608">|--</span> (<font color="Maroon" title="c4">W1</font>,<font color="Maroon" title="c5">W2</font>)<span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <span class="p1"><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">[:</span><span class="default"> the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c2">M</font>, the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c2">M</font></span><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">:]</span></span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E43">Def6</font></span>: <a name="D6"><span class="comment"><font color="firebrick">:: VECTSP_5:def 6</font></span><br></a>( <font color="Maroon" title="c3">v</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span class="kw">it</span> <span title="DOMAIN_1:func.2" data-link="54.html#ELM5993">`1</span></span>)</span> <span title="RLVECT_1:func.3" data-link="229.html#ELM23291">+</span> <span class="p1">(<span class="default"><span class="kw">it</span> <span title="DOMAIN_1:func.3" data-link="55.html#ELM5994">`2</span></span>)</span> &amp; <span class="kw">it</span> <span title="DOMAIN_1:func.2" data-link="54.html#ELM5993">`1</span>  <span title="STRUCT_0:pred.1" data-link="4139.html#ELM25741">in</span> <font color="Maroon" title="c4">W1</font> &amp; <span class="kw">it</span> <span title="DOMAIN_1:func.3" data-link="55.html#ELM5994">`2</span>  <span title="STRUCT_0:pred.1" data-link="4139.html#ELM25741">in</span> <font color="Maroon" title="c5">W2</font> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM30614'>
+<h2>10.   <span data-link='2740.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='zmatrlin.html#K9'>zmatrlin</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">V</font> be   <span title="VECTSP_7:attr.3" data-link="3058.html#ELM28628">free</span>   <span title="ZMODUL03:attr.1" data-link="9031.html#ELM30893">finite-rank</span>  <span title="ZMODUL01:NM.1" data-link="9022.html#ELM30843">Z_Module</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">b1</font> be    <span title="ZMATRLIN:mode.1" data-link="5124.html#ELM30603">OrdBasis</span> of <font color="Maroon" title="c1">V</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">W</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">V</font>;<br><div about="#D28" typeof="oo:Definition" class="main-sentence">
+<a name="K9"><span class="kw">func</span> </a><font color="Maroon" title="c3">W</font> <span title="ZMATRLIN:func.9" data-link="2740.html#ELM30614">|--</span> <font color="Maroon" title="c2">b1</font><span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.7" data-link="27.html#ELM25753">FinSequence</span> of <span title="INT_3:func.1" data-link="4294.html#ELM12468">INT.Ring</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E28">Def7</font></span>: <a name="D7"><span class="comment"><font color="firebrick">:: ZMATRLIN:def 7</font></span><br></a>(  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c2">b1</font> &amp;  ex <font color="Olive" title="b1">KL</font> being    <span title="VECTSP_6:mode.1" data-link="7516.html#ELM28613">Linear_Combination</span> of <font color="Maroon" title="c1">V</font> st <br>( <font color="Maroon" title="c3">W</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="VECTSP_6:func.4" data-link="252.html#ELM28618">Sum</span> <font color="Olive" title="b1">KL</font> &amp;  <span title="VECTSP_6:func.1" data-link="2042.html#ELM28615">Carrier</span> <font color="Olive" title="b1">KL</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span>  <span title="RELSET_1:func.2" data-link="3141.html#ELM22509">rng</span> <font color="Maroon" title="c2">b1</font> &amp; (  for <font color="Olive" title="b2">k</font> being   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>  st 1 <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b2">k</font> &amp; <font color="Olive" title="b2">k</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <span class="kw">it</span> holds <br><span class="kw">it</span> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b2">k</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">KL</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">b1</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b2">k</font></span>)</span> ) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>extendWith</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func extendWith</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='2898.html#ELM7943'>extendWith</span> [<span data-href='fomodel1.html#K40'>fomodel1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM7943'>
+<h2>1.   <span data-link='2898.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fomodel1.html#K40'>fomodel1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">f</font> be   <span title="NUMBERS:func.4" data-link="2849.html#ELM18627">INT</span>  <span title="RELAT_1:attr.5" data-link="7382.html#ELM22401">-valued</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">L</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="FOMODEL1:struct.1" data-link="2875.html#ELM7900">Language-like</span> ;<br><span class="kw">set </span><font color="Maroon" title="c3">C</font> =  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c2">L</font>;<br><span class="kw">set </span><font color="Maroon" title="c4">z</font> =  the <span title="STRUCT_0:sel.2" data-href="struct_0.html#U2">ZeroF</span> of <font color="Maroon" title="c2">L</font>;<br><span class="kw">set </span><font color="Maroon" title="c5">o</font> =  the <span title="STRUCT_0:sel.3" data-href="struct_0.html#U3">OneF</span> of <font color="Maroon" title="c2">L</font>;<br><span class="kw">set </span><font color="Maroon" title="c6">a</font> =  the <span title="FOMODEL1:sel.1" data-href="fomodel1.html#U1">adicity</span> of <font color="Maroon" title="c2">L</font>;<br><span class="kw">set </span><font color="Maroon" title="c7">X</font> =  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font>;<br><span class="kw">set </span><font color="Maroon" title="c8">g</font> = <font color="Maroon" title="c1">f</font> <span title="RELAT_1:func.5" data-link="909.html#ELM22391">|</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font></span>)</span> <span title="SUBSET_1:func.6" data-link="724.html#ELM25875">\</span> <span class="p2"><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">{</span><span class="default"> the <span title="STRUCT_0:sel.3" data-href="struct_0.html#U3">OneF</span> of <font color="Maroon" title="c2">L</font></span><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">}</span></span></span>)</span>;<br><span class="kw">set </span><font color="Maroon" title="c9">a1</font> = <span class="p1">(<span class="default"><font color="Maroon" title="c1">f</font> <span title="RELAT_1:func.5" data-link="909.html#ELM22391">|</span> <span class="p2">(<span class="default"><span class="p3">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font></span>)</span> <span title="SUBSET_1:func.6" data-link="724.html#ELM25875">\</span> <span class="p3"><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">{</span><span class="default"> the <span title="STRUCT_0:sel.3" data-href="struct_0.html#U3">OneF</span> of <font color="Maroon" title="c2">L</font></span><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">}</span></span></span>)</span></span>)</span> <span title="FUNCT_4:func.1" data-link="517.html#ELM8937">+*</span>  the <span title="FOMODEL1:sel.1" data-href="fomodel1.html#U1">adicity</span> of <font color="Maroon" title="c2">L</font>;<br><span class="kw">set </span><font color="Maroon" title="c10">C1</font> =  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c2">L</font> <span title="XBOOLE_0:func.2" data-link="1743.html#ELM29649">\/</span> <span class="p1">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font></span>)</span>;<br><div about="#D36" typeof="oo:Definition" class="main-sentence">
+<a name="K40"><span class="kw">func</span> </a><font color="Maroon" title="c2">L</font> <span title="FOMODEL1:func.40" data-link="2898.html#ELM7943">extendWith</span> <font color="Maroon" title="c1">f</font><span class="kw"> -&gt; </span>  non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="FOMODEL1:attr.1" data-href="fomodel1.html#V1">strict</span>   <span title="FOMODEL1:struct.1" data-link="2875.html#ELM7900">Language-like</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E36">Def42</font></span>: <a name="D42"><span class="comment"><font color="firebrick">:: FOMODEL1:def 42</font></span><br></a>(  the <span title="FOMODEL1:sel.1" data-href="fomodel1.html#U1">adicity</span> of <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Maroon" title="c1">f</font> <span title="RELAT_1:func.5" data-link="909.html#ELM22391">|</span> <span class="p2">(<span class="default"><span class="p3">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font></span>)</span> <span title="SUBSET_1:func.6" data-link="724.html#ELM25875">\</span> <span class="p3"><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">{</span><span class="default"> the <span title="STRUCT_0:sel.3" data-href="struct_0.html#U3">OneF</span> of <font color="Maroon" title="c2">L</font></span><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">}</span></span></span>)</span></span>)</span> <span title="FUNCT_4:func.1" data-link="517.html#ELM8937">+*</span>  the <span title="FOMODEL1:sel.1" data-href="fomodel1.html#U1">adicity</span> of <font color="Maroon" title="c2">L</font> &amp;  the <span title="STRUCT_0:sel.2" data-href="struct_0.html#U2">ZeroF</span> of <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  the <span title="STRUCT_0:sel.2" data-href="struct_0.html#U2">ZeroF</span> of <font color="Maroon" title="c2">L</font> &amp;  the <span title="STRUCT_0:sel.3" data-href="struct_0.html#U3">OneF</span> of <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  the <span title="STRUCT_0:sel.3" data-href="struct_0.html#U3">OneF</span> of <font color="Maroon" title="c2">L</font> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster S extendWith f ->  non  empty   strict  S -extending   for  non  empty   strict   Language-like ;
+</td><td><span data-href='fomodel1.html#FC42'>fomodel1</span></td></tr>
+<tr><td>
+cluster (AllSymbolsOf (L extendWith f)) \+\ ((dom f) \/ (AllSymbolsOf L)) ->  empty   for   set ;
+</td><td><span data-href='fomodel1.html#FC48'>fomodel1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

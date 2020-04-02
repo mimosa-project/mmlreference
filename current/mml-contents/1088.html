@@ -1,0 +1,743 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>symmetric</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr symmetric</h1>
+<h2>List of Definitions (13)</h2>
+<ol>
+<li><span data-link='1088.html#ELM2623'>symmetric</span> [<span data-href='bilinear.html#V7'>bilinear</span>]</li>
+<li><span data-link='1088.html#ELM6944'>symmetric</span> [<span data-href='fin_topo.html#V1'>fin_topo</span>]</li>
+<li><span data-link='1088.html#ELM13487'>symmetric</span> [<span data-href='lattice5.html#V1'>lattice5</span>]</li>
+<li><span data-link='1088.html#ELM13755'>symmetric</span> [<span data-href='lfuzzy_1.html#V2'>lfuzzy_1</span>]</li>
+<li><span data-link='1088.html#ELM13756'>symmetric</span> [<span data-href='lfuzzy_1.html'>lfuzzy_1</span>]</li>
+<li><span data-link='1088.html#ELM14661'>symmetric</span> [<span data-href='matrix_6.html#V2'>matrix_6</span>]</li>
+<li><span data-link='1088.html#ELM15666'>symmetric</span> [<span data-href='metric_1.html#V4'>metric_1</span>]</li>
+<li><span data-link='1088.html#ELM15670'>symmetric</span> [<span data-href='metric_1.html#V8'>metric_1</span>]</li>
+<li><span data-link='1088.html#ELM17829'>symmetric</span> [<span data-href='necklace.html#V1'>necklace</span>]</li>
+<li><span data-link='1088.html#ELM18774'>symmetric</span> [<span data-href='oposet_1.html'>oposet_1</span>]</li>
+<li><span data-link='1088.html#ELM22464'>symmetric</span> [<span data-href='relat_2.html#V3'>relat_2</span>]</li>
+<li><span data-link='1088.html#ELM23246'>symmetric</span> [<span data-href='rltopsp1.html#V2'>rltopsp1</span>]</li>
+<li><span data-link='1088.html#ELM30805'>symmetric</span> [<span data-href='zmodlat2.html#V2'>zmodlat2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM2623'>
+<h2>1.   <span data-link='1088.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='bilinear.html#V7'>bilinear</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">K</font> be    <span title="STRUCT_0:struct.1" data-link="8048.html#ELM25742">1-sorted</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">V</font> be    <span title="VECTSP_1:struct.1" data-link="8602.html#ELM28497">ModuleStr</span> over <font color="Maroon" title="c1">K</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">f</font> be   <span title="BILINEAR:NM.1" data-link="1068.html#ELM2596">Form</span> of <font color="Maroon" title="c2">V</font>,<font color="Maroon" title="c2">V</font>;<br><div about="#D58" typeof="oo:Definition" class="main-sentence">
+<a name="V7"><span class="kw">attr</span> </a><font color="Maroon" title="c3">f</font> is  <span title="BILINEAR:attr.7" data-link="1088.html#ELM2623">symmetric</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E58">Def25</font></span>: <a name="D25"><span class="comment"><font color="firebrick">:: BILINEAR:def 25</font></span><br></a> for <font color="Olive" title="b1">v</font>, <font color="Olive" title="b2">w</font> being   <span title="VECTSP_1:NM.8" data-link="4832.html#ELM28505">Vector</span> of <font color="Maroon" title="c2">V</font> holds  <font color="Maroon" title="c3">f</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Olive" title="b1">v</font>,<font color="Olive" title="b2">w</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">f</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Olive" title="b2">w</font>,<font color="Olive" title="b1">v</font>);<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  NulForm (V,V) ->  symmetric  ;
+</td><td><span data-href='bilinear.html#FC48'>bilinear</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like  [: the carrier of V, the carrier of V:] -defined   the carrier of K -valued   Function-like  V20([: the carrier of V, the carrier of V:]) V21([: the carrier of V, the carrier of V:], the carrier of K)  symmetric   for    Element of  bool [:[: the carrier of V, the carrier of V:], the carrier of K:];
+</td><td><span data-href='bilinear.html#RC4'>bilinear</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like  [: the carrier of V, the carrier of V:] -defined   the carrier of K -valued   Function-like  V20([: the carrier of V, the carrier of V:]) V21([: the carrier of V, the carrier of V:], the carrier of K)  additiveFAF   additiveSAF   homogeneousFAF   homogeneousSAF   symmetric   for    Element of  bool [:[: the carrier of V, the carrier of V:], the carrier of K:];
+</td><td><span data-href='bilinear.html#RC6'>bilinear</span></td></tr>
+<tr><td>
+cluster  non  empty   non  trivial   Relation-like  [: the carrier of V, the carrier of V:] -defined   the carrier of K -valued   Function-like   non  constant  V20([: the carrier of V, the carrier of V:]) V21([: the carrier of V, the carrier of V:], the carrier of K)  additiveFAF   additiveSAF   homogeneousFAF   homogeneousSAF   symmetric   for    Element of  bool [:[: the carrier of V, the carrier of V:], the carrier of K:];
+</td><td><span data-href='bilinear.html#RC8'>bilinear</span></td></tr>
+<tr><td>
+cluster f + g ->  symmetric  ;
+</td><td><span data-href='bilinear.html#FC50'>bilinear</span></td></tr>
+<tr><td>
+cluster a * f ->  symmetric  ;
+</td><td><span data-href='bilinear.html#FC51'>bilinear</span></td></tr>
+<tr><td>
+cluster  - f ->  symmetric  ;
+</td><td><span data-href='bilinear.html#FC52'>bilinear</span></td></tr>
+<tr><td>
+cluster f - g ->  symmetric  ;
+</td><td><span data-href='bilinear.html#FC53'>bilinear</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM6944'>
+<h2>2.   <span data-link='1088.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fin_topo.html#V1'>fin_topo</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">IT</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V1"><span class="kw">attr</span> </a><font color="Maroon" title="c1">IT</font> is  <span title="FIN_TOPO:attr.1" data-link="1088.html#ELM6944">symmetric</span> <span class="kw"> means </span><a name="D13"><span class="comment"><font color="firebrick">:: FIN_TOPO:def 13</font></span><br></a> for <font color="Olive" title="b1">x</font>, <font color="Olive" title="b2">y</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">IT</font>  st <font color="Olive" title="b2">y</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FIN_TOPO:func.1" data-link="2631.html#ELM6928">U_FT</span> <font color="Olive" title="b1">x</font> holds <br><font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FIN_TOPO:func.1" data-link="2631.html#ELM6928">U_FT</span> <font color="Olive" title="b2">y</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM13487'>
+<h2>3.   <span data-link='1088.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='lattice5.html#V1'>lattice5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">L</font> be    <span title="STRUCT_0:struct.1" data-link="8048.html#ELM25742">1-sorted</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">f</font> be   <span title="LATTICE5:NM.3" data-link="4673.html#ELM13466">BiFunction</span> of <font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">L</font>;<br><div about="#D16" typeof="oo:Definition" class="main-sentence">
+<a name="V1"><span class="kw">attr</span> </a><font color="Maroon" title="c3">f</font> is  <span title="LATTICE5:attr.1" data-link="1088.html#ELM13487">symmetric</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E16">Def5</font></span>: <a name="D5"><span class="comment"><font color="firebrick">:: LATTICE5:def 5</font></span><br></a> for <font color="Olive" title="b1">x</font>, <font color="Olive" title="b2">y</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">A</font> holds  <font color="Maroon" title="c3">f</font> <span title="LATTICE5:func.3" data-link="141.html#ELM13472">.</span> (<font color="Olive" title="b1">x</font>,<font color="Olive" title="b2">y</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">f</font> <span title="LATTICE5:func.3" data-link="141.html#ELM13472">.</span> (<font color="Olive" title="b2">y</font>,<font color="Olive" title="b1">x</font>);<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Relation-like  [:A,A:] -defined   the carrier of L -valued   Function-like   quasi_total   symmetric   zeroed   u.t.i.   for    Element of  bool [:[:A,A:], the carrier of L:];
+</td><td><span data-href='lattice5.html#RC3'>lattice5</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM13755'>
+<h2>4.   <span data-link='1088.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='lfuzzy_1.html#V2'>lfuzzy_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">R</font> be   <span title="FUZZY_2:NM.1" data-link="3293.html#ELM9366">RMembership_Func</span> of <font color="Maroon" title="c1">X</font>,<font color="Maroon" title="c1">X</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c2">R</font> is  <span title="LFUZZY_1:attr.2" data-link="1088.html#ELM13755">symmetric</span> <span class="kw"> means </span><a name="D4"><span class="comment"><font color="firebrick">:: LFUZZY_1:def 4</font></span><br></a> <span title="FUZZY_4:func.1" data-link="3296.html#ELM9374">converse</span> <font color="Maroon" title="c2">R</font> <span title="RELSET_1:pred.2" data-link="1122.html#ELM22505">=</span> <font color="Maroon" title="c2">R</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Imf (X,X) ->  reflexive   symmetric   transitive   antisymmetric  ;
+</td><td><span data-href='lfuzzy_1.html#FC1'>lfuzzy_1</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like  [:X,X:] -defined   REAL  -valued  [.0,1.] -valued   Function-like   total   quasi_total   complex-valued   ext-real-valued   real-valued   reflexive   symmetric   transitive   antisymmetric   for    Element of  bool [:[:X,X:],REAL:];
+</td><td><span data-href='lfuzzy_1.html#RC1'>lfuzzy_1</span></td></tr>
+<tr><td>
+cluster  min (R,S) ->  symmetric  ;
+</td><td><span data-href='lfuzzy_1.html#FC2'>lfuzzy_1</span></td></tr>
+<tr><td>
+cluster  max (R,S) ->  symmetric  ;
+</td><td><span data-href='lfuzzy_1.html#FC3'>lfuzzy_1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM13756'>
+<h2>5.   <span data-link='1088.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='lfuzzy_1.html'>lfuzzy_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">R</font> be   <span title="FUZZY_2:NM.1" data-link="3293.html#ELM9366">RMembership_Func</span> of <font color="Maroon" title="c1">X</font>,<font color="Maroon" title="c1">X</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<span class="kw">redefine </span><span class="kw">attr</span> <font color="Maroon" title="c2">R</font> is  <span title="LFUZZY_1:attr.2" data-link="1088.html#ELM13755">symmetric</span> <span class="kw"> means </span><a name="D5"><span class="comment"><font color="firebrick">:: LFUZZY_1:def 5</font></span><br></a> for <font color="Olive" title="b1">x</font>, <font color="Olive" title="b2">y</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">X</font> holds  <font color="Maroon" title="c2">R</font> <span title="LFUZZY_0:func.8" data-link="141.html#ELM13727">.</span> (<font color="Olive" title="b1">x</font>,<font color="Olive" title="b2">y</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">R</font> <span title="LFUZZY_0:func.8" data-link="141.html#ELM13727">.</span> (<font color="Olive" title="b2">y</font>,<font color="Olive" title="b1">x</font>);<br>
+</div>
+<span class="kw">compatibility</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM14661'>
+<h2>6.   <span data-link='1088.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='matrix_6.html#V2'>matrix_6</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font> be   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">K</font> be   <span title="VECTSP_1:NM.5" data-link="4666.html#ELM28502">Field</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">M1</font> be   <span title="MATRIX_1:NM.2" data-link="5063.html#ELM14604">Matrix</span> of <font color="Maroon" title="c1">n</font>,<font color="Maroon" title="c2">K</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c3">M1</font> is  <span title="MATRIX_6:attr.2" data-link="1088.html#ELM14661">symmetric</span> <span class="kw"> means </span><a name="D5"><span class="comment"><font color="firebrick">:: MATRIX_6:def 5</font></span><br></a><font color="Maroon" title="c3">M1</font> <span title="MATRIX_0:func.4" data-link="104.html#ELM14576">@</span>  <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">M1</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  tabular  V110( the carrier of K,n,n)  symmetric   subsymmetric   ->  central_symmetric   for    FinSequence of  the carrier of K * ;
+</td><td><span data-href='matrix17.html#CC3'>matrix17</span></td></tr>
+<tr><td>
+cluster  tabular  V110( the carrier of K,n,n)  symmetry_circulant   ->  symmetric   for    FinSequence of  the carrier of K * ;
+</td><td><span data-href='matrix17.html#CC4'>matrix17</span></td></tr>
+<tr><td>
+cluster  1. (K,n) ->  symmetric  ;
+</td><td><span data-href='matrix_6.html#FC8'>matrix_6</span></td></tr>
+<tr><td>
+cluster  GramMatrix (f,b) ->  symmetric  ;
+</td><td><span data-href='zmodlat2.html#FC11'>zmodlat2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM15666'>
+<h2>7.   <span data-link='1088.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='metric_1.html#V4'>metric_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span class="p1"><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">[:</span><span class="default"><font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c1">A</font></span><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">:]</span></span>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c2">f</font> is  <span title="METRIC_1:attr.2" data-link="2338.html#ELM15664">Reflexive</span> <span class="kw"> means </span><a name="D2"><span class="comment"><font color="firebrick">:: METRIC_1:def 2</font></span><br></a> for <font color="Olive" title="b1">a</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">A</font> holds  <font color="Maroon" title="c2">f</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Olive" title="b1">a</font>,<font color="Olive" title="b1">a</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> ;<br>
+</div>
+<div about="#D0" typeof="oo:Definition" class="">
+<a name="V3"><span class="kw">attr</span> </a><font color="Maroon" title="c2">f</font> is  <span title="METRIC_1:attr.3" data-link="5314.html#ELM15665">discerning</span> <span class="kw"> means </span><a name="D3"><span class="comment"><font color="firebrick">:: METRIC_1:def 3</font></span><br></a> for <font color="Olive" title="b1">a</font>, <font color="Olive" title="b2">b</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">A</font>  st <font color="Maroon" title="c2">f</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  holds <br><font color="Olive" title="b1">a</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b2">b</font>;<br>
+</div>
+<div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V4"><span class="kw">attr</span> </a><font color="Maroon" title="c2">f</font> is  <span title="METRIC_1:attr.4" data-link="1088.html#ELM15666">symmetric</span> <span class="kw"> means </span><a name="D4"><span class="comment"><font color="firebrick">:: METRIC_1:def 4</font></span><br></a> for <font color="Olive" title="b1">a</font>, <font color="Olive" title="b2">b</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">A</font> holds  <font color="Maroon" title="c2">f</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">f</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Olive" title="b2">b</font>,<font color="Olive" title="b1">a</font>);<br>
+</div>
+<div about="#D0" typeof="oo:Definition">
+<a name="V5"><span class="kw">attr</span> </a><font color="Maroon" title="c2">f</font> is  <span title="METRIC_1:attr.5" data-link="5315.html#ELM15667">triangle</span> <span class="kw"> means </span><a name="D5"><span class="comment"><font color="firebrick">:: METRIC_1:def 5</font></span><br></a> for <font color="Olive" title="b1">a</font>, <font color="Olive" title="b2">b</font>, <font color="Olive" title="b3">c</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">A</font> holds  <font color="Maroon" title="c2">f</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Olive" title="b1">a</font>,<font color="Olive" title="b3">c</font>) <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">f</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font>)</span>)</span> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">f</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Olive" title="b2">b</font>,<font color="Olive" title="b3">c</font>)</span>)</span>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM15670'>
+<h2>8.   <span data-link='1088.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='metric_1.html#V8'>metric_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">M</font> be    <span title="METRIC_1:struct.1" data-link="5299.html#ELM15643">MetrStruct</span> ;<br><div about="#D6" typeof="oo:Definition" class="">
+<a name="V6"><span class="kw">attr</span> </a><font color="Maroon" title="c1">M</font> is  <span title="METRIC_1:attr.6" data-link="2338.html#ELM15668">Reflexive</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E6">Def6</font></span>: <a name="D6"><span class="comment"><font color="firebrick">:: METRIC_1:def 6</font></span><br></a> the <span title="METRIC_1:sel.1" data-href="metric_1.html#U1">distance</span> of <font color="Maroon" title="c1">M</font> is  <span title="METRIC_1:attr.2" data-link="2338.html#ELM15664">Reflexive</span> ;<br>
+</div>
+<div about="#D7" typeof="oo:Definition" class="">
+<a name="V7"><span class="kw">attr</span> </a><font color="Maroon" title="c1">M</font> is  <span title="METRIC_1:attr.7" data-link="5314.html#ELM15669">discerning</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E7">Def7</font></span>: <a name="D7"><span class="comment"><font color="firebrick">:: METRIC_1:def 7</font></span><br></a> the <span title="METRIC_1:sel.1" data-href="metric_1.html#U1">distance</span> of <font color="Maroon" title="c1">M</font> is  <span title="METRIC_1:attr.3" data-link="5314.html#ELM15665">discerning</span> ;<br>
+</div>
+<div about="#D8" typeof="oo:Definition" class="main-sentence">
+<a name="V8"><span class="kw">attr</span> </a><font color="Maroon" title="c1">M</font> is  <span title="METRIC_1:attr.8" data-link="1088.html#ELM15670">symmetric</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E8">Def8</font></span>: <a name="D8"><span class="comment"><font color="firebrick">:: METRIC_1:def 8</font></span><br></a> the <span title="METRIC_1:sel.1" data-href="metric_1.html#U1">distance</span> of <font color="Maroon" title="c1">M</font> is  <span title="METRIC_1:attr.4" data-link="1088.html#ELM15666">symmetric</span> ;<br>
+</div>
+<div about="#D9" typeof="oo:Definition">
+<a name="V9"><span class="kw">attr</span> </a><font color="Maroon" title="c1">M</font> is  <span title="METRIC_1:attr.9" data-link="5315.html#ELM15671">triangle</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E9">Def9</font></span>: <a name="D9"><span class="comment"><font color="firebrick">:: METRIC_1:def 9</font></span><br></a> the <span title="METRIC_1:sel.1" data-href="metric_1.html#U1">distance</span> of <font color="Maroon" title="c1">M</font> is  <span title="METRIC_1:attr.5" data-link="5315.html#ELM15667">triangle</span> ;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  WellSpace (a,X) ->  strict   symmetric  ;
+</td><td><span data-href='compl_sp.html#FC4'>compl_sp</span></td></tr>
+<tr><td>
+cluster  WellSpace (a,X) ->  strict   triangle  ;
+</td><td><span data-href='compl_sp.html#FC5'>compl_sp</span></td></tr>
+<tr><td>
+cluster   ->  symmetric   for    TarskiExtension of M;
+</td><td><span data-href='gtarski1.html#CC4'>gtarski1</span></td></tr>
+<tr><td>
+cluster  non  empty   trivial   Reflexive   discerning   symmetric   triangle   for    MetrStruct ;
+</td><td><span data-href='gtarski1.html#RC4'>gtarski1</span></td></tr>
+<tr><td>
+cluster  Tarski0Space  ->  non  empty   Reflexive   symmetric  ;
+</td><td><span data-href='gtarski1.html#FC4'>gtarski1</span></td></tr>
+<tr><td>
+cluster  TarskiSpace  ->  Reflexive   discerning   symmetric  ;
+</td><td><span data-href='gtarski1.html#FC8'>gtarski1</span></td></tr>
+<tr><td>
+cluster  TarskiEuclid2Space  ->  Reflexive   discerning   symmetric  ;
+</td><td><span data-href='gtarski2.html#FC2'>gtarski2</span></td></tr>
+<tr><td>
+cluster  TarskiEuclidSpace n ->  Reflexive   discerning   symmetric  ;
+</td><td><span data-href='gtarski2.html#FC3'>gtarski2</span></td></tr>
+<tr><td>
+cluster  dist (x,y) ->  non  negative  ;
+</td><td><span data-href='jordan.html#FC1'>jordan</span></td></tr>
+<tr><td>
+cluster  non  empty   strict   Reflexive   discerning   symmetric   triangle   for    MetrStruct ;
+</td><td><span data-href='metric_1.html#RC3'>metric_1</span></td></tr>
+<tr><td>
+cluster  DiscreteSpace A ->  strict   Reflexive   discerning   symmetric   triangle  ;
+</td><td><span data-href='metric_1.html#FC4'>metric_1</span></td></tr>
+<tr><td>
+cluster  RealSpace  ->  strict   Reflexive   discerning   symmetric   triangle  ;
+</td><td><span data-href='metric_1.html#FC6'>metric_1</span></td></tr>
+<tr><td>
+cluster  MetrStruct(# 1,Empty^2-to-zero #) ->  Reflexive   symmetric   triangle   Discerning  ;
+</td><td><span data-href='metric_1.html#FC8'>metric_1</span></td></tr>
+<tr><td>
+cluster  non  empty   strict   Reflexive   symmetric   triangle   Discerning   ultra   for    MetrStruct ;
+</td><td><span data-href='metric_1.html#RC4'>metric_1</span></td></tr>
+<tr><td>
+cluster  non  empty   Reflexive   discerning   symmetric   triangle   ->  non  empty   Discerning   for    MetrStruct ;
+</td><td><span data-href='metric_1.html#CC1'>metric_1</span></td></tr>
+<tr><td>
+cluster  non  empty   Reflexive   symmetric   Discerning   ultra   ->  discerning   triangle   for    MetrStruct ;
+</td><td><span data-href='metric_1.html#CC2'>metric_1</span></td></tr>
+<tr><td>
+cluster  ZeroSpace  ->  Reflexive   symmetric   triangle  ;
+</td><td><span data-href='metric_1.html#FC10'>metric_1</span></td></tr>
+<tr><td>
+cluster  diameter C ->  non  negative  ;
+</td><td><span data-href='taxonom1.html#FC1'>taxonom1</span></td></tr>
+<tr><td>
+cluster  Function-like  V35( omega , the carrier of M)  convergent   ->  Cauchy   for    Element of K10(K11(omega, the carrier of M));
+</td><td><span data-href='tbsp_1.html#CC1'>tbsp_1</span></td></tr>
+<tr><td>
+cluster  non  empty   Reflexive   discerning   symmetric   triangle   Discerning   bounded   for    MetrStruct ;
+</td><td><span data-href='tbsp_1.html#RC1'>tbsp_1</span></td></tr>
+<tr><td>
+cluster  Ball (t1,r) ->  bounded  ;
+</td><td><span data-href='tbsp_1.html#FC2'>tbsp_1</span></td></tr>
+<tr><td>
+cluster  finite   ->  bounded   for    Element of K10( the carrier of T);
+</td><td><span data-href='tbsp_1.html#CC3'>tbsp_1</span></td></tr>
+<tr><td>
+cluster  non  empty   finite   for    Element of K10( the carrier of T);
+</td><td><span data-href='tbsp_1.html#RC3'>tbsp_1</span></td></tr>
+<tr><td>
+cluster  strict   Reflexive   discerning  V124()  triangle   for    SubSpace of M;
+</td><td><span data-href='topmetr.html#RC1'>topmetr</span></td></tr>
+<tr><td>
+cluster  non  empty   strict   Reflexive   discerning  V124()  triangle   for    SubSpace of M;
+</td><td><span data-href='topmetr.html#RC2'>topmetr</span></td></tr>
+<tr><td>
+cluster  max-Prod2 (M,N) ->  strict   symmetric  ;
+</td><td><span data-href='topreal7.html#FC3'>topreal7</span></td></tr>
+<tr><td>
+cluster  non  empty   Reflexive   discerning   symmetric   triangle   convex   ->  non  empty   internal   for    MetrStruct ;
+</td><td><span data-href='vectmetr.html#CC1'>vectmetr</span></td></tr>
+<tr><td>
+cluster  non  empty   Reflexive   discerning   symmetric   triangle   Discerning   convex   for    MetrStruct ;
+</td><td><span data-href='vectmetr.html#RC1'>vectmetr</span></td></tr>
+<tr><td>
+cluster  non  empty   right_complementable   Reflexive   discerning   symmetric   triangle   Abelian   add-associative   right_zeroed   vector-distributive   scalar-distributive   scalar-associative   scalar-unital   strict   homogeneous   translatible   for    RLSMetrStruct ;
+</td><td><span data-href='vectmetr.html#RC5'>vectmetr</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM17829'>
+<h2>9.   <span data-link='1088.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='necklace.html#V1'>necklace</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font> be    <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><div about="#D7" typeof="oo:Definition" class="main-sentence">
+<a name="V1"><span class="kw">attr</span> </a><font color="Maroon" title="c1">R</font> is  <span title="NECKLACE:attr.1" data-link="1088.html#ELM17829">symmetric</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E7">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: NECKLACE:def 3</font></span><br></a> the <span title="ORDERS_2:sel.1" data-href="orders_2.html#U1">InternalRel</span> of <font color="Maroon" title="c1">R</font> <span title="RELAT_2:pred.3" data-link="7385.html#ELM22456">is_symmetric_in</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">R</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  ComplRelStr R ->  with_finite_clique#  ;
+</td><td><span data-href='mycielsk.html#FC10'>mycielsk</span></td></tr>
+<tr><td>
+cluster  ComplRelStr R ->  with_finite_chromatic#  ;
+</td><td><span data-href='mycielsk.html#FC12'>mycielsk</span></td></tr>
+<tr><td>
+cluster  CompleteRelStr n ->  symmetric   irreflexive  ;
+</td><td><span data-href='mycielsk.html#FC13'>mycielsk</span></td></tr>
+<tr><td>
+cluster  Mycielskian n ->  symmetric  ;
+</td><td><span data-href='mycielsk.html#FC16'>mycielsk</span></td></tr>
+<tr><td>
+cluster  non  empty   finite   strict   symmetric   irreflexive   for    RelStr ;
+</td><td><span data-href='neckla_3.html#RC1'>neckla_3</span></td></tr>
+<tr><td>
+cluster  full   ->  full   symmetric   for    SubRelStr of L;
+</td><td><span data-href='neckla_3.html#CC4'>neckla_3</span></td></tr>
+<tr><td>
+cluster  union_of (R,S) ->  symmetric  ;
+</td><td><span data-href='neckla_3.html#FC7'>neckla_3</span></td></tr>
+<tr><td>
+cluster  sum_of (R,S) ->  symmetric  ;
+</td><td><span data-href='neckla_3.html#FC8'>neckla_3</span></td></tr>
+<tr><td>
+cluster  ComplRelStr R ->  symmetric  ;
+</td><td><span data-href='neckla_3.html#FC11'>neckla_3</span></td></tr>
+<tr><td>
+cluster  SymRelStr R ->  strict   symmetric  ;
+</td><td><span data-href='necklace.html#FC2'>necklace</span></td></tr>
+<tr><td>
+cluster  non  empty   symmetric   for    RelStr ;
+</td><td><span data-href='necklace.html#RC1'>necklace</span></td></tr>
+<tr><td>
+cluster  the InternalRel of R ->  symmetric  ;
+</td><td><span data-href='necklace.html#FC3'>necklace</span></td></tr>
+<tr><td>
+cluster  Necklace n ->  strict   symmetric  ;
+</td><td><span data-href='necklace.html#FC5'>necklace</span></td></tr>
+<tr><td>
+cluster  non  empty   symmetric   strict   for    OrthoRelStr ;
+</td><td><span data-href='oposet_1.html#RC7'>oposet_1</span></td></tr>
+<tr><td>
+cluster  TrivOrthoRelStr  ->  symmetric   strict  ;
+</td><td><span data-href='oposet_1.html#FC7'>oposet_1</span></td></tr>
+<tr><td>
+cluster  non  empty   antisymmetric   symmetric   strict   for    OrthoRelStr ;
+</td><td><span data-href='oposet_1.html#RC8'>oposet_1</span></td></tr>
+<tr><td>
+cluster  non  empty   reflexive   transitive   antisymmetric   symmetric   strict   for    OrthoRelStr ;
+</td><td><span data-href='oposet_1.html#RC10'>oposet_1</span></td></tr>
+<tr><td>
+cluster  PreorderFromPartition D ->  strict   symmetric  ;
+</td><td><span data-href='orders_5.html#FC21'>orders_5</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM18774'>
+<h2>10.   <span data-link='1088.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='oposet_1.html'>oposet_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">O</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<span class="kw">redefine </span><span class="kw">attr</span> <font color="Maroon" title="c1">O</font> is  <span title="NECKLACE:attr.1" data-link="1088.html#ELM17829">symmetric</span> <span class="kw"> means </span><a name="D7"><span class="comment"><font color="firebrick">:: OPOSET_1:def 7</font></span><br></a> the <span title="ORDERS_2:sel.1" data-href="orders_2.html#U1">InternalRel</span> of <font color="Maroon" title="c1">O</font> is   <span title="RELAT_2:attr.3" data-link="1088.html#ELM22464">symmetric</span>  <span title="RELSET_1:NM.2" data-link="286.html#ELM22507">Relation</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">O</font>;<br>
+</div>
+<span class="kw">compatibility</span> <span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('partit_2/T22')" onmouseout="rh()" data-href="partit_2.html#T22">PARTIT_2:22</span>, <span class="ref" onmouseover="rs('partit_2/T23')" onmouseout="rh()" data-href="partit_2.html#T23">PARTIT_2:23</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM22464'>
+<h2>11.   <span data-link='1088.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='relat_2.html#V3'>relat_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font> be   <span title="RELAT_1:NM.1" data-link="286.html#ELM22383">Relation</span>;<br><div about="#D8" typeof="oo:Definition" class="">
+<a name="V1"><span class="kw">attr</span> </a><font color="Maroon" title="c1">R</font> is  <span title="RELAT_2:attr.1" data-link="433.html#ELM22462">reflexive</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E8">Def9</font></span>: <a name="D9"><span class="comment"><font color="firebrick">:: RELAT_2:def 9</font></span><br></a><font color="Maroon" title="c1">R</font> <span title="RELAT_2:pred.1" data-link="7383.html#ELM22454">is_reflexive_in</span>  <span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">R</font>;<br>
+</div>
+<div about="#D9" typeof="oo:Definition" class="">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c1">R</font> is  <span title="RELAT_2:attr.2" data-link="6002.html#ELM22463">irreflexive</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E9">Def10</font></span>: <a name="D10"><span class="comment"><font color="firebrick">:: RELAT_2:def 10</font></span><br></a><font color="Maroon" title="c1">R</font> <span title="RELAT_2:pred.2" data-link="7384.html#ELM22455">is_irreflexive_in</span>  <span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">R</font>;<br>
+</div>
+<div about="#D10" typeof="oo:Definition" class="main-sentence">
+<a name="V3"><span class="kw">attr</span> </a><font color="Maroon" title="c1">R</font> is  <span title="RELAT_2:attr.3" data-link="1088.html#ELM22464">symmetric</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E10">Def11</font></span>: <a name="D11"><span class="comment"><font color="firebrick">:: RELAT_2:def 11</font></span><br></a><font color="Maroon" title="c1">R</font> <span title="RELAT_2:pred.3" data-link="7385.html#ELM22456">is_symmetric_in</span>  <span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">R</font>;<br>
+</div>
+<div about="#D11" typeof="oo:Definition" class="">
+<a name="V4"><span class="kw">attr</span> </a><font color="Maroon" title="c1">R</font> is  <span title="RELAT_2:attr.4" data-link="4790.html#ELM22465">antisymmetric</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E11">Def12</font></span>: <a name="D12"><span class="comment"><font color="firebrick">:: RELAT_2:def 12</font></span><br></a><font color="Maroon" title="c1">R</font> <span title="RELAT_2:pred.4" data-link="7386.html#ELM22457">is_antisymmetric_in</span>  <span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">R</font>;<br>
+</div>
+<div about="#D12" typeof="oo:Definition" class="">
+<a name="V5"><span class="kw">attr</span> </a><font color="Maroon" title="c1">R</font> is  <span title="RELAT_2:attr.5" data-link="6001.html#ELM22466">asymmetric</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E12">Def13</font></span>: <a name="D13"><span class="comment"><font color="firebrick">:: RELAT_2:def 13</font></span><br></a><font color="Maroon" title="c1">R</font> <span title="RELAT_2:pred.5" data-link="7387.html#ELM22458">is_asymmetric_in</span>  <span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">R</font>;<br>
+</div>
+<div about="#D0" typeof="oo:Definition" class="">
+<a name="V6"><span class="kw">attr</span> </a><font color="Maroon" title="c1">R</font> is  <span title="RELAT_2:attr.6" data-link="2026.html#ELM22467">connected</span> <span class="kw"> means </span><a name="D14"><span class="comment"><font color="firebrick">:: RELAT_2:def 14</font></span><br></a><font color="Maroon" title="c1">R</font> <span title="RELAT_2:pred.6" data-link="7388.html#ELM22459">is_connected_in</span>  <span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">R</font>;<br>
+</div>
+<div about="#D0" typeof="oo:Definition" class="">
+<a name="V7"><span class="kw">attr</span> </a><font color="Maroon" title="c1">R</font> is  <span title="RELAT_2:attr.7" data-link="6291.html#ELM22468">strongly_connected</span> <span class="kw"> means </span><a name="D15"><span class="comment"><font color="firebrick">:: RELAT_2:def 15</font></span><br></a><font color="Maroon" title="c1">R</font> <span title="RELAT_2:pred.7" data-link="7389.html#ELM22460">is_strongly_connected_in</span>  <span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">R</font>;<br>
+</div>
+<div about="#D13" typeof="oo:Definition">
+<a name="V8"><span class="kw">attr</span> </a><font color="Maroon" title="c1">R</font> is  <span title="RELAT_2:attr.8" data-link="413.html#ELM22469">transitive</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E13">Def16</font></span>: <a name="D16"><span class="comment"><font color="firebrick">:: RELAT_2:def 16</font></span><br></a><font color="Maroon" title="c1">R</font> <span title="RELAT_2:pred.8" data-link="7390.html#ELM22461">is_transitive_in</span>  <span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">R</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Relation-like   the carrier of M -defined   the carrier of M -valued   total   quasi_total  V65() V70()  compatible   for    Element of  bool [: the carrier of M, the carrier of M:];
+</td><td><span data-href='algstr_4.html#RC2'>algstr_4</span></td></tr>
+<tr><td>
+cluster   ->  total   symmetric   transitive   for    I-congruence of X,A;
+</td><td><span data-href='bcialg_2.html#CC1'>bcialg_2</span></td></tr>
+<tr><td>
+cluster  R_ProjCo p ->  total   symmetric   transitive  ;
+</td><td><span data-href='ec_pf_1.html#FC5'>ec_pf_1</span></td></tr>
+<tr><td>
+cluster  nabla X ->  symmetric   transitive   total  ;
+</td><td><span data-href='eqrel_1.html#FC2'>eqrel_1</span></td></tr>
+<tr><td>
+cluster  empty   trivial   proper   with_non-empty_elements   Relation-like   non-empty   empty-yielding   NAT  -defined   reflexive   irreflexive   symmetric   antisymmetric   asymmetric   connected   strongly_connected   transitive   Function-like   one-to-one   constant   functional   ext-real  V29() V30() V31() V32() V34() V35() V36() V38() V39() V40() V50()  FinSequence-like   FinSubsequence-like   FinSequence-membered   for    a_partition of X;
+</td><td><span data-href='eqrel_1.html#RC1'>eqrel_1</span></td></tr>
+<tr><td>
+cluster  Relation-like   Function-like   symmetric   ->  involutive   for    set ;
+</td><td><span data-href='fomodel0.html#CC20'>fomodel0</span></td></tr>
+<tr><td>
+cluster [:{x},{y}:] +* [:{y},{x}:] ->  symmetric  ;
+</td><td><span data-href='fomodel0.html#FC121'>fomodel0</span></td></tr>
+<tr><td>
+cluster  Relation-like  X -defined  X -valued   Function-like   one-to-one   non  empty   total   quasi_total   onto   bijective   symmetric   with_fixpoint   oneone   for    Element of  bool [:X,X:];
+</td><td><span data-href='fomodel0.html#RC18'>fomodel0</span></td></tr>
+<tr><td>
+cluster  Relation-like   Function-like   non  empty   symmetric   with_fixpoint   for    set ;
+</td><td><span data-href='fomodel0.html#RC19'>fomodel0</span></td></tr>
+<tr><td>
+cluster n -placesOf R ->  total   for  Relation of (n -tuples_on X);
+</td><td><span data-href='fomodel3.html#FC11'>fomodel3</span></td></tr>
+<tr><td>
+cluster n -placesOf R ->  symmetric   for  Relation of (n -tuples_on X);
+</td><td><span data-href='fomodel3.html#FC12'>fomodel3</span></td></tr>
+<tr><td>
+cluster n -placesOf R ->  total   symmetric   for  total  Relation of (n -tuples_on X);
+</td><td><span data-href='fomodel3.html#FC13'>fomodel3</span></td></tr>
+<tr><td>
+cluster n -placesOf R ->  total   symmetric   transitive   for  symmetric   transitive  Relation of (n -tuples_on X);
+</td><td><span data-href='fomodel3.html#FC15'>fomodel3</span></td></tr>
+<tr><td>
+cluster (X,D) -termEq  ->  total   symmetric   transitive   for  Relation of (AllTermsOf S);
+</td><td><span data-href='fomodel4.html#FC52'>fomodel4</span></td></tr>
+<tr><td>
+cluster  Relation-like   irreflexive   symmetric   finite   friendship_graph_like   for    set ;
+</td><td><span data-href='friends1.html#RC1'>friends1</span></td></tr>
+<tr><td>
+cluster x tohilb  ->  symmetric  ;
+</td><td><span data-href='hilbert4.html#FC16'>hilbert4</span></td></tr>
+<tr><td>
+cluster  Cong m ->  reflexive   symmetric   transitive  ;
+</td><td><span data-href='int_4.html#FC4'>int_4</span></td></tr>
+<tr><td>
+cluster   ->  trivial   reflexive   symmetric   strongly_connected   transitive   for    Element of  bool [:X,X:];
+</td><td><span data-href='neckla_3.html#CC2'>neckla_3</span></td></tr>
+<tr><td>
+cluster  the InternalRel of R ->  symmetric  ;
+</td><td><span data-href='necklace.html#FC3'>necklace</span></td></tr>
+<tr><td>
+cluster  Relation-like   non-empty   empty-yielding   NAT  -defined   RAT  -valued   empty   trivial   proper  V9() V10() V11() V13() V14() V15()  zero  V17() V18()  complex  V20()  Function-like   one-to-one   constant   functional   finite   finite-yielding  V36()  cardinal   0  -element   FinSequence-like   FinSubsequence-like   FinSequence-membered   ext-real   non  positive   non  negative  V53() V54() V55() V56() V57() V58() V59() V60() V63() V64() V65() V66() V67() V68() V69()  Function-yielding   reflexive   irreflexive   symmetric   antisymmetric   asymmetric   connected   strongly_connected   transitive   FinSequence-yielding   finite-support  V107()  for    a_partition of A;
+</td><td><span data-href='orders_5.html#RC2'>orders_5</span></td></tr>
+<tr><td>
+cluster  Relation-like   the carrier of A -defined   the carrier of A -valued   total   quasi_total   reflexive   symmetric   transitive   EqRelOf-like   for    Element of K16(K17( the carrier of A, the carrier of A));
+</td><td><span data-href='orders_5.html#RC7'>orders_5</span></td></tr>
+<tr><td>
+cluster  Relation-like  X -defined  X -valued   reflexive   symmetric   antisymmetric   transitive   total   for    Element of  bool [:X,X:];
+</td><td><span data-href='partfun1.html#RC2'>partfun1</span></td></tr>
+<tr><td>
+cluster  Relation-like   symmetric   transitive   ->  reflexive   for    set ;
+</td><td><span data-href='partfun1.html#CC3'>partfun1</span></td></tr>
+<tr><td>
+cluster  id X ->  symmetric   antisymmetric   transitive  ;
+</td><td><span data-href='partfun1.html#FC3'>partfun1</span></td></tr>
+<tr><td>
+cluster R \/ S ->  symmetric   for  Relation of (R1 \/ S1);
+</td><td><span data-href='pcs_0.html#FC3'>pcs_0</span></td></tr>
+<tr><td>
+cluster [^R,S^] ->  symmetric  ;
+</td><td><span data-href='pcs_0.html#FC8'>pcs_0</span></td></tr>
+<tr><td>
+cluster  the ToleranceRel of P ->  symmetric  ;
+</td><td><span data-href='pcs_0.html#FC15'>pcs_0</span></td></tr>
+<tr><td>
+cluster  SymCl R ->  symmetric  ;
+</td><td><span data-href='prefer_1.html#FC2'>prefer_1</span></td></tr>
+<tr><td>
+cluster  Aux R ->  irreflexive   symmetric  ;
+</td><td><span data-href='prefer_1.html#FC8'>prefer_1</span></td></tr>
+<tr><td>
+cluster  DomRel A ->  total   symmetric   transitive  ;
+</td><td><span data-href='pua2mss1.html#FC1'>pua2mss1</span></td></tr>
+<tr><td>
+cluster  LimDomRel A ->  total   symmetric   transitive  ;
+</td><td><span data-href='pua2mss1.html#FC2'>pua2mss1</span></td></tr>
+<tr><td>
+cluster  empty   Relation-like   ->  reflexive   irreflexive   symmetric   antisymmetric   asymmetric   connected   strongly_connected   transitive   for    set ;
+</td><td><span data-href='relat_2.html#CC1'>relat_2</span></td></tr>
+<tr><td>
+cluster  Relation-like   symmetric   transitive   ->  reflexive   for    set ;
+</td><td><span data-href='relat_2.html#CC2'>relat_2</span></td></tr>
+<tr><td>
+cluster  id X ->  symmetric   antisymmetric   transitive  ;
+</td><td><span data-href='relat_2.html#FC1'>relat_2</span></td></tr>
+<tr><td>
+cluster R ~  ->  symmetric  ;
+</td><td><span data-href='relat_2.html#FC9'>relat_2</span></td></tr>
+<tr><td>
+cluster P \/ R ->  symmetric  ;
+</td><td><span data-href='relat_2.html#FC10'>relat_2</span></td></tr>
+<tr><td>
+cluster P /\ R ->  symmetric  ;
+</td><td><span data-href='relat_2.html#FC11'>relat_2</span></td></tr>
+<tr><td>
+cluster P \ R ->  symmetric  ;
+</td><td><span data-href='relat_2.html#FC12'>relat_2</span></td></tr>
+<tr><td>
+cluster S \/ (S ~) ->  symmetric  ;
+</td><td><span data-href='rewrite2.html#FC7'>rewrite2</span></td></tr>
+<tr><td>
+cluster  Relation-like   symmetric   for    Element of K16(([#] ((E ^omega),(E ^omega))));
+</td><td><span data-href='rewrite2.html#RC2'>rewrite2</span></td></tr>
+<tr><td>
+cluster  EqRel (R,I) ->  non  empty   total   symmetric   transitive  ;
+</td><td><span data-href='ring_1.html#FC3'>ring_1</span></td></tr>
+<tr><td>
+cluster  the InternalRel of A ->  reflexive   symmetric   total  ;
+</td><td><span data-href='roughs_1.html#FC5'>roughs_1</span></td></tr>
+<tr><td>
+cluster  ==_ X ->  total   symmetric   transitive  ;
+</td><td><span data-href='stacks_1.html#FC11'>stacks_1</span></td></tr>
+<tr><td>
+cluster  Relation-like   empty   ->  reflexive   irreflexive   symmetric   antisymmetric   asymmetric   connected   strongly_connected   transitive   for    set ;
+</td><td><span data-href='toler_1.html#CC1'>toler_1</span></td></tr>
+<tr><td>
+cluster  EqRel (X,a) ->  non  empty   total   symmetric   transitive  ;
+</td><td><span data-href='topalg_1.html#FC3'>topalg_1</span></td></tr>
+<tr><td>
+cluster  SubIsomGroupRel G ->  total   symmetric   transitive  ;
+</td><td><span data-href='vectmetr.html#FC8'>vectmetr</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM23246'>
+<h2>12.   <span data-link='1088.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rltopsp1.html#V2'>rltopsp1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">X</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="RLVECT_1:struct.1" data-link="7510.html#ELM23286">RLSStruct</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">A</font> be   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c2">X</font>;<br><div about="#D24" typeof="oo:Definition" class="main-sentence">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c2">A</font> is  <span title="RLTOPSP1:attr.2" data-link="1088.html#ELM23246">symmetric</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E24">Def5</font></span>: <a name="D5"><span class="comment"><font color="firebrick">:: RLTOPSP1:def 5</font></span><br></a><font color="Maroon" title="c2">A</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="RLTOPSP1:func.2" data-link="327.html#ELM23240">-</span> <font color="Maroon" title="c2">A</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  non  empty   symmetric   for    Element of  bool  the carrier of X;
+</td><td><span data-href='rltopsp1.html#RC3'>rltopsp1</span></td></tr>
+<tr><td>
+cluster  circled   ->  symmetric   for    Element of  bool  the carrier of X;
+</td><td><span data-href='rltopsp1.html#CC2'>rltopsp1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM30805'>
+<h2>13.   <span data-link='1088.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='zmodlat2.html#V2'>zmodlat2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">V</font> be    <span title="VECTSP_1:struct.1" data-link="8602.html#ELM28497">ModuleStr</span> over  <span title="INT_3:func.1" data-link="4294.html#ELM12468">INT.Ring</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be   <span title="ZMODLAT1:NM.3" data-link="8994.html#ELM30684">FrForm</span> of <font color="Maroon" title="c1">V</font>,<font color="Maroon" title="c1">V</font>;<br><div about="#D40" typeof="oo:Definition" class="main-sentence">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c2">f</font> is  <span title="ZMODLAT2:attr.2" data-link="1088.html#ELM30805">symmetric</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E40">defSymForm</font></span>: <a name="D6"><span class="comment"><font color="firebrick">:: ZMODLAT2:def 6</font></span><br></a> for <font color="Olive" title="b1">v</font>, <font color="Olive" title="b2">w</font> being   <span title="VECTSP_1:NM.8" data-link="4832.html#ELM28505">Vector</span> of <font color="Maroon" title="c1">V</font> holds  <font color="Maroon" title="c2">f</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Olive" title="b1">v</font>,<font color="Olive" title="b2">w</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">f</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Olive" title="b2">w</font>,<font color="Olive" title="b1">v</font>);<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  NulFrForm (V,V) ->  symmetric  ;
+</td><td><span data-href='zmodlat2.html#FC9'>zmodlat2</span></td></tr>
+<tr><td>
+cluster  Relation-like  [: the carrier of V, the carrier of V:] -defined   the carrier of F_Real -valued   Function-like   non  empty   total   quasi_total  V71() V72() V73()  symmetric   for    Element of  bool [:[: the carrier of V, the carrier of V:], the carrier of F_Real:];
+</td><td><span data-href='zmodlat2.html#RC2'>zmodlat2</span></td></tr>
+<tr><td>
+cluster  Relation-like  [: the carrier of V, the carrier of V:] -defined   the carrier of F_Real -valued   Function-like   non  empty   total   quasi_total  V71() V72() V73() V252(V,V) V253(V,V) V254(V,V) V255(V,V)  symmetric   for    Element of  bool [:[: the carrier of V, the carrier of V:], the carrier of F_Real:];
+</td><td><span data-href='zmodlat2.html#RC3'>zmodlat2</span></td></tr>
+<tr><td>
+cluster  InnerProduct L ->  symmetric  ;
+</td><td><span data-href='zmodlat2.html#FC10'>zmodlat2</span></td></tr>
+<tr><td>
+cluster  GramMatrix (f,b) ->  symmetric  ;
+</td><td><span data-href='zmodlat2.html#FC11'>zmodlat2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

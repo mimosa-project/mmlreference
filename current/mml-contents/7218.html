@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Mul_mod</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Mul_mod</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='7218.html#ELM21887'>Mul_mod</span> [<span data-href='radix_2.html#K7'>radix_2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM21887'>
+<h2>1.   <span data-link='7218.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='radix_2.html#K7'>radix_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">q</font> be   <span title="INT_1:NM.1" data-link="4287.html#ELM12429">Integer</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">k</font>, <font color="Maroon" title="c3">f</font>, <font color="Maroon" title="c4">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c5">c</font> be   <span title="FINSEQ_2:NM.3" data-link="796.html#ELM7178">Tuple</span> of <font color="Maroon" title="c4">n</font>,<font color="Maroon" title="c2">k</font> <span title="RADIX_1:func.3" data-link="7200.html#ELM21868">-SD</span> ;<br><span class="kw">assume </span><a name="E1:22"></a><span class="lab"><font color="Green" title="E16">A1</font></span>: 
+<font color="Maroon" title="c4">n</font> <span title="XXREAL_0:NR.2" data-link="786.html#ELM29820">&gt;=</span> 1
+ ;<br><div about="#D16" typeof="oo:Definition" class="main-sentence">
+<a name="K7"><span class="kw">func</span> </a> <span title="RADIX_2:func.7" data-link="7218.html#ELM21887">Mul_mod</span> (<font color="Maroon" title="c1">q</font>,<font color="Maroon" title="c5">c</font>,<font color="Maroon" title="c3">f</font>,<font color="Maroon" title="c2">k</font>)<span class="kw"> -&gt; </span>  <span title="FINSEQ_2:NM.3" data-link="796.html#ELM7178">Tuple</span> of <font color="Maroon" title="c4">n</font>, <span title="NUMBERS:func.4" data-link="2849.html#ELM18627">INT</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E16">Def7</font></span>: <a name="D7"><span class="comment"><font color="firebrick">:: RADIX_2:def 7</font></span><br></a>( <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> 1 <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="RADIX_2:func.6" data-link="7217.html#ELM21886">Table1</span> (<font color="Maroon" title="c1">q</font>,<font color="Maroon" title="c5">c</font>,<font color="Maroon" title="c3">f</font>,<font color="Maroon" title="c4">n</font>) &amp; (  for <font color="Olive" title="b1">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st 1 <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b1">i</font> &amp; <font color="Olive" title="b1">i</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Maroon" title="c4">n</font> <span title="XCMPLX_0:func.6" data-link="327.html#ELM29691">-</span> 1 holds <br> ex <font color="Olive" title="b2">I1</font>, <font color="Olive" title="b3">I2</font> being   <span title="INT_1:NM.1" data-link="4287.html#ELM12429">Integer</span> st <br>( <font color="Olive" title="b2">I1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">i</font> &amp; <font color="Olive" title="b3">I2</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> &amp; <font color="Olive" title="b3">I2</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span class="p3">(<span class="default"><span title="RADIX_1:func.1" data-link="7199.html#ELM21866">Radix</span> <font color="Maroon" title="c2">k</font></span>)</span> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <font color="Olive" title="b2">I1</font></span>)</span> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> <span class="p2">(<span class="default"><span title="RADIX_2:func.6" data-link="7217.html#ELM21886">Table1</span> (<font color="Maroon" title="c1">q</font>,<font color="Maroon" title="c5">c</font>,<font color="Maroon" title="c3">f</font>,<span class="p3">(<span class="default"><font color="Maroon" title="c4">n</font> <span title="NAT_D:func.7" data-link="497.html#ELM17598">-'</span> <font color="Olive" title="b1">i</font></span>)</span>)</span>)</span></span>)</span> <span title="INT_1:func.5" data-link="687.html#ELM12435">mod</span> <font color="Maroon" title="c3">f</font> ) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

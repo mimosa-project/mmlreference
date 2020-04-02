@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>endvertex</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr endvertex</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='3550.html#ELM9814'>endvertex</span> [<span data-href='glib_000.html#V11'>glib_000</span>]</li>
+<li><span data-link='3550.html#ELM9815'>endvertex</span> [<span data-href='glib_000.html'>glib_000</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM9814'>
+<h2>1.   <span data-link='3550.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='glib_000.html#V11'>glib_000</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GLIB_000:NM.2" data-link="3502.html#ELM9753">_Graph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">v</font> be   <span title="GLIB_000:NM.10" data-link="3509.html#ELM9761">Vertex</span> of <font color="Maroon" title="c1">G</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V11"><span class="kw">attr</span> </a><font color="Maroon" title="c2">v</font> is  <span title="GLIB_000:attr.11" data-link="3550.html#ELM9814">endvertex</span> <span class="kw"> means </span><a name="D51"><span class="comment"><font color="firebrick">:: GLIB_000:def 51</font></span><br></a> ex <font color="Olive" title="b1">e</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>  st <br>( <font color="Maroon" title="c2">v</font> <span title="GLIB_000:func.28" data-link="3531.html#ELM9790">.edgesInOut()</span>  <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"><span title="TARSKI:func.1" data-link="857.html#ELM26065">{</span><span class="default"><font color="Olive" title="b1">e</font></span><span title="TARSKI:func.1" data-link="857.html#ELM26065">}</span></span> &amp;  not <font color="Olive" title="b1">e</font> <span title="GLIB_000:pred.1" data-link="3494.html#ELM9744">Joins</span> <font color="Maroon" title="c2">v</font>,<font color="Maroon" title="c2">v</font>,<font color="Maroon" title="c1">G</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  endvertex   for    Element of  the_Vertices_of G;
+</td><td><span data-href='glib_002.html#RC6'>glib_002</span></td></tr>
+<tr><td>
+cluster   ->  Tree-like   for    inducedSubgraph of G,(the_Vertices_of G) \ {v},G .edgesBetween ((the_Vertices_of G) \ {v});
+</td><td><span data-href='glib_002.html#CC11'>glib_002</span></td></tr>
+<tr><td>
+cluster  endvertex   ->  non  cut-vertex   for    Element of  the_Vertices_of G;
+</td><td><span data-href='glib_008.html#CC3'>glib_008</span></td></tr>
+<tr><td>
+cluster   ->  isolated   non  endvertex   non  cut-vertex   for    Element of  the_Vertices_of G;
+</td><td><span data-href='glib_008.html#CC22'>glib_008</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM9815'>
+<h2>2.   <span data-link='3550.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='glib_000.html'>glib_000</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GLIB_000:attr.2" data-link="2772.html#ELM9804">finite</span>  <span title="GLIB_000:NM.2" data-link="3502.html#ELM9753">_Graph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">v</font> be   <span title="GLIB_000:NM.10" data-link="3509.html#ELM9761">Vertex</span> of <font color="Maroon" title="c1">G</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<span class="kw">redefine </span><span class="kw">attr</span> <font color="Maroon" title="c2">v</font> is  <span title="GLIB_000:attr.11" data-link="3550.html#ELM9814">endvertex</span> <span class="kw"> means </span><a name="D52"><span class="comment"><font color="firebrick">:: GLIB_000:def 52</font></span><br></a><font color="Maroon" title="c2">v</font> <span title="GLIB_000:func.35" data-link="3535.html#ELM9797">.degree()</span>  <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> 1;<br>
+</div>
+<span class="kw">compatibility</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

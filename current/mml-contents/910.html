@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>OrderedPartition</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func OrderedPartition</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='910.html#ELM2227'>OrderedPartition</span> [<span data-href='bagord_2.html#K7'>bagord_2</span>]</li>
+<li><span data-link='910.html#ELM2228'>OrderedPartition</span> [<span data-href='bagord_2.html#K8'>bagord_2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM2227'>
+<h2>1.   <span data-link='910.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='bagord_2.html#K7'>bagord_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ORDERS_2:attr.4" data-link="413.html#ELM18898">transitive</span>   <span title="NECKLACE:attr.2" data-link="6001.html#ELM17830">asymmetric</span>   <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">b</font> be   <span title="PRE_POLY:NM.2" data-link="6928.html#ELM21033">bag</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">R</font>;<br><div about="#D56" typeof="oo:Definition" class="main-sentence">
+<a name="K7"><span class="kw">func</span> </a> <span title="BAGORD_2:func.7" data-link="910.html#ELM2227">OrderedPartition</span> <font color="Maroon" title="c2">b</font><span class="kw"> -&gt; </span>  <span title="PRE_POLY:func.15" data-link="6931.html#ELM21048">Bags</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">R</font> <span title="RELAT_1:attr.5" data-link="7382.html#ELM22401">-valued</span>  <span title="FINSEQ_1:NM.1" data-link="27.html#ELM7089">FinSequence</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E56">OP</font></span>: <a name="D12"><span class="comment"><font color="firebrick">:: BAGORD_2:def 12</font></span><br></a> ex <font color="Olive" title="b1">F</font>, <font color="Olive" title="b2">G</font> being   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>,<span class="p1">(<span class="default"><span title="PRE_POLY:func.15" data-link="6931.html#ELM21048">Bags</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">R</font></span>)</span> st <br>( <font color="Olive" title="b1">F</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">b</font> &amp; <font color="Olive" title="b2">G</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="PRE_POLY:func.16" data-link="6932.html#ELM21050">EmptyBag</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">R</font> &amp; (  for <font color="Olive" title="b3">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> holds <br> ( <font color="Olive" title="b2">G</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b3">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">F</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b3">i</font></span>)</span> <span title="BAGORD_2:func.5" data-link="909.html#ELM2225">|</span> <span class="p1"> { <span class="default"> <font color="Olive" title="b4">x</font> where <font color="Olive" title="b4">x</font> is   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">R</font> : <font color="Olive" title="b4">x</font> <span title="WAYBEL_4:pred.3" data-link="6271.html#ELM29386">is_maximal_in</span>  <span title="PRE_POLY:func.13" data-link="906.html#ELM21046">support</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">F</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b3">i</font></span>)</span> </span> } </span>  &amp; <font color="Olive" title="b1">F</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b3">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">F</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b3">i</font></span>)</span> <span title="PRE_POLY:func.12" data-link="497.html#ELM21045">-'</span> <span class="p1">(<span class="default"><font color="Olive" title="b2">G</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <span class="p2">(<span class="default"><font color="Olive" title="b3">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span></span>)</span> ) ) &amp;  ex <font color="Olive" title="b3">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> st <br>( <font color="Olive" title="b1">F</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b3">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="PRE_POLY:func.16" data-link="6932.html#ELM21050">EmptyBag</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">R</font> &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b2">G</font> <span title="PARTFUN1:func.2" data-link="909.html#ELM19579">|</span> <span class="p1">(<span class="default"><span title="FINSEQ_1:func.2" data-link="2722.html#ELM7094">Seg</span> <font color="Olive" title="b3">i</font></span>)</span> &amp; (  for <font color="Olive" title="b4">j</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b4">j</font> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Olive" title="b3">i</font> holds <br><font color="Olive" title="b1">F</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b4">j</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="PRE_POLY:func.16" data-link="6932.html#ELM21050">EmptyBag</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">R</font> ) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  OrderedPartition b ->  ordered   for   partition of b;
+</td><td><span data-href='bagord_2.html#FC8'>bagord_2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM2228'>
+<h2>2.   <span data-link='910.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='bagord_2.html#K8'>bagord_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ORDERS_2:attr.4" data-link="413.html#ELM18898">transitive</span>   <span title="NECKLACE:attr.2" data-link="6001.html#ELM17830">asymmetric</span>   <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">b</font> be   <span title="PRE_POLY:NM.2" data-link="6928.html#ELM21033">bag</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">R</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="BAGORD_2:func.7" data-link="910.html#ELM2227">OrderedPartition</span><br><span class="kw">redefine </span><a name="K8"><span class="kw">func</span> </a> <span title="BAGORD_2:func.8" data-link="910.html#ELM2228">OrderedPartition</span> <font color="Maroon" title="c2">b</font><span class="kw"> -&gt; </span>   <span title="BAGORD_2:mode.2" data-link="905.html#ELM2218">partition</span> of <font color="Maroon" title="c2">b</font>;<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>-response</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func -response</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='3089.html#ELM8636'>-response</span> [<span data-href='fsm_1.html#K4'>fsm_1</span>]</li>
+<li><span data-link='3089.html#ELM8637'>-response</span> [<span data-href='fsm_1.html#K5'>fsm_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM8636'>
+<h2>1.   <span data-link='3089.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fsm_1.html#K4'>fsm_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">IAlph</font>, <font color="Maroon" title="c2">OAlph</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">tfsm</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="FSM_1:struct.2" data-link="3084.html#ELM8630">Mealy-FSM</span> over <font color="Maroon" title="c1">IAlph</font>,<font color="Maroon" title="c2">OAlph</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">qt</font> be   <span title="FSM_1:NM.1" data-link="1714.html#ELM8632">State</span> of <font color="Maroon" title="c3">tfsm</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">w</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c1">IAlph</font>;<br><div about="#D9" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a>(<font color="Maroon" title="c4">qt</font>,<font color="Maroon" title="c5">w</font>) <span title="FSM_1:func.4" data-link="3089.html#ELM8636">-response</span> <span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c2">OAlph</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E9">Def6</font></span>: <a name="D6"><span class="comment"><font color="firebrick">:: FSM_1:def 6</font></span><br></a>(  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c5">w</font> &amp; (  for <font color="Olive" title="b1">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b1">i</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <font color="Maroon" title="c5">w</font> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  the <span title="FSM_1:sel.3" data-href="fsm_1.html#U3">OFun</span> of <font color="Maroon" title="c3">tfsm</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><span class="p2">(<span class="default"><span class="p3">(<span class="default">(<font color="Maroon" title="c4">qt</font>,<font color="Maroon" title="c5">w</font>) <span title="FSM_1:func.2" data-link="3087.html#ELM8634">-admissible</span></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">i</font></span>)</span>,<span class="p2">(<span class="default"><font color="Maroon" title="c5">w</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">i</font></span>)</span></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM8637'>
+<h2>2.   <span data-link='3089.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fsm_1.html#K5'>fsm_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">IAlph</font>, <font color="Maroon" title="c2">OAlph</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">sfsm</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="FSM_1:struct.3" data-link="3085.html#ELM8631">Moore-FSM</span> over <font color="Maroon" title="c1">IAlph</font>,<font color="Maroon" title="c2">OAlph</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">qs</font> be   <span title="FSM_1:NM.1" data-link="1714.html#ELM8632">State</span> of <font color="Maroon" title="c3">sfsm</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">w</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c1">IAlph</font>;<br><div about="#D11" typeof="oo:Definition" class="main-sentence">
+<a name="K5"><span class="kw">func</span> </a>(<font color="Maroon" title="c4">qs</font>,<font color="Maroon" title="c5">w</font>) <span title="FSM_1:func.5" data-link="3089.html#ELM8637">-response</span> <span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c2">OAlph</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E11">Def7</font></span>: <a name="D7"><span class="comment"><font color="firebrick">:: FSM_1:def 7</font></span><br></a>(  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c5">w</font></span>)</span> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1 &amp; (  for <font color="Olive" title="b1">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b1">i</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.2" data-link="2722.html#ELM7094">Seg</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c5">w</font></span>)</span> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  the <span title="FSM_1:sel.4" data-href="fsm_1.html#U4">OFun</span> of <font color="Maroon" title="c3">sfsm</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default">(<font color="Maroon" title="c4">qs</font>,<font color="Maroon" title="c5">w</font>) <span title="FSM_1:func.2" data-link="3087.html#ELM8634">-admissible</span></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">i</font></span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

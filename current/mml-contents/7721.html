@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>pseudo-LifeSpan</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func pseudo-LifeSpan</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='7721.html#ELM24241'>pseudo-LifeSpan</span> [<span data-href='scmfsa8a.html#K2'>scmfsa8a</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM24241'>
+<h2>1.   <span data-link='7721.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='scmfsa8a.html#K2'>scmfsa8a</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c5">s</font> be   <span title="MEMSTR_0:NM.2" data-link="1714.html#ELM15430">State</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span>;<br><span class="kw">let </span><font color="Maroon" title="c6">P</font> be   <span title="COMPOS_1:NM.2" data-link="1932.html#ELM5021">Instruction-Sequence</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span>;<br><span class="kw">let </span><font color="Maroon" title="c7">I</font> be   <span title="COMPOS_1:NM.4" data-link="1934.html#ELM5023">Program</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span>;<br><span class="kw">assume </span><a name="E1:22"></a><span class="lab"><font color="Green" title="E8">A1</font></span>: 
+<font color="Maroon" title="c7">I</font> <span title="SCMFSA8A:pred.1" data-link="7719.html#ELM24239">is_pseudo-closed_on</span> <font color="Maroon" title="c5">s</font>,<font color="Maroon" title="c6">P</font>
+ ;<br><div about="#D8" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="SCMFSA8A:func.2" data-link="7721.html#ELM24241">pseudo-LifeSpan</span> (<font color="Maroon" title="c1">s</font>,<font color="Maroon" title="c2">P</font>,<font color="Maroon" title="c3">I</font>)<span class="kw"> -&gt; </span>  <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E8">Def3</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: SCMFSA8A:def 4</font></span><br></a>(  <span title="MEMSTR_0:func.5" data-link="471.html#ELM15439">IC</span> <span class="p1">(<span class="default"><span title="EXTPRO_1:func.5" data-link="2534.html#ELM6614">Comput</span> (<span class="p2">(<span class="default"><font color="Maroon" title="c2">P</font> <span title="FUNCT_4:func.1" data-link="517.html#ELM8937">+*</span> <font color="Maroon" title="c3">I</font></span>)</span>,<span class="p2">(<span class="default"><span title="MEMSTR_0:func.8" data-link="5243.html#ELM15442">Initialize</span> <font color="Maroon" title="c1">s</font></span>)</span>,<span class="kw">it</span>)</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="CARD_1:func.4" data-link="1329.html#ELM3236">card</span> <font color="Maroon" title="c3">I</font> &amp; (  for <font color="Olive" title="b1">n</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st  not  <span title="MEMSTR_0:func.5" data-link="471.html#ELM15439">IC</span> <span class="p1">(<span class="default"><span title="EXTPRO_1:func.5" data-link="2534.html#ELM6614">Comput</span> (<span class="p2">(<span class="default"><font color="Maroon" title="c2">P</font> <span title="FUNCT_4:func.1" data-link="517.html#ELM8937">+*</span> <font color="Maroon" title="c3">I</font></span>)</span>,<span class="p2">(<span class="default"><span title="MEMSTR_0:func.8" data-link="5243.html#ELM15442">Initialize</span> <font color="Maroon" title="c1">s</font></span>)</span>,<font color="Olive" title="b1">n</font>)</span>)</span> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="AFINSQ_1:func.2" data-link="41.html#ELM498">dom</span> <font color="Maroon" title="c3">I</font> holds <br><span class="kw">it</span> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b1">n</font> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>iter</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func iter</h1>
+<h2>List of Definitions (7)</h2>
+<ol>
+<li><span data-link='114.html#ELM298'>iter</span> [<span data-href='abian.html#K1'>abian</span>]</li>
+<li><span data-link='114.html#ELM1506'>iter</span> [<span data-href='aofa_000.html#K6'>aofa_000</span>]</li>
+<li><span data-link='114.html#ELM1507'>iter</span> [<span data-href='aofa_000.html#K7'>aofa_000</span>]</li>
+<li><span data-link='114.html#ELM1508'>iter</span> [<span data-href='aofa_000.html#K8'>aofa_000</span>]</li>
+<li><span data-link='114.html#ELM9007'>iter</span> [<span data-href='funct_7.html#K8'>funct_7</span>]</li>
+<li><span data-link='114.html#ELM13751'>iter</span> [<span data-href='lfuzzy_1.html#K4'>lfuzzy_1</span>]</li>
+<li><span data-link='114.html#ELM15919'>iter</span> [<span data-href='mmlquer2.html#K8'>mmlquer2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM298'>
+<h2>1.   <span data-link='114.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='abian.html#K1'>abian</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">E</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c1">E</font>,<font color="Maroon" title="c1">E</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span><br><span class="kw">redefine </span><a name="K1"><span class="kw">func</span> </a> <span title="ABIAN:func.1" data-link="114.html#ELM298">iter</span> (<font color="Maroon" title="c2">f</font>,<font color="Maroon" title="c3">n</font>)<span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c1">E</font>,<font color="Maroon" title="c1">E</font>;<br><span class="kw">coherence</span> <span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('funct_7/T83')" onmouseout="rh()" data-href="funct_7.html#T83">FUNCT_7:83</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM1506'>
+<h2>2.   <span data-link='114.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='aofa_000.html#K6'>aofa_000</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">f</font> be   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><span class="kw">assume </span><a name="E1:23"></a><span class="lab"><font color="Green" title="E11">A1</font></span>: 
+ <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <font color="Maroon" title="c1">f</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font>
+ ;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font>, <font color="Maroon" title="c3">x</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">defpred </span><font color="Maroon">S<sub>1</sub></font>[  <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>] <span class="kw">means </span> for <font color="Olive" title="b1">a</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font> holds <br><font color="Olive" title="b1">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,$1)</span>)</span>;<br><a name="E2:23"></a><span class="lab"><font color="Green" title="E12">A2</font></span>: 
+ <span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">f</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font>
+ <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E11">A1</font></span><span class="ref" onmouseover="rs('xboole_1/T12')" onmouseout="rh()" data-href="xboole_1.html#T12">XBOOLE_1:12</span></span>;<br><a name="E3:23"></a><span class="kw">then </span>
+ <span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="PARTFUN1:func.6" data-link="1435.html#ELM19583">id</span> <span class="p1">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font></span>)</span>
+ <span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('funct_7/T68')" onmouseout="rh()" data-href="funct_7.html#T68">FUNCT_7:68</span></span>;<br><a name="E4:23"></a><span class="kw">then </span><span class="lab"><font color="Green" title="E13">A3</font></span>: 
+<font color="Maroon">S<sub>1</sub></font>[ <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> ]
+ ;<br><div>
+<span class="lab"><font color="Green" title="E14">A4</font></span>: <span class="kw">now </span> <span class="comment"><font color="firebrick">::  thesis: </font></span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c4">i</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>; <span class="comment"><font color="firebrick">::  thesis: </font></span><br><span class="kw">assume </span><a name="E1:23_1"></a><span class="lab"><font color="Green" title="E15">A5</font></span>: 
+<font color="Maroon">S<sub>1</sub></font>[<font color="Maroon" title="c4">i</font>]
+ ; <span class="comment"><font color="firebrick">::  thesis: </font></span><br><span class="kw">thus </span><a name="E2:23_1"></a>
+<font color="Maroon">S<sub>1</sub></font>[<font color="Maroon" title="c4">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1]
+  <span class="comment"><font color="firebrick">::  thesis: </font></span><div>
+<span class="kw">proof </span><div class="add">
+
+<span class="kw">let </span><font color="Maroon" title="c5">a</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ; <span class="comment"><font color="firebrick">::  thesis: </font></span><br>
+
+<span class="kw">assume </span><a name="E1:23_1_1"></a>
+<font color="Maroon" title="c5">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font>
+ ; <span class="comment"><font color="firebrick">::  thesis: </font></span><br>
+
+<a name="E2:23_1_1"></a><span class="kw">then </span><span class="lab"><font color="Green" title="E16">A6</font></span>: 
+<font color="Maroon" title="c5">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<font color="Maroon" title="c4">i</font>)</span>)</span>
+ 
+<span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E15">A5</font></span></span>;<br>
+<a name="E3:23_1_1"></a><span class="kw">then </span><span class="lab"><font color="Green" title="E17">A7</font></span>: 
+<span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<font color="Maroon" title="c4">i</font>)</span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c5">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<font color="Maroon" title="c4">i</font>)</span>)</span>
+ 
+<span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('funct_1/D3')" onmouseout="rh()" data-href="funct_1.html#D3">FUNCT_1:def 3</span></span>;<br>
+<a name="E4:23_1_1"></a><span class="lab"><font color="Green" title="E18">A8</font></span>: 
+ <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<font color="Maroon" title="c4">i</font>)</span>)</span> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font>
+ 
+<span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E12">A2</font></span><span class="ref" onmouseover="rs('funct_7/T72')" onmouseout="rh()" data-href="funct_7.html#T72">FUNCT_7:72</span></span>;<br>
+<a name="E5:23_1_1"></a>
+ <span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<span class="p1">(<span class="default"><font color="Maroon" title="c4">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">f</font> <span title="FUNCT_1:NK.3" data-link="47.html#ELM8820">*</span> <span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<font color="Maroon" title="c4">i</font>)</span>)</span>
+ 
+<span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('funct_7/T71')" onmouseout="rh()" data-href="funct_7.html#T71">FUNCT_7:71</span></span>;<br>
+<span class="kw">hence </span><a name="E6:23_1_1"></a>
+<font color="Maroon" title="c5">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<span class="p2">(<span class="default"><font color="Maroon" title="c4">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span>)</span>)</span>
+ <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E16">A6</font></span><span class="lab"><font color="Green" title="E17">A7</font></span><span class="lab"><font color="Green" title="E18">A8</font></span><span class="ref" onmouseover="rs('funct_1/T11')" onmouseout="rh()" data-href="funct_1.html#T11">FUNCT_1:11</span></span>; <span class="comment"><font color="firebrick">::  thesis: </font></span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+<a name="E6:23"></a><span class="lab"><font color="Green" title="E15">A9</font></span>: 
+ for <font color="Olive" title="b1">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> holds  <font color="Maroon">S<sub>1</sub></font>[<font color="Olive" title="b1">i</font>]
+ <span class="kw">from</span> <span class="lab"><span class="ref" onmouseover="rs('nat_1/S2')" onmouseout="rh()" data-href="nat_1.html#S2">NAT_1:sch 2</span>(<span class="lab"><font color="Green" title="E13">A3</font></span><span class="lab"><font color="Green" title="E14">A4</font></span><br></span><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K6"><span class="kw">func</span> </a>(<font color="Maroon" title="c2">A</font>,<font color="Maroon" title="c3">x</font>) <span title="AOFA_000:func.6" data-link="114.html#ELM1506">iter</span> <font color="Maroon" title="c1">f</font><span class="kw"> -&gt; </span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span><span class="kw"> means </span><a name="D6"><span class="comment"><font color="firebrick">:: AOFA_000:def 6</font></span><br></a>(  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font> &amp; (  for <font color="Olive" title="b1">a</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font> holds <br>( ( <font color="Maroon" title="c1">f</font> <span title="AOFA_000:func.5" data-link="633.html#ELM1505">orbit</span> <font color="Olive" title="b1">a</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span> <font color="Maroon" title="c2">A</font> implies <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">a</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">x</font> ) &amp; (  for <font color="Olive" title="b2">n</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<font color="Olive" title="b2">n</font>)</span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">a</font> <span title="AOFA_000:NR.1" data-link="622.html#ELM1489">nin</span> <font color="Maroon" title="c2">A</font> &amp; (  for <font color="Olive" title="b3">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b3">i</font> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Olive" title="b2">n</font> holds <br><span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<font color="Olive" title="b3">i</font>)</span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">A</font> ) holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">a</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<font color="Olive" title="b2">n</font>)</span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">a</font> ) ) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM1507'>
+<h2>3.   <span data-link='114.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='aofa_000.html#K7'>aofa_000</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">f</font> be   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><span class="kw">assume </span><a name="E1:24"></a><span class="lab"><font color="Green" title="E11">A1</font></span>: 
+ <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <font color="Maroon" title="c1">f</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font>
+ ;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">g</font> be   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><span class="kw">defpred </span><font color="Maroon">S<sub>1</sub></font>[  <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>] <span class="kw">means </span> for <font color="Olive" title="b1">a</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font> holds <br><font color="Olive" title="b1">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,$1)</span>)</span>;<br><a name="E2:24"></a><span class="lab"><font color="Green" title="E12">A2</font></span>: 
+ <span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">f</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font>
+ <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E11">A1</font></span><span class="ref" onmouseover="rs('xboole_1/T12')" onmouseout="rh()" data-href="xboole_1.html#T12">XBOOLE_1:12</span></span>;<br><a name="E3:24"></a><span class="kw">then </span>
+ <span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="PARTFUN1:func.6" data-link="1435.html#ELM19583">id</span> <span class="p1">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font></span>)</span>
+ <span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('funct_7/T68')" onmouseout="rh()" data-href="funct_7.html#T68">FUNCT_7:68</span></span>;<br><a name="E4:24"></a><span class="kw">then </span><span class="lab"><font color="Green" title="E13">A3</font></span>: 
+<font color="Maroon">S<sub>1</sub></font>[ <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> ]
+ ;<br><div>
+<span class="lab"><font color="Green" title="E14">A4</font></span>: <span class="kw">now </span> <span class="comment"><font color="firebrick">::  thesis: </font></span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c4">i</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>; <span class="comment"><font color="firebrick">::  thesis: </font></span><br><span class="kw">assume </span><a name="E1:24_1"></a><span class="lab"><font color="Green" title="E15">A5</font></span>: 
+<font color="Maroon">S<sub>1</sub></font>[<font color="Maroon" title="c4">i</font>]
+ ; <span class="comment"><font color="firebrick">::  thesis: </font></span><br><span class="kw">thus </span><a name="E2:24_1"></a>
+<font color="Maroon">S<sub>1</sub></font>[<font color="Maroon" title="c4">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1]
+  <span class="comment"><font color="firebrick">::  thesis: </font></span><div>
+<span class="kw">proof </span><div class="add">
+
+<span class="kw">let </span><font color="Maroon" title="c5">a</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ; <span class="comment"><font color="firebrick">::  thesis: </font></span><br>
+
+<span class="kw">assume </span><a name="E1:24_1_1"></a>
+<font color="Maroon" title="c5">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font>
+ ; <span class="comment"><font color="firebrick">::  thesis: </font></span><br>
+
+<a name="E2:24_1_1"></a><span class="kw">then </span><span class="lab"><font color="Green" title="E16">A6</font></span>: 
+<font color="Maroon" title="c5">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<font color="Maroon" title="c4">i</font>)</span>)</span>
+ 
+<span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E15">A5</font></span></span>;<br>
+<a name="E3:24_1_1"></a><span class="kw">then </span><span class="lab"><font color="Green" title="E17">A7</font></span>: 
+<span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<font color="Maroon" title="c4">i</font>)</span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c5">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<font color="Maroon" title="c4">i</font>)</span>)</span>
+ 
+<span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('funct_1/D3')" onmouseout="rh()" data-href="funct_1.html#D3">FUNCT_1:def 3</span></span>;<br>
+<a name="E4:24_1_1"></a><span class="lab"><font color="Green" title="E18">A8</font></span>: 
+ <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<font color="Maroon" title="c4">i</font>)</span>)</span> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font>
+ 
+<span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E12">A2</font></span><span class="ref" onmouseover="rs('funct_7/T72')" onmouseout="rh()" data-href="funct_7.html#T72">FUNCT_7:72</span></span>;<br>
+<a name="E5:24_1_1"></a>
+ <span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<span class="p1">(<span class="default"><font color="Maroon" title="c4">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">f</font> <span title="FUNCT_1:NK.3" data-link="47.html#ELM8820">*</span> <span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<font color="Maroon" title="c4">i</font>)</span>)</span>
+ 
+<span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('funct_7/T71')" onmouseout="rh()" data-href="funct_7.html#T71">FUNCT_7:71</span></span>;<br>
+<span class="kw">hence </span><a name="E6:24_1_1"></a>
+<font color="Maroon" title="c5">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<span class="p2">(<span class="default"><font color="Maroon" title="c4">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span>)</span>)</span>
+ <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E16">A6</font></span><span class="lab"><font color="Green" title="E17">A7</font></span><span class="lab"><font color="Green" title="E18">A8</font></span><span class="ref" onmouseover="rs('funct_1/T11')" onmouseout="rh()" data-href="funct_1.html#T11">FUNCT_1:11</span></span>; <span class="comment"><font color="firebrick">::  thesis: </font></span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+<a name="E6:24"></a><span class="lab"><font color="Green" title="E15">A9</font></span>: 
+ for <font color="Olive" title="b1">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> holds  <font color="Maroon">S<sub>1</sub></font>[<font color="Olive" title="b1">i</font>]
+ <span class="kw">from</span> <span class="lab"><span class="ref" onmouseover="rs('nat_1/S2')" onmouseout="rh()" data-href="nat_1.html#S2">NAT_1:sch 2</span>(<span class="lab"><font color="Green" title="E13">A3</font></span><span class="lab"><font color="Green" title="E14">A4</font></span><br></span><div about="#D11" typeof="oo:Definition" class="main-sentence">
+<a name="K7"><span class="kw">func</span> </a>(<font color="Maroon" title="c2">A</font>,<font color="Maroon" title="c3">g</font>) <span title="AOFA_000:func.7" data-link="114.html#ELM1507">iter</span> <font color="Maroon" title="c1">f</font><span class="kw"> -&gt; </span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E11">Def7</font></span>: <a name="D7"><span class="comment"><font color="firebrick">:: AOFA_000:def 7</font></span><br></a>(  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font> &amp; (  for <font color="Olive" title="b1">a</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font> holds <br>( ( <font color="Maroon" title="c1">f</font> <span title="AOFA_000:func.5" data-link="633.html#ELM1505">orbit</span> <font color="Olive" title="b1">a</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span> <font color="Maroon" title="c2">A</font> implies <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">a</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">g</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">a</font> ) &amp; (  for <font color="Olive" title="b2">n</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<font color="Olive" title="b2">n</font>)</span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">a</font> <span title="AOFA_000:NR.1" data-link="622.html#ELM1489">nin</span> <font color="Maroon" title="c2">A</font> &amp; (  for <font color="Olive" title="b3">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b3">i</font> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Olive" title="b2">n</font> holds <br><span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<font color="Olive" title="b3">i</font>)</span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">A</font> ) holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">a</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<font color="Olive" title="b2">n</font>)</span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">a</font> ) ) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM1508'>
+<h2>4.   <span data-link='114.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='aofa_000.html#K8'>aofa_000</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be    <span title="FUNCT_2:mode.2" data-link="667.html#ELM8876">Element</span> of  <span title="FUNCT_2:func.9" data-link="52.html#ELM8886">Funcs</span> (<font color="Maroon" title="c1">X</font>,<font color="Maroon" title="c1">X</font>);<br><span class="kw">let </span><font color="Maroon" title="c3">A</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c4">g</font> be    <span title="FUNCT_2:mode.2" data-link="667.html#ELM8876">Element</span> of  <span title="FUNCT_2:func.9" data-link="52.html#ELM8886">Funcs</span> (<font color="Maroon" title="c1">X</font>,<font color="Maroon" title="c1">X</font>);<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="AOFA_000:func.7" data-link="114.html#ELM1507">iter</span><br><span class="kw">redefine </span><a name="K8"><span class="kw">func</span> </a>(<font color="Maroon" title="c3">A</font>,<font color="Maroon" title="c4">g</font>) <span title="AOFA_000:func.8" data-link="114.html#ELM1508">iter</span> <font color="Maroon" title="c2">f</font><span class="kw"> -&gt; </span>   <span title="FUNCT_2:mode.2" data-link="667.html#ELM8876">Element</span> of  <span title="FUNCT_2:func.9" data-link="52.html#ELM8886">Funcs</span> (<font color="Maroon" title="c1">X</font>,<font color="Maroon" title="c1">X</font>);<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM9007'>
+<h2>5.   <span data-link='114.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='funct_7.html#K8'>funct_7</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">f</font> be   <span title="RELAT_1:NM.1" data-link="286.html#ELM22383">Relation</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><div about="#D45" typeof="oo:Definition" class="main-sentence">
+<a name="K8"><span class="kw">func</span> </a> <span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span> (<font color="Maroon" title="c1">f</font>,<font color="Maroon" title="c2">n</font>)<span class="kw"> -&gt; </span>  <span title="RELAT_1:NM.1" data-link="286.html#ELM22383">Relation</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E45">Def10</font></span>: <a name="D11"><span class="comment"><font color="firebrick">:: FUNCT_7:def 11</font></span><br></a> ex <font color="Olive" title="b1">p</font> being   <span title="NAT_1:NM.2" data-link="5927.html#ELM17447">sequence</span> of <span class="p1">(<span class="default"><span title="SETFAM_1:func.9" data-link="1652.html#ELM25011">bool</span> <span class="p2"><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">[:</span><span class="default"><span class="p3">(<span class="default"><span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">f</font></span>)</span>,<span class="p3">(<span class="default"><span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">f</font></span>)</span></span><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">:]</span></span></span>)</span> st <br>( <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">p</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c2">n</font> &amp; <font color="Olive" title="b1">p</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> <span title="RELSET_1:pred.2" data-link="1122.html#ELM22505">=</span>  <span title="PARTFUN1:func.6" data-link="1435.html#ELM19583">id</span> <span class="p1">(<span class="default"><span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">f</font></span>)</span> &amp; (  for <font color="Olive" title="b2">k</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> holds  <font color="Olive" title="b1">p</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b2">k</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">f</font> <span title="RELAT_1:NK.6" data-link="47.html#ELM22389">*</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">p</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b2">k</font></span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E44">Lm2</font></span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  iter (f,n) ->  Function-like  ;
+</td><td><span data-href='funct_7.html#FC10'>funct_7</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM13751'>
+<h2>6.   <span data-link='114.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='lfuzzy_1.html#K4'>lfuzzy_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">R</font> be   <span title="FUZZY_2:NM.1" data-link="3293.html#ELM9366">RMembership_Func</span> of <font color="Maroon" title="c1">X</font>,<font color="Maroon" title="c1">X</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><div about="#D10" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a><font color="Maroon" title="c3">n</font> <span title="LFUZZY_1:func.4" data-link="114.html#ELM13751">iter</span> <font color="Maroon" title="c2">R</font><span class="kw"> -&gt; </span>  <span title="FUZZY_2:NM.1" data-link="3293.html#ELM9366">RMembership_Func</span> of <font color="Maroon" title="c1">X</font>,<font color="Maroon" title="c1">X</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E10">Def9</font></span>: <a name="D9"><span class="comment"><font color="firebrick">:: LFUZZY_1:def 9</font></span><br></a> ex <font color="Olive" title="b1">F</font> being   <span title="NAT_1:NM.2" data-link="5927.html#ELM17447">sequence</span> of <span class="p1">(<span class="default"><span title="FUNCT_2:func.9" data-link="52.html#ELM8886">Funcs</span> (<span class="p2"><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">[:</span><span class="default"><font color="Maroon" title="c1">X</font>,<font color="Maroon" title="c1">X</font></span><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">:]</span></span>,<span class="p2"><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">[.</span><span class="default"><span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>,1</span><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">.]</span></span>)</span>)</span> st <br>( <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">F</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Maroon" title="c3">n</font> &amp; <font color="Olive" title="b1">F</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="FUZZY_4:func.4" data-link="3297.html#ELM9377">Imf</span> (<font color="Maroon" title="c1">X</font>,<font color="Maroon" title="c1">X</font>) &amp; (  for <font color="Olive" title="b2">k</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  ex <font color="Olive" title="b3">Q</font> being   <span title="FUZZY_2:NM.1" data-link="3293.html#ELM9366">RMembership_Func</span> of <font color="Maroon" title="c1">X</font>,<font color="Maroon" title="c1">X</font> st <br>( <font color="Olive" title="b1">F</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b2">k</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b3">Q</font> &amp; <font color="Olive" title="b1">F</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b2">k</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b3">Q</font> <span title="FUZZY_4:func.3" data-link="728.html#ELM9376">(#)</span> <font color="Maroon" title="c2">R</font> ) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM15919'>
+<h2>7.   <span data-link='114.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='mmlquer2.html#K8'>mmlquer2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">R</font> be   <span title="RELSET_1:NM.2" data-link="286.html#ELM22507">Relation</span> of <font color="Maroon" title="c1">X</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">n</font> be   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="FUNCT_7:func.8" data-link="114.html#ELM9007">iter</span><br><span class="kw">redefine </span><a name="K8"><span class="kw">func</span> </a> <span title="MMLQUER2:func.8" data-link="114.html#ELM15919">iter</span> (<font color="Maroon" title="c2">R</font>,<font color="Maroon" title="c3">n</font>)<span class="kw"> -&gt; </span>  <span title="RELSET_1:NM.2" data-link="286.html#ELM22507">Relation</span> of <font color="Maroon" title="c1">X</font>;<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>the_centroid_of_the_triangle</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func the_centroid_of_the_triangle</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='2445.html#ELM6318'>the_centroid_of_the_triangle</span> [<span data-href='euclid12.html#K7'>euclid12</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM6318'>
+<h2>1.   <span data-link='2445.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='euclid12.html#K7'>euclid12</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font>, <font color="Maroon" title="c2">B</font>, <font color="Maroon" title="c3">C</font> be   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> 2</span>)</span>;<br><span class="kw">assume </span><a name="E1:87"></a><span class="lab"><font color="Green" title="E70">A1</font></span>: 
+<font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">B</font>,<font color="Maroon" title="c3">C</font> <span title="EUCLID_6:NR.1" data-link="2480.html#ELM6392">is_a_triangle</span> 
+ ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K7"><span class="kw">func</span> </a> <span title="EUCLID12:func.7" data-link="2445.html#ELM6318">the_centroid_of_the_triangle</span> (<font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">B</font>,<font color="Maroon" title="c3">C</font>)<span class="kw"> -&gt; </span>  <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> 2</span>)</span><span class="kw"> means </span><a name="D8"><span class="comment"><font color="firebrick">:: EUCLID12:def 8</font></span><br></a>( <span class="p1">(<span class="default"><span title="EUCLID12:func.6" data-link="2444.html#ELM6317">median</span> (<font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">B</font>,<font color="Maroon" title="c3">C</font>)</span>)</span> <span title="SUBSET_1:func.9" data-link="1487.html#ELM25878">/\</span> <span class="p1">(<span class="default"><span title="EUCLID12:func.6" data-link="2444.html#ELM6317">median</span> (<font color="Maroon" title="c2">B</font>,<font color="Maroon" title="c3">C</font>,<font color="Maroon" title="c1">A</font>)</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"><span title="TARSKI:func.1" data-link="857.html#ELM26065">{</span><span class="default"><span class="kw">it</span></span><span title="TARSKI:func.1" data-link="857.html#ELM26065">}</span></span> &amp; <span class="p1">(<span class="default"><span title="EUCLID12:func.6" data-link="2444.html#ELM6317">median</span> (<font color="Maroon" title="c2">B</font>,<font color="Maroon" title="c3">C</font>,<font color="Maroon" title="c1">A</font>)</span>)</span> <span title="SUBSET_1:func.9" data-link="1487.html#ELM25878">/\</span> <span class="p1">(<span class="default"><span title="EUCLID12:func.6" data-link="2444.html#ELM6317">median</span> (<font color="Maroon" title="c3">C</font>,<font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">B</font>)</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"><span title="TARSKI:func.1" data-link="857.html#ELM26065">{</span><span class="default"><span class="kw">it</span></span><span title="TARSKI:func.1" data-link="857.html#ELM26065">}</span></span> &amp; <span class="p1">(<span class="default"><span title="EUCLID12:func.6" data-link="2444.html#ELM6317">median</span> (<font color="Maroon" title="c3">C</font>,<font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">B</font>)</span>)</span> <span title="SUBSET_1:func.9" data-link="1487.html#ELM25878">/\</span> <span class="p1">(<span class="default"><span title="EUCLID12:func.6" data-link="2444.html#ELM6317">median</span> (<font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">B</font>,<font color="Maroon" title="c3">C</font>)</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"><span title="TARSKI:func.1" data-link="857.html#ELM26065">{</span><span class="default"><span class="kw">it</span></span><span title="TARSKI:func.1" data-link="857.html#ELM26065">}</span></span> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E70">A1</font></span><span class="ref" target="_self" onmouseover="rs('euclid12/T87')" onmouseout="rh()" data-href="euclid12.html#T87">Th63</span></span>;<br><span class="kw">uniqueness</span> <span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('zfmisc_1/T3')" onmouseout="rh()" data-href="zfmisc_1.html#T3">ZFMISC_1:3</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

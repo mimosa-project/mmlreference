@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_StoppingTime_wrt</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_StoppingTime_wrt</h1>
+<h2>List of Definitions (4)</h2>
+<ol>
+<li><span data-link='2687.html#ELM7016'>is_StoppingTime_wrt</span> [<span data-href='finance4.html#R1'>finance4</span>]</li>
+<li><span data-link='2687.html#ELM7017'>is_StoppingTime_wrt</span> [<span data-href='finance4.html#R2'>finance4</span>]</li>
+<li><span data-link='2687.html#ELM7028'>is_StoppingTime_wrt</span> [<span data-href='finance5.html#R2'>finance5</span>]</li>
+<li><span data-link='2687.html#ELM7029'>is_StoppingTime_wrt</span> [<span data-href='finance5.html#R3'>finance5</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM7016'>
+<h2>1.   <span data-link='2687.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='finance4.html#R1'>finance4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">T</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">F</font> be   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">R</font> be   <span title="RELAT_1:NM.1" data-link="286.html#ELM22383">Relation</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c3">R</font> <span title="FINANCE4:pred.1" data-link="2687.html#ELM7016">is_StoppingTime_wrt</span> <font color="Maroon" title="c2">F</font>,<font color="Maroon" title="c1">T</font><span class="kw"> means </span><a name="D4"><span class="comment"><font color="firebrick">:: FINANCE4:def 4</font></span><br></a> for <font color="Olive" title="b1">t</font> being    <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of  <span title="FINANCE4:func.2" data-link="2689.html#ELM7019">StoppingSet</span> <font color="Maroon" title="c1">T</font> holds   <span title="RELAT_1:func.10" data-link="5280.html#ELM22396">Coim</span> (<font color="Maroon" title="c3">R</font>,<font color="Olive" title="b1">t</font>) <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">F</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">t</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM7017'>
+<h2>2.   <span data-link='2687.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='finance4.html#R2'>finance4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">Omega</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">T</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">MyFunc</font> be   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><span class="kw">let </span><font color="Maroon" title="c4">k</font> be   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c1">Omega</font>,<span class="p1">(<span class="default"><span title="FINANCE4:func.3" data-link="2688.html#ELM7020">StoppingSetExt</span> <font color="Maroon" title="c2">T</font></span>)</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<span class="comment"><font color="firebrick">:: original: </font></span><span title="FINANCE4:pred.1" data-link="2687.html#ELM7016">is_StoppingTime_wrt</span><br><span class="kw">redefine </span><a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c4">k</font> <span title="FINANCE4:pred.2" data-link="2687.html#ELM7017">is_StoppingTime_wrt</span> <font color="Maroon" title="c3">MyFunc</font>,<font color="Maroon" title="c2">T</font><span class="kw"> means </span><a name="D5"><span class="comment"><font color="firebrick">:: FINANCE4:def 5</font></span><br></a> for <font color="Olive" title="b1">t</font> being    <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of  <span title="FINANCE4:func.2" data-link="2689.html#ELM7019">StoppingSet</span> <font color="Maroon" title="c2">T</font> holds  <span class="p1"> { <span class="default"> <font color="Olive" title="b2">w</font> where <font color="Olive" title="b2">w</font> is    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">Omega</font> : <font color="Maroon" title="c4">k</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b2">w</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">t</font> </span> } </span>  <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c3">MyFunc</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">t</font>;<br>
+</div>
+<span class="kw">compatibility</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM7028'>
+<h2>3.   <span data-link='2687.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='finance5.html#R2'>finance5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">Omega</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">Sigma</font> be   <span title="PROB_1:NM.3" data-link="6995.html#ELM21277">SigmaField</span> of <font color="Maroon" title="c1">Omega</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">r</font> be   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>;<br><span class="kw">let </span><font color="Maroon" title="c4">I</font> be    <span title="FINANCE5:mode.1" data-link="2692.html#ELM7031">TheEvent</span> of <font color="Maroon" title="c3">r</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">MyFunc</font> be   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><span class="kw">let </span><font color="Maroon" title="c6">k</font> be   <span title="FINANCE1:NM.2" data-link="2646.html#ELM6953">random_variable</span> of <font color="Maroon" title="c2">Sigma</font>, <span title="FINANCE5:func.4" data-link="2694.html#ELM7037">BorelSubsets</span> <font color="Maroon" title="c4">I</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c6">k</font> <span title="FINANCE5:pred.2" data-link="2687.html#ELM7028">is_StoppingTime_wrt</span> <font color="Maroon" title="c5">MyFunc</font><span class="kw"> means </span><a name="D7"><span class="comment"><font color="firebrick">:: FINANCE5:def 7</font></span><br></a> for <font color="Olive" title="b1">t</font> being    <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of <font color="Maroon" title="c4">I</font> holds  <span class="p1"> { <span class="default"> <font color="Olive" title="b2">w</font> where <font color="Olive" title="b2">w</font> is    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">Omega</font> : <font color="Maroon" title="c6">k</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b2">w</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b1">t</font> </span> } </span>  <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c5">MyFunc</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">t</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM7029'>
+<h2>4.   <span data-link='2687.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='finance5.html#R3'>finance5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">Omega</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">Sigma</font> be   <span title="PROB_1:NM.3" data-link="6995.html#ELM21277">SigmaField</span> of <font color="Maroon" title="c1">Omega</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">MyFunc</font> be   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><span class="kw">let </span><font color="Maroon" title="c4">S</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="MEMBERED:attr.2" data-link="5229.html#ELM15341">ext-real-membered</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c5">k</font> be   <span title="FINANCE1:NM.2" data-link="2646.html#ELM6953">random_variable</span> of <font color="Maroon" title="c2">Sigma</font>, <span title="FINANCE5:func.14" data-link="2704.html#ELM7047">ExtBorelsubsets</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R3"><span class="kw">pred</span> </a><font color="Maroon" title="c5">k</font> <span title="FINANCE5:pred.3" data-link="2687.html#ELM7029">is_StoppingTime_wrt</span> <font color="Maroon" title="c3">MyFunc</font>,<font color="Maroon" title="c4">S</font><span class="kw"> means </span><a name="D19"><span class="comment"><font color="firebrick">:: FINANCE5:def 19</font></span><br></a> for <font color="Olive" title="b1">t</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c4">S</font> holds  <span class="p1"> { <span class="default"> <font color="Olive" title="b2">w</font> where <font color="Olive" title="b2">w</font> is    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">Omega</font> : <font color="Maroon" title="c5">k</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b2">w</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b1">t</font> </span> } </span>  <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c3">MyFunc</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">t</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

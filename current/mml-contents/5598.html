@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>FinalS_LTL</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func FinalS_LTL</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='5598.html#ELM16386'>FinalS_LTL</span> [<span data-href='modelc_3.html#K32'>modelc_3</span>]</li>
+<li><span data-link='5598.html#ELM16387'>FinalS_LTL</span> [<span data-href='modelc_3.html#K33'>modelc_3</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM16386'>
+<h2>1.   <span data-link='5598.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='modelc_3.html#K32'>modelc_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">v</font> be   <span title="MODELC_3:attr.5" data-link="5604.html#ELM16395">neg-inner-most</span>  <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">F</font> be   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K32"><span class="kw">func</span> </a> <span title="MODELC_3:func.32" data-link="5598.html#ELM16386">FinalS_LTL</span> (<font color="Maroon" title="c2">F</font>,<font color="Maroon" title="c1">v</font>)<span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="ZFMISC_1:func.1" data-link="1652.html#ELM30579">bool</span> <span class="p1">(<span class="default"><span title="MODELC_3:func.23" data-link="5591.html#ELM16377">LTLStates</span> <font color="Maroon" title="c1">v</font></span>)</span><span class="kw"> equals </span><a name="D45"><span class="comment"><font color="firebrick">:: MODELC_3:def 45</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">x</font> where <font color="Olive" title="b1">x</font> is    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="MODELC_3:func.23" data-link="5591.html#ELM16377">LTLStates</span> <font color="Maroon" title="c1">v</font> : (  not <font color="Maroon" title="c2">F</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  the <span title="MODELC_3:sel.1" data-href="modelc_3.html#U1">LTLold</span> of <span class="p1">(<span class="default"><span title="MODELC_3:func.10" data-link="5587.html#ELM16364">CastNode</span> (<font color="Olive" title="b1">x</font>,<font color="Maroon" title="c1">v</font>)</span>)</span> or  <span title="MODELC_2:func.12" data-link="5493.html#ELM16281">the_right_argument_of</span> <font color="Maroon" title="c2">F</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  the <span title="MODELC_3:sel.1" data-href="modelc_3.html#U1">LTLold</span> of <span class="p1">(<span class="default"><span title="MODELC_3:func.10" data-link="5587.html#ELM16364">CastNode</span> (<font color="Olive" title="b1">x</font>,<font color="Maroon" title="c1">v</font>)</span>)</span> ) </span> } </span> ;<br>
+</div>
+<span class="kw">correctness </span>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM16387'>
+<h2>2.   <span data-link='5598.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='modelc_3.html#K33'>modelc_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">v</font> be   <span title="MODELC_3:attr.5" data-link="5604.html#ELM16395">neg-inner-most</span>  <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K33"><span class="kw">func</span> </a> <span title="MODELC_3:func.33" data-link="5598.html#ELM16387">FinalS_LTL</span> <font color="Maroon" title="c1">v</font><span class="kw"> -&gt; </span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span class="p1">(<span class="default"><span title="ZFMISC_1:func.1" data-link="1652.html#ELM30579">bool</span> <span class="p2">(<span class="default"><span title="MODELC_3:func.23" data-link="5591.html#ELM16377">LTLStates</span> <font color="Maroon" title="c1">v</font></span>)</span></span>)</span><span class="kw"> equals </span><a name="D46"><span class="comment"><font color="firebrick">:: MODELC_3:def 46</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">x</font> where <font color="Olive" title="b1">x</font> is    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="ZFMISC_1:func.1" data-link="1652.html#ELM30579">bool</span> <span class="p1">(<span class="default"><span title="MODELC_3:func.23" data-link="5591.html#ELM16377">LTLStates</span> <font color="Maroon" title="c1">v</font></span>)</span> :  ex <font color="Olive" title="b2">F</font> being   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span> st <br>( <font color="Olive" title="b2">F</font> <span title="MODELC_2:pred.2" data-link="5541.html#ELM16256">is_subformula_of</span> <font color="Maroon" title="c1">v</font> &amp; <font color="Olive" title="b2">F</font> is  <span title="MODELC_2:attr.7" data-link="5569.html#ELM16327">Until</span>  &amp; <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="MODELC_3:func.32" data-link="5598.html#ELM16386">FinalS_LTL</span> (<font color="Olive" title="b2">F</font>,<font color="Maroon" title="c1">v</font>) ) </span> } </span> ;<br>
+</div>
+<span class="kw">correctness </span>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

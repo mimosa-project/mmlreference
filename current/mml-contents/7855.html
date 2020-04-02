@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Intersect</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Intersect</h1>
+<h2>List of Definitions (3)</h2>
+<ol>
+<li><span data-link='7855.html#ELM25010'>Intersect</span> [<span data-href='setfam_1.html#K8'>setfam_1</span>]</li>
+<li><span data-link='7855.html#ELM30140'>Intersect</span> [<span data-href='yellow20.html#K1'>yellow20</span>]</li>
+<li><span data-link='7855.html#ELM30141'>Intersect</span> [<span data-href='yellow20.html#K2'>yellow20</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM25010'>
+<h2>1.   <span data-link='7855.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='setfam_1.html#K8'>setfam_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">M</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">B</font> be   <span title="SETFAM_1:NM.1" data-link="7849.html#ELM25001">Subset-Family</span> of <font color="Maroon" title="c1">M</font>;<br><div about="#D13" typeof="oo:Definition" class="main-sentence">
+<a name="K8"><span class="kw">func</span> </a> <span title="SETFAM_1:func.8" data-link="7855.html#ELM25010">Intersect</span> <font color="Maroon" title="c2">B</font><span class="kw"> -&gt; </span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <font color="Maroon" title="c1">M</font><span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E13">Def9</font></span>: <a name="D9"><span class="comment"><font color="firebrick">:: SETFAM_1:def 9</font></span><br></a> <span title="SETFAM_1:func.6" data-link="1742.html#ELM25008">meet</span> <font color="Maroon" title="c2">B</font><span class="kw"> if </span><font color="Maroon" title="c2">B</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span> <br><span class="kw"> otherwise </span><font color="Maroon" title="c1">M</font>;<br>
+</div>
+<span class="kw">coherence</span> <span class="kw">consistency</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM30140'>
+<h2>2.   <span data-link='7855.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='yellow20.html#K1'>yellow20</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">f</font>, <font color="Maroon" title="c2">g</font> be   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><div about="#D8" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="YELLOW20:func.1" data-link="7855.html#ELM30140">Intersect</span> (<font color="Maroon" title="c1">f</font>,<font color="Maroon" title="c2">g</font>)<span class="kw"> -&gt; </span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E8">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: YELLOW20:def 2</font></span><br></a>(  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font></span>)</span> <span title="XBOOLE_0:func.3" data-link="1487.html#ELM29650">/\</span> <span class="p1">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c2">g</font></span>)</span> &amp; (  for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>   st <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <span class="p1">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font></span>)</span> <span title="XBOOLE_0:func.3" data-link="1487.html#ELM29650">/\</span> <span class="p1">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c2">g</font></span>)</span> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Maroon" title="c1">f</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font></span>)</span> <span title="XBOOLE_0:func.3" data-link="1487.html#ELM29650">/\</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">g</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font></span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <span class="kw">commutativity</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Intersect (F,G) ->  finite-yielding  ;
+</td><td><span data-href='card_fin.html#FC3'>card_fin</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM30141'>
+<h2>3.   <span data-link='7855.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='yellow20.html#K2'>yellow20</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font>, <font color="Maroon" title="c2">B</font> be    <span title="ALTCAT_1:struct.2" data-link="401.html#ELM977">AltCatStr</span> ;<br><span class="kw">assume </span><a name="E1:21"></a><span class="lab"><font color="Green" title="E14">A1</font></span>: 
+<font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">B</font> <span title="YELLOW20:pred.1" data-link="8891.html#ELM30137">have_the_same_composition</span> 
+ ;<br><div about="#D14" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="YELLOW20:func.2" data-link="7855.html#ELM30141">Intersect</span> (<font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">B</font>)<span class="kw"> -&gt; </span>  <span title="ALTCAT_1:attr.6" data-href="altcat_1.html#V6">strict</span>   <span title="ALTCAT_1:struct.2" data-link="401.html#ELM977">AltCatStr</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E14">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: YELLOW20:def 3</font></span><br></a>(  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">A</font> <span title="XBOOLE_0:func.3" data-link="1487.html#ELM29650">/\</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c2">B</font> &amp;  the <span title="ALTCAT_1:sel.1" data-href="altcat_1.html#U1">Arrows</span> of <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="YELLOW20:func.1" data-link="7855.html#ELM30140">Intersect</span> ( the <span title="ALTCAT_1:sel.1" data-href="altcat_1.html#U1">Arrows</span> of <font color="Maroon" title="c1">A</font>, the <span title="ALTCAT_1:sel.1" data-href="altcat_1.html#U1">Arrows</span> of <font color="Maroon" title="c2">B</font>) &amp;  the <span title="ALTCAT_1:sel.2" data-href="altcat_1.html#U2">Comp</span> of <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="YELLOW20:func.1" data-link="7855.html#ELM30140">Intersect</span> ( the <span title="ALTCAT_1:sel.2" data-href="altcat_1.html#U2">Comp</span> of <font color="Maroon" title="c1">A</font>, the <span title="ALTCAT_1:sel.2" data-href="altcat_1.html#U2">Comp</span> of <font color="Maroon" title="c2">B</font>) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

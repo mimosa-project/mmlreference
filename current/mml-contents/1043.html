@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>cl_Ball</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func cl_Ball</h1>
+<h2>List of Definitions (5)</h2>
+<ol>
+<li><span data-link='1043.html#ELM2544'>cl_Ball</span> [<span data-href='bhsp_2.html#K5'>bhsp_2</span>]</li>
+<li><span data-link='1043.html#ELM4701'>cl_Ball</span> [<span data-href='clvect_2.html#K5'>clvect_2</span>]</li>
+<li><span data-link='1043.html#ELM15658'>cl_Ball</span> [<span data-href='metric_1.html#K9'>metric_1</span>]</li>
+<li><span data-link='1043.html#ELM17783'>cl_Ball</span> [<span data-href='ndiff_8.html#K1'>ndiff_8</span>]</li>
+<li><span data-link='1043.html#ELM26893'>cl_Ball</span> [<span data-href='topreal9.html#K2'>topreal9</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM2544'>
+<h2>1.   <span data-link='1043.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='bhsp_2.html#K5'>bhsp_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   <span title="BHSP_1:NM.1" data-link="1036.html#ELM2529">RealUnitarySpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">x</font> be   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <font color="Maroon" title="c1">X</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">r</font> be   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K4"><span class="kw">func</span> </a> <span title="BHSP_2:func.4" data-link="1042.html#ELM2543">Ball</span> (<font color="Maroon" title="c2">x</font>,<font color="Maroon" title="c3">r</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">X</font><span class="kw"> equals </span><a name="D5"><span class="comment"><font color="firebrick">:: BHSP_2:def 5</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">y</font> where <font color="Olive" title="b1">y</font> is   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <font color="Maroon" title="c1">X</font> : <span class="p1"><span title="BHSP_1:func.3" data-link="1038.html#ELM2532">||.</span><span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c2">x</font> <span title="ALGSTR_0:func.5" data-link="327.html#ELM748">-</span> <font color="Olive" title="b1">y</font></span>)</span></span><span title="BHSP_1:func.3" data-link="1038.html#ELM2532">.||</span></span> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Maroon" title="c3">r</font> </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> <div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K5"><span class="kw">func</span> </a> <span title="BHSP_2:func.5" data-link="1043.html#ELM2544">cl_Ball</span> (<font color="Maroon" title="c2">x</font>,<font color="Maroon" title="c3">r</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">X</font><span class="kw"> equals </span><a name="D6"><span class="comment"><font color="firebrick">:: BHSP_2:def 6</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">y</font> where <font color="Olive" title="b1">y</font> is   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <font color="Maroon" title="c1">X</font> : <span class="p1"><span title="BHSP_1:func.3" data-link="1038.html#ELM2532">||.</span><span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c2">x</font> <span title="ALGSTR_0:func.5" data-link="327.html#ELM748">-</span> <font color="Olive" title="b1">y</font></span>)</span></span><span title="BHSP_1:func.3" data-link="1038.html#ELM2532">.||</span></span> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Maroon" title="c3">r</font> </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> <div about="#D0" typeof="oo:Definition">
+<a name="K6"><span class="kw">func</span> </a> <span title="BHSP_2:func.6" data-link="1044.html#ELM2545">Sphere</span> (<font color="Maroon" title="c2">x</font>,<font color="Maroon" title="c3">r</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">X</font><span class="kw"> equals </span><a name="D7"><span class="comment"><font color="firebrick">:: BHSP_2:def 7</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">y</font> where <font color="Olive" title="b1">y</font> is   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <font color="Maroon" title="c1">X</font> : <span class="p1"><span title="BHSP_1:func.3" data-link="1038.html#ELM2532">||.</span><span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c2">x</font> <span title="ALGSTR_0:func.5" data-link="327.html#ELM748">-</span> <font color="Olive" title="b1">y</font></span>)</span></span><span title="BHSP_1:func.3" data-link="1038.html#ELM2532">.||</span></span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">r</font> </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM4701'>
+<h2>2.   <span data-link='1043.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='clvect_2.html#K5'>clvect_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   <span title="CSSPACE:NM.1" data-link="2106.html#ELM5584">ComplexUnitarySpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">x</font> be   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <font color="Maroon" title="c1">X</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">r</font> be   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K4"><span class="kw">func</span> </a> <span title="CLVECT_2:func.4" data-link="1042.html#ELM4700">Ball</span> (<font color="Maroon" title="c2">x</font>,<font color="Maroon" title="c3">r</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">X</font><span class="kw"> equals </span><a name="D5"><span class="comment"><font color="firebrick">:: CLVECT_2:def 5</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">y</font> where <font color="Olive" title="b1">y</font> is   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <font color="Maroon" title="c1">X</font> : <span class="p1"><span title="CSSPACE:func.11" data-link="1038.html#ELM5595">||.</span><span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c2">x</font> <span title="ALGSTR_0:func.5" data-link="327.html#ELM748">-</span> <font color="Olive" title="b1">y</font></span>)</span></span><span title="CSSPACE:func.11" data-link="1038.html#ELM5595">.||</span></span> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Maroon" title="c3">r</font> </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> <div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K5"><span class="kw">func</span> </a> <span title="CLVECT_2:func.5" data-link="1043.html#ELM4701">cl_Ball</span> (<font color="Maroon" title="c2">x</font>,<font color="Maroon" title="c3">r</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">X</font><span class="kw"> equals </span><a name="D6"><span class="comment"><font color="firebrick">:: CLVECT_2:def 6</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">y</font> where <font color="Olive" title="b1">y</font> is   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <font color="Maroon" title="c1">X</font> : <span class="p1"><span title="CSSPACE:func.11" data-link="1038.html#ELM5595">||.</span><span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c2">x</font> <span title="ALGSTR_0:func.5" data-link="327.html#ELM748">-</span> <font color="Olive" title="b1">y</font></span>)</span></span><span title="CSSPACE:func.11" data-link="1038.html#ELM5595">.||</span></span> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Maroon" title="c3">r</font> </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> <div about="#D0" typeof="oo:Definition">
+<a name="K6"><span class="kw">func</span> </a> <span title="CLVECT_2:func.6" data-link="1044.html#ELM4702">Sphere</span> (<font color="Maroon" title="c2">x</font>,<font color="Maroon" title="c3">r</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">X</font><span class="kw"> equals </span><a name="D7"><span class="comment"><font color="firebrick">:: CLVECT_2:def 7</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">y</font> where <font color="Olive" title="b1">y</font> is   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <font color="Maroon" title="c1">X</font> : <span class="p1"><span title="CSSPACE:func.11" data-link="1038.html#ELM5595">||.</span><span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c2">x</font> <span title="ALGSTR_0:func.5" data-link="327.html#ELM748">-</span> <font color="Olive" title="b1">y</font></span>)</span></span><span title="CSSPACE:func.11" data-link="1038.html#ELM5595">.||</span></span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">r</font> </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM15658'>
+<h2>3.   <span data-link='1043.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='metric_1.html#K9'>metric_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">M</font> be    <span title="METRIC_1:struct.1" data-link="5299.html#ELM15643">MetrStruct</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">p</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">M</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">r</font> be   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>;<br><div about="#D23" typeof="oo:Definition" class="main-sentence">
+<a name="K9"><span class="kw">func</span> </a> <span title="METRIC_1:func.9" data-link="1043.html#ELM15658">cl_Ball</span> (<font color="Maroon" title="c2">p</font>,<font color="Maroon" title="c3">r</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">M</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E23">Def15</font></span>: <a name="D15"><span class="comment"><font color="firebrick">:: METRIC_1:def 15</font></span><br></a><span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"> { <span class="default"> <font color="Olive" title="b1">q</font> where <font color="Olive" title="b1">q</font> is   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">M</font> :  <span title="METRIC_1:func.1" data-link="1039.html#ELM15649">dist</span> (<font color="Maroon" title="c2">p</font>,<font color="Olive" title="b1">q</font>) <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Maroon" title="c3">r</font> </span> } </span> <span class="kw"> if </span> not <font color="Maroon" title="c1">M</font> is  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span> <br><span class="kw"> otherwise </span><span class="kw">it</span> is  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span> ;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  cl_Ball (p,r) ->  empty  ;
+</td><td><span data-href='srings_5.html#FC22'>srings_5</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM17783'>
+<h2>4.   <span data-link='1043.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='ndiff_8.html#K1'>ndiff_8</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">M</font> be   <span title="NORMSP_1:NM.1" data-link="6167.html#ELM18544">RealNormSpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">p</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">M</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">r</font> be   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="NDIFF_8:func.1" data-link="1043.html#ELM17783">cl_Ball</span> (<font color="Maroon" title="c2">p</font>,<font color="Maroon" title="c3">r</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">M</font><span class="kw"> equals </span><a name="D1"><span class="comment"><font color="firebrick">:: NDIFF_8:def 1</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">q</font> where <font color="Olive" title="b1">q</font> is   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">M</font> : <span class="p1"><span title="NORMSP_0:func.2" data-link="1038.html#ELM18532">||.</span><span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c2">p</font> <span title="ALGSTR_0:func.5" data-link="327.html#ELM748">-</span> <font color="Olive" title="b1">q</font></span>)</span></span><span title="NORMSP_0:func.2" data-link="1038.html#ELM18532">.||</span></span> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Maroon" title="c3">r</font> </span> } </span> ;<br>
+</div>
+<span class="kw">correctness </span>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  cl_Ball (x,r) ->  closed  ;
+</td><td><span data-href='ndiff_8.html#FC2'>ndiff_8</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM26893'>
+<h2>5.   <span data-link='1043.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='topreal9.html#K2'>topreal9</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font> be   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">x</font> be   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> <font color="Maroon" title="c1">n</font></span>)</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">r</font> be   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K1"><span class="kw">func</span> </a> <span title="TOPREAL9:func.1" data-link="1042.html#ELM26892">Ball</span> (<font color="Maroon" title="c2">x</font>,<font color="Maroon" title="c3">r</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> <font color="Maroon" title="c1">n</font></span>)</span><span class="kw"> equals </span><a name="D1"><span class="comment"><font color="firebrick">:: TOPREAL9:def 1</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">p</font> where <font color="Olive" title="b1">p</font> is   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> <font color="Maroon" title="c1">n</font></span>)</span> : <span class="p1"><span title="EUCLID:func.12" data-link="174.html#ELM6335">|.</span><span class="default"><span class="p2">(<span class="default"><font color="Olive" title="b1">p</font> <span title="ALGSTR_0:func.5" data-link="327.html#ELM748">-</span> <font color="Maroon" title="c2">x</font></span>)</span></span><span title="EUCLID:func.12" data-link="174.html#ELM6335">.|</span></span> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Maroon" title="c3">r</font> </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> <div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="TOPREAL9:func.2" data-link="1043.html#ELM26893">cl_Ball</span> (<font color="Maroon" title="c2">x</font>,<font color="Maroon" title="c3">r</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> <font color="Maroon" title="c1">n</font></span>)</span><span class="kw"> equals </span><a name="D2"><span class="comment"><font color="firebrick">:: TOPREAL9:def 2</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">p</font> where <font color="Olive" title="b1">p</font> is   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> <font color="Maroon" title="c1">n</font></span>)</span> : <span class="p1"><span title="EUCLID:func.12" data-link="174.html#ELM6335">|.</span><span class="default"><span class="p2">(<span class="default"><font color="Olive" title="b1">p</font> <span title="ALGSTR_0:func.5" data-link="327.html#ELM748">-</span> <font color="Maroon" title="c2">x</font></span>)</span></span><span title="EUCLID:func.12" data-link="174.html#ELM6335">.|</span></span> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Maroon" title="c3">r</font> </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> <div about="#D0" typeof="oo:Definition">
+<a name="K3"><span class="kw">func</span> </a> <span title="TOPREAL9:func.3" data-link="1044.html#ELM26894">Sphere</span> (<font color="Maroon" title="c2">x</font>,<font color="Maroon" title="c3">r</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> <font color="Maroon" title="c1">n</font></span>)</span><span class="kw"> equals </span><a name="D3"><span class="comment"><font color="firebrick">:: TOPREAL9:def 3</font></span><br></a><span class="p1"> { <span class="default"> <font color="Olive" title="b1">p</font> where <font color="Olive" title="b1">p</font> is   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> <font color="Maroon" title="c1">n</font></span>)</span> : <span class="p1"><span title="EUCLID:func.12" data-link="174.html#ELM6335">|.</span><span class="default"><span class="p2">(<span class="default"><font color="Olive" title="b1">p</font> <span title="ALGSTR_0:func.5" data-link="327.html#ELM748">-</span> <font color="Maroon" title="c2">x</font></span>)</span></span><span title="EUCLID:func.12" data-link="174.html#ELM6335">.|</span></span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">r</font> </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster (cl_Ball (p,r)) \ {q} ->  non  empty  ;
+</td><td><span data-href='jordan.html#FC9'>jordan</span></td></tr>
+<tr><td>
+cluster  cl_Ball (x,r) ->  empty  ;
+</td><td><span data-href='topreal9.html#FC3'>topreal9</span></td></tr>
+<tr><td>
+cluster  cl_Ball (x,r) ->  non  empty  ;
+</td><td><span data-href='topreal9.html#FC4'>topreal9</span></td></tr>
+<tr><td>
+cluster  cl_Ball (x,r) ->  closed  ;
+</td><td><span data-href='topreal9.html#FC6'>topreal9</span></td></tr>
+<tr><td>
+cluster  cl_Ball (x,r) ->  bounded  ;
+</td><td><span data-href='topreal9.html#FC9'>topreal9</span></td></tr>
+<tr><td>
+cluster  cl_Ball (x,r) ->  convex  ;
+</td><td><span data-href='topreal9.html#FC12'>topreal9</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Computation</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Computation</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='1726.html#ELM4386'>Computation</span> [<span data-href='circuit2.html#K9'>circuit2</span>]</li>
+<li><span data-link='1726.html#ELM27540'>Computation</span> [<span data-href='turing_1.html#K9'>turing_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM4386'>
+<h2>1.   <span data-link='1726.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='circuit2.html#K9'>circuit2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">IIG</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   non  <span title="STRUCT_0:attr.11" data-link="17.html#ELM25778">void</span>   <span title="MSAFREE2:attr.2" data-link="3588.html#ELM16662">Circuit-like</span>   <span title="MSAFREE2:attr.5" data-link="1790.html#ELM16665">monotonic</span>   <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">SCS</font> be   <span title="MSUALG_1:attr.4" data-link="3057.html#ELM17069">non-empty</span>  <span title="CIRCUIT1:NM.1" data-link="1674.html#ELM4365">Circuit</span> of <font color="Maroon" title="c1">IIG</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">InpFs</font> be   <span title="CIRCUIT1:NM.2" data-link="1713.html#ELM4366">InputFuncs</span> of <font color="Maroon" title="c2">SCS</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">s</font> be   <span title="CIRCUIT1:NM.3" data-link="1714.html#ELM4367">State</span> of <font color="Maroon" title="c2">SCS</font>;<br><div about="#D18" typeof="oo:Definition" class="main-sentence">
+<a name="K9"><span class="kw">func</span> </a> <span title="CIRCUIT2:func.9" data-link="1726.html#ELM4386">Computation</span> (<font color="Maroon" title="c4">s</font>,<font color="Maroon" title="c3">InpFs</font>)<span class="kw"> -&gt; </span>  <span title="NAT_1:NM.2" data-link="5927.html#ELM17447">sequence</span> of <span class="p1">(<span class="default"><span title="CARD_3:func.4" data-link="1342.html#ELM3294">product</span>  the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c2">SCS</font></span>)</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E18">Def9</font></span>: <a name="D9"><span class="comment"><font color="firebrick">:: CIRCUIT2:def 9</font></span><br></a>( <span class="kw">it</span> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> <span title="PBOOLE:pred.8" data-link="1122.html#ELM19811">=</span>  <span title="CIRCUIT2:func.8" data-link="1725.html#ELM4385">InitialComp</span> (<font color="Maroon" title="c4">s</font>,<font color="Maroon" title="c3">InpFs</font>) &amp; (  for <font color="Olive" title="b1">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> holds  <span class="kw">it</span> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="PBOOLE:pred.8" data-link="1122.html#ELM19811">=</span>  <span title="CIRCUIT2:func.7" data-link="1724.html#ELM4384">Following</span> (<span class="p1">(<span class="default"><span class="kw">it</span> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b1">i</font></span>)</span>,<span class="p1">(<span class="default"><span class="p2">(<span class="default"><font color="Olive" title="b1">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="CIRCUIT1:func.2" data-link="1716.html#ELM4369">-th_InputValues</span> <font color="Maroon" title="c3">InpFs</font></span>)</span>) ) );<br>
+</div>
+<span class="kw">correctness </span>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM27540'>
+<h2>2.   <span data-link='1726.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='turing_1.html#K9'>turing_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">T</font> be    <span title="TURING_1:struct.1" data-link="8411.html#ELM27523">TuringStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">s</font> be   <span title="TURING_1:NM.4" data-link="8413.html#ELM27527">All-State</span> of <font color="Maroon" title="c1">T</font>;<br><div about="#D7" typeof="oo:Definition" class="main-sentence">
+<a name="K9"><span class="kw">func</span> </a> <span title="TURING_1:func.9" data-link="1726.html#ELM27540">Computation</span> <font color="Maroon" title="c2">s</font><span class="kw"> -&gt; </span>  <span title="NAT_1:NM.2" data-link="5927.html#ELM17447">sequence</span> of <span class="p1"><span title="ZFMISC_1:func.3" data-link="395.html#ELM30581">[:</span><span class="default"> the <span title="TURING_1:sel.2" data-href="turing_1.html#U2">FStates</span> of <font color="Maroon" title="c1">T</font>,<span title="NUMBERS:func.4" data-link="2849.html#ELM18627">INT</span>,<span class="p2">(<span class="default"><span title="FUNCT_2:func.9" data-link="52.html#ELM8886">Funcs</span> (<span title="NUMBERS:func.4" data-link="2849.html#ELM18627">INT</span>, the <span title="TURING_1:sel.1" data-href="turing_1.html#U1">Symbols</span> of <font color="Maroon" title="c1">T</font>)</span>)</span></span><span title="ZFMISC_1:func.3" data-link="395.html#ELM30581">:]</span></span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E7">Def7</font></span>: <a name="D7"><span class="comment"><font color="firebrick">:: TURING_1:def 7</font></span><br></a>( <span class="kw">it</span> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">s</font> &amp; (  for <font color="Olive" title="b1">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> holds  <span class="kw">it</span> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="TURING_1:func.8" data-link="1724.html#ELM27539">Following</span> <span class="p1">(<span class="default"><span class="kw">it</span> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b1">i</font></span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

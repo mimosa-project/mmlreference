@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>with_explicit_jumps</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr with_explicit_jumps</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='513.html#ELM1268'>with_explicit_jumps</span> [<span data-href='amistd_2.html#V1'>amistd_2</span>]</li>
+<li><span data-link='513.html#ELM1269'>with_explicit_jumps</span> [<span data-href='amistd_2.html#V2'>amistd_2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM1268'>
+<h2>1.   <span data-link='513.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='amistd_2.html#V1'>amistd_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">N</font> be   <span title="MEASURE6:NV.2" data-link="3055.html#ELM15092">with_zero</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="MEMSTR_0:attr.2" data-link="5247.html#ELM15446">with_non-empty_values</span>   <span title="MEMSTR_0:attr.3" data-link="5248.html#ELM15447">IC-Ins-separated</span>   <span title="EXTPRO_1:struct.1" data-link="2529.html#ELM6608">AMI-Struct</span> over <font color="Maroon" title="c1">N</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">I</font> be   <span title="COMPOS_1:NM.1" data-link="1931.html#ELM5020">Instruction</span> of <font color="Maroon" title="c2">S</font>;<br><div about="#D1" typeof="oo:Definition" class="main-sentence">
+<a name="V1"><span class="kw">attr</span> </a><font color="Maroon" title="c3">I</font> is  <span title="AMISTD_2:attr.1" data-link="513.html#ELM1268">with_explicit_jumps</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E1">Def1</font></span>: <a name="D1"><span class="comment"><font color="firebrick">:: AMISTD_2:def 1</font></span><br></a> <span title="AMISTD_1:func.2" data-link="506.html#ELM1243">JUMP</span> <font color="Maroon" title="c3">I</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <span class="p1">(<span class="default"><span title="COMPOS_0:func.2" data-link="1917.html#ELM4974">JumpPart</span> <font color="Maroon" title="c3">I</font></span>)</span>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster   ->  with_explicit_jumps   for    Element of  the InstructionsF of S;
+</td><td><span data-href='amistd_2.html#CC1'>amistd_2</span></td></tr>
+<tr><td>
+cluster  with_explicit_jumps   IC-relocable   for    Element of  the InstructionsF of S;
+</td><td><span data-href='amistd_2.html#RC6'>amistd_2</span></td></tr>
+<tr><td>
+cluster  with_explicit_jumps   IC-relocable   sequential   for    Element of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa6a.html#RC2'>scmfsa6a</span></td></tr>
+<tr><td>
+cluster  sequential  V155( Segm 3, SCM+FSA ) V157( Segm 3, SCM+FSA )  keeping_0   for   M3( the InstructionsF of SCM+FSA);
+</td><td><span data-href='scmfsa6c.html#RC1'>scmfsa6c</span></td></tr>
+<tr><td>
+cluster  with_explicit_jumps   IC-relocable   sequential   good   for    Element of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='sfmastr1.html#RC1'>sfmastr1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM1269'>
+<h2>2.   <span data-link='513.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='amistd_2.html#V2'>amistd_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">N</font> be   <span title="MEASURE6:NV.2" data-link="3055.html#ELM15092">with_zero</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="MEMSTR_0:attr.2" data-link="5247.html#ELM15446">with_non-empty_values</span>   <span title="MEMSTR_0:attr.3" data-link="5248.html#ELM15447">IC-Ins-separated</span>   <span title="EXTPRO_1:struct.1" data-link="2529.html#ELM6608">AMI-Struct</span> over <font color="Maroon" title="c1">N</font>;<br><div about="#D2" typeof="oo:Definition" class="main-sentence">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c2">S</font> is  <span title="AMISTD_2:attr.2" data-link="513.html#ELM1269">with_explicit_jumps</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E2">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: AMISTD_2:def 2</font></span><br></a> for <font color="Olive" title="b1">I</font> being   <span title="COMPOS_1:NM.1" data-link="1931.html#ELM5020">Instruction</span> of <font color="Maroon" title="c2">S</font> holds  <font color="Olive" title="b1">I</font> is  <span title="AMISTD_2:attr.1" data-link="513.html#ELM1268">with_explicit_jumps</span> ;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  SCM  ->  with_explicit_jumps  ;
+</td><td><span data-href='ami_6.html#FC34'>ami_6</span></td></tr>
+<tr><td>
+cluster  STC N ->  with_explicit_jumps  ;
+</td><td><span data-href='amistd_2.html#FC2'>amistd_2</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   halting   standard   with_explicit_jumps   for    AMI-Struct over N;
+</td><td><span data-href='amistd_2.html#RC2'>amistd_2</span></td></tr>
+<tr><td>
+cluster  Trivial-AMI N ->  with_explicit_jumps  ;
+</td><td><span data-href='amistd_2.html#FC4'>amistd_2</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   halting   with_explicit_jumps   for    AMI-Struct over N;
+</td><td><span data-href='amistd_2.html#RC3'>amistd_2</span></td></tr>
+<tr><td>
+cluster   ->  with_explicit_jumps   for    Element of  the InstructionsF of S;
+</td><td><span data-href='amistd_2.html#CC1'>amistd_2</span></td></tr>
+<tr><td>
+cluster  halting   ->  ins-loc-free   for    Element of  the InstructionsF of S;
+</td><td><span data-href='amistd_2.html#CC2'>amistd_2</span></td></tr>
+<tr><td>
+cluster  sequential   ->  ins-loc-free   for    Element of  the InstructionsF of S;
+</td><td><span data-href='amistd_2.html#CC3'>amistd_2</span></td></tr>
+<tr><td>
+cluster  IncAddr (I,k) ->  halting  ;
+</td><td><span data-href='amistd_2.html#FC6'>amistd_2</span></td></tr>
+<tr><td>
+cluster  sequential   ->  IC-relocable   for    Element of  the InstructionsF of S;
+</td><td><span data-href='amistd_2.html#CC4'>amistd_2</span></td></tr>
+<tr><td>
+cluster  halting   ->  IC-relocable   for    Element of  the InstructionsF of S;
+</td><td><span data-href='amistd_2.html#CC5'>amistd_2</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   halting   standard   with_explicit_jumps   for    AMI-Struct over N;
+</td><td><span data-href='amistd_2.html#RC4'>amistd_2</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   halting   standard   with_explicit_jumps   IC-relocable   for    AMI-Struct over N;
+</td><td><span data-href='amistd_2.html#RC5'>amistd_2</span></td></tr>
+<tr><td>
+cluster  with_explicit_jumps   IC-relocable   for    Element of  the InstructionsF of S;
+</td><td><span data-href='amistd_2.html#RC6'>amistd_2</span></td></tr>
+<tr><td>
+cluster F ';' G ->  really-closed  ;
+</td><td><span data-href='amistd_2.html#FC8'>amistd_2</span></td></tr>
+<tr><td>
+cluster  non  empty   with_non-empty_values   IC-Ins-separated   halting   with_explicit_jumps   IC-relocable   standard   with_non_trivial_Instructions   with_non_trivial_ObjectKinds   for    AMI-Struct over N;
+</td><td><span data-href='amistd_4.html#RC1'>amistd_4</span></td></tr>
+<tr><td>
+cluster  IncAddr (I,k) ->  IC-relocable  ;
+</td><td><span data-href='amistd_5.html#FC1'>amistd_5</span></td></tr>
+<tr><td>
+cluster  SCM+FSA  ->  with_explicit_jumps  ;
+</td><td><span data-href='scmfsa10.html#FC45'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  SCM R ->  with_explicit_jumps  ;
+</td><td><span data-href='scmring3.html#FC35'>scmring3</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

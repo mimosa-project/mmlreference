@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>|-count</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func |-count</h1>
+<h2>List of Definitions (5)</h2>
+<ol>
+<li><span data-link='5930.html#ELM17501'>|-count</span> [<span data-href='nat_3.html#K10'>nat_3</span>]</li>
+<li><span data-link='5930.html#ELM17502'>|-count</span> [<span data-href='nat_3.html#K11'>nat_3</span>]</li>
+<li><span data-link='5930.html#ELM17532'>|-count</span> [<span data-href='nat_4.html#K1'>nat_4</span>]</li>
+<li><span data-link='5930.html#ELM17948'>|-count</span> [<span data-href='newton03.html#K4'>newton03</span>]</li>
+<li><span data-link='5930.html#ELM17949'>|-count</span> [<span data-href='newton03.html'>newton03</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM17501'>
+<h2>1.   <span data-link='5930.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='nat_3.html#K10'>nat_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font>, <font color="Maroon" title="c2">d</font> be   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">assume </span><span class="kw">that </span><br><a name="E1:49"></a><span class="lab"><font color="Green" title="E23">A1</font></span>: 
+<font color="Maroon" title="c2">d</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> 1
+ <span class="kw">and </span><br><a name="E2:49"></a><span class="lab"><font color="Green" title="E24">A2</font></span>: 
+<font color="Maroon" title="c1">n</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> 
+ ;<br><div about="#D23" typeof="oo:Definition" class="main-sentence">
+<a name="K10"><span class="kw">func</span> </a><font color="Maroon" title="c2">d</font> <span title="NAT_3:func.10" data-link="5930.html#ELM17501">|-count</span> <font color="Maroon" title="c1">n</font><span class="kw"> -&gt; </span>  <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E23">Def7</font></span>: <a name="D7"><span class="comment"><font color="firebrick">:: NAT_3:def 7</font></span><br></a>( <font color="Maroon" title="c2">d</font> <span title="NEWTON:func.1" data-link="634.html#ELM18250">|^</span> <span class="kw">it</span> <span title="NAT_D:pred.1" data-link="848.html#ELM17589">divides</span> <font color="Maroon" title="c1">n</font> &amp;  not <font color="Maroon" title="c2">d</font> <span title="NEWTON:func.1" data-link="634.html#ELM18250">|^</span> <span class="p1">(<span class="default"><span class="kw">it</span> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> 1</span>)</span> <span title="NAT_D:pred.1" data-link="848.html#ELM17589">divides</span> <font color="Maroon" title="c1">n</font> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM17502'>
+<h2>2.   <span data-link='5930.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='nat_3.html#K11'>nat_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font>, <font color="Maroon" title="c2">d</font> be   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="NAT_3:func.10" data-link="5930.html#ELM17501">|-count</span><br><span class="kw">redefine </span><a name="K11"><span class="kw">func</span> </a><font color="Maroon" title="c2">d</font> <span title="NAT_3:func.11" data-link="5930.html#ELM17502">|-count</span> <font color="Maroon" title="c1">n</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> ;<br><span class="kw">coherence</span> <span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('ordinal1/D12')" onmouseout="rh()" data-href="ordinal1.html#D12">ORDINAL1:def 12</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-reduce'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>reduce</th></tr></thead>
+<tbody>
+<tr><td>
+reduce c |-count (c |^ (a |-count b)) to a |-count b;
+</td><td><span data-href='newton03.html#RD15'>newton03</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM17532'>
+<h2>3.   <span data-link='5930.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='nat_4.html#K1'>nat_4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">f</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">p</font> be   <span title="NEWTON:NM.1" data-link="6063.html#ELM18249">Prime</span>;<br><div about="#D55" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a><font color="Maroon" title="c2">p</font> <span title="NAT_4:func.1" data-link="5930.html#ELM17532">|-count</span> <font color="Maroon" title="c1">f</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E55">Def1</font></span>: <a name="D1"><span class="comment"><font color="firebrick">:: NAT_4:def 1</font></span><br></a>(  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c1">f</font> &amp; (  for <font color="Olive" title="b1">i</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">i</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <span class="kw">it</span> holds <br><span class="kw">it</span> <span title="RECDEF_1:func.1" data-link="141.html#ELM22373">.</span> <font color="Olive" title="b1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">p</font> <span title="NAT_3:func.11" data-link="5930.html#ELM17502">|-count</span> <span class="p1">(<span class="default"><font color="Maroon" title="c1">f</font> <span title="RECDEF_1:func.1" data-link="141.html#ELM22373">.</span> <font color="Olive" title="b1">i</font></span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM17948'>
+<h2>4.   <span data-link='5930.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='newton03.html#K4'>newton03</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">a</font>, <font color="Maroon" title="c2">b</font> be   <span title="INT_1:NM.1" data-link="4287.html#ELM12429">Integer</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a><font color="Maroon" title="c1">a</font> <span title="NEWTON03:func.4" data-link="5930.html#ELM17948">|-count</span> <font color="Maroon" title="c2">b</font><span class="kw"> -&gt; </span>  <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span><span class="kw"> equals </span><a name="D6"><span class="comment"><font color="firebrick">:: NEWTON03:def 6</font></span><br></a><span class="p1"><span title="INT_2:func.1" data-link="174.html#ELM12456">|.</span><span class="default"><font color="Maroon" title="c1">a</font></span><span title="INT_2:func.1" data-link="174.html#ELM12456">.|</span></span> <span title="NAT_3:func.11" data-link="5930.html#ELM17502">|-count</span> <span class="p1"><span title="INT_2:func.1" data-link="174.html#ELM12456">|.</span><span class="default"><font color="Maroon" title="c2">b</font></span><span title="INT_2:func.1" data-link="174.html#ELM12456">.|</span></span>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster a / (b |^ (b |-count a)) ->  integer  ;
+</td><td><span data-href='newton03.html#FC62'>newton03</span></td></tr>
+<tr><td>
+cluster a / (2 |^ (2 |-count a)) ->  integer  ;
+</td><td><span data-href='newton03.html#FC63'>newton03</span></td></tr>
+<tr><td>
+cluster a / (2 |^ (2 |-count a)) ->  odd  ;
+</td><td><span data-href='newton03.html#FC64'>newton03</span></td></tr>
+<tr><td>
+cluster 2 |-count a ->  zero  ;
+</td><td><span data-href='newton03.html#FC65'>newton03</span></td></tr>
+<tr><td>
+cluster a |-count 1 ->  zero  ;
+</td><td><span data-href='newton05.html#FC7'>newton05</span></td></tr>
+<tr><td>
+cluster a |-count (- 1) ->  zero  ;
+</td><td><span data-href='newton05.html#FC8'>newton05</span></td></tr>
+<tr><td>
+cluster p |-count a ->  even  ;
+</td><td><span data-href='newton05.html#FC36'>newton05</span></td></tr>
+<tr><td>
+cluster 2 |-count a ->  even  ;
+</td><td><span data-href='newton05.html#FC40'>newton05</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-reduce'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>reduce</th></tr></thead>
+<tbody>
+<tr><td>
+reduce a / (2 |^ (2 |-count a)) to a;
+</td><td><span data-href='newton03.html#RD20'>newton03</span></td></tr>
+<tr><td>
+reduce a |-count (a |^ b) to b;
+</td><td><span data-href='newton05.html#RD4'>newton05</span></td></tr>
+<tr><td>
+reduce a |-count (- (a |^ b)) to b;
+</td><td><span data-href='newton05.html#RD5'>newton05</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM17949'>
+<h2>5.   <span data-link='5930.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='newton03.html'>newton03</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">a</font> be   <span title="INT_1:NM.1" data-link="4287.html#ELM12429">Integer</span>;<br><span class="kw">assume </span><a name="E1:139"></a><span class="lab"><font color="Green" title="E40">A0</font></span>: 
+<span class="p1"><span title="INT_2:func.1" data-link="174.html#ELM12456">|.</span><span class="default"><font color="Maroon" title="c1">a</font></span><span title="INT_2:func.1" data-link="174.html#ELM12456">.|</span></span> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> 1
+ ;<br><span class="kw">let </span><font color="Maroon" title="c2">b</font> be   non  <span title="ORDINAL1:attr.8" data-link="1643.html#ELM19074">zero</span>  <span title="INT_1:NM.1" data-link="4287.html#ELM12429">Integer</span>;<br><div about="#D40" typeof="oo:Definition" class="main-sentence">
+<span class="kw">redefine </span><span class="kw">func</span> <font color="Maroon" title="c1">a</font> <span title="NEWTON03:func.4" data-link="5930.html#ELM17948">|-count</span> <font color="Maroon" title="c2">b</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E40">Def6</font></span>: <a name="D7"><span class="comment"><font color="firebrick">:: NEWTON03:def 7</font></span><br></a>( <font color="Maroon" title="c1">a</font> <span title="NEWTON:func.1" data-link="634.html#ELM18250">|^</span> <span class="kw">it</span> <span title="INT_1:pred.1" data-link="848.html#ELM12426">divides</span> <font color="Maroon" title="c2">b</font> &amp;  not <font color="Maroon" title="c1">a</font> <span title="NEWTON:func.1" data-link="634.html#ELM18250">|^</span> <span class="p1">(<span class="default"><span class="kw">it</span> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="INT_1:pred.1" data-link="848.html#ELM12426">divides</span> <font color="Maroon" title="c2">b</font> );<br>
+</div>
+<span class="kw">compatibility</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E40">A0</font></span><span class="ref" target="_self" onmouseover="rs('newton03/T52')" onmouseout="rh()" data-href="newton03.html#T52">CountD</span>, <span class="ref" target="_self" onmouseover="rs('newton03/T53')" onmouseout="rh()" data-href="newton03.html#T53">CountD1</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

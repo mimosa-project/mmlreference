@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>are_adjacent</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred are_adjacent</h1>
+<h2>List of Definitions (3)</h2>
+<ol>
+<li><span data-link='1662.html#ELM4194'>are_adjacent</span> [<span data-href='chord.html#R1'>chord</span>]</li>
+<li><span data-link='1662.html#ELM10646'>are_adjacent</span> [<span data-href='gobrd10.html#R1'>gobrd10</span>]</li>
+<li><span data-link='1662.html#ELM10648'>are_adjacent</span> [<span data-href='gobrd10.html#R2'>gobrd10</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM4194'>
+<h2>1.   <span data-link='1662.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='chord.html#R1'>chord</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GLIB_000:NM.2" data-link="3502.html#ELM9753">_Graph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">a</font>, <font color="Maroon" title="c3">b</font> be   <span title="GLIB_000:NM.10" data-link="3509.html#ELM9761">Vertex</span> of <font color="Maroon" title="c1">G</font>;<br><div about="#D39" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c2">a</font>,<font color="Maroon" title="c3">b</font> <span title="CHORD:pred.1" data-link="1662.html#ELM4194">are_adjacent</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E39">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: CHORD:def 3</font></span><br></a> ex <font color="Olive" title="b1">e</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>  st <font color="Olive" title="b1">e</font> <span title="GLIB_000:pred.1" data-link="3494.html#ELM9744">Joins</span> <font color="Maroon" title="c2">a</font>,<font color="Maroon" title="c3">b</font>,<font color="Maroon" title="c1">G</font>;<br>
+</div>
+<span class="kw">symmetry</span> <span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('glib_000/T14')" onmouseout="rh()" data-href="glib_000.html#T14">GLIB_000:14</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM10646'>
+<h2>2.   <span data-link='1662.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='gobrd10.html#R1'>gobrd10</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">i1</font>, <font color="Maroon" title="c2">i2</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c1">i1</font>,<font color="Maroon" title="c2">i2</font> <span title="GOBRD10:pred.1" data-link="1662.html#ELM10646">are_adjacent</span> <span class="kw"> means </span><a name="D1"><span class="comment"><font color="firebrick">:: GOBRD10:def 1</font></span><br></a>( <font color="Maroon" title="c2">i2</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">i1</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1 or <font color="Maroon" title="c1">i1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">i2</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1 );<br>
+</div>
+<span class="kw">symmetry</span> <br><span class="kw">irreflexivity</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM10648'>
+<h2>3.   <span data-link='1662.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='gobrd10.html#R2'>gobrd10</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">i1</font>, <font color="Maroon" title="c2">j1</font>, <font color="Maroon" title="c3">i2</font>, <font color="Maroon" title="c4">j2</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c1">i1</font>,<font color="Maroon" title="c2">j1</font>,<font color="Maroon" title="c3">i2</font>,<font color="Maroon" title="c4">j2</font> <span title="GOBRD10:pred.2" data-link="1662.html#ELM10648">are_adjacent</span> <span class="kw"> means </span><a name="D2"><span class="comment"><font color="firebrick">:: GOBRD10:def 2</font></span><br></a>( ( <font color="Maroon" title="c1">i1</font>,<font color="Maroon" title="c3">i2</font> <span title="GOBRD10:pred.1" data-link="1662.html#ELM10646">are_adjacent</span>  &amp; <font color="Maroon" title="c2">j1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c4">j2</font> ) or ( <font color="Maroon" title="c1">i1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">i2</font> &amp; <font color="Maroon" title="c2">j1</font>,<font color="Maroon" title="c4">j2</font> <span title="GOBRD10:pred.1" data-link="1662.html#ELM10646">are_adjacent</span>  ) );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

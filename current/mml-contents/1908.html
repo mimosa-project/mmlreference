@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Rotate</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Rotate</h1>
+<h2>List of Definitions (4)</h2>
+<ol>
+<li><span data-link='1908.html#ELM4948'>Rotate</span> [<span data-href='complex2.html#K2'>complex2</span>]</li>
+<li><span data-link='1908.html#ELM7253'>Rotate</span> [<span data-href='finseq_6.html#K1'>finseq_6</span>]</li>
+<li><span data-link='1908.html#ELM10769'>Rotate</span> [<span data-href='graph_3.html#K10'>graph_3</span>]</li>
+<li><span data-link='1908.html#ELM13067'>Rotate</span> [<span data-href='jordan24.html#K1'>jordan24</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM4948'>
+<h2>1.   <span data-link='1908.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='complex2.html#K2'>complex2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">a</font> be   <span title="XCMPLX_0:NM.1" data-link="8851.html#ELM29685">Complex</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">r</font> be   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="COMPLEX2:func.2" data-link="1908.html#ELM4948">Rotate</span> (<font color="Maroon" title="c1">a</font>,<font color="Maroon" title="c2">r</font>)<span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:func.2" data-link="5210.html#ELM18625">COMPLEX</span> <span class="kw"> equals </span><a name="D2"><span class="comment"><font color="firebrick">:: COMPLEX2:def 2</font></span><br></a><span class="p1">(<span class="default"><span class="p2"><span title="COMPLEX1:func.9" data-link="174.html#ELM4939">|.</span><span class="default"><font color="Maroon" title="c1">a</font></span><span title="COMPLEX1:func.9" data-link="174.html#ELM4939">.|</span></span> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <span class="p2">(<span class="default"><span title="SIN_COS:func.19" data-link="7961.html#ELM25432">cos</span> <span class="p3">(<span class="default"><font color="Maroon" title="c2">r</font> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> <span class="p4">(<span class="default"><span title="COMPTRIG:func.1" data-link="1944.html#ELM5095">Arg</span> <font color="Maroon" title="c1">a</font></span>)</span></span>)</span></span>)</span></span>)</span> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span class="p3"><span title="COMPLEX1:func.9" data-link="174.html#ELM4939">|.</span><span class="default"><font color="Maroon" title="c1">a</font></span><span title="COMPLEX1:func.9" data-link="174.html#ELM4939">.|</span></span> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <span class="p3">(<span class="default"><span title="SIN_COS:func.17" data-link="7960.html#ELM25430">sin</span> <span class="p4">(<span class="default"><font color="Maroon" title="c2">r</font> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> <span class="p5">(<span class="default"><span title="COMPTRIG:func.1" data-link="1944.html#ELM5095">Arg</span> <font color="Maroon" title="c1">a</font></span>)</span></span>)</span></span>)</span></span>)</span> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <span title="COMPLEX1:func.7" data-link="1907.html#ELM4937">&lt;i&gt;</span></span>)</span>;<br>
+</div>
+<span class="kw">correctness </span><span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('xcmplx_0/D2')" onmouseout="rh()" data-href="xcmplx_0.html#D2">XCMPLX_0:def 2</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM7253'>
+<h2>2.   <span data-link='1908.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='finseq_6.html#K1'>finseq_6</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">D</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c1">D</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">p</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">D</font>;<br><div about="#D84" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="FINSEQ_6:func.1" data-link="1908.html#ELM7253">Rotate</span> (<font color="Maroon" title="c2">f</font>,<font color="Maroon" title="c3">p</font>)<span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c1">D</font><span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E84">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: FINSEQ_6:def 2</font></span><br></a><span class="p1">(<span class="default"><font color="Maroon" title="c2">f</font> <span title="FINSEQ_5:func.2" data-link="2742.html#ELM7232">:-</span> <font color="Maroon" title="c3">p</font></span>)</span> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c2">f</font> <span title="FINSEQ_5:func.1" data-link="2741.html#ELM7231">-:</span> <font color="Maroon" title="c3">p</font></span>)</span> <span title="RFINSEQ:func.2" data-link="247.html#ELM22635">/^</span> 1</span>)</span><span class="kw"> if </span><font color="Maroon" title="c3">p</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <font color="Maroon" title="c2">f</font><br><span class="kw"> otherwise </span><font color="Maroon" title="c2">f</font>;<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Rotate (f,p) ->  non  empty  ;
+</td><td><span data-href='finseq_6.html#FC4'>finseq_6</span></td></tr>
+<tr><td>
+cluster  Rotate (f,p) ->  circular  ;
+</td><td><span data-href='finseq_6.html#FC5'>finseq_6</span></td></tr>
+<tr><td>
+cluster  Rotate (f,p) -> V25() ;
+</td><td><span data-href='finseq_6.html#FC6'>finseq_6</span></td></tr>
+<tr><td>
+cluster  Rotate (f,p) ->  almost-one-to-one  ;
+</td><td><span data-href='jordan23.html#FC7'>jordan23</span></td></tr>
+<tr><td>
+cluster  Rotate (f,p) ->  weakly-one-to-one  ;
+</td><td><span data-href='jordan23.html#FC8'>jordan23</span></td></tr>
+<tr><td>
+cluster  Rotate (f,p) ->  poorly-one-to-one  ;
+</td><td><span data-href='jordan23.html#FC9'>jordan23</span></td></tr>
+<tr><td>
+cluster  Rotate (f,p) ->  special  ;
+</td><td><span data-href='revrot_1.html#FC2'>revrot_1</span></td></tr>
+<tr><td>
+cluster  Rotate (f,p) ->  s.c.c.  ;
+</td><td><span data-href='revrot_1.html#FC3'>revrot_1</span></td></tr>
+<tr><td>
+cluster  Rotate (f,p) ->  unfolded  ;
+</td><td><span data-href='revrot_1.html#FC4'>revrot_1</span></td></tr>
+<tr><td>
+cluster  Rotate (f,p) ->  standard  ;
+</td><td><span data-href='revrot_1.html#FC5'>revrot_1</span></td></tr>
+<tr><td>
+cluster  Rotate (f,p) ->  clockwise_oriented  ;
+</td><td><span data-href='revrot_1.html#FC6'>revrot_1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM10769'>
+<h2>3.   <span data-link='1908.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='graph_3.html#K10'>graph_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GRAPH_1:NM.3" data-link="3764.html#ELM10712">Graph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">v</font> be   <span title="GRAPH_3:NM.2" data-link="3509.html#ELM10759">Vertex</span> of <font color="Maroon" title="c1">G</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">c</font> be    <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of <font color="Maroon" title="c1">G</font> <span title="GRAPH_3:func.9" data-link="3781.html#ELM10768">-CycleSet</span> ;<br><span class="kw">assume </span><a name="E1:71"></a><span class="lab"><font color="Green" title="E57">A1</font></span>: 
+<font color="Maroon" title="c2">v</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c1">G</font> <span title="GRAPH_3:func.1" data-link="3775.html#ELM10760">-VSet</span> <span class="p1">(<span class="default"><span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <font color="Maroon" title="c3">c</font></span>)</span>
+ ;<br><div about="#D57" typeof="oo:Definition" class="main-sentence">
+<a name="K10"><span class="kw">func</span> </a> <span title="GRAPH_3:func.10" data-link="1908.html#ELM10769">Rotate</span> (<font color="Maroon" title="c3">c</font>,<font color="Maroon" title="c2">v</font>)<span class="kw"> -&gt; </span>   <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of <font color="Maroon" title="c1">G</font> <span title="GRAPH_3:func.9" data-link="3781.html#ELM10768">-CycleSet</span> <span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E57">Def9</font></span>: <a name="D9"><span class="comment"><font color="firebrick">:: GRAPH_3:def 9</font></span><br></a> the    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <span class="p1"> { <span class="default"> <font color="Olive" title="b1">c9</font> where <font color="Olive" title="b1">c9</font> is    <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of <font color="Maroon" title="c1">G</font> <span title="GRAPH_3:func.9" data-link="3781.html#ELM10768">-CycleSet</span>  : (  <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <font color="Olive" title="b1">c9</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <font color="Maroon" title="c3">c</font> &amp;  ex <font color="Olive" title="b2">vs</font> being    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">G</font> st <br>( <font color="Olive" title="b2">vs</font> <span title="GRAPH_2:pred.1" data-link="3773.html#ELM10748">is_vertex_seq_of</span> <font color="Olive" title="b1">c9</font> &amp; <font color="Olive" title="b2">vs</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> 1 <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">v</font> ) ) </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM13067'>
+<h2>4.   <span data-link='1908.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='jordan24.html#K1'>jordan24</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c5">a</font> be   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>;<br><div about="#D4" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="JORDAN24:func.1" data-link="1908.html#ELM13067">Rotate</span> <font color="Maroon" title="c1">a</font><span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.6" data-link="3155.html#ELM25752">Function</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> 2</span>)</span>,<span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> 2</span>)</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E4">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: JORDAN24:def 3</font></span><br></a> for <font color="Olive" title="b1">p</font> being   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> 2</span>)</span> holds  <span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">p</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"><span title="EUCLID:func.19" data-link="1242.html#ELM6344">|[</span><span class="default"><span class="p2">(<span class="default"><span title="COMPLEX1:func.3" data-link="1903.html#ELM4932">Re</span> <span class="p3">(<span class="default"><span title="COMPLEX2:func.2" data-link="1908.html#ELM4948">Rotate</span> (<span class="p4">(<span class="default"><span class="p5">(<span class="default"><font color="Olive" title="b1">p</font> <span title="EUCLID:func.17" data-link="54.html#ELM6341">`1</span></span>)</span> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> <span class="p5">(<span class="default"><span class="p0">(<span class="default"><font color="Olive" title="b1">p</font> <span title="EUCLID:func.18" data-link="55.html#ELM6342">`2</span></span>)</span> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <span title="XCMPLX_0:func.1" data-link="1907.html#ELM29686">&lt;i&gt;</span></span>)</span></span>)</span>,<font color="Maroon" title="c1">a</font>)</span>)</span></span>)</span>,<span class="p2">(<span class="default"><span title="COMPLEX1:func.4" data-link="1904.html#ELM4933">Im</span> <span class="p3">(<span class="default"><span title="COMPLEX2:func.2" data-link="1908.html#ELM4948">Rotate</span> (<span class="p4">(<span class="default"><span class="p5">(<span class="default"><font color="Olive" title="b1">p</font> <span title="EUCLID:func.17" data-link="54.html#ELM6341">`1</span></span>)</span> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> <span class="p5">(<span class="default"><span class="p0">(<span class="default"><font color="Olive" title="b1">p</font> <span title="EUCLID:func.18" data-link="55.html#ELM6342">`2</span></span>)</span> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <span title="XCMPLX_0:func.1" data-link="1907.html#ELM29686">&lt;i&gt;</span></span>)</span></span>)</span>,<font color="Maroon" title="c1">a</font>)</span>)</span></span>)</span></span><span title="EUCLID:func.19" data-link="1242.html#ELM6344">]|</span></span>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

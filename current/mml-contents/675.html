@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>succ</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func succ</h1>
+<h2>List of Definitions (7)</h2>
+<ol>
+<li><span data-link='675.html#ELM1593'>succ</span> [<span data-href='aofa_a00.html#K18'>aofa_a00</span>]</li>
+<li><span data-link='675.html#ELM5123'>succ</span> [<span data-href='comput_1.html#K4'>comput_1</span>]</li>
+<li><span data-link='675.html#ELM19061'>succ</span> [<span data-href='ordinal1.html#K1'>ordinal1</span>]</li>
+<li><span data-link='675.html#ELM19174'>succ</span> [<span data-href='ordinal4.html#K6'>ordinal4</span>]</li>
+<li><span data-link='675.html#ELM27246'>succ</span> [<span data-href='trees_2.html#K1'>trees_2</span>]</li>
+<li><span data-link='675.html#ELM27373'>succ</span> [<span data-href='trees_9.html#K1'>trees_9</span>]</li>
+<li><span data-link='675.html#ELM27374'>succ</span> [<span data-href='trees_9.html#K2'>trees_9</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM1593'>
+<h2>1.   <span data-link='675.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='aofa_a00.html#K18'>aofa_a00</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   non  <span title="STRUCT_0:attr.11" data-link="17.html#ELM25778">void</span>   <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font> be  <span title="RELAT_1:attr.2" data-link="3057.html#ELM22398">V2</span>() <span title="STRUCT_0:NM.8" data-link="4273.html#ELM25754">ManySortedSet</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">A</font> be  <font color="Maroon" title="c2">X</font>,<font color="Maroon" title="c1">S</font> <span title="MSAFREE4:attr.5" data-link="5690.html#ELM16709">-terms</span>   <span title="MSAFREE4:attr.6" data-link="5691.html#ELM16710">all_vars_including</span>   <span title="MSAFREE4:attr.7" data-link="5692.html#ELM16711">inheriting_operations</span>   <span title="MSAFREE4:attr.8" data-link="5693.html#ELM16712">free_in_itself</span>   <span title="AOFA_A00:attr.3" data-link="692.html#ELM1618">vf-free</span>   <span title="AOFA_A00:struct.1" data-link="659.html#ELM1564">VarMSAlgebra</span> over <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">C</font> be   <span title="MSAFREE4:NM.2" data-link="5684.html#ELM16693">image</span> of <font color="Maroon" title="c3">A</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">G</font> be    <span title="AOFA_A00:struct.4" data-link="662.html#ELM1567">GeneratorSystem</span> over <font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">X</font>,<font color="Maroon" title="c3">A</font>;<br><span class="kw">assume </span><a name="E1:103"></a><span class="lab"><font color="Green" title="E36">A1</font></span>: 
+<font color="Maroon" title="c5">G</font> is <font color="Maroon" title="c4">C</font> <span title="AOFA_A00:attr.11" data-link="697.html#ELM1623">-supported</span> 
+ ;<br><span class="kw">let </span><font color="Maroon" title="c6">s</font> be    <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of <font color="Maroon" title="c4">C</font> <span title="AOFA_A00:func.12" data-link="671.html#ELM1587">-States</span>  the <span title="AOFA_A00:sel.4" data-href="aofa_a00.html#U4">generators</span> of <font color="Maroon" title="c5">G</font>;<br><span class="kw">let </span><font color="Maroon" title="c7">r</font> be   <span title="MSUALG_1:NM.1" data-link="5761.html#ELM17055">SortSymbol</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c8">v</font> be   <span title="MSUALG_6:NM.1" data-link="667.html#ELM17182">Element</span> of <font color="Maroon" title="c4">C</font>,<font color="Maroon" title="c7">r</font>;<br><span class="kw">let </span><font color="Maroon" title="c9">t</font> be    <span title="AOFA_A00:mode.4" data-link="667.html#ELM1575">Element</span> of <font color="Maroon" title="c5">G</font>,<font color="Maroon" title="c7">r</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K18"><span class="kw">func</span> </a> <span title="AOFA_A00:func.18" data-link="675.html#ELM1593">succ</span> (<font color="Maroon" title="c6">s</font>,<font color="Maroon" title="c9">t</font>,<font color="Maroon" title="c8">v</font>)<span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of <font color="Maroon" title="c4">C</font> <span title="AOFA_A00:func.12" data-link="671.html#ELM1587">-States</span>  the <span title="AOFA_A00:sel.4" data-href="aofa_a00.html#U4">generators</span> of <font color="Maroon" title="c5">G</font><span class="kw"> means </span><a name="D26"><span class="comment"><font color="firebrick">:: AOFA_A00:def 26</font></span><br></a>( <span class="p1">(<span class="default"><span class="kw">it</span> <span title="MSAFREE4:func.1" data-link="141.html#ELM16694">.</span> <font color="Maroon" title="c7">r</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c9">t</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c8">v</font> &amp; (  for <font color="Olive" title="b1">p</font> being   <span title="MSUALG_1:NM.1" data-link="5761.html#ELM17055">SortSymbol</span> of <font color="Maroon" title="c1">S</font><br>  for <font color="Olive" title="b2">x</font> being    <span title="MSAFREE4:mode.1" data-link="667.html#ELM16692">Element</span> of <span class="p1">(<span class="default"><span title="MSAFREE:func.13" data-link="704.html#ELM16919">FreeGen</span> <font color="Maroon" title="c2">X</font></span>)</span> <span title="MSAFREE4:func.1" data-link="141.html#ELM16694">.</span> <font color="Olive" title="b1">p</font>  st ( <font color="Olive" title="b1">p</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c7">r</font> implies <font color="Olive" title="b2">x</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Maroon" title="c9">t</font> ) holds <br>( ( <font color="Olive" title="b2">x</font> <span title="AOFA_000:NR.1" data-link="622.html#ELM1489">nin</span> <span class="p1">(<span class="default"><span title="AOFA_A00:func.10" data-link="670.html#ELM1585">vf</span> <font color="Maroon" title="c9">t</font></span>)</span> <span title="MSAFREE4:func.1" data-link="141.html#ELM16694">.</span> <font color="Olive" title="b1">p</font> implies <span class="p1">(<span class="default"><span class="kw">it</span> <span title="MSAFREE4:func.1" data-link="141.html#ELM16694">.</span> <font color="Olive" title="b1">p</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b2">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Maroon" title="c6">s</font> <span title="MSAFREE4:func.1" data-link="141.html#ELM16694">.</span> <font color="Olive" title="b1">p</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b2">x</font> ) &amp; (  for <font color="Olive" title="b3">u</font> being    <span title="PBOOLE:mode.2" data-link="5785.html#ELM19816">ManySortedFunction</span> of  <span title="MSAFREE:func.13" data-link="704.html#ELM16919">FreeGen</span> <font color="Maroon" title="c2">X</font>, the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c4">C</font><br>  for <font color="Olive" title="b4">H</font> being    <span title="PBOOLE:mode.3" data-link="6513.html#ELM19817">ManySortedSubset</span> of  the <span title="AOFA_A00:sel.4" data-href="aofa_a00.html#U4">generators</span> of <font color="Maroon" title="c5">G</font>  st <font color="Olive" title="b4">H</font> <span title="PBOOLE:pred.8" data-link="1122.html#ELM19811">=</span>  <span title="MSAFREE:func.13" data-link="704.html#ELM16919">FreeGen</span> <font color="Maroon" title="c2">X</font> holds <br> for <font color="Olive" title="b5">f</font> being    <span title="PBOOLE:mode.2" data-link="5785.html#ELM19816">ManySortedFunction</span> of  the <span title="AOFA_A00:sel.4" data-href="aofa_a00.html#U4">generators</span> of <font color="Maroon" title="c5">G</font>, the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c4">C</font>  st <font color="Olive" title="b5">f</font> <span title="PBOOLE:pred.8" data-link="1122.html#ELM19811">=</span> <font color="Maroon" title="c6">s</font> &amp; <font color="Olive" title="b3">u</font> <span title="PBOOLE:pred.8" data-link="1122.html#ELM19811">=</span> <span class="p1">(<span class="default"><font color="Olive" title="b5">f</font> <span title="MSAFREE:func.1" data-link="4359.html#ELM16906">||</span> <font color="Olive" title="b4">H</font></span>)</span> <span title="AOFA_A00:func.3" data-link="517.html#ELM1578">+*</span> (<font color="Maroon" title="c7">r</font>,<span class="p1">(<span class="default"><span title="AOFA_A00:func.16" data-link="673.html#ELM1591">supp-var</span> <font color="Maroon" title="c9">t</font></span>)</span>,<font color="Maroon" title="c8">v</font>) &amp; <font color="Olive" title="b2">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <span class="p1">(<span class="default"><span title="AOFA_A00:func.10" data-link="670.html#ELM1585">vf</span> <font color="Maroon" title="c9">t</font></span>)</span> <span title="MSAFREE4:func.1" data-link="141.html#ELM16694">.</span> <font color="Olive" title="b1">p</font> holds <br> for <font color="Olive" title="b6">q</font> being   <span title="MSUALG_6:NM.1" data-link="667.html#ELM17182">Element</span> of <font color="Maroon" title="c3">A</font>,<font color="Olive" title="b1">p</font>  st <font color="Olive" title="b6">q</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="AOFA_A00:func.17" data-link="674.html#ELM1592">supp-term</span> <font color="Maroon" title="c9">t</font></span>)</span> <span title="MSAFREE4:func.2" data-link="141.html#ELM16695">.</span> <font color="Olive" title="b1">p</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b2">x</font> holds <br><span class="p1">(<span class="default"><span class="kw">it</span> <span title="MSAFREE4:func.1" data-link="141.html#ELM16694">.</span> <font color="Olive" title="b1">p</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b2">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b6">q</font> <span title="AOFA_A00:func.14" data-link="672.html#ELM1589">value_at</span> (<font color="Maroon" title="c4">C</font>,<font color="Olive" title="b3">u</font>) ) ) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM5123'>
+<h2>2.   <span data-link='675.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='comput_1.html#K4'>comput_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font>, <font color="Maroon" title="c2">i</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> ;<br><div about="#D33" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a><font color="Maroon" title="c1">n</font> <span title="COMPUT_1:func.4" data-link="675.html#ELM5123">succ</span> <font color="Maroon" title="c2">i</font><span class="kw"> -&gt; </span> <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> <span title="FINSEQ_2:func.3" data-link="47.html#ELM7181">*</span>  <span title="RELAT_1:attr.4" data-link="7381.html#ELM22400">-defined</span>   <span title="COMPUT_1:NV.2" data-link="1964.html#ELM5141">to-naturals</span>   <span title="MARGREL1:attr.2" data-link="1759.html#ELM14397">homogeneous</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E33">Def7</font></span>: <a name="D7"><span class="comment"><font color="firebrick">:: COMPUT_1:def 7</font></span><br></a>(  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">n</font> <span title="FINSEQ_2:func.4" data-link="2732.html#ELM7182">-tuples_on</span> <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> &amp; (  for <font color="Olive" title="b1">p</font> being    <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of <font color="Maroon" title="c1">n</font> <span title="FINSEQ_2:func.4" data-link="2732.html#ELM7182">-tuples_on</span> <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> holds  <span class="kw">it</span> <span title="RECDEF_1:func.1" data-link="141.html#ELM22373">.</span> <font color="Olive" title="b1">p</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">p</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Maroon" title="c2">i</font></span>)</span> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1 ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster n succ i ->  non  empty  NAT *  -defined   to-naturals   homogeneous   len-total  ;
+</td><td><span data-href='comput_1.html#FC5'>comput_1</span></td></tr>
+<tr><td>
+cluster 1 succ 1 -> NAT *  -defined   to-naturals   homogeneous   primitive-recursive  ;
+</td><td><span data-href='comput_1.html#FC13'>comput_1</span></td></tr>
+<tr><td>
+cluster 3 succ 3 -> NAT *  -defined   to-naturals   homogeneous   primitive-recursive  ;
+</td><td><span data-href='comput_1.html#FC14'>comput_1</span></td></tr>
+<tr><td>
+cluster 1 succ i -> NAT *  -defined   to-naturals   homogeneous  1 -ary  ;
+</td><td><span data-href='comput_1.html#FC22'>comput_1</span></td></tr>
+<tr><td>
+cluster 2 succ i -> NAT *  -defined   to-naturals   homogeneous  2 -ary  ;
+</td><td><span data-href='comput_1.html#FC23'>comput_1</span></td></tr>
+<tr><td>
+cluster 3 succ i -> NAT *  -defined   to-naturals   homogeneous  3 -ary  ;
+</td><td><span data-href='comput_1.html#FC24'>comput_1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM19061'>
+<h2>3.   <span data-link='675.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='ordinal1.html#K1'>ordinal1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="ORDINAL1:func.1" data-link="675.html#ELM19061">succ</span> <font color="Maroon" title="c1">X</font><span class="kw"> -&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> <span class="kw"> equals </span><a name="D1"><span class="comment"><font color="firebrick">:: ORDINAL1:def 1</font></span><br></a><font color="Maroon" title="c1">X</font> <span title="XBOOLE_0:func.2" data-link="1743.html#ELM29649">\/</span> <span class="p1"><span title="TARSKI:func.1" data-link="857.html#ELM26065">{</span><span class="default"><font color="Maroon" title="c1">X</font></span><span title="TARSKI:func.1" data-link="857.html#ELM26065">}</span></span>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster {[a,x]} -> a -based   succ a -limited   for  array;
+</td><td><span data-href='exchsort.html#FC6'>exchsort</span></td></tr>
+<tr><td>
+cluster  succ X ->  non  empty  ;
+</td><td><span data-href='ordinal1.html#FC1'>ordinal1</span></td></tr>
+<tr><td>
+cluster  succ A ->  non  empty   ordinal  ;
+</td><td><span data-href='ordinal1.html#FC2'>ordinal1</span></td></tr>
+<tr><td>
+cluster  succ a ->  natural  ;
+</td><td><span data-href='ordinal1.html#FC7'>ordinal1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM19174'>
+<h2>4.   <span data-link='675.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='ordinal4.html#K6'>ordinal4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">W</font> be   <span title="CLASSES2:NM.1" data-link="1738.html#ELM4408">Universe</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">A1</font> be   <span title="ORDINAL4:NM.1" data-link="6319.html#ELM19167">Ordinal</span> of <font color="Maroon" title="c1">W</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="ORDINAL1:func.1" data-link="675.html#ELM19061">succ</span><br><span class="kw">redefine </span><a name="K6"><span class="kw">func</span> </a> <span title="ORDINAL4:func.6" data-link="675.html#ELM19174">succ</span> <font color="Maroon" title="c2">A1</font><span class="kw"> -&gt; </span>  non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>  <span title="ORDINAL4:NM.1" data-link="6319.html#ELM19167">Ordinal</span> of <font color="Maroon" title="c1">W</font>;<br><span class="kw">coherence</span> <span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('classes2/T5')" onmouseout="rh()" data-href="classes2.html#T5">CLASSES2:5</span></span>;<br><span class="kw">let </span><font color="Maroon" title="c3">B1</font> be   <span title="ORDINAL4:NM.1" data-link="6319.html#ELM19167">Ordinal</span> of <font color="Maroon" title="c1">W</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="ORDINAL2:func.10" data-link="6332.html#ELM19138">+^</span><br><span class="kw">redefine </span><a name="K7"><span class="kw">func</span> </a><font color="Maroon" title="c2">A1</font> <span title="ORDINAL4:func.7" data-link="6332.html#ELM19175">+^</span> <font color="Maroon" title="c3">B1</font><span class="kw"> -&gt; </span>  <span title="ORDINAL4:NM.1" data-link="6319.html#ELM19167">Ordinal</span> of <font color="Maroon" title="c1">W</font>;<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM27246'>
+<h2>5.   <span data-link='675.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='trees_2.html#K1'>trees_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">W</font> be   <span title="TREES_1:NM.1" data-link="8137.html#ELM27211">Tree</span>;<br><div about="#D7" typeof="oo:Definition" class="">
+<a name="M1"><span class="kw">mode</span> </a> <span title="TREES_2:mode.1" data-link="1649.html#ELM27241">Chain</span> of <font color="Maroon" title="c1">W</font><span class="kw"> -&gt; </span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <font color="Maroon" title="c1">W</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E7">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: TREES_2:def 3</font></span><br></a> for <font color="Olive" title="b1">p</font>, <font color="Olive" title="b2">q</font> being    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>   st <font color="Olive" title="b1">p</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <span class="kw">it</span> &amp; <font color="Olive" title="b2">q</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <span class="kw">it</span> holds <br><font color="Olive" title="b1">p</font>,<font color="Olive" title="b2">q</font> <span title="XBOOLE_0:pred.3" data-link="8849.html#ELM29643">are_c=-comparable</span> ;<br>
+</div>
+<span class="kw">existence</span> <div about="#D8" typeof="oo:Definition" class="">
+<a name="M2"><span class="kw">mode</span> </a> <span title="TREES_2:mode.2" data-link="8363.html#ELM27242">Level</span> of <font color="Maroon" title="c1">W</font><span class="kw"> -&gt; </span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <font color="Maroon" title="c1">W</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E8">Def4</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: TREES_2:def 4</font></span><br></a> ex <font color="Olive" title="b1">n</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> st <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"> { <span class="default"> <font color="Olive" title="b2">w</font> where <font color="Olive" title="b2">w</font> is    <span title="TREES_1:mode.1" data-link="667.html#ELM27212">Element</span> of <font color="Maroon" title="c1">W</font> :  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Olive" title="b2">w</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">n</font> </span> } </span> ;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">let </span><font color="Maroon" title="c2">w</font> be    <span title="TREES_1:mode.1" data-link="667.html#ELM27212">Element</span> of <font color="Maroon" title="c1">W</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="TREES_2:func.1" data-link="675.html#ELM27246">succ</span> <font color="Maroon" title="c2">w</font><span class="kw"> -&gt; </span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <font color="Maroon" title="c1">W</font><span class="kw"> equals </span><a name="D5"><span class="comment"><font color="firebrick">:: TREES_2:def 5</font></span><br></a><span class="p1"> { <span class="default"> <span class="p2">(<span class="default"><font color="Maroon" title="c2">w</font> <span title="FINSEQ_1:func.7" data-link="235.html#ELM7100">^</span> <span class="p3"><span title="FINSEQ_1:func.9" data-link="669.html#ELM7102">&lt;*</span><span class="default"><font color="Olive" title="b1">n</font></span><span title="FINSEQ_1:func.9" data-link="669.html#ELM7102">*&gt;</span></span></span>)</span> where <font color="Olive" title="b1">n</font> is   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> : <font color="Maroon" title="c2">w</font> <span title="FINSEQ_1:func.7" data-link="235.html#ELM7100">^</span> <span class="p1"><span title="FINSEQ_1:func.9" data-link="669.html#ELM7102">&lt;*</span><span class="default"><font color="Olive" title="b1">n</font></span><span title="FINSEQ_1:func.9" data-link="669.html#ELM7102">*&gt;</span></span> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c1">W</font> </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  succ t ->  non  empty  ;
+</td><td><span data-href='ltlaxio4.html#FC9'>ltlaxio4</span></td></tr>
+<tr><td>
+cluster  succ w ->  finite  ;
+</td><td><span data-href='trees_2.html#FC1'>trees_2</span></td></tr>
+<tr><td>
+cluster  succ v ->  finite  ;
+</td><td><span data-href='trees_2.html#FC5'>trees_2</span></td></tr>
+<tr><td>
+cluster  succ p ->  finite  ;
+</td><td><span data-href='trees_9.html#FC4'>trees_9</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM27373'>
+<h2>6.   <span data-link='675.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='trees_9.html#K1'>trees_9</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">t</font> be   <span title="TREES_9:attr.1" data-link="8387.html#ELM27388">finite-branching</span>  <span title="TREES_1:NM.1" data-link="8137.html#ELM27211">Tree</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">p</font> be    <span title="TREES_1:mode.1" data-link="667.html#ELM27212">Element</span> of <font color="Maroon" title="c1">t</font>;<br><div about="#D14" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a><font color="Maroon" title="c2">p</font> <span title="TREES_9:func.1" data-link="675.html#ELM27373">succ</span> <span class="kw"> -&gt; </span>  <span title="FUNCT_1:attr.2" data-link="3158.html#ELM8826">one-to-one</span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c1">t</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E14">Def5</font></span>: <a name="D5"><span class="comment"><font color="firebrick">:: TREES_9:def 5</font></span><br></a>(  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="CARD_1:func.4" data-link="1329.html#ELM3236">card</span> <span class="p1">(<span class="default"><span title="TREES_2:func.1" data-link="675.html#ELM27246">succ</span> <font color="Maroon" title="c2">p</font></span>)</span> &amp;  <span title="RELSET_1:func.2" data-link="3141.html#ELM22509">rng</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="TREES_2:func.1" data-link="675.html#ELM27246">succ</span> <font color="Maroon" title="c2">p</font> &amp; (  for <font color="Olive" title="b1">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b1">i</font> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <span class="kw">it</span> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">p</font> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <span class="p1"><span title="TREES_3:func.14" data-link="669.html#ELM27292">&lt;*</span><span class="default"><font color="Olive" title="b1">i</font></span><span title="TREES_3:func.14" data-link="669.html#ELM27292">*&gt;</span></span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM27374'>
+<h2>7.   <span data-link='675.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='trees_9.html#K2'>trees_9</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">t</font> be   <span title="TREES_9:attr.3" data-link="8387.html#ELM27390">finite-branching</span>  <span title="TREES_2:NM.4" data-link="8365.html#ELM27244">DecoratedTree</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">p</font> be   <span title="FINSEQ_1:NM.1" data-link="27.html#ELM7089">FinSequence</span>;<br><span class="kw">assume </span><a name="E1:27"></a><span class="lab"><font color="Green" title="E15">A1</font></span>: 
+<font color="Maroon" title="c2">p</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">t</font>
+ ;<br><div about="#D15" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="TREES_9:func.2" data-link="675.html#ELM27374">succ</span> (<font color="Maroon" title="c1">t</font>,<font color="Maroon" title="c2">p</font>)<span class="kw"> -&gt; </span>  <span title="FINSEQ_1:NM.1" data-link="27.html#ELM7089">FinSequence</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E15">Def6</font></span>: <a name="D6"><span class="comment"><font color="firebrick">:: TREES_9:def 6</font></span><br></a> ex <font color="Olive" title="b1">q</font> being    <span title="TREES_1:mode.1" data-link="667.html#ELM27212">Element</span> of  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">t</font> st <br>( <font color="Olive" title="b1">q</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">p</font> &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">t</font> <span title="FUNCT_1:NK.3" data-link="47.html#ELM8820">*</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">q</font> <span title="TREES_9:func.1" data-link="675.html#ELM27373">succ</span></span>)</span> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

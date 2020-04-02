@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>addEdge</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>mode addEdge</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='3699.html#ELM10322'>addEdge</span> [<span data-href='glib_006.html#M3'>glib_006</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM10322'>
+<h2>1.   <span data-link='3699.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='glib_006.html#M3'>glib_006</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GLIB_000:NM.2" data-link="3502.html#ELM9753">_Graph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">v1</font>, <font color="Maroon" title="c3">e</font>, <font color="Maroon" title="c4">v2</font> be    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span> ;<br><div about="#D77" typeof="oo:Definition" class="main-sentence">
+<a name="M3"><span class="kw">mode</span> </a> <span title="GLIB_006:mode.3" data-link="3699.html#ELM10322">addEdge</span> of <font color="Maroon" title="c1">G</font>,<font color="Maroon" title="c2">v1</font>,<font color="Maroon" title="c3">e</font>,<font color="Maroon" title="c4">v2</font><span class="kw"> -&gt; </span>   <span title="GLIB_006:mode.1" data-link="3696.html#ELM10319">Supergraph</span> of <font color="Maroon" title="c1">G</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E77">Def11</font></span>: <a name="D11"><span class="comment"><font color="firebrick">:: GLIB_006:def 11</font></span><br></a>(  <span title="GLIB_000:func.6" data-link="3516.html#ELM9768">the_Vertices_of</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="GLIB_000:func.6" data-link="3516.html#ELM9768">the_Vertices_of</span> <font color="Maroon" title="c1">G</font> &amp;  <span title="GLIB_000:func.7" data-link="3517.html#ELM9769">the_Edges_of</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span title="GLIB_000:func.7" data-link="3517.html#ELM9769">the_Edges_of</span> <font color="Maroon" title="c1">G</font></span>)</span> <span title="XBOOLE_0:func.2" data-link="1743.html#ELM29649">\/</span> <span class="p1"><span title="TARSKI:func.1" data-link="857.html#ELM26065">{</span><span class="default"><font color="Maroon" title="c3">e</font></span><span title="TARSKI:func.1" data-link="857.html#ELM26065">}</span></span> &amp;  <span title="GLIB_000:func.10" data-link="3518.html#ELM9772">the_Source_of</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span title="GLIB_000:func.10" data-link="3518.html#ELM9772">the_Source_of</span> <font color="Maroon" title="c1">G</font></span>)</span> <span title="FUNCT_4:func.1" data-link="517.html#ELM8937">+*</span> <span class="p1">(<span class="default"><font color="Maroon" title="c3">e</font> <span title="FUNCOP_1:func.17" data-link="487.html#ELM8746">.--&gt;</span> <font color="Maroon" title="c2">v1</font></span>)</span> &amp;  <span title="GLIB_000:func.11" data-link="3519.html#ELM9773">the_Target_of</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span title="GLIB_000:func.11" data-link="3519.html#ELM9773">the_Target_of</span> <font color="Maroon" title="c1">G</font></span>)</span> <span title="FUNCT_4:func.1" data-link="517.html#ELM8937">+*</span> <span class="p1">(<span class="default"><font color="Maroon" title="c3">e</font> <span title="FUNCOP_1:func.17" data-link="487.html#ELM8746">.--&gt;</span> <font color="Maroon" title="c4">v2</font></span>)</span> )<span class="kw"> if </span>( <font color="Maroon" title="c2">v1</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="GLIB_000:func.6" data-link="3516.html#ELM9768">the_Vertices_of</span> <font color="Maroon" title="c1">G</font> &amp; <font color="Maroon" title="c4">v2</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="GLIB_000:func.6" data-link="3516.html#ELM9768">the_Vertices_of</span> <font color="Maroon" title="c1">G</font> &amp;  not <font color="Maroon" title="c3">e</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="GLIB_000:func.7" data-link="3517.html#ELM9769">the_Edges_of</span> <font color="Maroon" title="c1">G</font> )<br><span class="kw"> otherwise </span><span class="kw">it</span> <span title="GLIB_000:pred.5" data-link="3498.html#ELM9748">==</span> <font color="Maroon" title="c1">G</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">consistency</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

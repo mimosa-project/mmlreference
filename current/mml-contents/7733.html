@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>StepTimes</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func StepTimes</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='7733.html#ELM24277'>StepTimes</span> [<span data-href='scmfsa9a.html#K4'>scmfsa9a</span>]</li>
+<li><span data-link='7733.html#ELM25121'>StepTimes</span> [<span data-href='sfmastr2.html#K3'>sfmastr2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM24277'>
+<h2>1.   <span data-link='7733.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='scmfsa9a.html#K4'>scmfsa9a</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c4">p</font> be   <span title="COMPOS_1:NM.2" data-link="1932.html#ELM5021">Instruction-Sequence</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span>;<br><span class="kw">let </span><font color="Maroon" title="c5">s</font> be   <span title="MEMSTR_0:NM.2" data-link="1714.html#ELM15430">State</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span>;<br><span class="kw">let </span><font color="Maroon" title="c6">I</font> be   <span title="COMPOS_1:NM.5" data-link="1935.html#ELM5024">MacroInstruction</span> of  <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span> ;<br><span class="kw">let </span><font color="Maroon" title="c7">a</font> be   <span title="SCMFSA_M:NV.2" data-link="7773.html#ELM24453">read-write</span>  <span title="SCMFSA_2:NM.1" data-link="7743.html#ELM24345">Int-Location</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a> <span title="SCMFSA9A:func.4" data-link="7733.html#ELM24277">StepTimes</span> (<font color="Maroon" title="c4">a</font>,<font color="Maroon" title="c3">I</font>,<font color="Maroon" title="c1">p</font>,<font color="Maroon" title="c2">s</font>)<span class="kw"> -&gt; </span>  <span title="NAT_1:NM.2" data-link="5927.html#ELM17447">sequence</span> of <span class="p1">(<span class="default"><span title="CARD_3:func.4" data-link="1342.html#ELM3294">product</span> <span class="p2">(<span class="default"><span title="MEMSTR_0:func.2" data-link="5239.html#ELM15436">the_Values_of</span> <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span></span>)</span></span>)</span><span class="kw"> equals </span><a name="D8"><span class="comment"><font color="firebrick">:: SCMFSA9A:def 8</font></span><br></a> <span title="SCMFSA_9:func.2" data-link="7755.html#ELM24418">StepWhile&gt;0</span> (<font color="Maroon" title="c4">a</font>,<span class="p1">(<span class="default"><font color="Maroon" title="c3">I</font> <span title="SCMFSA6A:func.4" data-link="7713.html#ELM24175">";"</span> <span class="p2">(<span class="default"><span title="SCMFSA_2:func.8" data-link="480.html#ELM24355">SubFrom</span> (<font color="Maroon" title="c4">a</font>,<span class="p3">(<span class="default"><span title="SCMFSA_2:func.4" data-link="7748.html#ELM24351">intloc</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span></span>)</span>)</span>)</span></span>)</span>,<font color="Maroon" title="c1">p</font>,<span class="p1">(<span class="default"><span title="SCMFSA_M:func.1" data-link="7763.html#ELM24439">Initialized</span> <font color="Maroon" title="c2">s</font></span>)</span>);<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM25121'>
+<h2>2.   <span data-link='7733.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='sfmastr2.html#K3'>sfmastr2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">p</font> be   <span title="COMPOS_1:NM.2" data-link="1932.html#ELM5021">Instruction-Sequence</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">s</font> be   <span title="MEMSTR_0:NM.2" data-link="1714.html#ELM15430">State</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span>;<br><span class="kw">let </span><font color="Maroon" title="c4">I</font> be   <span title="COMPOS_1:NM.5" data-link="1935.html#ELM5024">MacroInstruction</span> of  <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span> ;<br><span class="kw">let </span><font color="Maroon" title="c5">a</font> be   <span title="SCMFSA_2:NM.1" data-link="7743.html#ELM24345">Int-Location</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="SFMASTR2:func.3" data-link="7733.html#ELM25121">StepTimes</span> (<font color="Maroon" title="c4">a</font>,<font color="Maroon" title="c3">I</font>,<font color="Maroon" title="c1">p</font>,<font color="Maroon" title="c2">s</font>)<span class="kw"> -&gt; </span>  <span title="NAT_1:NM.2" data-link="5927.html#ELM17447">sequence</span> of <span class="p1">(<span class="default"><span title="CARD_3:func.4" data-link="1342.html#ELM3294">product</span> <span class="p2">(<span class="default"><span title="MEMSTR_0:func.2" data-link="5239.html#ELM15436">the_Values_of</span> <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span></span>)</span></span>)</span><span class="kw"> equals </span><a name="D3"><span class="comment"><font color="firebrick">:: SFMASTR2:def 3</font></span><br></a> <span title="SCMFSA_9:func.2" data-link="7755.html#ELM24418">StepWhile&gt;0</span> (<span class="p1">(<span class="default">1 <span title="SCMFSA_M:NK.10" data-link="7768.html#ELM24448">-stRWNotIn</span> <span class="p2">(<span class="default"><span class="p3"><span title="SCMFSA_M:func.4" data-link="857.html#ELM24442">{</span><span class="default"><font color="Maroon" title="c4">a</font></span><span title="SCMFSA_M:func.4" data-link="857.html#ELM24442">}</span></span> <span title="SUBSET_1:func.4" data-link="1743.html#ELM25873">\/</span> <span class="p3">(<span class="default"><span title="SF_MASTR:func.3" data-link="7869.html#ELM25082">UsedILoc</span> <font color="Maroon" title="c3">I</font></span>)</span></span>)</span></span>)</span>,<span class="p1">(<span class="default"><font color="Maroon" title="c3">I</font> <span title="SCMFSA6A:func.4" data-link="7713.html#ELM24175">";"</span> <span class="p2">(<span class="default"><span title="SCMFSA_2:func.8" data-link="480.html#ELM24355">SubFrom</span> (<span class="p3">(<span class="default">1 <span title="SCMFSA_M:NK.10" data-link="7768.html#ELM24448">-stRWNotIn</span> <span class="p4">(<span class="default"><span class="p5"><span title="SCMFSA_M:func.4" data-link="857.html#ELM24442">{</span><span class="default"><font color="Maroon" title="c4">a</font></span><span title="SCMFSA_M:func.4" data-link="857.html#ELM24442">}</span></span> <span title="SUBSET_1:func.4" data-link="1743.html#ELM25873">\/</span> <span class="p5">(<span class="default"><span title="SF_MASTR:func.3" data-link="7869.html#ELM25082">UsedILoc</span> <font color="Maroon" title="c3">I</font></span>)</span></span>)</span></span>)</span>,<span class="p3">(<span class="default"><span title="SCMFSA_2:func.4" data-link="7748.html#ELM24351">intloc</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span></span>)</span>)</span>)</span></span>)</span>,<font color="Maroon" title="c1">p</font>,<span class="p1">(<span class="default"><span title="EXTPRO_1:func.2" data-link="2532.html#ELM6611">Exec</span> (<span class="p2">(<span class="default"><span class="p3">(<span class="default">1 <span title="SCMFSA_M:NK.10" data-link="7768.html#ELM24448">-stRWNotIn</span> <span class="p4">(<span class="default"><span class="p5"><span title="SCMFSA_M:func.4" data-link="857.html#ELM24442">{</span><span class="default"><font color="Maroon" title="c4">a</font></span><span title="SCMFSA_M:func.4" data-link="857.html#ELM24442">}</span></span> <span title="SUBSET_1:func.4" data-link="1743.html#ELM25873">\/</span> <span class="p5">(<span class="default"><span title="SF_MASTR:func.3" data-link="7869.html#ELM25082">UsedILoc</span> <font color="Maroon" title="c3">I</font></span>)</span></span>)</span></span>)</span> <span title="SCMFSA_2:func.6" data-link="478.html#ELM24353">:=</span> <font color="Maroon" title="c4">a</font></span>)</span>,<span class="p2">(<span class="default"><span title="SCMFSA_M:func.1" data-link="7763.html#ELM24439">Initialized</span> <font color="Maroon" title="c2">s</font></span>)</span>)</span>)</span>);<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>homography</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func homography</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='613.html#ELM1474'>homography</span> [<span data-href='anproj_8.html#K4'>anproj_8</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM1474'>
+<h2>1.   <span data-link='613.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='anproj_8.html#K4'>anproj_8</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">N</font> be   <span title="MATRIX_6:attr.1" data-link="344.html#ELM14660">invertible</span>  <span title="MATRIX_1:NM.2" data-link="5063.html#ELM14604">Matrix</span> of 3,<span title="VECTSP_1:func.2" data-link="8609.html#ELM28508">F_Real</span>;<br><div about="#D85" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a> <span title="ANPROJ_8:func.4" data-link="613.html#ELM1474">homography</span> <font color="Maroon" title="c1">N</font><span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.6" data-link="3155.html#ELM25752">Function</span> of <span class="p1">(<span class="default"><span title="ANPROJ_1:func.5" data-link="598.html#ELM1439">ProjectiveSpace</span> <span class="p2">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> 3</span>)</span></span>)</span>,<span class="p1">(<span class="default"><span title="ANPROJ_1:func.5" data-link="598.html#ELM1439">ProjectiveSpace</span> <span class="p2">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> 3</span>)</span></span>)</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E85">DEF4</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: ANPROJ_8:def 4</font></span><br></a> for <font color="Olive" title="b1">x</font> being   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <span class="p1">(<span class="default"><span title="ANPROJ_1:func.5" data-link="598.html#ELM1439">ProjectiveSpace</span> <span class="p2">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> 3</span>)</span></span>)</span>  ex <font color="Olive" title="b2">u</font>, <font color="Olive" title="b3">v</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> 3</span>)</span> ex <font color="Olive" title="b4">uf</font> being   <span title="STRUCT_0:NM.7" data-link="27.html#ELM25753">FinSequence</span> of <span title="VECTSP_1:func.2" data-link="8609.html#ELM28508">F_Real</span> ex <font color="Olive" title="b5">p</font> being    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of 1 <span title="FINSEQ_2:func.4" data-link="2732.html#ELM7182">-tuples_on</span> <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span> st <br>( <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="ANPROJ_1:func.2" data-link="596.html#ELM1436">Dir</span> <font color="Olive" title="b2">u</font> &amp;  not <font color="Olive" title="b2">u</font> is  <span title="STRUCT_0:attr.9" data-link="1643.html#ELM25777">zero</span>  &amp; <font color="Olive" title="b2">u</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b4">uf</font> &amp; <font color="Olive" title="b5">p</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">N</font> <span title="LAPLACE:func.11" data-link="47.html#ELM13257">*</span> <font color="Olive" title="b4">uf</font> &amp; <font color="Olive" title="b3">v</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="ANPROJ_8:func.2" data-link="612.html#ELM1472">M2F</span> <font color="Olive" title="b5">p</font> &amp;  not <font color="Olive" title="b3">v</font> is  <span title="STRUCT_0:attr.9" data-link="1643.html#ELM25777">zero</span>  &amp; <span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="ANPROJ_1:func.2" data-link="596.html#ELM1436">Dir</span> <font color="Olive" title="b3">v</font> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

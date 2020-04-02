@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>PRIM:Step</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func PRIM:Step</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='3668.html#ELM10272'>PRIM:Step</span> [<span data-href='glib_004.html#K14'>glib_004</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM10272'>
+<h2>1.   <span data-link='3668.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='glib_004.html#K14'>glib_004</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GLIB_003:attr.7" data-link="3646.html#ELM10109">real-weighted</span>  <span title="GLIB_003:NM.1" data-link="3600.html#ELM10054">WGraph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">L</font> be   <span title="GLIB_004:NM.4" data-link="3655.html#ELM10256">PRIM:Labeling</span> of <font color="Maroon" title="c1">G</font>;<br><div about="#D34" typeof="oo:Definition" class="main-sentence">
+<a name="K14"><span class="kw">func</span> </a> <span title="GLIB_004:func.14" data-link="3668.html#ELM10272">PRIM:Step</span> <font color="Maroon" title="c2">L</font><span class="kw"> -&gt; </span>  <span title="GLIB_004:NM.4" data-link="3655.html#ELM10256">PRIM:Labeling</span> of <font color="Maroon" title="c1">G</font><span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E34">Def15</font></span>: <a name="D15"><span class="comment"><font color="firebrick">:: GLIB_004:def 15</font></span><br></a><font color="Maroon" title="c2">L</font><span class="kw"> if </span> <span title="GLIB_004:func.12" data-link="3666.html#ELM10270">PRIM:NextBestEdges</span> <font color="Maroon" title="c2">L</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span> <br><span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><span class="p2">(<span class="default"><span class="p3">(<span class="default"><font color="Maroon" title="c2">L</font> <span title="DOMAIN_1:func.2" data-link="54.html#ELM5993">`1</span></span>)</span> <span title="XBOOLE_0:func.2" data-link="1743.html#ELM29649">\/</span> <span class="p3"><span title="TARSKI:func.1" data-link="857.html#ELM26065">{</span><span class="default"><span class="p4">(<span class="default"><span class="p5">(<span class="default"><span title="GLIB_000:func.11" data-link="3519.html#ELM9773">the_Target_of</span> <font color="Maroon" title="c1">G</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span>  the    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="GLIB_004:func.12" data-link="3666.html#ELM10270">PRIM:NextBestEdges</span> <font color="Maroon" title="c2">L</font></span>)</span></span><span title="TARSKI:func.1" data-link="857.html#ELM26065">}</span></span></span>)</span>,<span class="p2">(<span class="default"><span class="p3">(<span class="default"><font color="Maroon" title="c2">L</font> <span title="DOMAIN_1:func.3" data-link="55.html#ELM5994">`2</span></span>)</span> <span title="XBOOLE_0:func.2" data-link="1743.html#ELM29649">\/</span> <span class="p3"><span title="TARSKI:func.1" data-link="857.html#ELM26065">{</span><span class="default"> the    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="GLIB_004:func.12" data-link="3666.html#ELM10270">PRIM:NextBestEdges</span> <font color="Maroon" title="c2">L</font></span><span title="TARSKI:func.1" data-link="857.html#ELM26065">}</span></span></span>)</span></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span><span class="kw"> if </span>(  <span title="GLIB_004:func.12" data-link="3666.html#ELM10270">PRIM:NextBestEdges</span> <font color="Maroon" title="c2">L</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span>  &amp; <span class="p1">(<span class="default"><span title="GLIB_000:func.10" data-link="3518.html#ELM9772">the_Source_of</span> <font color="Maroon" title="c1">G</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span>  the    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="GLIB_004:func.12" data-link="3666.html#ELM10270">PRIM:NextBestEdges</span> <font color="Maroon" title="c2">L</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">L</font> <span title="DOMAIN_1:func.2" data-link="54.html#ELM5993">`1</span>  )<br><span class="kw"> otherwise </span><span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><span class="p2">(<span class="default"><span class="p3">(<span class="default"><font color="Maroon" title="c2">L</font> <span title="DOMAIN_1:func.2" data-link="54.html#ELM5993">`1</span></span>)</span> <span title="XBOOLE_0:func.2" data-link="1743.html#ELM29649">\/</span> <span class="p3"><span title="TARSKI:func.1" data-link="857.html#ELM26065">{</span><span class="default"><span class="p4">(<span class="default"><span class="p5">(<span class="default"><span title="GLIB_000:func.10" data-link="3518.html#ELM9772">the_Source_of</span> <font color="Maroon" title="c1">G</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span>  the    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="GLIB_004:func.12" data-link="3666.html#ELM10270">PRIM:NextBestEdges</span> <font color="Maroon" title="c2">L</font></span>)</span></span><span title="TARSKI:func.1" data-link="857.html#ELM26065">}</span></span></span>)</span>,<span class="p2">(<span class="default"><span class="p3">(<span class="default"><font color="Maroon" title="c2">L</font> <span title="DOMAIN_1:func.3" data-link="55.html#ELM5994">`2</span></span>)</span> <span title="XBOOLE_0:func.2" data-link="1743.html#ELM29649">\/</span> <span class="p3"><span title="TARSKI:func.1" data-link="857.html#ELM26065">{</span><span class="default"> the    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="GLIB_004:func.12" data-link="3666.html#ELM10270">PRIM:NextBestEdges</span> <font color="Maroon" title="c2">L</font></span><span title="TARSKI:func.1" data-link="857.html#ELM26065">}</span></span></span>)</span></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span>;<br>
+</div>
+<span class="kw">coherence</span> <span class="kw">consistency</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

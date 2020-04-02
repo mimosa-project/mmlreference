@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>with_finite_stability#</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr with_finite_stability#</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='2251.html#ELM5874'>with_finite_stability#</span> [<span data-href='dilworth.html#V4'>dilworth</span>]</li>
+<li><span data-link='2251.html#ELM24803'>with_finite_stability#</span> [<span data-href='scmyciel.html#V12'>scmyciel</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM5874'>
+<h2>1.   <span data-link='2251.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='dilworth.html#V4'>dilworth</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font> be    <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><div about="#D20" typeof="oo:Definition" class="main-sentence">
+<a name="V4"><span class="kw">attr</span> </a><font color="Maroon" title="c1">R</font> is  <span title="DILWORTH:attr.4" data-link="2251.html#ELM5874">with_finite_stability#</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E20">Def5</font></span>: <a name="D5"><span class="comment"><font color="firebrick">:: DILWORTH:def 5</font></span><br></a> ex <font color="Olive" title="b1">A</font> being   <span title="FINSET_1:attr.1" data-link="2772.html#ELM7423">finite</span>  <span title="DILWORTH:NM.2" data-link="2241.html#ELM5861">StableSet</span> of <font color="Maroon" title="c1">R</font> st <br> for <font color="Olive" title="b2">B</font> being   <span title="FINSET_1:attr.1" data-link="2772.html#ELM7423">finite</span>  <span title="DILWORTH:NM.2" data-link="2241.html#ELM5861">StableSet</span> of <font color="Maroon" title="c1">R</font> holds   <span title="CARD_1:func.4" data-link="1329.html#ELM3236">card</span> <font color="Olive" title="b2">B</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span>  <span title="CARD_1:func.4" data-link="1329.html#ELM3236">card</span> <font color="Olive" title="b1">A</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  finite   ->  with_finite_stability#   for    RelStr ;
+</td><td><span data-href='dilworth.html#CC6'>dilworth</span></td></tr>
+<tr><td>
+cluster  stable   ->  finite   for    Element of  bool  the carrier of R;
+</td><td><span data-href='dilworth.html#CC7'>dilworth</span></td></tr>
+<tr><td>
+cluster  stability# R ->  positive  ;
+</td><td><span data-href='dilworth.html#FC4'>dilworth</span></td></tr>
+<tr><td>
+cluster  with_finite_clique#   with_finite_stability#   ->  finite   for    RelStr ;
+</td><td><span data-href='dilworth.html#CC8'>dilworth</span></td></tr>
+<tr><td>
+cluster  subrelstr S ->  with_finite_stability#  ;
+</td><td><span data-href='dilworth.html#FC11'>dilworth</span></td></tr>
+<tr><td>
+cluster  strong-chain   ->  clique   for    Element of  bool  the carrier of R;
+</td><td><span data-href='dilworth.html#CC11'>dilworth</span></td></tr>
+<tr><td>
+cluster 1 -element   ->  strong-chain   for    Element of  bool  the carrier of R;
+</td><td><span data-href='dilworth.html#CC12'>dilworth</span></td></tr>
+<tr><td>
+cluster  ComplRelStr R ->  with_finite_stability#  ;
+</td><td><span data-href='mycielsk.html#FC9'>mycielsk</span></td></tr>
+<tr><td>
+cluster  ComplRelStr R ->  with_finite_clique#  ;
+</td><td><span data-href='mycielsk.html#FC10'>mycielsk</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM24803'>
+<h2>2.   <span data-link='2251.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='scmyciel.html#V12'>scmyciel</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="SCMYCIEL:NM.1" data-link="7819.html#ELM24767">SimpleGraph</span>;<br><div about="#D88" typeof="oo:Definition" class="main-sentence">
+<a name="V12"><span class="kw">attr</span> </a><font color="Maroon" title="c1">G</font> is  <span title="SCMYCIEL:attr.12" data-link="2251.html#ELM24803">with_finite_stability#</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E88">Def23</font></span>: <a name="D23"><span class="comment"><font color="firebrick">:: SCMYCIEL:def 23</font></span><br></a> ex <font color="Olive" title="b1">A</font> being   <span title="FINSET_1:attr.1" data-link="2772.html#ELM7423">finite</span>  <span title="SCMYCIEL:NM.8" data-link="2241.html#ELM24774">StableSet</span> of <font color="Maroon" title="c1">G</font> st <br> for <font color="Olive" title="b2">B</font> being   <span title="FINSET_1:attr.1" data-link="2772.html#ELM7423">finite</span>  <span title="SCMYCIEL:NM.8" data-link="2241.html#ELM24774">StableSet</span> of <font color="Maroon" title="c1">G</font> holds   <span title="CARD_1:func.4" data-link="1329.html#ELM3236">card</span> <font color="Olive" title="b2">B</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span>  <span title="CARD_1:func.4" data-link="1329.html#ELM3236">card</span> <font color="Olive" title="b1">A</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  finite   SimpleGraph-like   ->  with_finite_stability#   for    set ;
+</td><td><span data-href='scmyciel.html#CC11'>scmyciel</span></td></tr>
+<tr><td>
+cluster  stable   ->  finite   for    Element of  bool (Vertices G);
+</td><td><span data-href='scmyciel.html#CC12'>scmyciel</span></td></tr>
+<tr><td>
+cluster  non  empty  V38()  finite-membered  V243() V278()  subset-closed   non  void  1 -at_most_dimensional   SimpleGraph-like   with_finite_stability#   for    set ;
+</td><td><span data-href='scmyciel.html#RC20'>scmyciel</span></td></tr>
+<tr><td>
+cluster  stability# G ->  positive  ;
+</td><td><span data-href='scmyciel.html#FC17'>scmyciel</span></td></tr>
+<tr><td>
+cluster  SimpleGraph-like   with_finite_clique#   with_finite_stability#   ->  finite   for    set ;
+</td><td><span data-href='scmyciel.html#CC13'>scmyciel</span></td></tr>
+<tr><td>
+cluster  Complement G ->  with_finite_stability#  ;
+</td><td><span data-href='scmyciel.html#FC18'>scmyciel</span></td></tr>
+<tr><td>
+cluster  Complement G ->  with_finite_clique#  ;
+</td><td><span data-href='scmyciel.html#FC19'>scmyciel</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>SCM</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func SCM</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='477.html#ELM1153'>SCM</span> [<span data-href='ami_3.html#K1'>ami_3</span>]</li>
+<li><span data-link='477.html#ELM24686'>SCM</span> [<span data-href='scmring2.html#K1'>scmring2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM1153'>
+<h2>1.   <span data-link='477.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='ami_3.html#K1'>ami_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="AMI_3:func.1" data-link="477.html#ELM1153">SCM</span> <span class="kw"> -&gt; </span>  <span title="EXTPRO_1:attr.1" data-href="extpro_1.html#V1">strict</span>   <span title="EXTPRO_1:struct.1" data-link="2529.html#ELM6608">AMI-Struct</span> over  <span title="CARD_1:func.5" data-link="1332.html#ELM3237">Segm</span> 2<span class="kw"> equals </span><a name="D1"><span class="comment"><font color="firebrick">:: AMI_3:def 1</font></span><br></a> <span title="EXTPRO_1:aggr.1" data-href="extpro_1.html#G1">AMI-Struct</span>(# <span title="AMI_2:func.1" data-link="467.html#ELM1138">SCM-Memory</span>,<span class="p1">(<span class="default"><span title="SUBSET_1:func.10" data-link="8054.html#ELM25879">In</span> (<span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>,<span title="AMI_2:func.1" data-link="467.html#ELM1138">SCM-Memory</span>)</span>)</span>,<span title="SCM_INST:func.3" data-link="7704.html#ELM24156">SCM-Instr</span>,<span title="AMI_2:func.3" data-link="469.html#ELM1140">SCM-OK</span>,<span title="AMI_2:func.4" data-link="470.html#ELM1141">SCM-VAL</span>,<span title="AMI_2:func.9" data-link="474.html#ELM1146">SCM-Exec</span> #);<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  SCM  ->  non  empty   strict  ;
+</td><td><span data-href='ami_3.html#FC2'>ami_3</span></td></tr>
+<tr><td>
+cluster  SCM  ->  with_non-empty_values   strict  ;
+</td><td><span data-href='ami_3.html#FC3'>ami_3</span></td></tr>
+<tr><td>
+cluster  SCM  ->  IC-Ins-separated   strict  ;
+</td><td><span data-href='ami_3.html#FC4'>ami_3</span></td></tr>
+<tr><td>
+cluster  Int-like   for    Element of  the carrier of SCM;
+</td><td><span data-href='ami_3.html#RC1'>ami_3</span></td></tr>
+<tr><td>
+cluster s . d ->  integer  ;
+</td><td><span data-href='ami_3.html#FC5'>ami_3</span></td></tr>
+<tr><td>
+cluster  SCM  ->  strict   halting  ;
+</td><td><span data-href='ami_3.html#FC6'>ami_3</span></td></tr>
+<tr><td>
+cluster  Euclid-Algorithm  ->  NAT  -defined   the InstructionsF of SCM -valued   finite  ;
+</td><td><span data-href='ami_4.html#FC1'>ami_4</span></td></tr>
+<tr><td>
+cluster  Euclid-Algorithm  ->  NAT  -defined   the InstructionsF of SCM -valued   finite   non  halt-free  ;
+</td><td><span data-href='ami_4.html#FC2'>ami_4</span></td></tr>
+<tr><td>
+cluster  NonZero SCM ->  infinite  ;
+</td><td><span data-href='ami_5.html#FC1'>ami_5</span></td></tr>
+<tr><td>
+cluster  SCM  ->  IC-recognized  ;
+</td><td><span data-href='ami_5.html#FC2'>ami_5</span></td></tr>
+<tr><td>
+cluster  SCM  ->  CurIns-recognized  ;
+</td><td><span data-href='ami_5.html#FC3'>ami_5</span></td></tr>
+<tr><td>
+cluster  JUMP (halt SCM) ->  empty  ;
+</td><td><span data-href='ami_6.html#FC1'>ami_6</span></td></tr>
+<tr><td>
+cluster  SCM  ->  standard  ;
+</td><td><span data-href='ami_6.html#FC15'>ami_6</span></td></tr>
+<tr><td>
+cluster  InsCode (halt SCM) ->  jump-only   for  InsType of  the InstructionsF of SCM;
+</td><td><span data-href='ami_6.html#FC16'>ami_6</span></td></tr>
+<tr><td>
+cluster  halt SCM ->  jump-only  ;
+</td><td><span data-href='ami_6.html#FC17'>ami_6</span></td></tr>
+<tr><td>
+cluster  InsCode (SCM-goto i1) ->  jump-only   for  InsType of  the InstructionsF of SCM;
+</td><td><span data-href='ami_6.html#FC18'>ami_6</span></td></tr>
+<tr><td>
+cluster  InsCode (a =0_goto i1) ->  jump-only   for  InsType of  the InstructionsF of SCM;
+</td><td><span data-href='ami_6.html#FC20'>ami_6</span></td></tr>
+<tr><td>
+cluster  InsCode (a >0_goto i1) ->  jump-only   for  InsType of  the InstructionsF of SCM;
+</td><td><span data-href='ami_6.html#FC21'>ami_6</span></td></tr>
+<tr><td>
+cluster  InsCode (a := b) ->  non  jump-only   for  InsType of  the InstructionsF of SCM;
+</td><td><span data-href='ami_6.html#FC24'>ami_6</span></td></tr>
+<tr><td>
+cluster  InsCode (AddTo (a,b)) ->  non  jump-only   for  InsType of  the InstructionsF of SCM;
+</td><td><span data-href='ami_6.html#FC25'>ami_6</span></td></tr>
+<tr><td>
+cluster  InsCode (SubFrom (a,b)) ->  non  jump-only   for  InsType of  the InstructionsF of SCM;
+</td><td><span data-href='ami_6.html#FC26'>ami_6</span></td></tr>
+<tr><td>
+cluster  InsCode (MultBy (a,b)) ->  non  jump-only   for  InsType of  the InstructionsF of SCM;
+</td><td><span data-href='ami_6.html#FC27'>ami_6</span></td></tr>
+<tr><td>
+cluster  InsCode (Divide (a,b)) ->  non  jump-only   for  InsType of  the InstructionsF of SCM;
+</td><td><span data-href='ami_6.html#FC28'>ami_6</span></td></tr>
+<tr><td>
+cluster  SCM  ->  with_explicit_jumps  ;
+</td><td><span data-href='ami_6.html#FC34'>ami_6</span></td></tr>
+<tr><td>
+cluster  SCM  ->  IC-relocable  ;
+</td><td><span data-href='ami_6.html#FC35'>ami_6</span></td></tr>
+<tr><td>
+cluster  SCM  ->  relocable  ;
+</td><td><span data-href='reloc.html#FC6'>reloc</span></td></tr>
+<tr><td>
+cluster  SCM  ->  relocable1   relocable2  ;
+</td><td><span data-href='reloc.html#FC7'>reloc</span></td></tr>
+<tr><td>
+cluster V4()  Relation-like   the carrier of SCM -defined   Function-like   the_Values_of SCM -compatible   total  il -started   for    State-consisting of D;
+</td><td><span data-href='scm_1.html#RC1'>scm_1</span></td></tr>
+<tr><td>
+cluster s . t ->  integer  ;
+</td><td><span data-href='scm_comp.html#FC1'>scm_comp</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM24686'>
+<h2>2.   <span data-link='477.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='scmring2.html#K1'>scmring2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font> be   <span title="VECTSP_1:NM.3" data-link="8605.html#ELM28500">Ring</span>;<br><div about="#D1" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="SCMRING2:func.1" data-link="477.html#ELM24686">SCM</span> <font color="Maroon" title="c1">R</font><span class="kw"> -&gt; </span>  <span title="EXTPRO_1:attr.1" data-href="extpro_1.html#V1">strict</span>   <span title="EXTPRO_1:struct.1" data-link="2529.html#ELM6608">AMI-Struct</span> over  <span title="CARD_1:func.5" data-link="1332.html#ELM3237">Segm</span> 2<span class="kw"> means </span>:<span class="lab"><font color="Green" title="E1">Def1</font></span>: <a name="D1"><span class="comment"><font color="firebrick">:: SCMRING2:def 1</font></span><br></a>(  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="AMI_2:func.1" data-link="467.html#ELM1138">SCM-Memory</span>  &amp;  the <span title="STRUCT_0:sel.2" data-href="struct_0.html#U2">ZeroF</span> of <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>  &amp;  the <span title="COMPOS_1:sel.1" data-href="compos_1.html#U1">InstructionsF</span> of <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="SCMRINGI:func.1" data-link="7704.html#ELM24750">SCM-Instr</span> <font color="Maroon" title="c1">R</font> &amp;  the <span title="MEMSTR_0:sel.1" data-href="memstr_0.html#U1">Object-Kind</span> of <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="AMI_2:func.3" data-link="469.html#ELM1140">SCM-OK</span>  &amp;  the <span title="MEMSTR_0:sel.2" data-href="memstr_0.html#U2">ValuesF</span> of <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="SCMRING1:func.1" data-link="470.html#ELM24676">SCM-VAL</span> <font color="Maroon" title="c1">R</font> &amp;  the <span title="EXTPRO_1:sel.1" data-href="extpro_1.html#U1">Execution</span> of <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="SCMRING1:func.8" data-link="474.html#ELM24683">SCM-Exec</span> <font color="Maroon" title="c1">R</font> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  SCM R ->  non  empty   strict  ;
+</td><td><span data-href='scmring2.html#FC1'>scmring2</span></td></tr>
+<tr><td>
+cluster  SCM R ->  with_non-empty_values   strict  ;
+</td><td><span data-href='scmring2.html#FC2'>scmring2</span></td></tr>
+<tr><td>
+cluster  Int-like   for    Element of  the carrier of (SCM R);
+</td><td><span data-href='scmring2.html#RC1'>scmring2</span></td></tr>
+<tr><td>
+cluster  SCM R ->  IC-Ins-separated   strict  ;
+</td><td><span data-href='scmring2.html#FC3'>scmring2</span></td></tr>
+<tr><td>
+cluster  SCM R ->  strict   halting  ;
+</td><td><span data-href='scmring2.html#FC11'>scmring2</span></td></tr>
+<tr><td>
+cluster  JUMP (halt (SCM R)) ->  empty  ;
+</td><td><span data-href='scmring3.html#FC1'>scmring3</span></td></tr>
+<tr><td>
+cluster  SCM R ->  standard  ;
+</td><td><span data-href='scmring3.html#FC14'>scmring3</span></td></tr>
+<tr><td>
+cluster  InsCode (halt (SCM R)) ->  jump-only   for  InsType of  the InstructionsF of (SCM R);
+</td><td><span data-href='scmring3.html#FC15'>scmring3</span></td></tr>
+<tr><td>
+cluster  halt (SCM R) ->  jump-only  ;
+</td><td><span data-href='scmring3.html#FC16'>scmring3</span></td></tr>
+<tr><td>
+cluster  InsCode (goto (i1,R)) ->  jump-only   for  InsType of  the InstructionsF of (SCM R);
+</td><td><span data-href='scmring3.html#FC17'>scmring3</span></td></tr>
+<tr><td>
+cluster  InsCode (a =0_goto i1) ->  jump-only   for  InsType of  the InstructionsF of (SCM R);
+</td><td><span data-href='scmring3.html#FC19'>scmring3</span></td></tr>
+<tr><td>
+cluster  InsCode (p := q) ->  non  jump-only   for  InsType of  the InstructionsF of (SCM S);
+</td><td><span data-href='scmring3.html#FC21'>scmring3</span></td></tr>
+<tr><td>
+cluster  InsCode (AddTo (p,q)) ->  non  jump-only   for  InsType of  the InstructionsF of (SCM S);
+</td><td><span data-href='scmring3.html#FC23'>scmring3</span></td></tr>
+<tr><td>
+cluster  InsCode (SubFrom (p,q)) ->  non  jump-only   for  InsType of  the InstructionsF of (SCM S);
+</td><td><span data-href='scmring3.html#FC25'>scmring3</span></td></tr>
+<tr><td>
+cluster  InsCode (MultBy (p,q)) ->  non  jump-only   for  InsType of  the InstructionsF of (SCM S);
+</td><td><span data-href='scmring3.html#FC27'>scmring3</span></td></tr>
+<tr><td>
+cluster  InsCode (p := w) ->  non  jump-only   for  InsType of  the InstructionsF of (SCM S);
+</td><td><span data-href='scmring3.html#FC29'>scmring3</span></td></tr>
+<tr><td>
+cluster  SCM R ->  with_explicit_jumps  ;
+</td><td><span data-href='scmring3.html#FC35'>scmring3</span></td></tr>
+<tr><td>
+cluster  SCM R ->  IC-relocable  ;
+</td><td><span data-href='scmring3.html#FC36'>scmring3</span></td></tr>
+<tr><td>
+cluster  SCM R ->  relocable  ;
+</td><td><span data-href='scmring4.html#FC1'>scmring4</span></td></tr>
+<tr><td>
+cluster  SCM R ->  IC-recognized  ;
+</td><td><span data-href='scmring4.html#FC2'>scmring4</span></td></tr>
+<tr><td>
+cluster  SCM R ->  CurIns-recognized  ;
+</td><td><span data-href='scmring4.html#FC3'>scmring4</span></td></tr>
+<tr><td>
+cluster  SCM R ->  relocable1   relocable2  ;
+</td><td><span data-href='scmring4.html#FC4'>scmring4</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

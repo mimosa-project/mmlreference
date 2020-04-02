@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>strongly-normalizing</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr strongly-normalizing</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='7409.html#ELM22566'>strongly-normalizing</span> [<span data-href='rewrite1.html#V3'>rewrite1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM22566'>
+<h2>1.   <span data-link='7409.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rewrite1.html#V3'>rewrite1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font> be   <span title="RELAT_1:NM.1" data-link="286.html#ELM22383">Relation</span>;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="V1"><span class="kw">attr</span> </a><font color="Maroon" title="c1">R</font> is  <span title="REWRITE1:attr.1" data-link="7407.html#ELM22564">co-well_founded</span> <span class="kw"> means </span><a name="D13"><span class="comment"><font color="firebrick">:: REWRITE1:def 13</font></span><br></a><font color="Maroon" title="c1">R</font> <span title="RELAT_1:func.2" data-link="427.html#ELM22387">~</span>  is  <span title="WELLORD1:attr.1" data-link="653.html#ELM29619">well_founded</span> ;<br>
+</div>
+<div about="#D45" typeof="oo:Definition">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c1">R</font> is  <span title="REWRITE1:attr.2" data-link="7408.html#ELM22565">weakly-normalizing</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E45">Def14</font></span>: <a name="D14"><span class="comment"><font color="firebrick">:: REWRITE1:def 14</font></span><br></a> for <font color="Olive" title="b1">a</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>   st <font color="Olive" title="b1">a</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">R</font> holds <br><font color="Olive" title="b1">a</font> <span title="REWRITE1:pred.9" data-link="7401.html#ELM22555">has_a_normal_form_wrt</span> <font color="Maroon" title="c1">R</font>;<br>
+</div>
+<div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V3"><span class="kw">attr</span> </a><font color="Maroon" title="c1">R</font> is  <span title="REWRITE1:attr.3" data-link="7409.html#ELM22566">strongly-normalizing</span> <span class="kw"> means </span><a name="D15"><span class="comment"><font color="firebrick">:: REWRITE1:def 15</font></span><br></a> for <font color="Olive" title="b1">f</font> being   <span title="PBOOLE:NM.1" data-link="4273.html#ELM19812">ManySortedSet</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>   holds <br> not  for <font color="Olive" title="b2">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> holds  <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><span class="p2">(<span class="default"><font color="Olive" title="b1">f</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b2">i</font></span>)</span>,<span class="p2">(<span class="default"><font color="Olive" title="b1">f</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p3">(<span class="default"><font color="Olive" title="b2">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span></span>)</span></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c1">R</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  empty   ->  empty   strongly-normalizing   with_UN_property   for    set ;
+</td><td><span data-href='msafree4.html#CC15'>msafree4</span></td></tr>
+<tr><td>
+cluster R . i ->  strongly-normalizing   for  Relation;
+</td><td><span data-href='msafree4.html#FC17'>msafree4</span></td></tr>
+<tr><td>
+cluster  PolyRedRel (P,T) ->  strongly-normalizing  ;
+</td><td><span data-href='polyred.html#FC5'>polyred</span></td></tr>
+<tr><td>
+cluster  Relation-like   strongly-normalizing   ->  irreflexive   co-well_founded   for    set ;
+</td><td><span data-href='rewrite1.html#CC2'>rewrite1</span></td></tr>
+<tr><td>
+cluster  Relation-like   irreflexive   co-well_founded   ->  strongly-normalizing   for    set ;
+</td><td><span data-href='rewrite1.html#CC3'>rewrite1</span></td></tr>
+<tr><td>
+cluster  empty   Relation-like   ->  weakly-normalizing   strongly-normalizing   for    set ;
+</td><td><span data-href='rewrite1.html#CC4'>rewrite1</span></td></tr>
+<tr><td>
+cluster  Relation-like   strongly-normalizing   ->  weakly-normalizing   for    set ;
+</td><td><span data-href='rewrite1.html#CC5'>rewrite1</span></td></tr>
+<tr><td>
+cluster  Relation-like   strongly-normalizing   locally-confluent   ->  confluent   for    set ;
+</td><td><span data-href='rewrite1.html#CC13'>rewrite1</span></td></tr>
+<tr><td>
+cluster  Relation-like   complete   ->  strongly-normalizing   confluent   for    set ;
+</td><td><span data-href='rewrite1.html#CC14'>rewrite1</span></td></tr>
+<tr><td>
+cluster  Relation-like   strongly-normalizing   confluent   ->  complete   for    set ;
+</td><td><span data-href='rewrite1.html#CC15'>rewrite1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

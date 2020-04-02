@@ -1,0 +1,1182 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>FinSequence</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>mode FinSequence</h1>
+<h2>List of Definitions (9)</h2>
+<ol>
+<li><span data-link='27.html#ELM55'>FinSequence</span> [<span data-href='abcmiz_1.html#NM2'>abcmiz_1</span>]</li>
+<li><span data-link='27.html#ELM7089'>FinSequence</span> [<span data-href='finseq_1.html#NM1'>finseq_1</span>]</li>
+<li><span data-link='27.html#ELM7090'>FinSequence</span> [<span data-href='finseq_1.html#M1'>finseq_1</span>]</li>
+<li><span data-link='27.html#ELM7091'>FinSequence</span> [<span data-href='finseq_1.html#M2'>finseq_1</span>]</li>
+<li><span data-link='27.html#ELM7651'>FinSequence</span> [<span data-href='fomodel0.html#M1'>fomodel0</span>]</li>
+<li><span data-link='27.html#ELM15135'>FinSequence</span> [<span data-href='measure8.html#M1'>measure8</span>]</li>
+<li><span data-link='27.html#ELM21317'>FinSequence</span> [<span data-href='prob_3.html#M1'>prob_3</span>]</li>
+<li><span data-link='27.html#ELM25753'>FinSequence</span> [<span data-href='struct_0.html#NM7'>struct_0</span>]</li>
+<li><span data-link='27.html#ELM27356'>FinSequence</span> [<span data-href='trees_4.html#M1'>trees_4</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM55'>
+<h2>1.   <span data-link='27.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='abcmiz_1.html#NM2'>abcmiz_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   non  <span title="STRUCT_0:attr.11" data-link="17.html#ELM25778">void</span>  <span title="CATALG_1:NM.1" data-link="1559.html#ELM3851">Signature</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font> be    <span title="MSUALG_1:struct.3" data-link="5760.html#ELM17054">MSAlgebra</span> over <font color="Maroon" title="c1">S</font>;<br><a name="NM1"><span class="kw">mode </span>Subset of <font color="Maroon" title="c2">A</font><span class="kw"> is </span></a>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span class="p1">(<span class="default"><span title="CARD_3:func.3" data-link="752.html#ELM3293">Union</span>  the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c2">A</font></span>)</span>;<br><a name="NM2"><span class="kw">mode </span>FinSequence of <font color="Maroon" title="c2">A</font><span class="kw"> is </span></a>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="CARD_3:func.3" data-link="752.html#ELM3293">Union</span>  the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c2">A</font>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-attr'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>attr</th></tr></thead>
+<tbody>
+<tr><td><span data-link='5722.html#ELM16828'>-consequent-context-sequence</span></td><td><span data-href='msafree5.html#V21'>msafree5</span></td></tr>
+<tr><td><span data-link='5721.html#ELM16826'>-context-sequence</span></td><td><span data-href='msafree5.html#V19'>msafree5</span></td></tr>
+<tr><td><span data-link='5714.html#ELM16829'>-omitting</span></td><td><span data-href='msafree5.html#V22'>msafree5</span></td></tr>
+<tr><td><span data-link='5720.html#ELM16825'>-sorts</span></td><td><span data-href='msafree5.html#V18'>msafree5</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-func'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>func</th></tr></thead>
+<tbody>
+<tr><td><span data-link='141.html#ELM16806'>.</span></td><td><span data-href='msafree5.html#K27'>msafree5</span></td></tr>
+<tr><td><span data-link='141.html#ELM16807'>.</span></td><td><span data-href='msafree5.html#K28'>msafree5</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM7089'>
+<h2>2.   <span data-link='27.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='finseq_1.html#NM1'>finseq_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<a name="NM1"><span class="kw">mode </span>FinSequence<span class="kw"> is </span></a>  <span title="FINSEQ_1:attr.1" data-link="2726.html#ELM7114">FinSequence-like</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-struct'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>struct</th></tr></thead>
+<tbody>
+<tr><td><span data-link='6807.html#ELM20658'>PolyhedronStr</span></td><td><span data-href='polyform.html#L1'>polyform</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-mode'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>mode</th></tr></thead>
+<tbody>
+<tr><td><span data-link='2427.html#ELM6526'>a_partition</span></td><td><span data-href='eulrpart.html#M1'>eulrpart</span></td></tr>
+<tr><td><span data-link='1649.html#ELM10713'>Chain</span></td><td><span data-href='graph_1.html#M1'>graph_1</span></td></tr>
+<tr><td><span data-link='8002.html#ELM25606'>ClassicalSemiringFamily</span></td><td><span data-href='srings_4.html#M2'>srings_4</span></td></tr>
+<tr><td><span data-link='1627.html#ELM4098'>ConwayGameChain</span></td><td><span data-href='cgames_1.html#NM2'>cgames_1</span></td></tr>
+<tr><td><span data-link='4303.html#ELM12503'>CR_coefficients</span></td><td><span data-href='int_6.html#M1'>int_6</span></td></tr>
+<tr><td><span data-link='4302.html#ELM12502'>CR_Sequence</span></td><td><span data-href='int_6.html#NM1'>int_6</span></td></tr>
+<tr><td><span data-link='7023.html#ELM21370'>Domain-Sequence</span></td><td><span data-href='prvect_1.html#NM1'>prvect_1</span></td></tr>
+<tr><td><span data-link='718.html#ELM23201'>Enumeration</span></td><td><span data-href='rlaffin3.html#M1'>rlaffin3</span></td></tr>
+<tr><td><span data-link='3738.html#ELM10659'>FCEx-Sequence</span></td><td><span data-href='goedcpuc.html#M2'>goedcpuc</span></td></tr>
+<tr><td><span data-link='5160.html#ELM14972'>FieldFamily</span></td><td><span data-href='measur10.html#M3'>measur10</span></td></tr>
+<tr><td><span data-link='5160.html#ELM14973'>FieldFamily</span></td><td><span data-href='measur10.html#M4'>measur10</span></td></tr>
+<tr><td><span data-link='1685.html#ELM4281'>FinSeqLen</span></td><td><span data-href='circcomb.html#NM2'>circcomb</span></td></tr>
+<tr><td><span data-link='27.html#ELM7090'>FinSequence</span></td><td><span data-href='finseq_1.html#M1'>finseq_1</span></td></tr>
+<tr><td><span data-link='3178.html#ELM8997'>FuncSequence</span></td><td><span data-href='funct_7.html#NM1'>funct_7</span></td></tr>
+<tr><td><span data-link='3178.html#ELM8999'>FuncSequence</span></td><td><span data-href='funct_7.html#M2'>funct_7</span></td></tr>
+<tr><td><span data-link='3417.html#ELM9638'>Gene-Set</span></td><td><span data-href='genealg1.html#NM1'>genealg1</span></td></tr>
+<tr><td><span data-link='7026.html#ELM21373'>Group-Sequence</span></td><td><span data-href='prvect_1.html#NM4'>prvect_1</span></td></tr>
+<tr><td><span data-link='5161.html#ELM14974'>MeasureFamily</span></td><td><span data-href='measur10.html#M5'>measur10</span></td></tr>
+<tr><td><span data-link='6072.html#ELM18360'>NonatomicND</span></td><td><span data-href='nomin_1.html#M1'>nomin_1</span></td></tr>
+<tr><td><span data-link='2511.html#ELM6527'>odd_organization</span></td><td><span data-href='eulrpart.html#M2'>eulrpart</span></td></tr>
+<tr><td><span data-link='905.html#ELM2218'>partition</span></td><td><span data-href='bagord_2.html#M2'>bagord_2</span></td></tr>
+<tr><td><span data-link='8102.html#ELM25979'>PATH</span></td><td><span data-href='substut2.html#M1'>substut2</span></td></tr>
+<tr><td><span data-link='4991.html#ELM14368'>relation</span></td><td><span data-href='margrel1.html#M2'>margrel1</span></td></tr>
+<tr><td><span data-link='4992.html#ELM14367'>relation_length</span></td><td><span data-href='margrel1.html#M1'>margrel1</span></td></tr>
+<tr><td><span data-link='7036.html#ELM21408'>RealLinearSpace-Sequence</span></td><td><span data-href='prvect_2.html#NM2'>prvect_2</span></td></tr>
+<tr><td><span data-link='7037.html#ELM21409'>RealNormSpace-Sequence</span></td><td><span data-href='prvect_2.html#NM3'>prvect_2</span></td></tr>
+<tr><td><span data-link='7404.html#ELM22560'>RedSequence</span></td><td><span data-href='rewrite1.html#M1'>rewrite1</span></td></tr>
+<tr><td><span data-link='5159.html#ELM14970'>SemialgebraFamily</span></td><td><span data-href='measur10.html#M1'>measur10</span></td></tr>
+<tr><td><span data-link='5159.html#ELM14971'>SemialgebraFamily</span></td><td><span data-href='measur10.html#M2'>measur10</span></td></tr>
+<tr><td><span data-link='8001.html#ELM25605'>SemiringFamily</span></td><td><span data-href='srings_4.html#M1'>srings_4</span></td></tr>
+<tr><td><span data-link='5804.html#ELM17184'>Translation</span></td><td><span data-href='msualg_6.html#M2'>msualg_6</span></td></tr>
+<tr><td><span data-link='5698.html#ELM16778'>vf-sequence</span></td><td><span data-href='msafree5.html#M2'>msafree5</span></td></tr>
+<tr><td><span data-link='8601.html#ELM28473'>VectorSpace-Sequence</span></td><td><span data-href='vectsp12.html#M1'>vectsp12</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-pred'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>pred</th></tr></thead>
+<tbody>
+<tr><td><span data-link='491.html#ELM12615'>&lt;=</span></td><td><span data-href='integra1.html#R1'>integra1</span></td></tr>
+<tr><td><span data-link='1122.html#ELM7088'>=</span></td><td><span data-href='finseq_1.html'>finseq_1</span></td></tr>
+<tr><td><span data-link='119.html#ELM13216'>==></span></td><td><span data-href='lang1.html#R1'>lang1</span></td></tr>
+<tr><td><span data-link='786.html#ELM12616'>>=</span></td><td><span data-href='integra1.html#NR2'>integra1</span></td></tr>
+<tr><td><span data-link='3774.html#ELM10749'>alternates_vertices_in</span></td><td><span data-href='graph_2.html#R2'>graph_2</span></td></tr>
+<tr><td><span data-link='3908.html#ELM11272'>are_equivalent_under</span></td><td><span data-href='group_9.html#R6'>group_9</span></td></tr>
+<tr><td><span data-link='7679.html#ELM23966'>are_gamma-equivalent</span></td><td><span data-href='rvsum_3.html#R1'>rvsum_3</span></td></tr>
+<tr><td><span data-link='1034.html#ELM23899'>are_orthogonal</span></td><td><span data-href='rvsum_1.html#R1'>rvsum_1</span></td></tr>
+<tr><td><span data-link='2755.html#ELM7283'>c=</span></td><td><span data-href='finseq_8.html'>finseq_8</span></td></tr>
+<tr><td><span data-link='2755.html#ELM27209'>c=</span></td><td><span data-href='trees_1.html'>trees_1</span></td></tr>
+<tr><td><span data-link='8353.html#ELM27208'>is_a_prefix_of</span></td><td><span data-href='trees_1.html#NR1'>trees_1</span></td></tr>
+<tr><td><span data-link='8354.html#ELM27210'>is_a_proper_prefix_of</span></td><td><span data-href='trees_1.html#NR3'>trees_1</span></td></tr>
+<tr><td><span data-link='5044.html#ELM14515'>is_col_circulant_about</span></td><td><span data-href='matrix16.html#R2'>matrix16</span></td></tr>
+<tr><td><span data-link='5574.html#ELM16348'>is_Finseq_for</span></td><td><span data-href='modelc_3.html#R5'>modelc_3</span></td></tr>
+<tr><td><span data-link='5043.html#ELM14514'>is_line_circulant_about</span></td><td><span data-href='matrix16.html#R1'>matrix16</span></td></tr>
+<tr><td><span data-link='3814.html#ELM10833'>is_oriented_edge_seq_of</span></td><td><span data-href='graphsp.html#R5'>graphsp</span></td></tr>
+<tr><td><span data-link='3793.html#ELM10796'>is_oriented_vertex_seq_of</span></td><td><span data-href='graph_4.html#R3'>graph_4</span></td></tr>
+<tr><td><span data-link='2756.html#ELM7284'>is_postposition_of</span></td><td><span data-href='finseq_8.html#R3'>finseq_8</span></td></tr>
+<tr><td><span data-link='2754.html#ELM7282'>is_preposition_of</span></td><td><span data-href='finseq_8.html#NR3'>finseq_8</span></td></tr>
+<tr><td><span data-link='2753.html#ELM7281'>is_substring_of</span></td><td><span data-href='finseq_8.html#R2'>finseq_8</span></td></tr>
+<tr><td><span data-link='5056.html#ELM14533'>is_symmetry_circulant_about</span></td><td><span data-href='matrix17.html#R1'>matrix17</span></td></tr>
+<tr><td><span data-link='1304.html#ELM3203'>is_tail_of</span></td><td><span data-href='calcul_1.html'>calcul_1</span></td></tr>
+<tr><td><span data-link='3773.html#ELM10748'>is_vertex_seq_of</span></td><td><span data-href='graph_2.html#R1'>graph_2</span></td></tr>
+<tr><td><span data-link='6069.html#ELM18357'>IsNDRankSeq</span></td><td><span data-href='nomin_1.html#R2'>nomin_1</span></td></tr>
+<tr><td><span data-link='8410.html#ELM27521'>storeData</span></td><td><span data-href='turing_1.html#R2'>turing_1</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-attr'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>attr</th></tr></thead>
+<tbody>
+<tr><td><span data-link='936.html#ELM2290'>-dominated-election</span></td><td><span data-href='ballot_1.html#V1'>ballot_1</span></td></tr>
+<tr><td><span data-link='6100.html#ELM18413'>-FPrg-yielding</span></td><td><span data-href='nomin_2.html#V1'>nomin_2</span></td></tr>
+<tr><td><span data-link='6786.html#ELM20535'>-headed</span></td><td><span data-href='polnot_1.html#V5'>polnot_1</span></td></tr>
+<tr><td><span data-link='4538.html#ELM13044'>almost-one-to-one</span></td><td><span data-href='jordan23.html#V1'>jordan23</span></td></tr>
+<tr><td><span data-link='2223.html#ELM22370'>ascending</span></td><td><span data-href='rearran1.html#V2'>rearran1</span></td></tr>
+<tr><td><span data-link='2750.html#ELM7263'>Alternating</span></td><td><span data-href='finseq_6.html#V3'>finseq_6</span></td></tr>
+<tr><td><span data-link='8007.html#ELM25611'>cap-closed-yielding</span></td><td><span data-href='srings_4.html#V1'>srings_4</span></td></tr>
+<tr><td><span data-link='2751.html#ELM24974'>constant</span></td><td><span data-href='seqm_3.html'>seqm_3</span></td></tr>
+<tr><td><span data-link='4306.html#ELM12508'>Chinese_Remainder</span></td><td><span data-href='int_6.html#V1'>int_6</span></td></tr>
+<tr><td><span data-link='1640.html#ELM4114'>ConwayGameChain-like</span></td><td><span data-href='cgames_1.html#V4'>cgames_1</span></td></tr>
+<tr><td><span data-link='3182.html#ELM9014'>FuncSeq-like</span></td><td><span data-href='funct_7.html#V1'>funct_7</span></td></tr>
+<tr><td><span data-link='7687.html#ELM23978'>heterogeneous</span></td><td><span data-href='rvsum_3.html#NV4'>rvsum_3</span></td></tr>
+<tr><td><span data-link='1759.html#ELM23977'>homogeneous</span></td><td><span data-href='rvsum_3.html#NV3'>rvsum_3</span></td></tr>
+<tr><td><span data-link='2489.html#ELM6404'>increasing</span></td><td><span data-href='euclid_7.html'>euclid_7</span></td></tr>
+<tr><td><span data-link='4305.html#ELM12506'>multiplicative-trivial</span></td><td><span data-href='int_6.html#NV1'>int_6</span></td></tr>
+<tr><td><span data-link='3057.html#ELM12507'>non-empty</span></td><td><span data-href='int_6.html'>int_6</span></td></tr>
+<tr><td><span data-link='932.html#ELM22637'>non-increasing</span></td><td><span data-href='rfinseq.html'>rfinseq</span></td></tr>
+<tr><td><span data-link='4540.html#ELM13046'>poorly-one-to-one</span></td><td><span data-href='jordan23.html#V3'>jordan23</span></td></tr>
+<tr><td><span data-link='82.html#ELM23975'>positive</span></td><td><span data-href='rvsum_3.html#NV1'>rvsum_3</span></td></tr>
+<tr><td><span data-link='6454.html#ELM23976'>positive-yielding</span></td><td><span data-href='rvsum_3.html'>rvsum_3</span></td></tr>
+<tr><td><span data-link='5142.html#ELM14864'>ProbFinS</span></td><td><span data-href='matrprob.html#V1'>matrprob</span></td></tr>
+<tr><td><span data-link='5071.html#ELM14592'>tabular</span></td><td><span data-href='matrix_0.html#V1'>matrix_0</span></td></tr>
+<tr><td><span data-link='7378.html#ELM22369'>terms've_same_card_as_number</span></td><td><span data-href='rearran1.html#V1'>rearran1</span></td></tr>
+<tr><td><span data-link='2749.html#ELM7262'>TwoValued</span></td><td><span data-href='finseq_6.html#V2'>finseq_6</span></td></tr>
+<tr><td><span data-link='4539.html#ELM13045'>weakly-one-to-one</span></td><td><span data-href='jordan23.html#V2'>jordan23</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-func'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>func</th></tr></thead>
+<tbody>
+<tr><td><span data-link='1677.html#ELM4285'>1GateCircStr</span></td><td><span data-href='circcomb.html#K4'>circcomb</span></td></tr>
+<tr><td><span data-link='1677.html#ELM4286'>1GateCircStr</span></td><td><span data-href='circcomb.html#K5'>circcomb</span></td></tr>
+<tr><td><span data-link='76.html#ELM16699'>#</span></td><td><span data-href='msafree4.html#K6'>msafree4</span></td></tr>
+<tr><td><span data-link='5427.html#ELM15982'>#occurrences</span></td><td><span data-href='mmlquery.html#K24'>mmlquery</span></td></tr>
+<tr><td><span data-link='7406.html#ELM22562'>$^</span></td><td><span data-href='rewrite1.html#K1'>rewrite1</span></td></tr>
+<tr><td><span data-link='6881.html#ELM20877'>(++)</span></td><td><span data-href='polyvie1.html#K1'>polyvie1</span></td></tr>
+<tr><td><span data-link='47.html#ELM23910'>*</span></td><td><span data-href='rvsum_1.html#NK11'>rvsum_1</span></td></tr>
+<tr><td><span data-link='47.html#ELM23911'>*</span></td><td><span data-href='rvsum_1.html#K10'>rvsum_1</span></td></tr>
+<tr><td><span data-link='47.html#ELM23957'>*</span></td><td><span data-href='rvsum_2.html#NK9'>rvsum_2</span></td></tr>
+<tr><td><span data-link='47.html#ELM23958'>*</span></td><td><span data-href='rvsum_2.html#K9'>rvsum_2</span></td></tr>
+<tr><td><span data-link='229.html#ELM23904'>+</span></td><td><span data-href='rvsum_1.html#K4'>rvsum_1</span></td></tr>
+<tr><td><span data-link='229.html#ELM23951'>+</span></td><td><span data-href='rvsum_2.html#K3'>rvsum_2</span></td></tr>
+<tr><td><span data-link='2837.html#ELM7612'>+...</span></td><td><span data-href='flexary1.html#K3'>flexary1</span></td></tr>
+<tr><td><span data-link='327.html#ELM7200'>-</span></td><td><span data-href='finseq_3.html#K1'>finseq_3</span></td></tr>
+<tr><td><span data-link='327.html#ELM23906'>-</span></td><td><span data-href='rvsum_1.html#K6'>rvsum_1</span></td></tr>
+<tr><td><span data-link='327.html#ELM23908'>-</span></td><td><span data-href='rvsum_1.html#K8'>rvsum_1</span></td></tr>
+<tr><td><span data-link='327.html#ELM23953'>-</span></td><td><span data-href='rvsum_2.html#K5'>rvsum_2</span></td></tr>
+<tr><td><span data-link='327.html#ELM23955'>-</span></td><td><span data-href='rvsum_2.html#K7'>rvsum_2</span></td></tr>
+<tr><td><span data-link='2559.html#ELM6697'>-BitAdderCirc</span></td><td><span data-href='facirc_2.html#K4'>facirc_2</span></td></tr>
+<tr><td><span data-link='2561.html#ELM6699'>-BitAdderOutput</span></td><td><span data-href='facirc_2.html#K6'>facirc_2</span></td></tr>
+<tr><td><span data-link='2558.html#ELM6696'>-BitAdderStr</span></td><td><span data-href='facirc_2.html#K3'>facirc_2</span></td></tr>
+<tr><td><span data-link='3075.html#ELM8619'>-BitBorrowOutput</span></td><td><span data-href='fscirc_2.html#K3'>fscirc_2</span></td></tr>
+<tr><td><span data-link='3489.html#ELM9737'>-BitGFA0AdderOutput</span></td><td><span data-href='gfacirc2.html#K4'>gfacirc2</span></td></tr>
+<tr><td><span data-link='3488.html#ELM9736'>-BitGFA0CarryOutput</span></td><td><span data-href='gfacirc2.html#K3'>gfacirc2</span></td></tr>
+<tr><td><span data-link='3487.html#ELM9735'>-BitGFA0Circ</span></td><td><span data-href='gfacirc2.html#K2'>gfacirc2</span></td></tr>
+<tr><td><span data-link='3486.html#ELM9734'>-BitGFA0Str</span></td><td><span data-href='gfacirc2.html#K1'>gfacirc2</span></td></tr>
+<tr><td><span data-link='3493.html#ELM9741'>-BitGFA1AdderOutput</span></td><td><span data-href='gfacirc2.html#K8'>gfacirc2</span></td></tr>
+<tr><td><span data-link='3492.html#ELM9740'>-BitGFA1CarryOutput</span></td><td><span data-href='gfacirc2.html#K7'>gfacirc2</span></td></tr>
+<tr><td><span data-link='3491.html#ELM9739'>-BitGFA1Circ</span></td><td><span data-href='gfacirc2.html#K6'>gfacirc2</span></td></tr>
+<tr><td><span data-link='3490.html#ELM9738'>-BitGFA1Str</span></td><td><span data-href='gfacirc2.html#K5'>gfacirc2</span></td></tr>
+<tr><td><span data-link='2560.html#ELM6698'>-BitMajorityOutput</span></td><td><span data-href='facirc_2.html#K5'>facirc_2</span></td></tr>
+<tr><td><span data-link='3074.html#ELM8618'>-BitSubtracterCirc</span></td><td><span data-href='fscirc_2.html#K2'>fscirc_2</span></td></tr>
+<tr><td><span data-link='3076.html#ELM8620'>-BitSubtracterOutput</span></td><td><span data-href='fscirc_2.html#K4'>fscirc_2</span></td></tr>
+<tr><td><span data-link='3073.html#ELM8617'>-BitSubtracterStr</span></td><td><span data-href='fscirc_2.html#K1'>fscirc_2</span></td></tr>
+<tr><td><span data-link='917.html#ELM7256'>-cut</span></td><td><span data-href='finseq_6.html#K4'>finseq_6</span></td></tr>
+<tr><td><span data-link='8381.html#ELM27359'>-flat_tree</span></td><td><span data-href='trees_4.html#K3'>trees_4</span></td></tr>
+<tr><td><span data-link='6773.html#ELM20507'>-head</span></td><td><span data-href='polnot_1.html#K15'>polnot_1</span></td></tr>
+<tr><td><span data-link='2855.html#ELM7671'>-SymbolSubstIn</span></td><td><span data-href='fomodel0.html#K17'>fomodel0</span></td></tr>
+<tr><td><span data-link='2855.html#ELM7672'>-SymbolSubstIn</span></td><td><span data-href='fomodel0.html#K18'>fomodel0</span></td></tr>
+<tr><td><span data-link='2855.html#ELM7673'>-SymbolSubstIn</span></td><td><span data-href='fomodel0.html#K19'>fomodel0</span></td></tr>
+<tr><td><span data-link='6774.html#ELM20508'>-tail</span></td><td><span data-href='polnot_1.html#K16'>polnot_1</span></td></tr>
+<tr><td><span data-link='2310.html#ELM27360'>-tree</span></td><td><span data-href='trees_4.html#K4'>trees_4</span></td></tr>
+<tr><td><span data-link='2739.html#ELM7215'>-|</span></td><td><span data-href='finseq_4.html#K5'>finseq_4</span></td></tr>
+<tr><td><span data-link='141.html#ELM21386'>.</span></td><td><span data-href='prvect_1.html#K13'>prvect_1</span></td></tr>
+<tr><td><span data-link='141.html#ELM21389'>.</span></td><td><span data-href='prvect_1.html#K16'>prvect_1</span></td></tr>
+<tr><td><span data-link='1668.html#ELM7214'>..</span></td><td><span data-href='finseq_4.html#K4'>finseq_4</span></td></tr>
+<tr><td><span data-link='1666.html#ELM4198'>.followSet</span></td><td><span data-href='chord.html#K1'>chord</span></td></tr>
+<tr><td><span data-link='247.html#ELM22634'>/^</span></td><td><span data-href='rfinseq.html#K1'>rfinseq</span></td></tr>
+<tr><td><span data-link='689.html#ELM15917'>&lt;-</span></td><td><span data-href='mmlquer2.html#K6'>mmlquer2</span></td></tr>
+<tr><td><span data-link='104.html#ELM8574'>@</span></td><td><span data-href='freealg.html#K11'>freealg</span></td></tr>
+<tr><td><span data-link='104.html#ELM14882'>@</span></td><td><span data-href='matrtop1.html#K1'>matrtop1</span></td></tr>
+<tr><td><span data-link='104.html#ELM16923'>@</span></td><td><span data-href='msafree.html#K17'>msafree</span></td></tr>
+<tr><td><span data-link='104.html#ELM19351'>@</span></td><td><span data-href='osafree.html#K13'>osafree</span></td></tr>
+<tr><td><span data-link='235.html#ELM7100'>^</span></td><td><span data-href='finseq_1.html#K7'>finseq_1</span></td></tr>
+<tr><td><span data-link='235.html#ELM24005'>^</span></td><td><span data-href='rvsum_4.html#K8'>rvsum_4</span></td></tr>
+<tr><td><span data-link='235.html#ELM24006'>^</span></td><td><span data-href='rvsum_4.html#K9'>rvsum_4</span></td></tr>
+<tr><td><span data-link='2746.html#ELM7258'>^'</span></td><td><span data-href='finseq_6.html#K6'>finseq_6</span></td></tr>
+<tr><td><span data-link='1241.html#ELM16780'>^^</span></td><td><span data-href='msafree5.html#K2'>msafree5</span></td></tr>
+<tr><td><span data-link='2452.html#ELM6326'>abs</span></td><td><span data-href='euclid.html#K3'>euclid</span></td></tr>
+<tr><td><span data-link='7030.html#ELM21391'>addop</span></td><td><span data-href='prvect_1.html#K18'>prvect_1</span></td></tr>
+<tr><td><span data-link='11.html#ELM9003'>apply</span></td><td><span data-href='funct_7.html#K4'>funct_7</span></td></tr>
+<tr><td><span data-link='77.html#ELM129'>at</span></td><td><span data-href='abcmiz_1.html#K57'>abcmiz_1</span></td></tr>
+<tr><td><span data-link='2613.html#ELM21388'>carr</span></td><td><span data-href='prvect_1.html#K15'>prvect_1</span></td></tr>
+<tr><td><span data-link='7031.html#ELM21392'>complop</span></td><td><span data-href='prvect_1.html#K19'>prvect_1</span></td></tr>
+<tr><td><span data-link='3179.html#ELM9002'>compose</span></td><td><span data-href='funct_7.html#K3'>funct_7</span></td></tr>
+<tr><td><span data-link='4456.html#ELM12881'>Center</span></td><td><span data-href='jordan1a.html#K1'>jordan1a</span></td></tr>
+<tr><td><span data-link='7434.html#ELM22706'>CHI</span></td><td><span data-href='rfunct_3.html#K15'>rfunct_3</span></td></tr>
+<tr><td><span data-link='8197.html#ELM26410'>ClosedHypercube</span></td><td><span data-href='tietze_2.html#K3'>tietze_2</span></td></tr>
+<tr><td><span data-link='41.html#ELM7097'>dom</span></td><td><span data-href='finseq_1.html#K4'>finseq_1</span></td></tr>
+<tr><td><span data-link='2735.html#ELM7201'>Del</span></td><td><span data-href='finseq_3.html#K2'>finseq_3</span></td></tr>
+<tr><td><span data-link='2735.html#ELM29636'>Del</span></td><td><span data-href='wsierp_1.html'>wsierp_1</span></td></tr>
+<tr><td><span data-link='2776.html#ELM7486'>findom</span></td><td><span data-href='finsop_1.html#NK3'>finsop_1</span></td></tr>
+<tr><td><span data-link='2776.html#ELM7487'>findom</span></td><td><span data-href='finsop_1.html#K3'>finsop_1</span></td></tr>
+<tr><td><span data-link='3180.html#ELM9004'>firstdom</span></td><td><span data-href='funct_7.html#K5'>funct_7</span></td></tr>
+<tr><td><span data-link='389.html#ELM937'>free_magma_seq</span></td><td><span data-href='algstr_4.html#K10'>algstr_4</span></td></tr>
+<tr><td><span data-link='7681.html#ELM23968'>GMean</span></td><td><span data-href='rvsum_3.html#K2'>rvsum_3</span></td></tr>
+<tr><td><span data-link='7683.html#ELM23970'>Het</span></td><td><span data-href='rvsum_3.html#K4'>rvsum_3</span></td></tr>
+<tr><td><span data-link='7682.html#ELM23969'>HetSet</span></td><td><span data-href='rvsum_3.html#K3'>rvsum_3</span></td></tr>
+<tr><td><span data-link='7686.html#ELM23974'>Homogen</span></td><td><span data-href='rvsum_3.html#K8'>rvsum_3</span></td></tr>
+<tr><td><span data-link='5065.html#ELM14574'>Indices</span></td><td><span data-href='matrix_0.html#K2'>matrix_0</span></td></tr>
+<tr><td><span data-link='3181.html#ELM9005'>lastrng</span></td><td><span data-href='funct_7.html#K6'>funct_7</span></td></tr>
+<tr><td><span data-link='232.html#ELM7095'>len</span></td><td><span data-href='finseq_1.html#NK3'>finseq_1</span></td></tr>
+<tr><td><span data-link='232.html#ELM7096'>len</span></td><td><span data-href='finseq_1.html#K3'>finseq_1</span></td></tr>
+<tr><td><span data-link='232.html#ELM16371'>len</span></td><td><span data-href='modelc_3.html#K17'>modelc_3</span></td></tr>
+<tr><td><span data-link='5588.html#ELM16369'>Length_fun</span></td><td><span data-href='modelc_3.html#K15'>modelc_3</span></td></tr>
+<tr><td><span data-link='5428.html#ELM15983'>max#</span></td><td><span data-href='mmlquery.html#K25'>mmlquery</span></td></tr>
+<tr><td><span data-link='2500.html#ELM6449'>max_diff_index</span></td><td><span data-href='euclid_9.html#K1'>euclid_9</span></td></tr>
+<tr><td><span data-link='4102.html#ELM11805'>maxPrefix</span></td><td><span data-href='helly.html#K1'>helly</span></td></tr>
+<tr><td><span data-link='248.html#ELM7254'>mid</span></td><td><span data-href='finseq_6.html#K2'>finseq_6</span></td></tr>
+<tr><td><span data-link='3314.html#ELM23916'>mlt</span></td><td><span data-href='rvsum_1.html#NK17'>rvsum_1</span></td></tr>
+<tr><td><span data-link='3314.html#ELM23917'>mlt</span></td><td><span data-href='rvsum_1.html#K14'>rvsum_1</span></td></tr>
+<tr><td><span data-link='3314.html#ELM23960'>mlt</span></td><td><span data-href='rvsum_2.html#NK12'>rvsum_2</span></td></tr>
+<tr><td><span data-link='3314.html#ELM23961'>mlt</span></td><td><span data-href='rvsum_2.html#K11'>rvsum_2</span></td></tr>
+<tr><td><span data-link='687.html#ELM12504'>mod</span></td><td><span data-href='int_6.html#K1'>int_6</span></td></tr>
+<tr><td><span data-link='7680.html#ELM23967'>Mean</span></td><td><span data-href='rvsum_3.html#K1'>rvsum_3</span></td></tr>
+<tr><td><span data-link='7684.html#ELM23971'>MeanLess</span></td><td><span data-href='rvsum_3.html#K5'>rvsum_3</span></td></tr>
+<tr><td><span data-link='7685.html#ELM23972'>MeanMore</span></td><td><span data-href='rvsum_3.html#K6'>rvsum_3</span></td></tr>
+<tr><td><span data-link='8006.html#ELM25610'>MeasurableRectangle</span></td><td><span data-href='srings_4.html#NK4'>srings_4</span></td></tr>
+<tr><td><span data-link='7428.html#ELM22636'>MIM</span></td><td><span data-href='rfinseq.html#K3'>rfinseq</span></td></tr>
+<tr><td><span data-link='6082.html#ELM18377'>naming</span></td><td><span data-href='nomin_1.html#K15'>nomin_1</span></td></tr>
+<tr><td><span data-link='6083.html#ELM18376'>namingSeq</span></td><td><span data-href='nomin_1.html#K14'>nomin_1</span></td></tr>
+<tr><td><span data-link='2177.html#ELM5748'>Op-Left</span></td><td><span data-href='descip_1.html#NK2'>descip_1</span></td></tr>
+<tr><td><span data-link='2181.html#ELM5756'>Op-LeftShift</span></td><td><span data-href='descip_1.html#K6'>descip_1</span></td></tr>
+<tr><td><span data-link='2178.html#ELM5749'>Op-Right</span></td><td><span data-href='descip_1.html#NK3'>descip_1</span></td></tr>
+<tr><td><span data-link='2182.html#ELM5757'>Op-RightShift</span></td><td><span data-href='descip_1.html#K7'>descip_1</span></td></tr>
+<tr><td><span data-link='1343.html#ELM16924'>pi</span></td><td><span data-href='msafree.html#K18'>msafree</span></td></tr>
+<tr><td><span data-link='1342.html#ELM21394'>product</span></td><td><span data-href='prvect_1.html#K21'>prvect_1</span></td></tr>
+<tr><td><span data-link='4432.html#ELM12840'>PairF</span></td><td><span data-href='jgraph_1.html#K2'>jgraph_1</span></td></tr>
+<tr><td><span data-link='5589.html#ELM16370'>Partial_seq</span></td><td><span data-href='modelc_3.html#K16'>modelc_3</span></td></tr>
+<tr><td><span data-link='6771.html#ELM20503'>Polish-operation</span></td><td><span data-href='polnot_1.html#K12'>polnot_1</span></td></tr>
+<tr><td><span data-link='1056.html#ELM2582'>PO</span></td><td><span data-href='bhsp_5.html#K3'>bhsp_5</span></td></tr>
+<tr><td><span data-link='2594.html#ELM27534'>Prefix</span></td><td><span data-href='turing_1.html#NK5'>turing_1</span></td></tr>
+<tr><td><span data-link='1344.html#ELM15605'>Product</span></td><td><span data-href='mesfunc7.html#K2'>mesfunc7</span></td></tr>
+<tr><td><span data-link='1344.html#ELM23922'>Product</span></td><td><span data-href='rvsum_1.html#K19'>rvsum_1</span></td></tr>
+<tr><td><span data-link='8358.html#ELM27217'>ProperPrefixes</span></td><td><span data-href='trees_1.html#K1'>trees_1</span></td></tr>
+<tr><td><span data-link='4839.html#ELM13891'>reproj</span></td><td><span data-href='lopban10.html#K1'>lopban10</span></td></tr>
+<tr><td><span data-link='5409.html#ELM15918'>resource</span></td><td><span data-href='mmlquer2.html#K7'>mmlquer2</span></td></tr>
+<tr><td><span data-link='2306.html#ELM27293'>roots</span></td><td><span data-href='trees_3.html#K15'>trees_3</span></td></tr>
+<tr><td><span data-link='237.html#ELM7276'>Replace</span></td><td><span data-href='finseq_7.html#NK1'>finseq_7</span></td></tr>
+<tr><td><span data-link='246.html#ELM7233'>Rev</span></td><td><span data-href='finseq_5.html#K3'>finseq_5</span></td></tr>
+<tr><td><span data-link='2758.html#ELM7286'>smid</span></td><td><span data-href='finseq_8.html#K1'>finseq_8</span></td></tr>
+<tr><td><span data-link='2454.html#ELM23913'>sqr</span></td><td><span data-href='rvsum_1.html#NK14'>rvsum_1</span></td></tr>
+<tr><td><span data-link='2454.html#ELM23914'>sqr</span></td><td><span data-href='rvsum_1.html#K12'>rvsum_1</span></td></tr>
+<tr><td><span data-link='675.html#ELM27374'>succ</span></td><td><span data-href='trees_9.html#K2'>trees_9</span></td></tr>
+<tr><td><span data-link='4479.html#ELM12943'>S_Drop</span></td><td><span data-href='jordan4.html#K1'>jordan4</span></td></tr>
+<tr><td><span data-link='6098.html#ELM18409'>SC_Fsuperpos</span></td><td><span data-href='nomin_2.html#K12'>nomin_2</span></td></tr>
+<tr><td><span data-link='6096.html#ELM18405'>SC_Psuperpos</span></td><td><span data-href='nomin_2.html#K8'>nomin_2</span></td></tr>
+<tr><td><span data-link='6097.html#ELM18408'>SCFsuperpos</span></td><td><span data-href='nomin_2.html#K11'>nomin_2</span></td></tr>
+<tr><td><span data-link='6095.html#ELM18404'>SCPsuperpos</span></td><td><span data-href='nomin_2.html#K7'>nomin_2</span></td></tr>
+<tr><td><span data-link='8005.html#ELM25609'>SemiringProduct</span></td><td><span data-href='srings_4.html#K3'>srings_4</span></td></tr>
+<tr><td><span data-link='2928.html#ELM8094'>SubWffsOf</span></td><td><span data-href='fomodel2.html#K36'>fomodel2</span></td></tr>
+<tr><td><span data-link='252.html#ELM2223'>Sum</span></td><td><span data-href='bagord_2.html#K3'>bagord_2</span></td></tr>
+<tr><td><span data-link='252.html#ELM23294'>Sum</span></td><td><span data-href='rlvect_1.html#K4'>rlvect_1</span></td></tr>
+<tr><td><span data-link='252.html#ELM23919'>Sum</span></td><td><span data-href='rvsum_1.html#K16'>rvsum_1</span></td></tr>
+<tr><td><span data-link='4304.html#ELM12505'>to_int</span></td><td><span data-href='int_6.html#K2'>int_6</span></td></tr>
+<tr><td><span data-link='8373.html#ELM27289'>tree</span></td><td><span data-href='trees_3.html#K11'>trees_3</span></td></tr>
+<tr><td><span data-link='5064.html#ELM14573'>width</span></td><td><span data-href='matrix_0.html#K1'>matrix_0</span></td></tr>
+<tr><td><span data-link='7032.html#ELM21393'>zeros</span></td><td><span data-href='prvect_1.html#K20'>prvect_1</span></td></tr>
+<tr><td><span data-link='909.html#ELM7109'>|</span></td><td><span data-href='finseq_1.html#K16'>finseq_1</span></td></tr>
+<tr><td><span data-link='1913.html#ELM23925'>|()|</span></td><td><span data-href='rvsum_1.html#K22'>rvsum_1</span></td></tr>
+<tr><td><span data-link='2740.html#ELM7216'>|--</span></td><td><span data-href='finseq_4.html#K6'>finseq_4</span></td></tr>
+<tr><td><span data-link='174.html#ELM6335'>|..|</span></td><td><span data-href='euclid.html#K12'>euclid</span></td></tr>
+<tr><td><span data-link='174.html#ELM20790'>|..|</span></td><td><span data-href='polynom5.html#K2'>polynom5</span></td></tr>
+<tr><td><span data-link='634.html#ELM17492'>|^</span></td><td><span data-href='nat_3.html#K1'>nat_3</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM7090'>
+<h2>3.   <span data-link='27.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='finseq_1.html#M1'>finseq_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">D</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D14" typeof="oo:Definition" class="main-sentence">
+<a name="M1"><span class="kw">mode</span> </a> <span title="FINSEQ_1:mode.1" data-link="27.html#ELM7090">FinSequence</span> of <font color="Maroon" title="c1">D</font><span class="kw"> -&gt; </span>  <span title="FINSEQ_1:NM.1" data-link="27.html#ELM7089">FinSequence</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E14">Def4</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: FINSEQ_1:def 4</font></span><br></a> <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <span class="kw">it</span> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span> <font color="Maroon" title="c1">D</font>;<br>
+</div>
+<span class="kw">existence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-mode'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>mode</th></tr></thead>
+<tbody>
+<tr><td><span data-link='2619.html#ELM6853'>File</span></td><td><span data-href='filerec1.html#NM1'>filerec1</span></td></tr>
+<tr><td><span data-link='27.html#ELM7091'>FinSequence</span></td><td><span data-href='finseq_1.html#M2'>finseq_1</span></td></tr>
+<tr><td><span data-link='27.html#ELM7651'>FinSequence</span></td><td><span data-href='fomodel0.html#M1'>fomodel0</span></td></tr>
+<tr><td><span data-link='27.html#ELM21317'>FinSequence</span></td><td><span data-href='prob_3.html#M1'>prob_3</span></td></tr>
+<tr><td><span data-link='27.html#ELM27356'>FinSequence</span></td><td><span data-href='trees_4.html#M1'>trees_4</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM7091'>
+<h2>4.   <span data-link='27.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='finseq_1.html#M2'>finseq_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">D</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="FINSEQ_1:mode.1" data-link="27.html#ELM7090">FinSequence</span><br><span class="kw">redefine </span><a name="M2"><span class="kw">mode</span> </a> <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c1">D</font><span class="kw"> -&gt; </span>  <span title="FINSEQ_1:attr.1" data-link="2726.html#ELM7114">FinSequence-like</span>  <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>,<font color="Maroon" title="c1">D</font>;<br><span class="kw">coherence</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E15">Lm2</font></span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-struct'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>struct</th></tr></thead>
+<tbody>
+<tr><td><span data-link='663.html#ELM1568'>ConnectivesSignature</span></td><td><span data-href='aofa_a00.html#L5'>aofa_a00</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-mode'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>mode</th></tr></thead>
+<tbody>
+<tr><td><span data-link='4190.html#ELM12118'>BinHuffmanTree</span></td><td><span data-href='huffman1.html#M2'>huffman1</span></td></tr>
+<tr><td><span data-link='1649.html#ELM10714'>Chain</span></td><td><span data-href='graph_1.html#M2'>graph_1</span></td></tr>
+<tr><td><span data-link='1649.html#ELM16983'>Chain</span></td><td><span data-href='msscyc_1.html'>msscyc_1</span></td></tr>
+<tr><td><span data-link='1649.html#ELM27241'>Chain</span></td><td><span data-href='trees_2.html#M1'>trees_2</span></td></tr>
+<tr><td><span data-link='6728.html#ELM20398'>Circuit_of_places_and_trans</span></td><td><span data-href='petri_df.html#NM4'>petri_df</span></td></tr>
+<tr><td><span data-link='3912.html#ELM11277'>CompositionSeries</span></td><td><span data-href='group_9.html#NM4'>group_9</span></td></tr>
+<tr><td><span data-link='5477.html#ELM16164'>CTL-formula</span></td><td><span data-href='modelc_1.html#NM1'>modelc_1</span></td></tr>
+<tr><td><span data-link='2275.html#ELM5949'>distProbFinS</span></td><td><span data-href='dist_1.html#M1'>dist_1</span></td></tr>
+<tr><td><span data-link='4342.html#ELM12617'>Division</span></td><td><span data-href='integra1.html#M1'>integra1</span></td></tr>
+<tr><td><span data-link='2834.html#ELM7608'>DoubleReorganization</span></td><td><span data-href='flexary1.html#M1'>flexary1</span></td></tr>
+<tr><td><span data-link='3555.html#ELM9916'>EdgeSeq</span></td><td><span data-href='glib_001.html#M2'>glib_001</span></td></tr>
+<tr><td><span data-link='667.html#ELM2820'>Element</span></td><td><span data-href='bintree2.html#M1'>bintree2</span></td></tr>
+<tr><td><span data-link='667.html#ELM5971'>Element</span></td><td><span data-href='dist_2.html#M1'>dist_2</span></td></tr>
+<tr><td><span data-link='667.html#ELM7177'>Element</span></td><td><span data-href='finseq_2.html#M2'>finseq_2</span></td></tr>
+<tr><td><span data-link='667.html#ELM10758'>Element</span></td><td><span data-href='graph_3.html#M1'>graph_3</span></td></tr>
+<tr><td><span data-link='667.html#ELM10812'>Element</span></td><td><span data-href='graph_5.html#M1'>graph_5</span></td></tr>
+<tr><td><span data-link='667.html#ELM27212'>Element</span></td><td><span data-href='trees_1.html#M1'>trees_1</span></td></tr>
+<tr><td><span data-link='718.html#ELM14295'>Enumeration</span></td><td><span data-href='ltlaxio4.html#M1'>ltlaxio4</span></td></tr>
+<tr><td><span data-link='718.html#ELM14296'>Enumeration</span></td><td><span data-href='ltlaxio4.html#M2'>ltlaxio4</span></td></tr>
+<tr><td><span data-link='718.html#ELM20395'>Enumeration</span></td><td><span data-href='petri_df.html#M1'>petri_df</span></td></tr>
+<tr><td><span data-link='718.html#ELM23202'>Enumeration</span></td><td><span data-href='rlaffin3.html#M2'>rlaffin3</span></td></tr>
+<tr><td><span data-link='5281.html#ELM15569'>Finite_Sep_Sequence</span></td><td><span data-href='mesfunc2.html#NM1'>mesfunc2</span></td></tr>
+<tr><td><span data-link='27.html#ELM55'>FinSequence</span></td><td><span data-href='abcmiz_1.html#NM2'>abcmiz_1</span></td></tr>
+<tr><td><span data-link='27.html#ELM15135'>FinSequence</span></td><td><span data-href='measure8.html#M1'>measure8</span></td></tr>
+<tr><td><span data-link='27.html#ELM21317'>FinSequence</span></td><td><span data-href='prob_3.html#M1'>prob_3</span></td></tr>
+<tr><td><span data-link='27.html#ELM25753'>FinSequence</span></td><td><span data-href='struct_0.html#NM7'>struct_0</span></td></tr>
+<tr><td><span data-link='27.html#ELM27356'>FinSequence</span></td><td><span data-href='trees_4.html#M1'>trees_4</span></td></tr>
+<tr><td><span data-link='5113.html#ELM14745'>FinSequence_of_Jordan_block</span></td><td><span data-href='matrixj2.html#NM1'>matrixj2</span></td></tr>
+<tr><td><span data-link='5106.html#ELM14708'>FinSequence_of_Matrix</span></td><td><span data-href='matrixj1.html#NM1'>matrixj1</span></td></tr>
+<tr><td><span data-link='5106.html#ELM14709'>FinSequence_of_Matrix</span></td><td><span data-href='matrixj1.html#NM2'>matrixj1</span></td></tr>
+<tr><td><span data-link='5107.html#ELM14710'>FinSequence_of_Square-Matrix</span></td><td><span data-href='matrixj1.html#NM3'>matrixj1</span></td></tr>
+<tr><td><span data-link='5107.html#ELM14711'>FinSequence_of_Square-Matrix</span></td><td><span data-href='matrixj1.html#NM4'>matrixj1</span></td></tr>
+<tr><td><span data-link='2729.html#ELM7176'>FinSequenceSet</span></td><td><span data-href='finseq_2.html#M1'>finseq_2</span></td></tr>
+<tr><td><span data-link='3975.html#ELM11472'>GRZ-formula-finset</span></td><td><span data-href='grzlog_1.html#NM5'>grzlog_1</span></td></tr>
+<tr><td><span data-link='3974.html#ELM11471'>GRZ-formula-sequence</span></td><td><span data-href='grzlog_1.html#NM4'>grzlog_1</span></td></tr>
+<tr><td><span data-link='5222.html#ELM15157'>induced_Measure</span></td><td><span data-href='measure9.html#M2'>measure9</span></td></tr>
+<tr><td><span data-link='3418.html#ELM9639'>Individual</span></td><td><span data-href='genealg1.html#M1'>genealg1</span></td></tr>
+<tr><td><span data-link='7299.html#ELM22096'>IntervalCover</span></td><td><span data-href='rcomp_3.html#M1'>rcomp_3</span></td></tr>
+<tr><td><span data-link='7300.html#ELM22097'>IntervalCoverPts</span></td><td><span data-href='rcomp_3.html#M2'>rcomp_3</span></td></tr>
+<tr><td><span data-link='4238.html#ELM12225'>LeftLinearCombination</span></td><td><span data-href='ideal_1.html#M2'>ideal_1</span></td></tr>
+<tr><td><span data-link='4237.html#ELM12224'>LinearCombination</span></td><td><span data-href='ideal_1.html#M1'>ideal_1</span></td></tr>
+<tr><td><span data-link='5544.html#ELM16267'>LTL-formula</span></td><td><span data-href='modelc_2.html#NM1'>modelc_2</span></td></tr>
+<tr><td><span data-link='4332.html#ELM12557'>middle_volume</span></td><td><span data-href='integr15.html#M1'>integr15</span></td></tr>
+<tr><td><span data-link='4332.html#ELM12559'>middle_volume</span></td><td><span data-href='integr15.html#M3'>integr15</span></td></tr>
+<tr><td><span data-link='4332.html#ELM12577'>middle_volume</span></td><td><span data-href='integr16.html#M1'>integr16</span></td></tr>
+<tr><td><span data-link='4332.html#ELM12607'>middle_volume</span></td><td><span data-href='integr22.html#M2'>integr22</span></td></tr>
+<tr><td><span data-link='5063.html#ELM14570'>Matrix</span></td><td><span data-href='matrix_0.html#NM1'>matrix_0</span></td></tr>
+<tr><td><span data-link='5221.html#ELM15156'>pre-Measure</span></td><td><span data-href='measure9.html#M1'>measure9</span></td></tr>
+<tr><td><span data-link='4993.html#ELM14371'>PFuncFinSequence</span></td><td><span data-href='margrel1.html#NM6'>margrel1</span></td></tr>
+<tr><td><span data-link='7091.html#ELM21575'>QC-variable_list</span></td><td><span data-href='qc_lang1.html#NM9'>qc_lang1</span></td></tr>
+<tr><td><span data-link='7374.html#ELM22364'>RearrangmentGen</span></td><td><span data-href='rearran1.html#NM1'>rearran1</span></td></tr>
+<tr><td><span data-link='4094.html#ELM11780'>Reduction</span></td><td><span data-href='hallmar1.html#M1'>hallmar1</span></td></tr>
+<tr><td><span data-link='4094.html#ELM11781'>Reduction</span></td><td><span data-href='hallmar1.html#M2'>hallmar1</span></td></tr>
+<tr><td><span data-link='4239.html#ELM12226'>RightLinearCombination</span></td><td><span data-href='ideal_1.html#M3'>ideal_1</span></td></tr>
+<tr><td><span data-link='4095.html#ELM11782'>Singlification</span></td><td><span data-href='hallmar1.html#M3'>hallmar1</span></td></tr>
+<tr><td><span data-link='4095.html#ELM11783'>Singlification</span></td><td><span data-href='hallmar1.html#M4'>hallmar1</span></td></tr>
+<tr><td><span data-link='26.html#ELM54'>Subset</span></td><td><span data-href='abcmiz_1.html#NM1'>abcmiz_1</span></td></tr>
+<tr><td><span data-link='796.html#ELM7178'>Tuple</span></td><td><span data-href='finseq_2.html#NM3'>finseq_2</span></td></tr>
+<tr><td><span data-link='4338.html#ELM12606'>var_volume</span></td><td><span data-href='integr22.html#M1'>integr22</span></td></tr>
+<tr><td><span data-link='1665.html#ELM4197'>VertexScheme</span></td><td><span data-href='chord.html#M3'>chord</span></td></tr>
+<tr><td><span data-link='3554.html#ELM9915'>VertexSeq</span></td><td><span data-href='glib_001.html#M1'>glib_001</span></td></tr>
+<tr><td><span data-link='3556.html#ELM9917'>Walk</span></td><td><span data-href='glib_001.html#M3'>glib_001</span></td></tr>
+<tr><td><span data-link='8963.html#ELM30501'>ZF-formula</span></td><td><span data-href='zf_lang.html#NM2'>zf_lang</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-pred'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>pred</th></tr></thead>
+<tbody>
+<tr><td><span data-link='2274.html#ELM5948'>-are_prob_equivalent</span></td><td><span data-href='dist_1.html#R1'>dist_1</span></td></tr>
+<tr><td><span data-link='3077.html#ELM8622'>-leads_to</span></td><td><span data-href='fsm_1.html#R1'>fsm_1</span></td></tr>
+<tr><td><span data-link='7973.html#ELM25475'>are_generators_of</span></td><td><span data-href='sppol_1.html#R2'>sppol_1</span></td></tr>
+<tr><td><span data-link='4671.html#ELM13462'>are_joint_by</span></td><td><span data-href='lattice5.html#R1'>lattice5</span></td></tr>
+<tr><td><span data-link='5258.html#ELM15496'>are_Re-presentation_of</span></td><td><span data-href='mesfun7c.html#R2'>mesfun7c</span></td></tr>
+<tr><td><span data-link='5258.html#ELM15497'>are_Re-presentation_of</span></td><td><span data-href='mesfun7c.html#R3'>mesfun7c</span></td></tr>
+<tr><td><span data-link='5258.html#ELM15575'>are_Re-presentation_of</span></td><td><span data-href='mesfunc3.html#R1'>mesfunc3</span></td></tr>
+<tr><td><span data-link='3734.html#ELM10652'>goes_straight</span></td><td><span data-href='gobrd13.html#R3'>gobrd13</span></td></tr>
+<tr><td><span data-link='2417.html#ELM6235'>has_onlyone_value_in</span></td><td><span data-href='entropy1.html#R1'>entropy1</span></td></tr>
+<tr><td><span data-link='1306.html#ELM3195'>is_a_correct_step</span></td><td><span data-href='calcul_1.html#R3'>calcul_1</span></td></tr>
+<tr><td><span data-link='2084.html#ELM5528'>is_a_correct_step_wrt</span></td><td><span data-href='cqc_the1.html#R1'>cqc_the1</span></td></tr>
+<tr><td><span data-link='2085.html#ELM5529'>is_a_proof_wrt</span></td><td><span data-href='cqc_the1.html#R2'>cqc_the1</span></td></tr>
+<tr><td><span data-link='4093.html#ELM11779'>is_a_system_of_different_representatives_of</span></td><td><span data-href='hallmar1.html#R1'>hallmar1</span></td></tr>
+<tr><td><span data-link='3078.html#ELM8623'>is_admissible_for</span></td><td><span data-href='fsm_1.html#R2'>fsm_1</span></td></tr>
+<tr><td><span data-link='6987.html#ELM21268'>is_an_xrep_of</span></td><td><span data-href='prgcor_2.html#R1'>prgcor_2</span></td></tr>
+<tr><td><span data-link='0.html#ELM2'>is_applicable_to</span></td><td><span data-href='abcmiz_0.html#R3'>abcmiz_0</span></td></tr>
+<tr><td><span data-link='7429.html#ELM22687'>is_common_for_dom</span></td><td><span data-href='rfunct_3.html#R1'>rfunct_3</span></td></tr>
+<tr><td><span data-link='4188.html#ELM12116'>is_constructingBinHuffmanTree</span></td><td><span data-href='huffman1.html#R1'>huffman1</span></td></tr>
+<tr><td><span data-link='3695.html#ELM10318'>is_even_substring_of</span></td><td><span data-href='glib_006.html#R2'>glib_006</span></td></tr>
+<tr><td><span data-link='6724.html#ELM20393'>is_firable_at</span></td><td><span data-href='petri_df.html#R2'>petri_df</span></td></tr>
+<tr><td><span data-link='1175.html#ELM2857'>is_firable_on</span></td><td><span data-href='boolmark.html#R2'>boolmark</span></td></tr>
+<tr><td><span data-link='7832.html#ELM24871'>is_FinSequence_on</span></td><td><span data-href='scpisort.html#R1'>scpisort</span></td></tr>
+<tr><td><span data-link='2744.html#ELM7250'>is_non_decreasing_on</span></td><td><span data-href='finseq_6.html#R1'>finseq_6</span></td></tr>
+<tr><td><span data-link='6725.html#ELM20394'>is_not_firable_at</span></td><td><span data-href='petri_df.html#NR4'>petri_df</span></td></tr>
+<tr><td><span data-link='1176.html#ELM2858'>is_not_firable_on</span></td><td><span data-href='boolmark.html#NR4'>boolmark</span></td></tr>
+<tr><td><span data-link='3694.html#ELM10317'>is_odd_substring_of</span></td><td><span data-href='glib_006.html#R1'>glib_006</span></td></tr>
+<tr><td><span data-link='3814.html#ELM10833'>is_oriented_edge_seq_of</span></td><td><span data-href='graphsp.html#R5'>graphsp</span></td></tr>
+<tr><td><span data-link='3793.html#ELM10796'>is_oriented_vertex_seq_of</span></td><td><span data-href='graph_4.html#R3'>graph_4</span></td></tr>
+<tr><td><span data-link='5971.html#ELM20169'>is_partial_differentiable_on</span></td><td><span data-href='pdiff_9.html#R4'>pdiff_9</span></td></tr>
+<tr><td><span data-link='7887.html#ELM25140'>is_path_of</span></td><td><span data-href='sgraph1.html#R3'>sgraph1</span></td></tr>
+<tr><td><span data-link='1.html#ELM4'>is_properly_applicable_to</span></td><td><span data-href='abcmiz_0.html#R5'>abcmiz_0</span></td></tr>
+<tr><td><span data-link='2734.html#ELM7199'>is_representatives_FS</span></td><td><span data-href='finseq_3.html#R1'>finseq_3</span></td></tr>
+<tr><td><span data-link='3713.html#ELM10612'>is_sequence_on</span></td><td><span data-href='goboard1.html#R1'>goboard1</span></td></tr>
+<tr><td><span data-link='3813.html#ELM10832'>is_simple_vertex_seq_at</span></td><td><span data-href='graphsp.html#R4'>graphsp</span></td></tr>
+<tr><td><span data-link='2745.html#ELM7251'>is_split_at</span></td><td><span data-href='finseq_6.html#R2'>finseq_6</span></td></tr>
+<tr><td><span data-link='4430.html#ELM12838'>is_Shortcut_of</span></td><td><span data-href='jgraph_1.html#R1'>jgraph_1</span></td></tr>
+<tr><td><span data-link='1305.html#ELM3194'>is_Subsequence_of</span></td><td><span data-href='calcul_1.html#R2'>calcul_1</span></td></tr>
+<tr><td><span data-link='2757.html#ELM7285'>is_terminated_by</span></td><td><span data-href='finseq_8.html#R4'>finseq_8</span></td></tr>
+<tr><td><span data-link='3812.html#ELM10831'>is_vertex_seq_at</span></td><td><span data-href='graphsp.html#R3'>graphsp</span></td></tr>
+<tr><td><span data-link='3773.html#ELM10748'>is_vertex_seq_of</span></td><td><span data-href='graph_2.html#R1'>graph_2</span></td></tr>
+<tr><td><span data-link='3803.html#ELM10811'>islongestInShortestpath</span></td><td><span data-href='graph_5.html#R9'>graph_5</span></td></tr>
+<tr><td><span data-link='2738.html#ELM7252'>just_once_values</span></td><td><span data-href='finseq_6.html#R3'>finseq_6</span></td></tr>
+<tr><td><span data-link='3722.html#ELM10630'>lies_between</span></td><td><span data-href='goboard4.html'>goboard4</span></td></tr>
+<tr><td><span data-link='4939.html#ELM14228'>prc</span></td><td><span data-href='ltlaxio1.html#R7'>ltlaxio1</span></td></tr>
+<tr><td><span data-link='4939.html#ELM20424'>prc</span></td><td><span data-href='pl_axiom.html#R5'>pl_axiom</span></td></tr>
+<tr><td><span data-link='4987.html#ELM14341'>prc0</span></td><td><span data-href='ltlaxio5.html#R8'>ltlaxio5</span></td></tr>
+<tr><td><span data-link='4234.html#ELM12217'>represents</span></td><td><span data-href='ideal_1.html#R1'>ideal_1</span></td></tr>
+<tr><td><span data-link='4234.html#ELM12218'>represents</span></td><td><span data-href='ideal_1.html#R2'>ideal_1</span></td></tr>
+<tr><td><span data-link='4234.html#ELM12219'>represents</span></td><td><span data-href='ideal_1.html#R3'>ideal_1</span></td></tr>
+<tr><td><span data-link='2752.html#ELM7280'>separates_uniquely</span></td><td><span data-href='finseq_8.html#R1'>finseq_8</span></td></tr>
+<tr><td><span data-link='3733.html#ELM10651'>turns_left</span></td><td><span data-href='gobrd13.html#R2'>gobrd13</span></td></tr>
+<tr><td><span data-link='3732.html#ELM10650'>turns_right</span></td><td><span data-href='gobrd13.html#R1'>gobrd13</span></td></tr>
+<tr><td><span data-link='1307.html#ELM3196'>|-</span></td><td><span data-href='calcul_1.html#R4'>calcul_1</span></td></tr>
+<tr><td><span data-link='1309.html#ELM3201'>|=</span></td><td><span data-href='calcul_1.html#R9'>calcul_1</span></td></tr>
+<tr><td><span data-link='1309.html#ELM3202'>|=</span></td><td><span data-href='calcul_1.html#R10'>calcul_1</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-attr'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>attr</th></tr></thead>
+<tbody>
+<tr><td><span data-link='5722.html#ELM16828'>-consequent-context-sequence</span></td><td><span data-href='msafree5.html#V21'>msafree5</span></td></tr>
+<tr><td><span data-link='5721.html#ELM16826'>-context-sequence</span></td><td><span data-href='msafree5.html#V19'>msafree5</span></td></tr>
+<tr><td><span data-link='5714.html#ELM16827'>-omitting</span></td><td><span data-href='msafree5.html#V20'>msafree5</span></td></tr>
+<tr><td><span data-link='5714.html#ELM16829'>-omitting</span></td><td><span data-href='msafree5.html#V22'>msafree5</span></td></tr>
+<tr><td><span data-link='5720.html#ELM16824'>-sorts</span></td><td><span data-href='msafree5.html#V17'>msafree5</span></td></tr>
+<tr><td><span data-link='5720.html#ELM16825'>-sorts</span></td><td><span data-href='msafree5.html#V18'>msafree5</span></td></tr>
+<tr><td><span data-link='1314.html#ELM3208'>a_proof</span></td><td><span data-href='calcul_1.html#V1'>calcul_1</span></td></tr>
+<tr><td><span data-link='2748.html#ELM7261'>circular</span></td><td><span data-href='finseq_6.html#V1'>finseq_6</span></td></tr>
+<tr><td><span data-link='3921.html#ELM11305'>composition_series</span></td><td><span data-href='group_9.html#V8'>group_9</span></td></tr>
+<tr><td><span data-link='2751.html#ELM7264'>constant</span></td><td><span data-href='finseq_6.html#V4'>finseq_6</span></td></tr>
+<tr><td><span data-link='4109.html#ELM11821'>Consistent</span></td><td><span data-href='henmodel.html#V2'>henmodel</span></td></tr>
+<tr><td><span data-link='5535.html#ELM16232'>CTL-formula-like</span></td><td><span data-href='modelc_1.html#V1'>modelc_1</span></td></tr>
+<tr><td><span data-link='6345.html#ELM27646'>decreasing</span></td><td><span data-href='uniform1.html#V2'>uniform1</span></td></tr>
+<tr><td><span data-link='6736.html#ELM20408'>directed_path_like</span></td><td><span data-href='petri_df.html#V2'>petri_df</span></td></tr>
+<tr><td><span data-link='5052.html#ELM14523'>first-col-of-circulant</span></td><td><span data-href='matrix16.html#V4'>matrix16</span></td></tr>
+<tr><td><span data-link='5050.html#ELM14521'>first-line-of-circulant</span></td><td><span data-href='matrix16.html#V2'>matrix16</span></td></tr>
+<tr><td><span data-link='5062.html#ELM14539'>first-symmetry-of-circulant</span></td><td><span data-href='matrix17.html#V5'>matrix17</span></td></tr>
+<tr><td><span data-link='4097.html#ELM11786'>Hall</span></td><td><span data-href='hallmar1.html#V1'>hallmar1</span></td></tr>
+<tr><td><span data-link='4110.html#ELM11822'>Inconsistent</span></td><td><span data-href='henmodel.html#NV4'>henmodel</span></td></tr>
+<tr><td><span data-link='5116.html#ELM14757'>Jordan-block-yielding</span></td><td><span data-href='matrixj2.html#V1'>matrixj2</span></td></tr>
+<tr><td><span data-link='7379.html#ELM22371'>lenght_equal_card_of_set</span></td><td><span data-href='rearran1.html#V3'>rearran1</span></td></tr>
+<tr><td><span data-link='5566.html#ELM16321'>LTL-formula-like</span></td><td><span data-href='modelc_2.html#V1'>modelc_2</span></td></tr>
+<tr><td><span data-link='5111.html#ELM14738'>Matrix-yielding</span></td><td><span data-href='matrixj1.html#V1'>matrixj1</span></td></tr>
+<tr><td><span data-link='2125.html#ELM12647'>non-decreasing</span></td><td><span data-href='integra2.html'>integra2</span></td></tr>
+<tr><td><span data-link='1641.html#ELM6244'>nonnegative</span></td><td><span data-href='entropy1.html#NV1'>entropy1</span></td></tr>
+<tr><td><span data-link='2128.html#ELM6245'>nonnegative-yielding</span></td><td><span data-href='entropy1.html'>entropy1</span></td></tr>
+<tr><td><span data-link='1050.html#ELM15006'>summable</span></td><td><span data-href='measur11.html#V3'>measur11</span></td></tr>
+<tr><td><span data-link='5112.html#ELM14739'>Square-Matrix-yielding</span></td><td><span data-href='matrixj1.html#V2'>matrixj1</span></td></tr>
+<tr><td><span data-link='2288.html#ELM5963'>uniformly_distributed</span></td><td><span data-href='dist_1.html#V1'>dist_1</span></td></tr>
+<tr><td><span data-link='5174.html#ELM15004'>without_+infty-valued</span></td><td><span data-href='measur11.html#V1'>measur11</span></td></tr>
+<tr><td><span data-link='5175.html#ELM15005'>without_-infty-valued</span></td><td><span data-href='measur11.html#V2'>measur11</span></td></tr>
+<tr><td><span data-link='8967.html#ELM30530'>ZF-formula-like</span></td><td><span data-href='zf_lang.html#V1'>zf_lang</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-func'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>func</th></tr></thead>
+<tbody>
+<tr><td><span data-link='143.html#ELM14734'>1.</span></td><td><span data-href='matrixj1.html#K23'>matrixj1</span></td></tr>
+<tr><td><span data-link='2069.html#ELM21587'>!</span></td><td><span data-href='qc_lang1.html#K10'>qc_lang1</span></td></tr>
+<tr><td><span data-link='1457.html#ELM9424'>"*"</span></td><td><span data-href='fvsum_1.html#K13'>fvsum_1</span></td></tr>
+<tr><td><span data-link='1457.html#ELM14860'>"*"</span></td><td><span data-href='matrprob.html#NK7'>matrprob</span></td></tr>
+<tr><td><span data-link='251.html#ELM7484'>"**"</span></td><td><span data-href='finsop_1.html#K1'>finsop_1</span></td></tr>
+<tr><td><span data-link='251.html#ELM25079'>"**"</span></td><td><span data-href='setwop_2.html'>setwop_2</span></td></tr>
+<tr><td><span data-link='76.html#ELM3466'>#</span></td><td><span data-href='cardfil3.html#K1'>cardfil3</span></td></tr>
+<tr><td><span data-link='76.html#ELM14987'>#</span></td><td><span data-href='measur11.html#K4'>measur11</span></td></tr>
+<tr><td><span data-link='76.html#ELM22708'>#</span></td><td><span data-href='rfunct_3.html#K17'>rfunct_3</span></td></tr>
+<tr><td><span data-link='7864.html#ELM25078'>$$</span></td><td><span data-href='setwop_2.html#NK4'>setwop_2</span></td></tr>
+<tr><td><span data-link='799.html#ELM16175'>'&'</span></td><td><span data-href='modelc_1.html#K8'>modelc_1</span></td></tr>
+<tr><td><span data-link='799.html#ELM16273'>'&'</span></td><td><span data-href='modelc_2.html#K4'>modelc_2</span></td></tr>
+<tr><td><span data-link='799.html#ELM30507'>'&'</span></td><td><span data-href='zf_lang.html#K6'>zf_lang</span></td></tr>
+<tr><td><span data-link='1109.html#ELM16174'>'not'</span></td><td><span data-href='modelc_1.html#K7'>modelc_1</span></td></tr>
+<tr><td><span data-link='1109.html#ELM16272'>'not'</span></td><td><span data-href='modelc_2.html#K3'>modelc_2</span></td></tr>
+<tr><td><span data-link='1109.html#ELM30506'>'not'</span></td><td><span data-href='zf_lang.html#K5'>zf_lang</span></td></tr>
+<tr><td><span data-link='1107.html#ELM16274'>'or'</span></td><td><span data-href='modelc_2.html#K5'>modelc_2</span></td></tr>
+<tr><td><span data-link='4950.html#ELM16277'>'R'</span></td><td><span data-href='modelc_2.html#K8'>modelc_2</span></td></tr>
+<tr><td><span data-link='4943.html#ELM16276'>'U'</span></td><td><span data-href='modelc_2.html#K7'>modelc_2</span></td></tr>
+<tr><td><span data-link='4944.html#ELM16275'>'X'</span></td><td><span data-href='modelc_2.html#K6'>modelc_2</span></td></tr>
+<tr><td><span data-link='728.html#ELM5417'>(#)</span></td><td><span data-href='convex4.html#K3'>convex4</span></td></tr>
+<tr><td><span data-link='728.html#ELM22707'>(#)</span></td><td><span data-href='rfunct_3.html#K16'>rfunct_3</span></td></tr>
+<tr><td><span data-link='728.html#ELM28617'>(#)</span></td><td><span data-href='vectsp_6.html#K3'>vectsp_6</span></td></tr>
+<tr><td><span data-link='615.html#ELM6397'>(*)</span></td><td><span data-href='euclid_7.html#K2'>euclid_7</span></td></tr>
+<tr><td><span data-link='47.html#ELM1473'>*</span></td><td><span data-href='anproj_8.html#K3'>anproj_8</span></td></tr>
+<tr><td><span data-link='47.html#ELM6524'>*</span></td><td><span data-href='euler_2.html#K1'>euler_2</span></td></tr>
+<tr><td><span data-link='47.html#ELM7418'>*</span></td><td><span data-href='finseqop.html#K4'>finseqop</span></td></tr>
+<tr><td><span data-link='47.html#ELM9419'>*</span></td><td><span data-href='fvsum_1.html#K9'>fvsum_1</span></td></tr>
+<tr><td><span data-link='47.html#ELM13233'>*</span></td><td><span data-href='lang1.html#K11'>lang1</span></td></tr>
+<tr><td><span data-link='47.html#ELM14700'>*</span></td><td><span data-href='matrixc1.html#K6'>matrixc1</span></td></tr>
+<tr><td><span data-link='47.html#ELM14775'>*</span></td><td><span data-href='matrixr1.html#K11'>matrixr1</span></td></tr>
+<tr><td><span data-link='47.html#ELM14776'>*</span></td><td><span data-href='matrixr1.html#K12'>matrixr1</span></td></tr>
+<tr><td><span data-link='47.html#ELM20700'>*</span></td><td><span data-href='polynom1.html'>polynom1</span></td></tr>
+<tr><td><span data-link='47.html#ELM20701'>*</span></td><td><span data-href='polynom1.html#K1'>polynom1</span></td></tr>
+<tr><td><span data-link='47.html#ELM21057'>*</span></td><td><span data-href='pre_poly.html#K23'>pre_poly</span></td></tr>
+<tr><td><span data-link='47.html#ELM21241'>*</span></td><td><span data-href='prelamb.html#K8'>prelamb</span></td></tr>
+<tr><td><span data-link='47.html#ELM23959'>*</span></td><td><span data-href='rvsum_2.html#K10'>rvsum_2</span></td></tr>
+<tr><td><span data-link='47.html#ELM24922'>*</span></td><td><span data-href='seq_4.html#NK11'>seq_4</span></td></tr>
+<tr><td><span data-link='47.html#ELM24923'>*</span></td><td><span data-href='seq_4.html#K10'>seq_4</span></td></tr>
+<tr><td><span data-link='846.html#ELM4960'>*'</span></td><td><span data-href='complsp2.html#K1'>complsp2</span></td></tr>
+<tr><td><span data-link='229.html#ELM2727'>+</span></td><td><span data-href='binom.html#K1'>binom</span></td></tr>
+<tr><td><span data-link='229.html#ELM9413'>+</span></td><td><span data-href='fvsum_1.html#K3'>fvsum_1</span></td></tr>
+<tr><td><span data-link='229.html#ELM23952'>+</span></td><td><span data-href='rvsum_2.html#K4'>rvsum_2</span></td></tr>
+<tr><td><span data-link='229.html#ELM24919'>+</span></td><td><span data-href='seq_4.html#K7'>seq_4</span></td></tr>
+<tr><td><span data-link='517.html#ELM7485'>+*</span></td><td><span data-href='finsop_1.html#K2'>finsop_1</span></td></tr>
+<tr><td><span data-link='517.html#ELM9001'>+*</span></td><td><span data-href='funct_7.html#K2'>funct_7</span></td></tr>
+<tr><td><span data-link='6332.html#ELM22601'>+^</span></td><td><span data-href='rewrite2.html#K5'>rewrite2</span></td></tr>
+<tr><td><span data-link='327.html#ELM9415'>-</span></td><td><span data-href='fvsum_1.html#K5'>fvsum_1</span></td></tr>
+<tr><td><span data-link='327.html#ELM9417'>-</span></td><td><span data-href='fvsum_1.html#K7'>fvsum_1</span></td></tr>
+<tr><td><span data-link='327.html#ELM11164'>-</span></td><td><span data-href='group_4.html#K1'>group_4</span></td></tr>
+<tr><td><span data-link='327.html#ELM23954'>-</span></td><td><span data-href='rvsum_2.html#K6'>rvsum_2</span></td></tr>
+<tr><td><span data-link='327.html#ELM23956'>-</span></td><td><span data-href='rvsum_2.html#K8'>rvsum_2</span></td></tr>
+<tr><td><span data-link='327.html#ELM24920'>-</span></td><td><span data-href='seq_4.html#K8'>seq_4</span></td></tr>
+<tr><td><span data-link='327.html#ELM24921'>-</span></td><td><span data-href='seq_4.html#K9'>seq_4</span></td></tr>
+<tr><td><span data-link='2741.html#ELM7231'>-:</span></td><td><span data-href='finseq_5.html#K1'>finseq_5</span></td></tr>
+<tr><td><span data-link='3087.html#ELM8634'>-admissible</span></td><td><span data-href='fsm_1.html#K2'>fsm_1</span></td></tr>
+<tr><td><span data-link='917.html#ELM7257'>-cut</span></td><td><span data-href='finseq_6.html#K5'>finseq_6</span></td></tr>
+<tr><td><span data-link='3089.html#ELM8636'>-response</span></td><td><span data-href='fsm_1.html#K4'>fsm_1</span></td></tr>
+<tr><td><span data-link='3089.html#ELM8637'>-response</span></td><td><span data-href='fsm_1.html#K5'>fsm_1</span></td></tr>
+<tr><td><span data-link='2310.html#ELM27364'>-tree</span></td><td><span data-href='trees_4.html#K8'>trees_4</span></td></tr>
+<tr><td><span data-link='141.html#ELM14854'>.</span></td><td><span data-href='matrprob.html#K1'>matrprob</span></td></tr>
+<tr><td><span data-link='141.html#ELM15159'>.</span></td><td><span data-href='measure9.html#K1'>measure9</span></td></tr>
+<tr><td><span data-link='141.html#ELM16804'>.</span></td><td><span data-href='msafree5.html#K25'>msafree5</span></td></tr>
+<tr><td><span data-link='141.html#ELM16805'>.</span></td><td><span data-href='msafree5.html#K26'>msafree5</span></td></tr>
+<tr><td><span data-link='141.html#ELM16806'>.</span></td><td><span data-href='msafree5.html#K27'>msafree5</span></td></tr>
+<tr><td><span data-link='141.html#ELM16807'>.</span></td><td><span data-href='msafree5.html#K28'>msafree5</span></td></tr>
+<tr><td><span data-link='141.html#ELM21322'>.</span></td><td><span data-href='prob_3.html#K4'>prob_3</span></td></tr>
+<tr><td><span data-link='141.html#ELM22599'>.</span></td><td><span data-href='rewrite2.html#K3'>rewrite2</span></td></tr>
+<tr><td><span data-link='141.html#ELM22775'>.</span></td><td><span data-href='ring_2.html#K1'>ring_2</span></td></tr>
+<tr><td><span data-link='141.html#ELM23599'>.</span></td><td><span data-href='roughs_1.html#K1'>roughs_1</span></td></tr>
+<tr><td><span data-link='1877.html#ELM7415'>.:</span></td><td><span data-href='finseqop.html#K1'>finseqop</span></td></tr>
+<tr><td><span data-link='1458.html#ELM14994'>/.</span></td><td><span data-href='measur11.html#K11'>measur11</span></td></tr>
+<tr><td><span data-link='1487.html#ELM13869'>/\</span></td><td><span data-href='lmod_7.html#K5'>lmod_7</span></td></tr>
+<tr><td><span data-link='247.html#ELM22635'>/^</span></td><td><span data-href='rfinseq.html#K2'>rfinseq</span></td></tr>
+<tr><td><span data-link='2742.html#ELM7232'>:-</span></td><td><span data-href='finseq_5.html#K2'>finseq_5</span></td></tr>
+<tr><td><span data-link='478.html#ELM10836'>:=</span></td><td><span data-href='graphsp.html#K1'>graphsp</span></td></tr>
+<tr><td><span data-link='478.html#ELM10837'>:=</span></td><td><span data-href='graphsp.html#K2'>graphsp</span></td></tr>
+<tr><td><span data-link='478.html#ELM24416'>:=</span></td><td><span data-href='scmfsa_7.html#K4'>scmfsa_7</span></td></tr>
+<tr><td><span data-link='669.html#ELM13256'>&lt;**></span></td><td><span data-href='laplace.html#K10'>laplace</span></td></tr>
+<tr><td><span data-link='669.html#ELM14799'>&lt;**></span></td><td><span data-href='matrlin.html#K2'>matrlin</span></td></tr>
+<tr><td><span data-link='1450.html#ELM6396'>&lt;::></span></td><td><span data-href='euclid_7.html#K1'>euclid_7</span></td></tr>
+<tr><td><span data-link='104.html#ELM8574'>@</span></td><td><span data-href='freealg.html#K11'>freealg</span></td></tr>
+<tr><td><span data-link='104.html#ELM16112'>@</span></td><td><span data-href='modal_1.html#K9'>modal_1</span></td></tr>
+<tr><td><span data-link='104.html#ELM19356'>@</span></td><td><span data-href='osafree.html#K18'>osafree</span></td></tr>
+<tr><td><span data-link='104.html#ELM25927'>@</span></td><td><span data-href='substut1.html#K4'>substut1</span></td></tr>
+<tr><td><span data-link='6464.html#ELM25075'>[#]</span></td><td><span data-href='setwop_2.html#K1'>setwop_2</span></td></tr>
+<tr><td><span data-link='2769.html#ELM7416'>[:]</span></td><td><span data-href='finseqop.html#K2'>finseqop</span></td></tr>
+<tr><td><span data-link='1751.html#ELM7417'>[;]</span></td><td><span data-href='finseqop.html#K3'>finseqop</span></td></tr>
+<tr><td><span data-link='802.html#ELM14276'>[]</span></td><td><span data-href='ltlaxio3.html#K11'>ltlaxio3</span></td></tr>
+<tr><td><span data-link='235.html#ELM7101'>^</span></td><td><span data-href='finseq_1.html#K8'>finseq_1</span></td></tr>
+<tr><td><span data-link='235.html#ELM16509'>^</span></td><td><span data-href='monoid_0.html#K1'>monoid_0</span></td></tr>
+<tr><td><span data-link='235.html#ELM24010'>^</span></td><td><span data-href='rvsum_4.html#K10'>rvsum_4</span></td></tr>
+<tr><td><span data-link='235.html#ELM24011'>^</span></td><td><span data-href='rvsum_4.html#K11'>rvsum_4</span></td></tr>
+<tr><td><span data-link='235.html#ELM25691'>^</span></td><td><span data-href='stacks_1.html#K1'>stacks_1</span></td></tr>
+<tr><td><span data-link='2746.html#ELM7259'>^'</span></td><td><span data-href='finseq_6.html#K7'>finseq_6</span></td></tr>
+<tr><td><span data-link='7419.html#ELM22600'>^+</span></td><td><span data-href='rewrite2.html#K4'>rewrite2</span></td></tr>
+<tr><td><span data-link='1241.html#ELM14268'>^^</span></td><td><span data-href='ltlaxio3.html#K3'>ltlaxio3</span></td></tr>
+<tr><td><span data-link='1241.html#ELM20751'>^^</span></td><td><span data-href='polynom3.html#K4'>polynom3</span></td></tr>
+<tr><td><span data-link='55.html#ELM14274'>`2</span></td><td><span data-href='ltlaxio3.html#K9'>ltlaxio3</span></td></tr>
+<tr><td><span data-link='5974.html#ELM20177'>`partial|</span></td><td><span data-href='pdiff_9.html#K5'>pdiff_9</span></td></tr>
+<tr><td><span data-link='2452.html#ELM24924'>abs</span></td><td><span data-href='seq_4.html#K11'>seq_4</span></td></tr>
+<tr><td><span data-link='2485.html#ELM6399'>accum</span></td><td><span data-href='euclid_7.html#K4'>euclid_7</span></td></tr>
+<tr><td><span data-link='2764.html#ELM7293'>addcr</span></td><td><span data-href='finseq_8.html#K8'>finseq_8</span></td></tr>
+<tr><td><span data-link='11.html#ELM17'>apply</span></td><td><span data-href='abcmiz_0.html#K7'>abcmiz_0</span></td></tr>
+<tr><td><span data-link='103.html#ELM254'>args</span></td><td><span data-href='abcmiz_a.html#K17'>abcmiz_a</span></td></tr>
+<tr><td><span data-link='6772.html#ELM20504'>arity-from-list</span></td><td><span data-href='polnot_1.html#K13'>polnot_1</span></td></tr>
+<tr><td><span data-link='10.html#ELM18'>ast</span></td><td><span data-href='abcmiz_0.html#K8'>abcmiz_0</span></td></tr>
+<tr><td><span data-link='7753.html#ELM24415'>aSeq</span></td><td><span data-href='scmfsa_7.html#K3'>scmfsa_7</span></td></tr>
+<tr><td><span data-link='1274.html#ELM30508'>All</span></td><td><span data-href='zf_lang.html#K7'>zf_lang</span></td></tr>
+<tr><td><span data-link='6188.html#ELM18617'>ALGO_CRT</span></td><td><span data-href='ntalgo_1.html#K4'>ntalgo_1</span></td></tr>
+<tr><td><span data-link='1310.html#ELM3204'>Ant</span></td><td><span data-href='calcul_1.html#K1'>calcul_1</span></td></tr>
+<tr><td><span data-link='5432.html#ELM15990'>ATLEAST</span></td><td><span data-href='mmlquery.html#K32'>mmlquery</span></td></tr>
+<tr><td><span data-link='5435.html#ELM15993'>ATLEAST-</span></td><td><span data-href='mmlquery.html#K35'>mmlquery</span></td></tr>
+<tr><td><span data-link='5433.html#ELM15991'>ATMOST</span></td><td><span data-href='mmlquery.html#K33'>mmlquery</span></td></tr>
+<tr><td><span data-link='5436.html#ELM15994'>ATMOST+</span></td><td><span data-href='mmlquery.html#K36'>mmlquery</span></td></tr>
+<tr><td><span data-link='1317.html#ELM3212'>Begin</span></td><td><span data-href='calcul_2.html#K4'>calcul_2</span></td></tr>
+<tr><td><span data-link='8076.html#ELM25931'>Bound_Vars</span></td><td><span data-href='substut1.html#K8'>substut1</span></td></tr>
+<tr><td><span data-link='4965.html#ELM14259'>con</span></td><td><span data-href='ltlaxio2.html#K2'>ltlaxio2</span></td></tr>
+<tr><td><span data-link='3809.html#ELM10823'>cost</span></td><td><span data-href='graph_5.html#K10'>graph_5</span></td></tr>
+<tr><td><span data-link='3420.html#ELM9641'>crossover</span></td><td><span data-href='genealg1.html#K1'>genealg1</span></td></tr>
+<tr><td><span data-link='3420.html#ELM9642'>crossover</span></td><td><span data-href='genealg1.html#K2'>genealg1</span></td></tr>
+<tr><td><span data-link='3420.html#ELM9643'>crossover</span></td><td><span data-href='genealg1.html#K3'>genealg1</span></td></tr>
+<tr><td><span data-link='3420.html#ELM9644'>crossover</span></td><td><span data-href='genealg1.html#K4'>genealg1</span></td></tr>
+<tr><td><span data-link='3420.html#ELM9645'>crossover</span></td><td><span data-href='genealg1.html#K5'>genealg1</span></td></tr>
+<tr><td><span data-link='3420.html#ELM9646'>crossover</span></td><td><span data-href='genealg1.html#K6'>genealg1</span></td></tr>
+<tr><td><span data-link='1340.html#ELM12501'>Card</span></td><td><span data-href='int_5.html#K3'>int_5</span></td></tr>
+<tr><td><span data-link='1340.html#ELM21043'>Card</span></td><td><span data-href='pre_poly.html#K10'>pre_poly</span></td></tr>
+<tr><td><span data-link='5047.html#ELM14518'>CCirc</span></td><td><span data-href='matrix16.html#K2'>matrix16</span></td></tr>
+<tr><td><span data-link='5040.html#ELM14508'>ColVec2Mx</span></td><td><span data-href='matrix15.html#K3'>matrix15</span></td></tr>
+<tr><td><span data-link='5040.html#ELM14773'>ColVec2Mx</span></td><td><span data-href='matrixr1.html#K9'>matrixr1</span></td></tr>
+<tr><td><span data-link='6996.html#ELM21324'>Complement</span></td><td><span data-href='prob_3.html#K6'>prob_3</span></td></tr>
+<tr><td><span data-link='8074.html#ELM25926'>CQC_Subst</span></td><td><span data-href='substut1.html#K3'>substut1</span></td></tr>
+<tr><td><span data-link='8074.html#ELM25928'>CQC_Subst</span></td><td><span data-href='substut1.html#K5'>substut1</span></td></tr>
+<tr><td><span data-link='4096.html#ELM11785'>Cut</span></td><td><span data-href='hallmar1.html#K2'>hallmar1</span></td></tr>
+<tr><td><span data-link='2284.html#ELM5959'>distribution</span></td><td><span data-href='dist_1.html#K8'>dist_1</span></td></tr>
+<tr><td><span data-link='2282.html#ELM5957'>distribution_family</span></td><td><span data-href='dist_1.html#K6'>dist_1</span></td></tr>
+<tr><td><span data-link='1455.html#ELM27363'>doms</span></td><td><span data-href='trees_4.html#K7'>trees_4</span></td></tr>
+<tr><td><span data-link='2735.html#ELM20232'>Del</span></td><td><span data-href='pencil_2.html#K1'>pencil_2</span></td></tr>
+<tr><td><span data-link='2735.html#ELM20748'>Del</span></td><td><span data-href='polynom3.html#K1'>polynom3</span></td></tr>
+<tr><td><span data-link='2735.html#ELM25692'>Del</span></td><td><span data-href='stacks_1.html#K2'>stacks_1</span></td></tr>
+<tr><td><span data-link='2735.html#ELM29637'>Del</span></td><td><span data-href='wsierp_1.html#K3'>wsierp_1</span></td></tr>
+<tr><td><span data-link='3044.html#ELM8566'>DTConUA</span></td><td><span data-href='freealg.html#K3'>freealg</span></td></tr>
+<tr><td><span data-link='2277.html#ELM5951'>event_pick</span></td><td><span data-href='dist_1.html#NK2'>dist_1</span></td></tr>
+<tr><td><span data-link='2277.html#ELM5952'>event_pick</span></td><td><span data-href='dist_1.html#K1'>dist_1</span></td></tr>
+<tr><td><span data-link='2296.html#ELM5980'>extract</span></td><td><span data-href='dist_2.html#K5'>dist_2</span></td></tr>
+<tr><td><span data-link='2088.html#ELM5533'>Effect</span></td><td><span data-href='cqc_the1.html#K3'>cqc_the1</span></td></tr>
+<tr><td><span data-link='5488.html#ELM16177'>EG</span></td><td><span data-href='modelc_1.html#K10'>modelc_1</span></td></tr>
+<tr><td><span data-link='2422.html#ELM6241'>Entropy</span></td><td><span data-href='entropy1.html#K6'>entropy1</span></td></tr>
+<tr><td><span data-link='5489.html#ELM16178'>EU</span></td><td><span data-href='modelc_1.html#K11'>modelc_1</span></td></tr>
+<tr><td><span data-link='5487.html#ELM16176'>EX</span></td><td><span data-href='modelc_1.html#K9'>modelc_1</span></td></tr>
+<tr><td><span data-link='5434.html#ELM15992'>EXACTLY</span></td><td><span data-href='mmlquery.html#K34'>mmlquery</span></td></tr>
+<tr><td><span data-link='5437.html#ELM15995'>EXACTLY+-</span></td><td><span data-href='mmlquery.html#K37'>mmlquery</span></td></tr>
+<tr><td><span data-link='2285.html#ELM5960'>freqSEQ</span></td><td><span data-href='dist_1.html#K9'>dist_1</span></td></tr>
+<tr><td><span data-link='2278.html#ELM5953'>frequency</span></td><td><span data-href='dist_1.html#K2'>dist_1</span></td></tr>
+<tr><td><span data-link='611.html#ELM1471'>F2M</span></td><td><span data-href='anproj_8.html#K1'>anproj_8</span></td></tr>
+<tr><td><span data-link='2279.html#ELM5954'>FDprobability</span></td><td><span data-href='dist_1.html#K3'>dist_1</span></td></tr>
+<tr><td><span data-link='2280.html#ELM5955'>FDprobSEQ</span></td><td><span data-href='dist_1.html#K4'>dist_1</span></td></tr>
+<tr><td><span data-link='2281.html#ELM5956'>Finseq-EQclass</span></td><td><span data-href='dist_1.html#K5'>dist_1</span></td></tr>
+<tr><td><span data-link='5099.html#ELM14697'>FinSeq2Matrix</span></td><td><span data-href='matrixc1.html#K3'>matrixc1</span></td></tr>
+<tr><td><span data-link='2420.html#ELM6238'>FinSeq_log</span></td><td><span data-href='entropy1.html#K3'>entropy1</span></td></tr>
+<tr><td><span data-link='7593.html#ELM23605'>FinSeqM</span></td><td><span data-href='roughs_1.html#K7'>roughs_1</span></td></tr>
+<tr><td><span data-link='1179.html#ELM2862'>Firing</span></td><td><span data-href='boolmark.html#K3'>boolmark</span></td></tr>
+<tr><td><span data-link='1179.html#ELM20406'>Firing</span></td><td><span data-href='petri_df.html#K7'>petri_df</span></td></tr>
+<tr><td><span data-link='253.html#ELM20528'>FlattenSeq</span></td><td><span data-href='polnot_1.html#K36'>polnot_1</span></td></tr>
+<tr><td><span data-link='253.html#ELM21038'>FlattenSeq</span></td><td><span data-href='pre_poly.html#K5'>pre_poly</span></td></tr>
+<tr><td><span data-link='3049.html#ELM8571'>FreeGenSetNSG</span></td><td><span data-href='freealg.html#K8'>freealg</span></td></tr>
+<tr><td><span data-link='3049.html#ELM8572'>FreeGenSetNSG</span></td><td><span data-href='freealg.html#K9'>freealg</span></td></tr>
+<tr><td><span data-link='3049.html#ELM8575'>FreeGenSetNSG</span></td><td><span data-href='freealg.html#K12'>freealg</span></td></tr>
+<tr><td><span data-link='3053.html#ELM8579'>FreeGenSetZAO</span></td><td><span data-href='freealg.html#K16'>freealg</span></td></tr>
+<tr><td><span data-link='3053.html#ELM8580'>FreeGenSetZAO</span></td><td><span data-href='freealg.html#K17'>freealg</span></td></tr>
+<tr><td><span data-link='3053.html#ELM8582'>FreeGenSetZAO</span></td><td><span data-href='freealg.html#K19'>freealg</span></td></tr>
+<tr><td><span data-link='3046.html#ELM8568'>FreeOpNSG</span></td><td><span data-href='freealg.html#K5'>freealg</span></td></tr>
+<tr><td><span data-link='3047.html#ELM8569'>FreeOpSeqNSG</span></td><td><span data-href='freealg.html#K6'>freealg</span></td></tr>
+<tr><td><span data-link='3051.html#ELM8577'>FreeOpSeqZAO</span></td><td><span data-href='freealg.html#K14'>freealg</span></td></tr>
+<tr><td><span data-link='3050.html#ELM8576'>FreeOpZAO</span></td><td><span data-href='freealg.html#K13'>freealg</span></td></tr>
+<tr><td><span data-link='3048.html#ELM8570'>FreeUnivAlgNSG</span></td><td><span data-href='freealg.html#K7'>freealg</span></td></tr>
+<tr><td><span data-link='3052.html#ELM8578'>FreeUnivAlgZAO</span></td><td><span data-href='freealg.html#K15'>freealg</span></td></tr>
+<tr><td><span data-link='5101.html#ELM14703'>FR2FC</span></td><td><span data-href='matrixc1.html#K9'>matrixc1</span></td></tr>
+<tr><td><span data-link='238.html#ELM507'>FS2XFS</span></td><td><span data-href='afinsq_1.html#K9'>afinsq_1</span></td></tr>
+<tr><td><span data-link='238.html#ELM24009'>FS2XFS</span></td><td><span data-href='rvsum_4.html'>rvsum_4</span></td></tr>
+<tr><td><span data-link='240.html#ELM509'>FS2XFS*</span></td><td><span data-href='afinsq_1.html#K11'>afinsq_1</span></td></tr>
+<tr><td><span data-link='1057.html#ELM2583'>Func_Seq</span></td><td><span data-href='bhsp_5.html#K4'>bhsp_5</span></td></tr>
+<tr><td><span data-link='3106.html#ELM8669'>GEN</span></td><td><span data-href='fsm_2.html#NK1'>fsm_2</span></td></tr>
+<tr><td><span data-link='3721.html#ELM10622'>GoB</span></td><td><span data-href='goboard2.html#K1'>goboard2</span></td></tr>
+<tr><td><span data-link='4966.html#ELM14260'>impg</span></td><td><span data-href='ltlaxio2.html#K3'>ltlaxio2</span></td></tr>
+<tr><td><span data-link='4990.html#ELM14345'>implications</span></td><td><span data-href='ltlaxio5.html#K3'>ltlaxio5</span></td></tr>
+<tr><td><span data-link='2763.html#ELM7292'>instr</span></td><td><span data-href='finseq_8.html#K7'>finseq_8</span></td></tr>
+<tr><td><span data-link='4226.html#ELM12204'>IDEA_P</span></td><td><span data-href='idea_1.html#K15'>idea_1</span></td></tr>
+<tr><td><span data-link='4232.html#ELM12210'>IDEA_PE</span></td><td><span data-href='idea_1.html#K21'>idea_1</span></td></tr>
+<tr><td><span data-link='4230.html#ELM12208'>IDEA_PS</span></td><td><span data-href='idea_1.html#K19'>idea_1</span></td></tr>
+<tr><td><span data-link='4227.html#ELM12205'>IDEA_Q</span></td><td><span data-href='idea_1.html#K16'>idea_1</span></td></tr>
+<tr><td><span data-link='4233.html#ELM12211'>IDEA_QE</span></td><td><span data-href='idea_1.html#K22'>idea_1</span></td></tr>
+<tr><td><span data-link='4231.html#ELM12209'>IDEA_QS</span></td><td><span data-href='idea_1.html#K20'>idea_1</span></td></tr>
+<tr><td><span data-link='4222.html#ELM12200'>IDEAoperationA</span></td><td><span data-href='idea_1.html#K11'>idea_1</span></td></tr>
+<tr><td><span data-link='4223.html#ELM12201'>IDEAoperationB</span></td><td><span data-href='idea_1.html#K12'>idea_1</span></td></tr>
+<tr><td><span data-link='4224.html#ELM12202'>IDEAoperationC</span></td><td><span data-href='idea_1.html#K13'>idea_1</span></td></tr>
+<tr><td><span data-link='1904.html#ELM4966'>Im</span></td><td><span data-href='complsp2.html#K7'>complsp2</span></td></tr>
+<tr><td><span data-link='1904.html#ELM12580'>Im</span></td><td><span data-href='integr16.html#K2'>integr16</span></td></tr>
+<tr><td><span data-link='1318.html#ELM3213'>Impl</span></td><td><span data-href='calcul_2.html#K5'>calcul_2</span></td></tr>
+<tr><td><span data-link='7843.html#ELM24939'>Incr</span></td><td><span data-href='seq_4.html#K26'>seq_4</span></td></tr>
+<tr><td><span data-link='2421.html#ELM6239'>Infor_FinSeq_of</span></td><td><span data-href='entropy1.html#K4'>entropy1</span></td></tr>
+<tr><td><span data-link='2743.html#ELM7235'>Ins</span></td><td><span data-href='finseq_5.html#K5'>finseq_5</span></td></tr>
+<tr><td><span data-link='1381.html#ELM21325'>Intersection</span></td><td><span data-href='prob_3.html#K7'>prob_3</span></td></tr>
+<tr><td><span data-link='5225.html#ELM15161'>joined_FinSeq</span></td><td><span data-href='measure9.html#K3'>measure9</span></td></tr>
+<tr><td><span data-link='3088.html#ELM8635'>leads_to_under</span></td><td><span data-href='fsm_1.html#K3'>fsm_1</span></td></tr>
+<tr><td><span data-link='5046.html#ELM14517'>LCirc</span></td><td><span data-href='matrix16.html#K1'>matrix16</span></td></tr>
+<tr><td><span data-link='5224.html#ELM15160'>Length</span></td><td><span data-href='measure9.html#K2'>measure9</span></td></tr>
+<tr><td><span data-link='5039.html#ELM14507'>LineVec2Mx</span></td><td><span data-href='matrix15.html#K2'>matrix15</span></td></tr>
+<tr><td><span data-link='5039.html#ELM14774'>LineVec2Mx</span></td><td><span data-href='matrixr1.html#K10'>matrixr1</span></td></tr>
+<tr><td><span data-link='860.html#ELM22630'>max</span></td><td><span data-href='rfinseq2.html#K3'>rfinseq2</span></td></tr>
+<tr><td><span data-link='7424.html#ELM22628'>max_p</span></td><td><span data-href='rfinseq2.html#K1'>rfinseq2</span></td></tr>
+<tr><td><span data-link='248.html#ELM7255'>mid</span></td><td><span data-href='finseq_6.html#K3'>finseq_6</span></td></tr>
+<tr><td><span data-link='1016.html#ELM14712'>min</span></td><td><span data-href='matrixj1.html#K1'>matrixj1</span></td></tr>
+<tr><td><span data-link='1016.html#ELM22631'>min</span></td><td><span data-href='rfinseq2.html#K4'>rfinseq2</span></td></tr>
+<tr><td><span data-link='2747.html#ELM7260'>min_at</span></td><td><span data-href='finseq_6.html#K8'>finseq_6</span></td></tr>
+<tr><td><span data-link='7425.html#ELM22629'>min_p</span></td><td><span data-href='rfinseq2.html#K2'>rfinseq2</span></td></tr>
+<tr><td><span data-link='3314.html#ELM9421'>mlt</span></td><td><span data-href='fvsum_1.html#K11'>fvsum_1</span></td></tr>
+<tr><td><span data-link='3314.html#ELM14699'>mlt</span></td><td><span data-href='matrixc1.html#K5'>matrixc1</span></td></tr>
+<tr><td><span data-link='3314.html#ELM23962'>mlt</span></td><td><span data-href='rvsum_2.html#K12'>rvsum_2</span></td></tr>
+<tr><td><span data-link='687.html#ELM6525'>mod</span></td><td><span data-href='euler_2.html#K2'>euler_2</span></td></tr>
+<tr><td><span data-link='612.html#ELM1472'>M2F</span></td><td><span data-href='anproj_8.html#K2'>anproj_8</span></td></tr>
+<tr><td><span data-link='8872.html#ELM30072'>MergeSequence</span></td><td><span data-href='yellow15.html#K1'>yellow15</span></td></tr>
+<tr><td><span data-link='2843.html#ELM7655'>MultPlace</span></td><td><span data-href='fomodel0.html#K4'>fomodel0</span></td></tr>
+<tr><td><span data-link='4967.html#ELM14261'>nega</span></td><td><span data-href='ltlaxio2.html#K4'>ltlaxio2</span></td></tr>
+<tr><td><span data-link='4968.html#ELM14262'>nex</span></td><td><span data-href='ltlaxio2.html#K5'>ltlaxio2</span></td></tr>
+<tr><td><span data-link='2760.html#ELM7289'>ovlcon</span></td><td><span data-href='finseq_8.html#K4'>finseq_8</span></td></tr>
+<tr><td><span data-link='2761.html#ELM7290'>ovlldiff</span></td><td><span data-href='finseq_8.html#K5'>finseq_8</span></td></tr>
+<tr><td><span data-link='2759.html#ELM7288'>ovlpart</span></td><td><span data-href='finseq_8.html#K3'>finseq_8</span></td></tr>
+<tr><td><span data-link='2762.html#ELM7291'>ovlrdiff</span></td><td><span data-href='finseq_8.html#K6'>finseq_8</span></td></tr>
+<tr><td><span data-link='2177.html#ELM5750'>Op-Left</span></td><td><span data-href='descip_1.html#K2'>descip_1</span></td></tr>
+<tr><td><span data-link='2178.html#ELM5751'>Op-Right</span></td><td><span data-href='descip_1.html#K3'>descip_1</span></td></tr>
+<tr><td><span data-link='2183.html#ELM5758'>Op-Shift</span></td><td><span data-href='descip_1.html#K8'>descip_1</span></td></tr>
+<tr><td><span data-link='1343.html#ELM8573'>pi</span></td><td><span data-href='freealg.html#K10'>freealg</span></td></tr>
+<tr><td><span data-link='1343.html#ELM8581'>pi</span></td><td><span data-href='freealg.html#K18'>freealg</span></td></tr>
+<tr><td><span data-link='6731.html#ELM20401'>places_of</span></td><td><span data-href='petri_df.html#K2'>petri_df</span></td></tr>
+<tr><td><span data-link='2311.html#ELM6024'>plus-one</span></td><td><span data-href='dtconstr.html#K11'>dtconstr</span></td></tr>
+<tr><td><span data-link='1448.html#ELM6015'>pr1</span></td><td><span data-href='dtconstr.html#K2'>dtconstr</span></td></tr>
+<tr><td><span data-link='1448.html#ELM20944'>pr1</span></td><td><span data-href='pralg_1.html#K1'>pralg_1</span></td></tr>
+<tr><td><span data-link='1449.html#ELM6016'>pr2</span></td><td><span data-href='dtconstr.html#K3'>dtconstr</span></td></tr>
+<tr><td><span data-link='1449.html#ELM20945'>pr2</span></td><td><span data-href='pralg_1.html#K2'>pralg_1</span></td></tr>
+<tr><td><span data-link='1952.html#ELM5125'>primrec</span></td><td><span data-href='comput_1.html#K6'>comput_1</span></td></tr>
+<tr><td><span data-link='6846.html#ELM20754'>prodTuples</span></td><td><span data-href='polynom3.html#K7'>polynom3</span></td></tr>
+<tr><td><span data-link='4432.html#ELM12841'>PairF</span></td><td><span data-href='jgraph_1.html#K3'>jgraph_1</span></td></tr>
+<tr><td><span data-link='4432.html#ELM12842'>PairF</span></td><td><span data-href='jgraph_1.html#K4'>jgraph_1</span></td></tr>
+<tr><td><span data-link='6623.html#ELM20176'>PartDiffSeq</span></td><td><span data-href='pdiff_9.html#K4'>pdiff_9</span></td></tr>
+<tr><td><span data-link='1049.html#ELM14995'>Partial_Sums</span></td><td><span data-href='measur11.html#K12'>measur11</span></td></tr>
+<tr><td><span data-link='1049.html#ELM26533'>Partial_Sums</span></td><td><span data-href='topalg_6.html#K5'>topalg_6</span></td></tr>
+<tr><td><span data-link='4354.html#ELM12631'>PartSums</span></td><td><span data-href='integra1.html#K14'>integra1</span></td></tr>
+<tr><td><span data-link='1316.html#ELM3211'>Per</span></td><td><span data-href='calcul_2.html#K3'>calcul_2</span></td></tr>
+<tr><td><span data-link='6778.html#ELM20516'>Polish-arity-from-list</span></td><td><span data-href='polnot_1.html#K24'>polnot_1</span></td></tr>
+<tr><td><span data-link='4300.html#ELM12499'>Poly-INT</span></td><td><span data-href='int_5.html#K1'>int_5</span></td></tr>
+<tr><td><span data-link='2317.html#ELM6030'>PostTraversal</span></td><td><span data-href='dtconstr.html#K17'>dtconstr</span></td></tr>
+<tr><td><span data-link='2316.html#ELM6029'>PreTraversal</span></td><td><span data-href='dtconstr.html#K16'>dtconstr</span></td></tr>
+<tr><td><span data-link='1344.html#ELM11166'>Product</span></td><td><span data-href='group_4.html#K3'>group_4</span></td></tr>
+<tr><td><span data-link='1344.html#ELM11279'>Product</span></td><td><span data-href='group_9.html#K2'>group_9</span></td></tr>
+<tr><td><span data-link='1344.html#ELM23923'>Product</span></td><td><span data-href='rvsum_1.html#K20'>rvsum_1</span></td></tr>
+<tr><td><span data-link='1344.html#ELM23924'>Product</span></td><td><span data-href='rvsum_1.html#K21'>rvsum_1</span></td></tr>
+<tr><td><span data-link='1344.html#ELM29635'>Product</span></td><td><span data-href='wsierp_1.html#K2'>wsierp_1</span></td></tr>
+<tr><td><span data-link='1009.html#ELM2461'>Product_S</span></td><td><span data-href='bcialg_4.html#K7'>bcialg_4</span></td></tr>
+<tr><td><span data-link='5105.html#ELM14707'>QuadraticForm</span></td><td><span data-href='matrixc1.html#K13'>matrixc1</span></td></tr>
+<tr><td><span data-link='5105.html#ELM14861'>QuadraticForm</span></td><td><span data-href='matrprob.html#K6'>matrprob</span></td></tr>
+<tr><td><span data-link='4839.html#ELM20069'>reproj</span></td><td><span data-href='pdiff_1.html#K5'>pdiff_1</span></td></tr>
+<tr><td><span data-link='2306.html#ELM6014'>roots</span></td><td><span data-href='dtconstr.html#K1'>dtconstr</span></td></tr>
+<tr><td><span data-link='4601.html#ELM13249'>RCol</span></td><td><span data-href='laplace.html#NK4'>laplace</span></td></tr>
+<tr><td><span data-link='1903.html#ELM4965'>Re</span></td><td><span data-href='complsp2.html#K6'>complsp2</span></td></tr>
+<tr><td><span data-link='1903.html#ELM12579'>Re</span></td><td><span data-href='integr16.html#K1'>integr16</span></td></tr>
+<tr><td><span data-link='3808.html#ELM10822'>RealSequence</span></td><td><span data-href='graph_5.html#K9'>graph_5</span></td></tr>
+<tr><td><span data-link='237.html#ELM7277'>Replace</span></td><td><span data-href='finseq_7.html#K1'>finseq_7</span></td></tr>
+<tr><td><span data-link='4600.html#ELM13248'>ReplaceCol</span></td><td><span data-href='laplace.html#K3'>laplace</span></td></tr>
+<tr><td><span data-link='5018.html#ELM14455'>ReplaceLine</span></td><td><span data-href='matrix11.html#K3'>matrix11</span></td></tr>
+<tr><td><span data-link='246.html#ELM7234'>Rev</span></td><td><span data-href='finseq_5.html#K4'>finseq_5</span></td></tr>
+<tr><td><span data-link='3043.html#ELM8565'>REL</span></td><td><span data-href='freealg.html#K2'>freealg</span></td></tr>
+<tr><td><span data-link='5019.html#ELM14456'>RLine</span></td><td><span data-href='matrix11.html#NK5'>matrix11</span></td></tr>
+<tr><td><span data-link='1908.html#ELM7253'>Rotate</span></td><td><span data-href='finseq_6.html#K1'>finseq_6</span></td></tr>
+<tr><td><span data-link='5429.html#ELM15984'>ROUGH</span></td><td><span data-href='mmlquery.html#K26'>mmlquery</span></td></tr>
+<tr><td><span data-link='5429.html#ELM15985'>ROUGH</span></td><td><span data-href='mmlquery.html#K27'>mmlquery</span></td></tr>
+<tr><td><span data-link='5429.html#ELM15986'>ROUGH</span></td><td><span data-href='mmlquery.html#K28'>mmlquery</span></td></tr>
+<tr><td><span data-link='2758.html#ELM7287'>smid</span></td><td><span data-href='finseq_8.html#K2'>finseq_8</span></td></tr>
+<tr><td><span data-link='7427.html#ELM22633'>sort_a</span></td><td><span data-href='rfinseq2.html#K6'>rfinseq2</span></td></tr>
+<tr><td><span data-link='7426.html#ELM22632'>sort_d</span></td><td><span data-href='rfinseq2.html#K5'>rfinseq2</span></td></tr>
+<tr><td><span data-link='1312.html#ELM3206'>still_not-bound_in</span></td><td><span data-href='calcul_1.html#K3'>calcul_1</span></td></tr>
+<tr><td><span data-link='1312.html#ELM21600'>still_not-bound_in</span></td><td><span data-href='qc_lang1.html#K23'>qc_lang1</span></td></tr>
+<tr><td><span data-link='5057.html#ELM14534'>SCirc</span></td><td><span data-href='matrix17.html#K1'>matrix17</span></td></tr>
+<tr><td><span data-link='7740.html#ELM24336'>SCM+FSA-Chg</span></td><td><span data-href='scmfsa_1.html#K8'>scmfsa_1</span></td></tr>
+<tr><td><span data-link='2724.html#ELM10089'>Seq</span></td><td><span data-href='glib_003.html#K1'>glib_003</span></td></tr>
+<tr><td><span data-link='8058.html#ELM25940'>Sub_P</span></td><td><span data-href='substut1.html#K17'>substut1</span></td></tr>
+<tr><td><span data-link='2067.html#ELM5494'>Subst</span></td><td><span data-href='cqc_lang.html#K1'>cqc_lang</span></td></tr>
+<tr><td><span data-link='1311.html#ELM3205'>Suc</span></td><td><span data-href='calcul_1.html#K2'>calcul_1</span></td></tr>
+<tr><td><span data-link='252.html#ELM6400'>Sum</span></td><td><span data-href='euclid_7.html#K5'>euclid_7</span></td></tr>
+<tr><td><span data-link='252.html#ELM6640'>Sum</span></td><td><span data-href='extreal1.html#K4'>extreal1</span></td></tr>
+<tr><td><span data-link='252.html#ELM9423'>Sum</span></td><td><span data-href='fvsum_1.html'>fvsum_1</span></td></tr>
+<tr><td><span data-link='252.html#ELM10679'>Sum</span></td><td><span data-href='gr_cy_1.html#K1'>gr_cy_1</span></td></tr>
+<tr><td><span data-link='252.html#ELM13868'>Sum</span></td><td><span data-href='lmod_7.html#K4'>lmod_7</span></td></tr>
+<tr><td><span data-link='252.html#ELM14803'>Sum</span></td><td><span data-href='matrlin.html#K6'>matrlin</span></td></tr>
+<tr><td><span data-link='252.html#ELM14856'>Sum</span></td><td><span data-href='matrprob.html#K3'>matrprob</span></td></tr>
+<tr><td><span data-link='252.html#ELM15166'>Sum</span></td><td><span data-href='measure9.html#K8'>measure9</span></td></tr>
+<tr><td><span data-link='252.html#ELM22705'>Sum</span></td><td><span data-href='rfunct_3.html#K14'>rfunct_3</span></td></tr>
+<tr><td><span data-link='252.html#ELM23920'>Sum</span></td><td><span data-href='rvsum_1.html#K17'>rvsum_1</span></td></tr>
+<tr><td><span data-link='252.html#ELM23921'>Sum</span></td><td><span data-href='rvsum_1.html#K18'>rvsum_1</span></td></tr>
+<tr><td><span data-link='252.html#ELM26534'>Sum</span></td><td><span data-href='topalg_6.html#K6'>topalg_6</span></td></tr>
+<tr><td><span data-link='252.html#ELM29634'>Sum</span></td><td><span data-href='wsierp_1.html#K1'>wsierp_1</span></td></tr>
+<tr><td><span data-link='2521.html#ELM7278'>Swap</span></td><td><span data-href='finseq_7.html#K2'>finseq_7</span></td></tr>
+<tr><td><span data-link='3045.html#ELM8567'>Sym</span></td><td><span data-href='freealg.html#K4'>freealg</span></td></tr>
+<tr><td><span data-link='6732.html#ELM20402'>transitions_of</span></td><td><span data-href='petri_df.html#K3'>petri_df</span></td></tr>
+<tr><td><span data-link='4678.html#ELM13471'>type_of</span></td><td><span data-href='lattice5.html#K2'>lattice5</span></td></tr>
+<tr><td><span data-link='2315.html#ELM6028'>TerminalString</span></td><td><span data-href='dtconstr.html#K15'>dtconstr</span></td></tr>
+<tr><td><span data-link='645.html#ELM1521'>TerminatingPrograms</span></td><td><span data-href='aofa_000.html#K21'>aofa_000</span></td></tr>
+<tr><td><span data-link='5679.html#ELM20952'>Trivial_Algebra</span></td><td><span data-href='pralg_1.html#K9'>pralg_1</span></td></tr>
+<tr><td><span data-link='6909.html#ELM20951'>TrivialOps</span></td><td><span data-href='pralg_1.html#K8'>pralg_1</span></td></tr>
+<tr><td><span data-link='1741.html#ELM11784'>union</span></td><td><span data-href='hallmar1.html#K1'>hallmar1</span></td></tr>
+<tr><td><span data-link='752.html#ELM14985'>Union</span></td><td><span data-href='measur11.html#K2'>measur11</span></td></tr>
+<tr><td><span data-link='752.html#ELM21323'>Union</span></td><td><span data-href='prob_3.html#K5'>prob_3</span></td></tr>
+<tr><td><span data-link='752.html#ELM23600'>Union</span></td><td><span data-href='roughs_1.html#K2'>roughs_1</span></td></tr>
+<tr><td><span data-link='69.html#ELM21648'>variables_in</span></td><td><span data-href='qc_lang3.html#K1'>qc_lang3</span></td></tr>
+<tr><td><span data-link='3804.html#ELM10814'>vertices</span></td><td><span data-href='graph_5.html#K2'>graph_5</span></td></tr>
+<tr><td><span data-link='4461.html#ELM12899'>Values</span></td><td><span data-href='jordan1h.html#K2'>jordan1h</span></td></tr>
+<tr><td><span data-link='2418.html#ELM6236'>Vec2DiagMx</span></td><td><span data-href='entropy1.html#K1'>entropy1</span></td></tr>
+<tr><td><span data-link='2276.html#ELM5950'>whole_event</span></td><td><span data-href='dist_1.html#NK1'>dist_1</span></td></tr>
+<tr><td><span data-link='318.html#ELM27221'>with-replacement</span></td><td><span data-href='trees_1.html#K5'>trees_1</span></td></tr>
+<tr><td><span data-link='318.html#ELM27252'>with-replacement</span></td><td><span data-href='trees_2.html#K7'>trees_2</span></td></tr>
+<tr><td><span data-link='909.html#ELM7110'>|</span></td><td><span data-href='finseq_1.html#K17'>finseq_1</span></td></tr>
+<tr><td><span data-link='909.html#ELM27220'>|</span></td><td><span data-href='trees_1.html#K4'>trees_1</span></td></tr>
+<tr><td><span data-link='909.html#ELM27250'>|</span></td><td><span data-href='trees_2.html#K5'>trees_2</span></td></tr>
+<tr><td><span data-link='1913.html#ELM4967'>|()|</span></td><td><span data-href='complsp2.html#K8'>complsp2</span></td></tr>
+<tr><td><span data-link='5930.html#ELM17532'>|-count</span></td><td><span data-href='nat_4.html#K1'>nat_4</span></td></tr>
+<tr><td><span data-link='174.html#ELM16620'>|..|</span></td><td><span data-href='monoid_1.html#K18'>monoid_1</span></td></tr>
+<tr><td><span data-link='174.html#ELM24933'>|..|</span></td><td><span data-href='seq_4.html#K20'>seq_4</span></td></tr>
+<tr><td><span data-link='634.html#ELM11167'>|^</span></td><td><span data-href='group_4.html#K4'>group_4</span></td></tr>
+<tr><td><span data-link='634.html#ELM11178'>|^</span></td><td><span data-href='group_5.html#K1'>group_5</span></td></tr>
+<tr><td><span data-link='634.html#ELM17493'>|^</span></td><td><span data-href='nat_3.html#K2'>nat_3</span></td></tr>
+<tr><td><span data-link='634.html#ELM17494'>|^</span></td><td><span data-href='nat_3.html#K3'>nat_3</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM7651'>
+<h2>5.   <span data-link='27.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fomodel0.html#M1'>fomodel0</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="FINSEQ_1:mode.1" data-link="27.html#ELM7090">FinSequence</span><br><span class="kw">redefine </span><a name="M1"><span class="kw">mode</span> </a> <span title="FOMODEL0:mode.1" data-link="27.html#ELM7651">FinSequence</span> of <font color="Maroon" title="c1">X</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of <font color="Maroon" title="c1">X</font> <span title="FINSEQ_2:func.3" data-link="47.html#ELM7181">*</span> ;<br><span class="kw">coherence</span> <span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('finseq_1/D11')" onmouseout="rh()" data-href="finseq_1.html#D11">FINSEQ_1:def 11</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-func'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>func</th></tr></thead>
+<tbody>
+<tr><td><span data-link='2856.html#ELM7674'>SubstWith</span></td><td><span data-href='fomodel0.html#K20'>fomodel0</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM15135'>
+<h2>6.   <span data-link='27.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='measure8.html#M1'>measure8</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">F</font> be   <span title="PROB_1:NM.1" data-link="6994.html#ELM21275">Field_Subset</span> of <font color="Maroon" title="c1">X</font>;<br><div about="#D4" typeof="oo:Definition" class="main-sentence">
+<a name="M1"><span class="kw">mode</span> </a> <span title="MEASURE8:mode.1" data-link="27.html#ELM15135">FinSequence</span> of <font color="Maroon" title="c2">F</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="SETFAM_1:func.9" data-link="1652.html#ELM25011">bool</span> <font color="Maroon" title="c1">X</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E4">Def1</font></span>: <a name="D1"><span class="comment"><font color="firebrick">:: MEASURE8:def 1</font></span><br></a> for <font color="Olive" title="b1">k</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b1">k</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <span class="kw">it</span> holds <br><span class="kw">it</span> <span title="PROB_3:func.4" data-link="141.html#ELM21322">.</span> <font color="Olive" title="b1">k</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">F</font>;<br>
+</div>
+<span class="kw">existence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-mode'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>mode</th></tr></thead>
+<tbody>
+<tr><td><span data-link='5214.html#ELM15136'>Sep_FinSequence</span></td><td><span data-href='measure8.html#NM2'>measure8</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM21317'>
+<h2>7.   <span data-link='27.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='prob_3.html#M1'>prob_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">Si</font> be   <span title="PROB_1:NM.3" data-link="6995.html#ELM21277">SigmaField</span> of <font color="Maroon" title="c1">X</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="FINSEQ_1:mode.1" data-link="27.html#ELM7090">FinSequence</span><br><span class="kw">redefine </span><a name="M1"><span class="kw">mode</span> </a> <span title="PROB_3:mode.1" data-link="27.html#ELM21317">FinSequence</span> of <font color="Maroon" title="c2">Si</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="SETFAM_1:func.9" data-link="1652.html#ELM25011">bool</span> <font color="Maroon" title="c1">X</font>;<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-func'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>func</th></tr></thead>
+<tbody>
+<tr><td><span data-link='47.html#ELM21327'>*</span></td><td><span data-href='prob_3.html#K9'>prob_3</span></td></tr>
+<tr><td><span data-link='141.html#ELM21326'>.</span></td><td><span data-href='prob_3.html#K8'>prob_3</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM25753'>
+<h2>8.   <span data-link='27.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='struct_0.html#NM7'>struct_0</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be    <span title="STRUCT_0:struct.1" data-link="8048.html#ELM25742">1-sorted</span> ;<br><a name="NM7"><span class="kw">mode </span>FinSequence of <font color="Maroon" title="c1">S</font><span class="kw"> is </span></a>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">S</font>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-mode'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>mode</th></tr></thead>
+<tbody>
+<tr><td><span data-link='288.html#ELM685'>Congruence</span></td><td><span data-href='alg_1.html#M1'>alg_1</span></td></tr>
+<tr><td><span data-link='7451.html#ELM22773'>Factorization</span></td><td><span data-href='ring_2.html#M1'>ring_2</span></td></tr>
+<tr><td><span data-link='4332.html#ELM12593'>middle_volume</span></td><td><span data-href='integr18.html#M1'>integr18</span></td></tr>
+<tr><td><span data-link='5124.html#ELM14797'>OrdBasis</span></td><td><span data-href='matrlin.html#M1'>matrlin</span></td></tr>
+<tr><td><span data-link='5124.html#ELM30603'>OrdBasis</span></td><td><span data-href='zmatrlin.html#M1'>zmatrlin</span></td></tr>
+<tr><td><span data-link='7482.html#ELM23065'>Ppoly</span></td><td><span data-href='ring_5.html#M1'>ring_5</span></td></tr>
+<tr><td><span data-link='3723.html#ELM10631'>special_circular_sequence</span></td><td><span data-href='goboard5.html#NM1'>goboard5</span></td></tr>
+<tr><td><span data-link='7977.html#ELM25488'>S-Sequence_in_R2</span></td><td><span data-href='sppol_2.html#NM1'>sppol_2</span></td></tr>
+<tr><td><span data-link='4550.html#ELM13112'>Segmentation</span></td><td><span data-href='jordan_a.html#M1'>jordan_a</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-pred'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>pred</th></tr></thead>
+<tbody>
+<tr><td><span data-link='6962.html#ELM21225'>==>.</span></td><td><span data-href='prelamb.html#R2'>prelamb</span></td></tr>
+<tr><td><span data-link='4517.html#ELM13003'>are_in_general_position</span></td><td><span data-href='jordan12.html#R2'>jordan12</span></td></tr>
+<tr><td><span data-link='7447.html#ELM22767'>is_a_factorization_of</span></td><td><span data-href='ring_2.html#R1'>ring_2</span></td></tr>
+<tr><td><span data-link='7984.html#ELM25541'>is_a_h.c._for</span></td><td><span data-href='sprect_2.html#R2'>sprect_2</span></td></tr>
+<tr><td><span data-link='4477.html#ELM12941'>is_a_part&lt;_of</span></td><td><span data-href='jordan4.html#R2'>jordan4</span></td></tr>
+<tr><td><span data-link='4476.html#ELM12940'>is_a_part>_of</span></td><td><span data-href='jordan4.html#R1'>jordan4</span></td></tr>
+<tr><td><span data-link='4478.html#ELM12942'>is_a_part_of</span></td><td><span data-href='jordan4.html#R3'>jordan4</span></td></tr>
+<tr><td><span data-link='7985.html#ELM25542'>is_a_v.c._for</span></td><td><span data-href='sprect_2.html#R3'>sprect_2</span></td></tr>
+<tr><td><span data-link='5045.html#ELM14516'>is_anti-circular_about</span></td><td><span data-href='matrix16.html#R3'>matrix16</span></td></tr>
+<tr><td><span data-link='4516.html#ELM13002'>is_in_general_position_wrt</span></td><td><span data-href='jordan12.html#R1'>jordan12</span></td></tr>
+<tr><td><span data-link='7983.html#ELM25540'>is_in_the_area_of</span></td><td><span data-href='sprect_2.html#R1'>sprect_2</span></td></tr>
+<tr><td><span data-link='2815.html#ELM7549'>is_minimum_path_in</span></td><td><span data-href='fintopo6.html#R3'>fintopo6</span></td></tr>
+<tr><td><span data-link='4470.html#ELM12933'>is_S-Seq_joining</span></td><td><span data-href='jordan3.html#R1'>jordan3</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-attr'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>attr</th></tr></thead>
+<tbody>
+<tr><td><span data-link='6315.html#ELM18985'>-asc_ordering</span></td><td><span data-href='orders_5.html#V10'>orders_5</span></td></tr>
+<tr><td><span data-link='6316.html#ELM18986'>-desc_ordering</span></td><td><span data-href='orders_5.html#V11'>orders_5</span></td></tr>
+<tr><td><span data-link='1089.html#ELM25478'>alternating</span></td><td><span data-href='sppol_1.html#V3'>sppol_1</span></td></tr>
+<tr><td><span data-link='6313.html#ELM18983'>asc_ordering</span></td><td><span data-href='orders_5.html#V8'>orders_5</span></td></tr>
+<tr><td><span data-link='2223.html#ELM18978'>ascending</span></td><td><span data-href='orders_5.html#V5'>orders_5</span></td></tr>
+<tr><td><span data-link='2223.html#ELM18979'>ascending</span></td><td><span data-href='orders_5.html'>orders_5</span></td></tr>
+<tr><td><span data-link='6220.html#ELM18727'>being_a_generation_from_squares</span></td><td><span data-href='o_ring_1.html#V12'>o_ring_1</span></td></tr>
+<tr><td><span data-link='6212.html#ELM18719'>being_a_Product_of_squares</span></td><td><span data-href='o_ring_1.html#V4'>o_ring_1</span></td></tr>
+<tr><td><span data-link='6218.html#ELM18725'>being_a_Sum_of_amalgams_of_squares</span></td><td><span data-href='o_ring_1.html#V10'>o_ring_1</span></td></tr>
+<tr><td><span data-link='6214.html#ELM18721'>being_a_Sum_of_products_of_squares</span></td><td><span data-href='o_ring_1.html#V6'>o_ring_1</span></td></tr>
+<tr><td><span data-link='6210.html#ELM18717'>being_a_Sum_of_squares</span></td><td><span data-href='o_ring_1.html#V2'>o_ring_1</span></td></tr>
+<tr><td><span data-link='6216.html#ELM18723'>being_an_Amalgam_of_squares</span></td><td><span data-href='o_ring_1.html#V8'>o_ring_1</span></td></tr>
+<tr><td><span data-link='8305.html#ELM26845'>being_S-Seq</span></td><td><span data-href='topreal1.html#V4'>topreal1</span></td></tr>
+<tr><td><span data-link='7986.html#ELM25543'>clockwise_oriented</span></td><td><span data-href='sprect_2.html#V1'>sprect_2</span></td></tr>
+<tr><td><span data-link='1206.html#ELM7553'>continuous</span></td><td><span data-href='fintopo6.html#V2'>fintopo6</span></td></tr>
+<tr><td><span data-link='6314.html#ELM18984'>desc_ordering</span></td><td><span data-href='orders_5.html#V9'>orders_5</span></td></tr>
+<tr><td><span data-link='2526.html#ELM18981'>descending</span></td><td><span data-href='orders_5.html#V7'>orders_5</span></td></tr>
+<tr><td><span data-link='2526.html#ELM18982'>descending</span></td><td><span data-href='orders_5.html'>orders_5</span></td></tr>
+<tr><td><span data-link='5055.html#ELM14526'>first-line-of-anti-circular</span></td><td><span data-href='matrix16.html#V6'>matrix16</span></td></tr>
+<tr><td><span data-link='2818.html#ELM7555'>inv_continuous</span></td><td><span data-href='fintopo6.html#V4'>fintopo6</span></td></tr>
+<tr><td><span data-link='4433.html#ELM12843'>nodic</span></td><td><span data-href='jgraph_1.html#V1'>jgraph_1</span></td></tr>
+<tr><td><span data-link='7358.html#ELM22287'>quadratic</span></td><td><span data-href='realalg2.html#V4'>realalg2</span></td></tr>
+<tr><td><span data-link='7982.html#ELM25520'>rectangular</span></td><td><span data-href='sprect_1.html#V1'>sprect_1</span></td></tr>
+<tr><td><span data-link='3728.html#ELM10637'>s.c.c.</span></td><td><span data-href='goboard5.html#V1'>goboard5</span></td></tr>
+<tr><td><span data-link='8304.html#ELM26844'>s.n.c.</span></td><td><span data-href='topreal1.html#V3'>topreal1</span></td></tr>
+<tr><td><span data-link='8302.html#ELM26842'>special</span></td><td><span data-href='topreal1.html#V1'>topreal1</span></td></tr>
+<tr><td><span data-link='510.html#ELM10638'>standard</span></td><td><span data-href='goboard5.html#V2'>goboard5</span></td></tr>
+<tr><td><span data-link='8303.html#ELM26843'>unfolded</span></td><td><span data-href='topreal1.html#V2'>topreal1</span></td></tr>
+<tr><td><span data-link='2224.html#ELM18977'>weakly-ascending</span></td><td><span data-href='orders_5.html#V4'>orders_5</span></td></tr>
+<tr><td><span data-link='6312.html#ELM18980'>weakly-descending</span></td><td><span data-href='orders_5.html#V6'>orders_5</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-func'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>func</th></tr></thead>
+<tbody>
+<tr><td><span data-link='43.html#ELM14676'>"</span></td><td><span data-href='matrix_7.html#K4'>matrix_7</span></td></tr>
+<tr><td><span data-link='728.html#ELM23326'>(#)</span></td><td><span data-href='rlvect_2.html#K5'>rlvect_2</span></td></tr>
+<tr><td><span data-link='728.html#ELM23380'>(#)</span></td><td><span data-href='rmod_4.html#K4'>rmod_4</span></td></tr>
+<tr><td><span data-link='47.html#ELM13257'>*</span></td><td><span data-href='laplace.html#K11'>laplace</span></td></tr>
+<tr><td><span data-link='47.html#ELM13258'>*</span></td><td><span data-href='laplace.html#K12'>laplace</span></td></tr>
+<tr><td><span data-link='104.html#ELM3078'>@</span></td><td><span data-href='bspace.html#K11'>bspace</span></td></tr>
+<tr><td><span data-link='104.html#ELM14883'>@</span></td><td><span data-href='matrtop1.html#K2'>matrtop1</span></td></tr>
+<tr><td><span data-link='802.html#ELM21239'>[]</span></td><td><span data-href='prelamb.html#K6'>prelamb</span></td></tr>
+<tr><td><span data-link='5048.html#ELM14519'>ACirc</span></td><td><span data-href='matrix16.html#K3'>matrix16</span></td></tr>
+<tr><td><span data-link='5122.html#ELM14788'>AutEqMt</span></td><td><span data-href='matrlin2.html#K3'>matrlin2</span></td></tr>
+<tr><td><span data-link='5121.html#ELM14807'>AutMt</span></td><td><span data-href='matrlin.html#K10'>matrlin</span></td></tr>
+<tr><td><span data-link='5121.html#ELM14786'>AutMt</span></td><td><span data-href='matrlin2.html#K1'>matrlin2</span></td></tr>
+<tr><td><span data-link='5121.html#ELM30615'>AutMt</span></td><td><span data-href='zmatrlin.html#K10'>zmatrlin</span></td></tr>
+<tr><td><span data-link='4475.html#ELM12939'>B_Cut</span></td><td><span data-href='jordan3.html#K4'>jordan3</span></td></tr>
+<tr><td><span data-link='4209.html#ELM12179'>Coeff</span></td><td><span data-href='hurwitz.html#K1'>hurwitz</span></td></tr>
+<tr><td><span data-link='3736.html#ELM10656'>front_left_cell</span></td><td><span data-href='gobrd13.html#K4'>gobrd13</span></td></tr>
+<tr><td><span data-link='3735.html#ELM10655'>front_right_cell</span></td><td><span data-href='gobrd13.html#K3'>gobrd13</span></td></tr>
+<tr><td><span data-link='5034.html#ELM14489'>FinS2MX</span></td><td><span data-href='matrix13.html#K10'>matrix13</span></td></tr>
+<tr><td><span data-link='3721.html#ELM10623'>GoB</span></td><td><span data-href='goboard2.html#K2'>goboard2</span></td></tr>
+<tr><td><span data-link='3882.html#ELM12936'>Index</span></td><td><span data-href='jordan3.html#K1'>jordan3</span></td></tr>
+<tr><td><span data-link='3727.html#ELM10654'>left_cell</span></td><td><span data-href='gobrd13.html#K2'>gobrd13</span></td></tr>
+<tr><td><span data-link='5125.html#ELM14802'>lmlt</span></td><td><span data-href='matrlin.html#K5'>matrlin</span></td></tr>
+<tr><td><span data-link='5125.html#ELM30613'>lmlt</span></td><td><span data-href='zmatrlin.html#K8'>zmatrlin</span></td></tr>
+<tr><td><span data-link='4473.html#ELM12937'>L_Cut</span></td><td><span data-href='jordan3.html#K2'>jordan3</span></td></tr>
+<tr><td><span data-link='7504.html#ELM26836'>LSeg</span></td><td><span data-href='topreal1.html#K2'>topreal1</span></td></tr>
+<tr><td><span data-link='8297.html#ELM26837'>L~</span></td><td><span data-href='topreal1.html#K3'>topreal1</span></td></tr>
+<tr><td><span data-link='3314.html#ELM14735'>mlt</span></td><td><span data-href='matrixj1.html#K24'>matrixj1</span></td></tr>
+<tr><td><span data-link='5123.html#ELM14789'>Mx2Tran</span></td><td><span data-href='matrlin2.html#K4'>matrlin2</span></td></tr>
+<tr><td><span data-link='3726.html#ELM10653'>right_cell</span></td><td><span data-href='gobrd13.html#K1'>gobrd13</span></td></tr>
+<tr><td><span data-link='4474.html#ELM12938'>R_Cut</span></td><td><span data-href='jordan3.html#K3'>jordan3</span></td></tr>
+<tr><td><span data-link='9015.html#ELM30824'>ScFS</span></td><td><span data-href='zmodlat3.html#K1'>zmodlat3</span></td></tr>
+<tr><td><span data-link='9015.html#ELM30826'>ScFS</span></td><td><span data-href='zmodlat3.html#K3'>zmodlat3</span></td></tr>
+<tr><td><span data-link='5041.html#ELM14510'>Solutions_of</span></td><td><span data-href='matrix15.html#K5'>matrix15</span></td></tr>
+<tr><td><span data-link='5041.html#ELM14511'>Solutions_of</span></td><td><span data-href='matrix15.html#K6'>matrix15</span></td></tr>
+<tr><td><span data-link='3715.html#ELM10614'>X_axis</span></td><td><span data-href='goboard1.html#K1'>goboard1</span></td></tr>
+<tr><td><span data-link='3716.html#ELM10615'>Y_axis</span></td><td><span data-href='goboard1.html#K2'>goboard1</span></td></tr>
+<tr><td><span data-link='7525.html#ELM23357'>Z_Lin</span></td><td><span data-href='rlvect_x.html#K3'>rlvect_x</span></td></tr>
+<tr><td><span data-link='5037.html#ELM14502'>|(</span></td><td><span data-href='matrix14.html#NK3'>matrix14</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM27356'>
+<h2>9.   <span data-link='27.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='trees_4.html#M1'>trees_4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">D</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">x</font> be   <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <font color="Maroon" title="c1">D</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="FINSEQ_1:mode.1" data-link="27.html#ELM7090">FinSequence</span><br><span class="kw">redefine </span><a name="M1"><span class="kw">mode</span> </a> <span title="TREES_4:mode.1" data-link="27.html#ELM27356">FinSequence</span> of <font color="Maroon" title="c2">x</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c1">D</font>;<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-mode'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>mode</th></tr></thead>
+<tbody>
+<tr><td><span data-link='5740.html#ELM16958'>ArgumentSeq</span></td><td><span data-href='msaterm.html#M1'>msaterm</span></td></tr>
+<tr><td><span data-link='4190.html#ELM12118'>BinHuffmanTree</span></td><td><span data-href='huffman1.html#M2'>huffman1</span></td></tr>
+<tr><td><span data-link='2305.html#ELM6013'>SubtreeSeq</span></td><td><span data-href='dtconstr.html#M2'>dtconstr</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-pred'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>pred</th></tr></thead>
+<tbody>
+<tr><td><span data-link='4188.html#ELM12116'>is_constructingBinHuffmanTree</span></td><td><span data-href='huffman1.html#R1'>huffman1</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-func'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>func</th></tr></thead>
+<tbody>
+<tr><td><span data-link='64.html#ELM105'>-trm</span></td><td><span data-href='abcmiz_1.html#K36'>abcmiz_1</span></td></tr>
+<tr><td><span data-link='77.html#ELM130'>at</span></td><td><span data-href='abcmiz_1.html#K58'>abcmiz_1</span></td></tr>
+<tr><td><span data-link='2735.html#ELM29638'>Del</span></td><td><span data-href='wsierp_1.html#K4'>wsierp_1</span></td></tr>
+<tr><td><span data-link='6373.html#ELM19349'>LeastSorts</span></td><td><span data-href='osafree.html#K11'>osafree</span></td></tr>
+<tr><td><span data-link='1343.html#ELM19350'>pi</span></td><td><span data-href='osafree.html#K12'>osafree</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

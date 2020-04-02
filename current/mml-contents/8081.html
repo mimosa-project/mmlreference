@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>ExpandSub</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func ExpandSub</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='8081.html#ELM25937'>ExpandSub</span> [<span data-href='substut1.html#K14'>substut1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM25937'>
+<h2>1.   <span data-link='8081.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='substut1.html#K14'>substut1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be    <span title="QC_LANG1:mode.1" data-link="7084.html#ELM21567">QC-alphabet</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">x</font> be   <span title="QC_LANG1:NM.5" data-link="7088.html#ELM21571">bound_QC-variable</span> of <font color="Maroon" title="c1">A</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">p</font> be   <span title="QC_LANG1:NM.10" data-link="7092.html#ELM21576">QC-formula</span> of <font color="Maroon" title="c1">A</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">finSub</font> be   <span title="FINSET_1:attr.1" data-link="2772.html#ELM7423">finite</span>  <span title="SUBSTUT1:NM.1" data-link="8071.html#ELM25922">CQC_Substitution</span> of <font color="Maroon" title="c1">A</font>;<br><span class="kw">assume </span><a name="E1:23"></a><span class="lab"><font color="Green" title="E7">A1</font></span>: 
+ ex <font color="Olive" title="b1">Sub</font> being   <span title="SUBSTUT1:NM.1" data-link="8071.html#ELM25922">CQC_Substitution</span> of <font color="Maroon" title="c1">A</font> st <font color="Maroon" title="c4">finSub</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="SUBSTUT1:func.7" data-link="8075.html#ELM25930">RestrictSub</span> (<font color="Maroon" title="c2">x</font>,<span class="p1">(<span class="default"><span title="QC_LANG1:func.15" data-link="1274.html#ELM21592">All</span> (<font color="Maroon" title="c2">x</font>,<font color="Maroon" title="c3">p</font>)</span>)</span>,<font color="Olive" title="b1">Sub</font>)
+ ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K14"><span class="kw">func</span> </a> <span title="SUBSTUT1:func.14" data-link="8081.html#ELM25937">ExpandSub</span> (<font color="Maroon" title="c2">x</font>,<font color="Maroon" title="c3">p</font>,<font color="Maroon" title="c4">finSub</font>)<span class="kw"> -&gt; </span>  <span title="SUBSTUT1:NM.1" data-link="8071.html#ELM25922">CQC_Substitution</span> of <font color="Maroon" title="c1">A</font><span class="kw"> equals </span><a name="D13"><span class="comment"><font color="firebrick">:: SUBSTUT1:def 13</font></span><br></a><font color="Maroon" title="c4">finSub</font> <span title="XBOOLE_0:func.2" data-link="1743.html#ELM29649">\/</span> <span class="p1"><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">{</span><span class="default"><span class="p2"><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">[</span><span class="default"><font color="Maroon" title="c2">x</font>,<span class="p3">(<span class="default"><span title="QC_LANG3:func.2" data-link="2073.html#ELM21649">x.</span> <span class="p4">(<span class="default"><span title="SUBSTUT1:func.13" data-link="8080.html#ELM25936">upVar</span> (<font color="Maroon" title="c4">finSub</font>,<font color="Maroon" title="c3">p</font>)</span>)</span></span>)</span></span><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">]</span></span></span><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">}</span></span><span class="kw"> if </span><font color="Maroon" title="c2">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <font color="Maroon" title="c4">finSub</font><br><span class="kw"> otherwise </span><font color="Maroon" title="c4">finSub</font> <span title="XBOOLE_0:func.2" data-link="1743.html#ELM29649">\/</span> <span class="p1"><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">{</span><span class="default"><span class="p2"><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">[</span><span class="default"><font color="Maroon" title="c2">x</font>,<font color="Maroon" title="c2">x</font></span><span title="DOMAIN_1:func.1" data-link="802.html#ELM5992">]</span></span></span><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">}</span></span>;<br>
+</div>
+<span class="kw">coherence</span> <span class="kw">consistency</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

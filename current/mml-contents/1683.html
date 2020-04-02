@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>tolerates</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred tolerates</h1>
+<h2>List of Definitions (7)</h2>
+<ol>
+<li><span data-link='1683.html#ELM4278'>tolerates</span> [<span data-href='circcomb.html#R1'>circcomb</span>]</li>
+<li><span data-link='1683.html#ELM4279'>tolerates</span> [<span data-href='circcomb.html#R2'>circcomb</span>]</li>
+<li><span data-link='1683.html#ELM13312'>tolerates</span> [<span data-href='latsum_1.html#R1'>latsum_1</span>]</li>
+<li><span data-link='1683.html#ELM15690'>tolerates</span> [<span data-href='metric_2.html#R1'>metric_2</span>]</li>
+<li><span data-link='1683.html#ELM15691'>tolerates</span> [<span data-href='metric_2.html#R2'>metric_2</span>]</li>
+<li><span data-link='1683.html#ELM15692'>tolerates</span> [<span data-href='metric_2.html#R3'>metric_2</span>]</li>
+<li><span data-link='1683.html#ELM19576'>tolerates</span> [<span data-href='partfun1.html#R1'>partfun1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM4278'>
+<h2>1.   <span data-link='1683.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='circcomb.html#R1'>circcomb</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S1</font>, <font color="Maroon" title="c2">S2</font> be    <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c1">S1</font> <span title="CIRCCOMB:pred.1" data-link="1683.html#ELM4278">tolerates</span> <font color="Maroon" title="c2">S2</font><span class="kw"> means </span><a name="D1"><span class="comment"><font color="firebrick">:: CIRCCOMB:def 1</font></span><br></a>(  the <span title="MSUALG_1:sel.1" data-href="msualg_1.html#U1">Arity</span> of <font color="Maroon" title="c1">S1</font> <span title="PARTFUN1:pred.1" data-link="1683.html#ELM19576">tolerates</span>  the <span title="MSUALG_1:sel.1" data-href="msualg_1.html#U1">Arity</span> of <font color="Maroon" title="c2">S2</font> &amp;  the <span title="MSUALG_1:sel.2" data-href="msualg_1.html#U2">ResultSort</span> of <font color="Maroon" title="c1">S1</font> <span title="PARTFUN1:pred.1" data-link="1683.html#ELM19576">tolerates</span>  the <span title="MSUALG_1:sel.2" data-href="msualg_1.html#U2">ResultSort</span> of <font color="Maroon" title="c2">S2</font> );<br>
+</div>
+<span class="kw">reflexivity</span> <br><span class="kw">symmetry</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM4279'>
+<h2>2.   <span data-link='1683.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='circcomb.html#R2'>circcomb</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S1</font>, <font color="Maroon" title="c2">S2</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">A1</font> be    <span title="MSUALG_1:struct.3" data-link="5760.html#ELM17054">MSAlgebra</span> over <font color="Maroon" title="c1">S1</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">A2</font> be    <span title="MSUALG_1:struct.3" data-link="5760.html#ELM17054">MSAlgebra</span> over <font color="Maroon" title="c2">S2</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c3">A1</font> <span title="CIRCCOMB:pred.2" data-link="1683.html#ELM4279">tolerates</span> <font color="Maroon" title="c4">A2</font><span class="kw"> means </span><a name="D3"><span class="comment"><font color="firebrick">:: CIRCCOMB:def 3</font></span><br></a>( <font color="Maroon" title="c1">S1</font> <span title="CIRCCOMB:pred.1" data-link="1683.html#ELM4278">tolerates</span> <font color="Maroon" title="c2">S2</font> &amp;  the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c3">A1</font> <span title="PARTFUN1:pred.1" data-link="1683.html#ELM19576">tolerates</span>  the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c4">A2</font> &amp;  the <span title="MSUALG_1:sel.4" data-href="msualg_1.html#U4">Charact</span> of <font color="Maroon" title="c3">A1</font> <span title="PARTFUN1:pred.1" data-link="1683.html#ELM19576">tolerates</span>  the <span title="MSUALG_1:sel.4" data-href="msualg_1.html#U4">Charact</span> of <font color="Maroon" title="c4">A2</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM13312'>
+<h2>3.   <span data-link='1683.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='latsum_1.html#R1'>latsum_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font>, <font color="Maroon" title="c2">S</font> be    <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c1">R</font> <span title="LATSUM_1:pred.1" data-link="1683.html#ELM13312">tolerates</span> <font color="Maroon" title="c2">S</font><span class="kw"> means </span><a name="D1"><span class="comment"><font color="firebrick">:: LATSUM_1:def 1</font></span><br></a> for <font color="Olive" title="b1">x</font>, <font color="Olive" title="b2">y</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">R</font> <span title="XBOOLE_0:func.3" data-link="1487.html#ELM29650">/\</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c2">S</font> &amp; <font color="Olive" title="b2">y</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">R</font> <span title="XBOOLE_0:func.3" data-link="1487.html#ELM29650">/\</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c2">S</font> holds <br>( <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">x</font>,<font color="Olive" title="b2">y</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  the <span title="ORDERS_2:sel.1" data-href="orders_2.html#U1">InternalRel</span> of <font color="Maroon" title="c1">R</font> iff <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">x</font>,<font color="Olive" title="b2">y</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  the <span title="ORDERS_2:sel.1" data-href="orders_2.html#U1">InternalRel</span> of <font color="Maroon" title="c2">S</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM15690'>
+<h2>4.   <span data-link='1683.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='metric_2.html#R1'>metric_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">M</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="METRIC_1:struct.1" data-link="5299.html#ELM15643">MetrStruct</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">x</font>, <font color="Maroon" title="c3">y</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">M</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c2">x</font> <span title="METRIC_2:pred.1" data-link="1683.html#ELM15690">tolerates</span> <font color="Maroon" title="c3">y</font><span class="kw"> means </span><a name="D1"><span class="comment"><font color="firebrick">:: METRIC_2:def 1</font></span><br></a> <span title="METRIC_1:func.1" data-link="1039.html#ELM15649">dist</span> (<font color="Maroon" title="c2">x</font>,<font color="Maroon" title="c3">y</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> ;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM15691'>
+<h2>5.   <span data-link='1683.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='metric_2.html#R2'>metric_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">M</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="METRIC_1:attr.6" data-link="2338.html#ELM15668">Reflexive</span>   <span title="METRIC_1:struct.1" data-link="5299.html#ELM15643">MetrStruct</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">x</font>, <font color="Maroon" title="c3">y</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">M</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="METRIC_2:pred.1" data-link="1683.html#ELM15690">tolerates</span><br><span class="kw">redefine </span><a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c2">x</font> <span title="METRIC_2:pred.2" data-link="1683.html#ELM15691">tolerates</span> <font color="Maroon" title="c3">y</font>;<br><span class="kw">reflexivity</span> <span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('metric_1/T1')" onmouseout="rh()" data-href="metric_1.html#T1">METRIC_1:1</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM15692'>
+<h2>6.   <span data-link='1683.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='metric_2.html#R3'>metric_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">M</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="METRIC_1:attr.8" data-link="1088.html#ELM15670">symmetric</span>   <span title="METRIC_1:struct.1" data-link="5299.html#ELM15643">MetrStruct</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">x</font>, <font color="Maroon" title="c3">y</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">M</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="METRIC_2:pred.1" data-link="1683.html#ELM15690">tolerates</span><br><span class="kw">redefine </span><a name="R3"><span class="kw">pred</span> </a><font color="Maroon" title="c2">x</font> <span title="METRIC_2:pred.3" data-link="1683.html#ELM15692">tolerates</span> <font color="Maroon" title="c3">y</font>;<br><span class="kw">symmetry</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM19576'>
+<h2>7.   <span data-link='1683.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='partfun1.html#R1'>partfun1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">f</font>, <font color="Maroon" title="c2">g</font> be   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c1">f</font> <span title="PARTFUN1:pred.1" data-link="1683.html#ELM19576">tolerates</span> <font color="Maroon" title="c2">g</font><span class="kw"> means </span><a name="D4"><span class="comment"><font color="firebrick">:: PARTFUN1:def 4</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>   st <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <span class="p1">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font></span>)</span> <span title="XBOOLE_0:func.3" data-link="1487.html#ELM29650">/\</span> <span class="p1">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c2">g</font></span>)</span> holds <br><font color="Maroon" title="c1">f</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">g</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font>;<br>
+</div>
+<span class="kw">reflexivity</span> <br><span class="kw">symmetry</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>forward_difference</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func forward_difference</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='2232.html#ELM5843'>forward_difference</span> [<span data-href='diff_1.html#K6'>diff_1</span>]</li>
+<li><span data-link='2232.html#ELM28677'>forward_difference</span> [<span data-href='vsdiff_1.html#K8'>vsdiff_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM5843'>
+<h2>1.   <span data-link='2232.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='diff_1.html#K6'>diff_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">h</font> be   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>;<br><div about="#D3" typeof="oo:Definition" class="main-sentence">
+<a name="K6"><span class="kw">func</span> </a> <span title="DIFF_1:func.6" data-link="2232.html#ELM5843">forward_difference</span> (<font color="Maroon" title="c1">f</font>,<font color="Maroon" title="c2">h</font>)<span class="kw"> -&gt; </span>  <span title="SEQFUNC:NM.1" data-link="7847.html#ELM24953">Functional_Sequence</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E3">Def6</font></span>: <a name="D6"><span class="comment"><font color="firebrick">:: DIFF_1:def 6</font></span><br></a>( <span class="kw">it</span> <span title="SEQFUNC:func.1" data-link="141.html#ELM24954">.</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> <span title="RELSET_1:pred.2" data-link="1122.html#ELM22505">=</span> <font color="Maroon" title="c1">f</font> &amp; (  for <font color="Olive" title="b1">n</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> holds  <span class="kw">it</span> <span title="SEQFUNC:func.1" data-link="141.html#ELM24954">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="RELSET_1:pred.2" data-link="1122.html#ELM22505">=</span>  <span title="DIFF_1:func.3" data-link="2229.html#ELM5840">fD</span> (<span class="p1">(<span class="default"><span class="kw">it</span> <span title="SEQFUNC:func.1" data-link="141.html#ELM24954">.</span> <font color="Olive" title="b1">n</font></span>)</span>,<font color="Maroon" title="c2">h</font>) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM28677'>
+<h2>2.   <span data-link='2232.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='vsdiff_1.html#K8'>vsdiff_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">F</font>, <font color="Maroon" title="c2">G</font> be   <span title="VECTSP_1:NM.5" data-link="4666.html#ELM28502">Field</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">V</font> be   <span title="VECTSP_1:NM.9" data-link="8607.html#ELM28506">VectSp</span> of <font color="Maroon" title="c1">F</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">h</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c3">V</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">W</font> be   <span title="VECTSP_1:NM.9" data-link="8607.html#ELM28506">VectSp</span> of <font color="Maroon" title="c2">G</font>;<br><span class="kw">let </span><font color="Maroon" title="c6">f</font> be   <span title="STRUCT_0:NM.6" data-link="3155.html#ELM25752">Function</span> of <font color="Maroon" title="c3">V</font>,<font color="Maroon" title="c5">W</font>;<br><div about="#D5" typeof="oo:Definition" class="main-sentence">
+<a name="K8"><span class="kw">func</span> </a> <span title="VSDIFF_1:func.8" data-link="2232.html#ELM28677">forward_difference</span> (<font color="Maroon" title="c6">f</font>,<font color="Maroon" title="c4">h</font>)<span class="kw"> -&gt; </span>  <span title="SEQFUNC:NM.1" data-link="7847.html#ELM24953">Functional_Sequence</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c3">V</font>, the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c5">W</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E5">Def6</font></span>: <a name="D8"><span class="comment"><font color="firebrick">:: VSDIFF_1:def 8</font></span><br></a>( <span class="kw">it</span> <span title="SEQFUNC:func.1" data-link="141.html#ELM24954">.</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> <span title="RELSET_1:pred.2" data-link="1122.html#ELM22505">=</span> <font color="Maroon" title="c6">f</font> &amp; (  for <font color="Olive" title="b1">n</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> holds  <span class="kw">it</span> <span title="SEQFUNC:func.1" data-link="141.html#ELM24954">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="RELSET_1:pred.2" data-link="1122.html#ELM22505">=</span>  <span title="VSDIFF_1:func.5" data-link="2229.html#ELM28674">fD</span> (<span class="p1">(<span class="default"><span class="kw">it</span> <span title="SEQFUNC:func.1" data-link="141.html#ELM24954">.</span> <font color="Olive" title="b1">n</font></span>)</span>,<font color="Maroon" title="c4">h</font>) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

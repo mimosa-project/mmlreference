@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Selection-sort</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Selection-sort</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='7884.html#ELM25132'>Selection-sort</span> [<span data-href='sfmastr3.html#K5'>sfmastr3</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM25132'>
+<h2>1.   <span data-link='7884.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='sfmastr3.html#K5'>sfmastr3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">f</font> be    <span title="SCMFSA_2:mode.1" data-link="7744.html#ELM24346">FinSeq-Location</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K5"><span class="kw">func</span> </a> <span title="SFMASTR3:func.5" data-link="7884.html#ELM25132">Selection-sort</span> <font color="Maroon" title="c1">f</font><span class="kw"> -&gt; </span>  <span title="COMPOS_1:NM.4" data-link="1934.html#ELM5023">Program</span> of <span class="kw"> equals </span><a name="D6"><span class="comment"><font color="firebrick">:: SFMASTR3:def 6</font></span><br></a><span class="p1">(<span class="default"><span class="p2">(<span class="default">1 <span title="SFMASTR1:NK.2" data-link="7875.html#ELM25094">-stNotUsed</span> <span class="p3">(<span class="default"><span title="SFMASTR3:func.4" data-link="731.html#ELM25131">swap</span> (<font color="Maroon" title="c1">f</font>,<span class="p4">(<span class="default">1 <span title="SCMFSA_M:NK.10" data-link="7768.html#ELM24448">-stRWNotIn</span> <span class="p5">(<span class="default"><span title="SUBSET_1:func.1" data-link="857.html#ELM25870">{}</span> <span title="SCMFSA_2:func.2" data-link="7746.html#ELM24349">Int-Locations</span></span>)</span></span>)</span>,<span class="p4">(<span class="default">2 <span title="SCMFSA_M:NK.11" data-link="7769.html#ELM24449">-ndRWNotIn</span> <span class="p5">(<span class="default"><span title="SUBSET_1:func.1" data-link="857.html#ELM25870">{}</span> <span title="SCMFSA_2:func.2" data-link="7746.html#ELM24349">Int-Locations</span></span>)</span></span>)</span>)</span>)</span></span>)</span> <span title="SCMFSA_2:func.16" data-link="7751.html#ELM24363">:=len</span> <font color="Maroon" title="c1">f</font></span>)</span> <span title="SCMFSA6A:func.3" data-link="7713.html#ELM24174">";"</span> <span class="p1">(<span class="default"><span title="SFMASTR3:func.2" data-link="7802.html#ELM25129">for-up</span> (<span class="p2">(<span class="default">1 <span title="SCMFSA_M:NK.10" data-link="7768.html#ELM24448">-stRWNotIn</span> <span class="p3">(<span class="default"><span title="SUBSET_1:func.1" data-link="857.html#ELM25870">{}</span> <span title="SCMFSA_2:func.2" data-link="7746.html#ELM24349">Int-Locations</span></span>)</span></span>)</span>,<span class="p2">(<span class="default"><span title="SCMFSA_2:func.4" data-link="7748.html#ELM24351">intloc</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span></span>)</span>,<span class="p2">(<span class="default">1 <span title="SFMASTR1:NK.2" data-link="7875.html#ELM25094">-stNotUsed</span> <span class="p3">(<span class="default"><span title="SFMASTR3:func.4" data-link="731.html#ELM25131">swap</span> (<font color="Maroon" title="c1">f</font>,<span class="p4">(<span class="default">1 <span title="SCMFSA_M:NK.10" data-link="7768.html#ELM24448">-stRWNotIn</span> <span class="p5">(<span class="default"><span title="SUBSET_1:func.1" data-link="857.html#ELM25870">{}</span> <span title="SCMFSA_2:func.2" data-link="7746.html#ELM24349">Int-Locations</span></span>)</span></span>)</span>,<span class="p4">(<span class="default">2 <span title="SCMFSA_M:NK.11" data-link="7769.html#ELM24449">-ndRWNotIn</span> <span class="p5">(<span class="default"><span title="SUBSET_1:func.1" data-link="857.html#ELM25870">{}</span> <span title="SCMFSA_2:func.2" data-link="7746.html#ELM24349">Int-Locations</span></span>)</span></span>)</span>)</span>)</span></span>)</span>,<span class="p2">(<span class="default"><span class="p3">(<span class="default"><span title="SFMASTR3:func.3" data-link="7883.html#ELM25130">FinSeqMin</span> (<font color="Maroon" title="c1">f</font>,<span class="p4">(<span class="default">1 <span title="SCMFSA_M:NK.10" data-link="7768.html#ELM24448">-stRWNotIn</span> <span class="p5">(<span class="default"><span title="SUBSET_1:func.1" data-link="857.html#ELM25870">{}</span> <span title="SCMFSA_2:func.2" data-link="7746.html#ELM24349">Int-Locations</span></span>)</span></span>)</span>,<span class="p4">(<span class="default">1 <span title="SFMASTR1:NK.2" data-link="7875.html#ELM25094">-stNotUsed</span> <span class="p5">(<span class="default"><span title="SFMASTR3:func.4" data-link="731.html#ELM25131">swap</span> (<font color="Maroon" title="c1">f</font>,<span class="p0">(<span class="default">1 <span title="SCMFSA_M:NK.10" data-link="7768.html#ELM24448">-stRWNotIn</span> <span class="p1">(<span class="default"><span title="SUBSET_1:func.1" data-link="857.html#ELM25870">{}</span> <span title="SCMFSA_2:func.2" data-link="7746.html#ELM24349">Int-Locations</span></span>)</span></span>)</span>,<span class="p0">(<span class="default">2 <span title="SCMFSA_M:NK.11" data-link="7769.html#ELM24449">-ndRWNotIn</span> <span class="p1">(<span class="default"><span title="SUBSET_1:func.1" data-link="857.html#ELM25870">{}</span> <span title="SCMFSA_2:func.2" data-link="7746.html#ELM24349">Int-Locations</span></span>)</span></span>)</span>)</span>)</span></span>)</span>,<span class="p4">(<span class="default">2 <span title="SCMFSA_M:NK.11" data-link="7769.html#ELM24449">-ndRWNotIn</span> <span class="p5">(<span class="default"><span title="SUBSET_1:func.1" data-link="857.html#ELM25870">{}</span> <span title="SCMFSA_2:func.2" data-link="7746.html#ELM24349">Int-Locations</span></span>)</span></span>)</span>)</span>)</span> <span title="SCMFSA6A:func.2" data-link="7713.html#ELM24173">";"</span> <span class="p3">(<span class="default"><span title="SFMASTR3:func.4" data-link="731.html#ELM25131">swap</span> (<font color="Maroon" title="c1">f</font>,<span class="p4">(<span class="default">1 <span title="SCMFSA_M:NK.10" data-link="7768.html#ELM24448">-stRWNotIn</span> <span class="p5">(<span class="default"><span title="SUBSET_1:func.1" data-link="857.html#ELM25870">{}</span> <span title="SCMFSA_2:func.2" data-link="7746.html#ELM24349">Int-Locations</span></span>)</span></span>)</span>,<span class="p4">(<span class="default">2 <span title="SCMFSA_M:NK.11" data-link="7769.html#ELM24449">-ndRWNotIn</span> <span class="p5">(<span class="default"><span title="SUBSET_1:func.1" data-link="857.html#ELM25870">{}</span> <span title="SCMFSA_2:func.2" data-link="7746.html#ELM24349">Int-Locations</span></span>)</span></span>)</span>)</span>)</span></span>)</span>)</span>)</span>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

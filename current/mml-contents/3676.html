@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_augmenting_wrt</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_augmenting_wrt</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='3676.html#ELM10292'>is_augmenting_wrt</span> [<span data-href='glib_005.html#R5'>glib_005</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM10292'>
+<h2>1.   <span data-link='3676.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='glib_005.html#R5'>glib_005</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GLIB_003:attr.7" data-link="3646.html#ELM10109">real-weighted</span>  <span title="GLIB_003:NM.1" data-link="3600.html#ELM10054">WGraph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">EL</font> be   <span title="GLIB_005:NM.1" data-link="3677.html#ELM10293">FF:ELabeling</span> of <font color="Maroon" title="c1">G</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">W</font> be    <span title="GLIB_001:mode.3" data-link="3556.html#ELM9917">Walk</span> of <font color="Maroon" title="c1">G</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R5"><span class="kw">pred</span> </a><font color="Maroon" title="c3">W</font> <span title="GLIB_005:pred.5" data-link="3676.html#ELM10292">is_augmenting_wrt</span> <font color="Maroon" title="c2">EL</font><span class="kw"> means </span><a name="D8"><span class="comment"><font color="firebrick">:: GLIB_005:def 8</font></span><br></a> for <font color="Olive" title="b1">n</font> being   <span title="ABIAN:NV.2" data-link="116.html#ELM301">odd</span>  <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b1">n</font> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c3">W</font> holds <br>( ( <font color="Maroon" title="c3">W</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="GLIB_000:pred.2" data-link="3495.html#ELM9745">DJoins</span> <font color="Maroon" title="c3">W</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">n</font>,<font color="Maroon" title="c3">W</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 2</span>)</span>,<font color="Maroon" title="c1">G</font> implies <font color="Maroon" title="c2">EL</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Maroon" title="c3">W</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p2">(<span class="default"><font color="Olive" title="b1">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span></span>)</span> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <span class="p1">(<span class="default"><span title="GLIB_003:func.5" data-link="3631.html#ELM10093">the_Weight_of</span> <font color="Maroon" title="c1">G</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Maroon" title="c3">W</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p2">(<span class="default"><font color="Olive" title="b1">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span></span>)</span> ) &amp; (  not <font color="Maroon" title="c3">W</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="GLIB_000:pred.2" data-link="3495.html#ELM9745">DJoins</span> <font color="Maroon" title="c3">W</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">n</font>,<font color="Maroon" title="c3">W</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 2</span>)</span>,<font color="Maroon" title="c1">G</font> implies  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Maroon" title="c2">EL</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Maroon" title="c3">W</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p2">(<span class="default"><font color="Olive" title="b1">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span></span>)</span> ) );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

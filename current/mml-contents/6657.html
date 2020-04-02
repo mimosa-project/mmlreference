@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>writesto</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred writesto</h1>
+<h2>List of Definitions (3)</h2>
+<ol>
+<li><span data-link='6657.html#ELM20268'>writesto</span> [<span data-href='peterson.html#R2'>peterson</span>]</li>
+<li><span data-link='6657.html#ELM20270'>writesto</span> [<span data-href='peterson.html#R4'>peterson</span>]</li>
+<li><span data-link='6657.html#ELM20274'>writesto</span> [<span data-href='peterson.html#R8'>peterson</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM20268'>
+<h2>1.   <span data-link='6657.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='peterson.html#R2'>peterson</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">Values</font> be   <span title="PETERSON:NM.1" data-link="6663.html#ELM20282">Values_with_Bool</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be    <span title="PETERSON:struct.2" data-link="6662.html#ELM20281">Events_structure</span> over <font color="Maroon" title="c1">Values</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">e</font> be   <span title="PETERSON:NM.4" data-link="6665.html#ELM20285">Event</span> of <font color="Maroon" title="c2">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">x</font> be   <span title="PETERSON:NM.6" data-link="6667.html#ELM20287">Location</span> of <font color="Maroon" title="c2">S</font>;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c3">e</font> <span title="PETERSON:pred.1" data-link="6656.html#ELM20267">reads</span> <font color="Maroon" title="c4">x</font><span class="kw"> means </span><a name="D3"><span class="comment"><font color="firebrick">:: PETERSON:def 3</font></span><br></a><font color="Maroon" title="c3">e</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  the <span title="PETERSON:sel.9" data-href="peterson.html#U9">readE</span> of <font color="Maroon" title="c2">S</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Maroon" title="c4">x</font>;<br>
+</div>
+<div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c3">e</font> <span title="PETERSON:pred.2" data-link="6657.html#ELM20268">writesto</span> <font color="Maroon" title="c4">x</font><span class="kw"> means </span><a name="D4"><span class="comment"><font color="firebrick">:: PETERSON:def 4</font></span><br></a><font color="Maroon" title="c3">e</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  the <span title="PETERSON:sel.10" data-href="peterson.html#U10">writeE</span> of <font color="Maroon" title="c2">S</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Maroon" title="c4">x</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20270'>
+<h2>2.   <span data-link='6657.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='peterson.html#R4'>peterson</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">Values</font> be   <span title="PETERSON:NM.1" data-link="6663.html#ELM20282">Values_with_Bool</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be    <span title="PETERSON:struct.2" data-link="6662.html#ELM20281">Events_structure</span> over <font color="Maroon" title="c1">Values</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">x</font> be   <span title="PETERSON:NM.6" data-link="6667.html#ELM20287">Location</span> of <font color="Maroon" title="c2">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">E</font> be   <span title="PETERSON:NM.5" data-link="6666.html#ELM20286">EventSet</span> of <font color="Maroon" title="c2">S</font>;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="R3"><span class="kw">pred</span> </a><font color="Maroon" title="c4">E</font> <span title="PETERSON:pred.3" data-link="6656.html#ELM20269">reads</span> <font color="Maroon" title="c3">x</font><span class="kw"> means </span><a name="D5"><span class="comment"><font color="firebrick">:: PETERSON:def 5</font></span><br></a> ex <font color="Olive" title="b1">e</font> being   <span title="PETERSON:NM.4" data-link="6665.html#ELM20285">Event</span> of <font color="Maroon" title="c2">S</font> st <br>( <font color="Olive" title="b1">e</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c4">E</font> &amp; <font color="Olive" title="b1">e</font> <span title="PETERSON:pred.1" data-link="6656.html#ELM20267">reads</span> <font color="Maroon" title="c3">x</font> );<br>
+</div>
+<div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R4"><span class="kw">pred</span> </a><font color="Maroon" title="c4">E</font> <span title="PETERSON:pred.4" data-link="6657.html#ELM20270">writesto</span> <font color="Maroon" title="c3">x</font><span class="kw"> means </span><a name="D6"><span class="comment"><font color="firebrick">:: PETERSON:def 6</font></span><br></a> ex <font color="Olive" title="b1">e</font> being   <span title="PETERSON:NM.4" data-link="6665.html#ELM20285">Event</span> of <font color="Maroon" title="c2">S</font> st <br>( <font color="Olive" title="b1">e</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c4">E</font> &amp; <font color="Olive" title="b1">e</font> <span title="PETERSON:pred.2" data-link="6657.html#ELM20268">writesto</span> <font color="Maroon" title="c3">x</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20274'>
+<h2>3.   <span data-link='6657.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='peterson.html#R8'>peterson</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">Values</font> be   <span title="PETERSON:NM.1" data-link="6663.html#ELM20282">Values_with_Bool</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be    <span title="PETERSON:struct.2" data-link="6662.html#ELM20281">Events_structure</span> over <font color="Maroon" title="c1">Values</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">e</font> be   <span title="PETERSON:NM.4" data-link="6665.html#ELM20285">Event</span> of <font color="Maroon" title="c2">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">x</font> be   <span title="PETERSON:NM.6" data-link="6667.html#ELM20287">Location</span> of <font color="Maroon" title="c2">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">a</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">Values</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R8"><span class="kw">pred</span> </a><font color="Maroon" title="c3">e</font> <span title="PETERSON:pred.8" data-link="6657.html#ELM20274">writesto</span> <font color="Maroon" title="c4">x</font>,<font color="Maroon" title="c5">a</font><span class="kw"> means </span><a name="D11"><span class="comment"><font color="firebrick">:: PETERSON:def 11</font></span><br></a>( <font color="Maroon" title="c3">e</font> <span title="PETERSON:pred.2" data-link="6657.html#ELM20268">writesto</span> <font color="Maroon" title="c4">x</font> &amp;  <span title="PETERSON:func.1" data-link="6670.html#ELM20290">val</span> <font color="Maroon" title="c3">e</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c5">a</font> );<br>
+</div>
+<div about="#D0" typeof="oo:Definition" class="">
+<a name="R9"><span class="kw">pred</span> </a><font color="Maroon" title="c3">e</font> <span title="PETERSON:pred.9" data-link="6656.html#ELM20275">reads</span> <font color="Maroon" title="c4">x</font>,<font color="Maroon" title="c5">a</font><span class="kw"> means </span><a name="D12"><span class="comment"><font color="firebrick">:: PETERSON:def 12</font></span><br></a>( <font color="Maroon" title="c3">e</font> <span title="PETERSON:pred.1" data-link="6656.html#ELM20267">reads</span> <font color="Maroon" title="c4">x</font> &amp;  <span title="PETERSON:func.1" data-link="6670.html#ELM20290">val</span> <font color="Maroon" title="c3">e</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c5">a</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

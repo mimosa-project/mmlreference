@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>coset</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func coset</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='8035.html#ELM25701'>coset</span> [<span data-href='stacks_1.html#K11'>stacks_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM25701'>
+<h2>1.   <span data-link='8035.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='stacks_1.html#K11'>stacks_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   <span title="STACKS_1:NM.3" data-link="8029.html#ELM25690">StackAlgebra</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">s</font> be   <span title="STACKS_1:NM.2" data-link="8028.html#ELM25689">stack</span> of <font color="Maroon" title="c1">X</font>;<br><div about="#D29" typeof="oo:Definition" class="main-sentence">
+<a name="K11"><span class="kw">func</span> </a> <span title="STACKS_1:func.11" data-link="8035.html#ELM25701">coset</span> <font color="Maroon" title="c2">s</font><span class="kw"> -&gt; </span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of  the <span title="STRUCT_0:sel.4" data-href="struct_0.html#U4">carrier'</span> of <font color="Maroon" title="c1">X</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E29">Def17</font></span>: <a name="D17"><span class="comment"><font color="firebrick">:: STACKS_1:def 17</font></span><br></a>( <font color="Maroon" title="c2">s</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <span class="kw">it</span> &amp; (  for <font color="Olive" title="b1">e</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">X</font><br>  for <font color="Olive" title="b2">s1</font> being   <span title="STACKS_1:NM.2" data-link="8028.html#ELM25689">stack</span> of <font color="Maroon" title="c1">X</font>  st <font color="Olive" title="b2">s1</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <span class="kw">it</span> holds <br>(  <span title="STACKS_1:func.7" data-link="8032.html#ELM25697">push</span> (<font color="Olive" title="b1">e</font>,<font color="Olive" title="b2">s1</font>) <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <span class="kw">it</span> &amp; (  not  <span title="STACKS_1:pred.1" data-link="8025.html#ELM25683">emp</span> <font color="Olive" title="b2">s1</font> implies  <span title="STACKS_1:func.5" data-link="8030.html#ELM25695">pop</span> <font color="Olive" title="b2">s1</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <span class="kw">it</span> ) ) ) &amp; (  for <font color="Olive" title="b1">A</font> being   <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of  the <span title="STRUCT_0:sel.4" data-href="struct_0.html#U4">carrier'</span> of <font color="Maroon" title="c1">X</font>  st <font color="Maroon" title="c2">s</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Olive" title="b1">A</font> &amp; (  for <font color="Olive" title="b2">e</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">X</font><br>  for <font color="Olive" title="b3">s1</font> being   <span title="STACKS_1:NM.2" data-link="8028.html#ELM25689">stack</span> of <font color="Maroon" title="c1">X</font>  st <font color="Olive" title="b3">s1</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Olive" title="b1">A</font> holds <br>(  <span title="STACKS_1:func.7" data-link="8032.html#ELM25697">push</span> (<font color="Olive" title="b2">e</font>,<font color="Olive" title="b3">s1</font>) <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Olive" title="b1">A</font> &amp; (  not  <span title="STACKS_1:pred.1" data-link="8025.html#ELM25683">emp</span> <font color="Olive" title="b3">s1</font> implies  <span title="STACKS_1:func.5" data-link="8030.html#ELM25695">pop</span> <font color="Olive" title="b3">s1</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Olive" title="b1">A</font> ) ) ) holds <br><span class="kw">it</span> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span> <font color="Olive" title="b1">A</font> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

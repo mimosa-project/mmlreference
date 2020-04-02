@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>supp-term</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func supp-term</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='674.html#ELM1592'>supp-term</span> [<span data-href='aofa_a00.html#K17'>aofa_a00</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM1592'>
+<h2>1.   <span data-link='674.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='aofa_a00.html#K17'>aofa_a00</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   non  <span title="STRUCT_0:attr.11" data-link="17.html#ELM25778">void</span>   <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font> be  <span title="RELAT_1:attr.2" data-link="3057.html#ELM22398">V2</span>() <span title="STRUCT_0:NM.8" data-link="4273.html#ELM25754">ManySortedSet</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">T</font> be  <font color="Maroon" title="c2">X</font>,<font color="Maroon" title="c1">S</font> <span title="MSAFREE4:attr.5" data-link="5690.html#ELM16709">-terms</span>   <span title="MSAFREE4:attr.6" data-link="5691.html#ELM16710">all_vars_including</span>   <span title="MSAFREE4:attr.7" data-link="5692.html#ELM16711">inheriting_operations</span>   <span title="MSAFREE4:attr.8" data-link="5693.html#ELM16712">free_in_itself</span>   <span title="AOFA_A00:struct.1" data-link="659.html#ELM1564">VarMSAlgebra</span> over <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">G</font> be    <span title="AOFA_A00:struct.4" data-link="662.html#ELM1567">GeneratorSystem</span> over <font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">X</font>,<font color="Maroon" title="c3">T</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">s</font> be   <span title="MSUALG_1:NM.1" data-link="5761.html#ELM17055">SortSymbol</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c6">g</font> be    <span title="AOFA_A00:mode.4" data-link="667.html#ELM1575">Element</span> of <font color="Maroon" title="c4">G</font>,<font color="Maroon" title="c5">s</font>;<br><span class="kw">assume </span><a name="E1:101"></a><span class="lab"><font color="Green" title="E36">A1</font></span>: 
+<span class="p1">(<span class="default"> the <span title="AOFA_A00:sel.6" data-href="aofa_a00.html#U6">supported-term</span> of <font color="Maroon" title="c4">G</font> <span title="MSAFREE4:func.1" data-link="141.html#ELM16694">.</span> <font color="Maroon" title="c5">s</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c6">g</font> is    <span title="PBOOLE:mode.2" data-link="5785.html#ELM19816">ManySortedFunction</span> of  <span title="AOFA_A00:func.10" data-link="670.html#ELM1585">vf</span> <font color="Maroon" title="c6">g</font>, the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c3">T</font>
+ ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K17"><span class="kw">func</span> </a> <span title="AOFA_A00:func.17" data-link="674.html#ELM1592">supp-term</span> <font color="Maroon" title="c6">g</font><span class="kw"> -&gt; </span>   <span title="PBOOLE:mode.2" data-link="5785.html#ELM19816">ManySortedFunction</span> of  <span title="AOFA_A00:func.10" data-link="670.html#ELM1585">vf</span> <font color="Maroon" title="c6">g</font>, the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c3">T</font><span class="kw"> equals </span><a name="D24"><span class="comment"><font color="firebrick">:: AOFA_A00:def 24</font></span><br></a><span class="p1">(<span class="default"> the <span title="AOFA_A00:sel.6" data-href="aofa_a00.html#U6">supported-term</span> of <font color="Maroon" title="c4">G</font> <span title="MSAFREE4:func.1" data-link="141.html#ELM16694">.</span> <font color="Maroon" title="c5">s</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c6">g</font>;<br>
+</div>
+<span class="kw">coherence</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E36">A1</font></span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

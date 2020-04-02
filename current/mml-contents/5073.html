@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>-Matrices_over</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func -Matrices_over</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='5073.html#ELM14607'>-Matrices_over</span> [<span data-href='matrix_1.html#K1'>matrix_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM14607'>
+<h2>1.   <span data-link='5073.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='matrix_1.html#K1'>matrix_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">K</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ALGSTR_0:struct.6" data-link="324.html#ELM743">doubleLoopStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a><font color="Maroon" title="c2">n</font> <span title="MATRIX_1:func.1" data-link="5073.html#ELM14607">-Matrices_over</span> <font color="Maroon" title="c1">K</font><span class="kw"> -&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> <span class="kw"> equals </span><a name="D1"><span class="comment"><font color="firebrick">:: MATRIX_1:def 1</font></span><br></a><font color="Maroon" title="c2">n</font> <span title="FINSEQ_2:func.4" data-link="2732.html#ELM7182">-tuples_on</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">n</font> <span title="FINSEQ_2:func.4" data-link="2732.html#ELM7182">-tuples_on</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">K</font></span>)</span>;<br>
+</div>
+<span class="kw">coherence</span> <br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K2"><span class="kw">func</span> </a> <span title="MATRIX_1:func.2" data-link="5074.html#ELM14608">0.</span> (<font color="Maroon" title="c1">K</font>,<font color="Maroon" title="c2">n</font>)<span class="kw"> -&gt; </span>  <span title="MATRIX_1:NM.2" data-link="5063.html#ELM14604">Matrix</span> of <font color="Maroon" title="c2">n</font>,<font color="Maroon" title="c1">K</font><span class="kw"> equals </span><a name="D2"><span class="comment"><font color="firebrick">:: MATRIX_1:def 2</font></span><br></a><font color="Maroon" title="c2">n</font> <span title="FINSEQ_2:func.5" data-link="2731.html#ELM7183">|-&gt;</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">n</font> <span title="FINSEQ_2:func.5" data-link="2731.html#ELM7183">|-&gt;</span> <span class="p2">(<span class="default"><span title="STRUCT_0:func.4" data-link="5074.html#ELM25765">0.</span> <font color="Maroon" title="c1">K</font></span>)</span></span>)</span>;<br>
+</div>
+<span class="kw">coherence</span> <span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('matrix_0/T10')" onmouseout="rh()" data-href="matrix_0.html#T10">MATRIX_0:10</span></span>;<br><div about="#D1" typeof="oo:Definition" class="">
+<a name="K3"><span class="kw">func</span> </a> <span title="MATRIX_1:func.3" data-link="143.html#ELM14609">1.</span> (<font color="Maroon" title="c1">K</font>,<font color="Maroon" title="c2">n</font>)<span class="kw"> -&gt; </span>  <span title="MATRIX_1:NM.2" data-link="5063.html#ELM14604">Matrix</span> of <font color="Maroon" title="c2">n</font>,<font color="Maroon" title="c1">K</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E1">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: MATRIX_1:def 3</font></span><br></a>( (  for <font color="Olive" title="b1">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">i</font>,<font color="Olive" title="b1">i</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="MATRIX_0:func.2" data-link="5065.html#ELM14574">Indices</span> <span class="kw">it</span> holds <br><span class="kw">it</span> <span title="MATRIX_0:func.3" data-link="47.html#ELM14575">*</span> (<font color="Olive" title="b1">i</font>,<font color="Olive" title="b1">i</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="STRUCT_0:func.5" data-link="143.html#ELM25766">1.</span> <font color="Maroon" title="c1">K</font> ) &amp; (  for <font color="Olive" title="b1">i</font>, <font color="Olive" title="b2">j</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="MATRIX_0:func.2" data-link="5065.html#ELM14574">Indices</span> <span class="kw">it</span> &amp; <font color="Olive" title="b1">i</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Olive" title="b2">j</font> holds <br><span class="kw">it</span> <span title="MATRIX_0:func.3" data-link="47.html#ELM14575">*</span> (<font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="STRUCT_0:func.4" data-link="5074.html#ELM25765">0.</span> <font color="Maroon" title="c1">K</font> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <span class="kw">let </span><font color="Maroon" title="c3">A</font> be   <span title="MATRIX_1:NM.2" data-link="5063.html#ELM14604">Matrix</span> of <font color="Maroon" title="c2">n</font>,<font color="Maroon" title="c1">K</font>;<br><div about="#D2" typeof="oo:Definition" class="">
+<a name="K4"><span class="kw">func</span> </a> <span title="MATRIX_1:func.4" data-link="327.html#ELM14610">-</span> <font color="Maroon" title="c3">A</font><span class="kw"> -&gt; </span>  <span title="MATRIX_1:NM.2" data-link="5063.html#ELM14604">Matrix</span> of <font color="Maroon" title="c2">n</font>,<font color="Maroon" title="c1">K</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E2">Def4</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: MATRIX_1:def 4</font></span><br></a> for <font color="Olive" title="b1">i</font>, <font color="Olive" title="b2">j</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="MATRIX_0:func.2" data-link="5065.html#ELM14574">Indices</span> <font color="Maroon" title="c3">A</font> holds <br><span class="kw">it</span> <span title="MATRIX_0:func.3" data-link="47.html#ELM14575">*</span> (<font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="ALGSTR_0:func.4" data-link="327.html#ELM747">-</span> <span class="p1">(<span class="default"><font color="Maroon" title="c3">A</font> <span title="MATRIX_0:func.3" data-link="47.html#ELM14575">*</span> (<font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font>)</span>)</span>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <span class="kw">let </span><font color="Maroon" title="c4">B</font> be   <span title="MATRIX_1:NM.2" data-link="5063.html#ELM14604">Matrix</span> of <font color="Maroon" title="c2">n</font>,<font color="Maroon" title="c1">K</font>;<br><div about="#D3" typeof="oo:Definition" class="">
+<a name="K5"><span class="kw">func</span> </a><font color="Maroon" title="c3">A</font> <span title="MATRIX_1:func.5" data-link="229.html#ELM14611">+</span> <font color="Maroon" title="c4">B</font><span class="kw"> -&gt; </span>  <span title="MATRIX_1:NM.2" data-link="5063.html#ELM14604">Matrix</span> of <font color="Maroon" title="c2">n</font>,<font color="Maroon" title="c1">K</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E3">Def5</font></span>: <a name="D5"><span class="comment"><font color="firebrick">:: MATRIX_1:def 5</font></span><br></a> for <font color="Olive" title="b1">i</font>, <font color="Olive" title="b2">j</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="MATRIX_0:func.2" data-link="5065.html#ELM14574">Indices</span> <font color="Maroon" title="c3">A</font> holds <br><span class="kw">it</span> <span title="MATRIX_0:func.3" data-link="47.html#ELM14575">*</span> (<font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Maroon" title="c3">A</font> <span title="MATRIX_0:func.3" data-link="47.html#ELM14575">*</span> (<font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font>)</span>)</span> <span title="ALGSTR_0:func.1" data-link="229.html#ELM744">+</span> <span class="p1">(<span class="default"><font color="Maroon" title="c4">B</font> <span title="MATRIX_0:func.3" data-link="47.html#ELM14575">*</span> (<font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font>)</span>)</span>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster n -Matrices_over K ->  non  empty  ;
+</td><td><span data-href='matrix_1.html#FC1'>matrix_1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

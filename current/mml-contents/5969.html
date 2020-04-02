@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Gateaux_diff</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Gateaux_diff</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='5969.html#ELM17720'>Gateaux_diff</span> [<span data-href='ndiff_2.html#K3'>ndiff_2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM17720'>
+<h2>1.   <span data-link='5969.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='ndiff_2.html#K3'>ndiff_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font>, <font color="Maroon" title="c2">T</font> be   <span title="NORMSP_1:NM.1" data-link="6167.html#ELM18544">RealNormSpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">f</font> be   <span title="STRUCT_0:NM.12" data-link="6450.html#ELM25758">PartFunc</span> of <font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">T</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">x0</font>, <font color="Maroon" title="c5">z</font> be   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">assume </span><a name="E1:8"></a><span class="lab"><font color="Green" title="E4">A1</font></span>: 
+<font color="Maroon" title="c3">f</font> <span title="NDIFF_2:pred.1" data-link="5968.html#ELM17717">is_Gateaux_differentiable_in</span> <font color="Maroon" title="c4">x0</font>,<font color="Maroon" title="c5">z</font>
+ ;<br><div about="#D4" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="NDIFF_2:func.3" data-link="5969.html#ELM17720">Gateaux_diff</span> (<font color="Maroon" title="c3">f</font>,<font color="Maroon" title="c4">x0</font>,<font color="Maroon" title="c5">z</font>)<span class="kw"> -&gt; </span>  <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <font color="Maroon" title="c2">T</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E4">Def4</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: NDIFF_2:def 4</font></span><br></a> ex <font color="Olive" title="b1">N</font> being    <span title="NFCONT_1:mode.1" data-link="1605.html#ELM18285">Neighbourhood</span> of <font color="Maroon" title="c4">x0</font> st <br>( <font color="Olive" title="b1">N</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <font color="Maroon" title="c3">f</font> &amp; (  for <font color="Olive" title="b2">e</font> being   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>  st <font color="Olive" title="b2">e</font> <span title="XXREAL_0:NR.4" data-link="6283.html#ELM29822">&gt;</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  holds <br> ex <font color="Olive" title="b3">d</font> being   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span> st <br>( <font color="Olive" title="b3">d</font> <span title="XXREAL_0:NR.4" data-link="6283.html#ELM29822">&gt;</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  &amp; (  for <font color="Olive" title="b4">h</font> being   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>  st <span class="p1"><span title="COMPLEX1:func.9" data-link="174.html#ELM4939">|.</span><span class="default"><font color="Olive" title="b4">h</font></span><span title="COMPLEX1:func.9" data-link="174.html#ELM4939">.|</span></span> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Olive" title="b3">d</font> &amp; <font color="Olive" title="b4">h</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  &amp; <span class="p1">(<span class="default"><font color="Olive" title="b4">h</font> <span title="RLVECT_1:func.1" data-link="47.html#ELM23289">*</span> <font color="Maroon" title="c5">z</font></span>)</span> <span title="RLVECT_1:func.3" data-link="229.html#ELM23291">+</span> <font color="Maroon" title="c4">x0</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Olive" title="b1">N</font> holds <br><span class="p1"><span title="NORMSP_0:func.2" data-link="1038.html#ELM18532">||.</span><span class="default"><span class="p2">(<span class="default"><span class="p3">(<span class="default"><span class="p4">(<span class="default"><font color="Olive" title="b4">h</font> <span title="XCMPLX_0:func.5" data-link="43.html#ELM29690">"</span></span>)</span> <span title="RLVECT_1:func.1" data-link="47.html#ELM23289">*</span> <span class="p4">(<span class="default"><span class="p5">(<span class="default"><font color="Maroon" title="c3">f</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <span class="p0">(<span class="default"><span class="p1">(<span class="default"><font color="Olive" title="b4">h</font> <span title="RLVECT_1:func.1" data-link="47.html#ELM23289">*</span> <font color="Maroon" title="c5">z</font></span>)</span> <span title="RLVECT_1:func.3" data-link="229.html#ELM23291">+</span> <font color="Maroon" title="c4">x0</font></span>)</span></span>)</span> <span title="ALGSTR_0:func.5" data-link="327.html#ELM748">-</span> <span class="p5">(<span class="default"><font color="Maroon" title="c3">f</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Maroon" title="c4">x0</font></span>)</span></span>)</span></span>)</span> <span title="ALGSTR_0:func.5" data-link="327.html#ELM748">-</span> <span class="kw">it</span></span>)</span></span><span title="NORMSP_0:func.2" data-link="1038.html#ELM18532">.||</span></span> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Olive" title="b2">e</font> ) ) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E4">A1</font></span></span>;<br><span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

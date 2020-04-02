@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>destroys</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred destroys</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='7717.html#ELM24225'>destroys</span> [<span data-href='scmfsa7b.html#R3'>scmfsa7b</span>]</li>
+<li><span data-link='7717.html#ELM24226'>destroys</span> [<span data-href='scmfsa7b.html#R4'>scmfsa7b</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM24225'>
+<h2>1.   <span data-link='7717.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='scmfsa7b.html#R3'>scmfsa7b</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">i</font> be   <span title="COMPOS_1:NM.1" data-link="1931.html#ELM5020">Instruction</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">a</font> be   <span title="SCMFSA_2:NM.1" data-link="7743.html#ELM24345">Int-Location</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R3"><span class="kw">pred</span> </a><font color="Maroon" title="c1">i</font> <span title="SCMFSA7B:pred.3" data-link="7717.html#ELM24225">destroys</span> <font color="Maroon" title="c2">a</font><span class="kw"> means </span><a name="D3"><span class="comment"><font color="firebrick">:: SCMFSA7B:def 3</font></span><br></a> not  for <font color="Olive" title="b1">b</font> being   <span title="SCMFSA_2:NM.1" data-link="7743.html#ELM24345">Int-Location</span><br>  for <font color="Olive" title="b2">f</font> being    <span title="SCMFSA_2:mode.1" data-link="7744.html#ELM24346">FinSeq-Location</span>  holds <br> ( <font color="Maroon" title="c2">a</font> <span title="SCMFSA_2:func.6" data-link="478.html#ELM24353">:=</span> <font color="Olive" title="b1">b</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Maroon" title="c1">i</font> &amp;  <span title="SCMFSA_2:func.7" data-link="479.html#ELM24354">AddTo</span> (<font color="Maroon" title="c2">a</font>,<font color="Olive" title="b1">b</font>) <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Maroon" title="c1">i</font> &amp;  <span title="SCMFSA_2:func.8" data-link="480.html#ELM24355">SubFrom</span> (<font color="Maroon" title="c2">a</font>,<font color="Olive" title="b1">b</font>) <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Maroon" title="c1">i</font> &amp;  <span title="SCMFSA_2:func.9" data-link="481.html#ELM24356">MultBy</span> (<font color="Maroon" title="c2">a</font>,<font color="Olive" title="b1">b</font>) <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Maroon" title="c1">i</font> &amp;  <span title="SCMFSA_2:func.10" data-link="482.html#ELM24357">Divide</span> (<font color="Maroon" title="c2">a</font>,<font color="Olive" title="b1">b</font>) <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Maroon" title="c1">i</font> &amp;  <span title="SCMFSA_2:func.10" data-link="482.html#ELM24357">Divide</span> (<font color="Olive" title="b1">b</font>,<font color="Maroon" title="c2">a</font>) <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Maroon" title="c1">i</font> &amp; <font color="Maroon" title="c2">a</font> <span title="SCMFSA_2:func.14" data-link="478.html#ELM24361">:=</span> (<font color="Olive" title="b2">f</font>,<font color="Olive" title="b1">b</font>) <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Maroon" title="c1">i</font> &amp; <font color="Maroon" title="c2">a</font> <span title="SCMFSA_2:func.16" data-link="7751.html#ELM24363">:=len</span> <font color="Olive" title="b2">f</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Maroon" title="c1">i</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM24226'>
+<h2>2.   <span data-link='7717.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='scmfsa7b.html#R4'>scmfsa7b</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">I</font> be   <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>  <span title="RELAT_1:attr.4" data-link="7381.html#ELM22400">-defined</span>   the <span title="COMPOS_1:sel.1" data-href="compos_1.html#U1">InstructionsF</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span> <span title="RELAT_1:attr.5" data-link="7382.html#ELM22401">-valued</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">a</font> be   <span title="SCMFSA_2:NM.1" data-link="7743.html#ELM24345">Int-Location</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R4"><span class="kw">pred</span> </a><font color="Maroon" title="c1">I</font> <span title="SCMFSA7B:pred.4" data-link="7717.html#ELM24226">destroys</span> <font color="Maroon" title="c2">a</font><span class="kw"> means </span><a name="D4"><span class="comment"><font color="firebrick">:: SCMFSA7B:def 4</font></span><br></a> ex <font color="Olive" title="b1">i</font> being   <span title="COMPOS_1:NM.1" data-link="1931.html#ELM5020">Instruction</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span> st <br>( <font color="Olive" title="b1">i</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <font color="Maroon" title="c1">I</font> &amp; <font color="Olive" title="b1">i</font> <span title="SCMFSA7B:pred.3" data-link="7717.html#ELM24225">destroys</span> <font color="Maroon" title="c2">a</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

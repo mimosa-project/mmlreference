@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_succ_of</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_succ_of</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='5571.html#ELM16344'>is_succ_of</span> [<span data-href='modelc_3.html#R1'>modelc_3</span>]</li>
+<li><span data-link='5571.html#ELM16347'>is_succ_of</span> [<span data-href='modelc_3.html#R4'>modelc_3</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM16344'>
+<h2>1.   <span data-link='5571.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='modelc_3.html#R1'>modelc_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">v</font> be   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">N1</font>, <font color="Maroon" title="c3">N2</font> be    <span title="MODELC_3:struct.1" data-link="5578.html#ELM16353">LTLnode</span> over <font color="Maroon" title="c1">v</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">H</font> be   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c3">N2</font> <span title="MODELC_3:pred.1" data-link="5571.html#ELM16344">is_succ_of</span> <font color="Maroon" title="c2">N1</font>,<font color="Maroon" title="c4">H</font><span class="kw"> means </span><a name="D6"><span class="comment"><font color="firebrick">:: MODELC_3:def 6</font></span><br></a>( <font color="Maroon" title="c4">H</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  the <span title="MODELC_3:sel.2" data-href="modelc_3.html#U2">LTLnew</span> of <font color="Maroon" title="c2">N1</font> &amp; ( <font color="Maroon" title="c3">N2</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="MODELC_3:func.5" data-link="5583.html#ELM16359">SuccNode1</span> (<font color="Maroon" title="c4">H</font>,<font color="Maroon" title="c2">N1</font>) or ( ( <font color="Maroon" title="c4">H</font> is  <span title="MODELC_2:attr.5" data-link="5567.html#ELM16325">disjunctive</span>  or <font color="Maroon" title="c4">H</font> is  <span title="MODELC_2:attr.7" data-link="5569.html#ELM16327">Until</span>  or <font color="Maroon" title="c4">H</font> is  <span title="MODELC_2:attr.8" data-link="5570.html#ELM16328">Release</span>  ) &amp; <font color="Maroon" title="c3">N2</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="MODELC_3:func.6" data-link="5584.html#ELM16360">SuccNode2</span> (<font color="Maroon" title="c4">H</font>,<font color="Maroon" title="c2">N1</font>) ) ) );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM16347'>
+<h2>2.   <span data-link='5571.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='modelc_3.html#R4'>modelc_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">v</font> be   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">N1</font>, <font color="Maroon" title="c3">N2</font> be    <span title="MODELC_3:struct.1" data-link="5578.html#ELM16353">LTLnode</span> over <font color="Maroon" title="c1">v</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R4"><span class="kw">pred</span> </a><font color="Maroon" title="c3">N2</font> <span title="MODELC_3:pred.4" data-link="5571.html#ELM16347">is_succ_of</span> <font color="Maroon" title="c2">N1</font><span class="kw"> means </span><a name="D9"><span class="comment"><font color="firebrick">:: MODELC_3:def 9</font></span><br></a>( <font color="Maroon" title="c3">N2</font> <span title="MODELC_3:pred.2" data-link="5572.html#ELM16345">is_succ1_of</span> <font color="Maroon" title="c2">N1</font> or <font color="Maroon" title="c3">N2</font> <span title="MODELC_3:pred.3" data-link="5573.html#ELM16346">is_succ2_of</span> <font color="Maroon" title="c2">N1</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>with_nonterminals</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr with_nonterminals</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='2322.html#ELM6035'>with_nonterminals</span> [<span data-href='dtconstr.html#V2'>dtconstr</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM6035'>
+<h2>1.   <span data-link='2322.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='dtconstr.html#V2'>dtconstr</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c5">G</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="LANG1:struct.1" data-link="4590.html#ELM13219">DTConstrStr</span> ;<br><div about="#D24" typeof="oo:Definition">
+<a name="V1"><span class="kw">attr</span> </a><font color="Maroon" title="c1">G</font> is  <span title="DTCONSTR:attr.1" data-link="2321.html#ELM6034">with_terminals</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E24">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: DTCONSTR:def 3</font></span><br></a> <span title="LANG1:func.1" data-link="72.html#ELM13223">Terminals</span> <font color="Maroon" title="c1">G</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span> ;<br>
+</div>
+<div about="#D25" typeof="oo:Definition" class="main-sentence">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c1">G</font> is  <span title="DTCONSTR:attr.2" data-link="2322.html#ELM6035">with_nonterminals</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E25">Def4</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: DTCONSTR:def 4</font></span><br></a> <span title="LANG1:func.2" data-link="73.html#ELM13224">NonTerminals</span> <font color="Maroon" title="c1">G</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span> ;<br>
+</div>
+<div about="#D26" typeof="oo:Definition">
+<a name="V3"><span class="kw">attr</span> </a><font color="Maroon" title="c1">G</font> is  <span title="DTCONSTR:attr.3" data-link="2323.html#ELM6036">with_useful_nonterminals</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E26">Def5</font></span>: <a name="D5"><span class="comment"><font color="firebrick">:: DTCONSTR:def 5</font></span><br></a> for <font color="Olive" title="b1">nt</font> being   <span title="LANG1:NM.1" data-link="4592.html#ELM13221">Symbol</span> of <font color="Maroon" title="c1">G</font>  st <font color="Olive" title="b1">nt</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="LANG1:func.2" data-link="73.html#ELM13224">NonTerminals</span> <font color="Maroon" title="c1">G</font> holds <br> ex <font color="Olive" title="b2">p</font> being    <span title="TREES_4:mode.1" data-link="27.html#ELM27356">FinSequence</span> of  <span title="DTCONSTR:func.4" data-link="2307.html#ELM6017">TS</span> <font color="Maroon" title="c1">G</font> st <font color="Olive" title="b1">nt</font> <span title="LANG1:pred.1" data-link="119.html#ELM13216">==&gt;</span>  <span title="DTCONSTR:func.1" data-link="2306.html#ELM6014">roots</span> <font color="Olive" title="b2">p</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  non  empty   strict   with_terminals   with_nonterminals   with_useful_nonterminals   binary   for    DTConstrStr ;
+</td><td><span data-href='bintree1.html#RC4'>bintree1</span></td></tr>
+<tr><td>
+cluster   ->  binary   for    Element of  TS G;
+</td><td><span data-href='bintree1.html#CC2'>bintree1</span></td></tr>
+<tr><td>
+cluster  non  empty   strict   with_terminals   with_nonterminals   with_useful_nonterminals   for    DTConstrStr ;
+</td><td><span data-href='dtconstr.html#RC1'>dtconstr</span></td></tr>
+<tr><td>
+cluster  PeanoNat  ->  non  empty   strict   with_terminals   with_nonterminals   with_useful_nonterminals  ;
+</td><td><span data-href='dtconstr.html#FC4'>dtconstr</span></td></tr>
+<tr><td>
+cluster  DTConUA (f,X) ->  strict   with_nonterminals  ;
+</td><td><span data-href='freealg.html#FC2'>freealg</span></td></tr>
+<tr><td>
+cluster  DTConUA (f,X) ->  strict   with_nonterminals   with_useful_nonterminals  ;
+</td><td><span data-href='freealg.html#FC3'>freealg</span></td></tr>
+<tr><td>
+cluster  DTConUA (f,D) ->  strict   with_terminals   with_nonterminals   with_useful_nonterminals  ;
+</td><td><span data-href='freealg.html#FC4'>freealg</span></td></tr>
+<tr><td>
+cluster  DTConMSA X ->  with_terminals   with_nonterminals   with_useful_nonterminals  ;
+</td><td><span data-href='msafree.html#FC6'>msafree</span></td></tr>
+<tr><td>
+cluster  DTConOSA X ->  with_terminals   with_nonterminals   with_useful_nonterminals  ;
+</td><td><span data-href='osafree.html#FC2'>osafree</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>.PickedAt</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func .PickedAt</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='4763.html#ELM13672'>.PickedAt</span> [<span data-href='lexbfs.html#K6'>lexbfs</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM13672'>
+<h2>1.   <span data-link='4763.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='lexbfs.html#K6'>lexbfs</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GLIB_000:attr.2" data-link="2772.html#ELM9804">finite</span>  <span title="GLIB_000:NM.2" data-link="3502.html#ELM9753">_Graph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be   <span title="LEXBFS:NM.2" data-link="4756.html#ELM13662">VNumberingSeq</span> of <font color="Maroon" title="c1">G</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><div about="#D24" typeof="oo:Definition" class="main-sentence">
+<a name="K6"><span class="kw">func</span> </a><font color="Maroon" title="c2">S</font> <span title="LEXBFS:func.6" data-link="4763.html#ELM13672">.PickedAt</span> <font color="Maroon" title="c3">n</font><span class="kw"> -&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E24">Def9</font></span>: <a name="D10"><span class="comment"><font color="firebrick">:: LEXBFS:def 10</font></span><br></a><span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  the    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="GLIB_000:func.6" data-link="3516.html#ELM9768">the_Vertices_of</span> <font color="Maroon" title="c1">G</font><span class="kw"> if </span><font color="Maroon" title="c3">n</font> <span title="XXREAL_0:NR.2" data-link="786.html#ELM29820">&gt;=</span> <font color="Maroon" title="c2">S</font> <span title="GLIB_000:func.39" data-link="3539.html#ELM9801">.Lifespan()</span> <br><span class="kw"> otherwise </span>(  not <span class="kw">it</span> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">S</font> <span title="LEXBFS:func.5" data-link="141.html#ELM13671">.</span> <font color="Maroon" title="c3">n</font></span>)</span> &amp; <font color="Maroon" title="c2">S</font> <span title="LEXBFS:func.5" data-link="141.html#ELM13671">.</span> <span class="p1">(<span class="default"><font color="Maroon" title="c3">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">S</font> <span title="LEXBFS:func.5" data-link="141.html#ELM13671">.</span> <font color="Maroon" title="c3">n</font></span>)</span> <span title="FUNCT_4:func.1" data-link="517.html#ELM8937">+*</span> <span class="p1">(<span class="default"><span class="kw">it</span> <span title="FUNCOP_1:func.17" data-link="487.html#ELM8746">.--&gt;</span> <span class="p2">(<span class="default"><span class="p3">(<span class="default"><font color="Maroon" title="c2">S</font> <span title="GLIB_000:func.39" data-link="3539.html#ELM9801">.Lifespan()</span></span>)</span> <span title="NAT_D:func.7" data-link="497.html#ELM17598">-'</span> <font color="Maroon" title="c3">n</font></span>)</span></span>)</span> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <span class="kw">consistency</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

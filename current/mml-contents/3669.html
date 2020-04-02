@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>PRIM:CompSeq</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func PRIM:CompSeq</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='3669.html#ELM10274'>PRIM:CompSeq</span> [<span data-href='glib_004.html#K16'>glib_004</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM10274'>
+<h2>1.   <span data-link='3669.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='glib_004.html#K16'>glib_004</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GLIB_003:attr.7" data-link="3646.html#ELM10109">real-weighted</span>  <span title="GLIB_003:NM.1" data-link="3600.html#ELM10054">WGraph</span>;<br><div about="#D36" typeof="oo:Definition" class="main-sentence">
+<a name="K16"><span class="kw">func</span> </a> <span title="GLIB_004:func.16" data-link="3669.html#ELM10274">PRIM:CompSeq</span> <font color="Maroon" title="c1">G</font><span class="kw"> -&gt; </span>   <span title="GLIB_004:mode.3" data-link="3656.html#ELM10257">PRIM:LabelingSeq</span> of <font color="Maroon" title="c1">G</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E36">Def17</font></span>: <a name="D17"><span class="comment"><font color="firebrick">:: GLIB_004:def 17</font></span><br></a>( <span class="kw">it</span> <span title="GLIB_004:func.15" data-link="141.html#ELM10273">.</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="GLIB_004:func.13" data-link="3667.html#ELM10271">PRIM:Init</span> <font color="Maroon" title="c1">G</font> &amp; (  for <font color="Olive" title="b1">n</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> holds  <span class="kw">it</span> <span title="GLIB_004:func.15" data-link="141.html#ELM10273">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="GLIB_004:func.14" data-link="3668.html#ELM10272">PRIM:Step</span> <span class="p1">(<span class="default"><span class="kw">it</span> <span title="GLIB_004:func.15" data-link="141.html#ELM10273">.</span> <font color="Olive" title="b1">n</font></span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster   ->  connected   for    inducedSubgraph of G1,((PRIM:CompSeq G1) . n) `1 ,G1 .edgesBetween (((PRIM:CompSeq G1) . n) `1);
+</td><td><span data-href='glib_004.html#CC1'>glib_004</span></td></tr>
+<tr><td>
+cluster   ->  connected   for    inducedSubgraph of G1,((PRIM:CompSeq G1) . n) `1 ,((PRIM:CompSeq G1) . n) `2 ;
+</td><td><span data-href='glib_004.html#CC2'>glib_004</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

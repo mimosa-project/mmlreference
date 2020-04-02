@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>stable</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr stable</h1>
+<h2>List of Definitions (5)</h2>
+<ol>
+<li><span data-link='397.html#ELM947'>stable</span> [<span data-href='algstr_4.html#V2'>algstr_4</span>]</li>
+<li><span data-link='397.html#ELM4387'>stable</span> [<span data-href='circuit2.html#V1'>circuit2</span>]</li>
+<li><span data-link='397.html#ELM5872'>stable</span> [<span data-href='dilworth.html#V2'>dilworth</span>]</li>
+<li><span data-link='397.html#ELM17199'>stable</span> [<span data-href='msualg_6.html#V4'>msualg_6</span>]</li>
+<li><span data-link='397.html#ELM24800'>stable</span> [<span data-href='scmyciel.html#V9'>scmyciel</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM947'>
+<h2>1.   <span data-link='397.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='algstr_4.html#V2'>algstr_4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">M</font> be    <span title="ALGSTR_0:struct.3" data-link="321.html#ELM740">multMagma</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font> be   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">M</font>;<br><div about="#D14" typeof="oo:Definition" class="main-sentence">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c2">A</font> is  <span title="ALGSTR_4:attr.2" data-link="397.html#ELM947">stable</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E14">Def10</font></span>: <a name="D10"><span class="comment"><font color="firebrick">:: ALGSTR_4:def 10</font></span><br></a> for <font color="Olive" title="b1">v</font>, <font color="Olive" title="b2">w</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">M</font>  st <font color="Olive" title="b1">v</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">A</font> &amp; <font color="Olive" title="b2">w</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">A</font> holds <br><font color="Olive" title="b1">v</font> <span title="ALGSTR_0:func.6" data-link="47.html#ELM749">*</span> <font color="Olive" title="b2">w</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">A</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  stable   for    Element of  bool  the carrier of M;
+</td><td><span data-href='algstr_4.html#RC5'>algstr_4</span></td></tr>
+<tr><td>
+cluster  the carrier of N ->  stable   for  Subset of M;
+</td><td><span data-href='algstr_4.html#FC8'>algstr_4</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM4387'>
+<h2>2.   <span data-link='397.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='circuit2.html#V1'>circuit2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">IIG</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   non  <span title="STRUCT_0:attr.11" data-link="17.html#ELM25778">void</span>   <span title="MSAFREE2:attr.2" data-link="3588.html#ELM16662">Circuit-like</span>   <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">SCS</font> be   <span title="MSUALG_1:attr.4" data-link="3057.html#ELM17069">non-empty</span>  <span title="CIRCUIT1:NM.1" data-link="1674.html#ELM4365">Circuit</span> of <font color="Maroon" title="c1">IIG</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">IT</font> be   <span title="CIRCUIT1:NM.3" data-link="1714.html#ELM4367">State</span> of <font color="Maroon" title="c2">SCS</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V1"><span class="kw">attr</span> </a><font color="Maroon" title="c3">IT</font> is  <span title="CIRCUIT2:attr.1" data-link="397.html#ELM4387">stable</span> <span class="kw"> means </span><a name="D6"><span class="comment"><font color="firebrick">:: CIRCUIT2:def 6</font></span><br></a><font color="Maroon" title="c3">IT</font> <span title="PBOOLE:pred.8" data-link="1122.html#ELM19811">=</span>  <span title="CIRCUIT2:func.6" data-link="1724.html#ELM4383">Following</span> <font color="Maroon" title="c3">IT</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM5872'>
+<h2>3.   <span data-link='397.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='dilworth.html#V2'>dilworth</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font> be    <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">R</font>;<br><div about="#D12" typeof="oo:Definition" class="main-sentence">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c2">S</font> is  <span title="DILWORTH:attr.2" data-link="397.html#ELM5872">stable</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E12">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: DILWORTH:def 2</font></span><br></a> for <font color="Olive" title="b1">x</font>, <font color="Olive" title="b2">y</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">R</font>  st <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">S</font> &amp; <font color="Olive" title="b2">y</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">S</font> &amp; <font color="Olive" title="b1">x</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Olive" title="b2">y</font> holds <br>(  not <font color="Olive" title="b1">x</font> <span title="ORDERS_2:pred.1" data-link="491.html#ELM18882">&lt;=</span> <font color="Olive" title="b2">y</font> &amp;  not <font color="Olive" title="b2">y</font> <span title="ORDERS_2:pred.1" data-link="491.html#ELM18882">&lt;=</span> <font color="Olive" title="b1">x</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  trivial   ->  stable   for    Element of  bool  the carrier of R;
+</td><td><span data-href='dilworth.html#CC3'>dilworth</span></td></tr>
+<tr><td>
+cluster  stable   for    Element of  bool  the carrier of R;
+</td><td><span data-href='dilworth.html#RC4'>dilworth</span></td></tr>
+<tr><td>
+cluster  finite   stable   for    Element of  bool  the carrier of R;
+</td><td><span data-href='dilworth.html#RC5'>dilworth</span></td></tr>
+<tr><td>
+cluster  non  empty   finite   stable   for    Element of  bool  the carrier of R;
+</td><td><span data-href='dilworth.html#RC6'>dilworth</span></td></tr>
+<tr><td>
+cluster  stable   ->  finite   for    Element of  bool  the carrier of R;
+</td><td><span data-href='dilworth.html#CC7'>dilworth</span></td></tr>
+<tr><td>
+cluster  minimals R ->  stable  ;
+</td><td><span data-href='dilworth.html#FC7'>dilworth</span></td></tr>
+<tr><td>
+cluster  maximals R ->  stable  ;
+</td><td><span data-href='dilworth.html#FC8'>dilworth</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM17199'>
+<h2>4.   <span data-link='397.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='msualg_6.html#V4'>msualg_6</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   non  <span title="STRUCT_0:attr.11" data-link="17.html#ELM25778">void</span>   <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font> be    <span title="MSUALG_1:struct.3" data-link="5760.html#ELM17054">MSAlgebra</span> over <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">R</font> be   <span title="MSUALG_4:NM.3" data-link="5788.html#ELM17140">ManySortedRelation</span> of <font color="Maroon" title="c2">A</font>;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c3">R</font> is  <span title="MSUALG_6:attr.2" data-link="158.html#ELM17197">compatible</span> <span class="kw"> means </span><a name="D7"><span class="comment"><font color="firebrick">:: MSUALG_6:def 7</font></span><br></a> for <font color="Olive" title="b1">o</font> being   <span title="MSUALG_1:NM.2" data-link="32.html#ELM17056">OperSymbol</span> of <font color="Maroon" title="c1">S</font><br>  for <font color="Olive" title="b2">a</font>, <font color="Olive" title="b3">b</font> being   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>  st <font color="Olive" title="b2">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="MSUALG_1:func.3" data-link="5763.html#ELM17059">Args</span> (<font color="Olive" title="b1">o</font>,<font color="Maroon" title="c2">A</font>) &amp; <font color="Olive" title="b3">b</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="MSUALG_1:func.3" data-link="5763.html#ELM17059">Args</span> (<font color="Olive" title="b1">o</font>,<font color="Maroon" title="c2">A</font>) &amp; (  for <font color="Olive" title="b4">n</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>   st <font color="Olive" title="b4">n</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <span class="p1">(<span class="default"><span title="MSUALG_1:func.1" data-link="4995.html#ELM17057">the_arity_of</span> <font color="Olive" title="b1">o</font></span>)</span> holds <br><span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><span class="p2">(<span class="default"><font color="Olive" title="b2">a</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b4">n</font></span>)</span>,<span class="p2">(<span class="default"><font color="Olive" title="b3">b</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b4">n</font></span>)</span></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c3">R</font> <span title="MSUALG_4:func.1" data-link="141.html#ELM17142">.</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="MSUALG_1:func.1" data-link="4995.html#ELM17057">the_arity_of</span> <font color="Olive" title="b1">o</font></span>)</span> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b4">n</font></span>)</span> ) holds <br><span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><span class="p2">(<span class="default"><span class="p3">(<span class="default"><span title="MSUALG_1:func.5" data-link="5764.html#ELM17061">Den</span> (<font color="Olive" title="b1">o</font>,<font color="Maroon" title="c2">A</font>)</span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b2">a</font></span>)</span>,<span class="p2">(<span class="default"><span class="p3">(<span class="default"><span title="MSUALG_1:func.5" data-link="5764.html#ELM17061">Den</span> (<font color="Olive" title="b1">o</font>,<font color="Maroon" title="c2">A</font>)</span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b3">b</font></span>)</span></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c3">R</font> <span title="MSUALG_4:func.1" data-link="141.html#ELM17142">.</span> <span class="p1">(<span class="default"><span title="MSUALG_1:func.2" data-link="5762.html#ELM17058">the_result_sort_of</span> <font color="Olive" title="b1">o</font></span>)</span>;<br>
+</div>
+<div about="#D27" typeof="oo:Definition" class="">
+<a name="V3"><span class="kw">attr</span> </a><font color="Maroon" title="c3">R</font> is  <span title="MSUALG_6:attr.3" data-link="157.html#ELM17198">invariant</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E27">Def8</font></span>: <a name="D8"><span class="comment"><font color="firebrick">:: MSUALG_6:def 8</font></span><br></a> for <font color="Olive" title="b1">s1</font>, <font color="Olive" title="b2">s2</font> being   <span title="MSUALG_1:NM.1" data-link="5761.html#ELM17055">SortSymbol</span> of <font color="Maroon" title="c1">S</font><br>  for <font color="Olive" title="b3">t</font> being   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>  st <font color="Olive" title="b3">t</font> <span title="MSUALG_6:pred.1" data-link="5803.html#ELM17181">is_e.translation_of</span> <font color="Maroon" title="c2">A</font>,<font color="Olive" title="b1">s1</font>,<font color="Olive" title="b2">s2</font> holds <br> for <font color="Olive" title="b4">a</font>, <font color="Olive" title="b5">b</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b4">a</font>,<font color="Olive" title="b5">b</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c3">R</font> <span title="MSUALG_4:func.1" data-link="141.html#ELM17142">.</span> <font color="Olive" title="b1">s1</font> holds <br><span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><span class="p2">(<span class="default"><font color="Olive" title="b3">t</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b4">a</font></span>)</span>,<span class="p2">(<span class="default"><font color="Olive" title="b3">t</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b5">b</font></span>)</span></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c3">R</font> <span title="MSUALG_4:func.1" data-link="141.html#ELM17142">.</span> <font color="Olive" title="b2">s2</font>;<br>
+</div>
+<div about="#D28" typeof="oo:Definition" class="main-sentence">
+<a name="V4"><span class="kw">attr</span> </a><font color="Maroon" title="c3">R</font> is  <span title="MSUALG_6:attr.4" data-link="397.html#ELM17199">stable</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E28">Def9</font></span>: <a name="D9"><span class="comment"><font color="firebrick">:: MSUALG_6:def 9</font></span><br></a> for <font color="Olive" title="b1">h</font> being    <span title="MSUALG_6:mode.1" data-link="1020.html#ELM17183">Endomorphism</span> of <font color="Maroon" title="c2">A</font><br>  for <font color="Olive" title="b2">s</font> being   <span title="MSUALG_1:NM.1" data-link="5761.html#ELM17055">SortSymbol</span> of <font color="Maroon" title="c1">S</font><br>  for <font color="Olive" title="b3">a</font>, <font color="Olive" title="b4">b</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b3">a</font>,<font color="Olive" title="b4">b</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c3">R</font> <span title="MSUALG_4:func.1" data-link="141.html#ELM17142">.</span> <font color="Olive" title="b2">s</font> holds <br><span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><span class="p2">(<span class="default"><span class="p3">(<span class="default"><font color="Olive" title="b1">h</font> <span title="MSUALG_3:func.1" data-link="141.html#ELM17127">.</span> <font color="Olive" title="b2">s</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b3">a</font></span>)</span>,<span class="p2">(<span class="default"><span class="p3">(<span class="default"><font color="Olive" title="b1">h</font> <span title="MSUALG_3:func.1" data-link="141.html#ELM17127">.</span> <font color="Olive" title="b2">s</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b4">b</font></span>)</span></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c3">R</font> <span title="MSUALG_4:func.1" data-link="141.html#ELM17142">.</span> <font color="Olive" title="b2">s</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster V6()  ->  invariant   stable   NF-var   for    ManySortedRelation of  the Sorts of (Free (S,X)), the Sorts of (Free (S,X));
+</td><td><span data-href='msafree4.html#CC17'>msafree4</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   the carrier of S -defined   Function-like   total   Relation-yielding   invariant   stable   terminating   with_UN_property   NF-var   for    ManySortedRelation of  the Sorts of (Free (S,X)), the Sorts of (Free (S,X));
+</td><td><span data-href='msafree4.html#RC17'>msafree4</span></td></tr>
+<tr><td>
+cluster  NFAlgebra R ->  strict   non-empty  X,S -terms  ;
+</td><td><span data-href='msafree4.html#FC19'>msafree4</span></td></tr>
+<tr><td>
+cluster  NFAlgebra R ->  strict   non-empty   all_vars_including   inheriting_operations   free_in_itself  ;
+</td><td><span data-href='msafree4.html#FC20'>msafree4</span></td></tr>
+<tr><td>
+cluster  NFAlgebra R ->  struct-invariant  ;
+</td><td><span data-href='msafree5.html#FC23'>msafree5</span></td></tr>
+<tr><td>
+cluster  Relation-like   the carrier of S -defined   non  empty   Function-like   total   Relation-yielding   MSEquivalence-like   invariant   stable   for    ManySortedRelation of  the Sorts of A, the Sorts of A;
+</td><td><span data-href='msualg_6.html#RC2'>msualg_6</span></td></tr>
+<tr><td>
+cluster  StabCl R -> V2()  stable  ;
+</td><td><span data-href='msualg_6.html#FC3'>msualg_6</span></td></tr>
+<tr><td>
+cluster  TRS R -> V2()  invariant   stable  ;
+</td><td><span data-href='msualg_6.html#FC4'>msualg_6</span></td></tr>
+<tr><td>
+cluster  EqCl (R,A) ->  MSEquivalence-like   stable  ;
+</td><td><span data-href='msualg_6.html#FC5'>msualg_6</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM24800'>
+<h2>5.   <span data-link='397.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='scmyciel.html#V9'>scmyciel</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="SCMYCIEL:NM.1" data-link="7819.html#ELM24767">SimpleGraph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be   <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span class="p1">(<span class="default"><span title="SCMYCIEL:NK.2" data-link="7821.html#ELM24777">Vertices</span> <font color="Maroon" title="c1">G</font></span>)</span>;<br><div about="#D74" typeof="oo:Definition" class="main-sentence">
+<a name="V9"><span class="kw">attr</span> </a><font color="Maroon" title="c2">S</font> is  <span title="SCMYCIEL:attr.9" data-link="397.html#ELM24800">stable</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E74">Def19</font></span>: <a name="D19"><span class="comment"><font color="firebrick">:: SCMYCIEL:def 19</font></span><br></a> for <font color="Olive" title="b1">x</font>, <font color="Olive" title="b2">y</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">x</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Olive" title="b2">y</font> &amp; <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">S</font> &amp; <font color="Olive" title="b2">y</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">S</font> holds <br><span class="p1"><span title="TARSKI:func.2" data-link="857.html#ELM26066">{</span><span class="default"><font color="Olive" title="b1">x</font>,<font color="Olive" title="b2">y</font></span><span title="TARSKI:func.2" data-link="857.html#ELM26066">}</span></span> <span title="AOFA_000:NR.1" data-link="622.html#ELM1489">nin</span> <font color="Maroon" title="c1">G</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  trivial   ->  stable   for    Element of  bool (Vertices G);
+</td><td><span data-href='scmyciel.html#CC9'>scmyciel</span></td></tr>
+<tr><td>
+cluster  stable   for    Element of  bool (Vertices G);
+</td><td><span data-href='scmyciel.html#RC15'>scmyciel</span></td></tr>
+<tr><td>
+cluster  finite   stable   for    Element of  bool (Vertices G);
+</td><td><span data-href='scmyciel.html#RC16'>scmyciel</span></td></tr>
+<tr><td>
+cluster  stable   ->  finite   for    Element of  bool (Vertices G);
+</td><td><span data-href='scmyciel.html#CC12'>scmyciel</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

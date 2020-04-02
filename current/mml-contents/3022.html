@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>-derivable</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr -derivable</h1>
+<h2>List of Definitions (3)</h2>
+<ol>
+<li><span data-link='3022.html#ELM8398'>-derivable</span> [<span data-href='fomodel4.html#V4'>fomodel4</span>]</li>
+<li><span data-link='3022.html#ELM8399'>-derivable</span> [<span data-href='fomodel4.html#V5'>fomodel4</span>]</li>
+<li><span data-link='3022.html#ELM8402'>-derivable</span> [<span data-href='fomodel4.html#V8'>fomodel4</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM8398'>
+<h2>1.   <span data-link='3022.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fomodel4.html#V4'>fomodel4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   <span title="FOMODEL1:NM.2" data-link="744.html#ELM7902">Language</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">D</font> be   <span title="FOMODEL4:NM.2" data-link="2975.html#ELM8341">RuleSet</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">Seqs1</font> be    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span> ;<br><span class="kw">let </span><font color="Maroon" title="c4">Seqs2</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D6" typeof="oo:Definition" class="main-sentence">
+<a name="V4"><span class="kw">attr</span> </a><font color="Maroon" title="c4">Seqs2</font> is <font color="Maroon" title="c3">Seqs1</font>,<font color="Maroon" title="c2">D</font> <span title="FOMODEL4:attr.4" data-link="3022.html#ELM8398">-derivable</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E6">Def7</font></span>: <a name="D7"><span class="comment"><font color="firebrick">:: FOMODEL4:def 7</font></span><br></a><font color="Maroon" title="c4">Seqs2</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span>  <span title="SETFAM_1:func.5" data-link="1741.html#ELM25007">union</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span class="p3">(<span class="default"><span title="FOMODEL4:func.4" data-link="2977.html#ELM8345">OneStep</span> <font color="Maroon" title="c2">D</font></span>)</span> <span title="LANG1:func.13" data-link="1858.html#ELM13235">[*]</span></span>)</span> <span title="RELSET_1:func.7" data-link="1877.html#ELM22514">.:</span> <span class="p2"><span title="TARSKI:func.1" data-link="857.html#ELM26065">{</span><span class="default"><font color="Maroon" title="c3">Seqs1</font></span><span title="TARSKI:func.1" data-link="857.html#ELM26065">}</span></span></span>)</span>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster D -derivable   ->  {} ,D -derivable   for    set ;
+</td><td><span data-href='fomodel4.html#CC5'>fomodel4</span></td></tr>
+<tr><td>
+cluster  {} ,D -derivable   -> D -derivable   for    set ;
+</td><td><span data-href='fomodel4.html#CC6'>fomodel4</span></td></tr>
+<tr><td>
+cluster Seqts,D -derivable   -> D -derivable   for    set ;
+</td><td><span data-href='fomodel4.html#CC7'>fomodel4</span></td></tr>
+<tr><td>
+cluster X,D -derivable   -> S -sequents-like   for    set ;
+</td><td><span data-href='fomodel4.html#CC16'>fomodel4</span></td></tr>
+<tr><td>
+cluster {[{phi},phi]} ->  {} ,{(R#0 S)} -derivable   for   set ;
+</td><td><span data-href='fomodel4.html#FC28'>fomodel4</span></td></tr>
+<tr><td>
+cluster {[((PairWiseEq (T1,T2)) \/ {(s -compound T1)}),(s -compound T2)]} ->  {} ,{(R#3e S)} -derivable  ;
+</td><td><span data-href='fomodel4.html#FC49'>fomodel4</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM8399'>
+<h2>2.   <span data-link='3022.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fomodel4.html#V5'>fomodel4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">m</font> be   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be   <span title="FOMODEL1:NM.2" data-link="744.html#ELM7902">Language</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">D</font> be   <span title="FOMODEL4:NM.2" data-link="2975.html#ELM8341">RuleSet</span> of <font color="Maroon" title="c2">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">Seqts</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c5">seqt</font> be    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V5"><span class="kw">attr</span> </a><font color="Maroon" title="c5">seqt</font> is <font color="Maroon" title="c1">m</font>,<font color="Maroon" title="c4">Seqts</font>,<font color="Maroon" title="c3">D</font> <span title="FOMODEL4:attr.5" data-link="3022.html#ELM8399">-derivable</span> <span class="kw"> means </span><a name="D8"><span class="comment"><font color="firebrick">:: FOMODEL4:def 8</font></span><br></a><font color="Maroon" title="c5">seqt</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <span class="p1">(<span class="default">(<font color="Maroon" title="c1">m</font>,<font color="Maroon" title="c3">D</font>) <span title="FOMODEL4:func.5" data-link="2978.html#ELM8346">-derivables</span></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c4">Seqts</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster m,X,D -derivable   -> S -sequent-like   for    object ;
+</td><td><span data-href='fomodel4.html#CC15'>fomodel4</span></td></tr>
+<tr><td>
+cluster [(Phi \/ {phi}),phi] -> 1, {} ,{(R#0 S)} -derivable   for   object ;
+</td><td><span data-href='fomodel4.html#FC25'>fomodel4</span></td></tr>
+<tr><td>
+cluster [{phi1,phi2},phi1] -> 1, {} ,{(R#0 S)} -derivable   for   object ;
+</td><td><span data-href='fomodel4.html#FC26'>fomodel4</span></td></tr>
+<tr><td>
+cluster [{phi},phi] -> 1, {} ,{(R#0 S)} -derivable   for   object ;
+</td><td><span data-href='fomodel4.html#FC27'>fomodel4</span></td></tr>
+<tr><td>
+cluster [{((<*(TheEqSymbOf S)*> ^ t1) ^ t2),((<*(TheEqSymbOf S)*> ^ t2) ^ t3)},((<*(TheEqSymbOf S)*> ^ t1) ^ t3)] -> 1, {} ,{(R#3a S)} -derivable   for   object ;
+</td><td><span data-href='fomodel4.html#FC37'>fomodel4</span></td></tr>
+<tr><td>
+cluster [(H1 \/ H2),phi] -> 1,{[H1,phi]},{(R#1 S)} -derivable   for   object ;
+</td><td><span data-href='fomodel4.html#FC38'>fomodel4</span></td></tr>
+<tr><td>
+cluster [(H \/ {phi}),phi] -> 1, {} ,{(R#0 S)} -derivable   for   object ;
+</td><td><span data-href='fomodel4.html#FC39'>fomodel4</span></td></tr>
+<tr><td>
+cluster [H,((<*(TheNorSymbOf S)*> ^ phi2) ^ phi1)] -> 1,{[H,((<*(TheNorSymbOf S)*> ^ phi1) ^ phi2)]},{(R#7 S)} -derivable   for   object ;
+</td><td><span data-href='fomodel4.html#FC40'>fomodel4</span></td></tr>
+<tr><td>
+cluster [((H \/ {(<*l1*> ^ phi1)}) null l2),phi2] -> 1,{[(H \/ {((l1,l2) -SymbolSubstIn phi1)}),phi2]},{(R#5 S)} -derivable   for   object ;
+</td><td><span data-href='fomodel4.html#FC42'>fomodel4</span></td></tr>
+<tr><td>
+cluster [((H1 \/ H2) null m1),phi] -> m1,{[H1,phi]},{(R#1 S)} -derivable   for   object ;
+</td><td><span data-href='fomodel4.html#FC43'>fomodel4</span></td></tr>
+<tr><td>
+cluster [{((l,t) SubstIn phi)},(<*l*> ^ phi)] -> 1, {} ,{(R#4 S)} -derivable   for   object ;
+</td><td><span data-href='fomodel4.html#FC45'>fomodel4</span></td></tr>
+<tr><td>
+cluster [(H null (phi1 ^ phi2)),(xnot phi)] -> 1,{[(H \/ {phi}),phi1],[(H \/ {phi}),((<*(TheNorSymbOf S)*> ^ phi1) ^ phi2)]},{(R#8 S)} -derivable   for   object ;
+</td><td><span data-href='fomodel4.html#FC46'>fomodel4</span></td></tr>
+<tr><td>
+cluster [(H null phi2),(xnot phi1)] -> 2,{[H,((<*(TheNorSymbOf S)*> ^ phi1) ^ phi2)]},({(R#0 S)} \/ {(R#1 S)}) \/ {(R#8 S)} -derivable  ;
+</td><td><span data-href='fomodel4.html#FC53'>fomodel4</span></td></tr>
+<tr><td>
+cluster [(H null phi1),(xnot phi2)] -> 3,{[H,((<*(TheNorSymbOf S)*> ^ phi1) ^ phi2)]},(({(R#0 S)} \/ {(R#1 S)}) \/ {(R#8 S)}) \/ {(R#7 S)} -derivable   for   object ;
+</td><td><span data-href='fomodel4.html#FC54'>fomodel4</span></td></tr>
+<tr><td>
+cluster [{(xnot phi1),(xnot phi2)},((<*(TheNorSymbOf S)*> ^ phi1) ^ phi2)] -> 1,{[{(xnot phi1),(xnot phi2)},(xnot phi1)],[{(xnot phi1),(xnot phi2)},(xnot phi2)]},{(R#6 S)} -derivable   for   object ;
+</td><td><span data-href='fomodel4.html#FC55'>fomodel4</span></td></tr>
+<tr><td>
+cluster [{phi1,phi2},phi2] -> 1, {} ,{(R#0 S)} -derivable   for   object ;
+</td><td><span data-href='fomodel4.html#FC56'>fomodel4</span></td></tr>
+<tr><td>
+cluster [H,phi] null 1 -> 1,{[H,(xnot (xnot phi))]},{(R#9 S)} -derivable   for   set ;
+</td><td><span data-href='fomodel4.html#FC79'>fomodel4</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM8402'>
+<h2>3.   <span data-link='3022.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fomodel4.html#V8'>fomodel4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   <span title="FOMODEL1:NM.2" data-link="744.html#ELM7902">Language</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">D</font> be   <span title="FOMODEL4:NM.2" data-link="2975.html#ELM8341">RuleSet</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">Seqts</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V8"><span class="kw">attr</span> </a><font color="Maroon" title="c3">Seqts</font> is <font color="Maroon" title="c2">D</font> <span title="FOMODEL4:attr.8" data-link="3022.html#ELM8402">-derivable</span> <span class="kw"> means </span><a name="D12"><span class="comment"><font color="firebrick">:: FOMODEL4:def 12</font></span><br></a><font color="Maroon" title="c3">Seqts</font> is  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span> ,<font color="Maroon" title="c2">D</font> <span title="FOMODEL4:attr.4" data-link="3022.html#ELM8398">-derivable</span> ;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster D -derivable   ->  {} ,D -derivable   for    set ;
+</td><td><span data-href='fomodel4.html#CC5'>fomodel4</span></td></tr>
+<tr><td>
+cluster  {} ,D -derivable   -> D -derivable   for    set ;
+</td><td><span data-href='fomodel4.html#CC6'>fomodel4</span></td></tr>
+<tr><td>
+cluster Seqts,D -derivable   -> D -derivable   for    set ;
+</td><td><span data-href='fomodel4.html#CC7'>fomodel4</span></td></tr>
+<tr><td>
+cluster {[{},((<*(TheEqSymbOf S)*> ^ t) ^ t)]} -> {(R#2 S)} -derivable   for   set ;
+</td><td><span data-href='fomodel4.html#FC21'>fomodel4</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

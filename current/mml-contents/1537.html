@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_naturally_transformable_to</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_naturally_transformable_to</h1>
+<h2>List of Definitions (3)</h2>
+<ol>
+<li><span data-link='1537.html#ELM3774'>is_naturally_transformable_to</span> [<span data-href='cat_8.html#R4'>cat_8</span>]</li>
+<li><span data-link='1537.html#ELM9169'>is_naturally_transformable_to</span> [<span data-href='functor2.html#R2'>functor2</span>]</li>
+<li><span data-link='1537.html#ELM17626'>is_naturally_transformable_to</span> [<span data-href='nattra_1.html#R2'>nattra_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM3774'>
+<h2>1.   <span data-link='1537.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='cat_8.html#R4'>cat_8</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">C</font>, <font color="Maroon" title="c2">D</font> be   <span title="CAT_6:NM.2" data-link="405.html#ELM3672">category</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">F1</font>, <font color="Maroon" title="c4">F2</font> be   <span title="CAT_6:NM.4" data-link="1432.html#ELM3674">Functor</span> of <font color="Maroon" title="c1">C</font>,<font color="Maroon" title="c2">D</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R4"><span class="kw">pred</span> </a><font color="Maroon" title="c3">F1</font> <span title="CAT_8:pred.4" data-link="1537.html#ELM3774">is_naturally_transformable_to</span> <font color="Maroon" title="c4">F2</font><span class="kw"> means </span><a name="D25"><span class="comment"><font color="firebrick">:: CAT_8:def 25</font></span><br></a> ex <font color="Olive" title="b1">T</font> being   <span title="CAT_6:NM.4" data-link="1432.html#ELM3674">Functor</span> of <font color="Maroon" title="c1">C</font>,<font color="Maroon" title="c2">D</font> st <font color="Olive" title="b1">T</font> <span title="CAT_8:pred.3" data-link="1536.html#ELM3773">is_natural_transformation_of</span> <font color="Maroon" title="c3">F1</font>,<font color="Maroon" title="c4">F2</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM9169'>
+<h2>2.   <span data-link='1537.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='functor2.html#R2'>functor2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font>, <font color="Maroon" title="c2">B</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ALTCAT_1:attr.2" data-link="413.html#ELM992">transitive</span>   <span title="ALTCAT_1:attr.12" data-link="421.html#ELM1001">with_units</span>   <span title="ALTCAT_1:struct.2" data-link="401.html#ELM977">AltCatStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">F1</font>, <font color="Maroon" title="c4">F2</font> be   <span title="FUNCTOR0:attr.15" data-link="1521.html#ELM9120">covariant</span>   <span title="FUNCTOR0:mode.2" data-link="1432.html#ELM9088">Functor</span> of <font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">B</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c3">F1</font> <span title="FUNCTOR2:pred.2" data-link="1537.html#ELM9169">is_naturally_transformable_to</span> <font color="Maroon" title="c4">F2</font><span class="kw"> means </span><a name="D6"><span class="comment"><font color="firebrick">:: FUNCTOR2:def 6</font></span><br></a>( <font color="Maroon" title="c3">F1</font> <span title="FUNCTOR2:pred.1" data-link="3205.html#ELM9168">is_transformable_to</span> <font color="Maroon" title="c4">F2</font> &amp;  ex <font color="Olive" title="b1">t</font> being    <span title="FUNCTOR2:mode.1" data-link="3206.html#ELM9170">transformation</span> of <font color="Maroon" title="c3">F1</font>,<font color="Maroon" title="c4">F2</font> st <br> for <font color="Olive" title="b2">a</font>, <font color="Olive" title="b3">b</font> being   <span title="ALTCAT_1:NM.1" data-link="402.html#ELM978">Object</span> of <font color="Maroon" title="c1">A</font>  st <span class="p1"><span title="ALTCAT_1:func.1" data-link="407.html#ELM983">&lt;^</span><span class="default"><font color="Olive" title="b2">a</font>,<font color="Olive" title="b3">b</font></span><span title="ALTCAT_1:func.1" data-link="407.html#ELM983">^&gt;</span></span> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span>  holds <br> for <font color="Olive" title="b4">f</font> being   <span title="ALTCAT_1:NM.2" data-link="403.html#ELM979">Morphism</span> of <font color="Olive" title="b2">a</font>,<font color="Olive" title="b3">b</font> holds  <span class="p1">(<span class="default"><font color="Olive" title="b1">t</font> <span title="FUNCTOR2:func.2" data-link="2069.html#ELM9173">!</span> <font color="Olive" title="b3">b</font></span>)</span> <span title="ALTCAT_1:func.5" data-link="47.html#ELM987">*</span> <span class="p1">(<span class="default"><font color="Maroon" title="c3">F1</font> <span title="FUNCTOR0:func.5" data-link="141.html#ELM9093">.</span> <font color="Olive" title="b4">f</font></span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Maroon" title="c4">F2</font> <span title="FUNCTOR0:func.5" data-link="141.html#ELM9093">.</span> <font color="Olive" title="b4">f</font></span>)</span> <span title="ALTCAT_1:func.5" data-link="47.html#ELM987">*</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">t</font> <span title="FUNCTOR2:func.2" data-link="2069.html#ELM9173">!</span> <font color="Olive" title="b2">a</font></span>)</span> );<br>
+</div>
+<span class="kw">reflexivity</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM17626'>
+<h2>3.   <span data-link='1537.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='nattra_1.html#R2'>nattra_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font>, <font color="Maroon" title="c2">B</font> be   <span title="CAT_1:NM.4" data-link="1431.html#ELM3503">Category</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">F1</font>, <font color="Maroon" title="c4">F2</font> be    <span title="CAT_1:mode.2" data-link="1432.html#ELM3504">Functor</span> of <font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">B</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c3">F1</font> <span title="NATTRA_1:pred.2" data-link="1537.html#ELM17626">is_naturally_transformable_to</span> <font color="Maroon" title="c4">F2</font><span class="kw"> means </span><a name="D7"><span class="comment"><font color="firebrick">:: NATTRA_1:def 7</font></span><br></a>( <font color="Maroon" title="c3">F1</font> <span title="NATTRA_1:pred.1" data-link="3205.html#ELM17625">is_transformable_to</span> <font color="Maroon" title="c4">F2</font> &amp;  ex <font color="Olive" title="b1">t</font> being    <span title="NATTRA_1:mode.1" data-link="3206.html#ELM17629">transformation</span> of <font color="Maroon" title="c3">F1</font>,<font color="Maroon" title="c4">F2</font> st <br> for <font color="Olive" title="b2">a</font>, <font color="Olive" title="b3">b</font> being   <span title="CAT_1:NM.1" data-link="402.html#ELM3500">Object</span> of <font color="Maroon" title="c1">A</font>  st  <span title="CAT_1:func.2" data-link="1433.html#ELM3506">Hom</span> (<font color="Olive" title="b2">a</font>,<font color="Olive" title="b3">b</font>) <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span>  holds <br> for <font color="Olive" title="b4">f</font> being    <span title="CAT_1:mode.1" data-link="403.html#ELM3502">Morphism</span> of <font color="Olive" title="b2">a</font>,<font color="Olive" title="b3">b</font> holds  <span class="p1">(<span class="default"><font color="Olive" title="b1">t</font> <span title="NATTRA_1:func.2" data-link="141.html#ELM17634">.</span> <font color="Olive" title="b3">b</font></span>)</span> <span title="CAT_1:func.5" data-link="47.html#ELM3509">*</span> <span class="p1">(<span class="default"><font color="Maroon" title="c3">F1</font> <span title="CAT_3:func.9" data-link="1458.html#ELM3577">/.</span> <font color="Olive" title="b4">f</font></span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Maroon" title="c4">F2</font> <span title="CAT_3:func.9" data-link="1458.html#ELM3577">/.</span> <font color="Olive" title="b4">f</font></span>)</span> <span title="CAT_1:func.5" data-link="47.html#ELM3509">*</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">t</font> <span title="NATTRA_1:func.2" data-link="141.html#ELM17634">.</span> <font color="Olive" title="b2">a</font></span>)</span> );<br>
+</div>
+<span class="kw">reflexivity</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

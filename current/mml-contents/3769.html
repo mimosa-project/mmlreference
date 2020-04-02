@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>EdgesIn</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func EdgesIn</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='3769.html#ELM10727'>EdgesIn</span> [<span data-href='graph_1.html#K8'>graph_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM10727'>
+<h2>1.   <span data-link='3769.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='graph_1.html#K8'>graph_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GRAPH_1:attr.6" data-link="2772.html#ELM10735">finite</span>  <span title="GRAPH_1:NM.3" data-link="3764.html#ELM10712">Graph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">x</font> be   <span title="GRAPH_1:NM.1" data-link="3509.html#ELM10710">Vertex</span> of <font color="Maroon" title="c1">G</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K8"><span class="kw">func</span> </a> <span title="GRAPH_1:func.8" data-link="3769.html#ELM10727">EdgesIn</span> <font color="Maroon" title="c2">x</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> <span class="kw"> means </span><a name="D21"><span class="comment"><font color="firebrick">:: GRAPH_1:def 21</font></span><br></a> ex <font color="Olive" title="b1">X</font> being   <span title="FINSET_1:attr.1" data-link="2772.html#ELM7423">finite</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>  st <br>( (  for <font color="Olive" title="b2">z</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>  holds <br> ( <font color="Olive" title="b2">z</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Olive" title="b1">X</font> iff ( <font color="Olive" title="b2">z</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  the <span title="STRUCT_0:sel.4" data-href="struct_0.html#U4">carrier'</span> of <font color="Maroon" title="c1">G</font> &amp;  the <span title="GRAPH_1:sel.2" data-href="graph_1.html#U2">Target</span> of <font color="Maroon" title="c1">G</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b2">z</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">x</font> ) ) ) &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="CARD_1:func.4" data-link="1329.html#ELM3236">card</span> <font color="Olive" title="b1">X</font> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <div about="#D0" typeof="oo:Definition">
+<a name="K9"><span class="kw">func</span> </a> <span title="GRAPH_1:func.9" data-link="3770.html#ELM10728">EdgesOut</span> <font color="Maroon" title="c2">x</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> <span class="kw"> means </span><a name="D22"><span class="comment"><font color="firebrick">:: GRAPH_1:def 22</font></span><br></a> ex <font color="Olive" title="b1">X</font> being   <span title="FINSET_1:attr.1" data-link="2772.html#ELM7423">finite</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>  st <br>( (  for <font color="Olive" title="b2">z</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>  holds <br> ( <font color="Olive" title="b2">z</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Olive" title="b1">X</font> iff ( <font color="Olive" title="b2">z</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  the <span title="STRUCT_0:sel.4" data-href="struct_0.html#U4">carrier'</span> of <font color="Maroon" title="c1">G</font> &amp;  the <span title="GRAPH_1:sel.1" data-href="graph_1.html#U1">Source</span> of <font color="Maroon" title="c1">G</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b2">z</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">x</font> ) ) ) &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="CARD_1:func.4" data-link="1329.html#ELM3236">card</span> <font color="Olive" title="b1">X</font> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

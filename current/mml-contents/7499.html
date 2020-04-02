@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Subspaces</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Subspaces</h1>
+<h2>List of Definitions (4)</h2>
+<ol>
+<li><span data-link='7499.html#ELM23225'>Subspaces</span> [<span data-href='rlsub_2.html#K3'>rlsub_2</span>]</li>
+<li><span data-link='7499.html#ELM23865'>Subspaces</span> [<span data-href='rusub_2.html#K3'>rusub_2</span>]</li>
+<li><span data-link='7499.html#ELM28607'>Subspaces</span> [<span data-href='vectsp_5.html#K3'>vectsp_5</span>]</li>
+<li><span data-link='7499.html#ELM28640'>Subspaces</span> [<span data-href='vectsp_8.html#K2'>vectsp_8</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM23225'>
+<h2>1.   <span data-link='7499.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rlsub_2.html#K3'>rlsub_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">V</font> be   <span title="RLVECT_1:NM.2" data-link="7511.html#ELM23288">RealLinearSpace</span>;<br><div about="#D29" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="RLSUB_2:func.3" data-link="7499.html#ELM23225">Subspaces</span> <font color="Maroon" title="c1">V</font><span class="kw"> -&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E29">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: RLSUB_2:def 3</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>  holds <br> ( <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <span class="kw">it</span> iff <font color="Olive" title="b1">x</font> is   <span title="RLVECT_1:attr.1" data-href="rlvect_1.html#V1">strict</span>   <span title="RLSUB_1:mode.1" data-link="1814.html#ELM23214">Subspace</span> of <font color="Maroon" title="c1">V</font> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Subspaces V ->  non  empty  ;
+</td><td><span data-href='rlsub_2.html#FC1'>rlsub_2</span></td></tr>
+<tr><td>
+cluster  LattStr(# (Subspaces V),(SubJoin V),(SubMeet V) #) ->  Lattice-like  ;
+</td><td><span data-href='rlsub_2.html#FC2'>rlsub_2</span></td></tr>
+<tr><td>
+cluster  LattStr(# (Subspaces V),(SubJoin V),(SubMeet V) #) ->  modular   lower-bounded   upper-bounded   complemented  ;
+</td><td><span data-href='rlsub_2.html#FC3'>rlsub_2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM23865'>
+<h2>2.   <span data-link='7499.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rusub_2.html#K3'>rusub_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">V</font> be   <span title="BHSP_1:NM.1" data-link="1036.html#ELM2529">RealUnitarySpace</span>;<br><div about="#D30" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="RUSUB_2:func.3" data-link="7499.html#ELM23865">Subspaces</span> <font color="Maroon" title="c1">V</font><span class="kw"> -&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E30">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: RUSUB_2:def 3</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>  holds <br> ( <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <span class="kw">it</span> iff <font color="Olive" title="b1">x</font> is   <span title="BHSP_1:attr.1" data-href="bhsp_1.html#V1">strict</span>   <span title="RUSUB_1:mode.1" data-link="1814.html#ELM23855">Subspace</span> of <font color="Maroon" title="c1">V</font> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Subspaces V ->  non  empty  ;
+</td><td><span data-href='rusub_2.html#FC1'>rusub_2</span></td></tr>
+<tr><td>
+cluster  LattStr(# (Subspaces V),(SubJoin V),(SubMeet V) #) ->  Lattice-like  ;
+</td><td><span data-href='rusub_2.html#FC2'>rusub_2</span></td></tr>
+<tr><td>
+cluster  LattStr(# (Subspaces V),(SubJoin V),(SubMeet V) #) ->  modular   lower-bounded   upper-bounded   complemented  ;
+</td><td><span data-href='rusub_2.html#FC3'>rusub_2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM28607'>
+<h2>3.   <span data-link='7499.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='vectsp_5.html#K3'>vectsp_5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">GF</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ALGSTR_0:attr.13" data-link="337.html#ELM766">right_complementable</span>   <span title="VECTSP_1:attr.4" data-link="5661.html#ELM28516">well-unital</span>   <span title="VECTSP_1:attr.5" data-link="3919.html#ELM28517">distributive</span>   <span title="RLVECT_1:attr.2" data-link="7513.html#ELM23295">Abelian</span>   <span title="RLVECT_1:attr.3" data-link="7514.html#ELM23296">add-associative</span>   <span title="RLVECT_1:attr.4" data-link="7515.html#ELM23297">right_zeroed</span>   <span title="GROUP_1:attr.3" data-link="414.html#ELM10995">associative</span>   <span title="ALGSTR_0:struct.6" data-link="324.html#ELM743">doubleLoopStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">M</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ALGSTR_0:attr.13" data-link="337.html#ELM766">right_complementable</span>   <span title="VECTSP_1:attr.8" data-link="1820.html#ELM28520">vector-distributive</span>   <span title="VECTSP_1:attr.9" data-link="1821.html#ELM28521">scalar-distributive</span>   <span title="VECTSP_1:attr.10" data-link="1822.html#ELM28522">scalar-associative</span>   <span title="VECTSP_1:attr.11" data-link="1823.html#ELM28523">scalar-unital</span>   <span title="RLVECT_1:attr.2" data-link="7513.html#ELM23295">Abelian</span>   <span title="RLVECT_1:attr.3" data-link="7514.html#ELM23296">add-associative</span>   <span title="RLVECT_1:attr.4" data-link="7515.html#ELM23297">right_zeroed</span>   <span title="VECTSP_1:struct.1" data-link="8602.html#ELM28497">ModuleStr</span> over <font color="Maroon" title="c1">GF</font>;<br><div about="#D32" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="VECTSP_5:func.3" data-link="7499.html#ELM28607">Subspaces</span> <font color="Maroon" title="c2">M</font><span class="kw"> -&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E32">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: VECTSP_5:def 3</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>  holds <br> ( <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <span class="kw">it</span> iff  ex <font color="Olive" title="b2">W</font> being   <span title="VECTSP_1:attr.7" data-href="vectsp_1.html#V7">strict</span>   <span title="VECTSP_4:mode.1" data-link="1814.html#ELM28596">Subspace</span> of <font color="Maroon" title="c2">M</font> st <font color="Olive" title="b2">W</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">x</font> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Subspaces M ->  non  empty  ;
+</td><td><span data-href='vectsp_5.html#FC1'>vectsp_5</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM28640'>
+<h2>4.   <span data-link='7499.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='vectsp_8.html#K2'>vectsp_8</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">F</font> be   <span title="VECTSP_1:NM.5" data-link="4666.html#ELM28502">Field</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">VS</font> be   <span title="VECTSP_1:attr.7" data-href="vectsp_1.html#V7">strict</span>  <span title="VECTSP_1:NM.9" data-link="8607.html#ELM28506">VectSp</span> of <font color="Maroon" title="c1">F</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="VECTSP_5:func.3" data-link="7499.html#ELM28607">Subspaces</span><br><span class="kw">redefine </span><a name="K2"><span class="kw">func</span> </a> <span title="VECTSP_8:func.2" data-link="7499.html#ELM28640">Subspaces</span> <font color="Maroon" title="c2">VS</font><span class="kw"> -&gt; </span>  non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="VECTSP_8:mode.1" data-link="8627.html#ELM28635">SubVS-Family</span> of <font color="Maroon" title="c2">VS</font>;<br><span class="kw">coherence</span> <span class="kw">let </span><font color="Maroon" title="c3">X</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="VECTSP_8:mode.1" data-link="8627.html#ELM28635">SubVS-Family</span> of <font color="Maroon" title="c2">VS</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span><br><span class="kw">redefine </span><a name="M2"><span class="kw">mode</span> </a> <span title="VECTSP_8:mode.2" data-link="667.html#ELM28636">Element</span> of <font color="Maroon" title="c3">X</font><span class="kw"> -&gt; </span>   <span title="VECTSP_4:mode.1" data-link="1814.html#ELM28596">Subspace</span> of <font color="Maroon" title="c2">VS</font>;<br><span class="kw">coherence</span> <span class="kw">by</span> <span class="lab"><span class="ref" target="_self" onmouseover="rs('vectsp_8/D2')" onmouseout="rh()" data-href="vectsp_8.html#D2">Def2</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

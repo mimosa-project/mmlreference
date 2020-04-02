@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>size</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func size</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='1718.html#ELM4371'>size</span> [<span data-href='circuit1.html#K4'>circuit1</span>]</li>
+<li><span data-link='1718.html#ELM24780'>size</span> [<span data-href='scmyciel.html#K3'>scmyciel</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM4371'>
+<h2>1.   <span data-link='1718.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='circuit1.html#K4'>circuit1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">IIG</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   non  <span title="STRUCT_0:attr.11" data-link="17.html#ELM25778">void</span>   <span title="MSAFREE2:attr.2" data-link="3588.html#ELM16662">Circuit-like</span>   <span title="MSAFREE2:attr.5" data-link="1790.html#ELM16665">monotonic</span>   <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font> be   <span title="MSUALG_1:attr.4" data-link="3057.html#ELM17069">non-empty</span>   <span title="MSAFREE2:attr.4" data-link="2773.html#ELM16664">finite-yielding</span>   <span title="MSUALG_1:struct.3" data-link="5760.html#ELM17054">MSAlgebra</span> over <font color="Maroon" title="c1">IIG</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">v</font> be   <span title="MSUALG_1:NM.1" data-link="5761.html#ELM17055">SortSymbol</span> of <font color="Maroon" title="c1">IIG</font>;<br><div about="#D7" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a> <span title="CIRCUIT1:func.4" data-link="1718.html#ELM4371">size</span> (<font color="Maroon" title="c3">v</font>,<font color="Maroon" title="c2">A</font>)<span class="kw"> -&gt; </span>  <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E7">Def4</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: CIRCUIT1:def 4</font></span><br></a> ex <font color="Olive" title="b1">s</font> being   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="FINSET_1:attr.1" data-link="2772.html#ELM7423">finite</span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> st <br>( <font color="Olive" title="b1">s</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"> { <span class="default"> <span class="p2">(<span class="default"><span title="CARD_1:func.4" data-link="1329.html#ELM3236">card</span> <font color="Olive" title="b2">t</font></span>)</span> where <font color="Olive" title="b2">t</font> is    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <span class="p1">(<span class="default"><span title="MSAFREE2:func.5" data-link="5677.html#ELM16657">FreeEnv</span> <font color="Maroon" title="c2">A</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c3">v</font> : verum </span> } </span>  &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="XXREAL_2:func.1" data-link="5261.html#ELM29872">max</span> <font color="Olive" title="b1">s</font> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM24780'>
+<h2>2.   <span data-link='1718.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='scmyciel.html#K3'>scmyciel</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   <span title="FINSET_1:attr.1" data-link="2772.html#ELM7423">finite</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="SCMYCIEL:func.3" data-link="1718.html#ELM24780">size</span> <font color="Maroon" title="c1">X</font><span class="kw"> -&gt; </span>  <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span><span class="kw"> equals </span><a name="D7"><span class="comment"><font color="firebrick">:: SCMYCIEL:def 7</font></span><br></a> <span title="CARD_1:func.4" data-link="1329.html#ELM3236">card</span> <span class="p1">(<span class="default"><span title="SCMYCIEL:func.1" data-link="7820.html#ELM24776">PairsOf</span> <font color="Maroon" title="c1">X</font></span>)</span>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

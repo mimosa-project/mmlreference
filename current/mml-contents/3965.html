@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>ProductHom</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func ProductHom</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='3965.html#ELM11425'>ProductHom</span> [<span data-href='group_21.html#K22'>group_21</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM11425'>
+<h2>1.   <span data-link='3965.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='group_21.html#K22'>group_21</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">I</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">J</font> be   <span title="RELAT_1:attr.2" data-link="3057.html#ELM22398">non-empty</span>   <span title="PROB_2:attr.1" data-link="696.html#ELM21314">disjoint_valued</span>  <span title="PBOOLE:NM.1" data-link="4273.html#ELM19812">ManySortedSet</span> of <font color="Maroon" title="c1">I</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">G</font> be   <span title="GROUP_1:NM.1" data-link="3866.html#ELM10983">Group</span>;<br><span class="kw">let </span><font color="Maroon" title="c4">M</font> be    <span title="GROUP_19:mode.1" data-link="3946.html#ELM11380">DirectSumComponents</span> of <font color="Maroon" title="c3">G</font>,<font color="Maroon" title="c1">I</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">N</font> be    <span title="GROUP_21:mode.2" data-link="3945.html#ELM11403">Group-Family</span> of <font color="Maroon" title="c1">I</font>,<font color="Maroon" title="c2">J</font>;<br><span class="kw">let </span><font color="Maroon" title="c6">h</font> be   <span title="PBOOLE:NM.1" data-link="4273.html#ELM19812">ManySortedSet</span> of <font color="Maroon" title="c1">I</font>;<br><span class="kw">assume </span><a name="E1:68"></a><span class="lab"><font color="Green" title="E41">A2</font></span>: 
+ for <font color="Olive" title="b1">i</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">I</font>  ex <font color="Olive" title="b2">hi</font> being   <span title="GROUP_6:NM.2" data-link="2404.html#ELM11191">Homomorphism</span> of <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="GROUP_21:func.12" data-link="3956.html#ELM11415">sum_bundle</span> <font color="Maroon" title="c5">N</font></span>)</span> <span title="GROUP_19:func.2" data-link="141.html#ELM11382">.</span> <font color="Olive" title="b1">i</font></span>)</span>,<span class="p1">(<span class="default"><font color="Maroon" title="c4">M</font> <span title="GROUP_19:func.2" data-link="141.html#ELM11382">.</span> <font color="Olive" title="b1">i</font></span>)</span> st <br>( <font color="Olive" title="b2">hi</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c6">h</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">i</font> &amp; <font color="Olive" title="b2">hi</font> is  <span title="FUNCT_2:attr.3" data-link="3167.html#ELM8890">bijective</span>  )
+ ;<br><div about="#D41" typeof="oo:Definition" class="main-sentence">
+<a name="K22"><span class="kw">func</span> </a> <span title="GROUP_21:func.22" data-link="3965.html#ELM11425">ProductHom</span> (<font color="Maroon" title="c3">G</font>,<font color="Maroon" title="c4">M</font>,<font color="Maroon" title="c5">N</font>,<font color="Maroon" title="c6">h</font>)<span class="kw"> -&gt; </span>  <span title="GROUP_6:NM.2" data-link="2404.html#ELM11191">Homomorphism</span> of <span class="p1">(<span class="default"><span title="GROUP_21:func.15" data-link="3958.html#ELM11418">dsum</span> <font color="Maroon" title="c5">N</font></span>)</span>,<span class="p1">(<span class="default"><span title="GROUP_7:func.3" data-link="1063.html#ELM11222">sum</span> <font color="Maroon" title="c4">M</font></span>)</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E41">Def16</font></span>: <a name="D16"><span class="comment"><font color="firebrick">:: GROUP_21:def 16</font></span><br></a>( <span class="kw">it</span> <span title="FUNCT_2:pred.1" data-link="1122.html#ELM8871">=</span>  <span title="GROUP_19:func.9" data-link="3948.html#ELM11389">SumMap</span> (<span class="p1">(<span class="default"><span title="GROUP_21:func.12" data-link="3956.html#ELM11415">sum_bundle</span> <font color="Maroon" title="c5">N</font></span>)</span>,<font color="Maroon" title="c4">M</font>,<font color="Maroon" title="c6">h</font>) &amp; <span class="kw">it</span> is  <span title="FUNCT_2:attr.3" data-link="3167.html#ELM8890">bijective</span>  );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

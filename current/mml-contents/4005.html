@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_Between</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_Between</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='4005.html#ELM11557'>is_Between</span> [<span data-href='gtarski1.html#R5'>gtarski1</span>]</li>
+<li><span data-link='4005.html#ELM17249'>is_Between</span> [<span data-href='music_s1.html#R2'>music_s1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM11557'>
+<h2>1.   <span data-link='4005.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='gtarski1.html#R5'>gtarski1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be    <span title="METRIC_1:struct.1" data-link="5299.html#ELM15643">MetrStruct</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">p</font>, <font color="Maroon" title="c3">q</font>, <font color="Maroon" title="c4">r</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">S</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R5"><span class="kw">pred</span> </a><font color="Maroon" title="c3">q</font> <span title="GTARSKI1:pred.5" data-link="4005.html#ELM11557">is_Between</span> <font color="Maroon" title="c2">p</font>,<font color="Maroon" title="c4">r</font><span class="kw"> means </span><a name="D14"><span class="comment"><font color="firebrick">:: GTARSKI1:def 14</font></span><br></a> <span title="METRIC_1:func.1" data-link="1039.html#ELM15649">dist</span> (<font color="Maroon" title="c2">p</font>,<font color="Maroon" title="c4">r</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span title="METRIC_1:func.1" data-link="1039.html#ELM15649">dist</span> (<font color="Maroon" title="c2">p</font>,<font color="Maroon" title="c3">q</font>)</span>)</span> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> <span class="p1">(<span class="default"><span title="METRIC_1:func.1" data-link="1039.html#ELM15649">dist</span> (<font color="Maroon" title="c3">q</font>,<font color="Maroon" title="c4">r</font>)</span>)</span>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM17249'>
+<h2>2.   <span data-link='4005.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='music_s1.html#R2'>music_s1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">MS</font> be    <span title="MUSIC_S1:struct.1" data-link="5820.html#ELM17250">MusicStruct</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">a</font>, <font color="Maroon" title="c3">b</font>, <font color="Maroon" title="c4">c</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">MS</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c3">b</font> <span title="MUSIC_S1:pred.2" data-link="4005.html#ELM17249">is_Between</span> <font color="Maroon" title="c2">a</font>,<font color="Maroon" title="c4">c</font><span class="kw"> means </span><a name="D45"><span class="comment"><font color="firebrick">:: MUSIC_S1:def 45</font></span><br></a> ex <font color="Olive" title="b1">r1</font>, <font color="Olive" title="b2">r2</font>, <font color="Olive" title="b3">r3</font> being   <span title="XXREAL_0:attr.2" data-link="82.html#ELM29831">positive</span>  <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span> st <br>( <font color="Maroon" title="c2">a</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">r1</font> &amp; <font color="Maroon" title="c3">b</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b2">r2</font> &amp; <font color="Maroon" title="c4">c</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b3">r3</font> &amp; <font color="Olive" title="b1">r1</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b2">r2</font> &amp; <font color="Olive" title="b2">r2</font> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Olive" title="b3">r3</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

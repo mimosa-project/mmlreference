@@ -1,0 +1,341 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>edgeless</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr edgeless</h1>
+<h2>List of Definitions (5)</h2>
+<ol>
+<li><span data-link='3712.html#ELM10419'>edgeless</span> [<span data-href='glib_008.html#V1'>glib_008</span>]</li>
+<li><span data-link='3712.html#ELM10420'>edgeless</span> [<span data-href='glib_008.html#V2'>glib_008</span>]</li>
+<li><span data-link='3712.html#ELM10421'>edgeless</span> [<span data-href='glib_008.html'>glib_008</span>]</li>
+<li><span data-link='3712.html#ELM10422'>edgeless</span> [<span data-href='glib_008.html'>glib_008</span>]</li>
+<li><span data-link='3712.html#ELM24795'>edgeless</span> [<span data-href='scmyciel.html#NV5'>scmyciel</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM10419'>
+<h2>1.   <span data-link='3712.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='glib_008.html#V1'>glib_008</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GLIB_000:NM.2" data-link="3502.html#ELM9753">_Graph</span>;<br><div about="#D53" typeof="oo:Definition" class="main-sentence">
+<a name="V1"><span class="kw">attr</span> </a><font color="Maroon" title="c1">G</font> is  <span title="GLIB_008:attr.1" data-link="3712.html#ELM10419">edgeless</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E53">Def1</font></span>: <a name="D1"><span class="comment"><font color="firebrick">:: GLIB_008:def 1</font></span><br></a> <span title="GLIB_000:func.7" data-link="3517.html#ELM9769">the_Edges_of</span> <font color="Maroon" title="c1">G</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span> ;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster   ->  edgeless   for    inducedSubgraph of G, the_Vertices_of G,(the_Edges_of G) \ (the_Edges_of G);
+</td><td><span data-href='glib_008.html#CC4'>glib_008</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   finite   [Graph-like]   edgeless   for    set ;
+</td><td><span data-href='glib_008.html#RC3'>glib_008</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   finite   [Graph-like]   spanning   edgeless   for    Subgraph of G;
+</td><td><span data-href='glib_008.html#RC4'>glib_008</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   finite   [Graph-like]   trivial   edgeless   for    Subgraph of G;
+</td><td><span data-href='glib_008.html#RC5'>glib_008</span></td></tr>
+<tr><td>
+cluster  the_Edges_of G ->  empty  ;
+</td><td><span data-href='glib_008.html#FC2'>glib_008</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   finite   [Graph-like]   edgeless   ->  loopless   non-multi   non-Dmulti   simple   Dsimple   for    set ;
+</td><td><span data-href='glib_008.html#CC5'>glib_008</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   finite   [Graph-like]   loopless   trivial   ->  edgeless   for    set ;
+</td><td><span data-href='glib_008.html#CC6'>glib_008</span></td></tr>
+<tr><td>
+cluster  createGraph (V,{},S,T) ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC3'>glib_008</span></td></tr>
+<tr><td>
+cluster   ->  trivial   for    Walk of G;
+</td><td><span data-href='glib_008.html#CC7'>glib_008</span></td></tr>
+<tr><td>
+cluster   ->  edgeless   for    Subgraph of G;
+</td><td><span data-href='glib_008.html#CC8'>glib_008</span></td></tr>
+<tr><td>
+cluster G .edgesInto X ->  empty  ;
+</td><td><span data-href='glib_008.html#FC4'>glib_008</span></td></tr>
+<tr><td>
+cluster G .edgesOutOf X ->  empty  ;
+</td><td><span data-href='glib_008.html#FC5'>glib_008</span></td></tr>
+<tr><td>
+cluster G .edgesInOut X ->  empty  ;
+</td><td><span data-href='glib_008.html#FC6'>glib_008</span></td></tr>
+<tr><td>
+cluster G .edgesBetween X ->  empty  ;
+</td><td><span data-href='glib_008.html#FC7'>glib_008</span></td></tr>
+<tr><td>
+cluster G .set (WeightSelector,X) ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC8'>glib_008</span></td></tr>
+<tr><td>
+cluster G .set (ELabelSelector,X) ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC9'>glib_008</span></td></tr>
+<tr><td>
+cluster G .set (VLabelSelector,X) ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC10'>glib_008</span></td></tr>
+<tr><td>
+cluster   ->  edgeless   for    addVertices of G,X;
+</td><td><span data-href='glib_008.html#CC9'>glib_008</span></td></tr>
+<tr><td>
+cluster   ->  edgeless   for    reverseEdgeDirections of G,X;
+</td><td><span data-href='glib_008.html#CC10'>glib_008</span></td></tr>
+<tr><td>
+cluster G .edgesBetween (X,Y) ->  empty  ;
+</td><td><span data-href='glib_008.html#FC11'>glib_008</span></td></tr>
+<tr><td>
+cluster G .edgesDBetween (X,Y) ->  empty  ;
+</td><td><span data-href='glib_008.html#FC12'>glib_008</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   finite   [Graph-like]   edgeless   ->  acyclic   chordal   for    set ;
+</td><td><span data-href='glib_008.html#CC11'>glib_008</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   finite   [Graph-like]   trivial   edgeless   ->  Tree-like   for    set ;
+</td><td><span data-href='glib_008.html#CC12'>glib_008</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   finite   [Graph-like]   non  trivial   edgeless   ->  non  connected   non  Tree-like   non  complete   for    set ;
+</td><td><span data-href='glib_008.html#CC13'>glib_008</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   finite   [Graph-like]   connected   edgeless   ->  trivial   for    set ;
+</td><td><span data-href='glib_008.html#CC14'>glib_008</span></td></tr>
+<tr><td>
+cluster   ->  non  edgeless   for    addAdjVertexToAll of G, the_Vertices_of G, the_Vertices_of G;
+</td><td><span data-href='glib_008.html#CC15'>glib_008</span></td></tr>
+<tr><td>
+cluster   ->  non  edgeless   for    addAdjVertexFromAll of G, the_Vertices_of G, the_Vertices_of G;
+</td><td><span data-href='glib_008.html#CC16'>glib_008</span></td></tr>
+<tr><td>
+cluster   ->  non  edgeless   for    addAdjVertexAll of G, the_Vertices_of G, the_Vertices_of G;
+</td><td><span data-href='glib_008.html#CC17'>glib_008</span></td></tr>
+<tr><td>
+cluster   ->  non  edgeless   for    addAdjVertex of G,v, the_Edges_of G, the_Vertices_of G;
+</td><td><span data-href='glib_008.html#CC18'>glib_008</span></td></tr>
+<tr><td>
+cluster   ->  non  edgeless   for    addAdjVertex of G, the_Vertices_of G, the_Edges_of G,v;
+</td><td><span data-href='glib_008.html#CC19'>glib_008</span></td></tr>
+<tr><td>
+cluster   ->  non  edgeless   for    addEdge of G,v, the_Edges_of G,w;
+</td><td><span data-href='glib_008.html#CC20'>glib_008</span></td></tr>
+<tr><td>
+cluster  Component-like   ->  trivial   for    Subgraph of G;
+</td><td><span data-href='glib_008.html#CC21'>glib_008</span></td></tr>
+<tr><td>
+cluster v .edgesIn()  ->  empty  ;
+</td><td><span data-href='glib_008.html#FC13'>glib_008</span></td></tr>
+<tr><td>
+cluster v .edgesOut()  ->  empty  ;
+</td><td><span data-href='glib_008.html#FC14'>glib_008</span></td></tr>
+<tr><td>
+cluster v .edgesInOut()  ->  empty  ;
+</td><td><span data-href='glib_008.html#FC15'>glib_008</span></td></tr>
+<tr><td>
+cluster   ->  isolated   non  endvertex   non  cut-vertex   for    Element of  the_Vertices_of G;
+</td><td><span data-href='glib_008.html#CC22'>glib_008</span></td></tr>
+<tr><td>
+cluster v .inDegree()  ->  empty  ;
+</td><td><span data-href='glib_008.html#FC16'>glib_008</span></td></tr>
+<tr><td>
+cluster v .outDegree()  ->  empty  ;
+</td><td><span data-href='glib_008.html#FC17'>glib_008</span></td></tr>
+<tr><td>
+cluster v .inNeighbors()  ->  empty  ;
+</td><td><span data-href='glib_008.html#FC18'>glib_008</span></td></tr>
+<tr><td>
+cluster v .outNeighbors()  ->  empty  ;
+</td><td><span data-href='glib_008.html#FC19'>glib_008</span></td></tr>
+<tr><td>
+cluster v .degree()  ->  empty  ;
+</td><td><span data-href='glib_008.html#FC20'>glib_008</span></td></tr>
+<tr><td>
+cluster v .allNeighbors()  ->  empty  ;
+</td><td><span data-href='glib_008.html#FC21'>glib_008</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   finite   [Graph-like]   finite   trivial   edgeless   for    set ;
+</td><td><span data-href='glib_008.html#RC6'>glib_008</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   finite   [Graph-like]   finite   non  trivial   edgeless   for    set ;
+</td><td><span data-href='glib_008.html#RC7'>glib_008</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   finite   [Graph-like]   finite   trivial   non  edgeless   for    set ;
+</td><td><span data-href='glib_008.html#RC8'>glib_008</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   Function-like   finite   [Graph-like]   finite   non  trivial   non  edgeless   for    set ;
+</td><td><span data-href='glib_008.html#RC9'>glib_008</span></td></tr>
+<tr><td>
+cluster  the_Edges_of G ->  non  empty  ;
+</td><td><span data-href='glib_008.html#FC22'>glib_008</span></td></tr>
+<tr><td>
+cluster   ->  non  edgeless   for    Supergraph of G;
+</td><td><span data-href='glib_008.html#CC23'>glib_008</span></td></tr>
+<tr><td>
+cluster   ->  non  edgeless   for    reverseEdgeDirections of G,X;
+</td><td><span data-href='glib_008.html#CC24'>glib_008</span></td></tr>
+<tr><td>
+cluster G .set (WeightSelector,X) ->  non  edgeless  ;
+</td><td><span data-href='glib_008.html#FC23'>glib_008</span></td></tr>
+<tr><td>
+cluster G .set (ELabelSelector,X) ->  non  edgeless  ;
+</td><td><span data-href='glib_008.html#FC24'>glib_008</span></td></tr>
+<tr><td>
+cluster G .set (VLabelSelector,X) ->  non  edgeless  ;
+</td><td><span data-href='glib_008.html#FC25'>glib_008</span></td></tr>
+<tr><td>
+cluster GF . x ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC26'>glib_008</span></td></tr>
+<tr><td>
+cluster GSq . x ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC27'>glib_008</span></td></tr>
+<tr><td>
+cluster <*G*> ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC40'>glib_008</span></td></tr>
+<tr><td>
+cluster <*G1,G2*> ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC149'>glib_008</span></td></tr>
+<tr><td>
+cluster <*G1,G2,G3*> ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC150'>glib_008</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM10420'>
+<h2>2.   <span data-link='3712.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='glib_008.html#V2'>glib_008</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">GF</font> be   <span title="GLIB_000:attr.12" data-link="3551.html#ELM9816">Graph-yielding</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><div about="#D60" typeof="oo:Definition" class="main-sentence">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c1">GF</font> is  <span title="GLIB_008:attr.2" data-link="3712.html#ELM10420">edgeless</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E60">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: GLIB_008:def 2</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>   st <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">GF</font> holds <br> ex <font color="Olive" title="b2">G</font> being   <span title="GLIB_000:NM.2" data-link="3502.html#ELM9753">_Graph</span> st <br>( <font color="Maroon" title="c1">GF</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b2">G</font> &amp; <font color="Olive" title="b2">G</font> is  <span title="GLIB_008:attr.1" data-link="3712.html#ELM10419">edgeless</span>  );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Relation-like   Function-like   Graph-yielding   loopless   trivial   ->  Graph-yielding   edgeless   for    set ;
+</td><td><span data-href='glib_008.html#CC25'>glib_008</span></td></tr>
+<tr><td>
+cluster  Relation-like   Function-like   Graph-yielding   edgeless   ->  Graph-yielding   loopless   non-multi   non-Dmulti   simple   Dsimple   acyclic   for    set ;
+</td><td><span data-href='glib_008.html#CC26'>glib_008</span></td></tr>
+<tr><td>
+cluster GF . x ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC26'>glib_008</span></td></tr>
+<tr><td>
+cluster GSq . x ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC27'>glib_008</span></td></tr>
+<tr><td>
+cluster <*G*> ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC40'>glib_008</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   Function-like   finite   FinSequence-like   FinSubsequence-like   Graph-yielding   finite   loopless   trivial   non-multi   non-Dmulti   simple   Dsimple   connected   acyclic   Tree-like   edgeless   for    set ;
+</td><td><span data-href='glib_008.html#RC12'>glib_008</span></td></tr>
+<tr><td>
+cluster p | n ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC95'>glib_008</span></td></tr>
+<tr><td>
+cluster p /^ n ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC96'>glib_008</span></td></tr>
+<tr><td>
+cluster  smid (p,m,n) ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC97'>glib_008</span></td></tr>
+<tr><td>
+cluster (m,n) -cut p ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC98'>glib_008</span></td></tr>
+<tr><td>
+cluster p ^ q ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC123'>glib_008</span></td></tr>
+<tr><td>
+cluster p ^' q ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC124'>glib_008</span></td></tr>
+<tr><td>
+cluster <*G1,G2*> ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC149'>glib_008</span></td></tr>
+<tr><td>
+cluster <*G1,G2,G3*> ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC150'>glib_008</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM10421'>
+<h2>3.   <span data-link='3712.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='glib_008.html'>glib_008</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">GF</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="GLIB_000:attr.12" data-link="3551.html#ELM9816">Graph-yielding</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><div about="#D61" typeof="oo:Definition" class="main-sentence">
+<span class="kw">redefine </span><span class="kw">attr</span> <font color="Maroon" title="c1">GF</font> is  <span title="GLIB_008:attr.2" data-link="3712.html#ELM10420">edgeless</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E61">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: GLIB_008:def 3</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">GF</font> holds  <font color="Maroon" title="c1">GF</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font> is  <span title="GLIB_008:attr.1" data-link="3712.html#ELM10419">edgeless</span> ;<br>
+</div>
+<span class="kw">compatibility</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM10422'>
+<h2>4.   <span data-link='3712.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='glib_008.html'>glib_008</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">GSq</font> be   <span title="GLIB_000:NM.11" data-link="3510.html#ELM9762">GraphSeq</span>;<br><div about="#D63" typeof="oo:Definition" class="main-sentence">
+<span class="kw">redefine </span><span class="kw">attr</span> <font color="Maroon" title="c1">GSq</font> is  <span title="GLIB_008:attr.2" data-link="3712.html#ELM10420">edgeless</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E63">Def4</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: GLIB_008:def 4</font></span><br></a> for <font color="Olive" title="b1">n</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> holds  <font color="Maroon" title="c1">GSq</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">n</font> is  <span title="GLIB_008:attr.1" data-link="3712.html#ELM10419">edgeless</span> ;<br>
+</div>
+<span class="kw">compatibility</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM24795'>
+<h2>5.   <span data-link='3712.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='scmyciel.html#NV5'>scmyciel</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">notation</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><a name="NV5"><span class="kw">synonym </span> </a><span title="SCMYCIEL:attr.2" data-link="7826.html#ELM24792">edgeless</span> <font color="Maroon" title="c1">X</font><span class="kw"> for </span> <span title="SCMYCIEL:attr.2" data-link="7826.html#ELM24792">pairfree</span> ;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

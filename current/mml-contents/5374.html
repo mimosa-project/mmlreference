@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>stereographic_projection</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func stereographic_projection</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='5374.html#ELM15829'>stereographic_projection</span> [<span data-href='mfold_2.html#K5'>mfold_2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM15829'>
+<h2>1.   <span data-link='5374.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='mfold_2.html#K5'>mfold_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">p</font> be   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> <font color="Maroon" title="c1">n</font></span>)</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">S</font> be    <span title="PRE_TOPC:mode.1" data-link="2816.html#ELM21126">SubSpace</span> of  <span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> <font color="Maroon" title="c1">n</font>;<br><span class="kw">assume </span><a name="E1:42"></a><span class="lab"><font color="Green" title="E29">A1</font></span>: 
+<font color="Maroon" title="c2">p</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="TOPREAL9:func.3" data-link="1044.html#ELM26894">Sphere</span> (<span class="p1">(<span class="default"><span title="STRUCT_0:func.4" data-link="5074.html#ELM25765">0.</span> <span class="p2">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> <font color="Maroon" title="c1">n</font></span>)</span></span>)</span>,1)
+ ;<br><div about="#D29" typeof="oo:Definition" class="main-sentence">
+<a name="K5"><span class="kw">func</span> </a> <span title="MFOLD_2:func.5" data-link="5374.html#ELM15829">stereographic_projection</span> (<font color="Maroon" title="c3">S</font>,<font color="Maroon" title="c2">p</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.6" data-link="3155.html#ELM25752">Function</span> of <font color="Maroon" title="c3">S</font>,<span class="p1">(<span class="default"><span title="MFOLD_2:func.3" data-link="5372.html#ELM15827">TPlane</span> (<font color="Maroon" title="c2">p</font>,<span class="p2">(<span class="default"><span title="STRUCT_0:func.4" data-link="5074.html#ELM25765">0.</span> <span class="p3">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> <font color="Maroon" title="c1">n</font></span>)</span></span>)</span>)</span>)</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E29">Def5</font></span>: <a name="D5"><span class="comment"><font color="firebrick">:: MFOLD_2:def 5</font></span><br></a> for <font color="Olive" title="b1">q</font> being   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> <font color="Maroon" title="c1">n</font></span>)</span>  st <font color="Olive" title="b1">q</font> <span title="STRUCT_0:pred.1" data-link="4139.html#ELM25741">in</span> <font color="Maroon" title="c3">S</font> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">q</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default">1 <span title="XCMPLX_0:func.7" data-link="330.html#ELM29692">/</span> <span class="p2">(<span class="default">1 <span title="XCMPLX_0:func.6" data-link="327.html#ELM29691">-</span> <span class="p3"><span title="RVSUM_1:func.22" data-link="1913.html#ELM23925">|(</span><span class="default"><font color="Olive" title="b1">q</font>,<font color="Maroon" title="c2">p</font></span><span title="RVSUM_1:func.22" data-link="1913.html#ELM23925">)|</span></span></span>)</span></span>)</span> <span title="RLVECT_1:func.1" data-link="47.html#ELM23289">*</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">q</font> <span title="ALGSTR_0:func.5" data-link="327.html#ELM748">-</span> <span class="p2">(<span class="default"><span class="p3"><span title="RVSUM_1:func.22" data-link="1913.html#ELM23925">|(</span><span class="default"><font color="Olive" title="b1">q</font>,<font color="Maroon" title="c2">p</font></span><span title="RVSUM_1:func.22" data-link="1913.html#ELM23925">)|</span></span> <span title="RLVECT_1:func.1" data-link="47.html#ELM23289">*</span> <font color="Maroon" title="c2">p</font></span>)</span></span>)</span>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

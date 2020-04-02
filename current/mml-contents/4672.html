@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_extension_of</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_extension_of</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='4672.html#ELM13463'>is_extension_of</span> [<span data-href='lattice5.html#R2'>lattice5</span>]</li>
+<li><span data-link='4672.html#ELM15134'>is_extension_of</span> [<span data-href='measure8.html#R1'>measure8</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM13463'>
+<h2>1.   <span data-link='4672.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='lattice5.html#R2'>lattice5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">L</font> be   <span title="YELLOW_0:attr.1" data-link="4749.html#ELM30200">lower-bounded</span>  <span title="WAYBEL_0:NM.8" data-link="8738.html#ELM29181">LATTICE</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">d</font> be   <span title="LATTICE5:NM.4" data-link="4674.html#ELM13467">distance_function</span> of <font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">L</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">Aq</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c5">dq</font> be   <span title="LATTICE5:NM.4" data-link="4674.html#ELM13467">distance_function</span> of <font color="Maroon" title="c4">Aq</font>,<font color="Maroon" title="c2">L</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c4">Aq</font>,<font color="Maroon" title="c5">dq</font> <span title="LATTICE5:pred.2" data-link="4672.html#ELM13463">is_extension_of</span> <font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c3">d</font><span class="kw"> means </span><a name="D19"><span class="comment"><font color="firebrick">:: LATTICE5:def 19</font></span><br></a> ex <font color="Olive" title="b1">q</font> being    <span title="LATTICE5:mode.1" data-link="4675.html#ELM13468">QuadrSeq</span> of <font color="Maroon" title="c3">d</font> st <br>( <font color="Maroon" title="c4">Aq</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="LATTICE5:func.13" data-link="4687.html#ELM13482">NextSet</span> <font color="Maroon" title="c3">d</font> &amp; <font color="Maroon" title="c5">dq</font> <span title="FUNCT_2:pred.1" data-link="1122.html#ELM8871">=</span>  <span title="LATTICE5:func.15" data-link="4688.html#ELM13484">NextDelta</span> <font color="Olive" title="b1">q</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM15134'>
+<h2>2.   <span data-link='4672.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='measure8.html#R1'>measure8</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">F</font> be   <span title="PROB_1:NM.1" data-link="6994.html#ELM21275">Field_Subset</span> of <font color="Maroon" title="c1">X</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">S</font> be   <span title="PROB_1:NM.3" data-link="6995.html#ELM21277">SigmaField</span> of <font color="Maroon" title="c1">X</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">m</font> be   <span title="MEASURE1:NM.1" data-link="5177.html#ELM15014">Measure</span> of <font color="Maroon" title="c2">F</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">M</font> be   <span title="MEASURE1:NM.5" data-link="5181.html#ELM15018">sigma_Measure</span> of <font color="Maroon" title="c3">S</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c5">M</font> <span title="MEASURE8:pred.1" data-link="4672.html#ELM15134">is_extension_of</span> <font color="Maroon" title="c4">m</font><span class="kw"> means </span><a name="D12"><span class="comment"><font color="firebrick">:: MEASURE8:def 12</font></span><br></a> for <font color="Olive" title="b1">A</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">A</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">F</font> holds <br><font color="Maroon" title="c5">M</font> <span title="SUPINF_2:func.12" data-link="141.html#ELM26016">.</span> <font color="Olive" title="b1">A</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c4">m</font> <span title="SUPINF_2:func.12" data-link="141.html#ELM26016">.</span> <font color="Olive" title="b1">A</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

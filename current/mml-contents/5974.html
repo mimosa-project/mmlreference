@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>`partial|</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func `partial|</h1>
+<h2>List of Definitions (5)</h2>
+<ol>
+<li><span data-link='5974.html#ELM17750'>`partial|</span> [<span data-href='ndiff_5.html#K6'>ndiff_5</span>]</li>
+<li><span data-link='5974.html#ELM20078'>`partial|</span> [<span data-href='pdiff_1.html#K14'>pdiff_1</span>]</li>
+<li><span data-link='5974.html#ELM20163'>`partial|</span> [<span data-href='pdiff_7.html#K2'>pdiff_7</span>]</li>
+<li><span data-link='5974.html#ELM20175'>`partial|</span> [<span data-href='pdiff_9.html#K3'>pdiff_9</span>]</li>
+<li><span data-link='5974.html#ELM20177'>`partial|</span> [<span data-href='pdiff_9.html#K5'>pdiff_9</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM17750'>
+<h2>1.   <span data-link='5974.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='ndiff_5.html#K6'>ndiff_5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c3">G</font> be   <span title="PRVECT_2:NM.3" data-link="7037.html#ELM21409">RealNormSpace-Sequence</span>;<br><span class="kw">let </span><font color="Maroon" title="c4">S</font> be   <span title="NORMSP_1:NM.1" data-link="6167.html#ELM18544">RealNormSpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c5">i</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c6">f</font> be   <span title="STRUCT_0:NM.12" data-link="6450.html#ELM25758">PartFunc</span> of <span class="p1">(<span class="default"><span title="PRVECT_2:func.14" data-link="1342.html#ELM21423">product</span> <font color="Maroon" title="c3">G</font></span>)</span>,<font color="Maroon" title="c4">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c7">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">assume </span><a name="E1:42"></a><span class="lab"><font color="Green" title="E32">A2</font></span>: 
+<font color="Maroon" title="c6">f</font> <span title="NDIFF_5:pred.2" data-link="5971.html#ELM17743">is_partial_differentiable_on</span> <font color="Maroon" title="c7">X</font>,<font color="Maroon" title="c5">i</font>
+ ;<br><div about="#D32" typeof="oo:Definition" class="main-sentence">
+<a name="K6"><span class="kw">func</span> </a><font color="Maroon" title="c4">f</font> <span title="NDIFF_5:func.6" data-link="5974.html#ELM17750">`partial|</span> (<font color="Maroon" title="c5">X</font>,<font color="Maroon" title="c3">i</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.12" data-link="6450.html#ELM25758">PartFunc</span> of <span class="p1">(<span class="default"><span title="PRVECT_2:func.14" data-link="1342.html#ELM21423">product</span> <font color="Maroon" title="c1">G</font></span>)</span>,<span class="p1">(<span class="default"><span title="LOPBAN_1:func.16" data-link="4856.html#ELM13961">R_NormSpace_of_BoundedLinearOperators</span> (<span class="p2">(<span class="default"><font color="Maroon" title="c1">G</font> <span title="PRVECT_2:func.11" data-link="141.html#ELM21420">.</span> <span class="p3">(<span class="default"><span title="SUBSET_1:func.10" data-link="8054.html#ELM25879">In</span> (<font color="Maroon" title="c3">i</font>,<span class="p4">(<span class="default"><span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <font color="Maroon" title="c1">G</font></span>)</span>)</span>)</span></span>)</span>,<font color="Maroon" title="c2">S</font>)</span>)</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E32">Def9</font></span>: <a name="D9"><span class="comment"><font color="firebrick">:: NDIFF_5:def 9</font></span><br></a>(  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c5">X</font> &amp; (  for <font color="Olive" title="b1">x</font> being   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <span class="p1">(<span class="default"><span title="PRVECT_2:func.14" data-link="1342.html#ELM21423">product</span> <font color="Maroon" title="c1">G</font></span>)</span>  st <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c5">X</font> holds <br><span class="kw">it</span> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="NDIFF_5:func.5" data-link="5973.html#ELM17749">partdiff</span> (<font color="Maroon" title="c4">f</font>,<font color="Olive" title="b1">x</font>,<font color="Maroon" title="c3">i</font>) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20078'>
+<h2>2.   <span data-link='5974.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='pdiff_1.html#K14'>pdiff_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c4">m</font>, <font color="Maroon" title="c5">n</font> be   non  <span title="ORDINAL1:attr.8" data-link="1643.html#ELM19074">zero</span>  <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c6">i</font> be   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c7">f</font> be   <span title="STRUCT_0:NM.12" data-link="6450.html#ELM25758">PartFunc</span> of <span class="p1">(<span class="default"><span title="REAL_NS1:func.4" data-link="7325.html#ELM22168">REAL-NS</span> <font color="Maroon" title="c4">m</font></span>)</span>,<span class="p1">(<span class="default"><span title="REAL_NS1:func.4" data-link="7325.html#ELM22168">REAL-NS</span> <font color="Maroon" title="c5">n</font></span>)</span>;<br><span class="kw">let </span><font color="Maroon" title="c8">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">assume </span><a name="E1:45"></a><span class="lab"><font color="Green" title="E25">A1</font></span>: 
+<font color="Maroon" title="c7">f</font> <span title="PDIFF_1:pred.7" data-link="5971.html#ELM20064">is_partial_differentiable_on</span> <font color="Maroon" title="c8">X</font>,<font color="Maroon" title="c6">i</font>
+ ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K14"><span class="kw">func</span> </a><font color="Maroon" title="c4">f</font> <span title="PDIFF_1:func.14" data-link="5974.html#ELM20078">`partial|</span> (<font color="Maroon" title="c5">X</font>,<font color="Maroon" title="c3">i</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.12" data-link="6450.html#ELM25758">PartFunc</span> of <span class="p1">(<span class="default"><span title="REAL_NS1:func.4" data-link="7325.html#ELM22168">REAL-NS</span> <font color="Maroon" title="c1">m</font></span>)</span>,<span class="p1">(<span class="default"><span title="LOPBAN_1:func.16" data-link="4856.html#ELM13961">R_NormSpace_of_BoundedLinearOperators</span> (<span class="p2">(<span class="default"><span title="REAL_NS1:func.4" data-link="7325.html#ELM22168">REAL-NS</span> 1</span>)</span>,<span class="p2">(<span class="default"><span title="REAL_NS1:func.4" data-link="7325.html#ELM22168">REAL-NS</span> <font color="Maroon" title="c2">n</font></span>)</span>)</span>)</span><span class="kw"> means </span><a name="D20"><span class="comment"><font color="firebrick">:: PDIFF_1:def 20</font></span><br></a>(  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c5">X</font> &amp; (  for <font color="Olive" title="b1">x</font> being   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <span class="p1">(<span class="default"><span title="REAL_NS1:func.4" data-link="7325.html#ELM22168">REAL-NS</span> <font color="Maroon" title="c1">m</font></span>)</span>  st <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c5">X</font> holds <br><span class="kw">it</span> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="PDIFF_1:func.9" data-link="5973.html#ELM20073">partdiff</span> (<font color="Maroon" title="c4">f</font>,<font color="Olive" title="b1">x</font>,<font color="Maroon" title="c3">i</font>) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20163'>
+<h2>3.   <span data-link='5974.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='pdiff_7.html#K2'>pdiff_7</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">m</font>, <font color="Maroon" title="c3">n</font> be   non  <span title="ORDINAL1:attr.8" data-link="1643.html#ELM19074">zero</span>  <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c4">i</font> be   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c5">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c2">m</font></span>)</span>,<span class="p1">(<span class="default"><span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c3">n</font></span>)</span>;<br><span class="kw">let </span><font color="Maroon" title="c6">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">assume </span><a name="E1:50"></a><span class="lab"><font color="Green" title="E41">A1</font></span>: 
+<font color="Maroon" title="c5">f</font> <span title="PDIFF_7:pred.2" data-link="5971.html#ELM20159">is_partial_differentiable_on</span> <font color="Maroon" title="c6">X</font>,<font color="Maroon" title="c4">i</font>
+ ;<br><div about="#D41" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a><font color="Maroon" title="c4">f</font> <span title="PDIFF_7:func.2" data-link="5974.html#ELM20163">`partial|</span> (<font color="Maroon" title="c5">X</font>,<font color="Maroon" title="c3">i</font>)<span class="kw"> -&gt; </span>  <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c1">m</font></span>)</span>,<span class="p1">(<span class="default"><span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c2">n</font></span>)</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E41">Def5</font></span>: <a name="D5"><span class="comment"><font color="firebrick">:: PDIFF_7:def 5</font></span><br></a>(  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c5">X</font> &amp; (  for <font color="Olive" title="b1">x</font> being    <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of  <span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c1">m</font>  st <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c5">X</font> holds <br><span class="kw">it</span> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="PDIFF_1:func.11" data-link="5973.html#ELM20075">partdiff</span> (<font color="Maroon" title="c4">f</font>,<font color="Olive" title="b1">x</font>,<font color="Maroon" title="c3">i</font>) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20175'>
+<h2>4.   <span data-link='5974.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='pdiff_9.html#K3'>pdiff_9</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">m</font> be   non  <span title="ORDINAL1:attr.8" data-link="1643.html#ELM19074">zero</span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">Z</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c4">i</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c5">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c2">m</font></span>)</span>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">assume </span><a name="E1:65"></a><span class="lab"><font color="Green" title="E44">A1</font></span>: 
+<font color="Maroon" title="c5">f</font> <span title="PDIFF_9:pred.3" data-link="5971.html#ELM20168">is_partial_differentiable_on</span> <font color="Maroon" title="c3">Z</font>,<font color="Maroon" title="c4">i</font>
+ ;<br><div about="#D44" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a><font color="Maroon" title="c4">f</font> <span title="PDIFF_9:func.3" data-link="5974.html#ELM20175">`partial|</span> (<font color="Maroon" title="c2">Z</font>,<font color="Maroon" title="c3">i</font>)<span class="kw"> -&gt; </span>  <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c1">m</font></span>)</span>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E44">Def6</font></span>: <a name="D6"><span class="comment"><font color="firebrick">:: PDIFF_9:def 6</font></span><br></a>(  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">Z</font> &amp; (  for <font color="Olive" title="b1">x</font> being    <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of  <span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c1">m</font>  st <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">Z</font> holds <br><span class="kw">it</span> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="PDIFF_1:func.10" data-link="5973.html#ELM20074">partdiff</span> (<font color="Maroon" title="c4">f</font>,<font color="Olive" title="b1">x</font>,<font color="Maroon" title="c3">i</font>) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20177'>
+<h2>5.   <span data-link='5974.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='pdiff_9.html#K5'>pdiff_9</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">m</font> be   non  <span title="ORDINAL1:attr.8" data-link="1643.html#ELM19074">zero</span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">Z</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c4">I</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> ;<br><span class="kw">let </span><font color="Maroon" title="c5">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c2">m</font></span>)</span>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K5"><span class="kw">func</span> </a><font color="Maroon" title="c4">f</font> <span title="PDIFF_9:func.5" data-link="5974.html#ELM20177">`partial|</span> (<font color="Maroon" title="c2">Z</font>,<font color="Maroon" title="c3">I</font>)<span class="kw"> -&gt; </span>  <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c1">m</font></span>)</span>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span><span class="kw"> equals </span><a name="D9"><span class="comment"><font color="firebrick">:: PDIFF_9:def 9</font></span><br></a><span class="p1">(<span class="default"><span title="PDIFF_9:func.4" data-link="6623.html#ELM20176">PartDiffSeq</span> (<font color="Maroon" title="c4">f</font>,<font color="Maroon" title="c2">Z</font>,<font color="Maroon" title="c3">I</font>)</span>)</span> <span title="SEQFUNC:func.1" data-link="141.html#ELM24954">.</span> <span class="p1">(<span class="default"><span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c3">I</font></span>)</span>;<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>LexBFS:Update</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func LexBFS:Update</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='4766.html#ELM13677'>LexBFS:Update</span> [<span data-href='lexbfs.html#K11'>lexbfs</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM13677'>
+<h2>1.   <span data-link='4766.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='lexbfs.html#K11'>lexbfs</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GLIB_000:attr.2" data-link="2772.html#ELM9804">finite</span>  <span title="GLIB_000:NM.2" data-link="3502.html#ELM9753">_Graph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">L</font> be   <span title="LEXBFS:NM.3" data-link="4757.html#ELM13663">LexBFS:Labeling</span> of <font color="Maroon" title="c1">G</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">v</font> be   <span title="GLIB_000:NM.10" data-link="3509.html#ELM9761">Vertex</span> of <font color="Maroon" title="c1">G</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K11"><span class="kw">func</span> </a> <span title="LEXBFS:func.11" data-link="4766.html#ELM13677">LexBFS:Update</span> (<font color="Maroon" title="c2">L</font>,<font color="Maroon" title="c3">v</font>,<font color="Maroon" title="c4">n</font>)<span class="kw"> -&gt; </span>  <span title="LEXBFS:NM.3" data-link="4757.html#ELM13663">LexBFS:Labeling</span> of <font color="Maroon" title="c1">G</font><span class="kw"> equals </span><a name="D13"><span class="comment"><font color="firebrick">:: LEXBFS:def 13</font></span><br></a><span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><span class="p2">(<span class="default"><span class="p3">(<span class="default"><font color="Maroon" title="c2">L</font> <span title="LEXBFS:func.7" data-link="54.html#ELM13673">`1</span></span>)</span> <span title="FUNCT_4:func.1" data-link="517.html#ELM8937">+*</span> <span class="p3">(<span class="default"><font color="Maroon" title="c3">v</font> <span title="FUNCOP_1:func.17" data-link="487.html#ELM8746">.--&gt;</span> <span class="p4">(<span class="default"><span class="p5">(<span class="default"><font color="Maroon" title="c1">G</font> <span title="GLIB_000:func.15" data-link="3522.html#ELM9777">.order()</span></span>)</span> <span title="NAT_D:func.7" data-link="497.html#ELM17598">-'</span> <font color="Maroon" title="c4">n</font></span>)</span></span>)</span></span>)</span>,<span class="p2">(<span class="default"><span class="p3">(<span class="default"><font color="Maroon" title="c2">L</font> <span title="LEXBFS:func.8" data-link="55.html#ELM13674">`2</span></span>)</span> <span title="LEXBFS:func.1" data-link="4761.html#ELM13667">.\/</span> <span class="p3">(<span class="default"><span class="p4">(<span class="default"><span class="p5">(<span class="default"><font color="Maroon" title="c1">G</font> <span title="CHORD:func.2" data-link="1667.html#ELM4199">.AdjacentSet</span> <span class="p0"><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">{</span><span class="default"><font color="Maroon" title="c3">v</font></span><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">}</span></span></span>)</span> <span title="FINSUB_1:func.2" data-link="724.html#ELM7489">\</span> <span class="p5">(<span class="default"><span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <span class="p0">(<span class="default"><font color="Maroon" title="c2">L</font> <span title="LEXBFS:func.7" data-link="54.html#ELM13673">`1</span></span>)</span></span>)</span></span>)</span> <span title="RFUNCT_3:func.4" data-link="488.html#ELM22695">--&gt;</span> <span class="p4"><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">{</span><span class="default"><span class="p5">(<span class="default"><span class="p0">(<span class="default"><font color="Maroon" title="c1">G</font> <span title="GLIB_000:func.15" data-link="3522.html#ELM9777">.order()</span></span>)</span> <span title="NAT_D:func.7" data-link="497.html#ELM17598">-'</span> <font color="Maroon" title="c4">n</font></span>)</span></span><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">}</span></span></span>)</span></span>)</span></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span>;<br>
+</div>
+<span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

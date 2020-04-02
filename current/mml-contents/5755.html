@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>InducedTarget</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func InducedTarget</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='5755.html#ELM17006'>InducedTarget</span> [<span data-href='msscyc_2.html#K3'>msscyc_2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM17006'>
+<h2>1.   <span data-link='5755.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='msscyc_2.html#K3'>msscyc_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be    <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><span class="kw">set </span><font color="Maroon" title="c2">IE</font> =  <span title="MSSCYC_2:func.1" data-link="5753.html#ELM17004">InducedEdges</span> <font color="Maroon" title="c1">S</font>;<br><span class="kw">set </span><font color="Maroon" title="c3">IV</font> =  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">S</font>;<br><div about="#D3" typeof="oo:Definition" class="">
+<a name="K2"><span class="kw">func</span> </a> <span title="MSSCYC_2:func.2" data-link="5754.html#ELM17005">InducedSource</span> <font color="Maroon" title="c1">S</font><span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"><span title="MSSCYC_2:func.1" data-link="5753.html#ELM17004">InducedEdges</span> <font color="Maroon" title="c1">S</font></span>)</span>, the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">S</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E3">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: MSSCYC_2:def 2</font></span><br></a> for <font color="Olive" title="b1">e</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>   st <font color="Olive" title="b1">e</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="MSSCYC_2:func.1" data-link="5753.html#ELM17004">InducedEdges</span> <font color="Maroon" title="c1">S</font> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">e</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">e</font> <span title="XTUPLE_0:func.2" data-link="55.html#ELM29771">`2</span> ;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <span class="kw">set </span><font color="Maroon" title="c4">OS</font> =  the <span title="STRUCT_0:sel.4" data-href="struct_0.html#U4">carrier'</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">set </span><font color="Maroon" title="c5">RS</font> =  the <span title="MSUALG_1:sel.2" data-href="msualg_1.html#U2">ResultSort</span> of <font color="Maroon" title="c1">S</font>;<br><div about="#D4" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="MSSCYC_2:func.3" data-link="5755.html#ELM17006">InducedTarget</span> <font color="Maroon" title="c1">S</font><span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"><span title="MSSCYC_2:func.1" data-link="5753.html#ELM17004">InducedEdges</span> <font color="Maroon" title="c1">S</font></span>)</span>, the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">S</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E4">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: MSSCYC_2:def 3</font></span><br></a> for <font color="Olive" title="b1">e</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>   st <font color="Olive" title="b1">e</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="MSSCYC_2:func.1" data-link="5753.html#ELM17004">InducedEdges</span> <font color="Maroon" title="c1">S</font> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">e</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  the <span title="MSUALG_1:sel.2" data-href="msualg_1.html#U2">ResultSort</span> of <font color="Maroon" title="c1">S</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">e</font> <span title="XTUPLE_0:func.1" data-link="54.html#ELM29770">`1</span></span>)</span>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

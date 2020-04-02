@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>dim</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func dim</h1>
+<h2>List of Definitions (5)</h2>
+<ol>
+<li><span data-link='6810.html#ELM20664'>dim</span> [<span data-href='polyform.html#K4'>polyform</span>]</li>
+<li><span data-link='6810.html#ELM23348'>dim</span> [<span data-href='rlvect_5.html#K1'>rlvect_5</span>]</li>
+<li><span data-link='6810.html#ELM23875'>dim</span> [<span data-href='rusub_4.html#K1'>rusub_4</span>]</li>
+<li><span data-link='6810.html#ELM28647'>dim</span> [<span data-href='vectsp_9.html#K1'>vectsp_9</span>]</li>
+<li><span data-link='6810.html#ELM30691'>dim</span> [<span data-href='zmodlat1.html#NK4'>zmodlat1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM20664'>
+<h2>1.   <span data-link='6810.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='polyform.html#K4'>polyform</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">p</font> be   <span title="POLYFORM:NM.2" data-link="6809.html#ELM20660">polyhedron</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a> <span title="POLYFORM:func.4" data-link="6810.html#ELM20664">dim</span> <font color="Maroon" title="c1">p</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> <span class="kw"> equals </span><a name="D4"><span class="comment"><font color="firebrick">:: POLYFORM:def 4</font></span><br></a> <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span>  the <span title="POLYFORM:sel.1" data-href="polyform.html#U1">PolytopsF</span> of <font color="Maroon" title="c1">p</font>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster ((dim p) - 1) -polytopes p ->  non  empty   finite  ;
+</td><td><span data-href='polyform.html#FC2'>polyform</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM23348'>
+<h2>2.   <span data-link='6810.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rlvect_5.html#K1'>rlvect_5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">V</font> be   <span title="RLVECT_1:NM.2" data-link="7511.html#ELM23288">RealLinearSpace</span>;<br><span class="kw">assume </span><a name="E1:34"></a><span class="lab"><font color="Green" title="E29">A1</font></span>: 
+<font color="Maroon" title="c1">V</font> is  <span title="RLVECT_5:attr.1" data-link="5126.html#ELM23350">finite-dimensional</span> 
+ ;<br><div about="#D29" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="RLVECT_5:func.1" data-link="6810.html#ELM23348">dim</span> <font color="Maroon" title="c1">V</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E29">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: RLVECT_5:def 2</font></span><br></a> for <font color="Olive" title="b1">I</font> being    <span title="RLVECT_3:mode.1" data-link="1320.html#ELM23343">Basis</span> of <font color="Maroon" title="c1">V</font> holds  <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="CARD_1:func.1" data-link="1329.html#ELM3233">card</span> <font color="Olive" title="b1">I</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM23875'>
+<h2>3.   <span data-link='6810.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rusub_4.html#K1'>rusub_4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">V</font> be   <span title="BHSP_1:NM.1" data-link="1036.html#ELM2529">RealUnitarySpace</span>;<br><span class="kw">assume </span><a name="E1:14"></a><span class="lab"><font color="Green" title="E9">A1</font></span>: 
+<font color="Maroon" title="c1">V</font> is  <span title="RUSUB_4:attr.1" data-link="5126.html#ELM23882">finite-dimensional</span> 
+ ;<br><div about="#D9" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="RUSUB_4:func.1" data-link="6810.html#ELM23875">dim</span> <font color="Maroon" title="c1">V</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E9">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: RUSUB_4:def 2</font></span><br></a> for <font color="Olive" title="b1">I</font> being    <span title="RUSUB_3:mode.1" data-link="1320.html#ELM23873">Basis</span> of <font color="Maroon" title="c1">V</font> holds  <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="CARD_1:func.1" data-link="1329.html#ELM3233">card</span> <font color="Olive" title="b1">I</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM28647'>
+<h2>4.   <span data-link='6810.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='vectsp_9.html#K1'>vectsp_9</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">GF</font> be   <span title="VECTSP_1:NM.5" data-link="4666.html#ELM28502">Field</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">V</font> be   <span title="VECTSP_1:NM.9" data-link="8607.html#ELM28506">VectSp</span> of <font color="Maroon" title="c1">GF</font>;<br><span class="kw">assume </span><a name="E1:31"></a><span class="lab"><font color="Green" title="E25">A1</font></span>: 
+<font color="Maroon" title="c2">V</font> is  <span title="MATRLIN:attr.1" data-link="5126.html#ELM14808">finite-dimensional</span> 
+ ;<br><div about="#D25" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="VECTSP_9:func.1" data-link="6810.html#ELM28647">dim</span> <font color="Maroon" title="c2">V</font><span class="kw"> -&gt; </span>  <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E25">Def1</font></span>: <a name="D1"><span class="comment"><font color="firebrick">:: VECTSP_9:def 1</font></span><br></a> for <font color="Olive" title="b1">I</font> being   <span title="VECTSP_7:NM.1" data-link="1320.html#ELM28623">Basis</span> of <font color="Maroon" title="c2">V</font> holds  <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="CARD_1:func.1" data-link="1329.html#ELM3233">card</span> <font color="Olive" title="b1">I</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM30691'>
+<h2>5.   <span data-link='6810.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='zmodlat1.html#NK4'>zmodlat1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">notation</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be   <span title="ZMODLAT1:NM.1" data-link="8992.html#ELM30682">Z_Lattice</span>;<br><a name="NK4"><span class="kw">synonym </span> </a><span title="ZMODUL03:func.1" data-link="7279.html#ELM30892">dim</span> <font color="Maroon" title="c1">L</font><span class="kw"> for </span> <span title="ZMODUL03:func.1" data-link="7279.html#ELM30892">rank</span> <font color="Maroon" title="c1">L</font>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

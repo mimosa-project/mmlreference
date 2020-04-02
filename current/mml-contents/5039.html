@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>LineVec2Mx</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func LineVec2Mx</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='5039.html#ELM14507'>LineVec2Mx</span> [<span data-href='matrix15.html#K2'>matrix15</span>]</li>
+<li><span data-link='5039.html#ELM14774'>LineVec2Mx</span> [<span data-href='matrixr1.html#K10'>matrixr1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM14507'>
+<h2>1.   <span data-link='5039.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='matrix15.html#K2'>matrix15</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">D</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">b</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c1">D</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="MATRIX15:func.2" data-link="5039.html#ELM14507">LineVec2Mx</span> <font color="Maroon" title="c2">b</font><span class="kw"> -&gt; </span>  <span title="MATRIX_0:NM.2" data-link="5063.html#ELM14571">Matrix</span> of 1, <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c2">b</font>,<font color="Maroon" title="c1">D</font><span class="kw"> equals </span><a name="D1"><span class="comment"><font color="firebrick">:: MATRIX15:def 1</font></span><br></a><span class="p1"><span title="LAPLACE:func.10" data-link="669.html#ELM13256">&lt;*</span><span class="default"><font color="Maroon" title="c2">b</font></span><span title="LAPLACE:func.10" data-link="669.html#ELM13256">*&gt;</span></span>;<br>
+</div>
+<span class="kw">coherence</span> <br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K3"><span class="kw">func</span> </a> <span title="MATRIX15:func.3" data-link="5040.html#ELM14508">ColVec2Mx</span> <font color="Maroon" title="c2">b</font><span class="kw"> -&gt; </span>  <span title="MATRIX_0:NM.2" data-link="5063.html#ELM14571">Matrix</span> of  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c2">b</font>,1,<font color="Maroon" title="c1">D</font><span class="kw"> equals </span><a name="D2"><span class="comment"><font color="firebrick">:: MATRIX15:def 2</font></span><br></a><span class="p1"><span title="LAPLACE:func.10" data-link="669.html#ELM13256">&lt;*</span><span class="default"><font color="Maroon" title="c2">b</font></span><span title="LAPLACE:func.10" data-link="669.html#ELM13256">*&gt;</span></span> <span title="MATRIX_0:func.4" data-link="104.html#ELM14576">@</span> ;<br>
+</div>
+<span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM14774'>
+<h2>2.   <span data-link='5039.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='matrixr1.html#K10'>matrixr1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">x</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span> ;<br><div about="#D19" typeof="oo:Definition" class="main-sentence">
+<a name="K10"><span class="kw">func</span> </a> <span title="MATRIXR1:func.10" data-link="5039.html#ELM14774">LineVec2Mx</span> <font color="Maroon" title="c1">x</font><span class="kw"> -&gt; </span>  <span title="MATRIX_0:NM.1" data-link="5063.html#ELM14570">Matrix</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E19">Def10</font></span>: <a name="D10"><span class="comment"><font color="firebrick">:: MATRIXR1:def 10</font></span><br></a>(  <span title="MATRIX_0:func.1" data-link="5064.html#ELM14573">width</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c1">x</font> &amp;  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> 1 &amp; (  for <font color="Olive" title="b1">j</font> being   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>  st <font color="Olive" title="b1">j</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <font color="Maroon" title="c1">x</font> holds <br><span class="kw">it</span> <span title="MATRIX_0:func.3" data-link="47.html#ELM14575">*</span> (1,<font color="Olive" title="b1">j</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">x</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">j</font> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>NextDelta</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func NextDelta</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='4688.html#ELM13483'>NextDelta</span> [<span data-href='lattice5.html#K14'>lattice5</span>]</li>
+<li><span data-link='4688.html#ELM13484'>NextDelta</span> [<span data-href='lattice5.html#K15'>lattice5</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM13483'>
+<h2>1.   <span data-link='4688.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='lattice5.html#K14'>lattice5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">L</font> be   <span title="YELLOW_0:attr.1" data-link="4749.html#ELM30200">lower-bounded</span>  <span title="WAYBEL_0:NM.8" data-link="8738.html#ELM29181">LATTICE</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">d</font> be   <span title="LATTICE5:NM.3" data-link="4673.html#ELM13466">BiFunction</span> of <font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">L</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">q</font> be    <span title="LATTICE5:mode.1" data-link="4675.html#ELM13468">QuadrSeq</span> of <font color="Maroon" title="c3">d</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K14"><span class="kw">func</span> </a> <span title="LATTICE5:func.14" data-link="4688.html#ELM13483">NextDelta</span> <font color="Maroon" title="c4">q</font><span class="kw"> -&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> <span class="kw"> equals </span><a name="D18"><span class="comment"><font color="firebrick">:: LATTICE5:def 18</font></span><br></a> <span title="LATTICE5:func.12" data-link="4686.html#ELM13481">ConsecutiveDelta</span> (<font color="Maroon" title="c4">q</font>,<span class="p1">(<span class="default"><span title="LATTICE5:func.7" data-link="4682.html#ELM13476">DistEsti</span> <font color="Maroon" title="c3">d</font></span>)</span>);<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM13484'>
+<h2>2.   <span data-link='4688.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='lattice5.html#K15'>lattice5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">L</font> be   <span title="YELLOW_0:attr.1" data-link="4749.html#ELM30200">lower-bounded</span>  <span title="WAYBEL_0:NM.8" data-link="8738.html#ELM29181">LATTICE</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">d</font> be   <span title="LATTICE5:NM.4" data-link="4674.html#ELM13467">distance_function</span> of <font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">L</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">q</font> be    <span title="LATTICE5:mode.1" data-link="4675.html#ELM13468">QuadrSeq</span> of <font color="Maroon" title="c3">d</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="LATTICE5:func.14" data-link="4688.html#ELM13483">NextDelta</span><br><span class="kw">redefine </span><a name="K15"><span class="kw">func</span> </a> <span title="LATTICE5:func.15" data-link="4688.html#ELM13484">NextDelta</span> <font color="Maroon" title="c4">q</font><span class="kw"> -&gt; </span>  <span title="LATTICE5:NM.4" data-link="4674.html#ELM13467">distance_function</span> of <span class="p1">(<span class="default"><span title="LATTICE5:func.13" data-link="4687.html#ELM13482">NextSet</span> <font color="Maroon" title="c3">d</font></span>)</span>,<font color="Maroon" title="c2">L</font>;<br><span class="kw">coherence</span> <span class="kw">by</span> <span class="lab"><span class="ref" target="_self" onmouseover="rs('lattice5/T33')" onmouseout="rh()" data-href="lattice5.html#T33">Th33</span>, <span class="ref" target="_self" onmouseover="rs('lattice5/T34')" onmouseout="rh()" data-href="lattice5.html#T34">Th34</span>, <span class="ref" target="_self" onmouseover="rs('lattice5/T35')" onmouseout="rh()" data-href="lattice5.html#T35">Th35</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

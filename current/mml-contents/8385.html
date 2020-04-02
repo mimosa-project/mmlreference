@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>-ImmediateSubtrees</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func -ImmediateSubtrees</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='8385.html#ELM27380'>-ImmediateSubtrees</span> [<span data-href='trees_9.html#K8'>trees_9</span>]</li>
+<li><span data-link='8385.html#ELM27385'>-ImmediateSubtrees</span> [<span data-href='trees_9.html#K13'>trees_9</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM27380'>
+<h2>1.   <span data-link='8385.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='trees_9.html#K8'>trees_9</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">t</font> be   <span title="FINSET_1:attr.1" data-link="2772.html#ELM7423">finite</span>  <span title="TREES_2:NM.4" data-link="8365.html#ELM27244">DecoratedTree</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">C</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K8"><span class="kw">func</span> </a><font color="Maroon" title="c2">C</font> <span title="TREES_9:func.8" data-link="8385.html#ELM27380">-ImmediateSubtrees</span> <font color="Maroon" title="c1">t</font><span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"><font color="Maroon" title="c2">C</font> <span title="TREES_9:func.7" data-link="8384.html#ELM27379">-Subtrees</span> <font color="Maroon" title="c1">t</font></span>)</span>,<span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="TREES_9:func.3" data-link="8382.html#ELM27375">Subtrees</span> <font color="Maroon" title="c1">t</font></span>)</span> <span title="FINSEQ_2:func.3" data-link="47.html#ELM7181">*</span></span>)</span><span class="kw"> means </span><a name="D10"><span class="comment"><font color="firebrick">:: TREES_9:def 10</font></span><br></a> for <font color="Olive" title="b1">d</font> being   <span title="TREES_2:NM.4" data-link="8365.html#ELM27244">DecoratedTree</span>  st <font color="Olive" title="b1">d</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">C</font> <span title="TREES_9:func.7" data-link="8384.html#ELM27379">-Subtrees</span> <font color="Maroon" title="c1">t</font> holds <br> for <font color="Olive" title="b2">p</font> being    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="TREES_9:func.3" data-link="8382.html#ELM27375">Subtrees</span> <font color="Maroon" title="c1">t</font>  st <font color="Olive" title="b2">p</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">d</font> holds <br><font color="Olive" title="b1">d</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">d</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span></span>)</span> <span title="TREES_4:func.4" data-link="2310.html#ELM27360">-tree</span> <font color="Olive" title="b2">p</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM27385'>
+<h2>2.   <span data-link='8385.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='trees_9.html#K13'>trees_9</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="TREES_3:attr.3" data-link="8376.html#ELM27296">constituted-DTrees</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">assume </span><a name="E1:60"></a><span class="lab"><font color="Green" title="E24">A1</font></span>: 
+ for <font color="Olive" title="b1">t</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">X</font> holds  <font color="Olive" title="b1">t</font> is  <span title="FINSET_1:attr.1" data-link="2772.html#ELM7423">finite</span> 
+ ;<br><span class="kw">let </span><font color="Maroon" title="c2">C</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K13"><span class="kw">func</span> </a><font color="Maroon" title="c2">C</font> <span title="TREES_9:func.13" data-link="8385.html#ELM27385">-ImmediateSubtrees</span> <font color="Maroon" title="c1">X</font><span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"><font color="Maroon" title="c2">C</font> <span title="TREES_9:func.12" data-link="8384.html#ELM27384">-Subtrees</span> <font color="Maroon" title="c1">X</font></span>)</span>,<span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="TREES_9:func.9" data-link="8382.html#ELM27381">Subtrees</span> <font color="Maroon" title="c1">X</font></span>)</span> <span title="FINSEQ_2:func.3" data-link="47.html#ELM7181">*</span></span>)</span><span class="kw"> means </span><a name="D13"><span class="comment"><font color="firebrick">:: TREES_9:def 13</font></span><br></a> for <font color="Olive" title="b1">d</font> being   <span title="TREES_2:NM.4" data-link="8365.html#ELM27244">DecoratedTree</span>  st <font color="Olive" title="b1">d</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">C</font> <span title="TREES_9:func.12" data-link="8384.html#ELM27384">-Subtrees</span> <font color="Maroon" title="c1">X</font> holds <br> for <font color="Olive" title="b2">p</font> being    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="TREES_9:func.9" data-link="8382.html#ELM27381">Subtrees</span> <font color="Maroon" title="c1">X</font>  st <font color="Olive" title="b2">p</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">d</font> holds <br><font color="Olive" title="b1">d</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">d</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span></span>)</span> <span title="TREES_4:func.4" data-link="2310.html#ELM27360">-tree</span> <font color="Olive" title="b2">p</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

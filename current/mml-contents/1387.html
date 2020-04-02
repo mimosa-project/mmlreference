@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>LBound</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func LBound</h1>
+<h2>List of Definitions (3)</h2>
+<ol>
+<li><span data-link='1387.html#ELM3408'>LBound</span> [<span data-href='card_lar.html#K1'>card_lar</span>]</li>
+<li><span data-link='1387.html#ELM19400'>LBound</span> [<span data-href='osalg_1.html#K2'>osalg_1</span>]</li>
+<li><span data-link='1387.html#ELM19407'>LBound</span> [<span data-href='osalg_1.html#K9'>osalg_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM3408'>
+<h2>1.   <span data-link='1387.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='card_lar.html#K1'>card_lar</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be   <span title="ORDINAL1:attr.4" data-link="6325.html#ELM19070">limit_ordinal</span>   <span title="FINSET_1:NV.2" data-link="651.html#ELM7424">infinite</span>  <span title="ORDINAL1:NM.3" data-link="6319.html#ELM19057">Ordinal</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font> be   <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <font color="Maroon" title="c1">A</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">B1</font> be   <span title="ORDINAL1:NM.3" data-link="6319.html#ELM19057">Ordinal</span>;<br><span class="kw">assume </span><a name="E1:16"></a><span class="lab"><font color="Green" title="E9">A1</font></span>: 
+<font color="Maroon" title="c2">X</font> is  <span title="CARD_LAR:attr.1" data-link="1389.html#ELM3410">unbounded</span> 
+ ;<br><span class="kw">assume </span><a name="E2:16"></a><span class="lab"><font color="Green" title="E10">A2</font></span>: 
+<font color="Maroon" title="c3">B1</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c1">A</font>
+ ;<br><div about="#D9" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="CARD_LAR:func.1" data-link="1387.html#ELM3408">LBound</span> (<font color="Maroon" title="c3">B1</font>,<font color="Maroon" title="c2">X</font>)<span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c2">X</font><span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E9">Def6</font></span>: <a name="D6"><span class="comment"><font color="firebrick">:: CARD_LAR:def 6</font></span><br></a> <span title="ORDINAL2:func.2" data-link="5260.html#ELM19130">inf</span> <span class="p1"> { <span class="default"> <font color="Olive" title="b1">B2</font> where <font color="Olive" title="b1">B2</font> is    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">A</font> : ( <font color="Olive" title="b1">B2</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">X</font> &amp; <font color="Maroon" title="c3">B1</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Olive" title="b1">B2</font> ) </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM19400'>
+<h2>2.   <span data-link='1387.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='osalg_1.html#K2'>osalg_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">SR</font> be   <span title="OSALG_1:attr.8" data-link="6299.html#ELM19412">monotone</span>   <span title="OSALG_1:attr.10" data-link="84.html#ELM19414">regular</span>  <span title="OSALG_1:NM.3" data-link="6391.html#ELM19394">OrderSortedSign</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">o</font> be   <span title="OSALG_1:NM.2" data-link="32.html#ELM19393">OperSymbol</span> of <font color="Maroon" title="c1">SR</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">w1</font> be    <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">SR</font> <span title="FINSEQ_2:func.3" data-link="47.html#ELM7181">*</span> ;<br><span class="kw">assume </span><a name="E1:45"></a><span class="lab"><font color="Green" title="E22">A1</font></span>: 
+<font color="Maroon" title="c3">w1</font> <span title="OSALG_1:pred.2" data-link="491.html#ELM19384">&lt;=</span>  <span title="MSUALG_1:func.1" data-link="4995.html#ELM17057">the_arity_of</span> <font color="Maroon" title="c2">o</font>
+ ;<br><div about="#D22" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="OSALG_1:func.2" data-link="1387.html#ELM19400">LBound</span> (<font color="Maroon" title="c2">o</font>,<font color="Maroon" title="c3">w1</font>)<span class="kw"> -&gt; </span>  <span title="OSALG_1:NM.2" data-link="32.html#ELM19393">OperSymbol</span> of <font color="Maroon" title="c1">SR</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E22">Def14</font></span>: <a name="D14"><span class="comment"><font color="firebrick">:: OSALG_1:def 14</font></span><br></a><span class="kw">it</span> <span title="OSALG_1:pred.3" data-link="6385.html#ELM19385">has_least_args_for</span> <font color="Maroon" title="c2">o</font>,<font color="Maroon" title="c3">w1</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E22">A1</font></span><span class="ref" target="_self" onmouseover="rs('osalg_1/D12')" onmouseout="rh()" data-href="osalg_1.html#D12">Def12</span></span>;<br><span class="kw">uniqueness</span> <span class="kw">by</span> <span class="lab"><span class="ref" target="_self" onmouseover="rs('osalg_1/T13')" onmouseout="rh()" data-href="osalg_1.html#T13">Th13</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM19407'>
+<h2>3.   <span data-link='1387.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='osalg_1.html#K9'>osalg_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">SR</font> be   <span title="OSALG_1:attr.8" data-link="6299.html#ELM19412">monotone</span>   <span title="OSALG_1:attr.10" data-link="84.html#ELM19414">regular</span>  <span title="OSALG_1:NM.3" data-link="6391.html#ELM19394">OrderSortedSign</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">on</font> be   <span title="OSALG_1:NM.6" data-link="6394.html#ELM19397">OperName</span> of <font color="Maroon" title="c1">SR</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">w</font> be    <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">SR</font> <span title="FINSEQ_2:func.3" data-link="47.html#ELM7181">*</span> ;<br><span class="kw">assume </span><a name="E1:85"></a><span class="lab"><font color="Green" title="E43">A1</font></span>: 
+ ex <font color="Olive" title="b1">op</font> being    <span title="OSALG_1:mode.1" data-link="667.html#ELM19398">Element</span> of <font color="Maroon" title="c2">on</font> st <font color="Maroon" title="c3">w</font> <span title="OSALG_1:pred.2" data-link="491.html#ELM19384">&lt;=</span>  <span title="MSUALG_1:func.1" data-link="4995.html#ELM17057">the_arity_of</span> <font color="Olive" title="b1">op</font>
+ ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K9"><span class="kw">func</span> </a> <span title="OSALG_1:func.9" data-link="1387.html#ELM19407">LBound</span> (<font color="Maroon" title="c2">on</font>,<font color="Maroon" title="c3">w</font>)<span class="kw"> -&gt; </span>   <span title="OSALG_1:mode.1" data-link="667.html#ELM19398">Element</span> of <font color="Maroon" title="c2">on</font><span class="kw"> means </span><a name="D25"><span class="comment"><font color="firebrick">:: OSALG_1:def 25</font></span><br></a> for <font color="Olive" title="b1">op</font> being    <span title="OSALG_1:mode.1" data-link="667.html#ELM19398">Element</span> of <font color="Maroon" title="c2">on</font>  st <font color="Maroon" title="c3">w</font> <span title="OSALG_1:pred.2" data-link="491.html#ELM19384">&lt;=</span>  <span title="MSUALG_1:func.1" data-link="4995.html#ELM17057">the_arity_of</span> <font color="Olive" title="b1">op</font> holds <br><span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="OSALG_1:func.2" data-link="1387.html#ELM19400">LBound</span> (<font color="Olive" title="b1">op</font>,<font color="Maroon" title="c3">w</font>);<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

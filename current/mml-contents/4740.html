@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Top</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Top</h1>
+<h2>List of Definitions (4)</h2>
+<ol>
+<li><span data-link='4740.html#ELM13603'>Top</span> [<span data-href='lattices.html#K6'>lattices</span>]</li>
+<li><span data-link='4740.html#ELM21706'>Top</span> [<span data-href='quantal1.html#K4'>quantal1</span>]</li>
+<li><span data-link='4740.html#ELM23400'>Top</span> [<span data-href='robbins1.html'>robbins1</span>]</li>
+<li><span data-link='4740.html#ELM30195'>Top</span> [<span data-href='yellow_0.html#K4'>yellow_0</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM13603'>
+<h2>1.   <span data-link='4740.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='lattices.html#K6'>lattices</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="LATTICES:struct.2" data-link="4729.html#ELM13588">\/-SemiLattStr</span> ;<br><span class="kw">assume </span><a name="E1:36"></a><span class="lab"><font color="Green" title="E18">A1</font></span>: 
+<font color="Maroon" title="c1">L</font> is  <span title="LATTICES:attr.14" data-link="4750.html#ELM13615">upper-bounded</span> 
+ ;<br><div about="#D18" typeof="oo:Definition" class="main-sentence">
+<a name="K6"><span class="kw">func</span> </a> <span title="LATTICES:func.6" data-link="4740.html#ELM13603">Top</span> <font color="Maroon" title="c1">L</font><span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E18">Def17</font></span>: <a name="D17"><span class="comment"><font color="firebrick">:: LATTICES:def 17</font></span><br></a> for <font color="Olive" title="b1">a</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font> holds <br> ( <span class="kw">it</span> <span title="LATTICES:func.1" data-link="1857.html#ELM13598">"\/"</span> <font color="Olive" title="b1">a</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="kw">it</span> &amp; <font color="Olive" title="b1">a</font> <span title="LATTICES:func.1" data-link="1857.html#ELM13598">"\/"</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="kw">it</span> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E18">A1</font></span></span>;<br><span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Top L ->  skeletal  ;
+</td><td><span data-href='latstone.html#FC3'>latstone</span></td></tr>
+<tr><td>
+cluster  Top L ->  dense  ;
+</td><td><span data-href='latstone.html#FC9'>latstone</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-reduce'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>reduce</th></tr></thead>
+<tbody>
+<tr><td>
+reduce (Top L) "/\" a to a;
+</td><td><span data-href='lattices.html#RD5'>lattices</span></td></tr>
+<tr><td>
+reduce (Top L) "\/" a to  Top L;
+</td><td><span data-href='lattices.html#RD6'>lattices</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM21706'>
+<h2>2.   <span data-link='4740.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='quantal1.html#K4'>quantal1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="QUANTAL1:struct.3" data-link="7138.html#ELM21698">Girard-QuantaleStr</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a> <span title="QUANTAL1:func.4" data-link="4740.html#ELM21706">Top</span> <font color="Maroon" title="c1">G</font><span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">G</font><span class="kw"> equals </span><a name="D22"><span class="comment"><font color="firebrick">:: QUANTAL1:def 22</font></span><br></a><span class="p1">(<span class="default"><span title="QUANTAL1:func.3" data-link="4739.html#ELM21705">Bottom</span> <font color="Maroon" title="c1">G</font></span>)</span> <span title="QUANTAL1:func.1" data-link="7143.html#ELM21703">-r&gt;</span> <span class="p1">(<span class="default"><span title="QUANTAL1:func.3" data-link="4739.html#ELM21705">Bottom</span> <font color="Maroon" title="c1">G</font></span>)</span>;<br>
+</div>
+<span class="kw">correctness </span><br><span class="kw">let </span><font color="Maroon" title="c2">a</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">G</font>;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K5"><span class="kw">func</span> </a> <span title="QUANTAL1:func.5" data-link="4739.html#ELM21707">Bottom</span> <font color="Maroon" title="c2">a</font><span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">G</font><span class="kw"> equals </span><a name="D23"><span class="comment"><font color="firebrick">:: QUANTAL1:def 23</font></span><br></a><font color="Maroon" title="c2">a</font> <span title="QUANTAL1:func.1" data-link="7143.html#ELM21703">-r&gt;</span> <span class="p1">(<span class="default"><span title="QUANTAL1:func.3" data-link="4739.html#ELM21705">Bottom</span> <font color="Maroon" title="c1">G</font></span>)</span>;<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM23400'>
+<h2>3.   <span data-link='4740.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='robbins1.html'>robbins1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="LATTICES:attr.4" data-link="4741.html#ELM13605">join-commutative</span>   <span title="LATTICES:attr.5" data-link="4742.html#ELM13606">join-associative</span>   <span title="ROBBINS1:attr.6" data-link="7544.html#ELM23415">Huntington</span>   <span title="ROBBINS1:attr.7" data-link="7545.html#ELM23416">join-idempotent</span>   <span title="ROBBINS1:struct.2" data-link="7527.html#ELM23390">ComplLLattStr</span> ;<br><div about="#D10" typeof="oo:Definition" class="main-sentence">
+<span class="kw">redefine </span><span class="kw">func</span>  <span title="LATTICES:func.6" data-link="4740.html#ELM13603">Top</span> <font color="Maroon" title="c1">L</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E10">Def8</font></span>: <a name="D8"><span class="comment"><font color="firebrick">:: ROBBINS1:def 8</font></span><br></a> ex <font color="Olive" title="b1">a</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font> st <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">a</font> <span title="ROBBINS1:func.5" data-link="229.html#ELM23399">+</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">a</font> <span title="ROBBINS1:func.3" data-link="953.html#ELM23396">`</span></span>)</span>;<br>
+</div>
+<span class="kw">compatibility</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM30195'>
+<h2>4.   <span data-link='4740.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='yellow_0.html#K4'>yellow_0</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be    <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K3"><span class="kw">func</span> </a> <span title="YELLOW_0:func.3" data-link="4739.html#ELM30194">Bottom</span> <font color="Maroon" title="c1">L</font><span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font><span class="kw"> equals </span><a name="D11"><span class="comment"><font color="firebrick">:: YELLOW_0:def 11</font></span><br></a> <span title="YELLOW_0:func.1" data-link="1857.html#ELM30190">"\/"</span> (<span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span>,<font color="Maroon" title="c1">L</font>);<br>
+</div>
+<span class="kw">correctness </span><br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a> <span title="YELLOW_0:func.4" data-link="4740.html#ELM30195">Top</span> <font color="Maroon" title="c1">L</font><span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font><span class="kw"> equals </span><a name="D12"><span class="comment"><font color="firebrick">:: YELLOW_0:def 12</font></span><br></a> <span title="YELLOW_0:func.2" data-link="1856.html#ELM30191">"/\"</span> (<span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span>,<font color="Maroon" title="c1">L</font>);<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Top L ->  dense  ;
+</td><td><span data-href='waybel12.html#FC2'>waybel12</span></td></tr>
+<tr><td>
+cluster S --> (Top T) ->  infs-preserving   directed-sups-preserving  ;
+</td><td><span data-href='waybel34.html#FC11'>waybel34</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>inner_prd_prg</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func inner_prd_prg</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='6993.html#ELM21274'>inner_prd_prg</span> [<span data-href='prgcor_2.html#K2'>prgcor_2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM21274'>
+<h2>1.   <span data-link='6993.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='prgcor_2.html#K2'>prgcor_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">a</font>, <font color="Maroon" title="c2">b</font> be   <span title="AFINSQ_1:NM.2" data-link="231.html#ELM495">XFinSequence</span> of  <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span> ;<br><span class="kw">assume </span><span class="kw">that </span><br><a name="E1:5"></a><span class="lab"><font color="Green" title="E3">A1</font></span>: 
+<font color="Maroon" title="c2">b</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> is   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>
+ <span class="kw">and </span><br><a name="E2:5"></a><span class="lab"><font color="Green" title="E4">A2</font></span>: 
+<font color="Maroon" title="c2">b</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span>  <span title="AFINSQ_1:func.1" data-link="232.html#ELM497">len</span> <font color="Maroon" title="c1">a</font>
+ ;<br><div about="#D3" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="PRGCOR_2:func.2" data-link="6993.html#ELM21274">inner_prd_prg</span> (<font color="Maroon" title="c1">a</font>,<font color="Maroon" title="c2">b</font>)<span class="kw"> -&gt; </span>  <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E3">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: PRGCOR_2:def 3</font></span><br></a> ex <font color="Olive" title="b1">s</font> being   <span title="AFINSQ_1:NM.2" data-link="231.html#ELM495">XFinSequence</span> of  <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>  ex <font color="Olive" title="b2">n</font> being   <span title="INT_1:NM.1" data-link="4287.html#ELM12429">Integer</span> st <br>(  <span title="AFINSQ_1:func.1" data-link="232.html#ELM497">len</span> <font color="Olive" title="b1">s</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="AFINSQ_1:func.1" data-link="232.html#ELM497">len</span> <font color="Maroon" title="c1">a</font> &amp; <font color="Olive" title="b1">s</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  &amp; <font color="Olive" title="b2">n</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">b</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> &amp; ( <font color="Olive" title="b2">n</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  implies  for <font color="Olive" title="b3">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b3">i</font> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Olive" title="b2">n</font> holds <br><font color="Olive" title="b1">s</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b3">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">s</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b3">i</font></span>)</span> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c1">a</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p3">(<span class="default"><font color="Olive" title="b3">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span></span>)</span> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <span class="p2">(<span class="default"><font color="Maroon" title="c2">b</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p3">(<span class="default"><font color="Olive" title="b3">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span></span>)</span></span>)</span> ) &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">s</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b2">n</font> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

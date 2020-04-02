@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>OSHomQuot</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func OSHomQuot</h1>
+<h2>List of Definitions (4)</h2>
+<ol>
+<li><span data-link='6433.html#ELM19510'>OSHomQuot</span> [<span data-href='osalg_4.html#K20'>osalg_4</span>]</li>
+<li><span data-link='6433.html#ELM19511'>OSHomQuot</span> [<span data-href='osalg_4.html#K21'>osalg_4</span>]</li>
+<li><span data-link='6433.html#ELM19512'>OSHomQuot</span> [<span data-href='osalg_4.html#K22'>osalg_4</span>]</li>
+<li><span data-link='6433.html#ELM19513'>OSHomQuot</span> [<span data-href='osalg_4.html#K23'>osalg_4</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM19510'>
+<h2>1.   <span data-link='6433.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='osalg_4.html#K20'>osalg_4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   <span title="OSALG_4:attr.2" data-link="6435.html#ELM19515">locally_directed</span>  <span title="OSALG_1:NM.3" data-link="6391.html#ELM19394">OrderSortedSign</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">U1</font>, <font color="Maroon" title="c3">U2</font> be   <span title="MSUALG_1:attr.4" data-link="3057.html#ELM17069">non-empty</span>  <span title="OSALG_1:NM.5" data-link="6393.html#ELM19396">OSAlgebra</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">F</font> be   <span title="MSUALG_3:NM.1" data-link="5785.html#ELM17126">ManySortedFunction</span> of <font color="Maroon" title="c2">U1</font>,<font color="Maroon" title="c3">U2</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">s</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">assume </span><span class="kw">that </span><br><a name="E1:53"></a><span class="lab"><font color="Green" title="E26">A1</font></span>: 
+<font color="Maroon" title="c4">F</font> <span title="MSUALG_3:pred.1" data-link="281.html#ELM17120">is_homomorphism</span> <font color="Maroon" title="c2">U1</font>,<font color="Maroon" title="c3">U2</font>
+ <span class="kw">and </span><br><a name="E2:53"></a><span class="lab"><font color="Green" title="E27">A2</font></span>: 
+<font color="Maroon" title="c4">F</font> is  <span title="OSALG_3:attr.1" data-link="6402.html#ELM19480">order-sorted</span> 
+ ;<br><div about="#D26" typeof="oo:Definition" class="main-sentence">
+<a name="K20"><span class="kw">func</span> </a> <span title="OSALG_4:func.20" data-link="6433.html#ELM19510">OSHomQuot</span> (<font color="Maroon" title="c4">F</font>,<font color="Maroon" title="c5">s</font>)<span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"> the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <span class="p2">(<span class="default"><span title="OSALG_4:func.16" data-link="6430.html#ELM19506">QuotOSAlg</span> (<font color="Maroon" title="c2">U1</font>,<span class="p3">(<span class="default"><span title="OSALG_4:func.19" data-link="6432.html#ELM19509">OSCng</span> <font color="Maroon" title="c4">F</font></span>)</span>)</span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c5">s</font></span>)</span>,<span class="p1">(<span class="default"> the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c3">U2</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c5">s</font></span>)</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E26">Def24</font></span>: <a name="D24"><span class="comment"><font color="firebrick">:: OSALG_4:def 24</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c2">U1</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c5">s</font> holds  <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><span title="OSALG_4:func.8" data-link="6380.html#ELM19498">OSClass</span> (<span class="p2">(<span class="default"><span title="OSALG_4:func.19" data-link="6432.html#ELM19509">OSCng</span> <font color="Maroon" title="c4">F</font></span>)</span>,<font color="Olive" title="b1">x</font>)</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Maroon" title="c4">F</font> <span title="MSUALG_3:func.1" data-link="141.html#ELM17127">.</span> <font color="Maroon" title="c5">s</font></span>)</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">x</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM19511'>
+<h2>2.   <span data-link='6433.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='osalg_4.html#K21'>osalg_4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   <span title="OSALG_4:attr.2" data-link="6435.html#ELM19515">locally_directed</span>  <span title="OSALG_1:NM.3" data-link="6391.html#ELM19394">OrderSortedSign</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">U1</font>, <font color="Maroon" title="c3">U2</font> be   <span title="MSUALG_1:attr.4" data-link="3057.html#ELM17069">non-empty</span>  <span title="OSALG_1:NM.5" data-link="6393.html#ELM19396">OSAlgebra</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">F</font> be   <span title="MSUALG_3:NM.1" data-link="5785.html#ELM17126">ManySortedFunction</span> of <font color="Maroon" title="c2">U1</font>,<font color="Maroon" title="c3">U2</font>;<br><div about="#D27" typeof="oo:Definition" class="main-sentence">
+<a name="K21"><span class="kw">func</span> </a> <span title="OSALG_4:func.21" data-link="6433.html#ELM19511">OSHomQuot</span> <font color="Maroon" title="c4">F</font><span class="kw"> -&gt; </span>  <span title="MSUALG_3:NM.1" data-link="5785.html#ELM17126">ManySortedFunction</span> of <span class="p1">(<span class="default"><span title="OSALG_4:func.16" data-link="6430.html#ELM19506">QuotOSAlg</span> (<font color="Maroon" title="c2">U1</font>,<span class="p2">(<span class="default"><span title="OSALG_4:func.19" data-link="6432.html#ELM19509">OSCng</span> <font color="Maroon" title="c4">F</font></span>)</span>)</span>)</span>,<font color="Maroon" title="c3">U2</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E27">Def25</font></span>: <a name="D25"><span class="comment"><font color="firebrick">:: OSALG_4:def 25</font></span><br></a> for <font color="Olive" title="b1">s</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">S</font> holds  <span class="kw">it</span> <span title="MSUALG_3:func.1" data-link="141.html#ELM17127">.</span> <font color="Olive" title="b1">s</font> <span title="FUNCT_2:pred.2" data-link="1122.html#ELM8872">=</span>  <span title="OSALG_4:func.20" data-link="6433.html#ELM19510">OSHomQuot</span> (<font color="Maroon" title="c4">F</font>,<font color="Olive" title="b1">s</font>);<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM19512'>
+<h2>3.   <span data-link='6433.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='osalg_4.html#K22'>osalg_4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   <span title="OSALG_4:attr.2" data-link="6435.html#ELM19515">locally_directed</span>  <span title="OSALG_1:NM.3" data-link="6391.html#ELM19394">OrderSortedSign</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">U1</font>, <font color="Maroon" title="c3">U2</font> be   <span title="MSUALG_1:attr.4" data-link="3057.html#ELM17069">non-empty</span>  <span title="OSALG_1:NM.5" data-link="6393.html#ELM19396">OSAlgebra</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">F</font> be   <span title="MSUALG_3:NM.1" data-link="5785.html#ELM17126">ManySortedFunction</span> of <font color="Maroon" title="c2">U1</font>,<font color="Maroon" title="c3">U2</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">R</font> be   <span title="OSALG_4:NM.4" data-link="6421.html#ELM19489">OSCongruence</span> of <font color="Maroon" title="c2">U1</font>;<br><span class="kw">let </span><font color="Maroon" title="c6">s</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">assume </span><span class="kw">that </span><br><a name="E1:69"></a><span class="lab"><font color="Green" title="E35">A1</font></span>: 
+<font color="Maroon" title="c4">F</font> <span title="MSUALG_3:pred.1" data-link="281.html#ELM17120">is_homomorphism</span> <font color="Maroon" title="c2">U1</font>,<font color="Maroon" title="c3">U2</font>
+ <span class="kw">and </span><br><a name="E2:69"></a><span class="lab"><font color="Green" title="E36">A2</font></span>: 
+<font color="Maroon" title="c4">F</font> is  <span title="OSALG_3:attr.1" data-link="6402.html#ELM19480">order-sorted</span> 
+ <span class="kw">and </span><br><a name="E3:69"></a><span class="lab"><font color="Green" title="E37">A3</font></span>: 
+<font color="Maroon" title="c5">R</font> <span title="PBOOLE:pred.2" data-link="2755.html#ELM19804">c=</span>  <span title="OSALG_4:func.19" data-link="6432.html#ELM19509">OSCng</span> <font color="Maroon" title="c4">F</font>
+ ;<br><div about="#D35" typeof="oo:Definition" class="main-sentence">
+<a name="K22"><span class="kw">func</span> </a> <span title="OSALG_4:func.22" data-link="6433.html#ELM19512">OSHomQuot</span> (<font color="Maroon" title="c4">F</font>,<font color="Maroon" title="c5">R</font>,<font color="Maroon" title="c6">s</font>)<span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"> the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <span class="p2">(<span class="default"><span title="OSALG_4:func.16" data-link="6430.html#ELM19506">QuotOSAlg</span> (<font color="Maroon" title="c2">U1</font>,<font color="Maroon" title="c5">R</font>)</span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c6">s</font></span>)</span>,<span class="p1">(<span class="default"> the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c3">U2</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c6">s</font></span>)</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E35">Def27</font></span>: <a name="D27"><span class="comment"><font color="firebrick">:: OSALG_4:def 27</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c2">U1</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c6">s</font> holds  <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><span title="OSALG_4:func.8" data-link="6380.html#ELM19498">OSClass</span> (<font color="Maroon" title="c5">R</font>,<font color="Olive" title="b1">x</font>)</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Maroon" title="c4">F</font> <span title="MSUALG_3:func.1" data-link="141.html#ELM17127">.</span> <font color="Maroon" title="c6">s</font></span>)</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">x</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM19513'>
+<h2>4.   <span data-link='6433.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='osalg_4.html#K23'>osalg_4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   <span title="OSALG_4:attr.2" data-link="6435.html#ELM19515">locally_directed</span>  <span title="OSALG_1:NM.3" data-link="6391.html#ELM19394">OrderSortedSign</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">U1</font>, <font color="Maroon" title="c3">U2</font> be   <span title="MSUALG_1:attr.4" data-link="3057.html#ELM17069">non-empty</span>  <span title="OSALG_1:NM.5" data-link="6393.html#ELM19396">OSAlgebra</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">F</font> be   <span title="MSUALG_3:NM.1" data-link="5785.html#ELM17126">ManySortedFunction</span> of <font color="Maroon" title="c2">U1</font>,<font color="Maroon" title="c3">U2</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">R</font> be   <span title="OSALG_4:NM.4" data-link="6421.html#ELM19489">OSCongruence</span> of <font color="Maroon" title="c2">U1</font>;<br><div about="#D36" typeof="oo:Definition" class="main-sentence">
+<a name="K23"><span class="kw">func</span> </a> <span title="OSALG_4:func.23" data-link="6433.html#ELM19513">OSHomQuot</span> (<font color="Maroon" title="c4">F</font>,<font color="Maroon" title="c5">R</font>)<span class="kw"> -&gt; </span>  <span title="MSUALG_3:NM.1" data-link="5785.html#ELM17126">ManySortedFunction</span> of <span class="p1">(<span class="default"><span title="OSALG_4:func.16" data-link="6430.html#ELM19506">QuotOSAlg</span> (<font color="Maroon" title="c2">U1</font>,<font color="Maroon" title="c5">R</font>)</span>)</span>,<font color="Maroon" title="c3">U2</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E36">Def28</font></span>: <a name="D28"><span class="comment"><font color="firebrick">:: OSALG_4:def 28</font></span><br></a> for <font color="Olive" title="b1">s</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">S</font> holds  <span class="kw">it</span> <span title="MSUALG_3:func.1" data-link="141.html#ELM17127">.</span> <font color="Olive" title="b1">s</font> <span title="FUNCT_2:pred.2" data-link="1122.html#ELM8872">=</span>  <span title="OSALG_4:func.22" data-link="6433.html#ELM19512">OSHomQuot</span> (<font color="Maroon" title="c4">F</font>,<font color="Maroon" title="c5">R</font>,<font color="Olive" title="b1">s</font>);<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>LexBFS:Step</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func LexBFS:Step</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='4767.html#ELM13678'>LexBFS:Step</span> [<span data-href='lexbfs.html#K12'>lexbfs</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM13678'>
+<h2>1.   <span data-link='4767.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='lexbfs.html#K12'>lexbfs</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GLIB_000:attr.2" data-link="2772.html#ELM9804">finite</span>  <span title="GLIB_000:NM.2" data-link="3502.html#ELM9753">_Graph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">L</font> be   <span title="LEXBFS:NM.3" data-link="4757.html#ELM13663">LexBFS:Labeling</span> of <font color="Maroon" title="c1">G</font>;<br><div about="#D42" typeof="oo:Definition" class="main-sentence">
+<a name="K12"><span class="kw">func</span> </a> <span title="LEXBFS:func.12" data-link="4767.html#ELM13678">LexBFS:Step</span> <font color="Maroon" title="c2">L</font><span class="kw"> -&gt; </span>  <span title="LEXBFS:NM.3" data-link="4757.html#ELM13663">LexBFS:Labeling</span> of <font color="Maroon" title="c1">G</font><span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E42">Def13</font></span>: <a name="D14"><span class="comment"><font color="firebrick">:: LEXBFS:def 14</font></span><br></a><font color="Maroon" title="c2">L</font><span class="kw"> if </span><font color="Maroon" title="c1">G</font> <span title="GLIB_000:func.15" data-link="3522.html#ELM9777">.order()</span>  <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span>  <span title="CARD_1:func.4" data-link="1329.html#ELM3236">card</span> <span class="p1">(<span class="default"><span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <span class="p2">(<span class="default"><font color="Maroon" title="c2">L</font> <span title="LEXBFS:func.7" data-link="54.html#ELM13673">`1</span></span>)</span></span>)</span><br><span class="kw"> otherwise </span> <span title="LEXBFS:func.11" data-link="4766.html#ELM13677">LexBFS:Update</span> (<font color="Maroon" title="c2">L</font>,<span class="p1">(<span class="default"><span title="LEXBFS:func.10" data-link="4765.html#ELM13676">LexBFS:PickUnnumbered</span> <font color="Maroon" title="c2">L</font></span>)</span>,<span class="p1">(<span class="default"><span title="CARD_1:func.4" data-link="1329.html#ELM3236">card</span> <span class="p2">(<span class="default"><span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <span class="p3">(<span class="default"><font color="Maroon" title="c2">L</font> <span title="LEXBFS:func.7" data-link="54.html#ELM13673">`1</span></span>)</span></span>)</span></span>)</span>);<br>
+</div>
+<span class="kw">coherence</span> <br><span class="kw">consistency</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

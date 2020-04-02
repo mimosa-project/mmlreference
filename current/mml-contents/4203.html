@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>even_part</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func even_part</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='4203.html#ELM12135'>even_part</span> [<span data-href='hurwitz2.html#K1'>hurwitz2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM12135'>
+<h2>1.   <span data-link='4203.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='hurwitz2.html#K1'>hurwitz2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="STRUCT_0:struct.2" data-link="8049.html#ELM25743">ZeroStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">p</font> be   <span title="STRUCT_0:NM.9" data-link="5927.html#ELM25755">sequence</span> of <font color="Maroon" title="c1">L</font>;<br><div about="#D7" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="HURWITZ2:func.1" data-link="4203.html#ELM12135">even_part</span> <font color="Maroon" title="c2">p</font><span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.9" data-link="5927.html#ELM25755">sequence</span> of <font color="Maroon" title="c1">L</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E7">Def1</font></span>: <a name="D1"><span class="comment"><font color="firebrick">:: HURWITZ2:def 1</font></span><br></a> for <font color="Olive" title="b1">i</font> being   <span title="ABIAN:attr.1" data-link="112.html#ELM300">even</span>  <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> holds <br> ( <span class="kw">it</span> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">p</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b1">i</font> &amp; (  for <font color="Olive" title="b2">i</font> being   <span title="ABIAN:NV.2" data-link="116.html#ELM301">odd</span>  <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> holds  <span class="kw">it</span> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b2">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="STRUCT_0:func.4" data-link="5074.html#ELM25765">0.</span> <font color="Maroon" title="c1">L</font> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <div about="#D8" typeof="oo:Definition">
+<a name="K2"><span class="kw">func</span> </a> <span title="HURWITZ2:func.2" data-link="4204.html#ELM12136">odd_part</span> <font color="Maroon" title="c2">p</font><span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.9" data-link="5927.html#ELM25755">sequence</span> of <font color="Maroon" title="c1">L</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E8">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: HURWITZ2:def 2</font></span><br></a> for <font color="Olive" title="b1">i</font> being   <span title="ABIAN:attr.1" data-link="112.html#ELM300">even</span>  <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> holds <br> ( <span class="kw">it</span> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="STRUCT_0:func.4" data-link="5074.html#ELM25765">0.</span> <font color="Maroon" title="c1">L</font> &amp; (  for <font color="Olive" title="b2">i</font> being   <span title="ABIAN:NV.2" data-link="116.html#ELM301">odd</span>  <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> holds  <span class="kw">it</span> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b2">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">p</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b2">i</font> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  even_part p ->  finite-Support  ;
+</td><td><span data-href='hurwitz2.html#FC2'>hurwitz2</span></td></tr>
+<tr><td>
+cluster  even_part p ->  even  ;
+</td><td><span data-href='hurwitz2.html#FC9'>hurwitz2</span></td></tr>
+<tr><td>
+cluster  even_part p ->  real  ;
+</td><td><span data-href='hurwitz2.html#FC13'>hurwitz2</span></td></tr>
+<tr><td>
+cluster  even_part p ->  non  zero  ;
+</td><td><span data-href='hurwitz2.html#FC15'>hurwitz2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

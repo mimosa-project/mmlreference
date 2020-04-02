@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_partial_differentiable_in</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_partial_differentiable_in</h1>
+<h2>List of Definitions (6)</h2>
+<ol>
+<li><span data-link='5970.html#ELM17742'>is_partial_differentiable_in</span> [<span data-href='ndiff_5.html#R1'>ndiff_5</span>]</li>
+<li><span data-link='5970.html#ELM20059'>is_partial_differentiable_in</span> [<span data-href='pdiff_1.html#R2'>pdiff_1</span>]</li>
+<li><span data-link='5970.html#ELM20060'>is_partial_differentiable_in</span> [<span data-href='pdiff_1.html#R3'>pdiff_1</span>]</li>
+<li><span data-link='5970.html#ELM20061'>is_partial_differentiable_in</span> [<span data-href='pdiff_1.html#R4'>pdiff_1</span>]</li>
+<li><span data-link='5970.html#ELM20062'>is_partial_differentiable_in</span> [<span data-href='pdiff_1.html#R5'>pdiff_1</span>]</li>
+<li><span data-link='5970.html#ELM20063'>is_partial_differentiable_in</span> [<span data-href='pdiff_1.html#R6'>pdiff_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM17742'>
+<h2>1.   <span data-link='5970.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='ndiff_5.html#R1'>ndiff_5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c3">G</font> be   <span title="PRVECT_2:NM.3" data-link="7037.html#ELM21409">RealNormSpace-Sequence</span>;<br><span class="kw">let </span><font color="Maroon" title="c4">F</font> be   <span title="NORMSP_1:NM.1" data-link="6167.html#ELM18544">RealNormSpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c5">i</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c6">f</font> be   <span title="STRUCT_0:NM.12" data-link="6450.html#ELM25758">PartFunc</span> of <span class="p1">(<span class="default"><span title="PRVECT_2:func.14" data-link="1342.html#ELM21423">product</span> <font color="Maroon" title="c3">G</font></span>)</span>,<font color="Maroon" title="c4">F</font>;<br><span class="kw">let </span><font color="Maroon" title="c7">x</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <span class="p1">(<span class="default"><span title="PRVECT_2:func.14" data-link="1342.html#ELM21423">product</span> <font color="Maroon" title="c3">G</font></span>)</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c4">f</font> <span title="NDIFF_5:pred.1" data-link="5970.html#ELM17742">is_partial_differentiable_in</span> <font color="Maroon" title="c5">x</font>,<font color="Maroon" title="c3">i</font><span class="kw"> means </span><a name="D6"><span class="comment"><font color="firebrick">:: NDIFF_5:def 6</font></span><br></a><font color="Maroon" title="c4">f</font> <span title="PARTFUN1:func.1" data-link="47.html#ELM19578">*</span> <span class="p1">(<span class="default"><span title="NDIFF_5:func.4" data-link="4839.html#ELM17748">reproj</span> (<span class="p2">(<span class="default"><span title="SUBSET_1:func.10" data-link="8054.html#ELM25879">In</span> (<font color="Maroon" title="c3">i</font>,<span class="p3">(<span class="default"><span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <font color="Maroon" title="c1">G</font></span>)</span>)</span>)</span>,<font color="Maroon" title="c5">x</font>)</span>)</span> <span title="NDIFF_1:pred.1" data-link="1601.html#ELM17700">is_differentiable_in</span> <span class="p1">(<span class="default"><span title="NDIFF_5:func.3" data-link="1348.html#ELM17747">proj</span> <span class="p2">(<span class="default"><span title="SUBSET_1:func.10" data-link="8054.html#ELM25879">In</span> (<font color="Maroon" title="c3">i</font>,<span class="p3">(<span class="default"><span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <font color="Maroon" title="c1">G</font></span>)</span>)</span>)</span></span>)</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Maroon" title="c5">x</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20059'>
+<h2>2.   <span data-link='5970.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='pdiff_1.html#R2'>pdiff_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c4">n</font>, <font color="Maroon" title="c5">m</font> be   non  <span title="ORDINAL1:attr.8" data-link="1643.html#ELM19074">zero</span>  <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c6">i</font> be   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c7">f</font> be   <span title="STRUCT_0:NM.12" data-link="6450.html#ELM25758">PartFunc</span> of <span class="p1">(<span class="default"><span title="REAL_NS1:func.4" data-link="7325.html#ELM22168">REAL-NS</span> <font color="Maroon" title="c5">m</font></span>)</span>,<span class="p1">(<span class="default"><span title="REAL_NS1:func.4" data-link="7325.html#ELM22168">REAL-NS</span> <font color="Maroon" title="c4">n</font></span>)</span>;<br><span class="kw">let </span><font color="Maroon" title="c8">x</font> be   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <span class="p1">(<span class="default"><span title="REAL_NS1:func.4" data-link="7325.html#ELM22168">REAL-NS</span> <font color="Maroon" title="c5">m</font></span>)</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c4">f</font> <span title="PDIFF_1:pred.2" data-link="5970.html#ELM20059">is_partial_differentiable_in</span> <font color="Maroon" title="c5">x</font>,<font color="Maroon" title="c3">i</font><span class="kw"> means </span><a name="D9"><span class="comment"><font color="firebrick">:: PDIFF_1:def 9</font></span><br></a><font color="Maroon" title="c4">f</font> <span title="PARTFUN1:func.1" data-link="47.html#ELM19578">*</span> <span class="p1">(<span class="default"><span title="PDIFF_1:func.7" data-link="4839.html#ELM20071">reproj</span> (<font color="Maroon" title="c3">i</font>,<font color="Maroon" title="c5">x</font>)</span>)</span> <span title="NDIFF_1:pred.1" data-link="1601.html#ELM17700">is_differentiable_in</span> <span class="p1">(<span class="default"><span title="PDIFF_1:func.4" data-link="1201.html#ELM20068">Proj</span> (<font color="Maroon" title="c3">i</font>,<font color="Maroon" title="c2">m</font>)</span>)</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Maroon" title="c5">x</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20060'>
+<h2>3.   <span data-link='5970.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='pdiff_1.html#R3'>pdiff_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c4">n</font> be   non  <span title="ORDINAL1:attr.8" data-link="1643.html#ELM19074">zero</span>  <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c5">i</font> be   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c6">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c4">n</font></span>)</span>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c7">x</font> be    <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of  <span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c4">n</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R3"><span class="kw">pred</span> </a><font color="Maroon" title="c3">f</font> <span title="PDIFF_1:pred.3" data-link="5970.html#ELM20060">is_partial_differentiable_in</span> <font color="Maroon" title="c4">x</font>,<font color="Maroon" title="c2">i</font><span class="kw"> means </span><a name="D11"><span class="comment"><font color="firebrick">:: PDIFF_1:def 11</font></span><br></a><font color="Maroon" title="c3">f</font> <span title="PARTFUN1:func.1" data-link="47.html#ELM19578">*</span> <span class="p1">(<span class="default"><span title="PDIFF_1:func.6" data-link="4839.html#ELM20070">reproj</span> (<font color="Maroon" title="c2">i</font>,<font color="Maroon" title="c4">x</font>)</span>)</span> <span title="FDIFF_1:pred.1" data-link="1601.html#ELM6743">is_differentiable_in</span> <span class="p1">(<span class="default"><span title="PDIFF_1:func.1" data-link="1348.html#ELM20065">proj</span> (<font color="Maroon" title="c2">i</font>,<font color="Maroon" title="c1">n</font>)</span>)</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Maroon" title="c4">x</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20061'>
+<h2>4.   <span data-link='5970.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='pdiff_1.html#R4'>pdiff_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c4">m</font>, <font color="Maroon" title="c5">n</font> be   non  <span title="ORDINAL1:attr.8" data-link="1643.html#ELM19074">zero</span>  <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c6">i</font> be   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c7">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c4">m</font></span>)</span>,<span class="p1">(<span class="default"><span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c5">n</font></span>)</span>;<br><span class="kw">let </span><font color="Maroon" title="c8">x</font> be    <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of  <span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c4">m</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R4"><span class="kw">pred</span> </a><font color="Maroon" title="c4">f</font> <span title="PDIFF_1:pred.4" data-link="5970.html#ELM20061">is_partial_differentiable_in</span> <font color="Maroon" title="c5">x</font>,<font color="Maroon" title="c3">i</font><span class="kw"> means </span><a name="D13"><span class="comment"><font color="firebrick">:: PDIFF_1:def 13</font></span><br></a> ex <font color="Olive" title="b1">g</font> being   <span title="STRUCT_0:NM.12" data-link="6450.html#ELM25758">PartFunc</span> of <span class="p1">(<span class="default"><span title="REAL_NS1:func.4" data-link="7325.html#ELM22168">REAL-NS</span> <font color="Maroon" title="c1">m</font></span>)</span>,<span class="p1">(<span class="default"><span title="REAL_NS1:func.4" data-link="7325.html#ELM22168">REAL-NS</span> <font color="Maroon" title="c2">n</font></span>)</span> ex <font color="Olive" title="b2">y</font> being   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <span class="p1">(<span class="default"><span title="REAL_NS1:func.4" data-link="7325.html#ELM22168">REAL-NS</span> <font color="Maroon" title="c1">m</font></span>)</span> st <br>( <font color="Maroon" title="c4">f</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">g</font> &amp; <font color="Maroon" title="c5">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b2">y</font> &amp; <font color="Olive" title="b1">g</font> <span title="PDIFF_1:pred.2" data-link="5970.html#ELM20059">is_partial_differentiable_in</span> <font color="Olive" title="b2">y</font>,<font color="Maroon" title="c3">i</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20062'>
+<h2>5.   <span data-link='5970.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='pdiff_1.html#R5'>pdiff_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c4">m</font>, <font color="Maroon" title="c5">n</font> be   non  <span title="ORDINAL1:attr.8" data-link="1643.html#ELM19074">zero</span>  <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c6">i</font>, <font color="Maroon" title="c7">j</font> be   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c8">f</font> be   <span title="STRUCT_0:NM.12" data-link="6450.html#ELM25758">PartFunc</span> of <span class="p1">(<span class="default"><span title="REAL_NS1:func.4" data-link="7325.html#ELM22168">REAL-NS</span> <font color="Maroon" title="c4">m</font></span>)</span>,<span class="p1">(<span class="default"><span title="REAL_NS1:func.4" data-link="7325.html#ELM22168">REAL-NS</span> <font color="Maroon" title="c5">n</font></span>)</span>;<br><span class="kw">let </span><font color="Maroon" title="c9">x</font> be   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <span class="p1">(<span class="default"><span title="REAL_NS1:func.4" data-link="7325.html#ELM22168">REAL-NS</span> <font color="Maroon" title="c4">m</font></span>)</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R5"><span class="kw">pred</span> </a><font color="Maroon" title="c5">f</font> <span title="PDIFF_1:pred.5" data-link="5970.html#ELM20062">is_partial_differentiable_in</span> <font color="Maroon" title="c6">x</font>,<font color="Maroon" title="c3">i</font>,<font color="Maroon" title="c4">j</font><span class="kw"> means </span><a name="D15"><span class="comment"><font color="firebrick">:: PDIFF_1:def 15</font></span><br></a><span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="PDIFF_1:func.4" data-link="1201.html#ELM20068">Proj</span> (<font color="Maroon" title="c4">j</font>,<font color="Maroon" title="c2">n</font>)</span>)</span> <span title="PARTFUN1:func.1" data-link="47.html#ELM19578">*</span> <font color="Maroon" title="c5">f</font></span>)</span> <span title="PARTFUN1:func.1" data-link="47.html#ELM19578">*</span> <span class="p1">(<span class="default"><span title="PDIFF_1:func.7" data-link="4839.html#ELM20071">reproj</span> (<font color="Maroon" title="c3">i</font>,<font color="Maroon" title="c6">x</font>)</span>)</span> <span title="NDIFF_1:pred.1" data-link="1601.html#ELM17700">is_differentiable_in</span> <span class="p1">(<span class="default"><span title="PDIFF_1:func.4" data-link="1201.html#ELM20068">Proj</span> (<font color="Maroon" title="c3">i</font>,<font color="Maroon" title="c1">m</font>)</span>)</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Maroon" title="c6">x</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20063'>
+<h2>6.   <span data-link='5970.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='pdiff_1.html#R6'>pdiff_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c4">m</font>, <font color="Maroon" title="c5">n</font> be   non  <span title="ORDINAL1:attr.8" data-link="1643.html#ELM19074">zero</span>  <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c6">i</font>, <font color="Maroon" title="c7">j</font> be   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c8">h</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c4">m</font></span>)</span>,<span class="p1">(<span class="default"><span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c5">n</font></span>)</span>;<br><span class="kw">let </span><font color="Maroon" title="c9">z</font> be    <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of  <span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c4">m</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R6"><span class="kw">pred</span> </a><font color="Maroon" title="c5">h</font> <span title="PDIFF_1:pred.6" data-link="5970.html#ELM20063">is_partial_differentiable_in</span> <font color="Maroon" title="c6">z</font>,<font color="Maroon" title="c3">i</font>,<font color="Maroon" title="c4">j</font><span class="kw"> means </span><a name="D17"><span class="comment"><font color="firebrick">:: PDIFF_1:def 17</font></span><br></a><span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="PDIFF_1:func.1" data-link="1348.html#ELM20065">proj</span> (<font color="Maroon" title="c4">j</font>,<font color="Maroon" title="c2">n</font>)</span>)</span> <span title="PARTFUN1:func.1" data-link="47.html#ELM19578">*</span> <font color="Maroon" title="c5">h</font></span>)</span> <span title="PARTFUN1:func.1" data-link="47.html#ELM19578">*</span> <span class="p1">(<span class="default"><span title="PDIFF_1:func.6" data-link="4839.html#ELM20070">reproj</span> (<font color="Maroon" title="c3">i</font>,<font color="Maroon" title="c6">z</font>)</span>)</span> <span title="FDIFF_1:pred.1" data-link="1601.html#ELM6743">is_differentiable_in</span> <span class="p1">(<span class="default"><span title="PDIFF_1:func.1" data-link="1348.html#ELM20065">proj</span> (<font color="Maroon" title="c3">i</font>,<font color="Maroon" title="c1">m</font>)</span>)</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Maroon" title="c6">z</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

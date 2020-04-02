@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_locally_connected_in</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_locally_connected_in</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='2028.html#ELM5376'>is_locally_connected_in</span> [<span data-href='connsp_2.html#R1'>connsp_2</span>]</li>
+<li><span data-link='2028.html#ELM5377'>is_locally_connected_in</span> [<span data-href='connsp_2.html#R2'>connsp_2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM5376'>
+<h2>1.   <span data-link='2028.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='connsp_2.html#R1'>connsp_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>  <span title="PRE_TOPC:NM.1" data-link="6938.html#ELM21124">TopSpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">x</font> be   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <font color="Maroon" title="c1">X</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c1">X</font> <span title="CONNSP_2:pred.1" data-link="2028.html#ELM5376">is_locally_connected_in</span> <font color="Maroon" title="c2">x</font><span class="kw"> means </span><a name="D3"><span class="comment"><font color="firebrick">:: CONNSP_2:def 3</font></span><br></a> for <font color="Olive" title="b1">U1</font> being   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">X</font>  st <font color="Olive" title="b1">U1</font> is    <span title="CONNSP_2:mode.1" data-link="2029.html#ELM5378">a_neighborhood</span> of <font color="Maroon" title="c2">x</font> holds <br> ex <font color="Olive" title="b2">V</font> being   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">X</font> st <br>( <font color="Olive" title="b2">V</font> is    <span title="CONNSP_2:mode.1" data-link="2029.html#ELM5378">a_neighborhood</span> of <font color="Maroon" title="c2">x</font> &amp; <font color="Olive" title="b2">V</font> is  <span title="CONNSP_1:attr.2" data-link="2026.html#ELM5367">connected</span>  &amp; <font color="Olive" title="b2">V</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span> <font color="Olive" title="b1">U1</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM5377'>
+<h2>2.   <span data-link='2028.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='connsp_2.html#R2'>connsp_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>  <span title="PRE_TOPC:NM.1" data-link="6938.html#ELM21124">TopSpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font> be   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">X</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">x</font> be   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <font color="Maroon" title="c1">X</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c2">A</font> <span title="CONNSP_2:pred.2" data-link="2028.html#ELM5377">is_locally_connected_in</span> <font color="Maroon" title="c3">x</font><span class="kw"> means </span><a name="D5"><span class="comment"><font color="firebrick">:: CONNSP_2:def 5</font></span><br></a> for <font color="Olive" title="b1">B</font> being   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>  <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">X</font>  st <font color="Maroon" title="c2">A</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">B</font> holds <br> ex <font color="Olive" title="b2">x1</font> being   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <span class="p1">(<span class="default"><font color="Maroon" title="c1">X</font> <span title="PRE_TOPC:func.1" data-link="909.html#ELM21127">|</span> <font color="Olive" title="b1">B</font></span>)</span> st <br>( <font color="Olive" title="b2">x1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">x</font> &amp; <font color="Maroon" title="c1">X</font> <span title="PRE_TOPC:func.1" data-link="909.html#ELM21127">|</span> <font color="Olive" title="b1">B</font> <span title="CONNSP_2:pred.1" data-link="2028.html#ELM5376">is_locally_connected_in</span> <font color="Olive" title="b2">x1</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

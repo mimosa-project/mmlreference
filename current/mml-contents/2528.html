@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>computes</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred computes</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='2528.html#ELM6607'>computes</span> [<span data-href='extpro_1.html#R2'>extpro_1</span>]</li>
+<li><span data-link='2528.html#ELM27522'>computes</span> [<span data-href='turing_1.html#R3'>turing_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM6607'>
+<h2>1.   <span data-link='2528.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='extpro_1.html#R2'>extpro_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">N</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="MEASURE6:NV.2" data-link="3055.html#ELM15092">with_zero</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="MEMSTR_0:attr.2" data-link="5247.html#ELM15446">with_non-empty_values</span>   <span title="MEMSTR_0:attr.3" data-link="5248.html#ELM15447">IC-Ins-separated</span>   <span title="EXTPRO_1:attr.3" data-link="2536.html#ELM6619">halting</span>   <span title="EXTPRO_1:struct.1" data-link="2529.html#ELM6608">AMI-Struct</span> over <font color="Maroon" title="c1">N</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">p</font> be   <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>  <span title="RELAT_1:attr.4" data-link="7381.html#ELM22400">-defined</span>   the <span title="COMPOS_1:sel.1" data-href="compos_1.html#U1">InstructionsF</span> of <font color="Maroon" title="c2">S</font> <span title="RELAT_1:attr.5" data-link="7382.html#ELM22401">-valued</span>   non  <span title="COMPOS_1:attr.2" data-link="1943.html#ELM5037">halt-free</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><span class="kw">let </span><font color="Maroon" title="c4">d</font> be   <span title="MEMSTR_0:NM.4" data-link="5236.html#ELM15432">FinPartState</span> of <font color="Maroon" title="c2">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">F</font> be   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c3">p</font>,<font color="Maroon" title="c4">d</font> <span title="EXTPRO_1:pred.2" data-link="2528.html#ELM6607">computes</span> <font color="Maroon" title="c5">F</font><span class="kw"> means </span><a name="D14"><span class="comment"><font color="firebrick">:: EXTPRO_1:def 14</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c5">F</font> holds <br> ex <font color="Olive" title="b2">s</font> being   <span title="MEMSTR_0:NM.4" data-link="5236.html#ELM15432">FinPartState</span> of <font color="Maroon" title="c2">S</font> st <br>( <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b2">s</font> &amp; <font color="Maroon" title="c4">d</font> <span title="FUNCT_4:func.1" data-link="517.html#ELM8937">+*</span> <font color="Olive" title="b2">s</font> is    <span title="EXTPRO_1:mode.1" data-link="2530.html#ELM6609">Autonomy</span> of <font color="Maroon" title="c3">p</font> &amp; <font color="Maroon" title="c5">F</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b2">s</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span>  <span title="EXTPRO_1:func.7" data-link="1675.html#ELM6616">Result</span> (<font color="Maroon" title="c3">p</font>,<span class="p1">(<span class="default"><font color="Maroon" title="c4">d</font> <span title="FUNCT_4:func.1" data-link="517.html#ELM8937">+*</span> <font color="Olive" title="b2">s</font></span>)</span>) );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM27522'>
+<h2>2.   <span data-link='2528.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='turing_1.html#R3'>turing_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">T</font> be    <span title="TURING_1:struct.1" data-link="8411.html#ELM27523">TuringStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">F</font> be   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R3"><span class="kw">pred</span> </a><font color="Maroon" title="c1">T</font> <span title="TURING_1:pred.3" data-link="2528.html#ELM27522">computes</span> <font color="Maroon" title="c2">F</font><span class="kw"> means </span><a name="D15"><span class="comment"><font color="firebrick">:: TURING_1:def 15</font></span><br></a> for <font color="Olive" title="b1">s</font> being   <span title="TURING_1:NM.4" data-link="8413.html#ELM27527">All-State</span> of <font color="Maroon" title="c1">T</font><br>  for <font color="Olive" title="b2">t</font> being   <span title="TURING_1:NM.2" data-link="8412.html#ELM27525">Tape</span> of <font color="Maroon" title="c1">T</font><br>  for <font color="Olive" title="b3">a</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> <br>  for <font color="Olive" title="b4">x</font> being    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>   st <font color="Olive" title="b4">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c2">F</font> &amp; <font color="Olive" title="b1">s</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"><span title="DOMAIN_1:func.4" data-link="802.html#ELM5995">[</span><span class="default"> the <span title="TURING_1:sel.4" data-href="turing_1.html#U4">InitS</span> of <font color="Maroon" title="c1">T</font>,<font color="Olive" title="b3">a</font>,<font color="Olive" title="b2">t</font></span><span title="DOMAIN_1:func.4" data-link="802.html#ELM5995">]</span></span> &amp; <font color="Olive" title="b2">t</font> <span title="TURING_1:pred.2" data-link="8410.html#ELM27521">storeData</span> <span class="p1"><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">&lt;*</span><span class="default"><font color="Olive" title="b3">a</font></span><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">*&gt;</span></span> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <font color="Olive" title="b4">x</font> holds <br>( <font color="Olive" title="b1">s</font> is  <span title="TURING_1:attr.2" data-link="8438.html#ELM27563">Accept-Halt</span>  &amp;  ex <font color="Olive" title="b5">b</font>, <font color="Olive" title="b6">y</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>  st <br>( <span class="p1">(<span class="default"><span title="TURING_1:func.10" data-link="1675.html#ELM27541">Result</span> <font color="Olive" title="b1">s</font></span>)</span> <span title="MCART_1:func.2" data-link="2398.html#ELM14952">`2_3</span>  <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b5">b</font> &amp; <font color="Olive" title="b6">y</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">F</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b4">x</font> &amp; <span class="p1">(<span class="default"><span title="TURING_1:func.10" data-link="1675.html#ELM27541">Result</span> <font color="Olive" title="b1">s</font></span>)</span> <span title="MCART_1:func.3" data-link="2399.html#ELM14953">`3_3</span>  <span title="TURING_1:pred.2" data-link="8410.html#ELM27521">storeData</span> <span class="p1"><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">&lt;*</span><span class="default"><font color="Olive" title="b5">b</font></span><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">*&gt;</span></span> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <span class="p1"><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">&lt;*</span><span class="default"><font color="Olive" title="b6">y</font></span><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">*&gt;</span></span> ) );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

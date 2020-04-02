@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>roots</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func roots</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='2306.html#ELM6014'>roots</span> [<span data-href='dtconstr.html#K1'>dtconstr</span>]</li>
+<li><span data-link='2306.html#ELM27293'>roots</span> [<span data-href='trees_3.html#K15'>trees_3</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM6014'>
+<h2>1.   <span data-link='2306.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='dtconstr.html#K1'>dtconstr</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">D</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">T</font> be    <span title="TREES_3:mode.1" data-link="8369.html#ELM27272">DTree-set</span> of <font color="Maroon" title="c1">D</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">p</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c2">T</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="TREES_3:func.15" data-link="2306.html#ELM27293">roots</span><br><span class="kw">redefine </span><a name="K1"><span class="kw">func</span> </a> <span title="DTCONSTR:func.1" data-link="2306.html#ELM6014">roots</span> <font color="Maroon" title="c3">p</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c1">D</font>;<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM27293'>
+<h2>2.   <span data-link='2306.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='trees_3.html#K15'>trees_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">p</font> be   <span title="FINSEQ_1:NM.1" data-link="27.html#ELM7089">FinSequence</span>;<br><span class="kw">assume </span><a name="E1:149"></a><span class="lab"><font color="Green" title="E57">A1</font></span>: 
+<font color="Maroon" title="c1">p</font> is  <span title="TREES_3:attr.6" data-link="8379.html#ELM27299">DTree-yielding</span> 
+ ;<br><span class="kw">defpred </span><font color="Maroon">S<sub>1</sub></font>[  <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>,   <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span> ] <span class="kw">means </span> ex <font color="Olive" title="b1">T</font> being   <span title="TREES_2:NM.4" data-link="8365.html#ELM27244">DecoratedTree</span> st <br>( <font color="Olive" title="b1">T</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">p</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> $1 &amp; $2 <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">T</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span> );<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K15"><span class="kw">func</span> </a> <span title="TREES_3:func.15" data-link="2306.html#ELM27293">roots</span> <font color="Maroon" title="c1">p</font><span class="kw"> -&gt; </span>  <span title="FINSEQ_1:NM.1" data-link="27.html#ELM7089">FinSequence</span><span class="kw"> means </span><a name="D18"><span class="comment"><font color="firebrick">:: TREES_3:def 18</font></span><br></a>(  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <font color="Maroon" title="c1">p</font> &amp; (  for <font color="Olive" title="b1">i</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>   st <font color="Olive" title="b1">i</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <font color="Maroon" title="c1">p</font> holds <br> ex <font color="Olive" title="b2">T</font> being   <span title="TREES_2:NM.4" data-link="8365.html#ELM27244">DecoratedTree</span> st <br>( <font color="Olive" title="b2">T</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">p</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">i</font> &amp; <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b2">T</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span> ) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

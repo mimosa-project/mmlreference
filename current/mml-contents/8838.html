@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>min_dist_max</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func min_dist_max</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='8838.html#ELM29599'>min_dist_max</span> [<span data-href='weierstr.html#K9'>weierstr</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM29599'>
+<h2>1.   <span data-link='8838.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='weierstr.html#K9'>weierstr</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">M</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>  <span title="METRIC_1:NM.1" data-link="5300.html#ELM15644">MetrSpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">P</font>, <font color="Maroon" title="c3">Q</font> be   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <span class="p1">(<span class="default"><span title="PCOMPS_1:func.3" data-link="6522.html#ELM19849">TopSpaceMetr</span> <font color="Maroon" title="c1">M</font></span>)</span>;<br><div about="#D0" typeof="oo:Definition">
+<a name="K7"><span class="kw">func</span> </a> <span title="WEIERSTR:func.7" data-link="4464.html#ELM29597">min_dist_min</span> (<font color="Maroon" title="c2">P</font>,<font color="Maroon" title="c3">Q</font>)<span class="kw"> -&gt; </span>  <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span><span class="kw"> equals </span><a name="D7"><span class="comment"><font color="firebrick">:: WEIERSTR:def 7</font></span><br></a> <span title="WEIERSTR:func.3" data-link="5926.html#ELM29593">lower_bound</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="WEIERSTR:func.6" data-link="4463.html#ELM29596">dist_min</span> <font color="Maroon" title="c2">P</font></span>)</span> <span title="RELSET_1:func.7" data-link="1877.html#ELM22514">.:</span> <font color="Maroon" title="c3">Q</font></span>)</span>;<br>
+</div>
+<span class="kw">correctness </span><br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K8"><span class="kw">func</span> </a> <span title="WEIERSTR:func.8" data-link="4099.html#ELM29598">max_dist_min</span> (<font color="Maroon" title="c2">P</font>,<font color="Maroon" title="c3">Q</font>)<span class="kw"> -&gt; </span>  <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span><span class="kw"> equals </span><a name="D8"><span class="comment"><font color="firebrick">:: WEIERSTR:def 8</font></span><br></a> <span title="WEIERSTR:func.2" data-link="7048.html#ELM29592">upper_bound</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="WEIERSTR:func.6" data-link="4463.html#ELM29596">dist_min</span> <font color="Maroon" title="c2">P</font></span>)</span> <span title="RELSET_1:func.7" data-link="1877.html#ELM22514">.:</span> <font color="Maroon" title="c3">Q</font></span>)</span>;<br>
+</div>
+<span class="kw">correctness </span><br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K9"><span class="kw">func</span> </a> <span title="WEIERSTR:func.9" data-link="8838.html#ELM29599">min_dist_max</span> (<font color="Maroon" title="c2">P</font>,<font color="Maroon" title="c3">Q</font>)<span class="kw"> -&gt; </span>  <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span><span class="kw"> equals </span><a name="D9"><span class="comment"><font color="firebrick">:: WEIERSTR:def 9</font></span><br></a> <span title="WEIERSTR:func.3" data-link="5926.html#ELM29593">lower_bound</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="WEIERSTR:func.5" data-link="8837.html#ELM29595">dist_max</span> <font color="Maroon" title="c2">P</font></span>)</span> <span title="RELSET_1:func.7" data-link="1877.html#ELM22514">.:</span> <font color="Maroon" title="c3">Q</font></span>)</span>;<br>
+</div>
+<span class="kw">correctness </span><br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K10"><span class="kw">func</span> </a> <span title="WEIERSTR:func.10" data-link="4465.html#ELM29600">max_dist_max</span> (<font color="Maroon" title="c2">P</font>,<font color="Maroon" title="c3">Q</font>)<span class="kw"> -&gt; </span>  <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span><span class="kw"> equals </span><a name="D10"><span class="comment"><font color="firebrick">:: WEIERSTR:def 10</font></span><br></a> <span title="WEIERSTR:func.2" data-link="7048.html#ELM29592">upper_bound</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="WEIERSTR:func.5" data-link="8837.html#ELM29595">dist_max</span> <font color="Maroon" title="c2">P</font></span>)</span> <span title="RELSET_1:func.7" data-link="1877.html#ELM22514">.:</span> <font color="Maroon" title="c3">Q</font></span>)</span>;<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

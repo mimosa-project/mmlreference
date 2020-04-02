@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_associated_to</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_associated_to</h1>
+<h2>List of Definitions (3)</h2>
+<ol>
+<li><span data-link='3379.html#ELM9531'>is_associated_to</span> [<span data-href='gaussint.html#R2'>gaussint</span>]</li>
+<li><span data-link='3379.html#ELM9603'>is_associated_to</span> [<span data-href='gcd_1.html#R3'>gcd_1</span>]</li>
+<li><span data-link='3379.html#ELM9605'>is_associated_to</span> [<span data-href='gcd_1.html#R4'>gcd_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM9531'>
+<h2>1.   <span data-link='3379.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='gaussint.html#R2'>gaussint</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c3">x</font>, <font color="Maroon" title="c4">y</font> be   <span title="GAUSSINT:NM.1" data-link="3380.html#ELM9532">G_INTEG</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c1">x</font> <span title="GAUSSINT:pred.2" data-link="3379.html#ELM9531">is_associated_to</span> <font color="Maroon" title="c2">y</font><span class="kw"> means </span><a name="D21"><span class="comment"><font color="firebrick">:: GAUSSINT:def 21</font></span><br></a>( <font color="Maroon" title="c1">x</font> <span title="GAUSSINT:pred.1" data-link="3378.html#ELM9530">Divides</span> <font color="Maroon" title="c2">y</font> &amp; <font color="Maroon" title="c2">y</font> <span title="GAUSSINT:pred.1" data-link="3378.html#ELM9530">Divides</span> <font color="Maroon" title="c1">x</font> );<br>
+</div>
+<span class="kw">symmetry</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM9603'>
+<h2>2.   <span data-link='3379.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='gcd_1.html#R3'>gcd_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ALGSTR_0:struct.4" data-link="322.html#ELM741">multLoopStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">x</font>, <font color="Maroon" title="c3">y</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">R</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R3"><span class="kw">pred</span> </a><font color="Maroon" title="c2">x</font> <span title="GCD_1:pred.3" data-link="3379.html#ELM9603">is_associated_to</span> <font color="Maroon" title="c3">y</font><span class="kw"> means </span><a name="D3"><span class="comment"><font color="firebrick">:: GCD_1:def 3</font></span><br></a>( <font color="Maroon" title="c2">x</font> <span title="GCD_1:pred.1" data-link="848.html#ELM9601">divides</span> <font color="Maroon" title="c3">y</font> &amp; <font color="Maroon" title="c3">y</font> <span title="GCD_1:pred.1" data-link="848.html#ELM9601">divides</span> <font color="Maroon" title="c2">x</font> );<br>
+</div>
+<span class="kw">symmetry</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM9605'>
+<h2>3.   <span data-link='3379.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='gcd_1.html#R4'>gcd_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="VECTSP_1:attr.4" data-link="5661.html#ELM28516">well-unital</span>   <span title="ALGSTR_0:struct.4" data-link="322.html#ELM741">multLoopStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">x</font>, <font color="Maroon" title="c3">y</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">R</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="GCD_1:pred.3" data-link="3379.html#ELM9603">is_associated_to</span><br><span class="kw">redefine </span><a name="R4"><span class="kw">pred</span> </a><font color="Maroon" title="c2">x</font> <span title="GCD_1:pred.4" data-link="3379.html#ELM9605">is_associated_to</span> <font color="Maroon" title="c3">y</font>;<br><span class="kw">reflexivity</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

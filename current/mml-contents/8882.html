@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>dualizing-func</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func dualizing-func</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='8882.html#ELM30100'>dualizing-func</span> [<span data-href='yellow18.html#K2'>yellow18</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM30100'>
+<h2>1.   <span data-link='8882.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='yellow18.html#K2'>yellow18</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font>, <font color="Maroon" title="c2">B</font> be   <span title="ALTCAT_1:NM.4" data-link="405.html#ELM981">category</span>;<br><span class="kw">assume </span><a name="E1:33"></a><span class="lab"><font color="Green" title="E13">A1</font></span>: 
+<font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">B</font> <span title="YELLOW18:pred.2" data-link="8880.html#ELM30097">are_opposite</span> 
+ ;<br><span class="kw">deffunc </span><font color="Maroon">H<sub>1</sub></font>(   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ) <span class="kw">-&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>  = $1;<br><span class="kw">deffunc </span><font color="Maroon">H<sub>2</sub></font>(   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ,   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ,   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ) <span class="kw">-&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>  = $3;<br><a name="E2:33"></a><span class="lab"><font color="Green" title="E14">A2</font></span>: 
+ for <font color="Olive" title="b1">a</font> being   <span title="ALTCAT_1:NM.1" data-link="402.html#ELM978">Object</span> of <font color="Maroon" title="c1">A</font> holds  <font color="Maroon">H<sub>1</sub></font>(<font color="Olive" title="b1">a</font>) is   <span title="ALTCAT_1:NM.1" data-link="402.html#ELM978">Object</span> of <font color="Maroon" title="c2">B</font>
+ <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E13">A1</font></span></span>;<br><div>
+<span class="lab"><font color="Green" title="E15">A3</font></span>: <span class="kw">now </span> <span class="comment"><font color="firebrick">::  thesis: </font></span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c3">a</font>, <font color="Maroon" title="c4">b</font> be   <span title="ALTCAT_1:NM.1" data-link="402.html#ELM978">Object</span> of <font color="Maroon" title="c1">A</font>; <span class="comment"><font color="firebrick">::  thesis: </font></span><br><span class="kw">assume </span><a name="E1:33_1"></a><span class="lab"><font color="Green" title="E16">A4</font></span>: 
+<span class="p1"><span title="ALTCAT_1:func.1" data-link="407.html#ELM983">&lt;^</span><span class="default"><font color="Maroon" title="c3">a</font>,<font color="Maroon" title="c4">b</font></span><span title="ALTCAT_1:func.1" data-link="407.html#ELM983">^&gt;</span></span> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span> 
+ ; <span class="comment"><font color="firebrick">::  thesis: </font></span><br><span class="kw">let </span><font color="Maroon" title="c5">f</font> be   <span title="ALTCAT_1:NM.2" data-link="403.html#ELM979">Morphism</span> of <font color="Maroon" title="c3">a</font>,<font color="Maroon" title="c4">b</font>; <span class="comment"><font color="firebrick">::  thesis: </font></span><br><span class="kw">reconsider </span><font color="Maroon" title="c6">a9</font> = <font color="Maroon" title="c3">a</font>, <font color="Maroon" title="c7">b9</font> = <font color="Maroon" title="c4">b</font> as   <span title="ALTCAT_1:NM.1" data-link="402.html#ELM978">Object</span> of <font color="Maroon" title="c2">B</font> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E14">A2</font></span></span>;<br><span class="p1"><span title="ALTCAT_1:func.1" data-link="407.html#ELM983">&lt;^</span><span class="default"><font color="Maroon" title="c3">a</font>,<font color="Maroon" title="c4">b</font></span><span title="ALTCAT_1:func.1" data-link="407.html#ELM983">^&gt;</span></span> = 
+<span class="p1"><span title="ALTCAT_1:func.1" data-link="407.html#ELM983">&lt;^</span><span class="default"><font color="Maroon" title="c7">b9</font>,<font color="Maroon" title="c6">a9</font></span><span title="ALTCAT_1:func.1" data-link="407.html#ELM983">^&gt;</span></span>
+<span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E13">A1</font></span><span class="ref" target="_self" onmouseover="rs('yellow18/T9')" onmouseout="rh()" data-href="yellow18.html#T9">Th9</span></span>
+<br>.= 
+ the <span title="ALTCAT_1:sel.1" data-href="altcat_1.html#U1">Arrows</span> of <font color="Maroon" title="c2">B</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Maroon" title="c4">b</font>,<font color="Maroon" title="c3">a</font>)
+
+;<br><span class="kw">hence </span><a name="E4:33_1"></a>
+<font color="Maroon">H<sub>2</sub></font>(<font color="Maroon" title="c3">a</font>,<font color="Maroon" title="c4">b</font>,<font color="Maroon" title="c5">f</font>) <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  the <span title="ALTCAT_1:sel.1" data-href="altcat_1.html#U1">Arrows</span> of <font color="Maroon" title="c2">B</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Maroon">H<sub>1</sub></font>(<font color="Maroon" title="c4">b</font>),<font color="Maroon">H<sub>1</sub></font>(<font color="Maroon" title="c3">a</font>))
+ <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E16">A4</font></span></span>; <span class="comment"><font color="firebrick">::  thesis: </font></span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+<a name="E4:33"></a><span class="lab"><font color="Green" title="E16">A5</font></span>: 
+ for <font color="Olive" title="b1">a</font>, <font color="Olive" title="b2">b</font>, <font color="Olive" title="b3">c</font> being   <span title="ALTCAT_1:NM.1" data-link="402.html#ELM978">Object</span> of <font color="Maroon" title="c1">A</font>  st <span class="p1"><span title="ALTCAT_1:func.1" data-link="407.html#ELM983">&lt;^</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font></span><span title="ALTCAT_1:func.1" data-link="407.html#ELM983">^&gt;</span></span> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span>  &amp; <span class="p1"><span title="ALTCAT_1:func.1" data-link="407.html#ELM983">&lt;^</span><span class="default"><font color="Olive" title="b2">b</font>,<font color="Olive" title="b3">c</font></span><span title="ALTCAT_1:func.1" data-link="407.html#ELM983">^&gt;</span></span> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span>  holds <br> for <font color="Olive" title="b4">f</font> being   <span title="ALTCAT_1:NM.2" data-link="403.html#ELM979">Morphism</span> of <font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font><br>  for <font color="Olive" title="b5">g</font> being   <span title="ALTCAT_1:NM.2" data-link="403.html#ELM979">Morphism</span> of <font color="Olive" title="b2">b</font>,<font color="Olive" title="b3">c</font><br>  for <font color="Olive" title="b6">a9</font>, <font color="Olive" title="b7">b9</font>, <font color="Olive" title="b8">c9</font> being   <span title="ALTCAT_1:NM.1" data-link="402.html#ELM978">Object</span> of <font color="Maroon" title="c2">B</font>  st <font color="Olive" title="b6">a9</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon">H<sub>1</sub></font>(<font color="Olive" title="b1">a</font>) &amp; <font color="Olive" title="b7">b9</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon">H<sub>1</sub></font>(<font color="Olive" title="b2">b</font>) &amp; <font color="Olive" title="b8">c9</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon">H<sub>1</sub></font>(<font color="Olive" title="b3">c</font>) holds <br> for <font color="Olive" title="b9">f9</font> being   <span title="ALTCAT_1:NM.2" data-link="403.html#ELM979">Morphism</span> of <font color="Olive" title="b7">b9</font>,<font color="Olive" title="b6">a9</font><br>  for <font color="Olive" title="b10">g9</font> being   <span title="ALTCAT_1:NM.2" data-link="403.html#ELM979">Morphism</span> of <font color="Olive" title="b8">c9</font>,<font color="Olive" title="b7">b9</font>  st <font color="Olive" title="b9">f9</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon">H<sub>2</sub></font>(<font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font>,<font color="Olive" title="b4">f</font>) &amp; <font color="Olive" title="b10">g9</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon">H<sub>2</sub></font>(<font color="Olive" title="b2">b</font>,<font color="Olive" title="b3">c</font>,<font color="Olive" title="b5">g</font>) holds <br><font color="Maroon">H<sub>2</sub></font>(<font color="Olive" title="b1">a</font>,<font color="Olive" title="b3">c</font>,<font color="Olive" title="b5">g</font> <span title="ALTCAT_1:func.5" data-link="47.html#ELM987">*</span> <font color="Olive" title="b4">f</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b9">f9</font> <span title="ALTCAT_1:func.5" data-link="47.html#ELM987">*</span> <font color="Olive" title="b10">g9</font>
+ <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E13">A1</font></span><span class="ref" target="_self" onmouseover="rs('yellow18/T9')" onmouseout="rh()" data-href="yellow18.html#T9">Th9</span></span>;<br><a name="E5:33"></a><span class="lab"><font color="Green" title="E17">A6</font></span>: 
+ for <font color="Olive" title="b1">a</font> being   <span title="ALTCAT_1:NM.1" data-link="402.html#ELM978">Object</span> of <font color="Maroon" title="c1">A</font><br>  for <font color="Olive" title="b2">a9</font> being   <span title="ALTCAT_1:NM.1" data-link="402.html#ELM978">Object</span> of <font color="Maroon" title="c2">B</font>  st <font color="Olive" title="b2">a9</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon">H<sub>1</sub></font>(<font color="Olive" title="b1">a</font>) holds <br><font color="Maroon">H<sub>2</sub></font>(<font color="Olive" title="b1">a</font>,<font color="Olive" title="b1">a</font>, <span title="ALTCAT_1:func.8" data-link="411.html#ELM990">idm</span> <font color="Olive" title="b1">a</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="ALTCAT_1:func.8" data-link="411.html#ELM990">idm</span> <font color="Olive" title="b2">a9</font>
+ <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E13">A1</font></span><span class="ref" target="_self" onmouseover="rs('yellow18/T10')" onmouseout="rh()" data-href="yellow18.html#T10">Th10</span></span>;<br><div about="#D13" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="YELLOW18:func.2" data-link="8882.html#ELM30100">dualizing-func</span> (<font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">B</font>)<span class="kw"> -&gt; </span>  <span title="FUNCTOR0:attr.9" data-href="functor0.html#V9">strict</span>   <span title="FUNCTOR0:attr.16" data-link="1522.html#ELM9121">contravariant</span>   <span title="FUNCTOR0:mode.2" data-link="1432.html#ELM9088">Functor</span> of <font color="Maroon" title="c1">A</font>,<font color="Maroon" title="c2">B</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E13">Def5</font></span>: <a name="D5"><span class="comment"><font color="firebrick">:: YELLOW18:def 5</font></span><br></a>( (  for <font color="Olive" title="b1">a</font> being   <span title="ALTCAT_1:NM.1" data-link="402.html#ELM978">Object</span> of <font color="Maroon" title="c1">A</font> holds  <span class="kw">it</span> <span title="FUNCTOR0:func.2" data-link="141.html#ELM9090">.</span> <font color="Olive" title="b1">a</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">a</font> ) &amp; (  for <font color="Olive" title="b1">a</font>, <font color="Olive" title="b2">b</font> being   <span title="ALTCAT_1:NM.1" data-link="402.html#ELM978">Object</span> of <font color="Maroon" title="c1">A</font>  st <span class="p1"><span title="ALTCAT_1:func.1" data-link="407.html#ELM983">&lt;^</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font></span><span title="ALTCAT_1:func.1" data-link="407.html#ELM983">^&gt;</span></span> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span>  holds <br> for <font color="Olive" title="b3">f</font> being   <span title="ALTCAT_1:NM.2" data-link="403.html#ELM979">Morphism</span> of <font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font> holds  <span class="kw">it</span> <span title="FUNCTOR0:func.7" data-link="141.html#ELM9095">.</span> <font color="Olive" title="b3">f</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b3">f</font> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  dualizing-func (A,(A opp)) ->  strict   contravariant   bijective  ;
+</td><td><span data-href='yellow18.html#FC4'>yellow18</span></td></tr>
+<tr><td>
+cluster  dualizing-func ((A opp),A) ->  strict   contravariant   bijective  ;
+</td><td><span data-href='yellow18.html#FC5'>yellow18</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

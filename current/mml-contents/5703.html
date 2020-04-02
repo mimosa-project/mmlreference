@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>-context_in</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func -context_in</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='5703.html#ELM16796'>-context_in</span> [<span data-href='msafree5.html#K17'>msafree5</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM16796'>
+<h2>1.   <span data-link='5703.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='msafree5.html#K17'>msafree5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   non  <span title="STRUCT_0:attr.11" data-link="17.html#ELM25778">void</span>   <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">o</font> be   <span title="MSUALG_1:NM.2" data-link="32.html#ELM17056">OperSymbol</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">s</font> be   <span title="MSUALG_1:NM.1" data-link="5761.html#ELM17055">SortSymbol</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">X</font> be  <span title="RELAT_1:attr.2" data-link="3057.html#ELM22398">V5</span>() <span title="PBOOLE:NM.1" data-link="4273.html#ELM19812">ManySortedSet</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">x</font> be    <span title="MSAFREE4:mode.1" data-link="667.html#ELM16692">Element</span> of <font color="Maroon" title="c4">X</font> <span title="MSAFREE4:func.1" data-link="141.html#ELM16694">.</span> <font color="Maroon" title="c3">s</font>;<br><span class="kw">let </span><font color="Maroon" title="c6">p</font> be    <span title="MSAFREE4:mode.1" data-link="667.html#ELM16692">Element</span> of  <span title="MSUALG_1:func.3" data-link="5763.html#ELM17059">Args</span> (<font color="Maroon" title="c2">o</font>,<span class="p1">(<span class="default"><span title="MSAFREE3:func.1" data-link="5682.html#ELM16679">Free</span> (<font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c4">X</font>)</span>)</span>);<br><span class="kw">assume </span><a name="E1:149"></a><span class="lab"><font color="Green" title="E60">A</font></span>: 
+<font color="Maroon" title="c6">p</font> is <font color="Maroon" title="c5">x</font> <span title="MSAFREE5:attr.11" data-link="5715.html#ELM16818">-context_including</span> 
+ ;<br><span class="kw">consider </span><font color="Maroon" title="c7">i</font> being   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span><span class="kw"> such that </span><br><a name="E3:149"></a><span class="lab"><font color="Green" title="E61">B</font></span>: 
+( <font color="Maroon" title="c7">i</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <font color="Maroon" title="c6">p</font> &amp; <font color="Maroon" title="c6">p</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c7">i</font> is   <span title="MSAFREE5:NM.3" data-link="5697.html#ELM16776">context</span> of <font color="Maroon" title="c5">x</font> &amp; (  for <font color="Olive" title="b1">j</font> being   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span><br>  for <font color="Olive" title="b2">t</font> being   <span title="MSAFREE3:NM.1" data-link="667.html#ELM16678">Element</span> of <span class="p1">(<span class="default"><span title="MSAFREE3:func.1" data-link="5682.html#ELM16679">Free</span> (<font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c4">X</font>)</span>)</span>  st <font color="Olive" title="b1">j</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <font color="Maroon" title="c6">p</font> &amp; <font color="Olive" title="b1">j</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Maroon" title="c7">i</font> &amp; <font color="Olive" title="b2">t</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c6">p</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">j</font> holds <br><font color="Olive" title="b2">t</font> is <font color="Maroon" title="c5">x</font> <span title="MSAFREE5:attr.9" data-link="5714.html#ELM16816">-omitting</span>  ) )
+ <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E60">A</font></span></span>;<br><div about="#D60" typeof="oo:Definition">
+<a name="K16"><span class="kw">func</span> </a><font color="Maroon" title="c5">x</font> <span title="MSAFREE5:func.16" data-link="5702.html#ELM16795">-context_pos_in</span> <font color="Maroon" title="c6">p</font><span class="kw"> -&gt; </span>  <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E60">CPI</font></span>: <a name="D26"><span class="comment"><font color="firebrick">:: MSAFREE5:def 26</font></span><br></a><font color="Maroon" title="c6">p</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="kw">it</span> is   <span title="MSAFREE5:NM.3" data-link="5697.html#ELM16776">context</span> of <font color="Maroon" title="c5">x</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E61">B</font></span></span>;<br><span class="kw">uniqueness</span> <div about="#D61" typeof="oo:Definition" class="main-sentence">
+<a name="K17"><span class="kw">func</span> </a><font color="Maroon" title="c5">x</font> <span title="MSAFREE5:func.17" data-link="5703.html#ELM16796">-context_in</span> <font color="Maroon" title="c6">p</font><span class="kw"> -&gt; </span>  <span title="MSAFREE5:NM.3" data-link="5697.html#ELM16776">context</span> of <font color="Maroon" title="c5">x</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E61">CIn</font></span>: <a name="D27"><span class="comment"><font color="firebrick">:: MSAFREE5:def 27</font></span><br></a><span class="kw">it</span> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <font color="Maroon" title="c6">p</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

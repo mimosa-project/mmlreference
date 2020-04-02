@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>deterministic</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr deterministic</h1>
+<h2>List of Definitions (3)</h2>
+<ol>
+<li><span data-link='3116.html#ELM8692'>deterministic</span> [<span data-href='fsm_3.html#V2'>fsm_3</span>]</li>
+<li><span data-link='3116.html#ELM8693'>deterministic</span> [<span data-href='fsm_3.html#V4'>fsm_3</span>]</li>
+<li><span data-link='3116.html#ELM22626'>deterministic</span> [<span data-href='rewrite3.html#V2'>rewrite3</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM8692'>
+<h2>1.   <span data-link='3116.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fsm_3.html#V2'>fsm_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">E</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">F</font> be   <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span class="p1">(<span class="default"><font color="Maroon" title="c1">E</font> <span title="AFINSQ_1:func.8" data-link="236.html#ELM505">^omega</span></span>)</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">SA</font> be    <span title="FSM_3:struct.1" data-link="3109.html#ELM8683">semiautomaton</span> over <font color="Maroon" title="c2">F</font>;<br><div about="#D14" typeof="oo:Definition" class="main-sentence">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c3">SA</font> is  <span title="FSM_3:attr.2" data-link="3116.html#ELM8692">deterministic</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E14">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: FSM_3:def 2</font></span><br></a>(  <span title="REWRITE3:aggr.1" data-href="rewrite3.html#G1">transition-system</span>(#  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c3">SA</font>, the <span title="REWRITE3:sel.1" data-href="rewrite3.html#U1">Tran</span> of <font color="Maroon" title="c3">SA</font> #) is  <span title="REWRITE3:attr.2" data-link="3116.html#ELM22626">deterministic</span>  &amp;  <span title="CARD_1:func.1" data-link="1329.html#ELM3233">card</span>  the <span title="FSM_3:sel.1" data-href="fsm_3.html#U1">InitS</span> of <font color="Maroon" title="c3">SA</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> 1 );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  non  empty   finite   strict   deterministic   for    semiautomaton over F;
+</td><td><span data-href='fsm_3.html#RC2'>fsm_3</span></td></tr>
+<tr><td>
+cluster  _bool SA ->  non  empty   strict   deterministic  ;
+</td><td><span data-href='fsm_3.html#FC5'>fsm_3</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM8693'>
+<h2>2.   <span data-link='3116.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fsm_3.html#V4'>fsm_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">E</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">F</font> be   <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span class="p1">(<span class="default"><font color="Maroon" title="c1">E</font> <span title="AFINSQ_1:func.8" data-link="236.html#ELM505">^omega</span></span>)</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">A</font> be    <span title="FSM_3:struct.2" data-link="3110.html#ELM8684">automaton</span> over <font color="Maroon" title="c2">F</font>;<br><div about="#D18" typeof="oo:Definition" class="main-sentence">
+<a name="V4"><span class="kw">attr</span> </a><font color="Maroon" title="c3">A</font> is  <span title="FSM_3:attr.4" data-link="3116.html#ELM8693">deterministic</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E18">Def5</font></span>: <a name="D5"><span class="comment"><font color="firebrick">:: FSM_3:def 5</font></span><br></a> <span title="FSM_3:aggr.1" data-href="fsm_3.html#G1">semiautomaton</span>(#  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c3">A</font>, the <span title="REWRITE3:sel.1" data-href="rewrite3.html#U1">Tran</span> of <font color="Maroon" title="c3">A</font>, the <span title="FSM_3:sel.1" data-href="fsm_3.html#U1">InitS</span> of <font color="Maroon" title="c3">A</font> #) is  <span title="FSM_3:attr.2" data-link="3116.html#ELM8692">deterministic</span> ;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  non  empty   finite   strict   deterministic   for    automaton over F;
+</td><td><span data-href='fsm_3.html#RC4'>fsm_3</span></td></tr>
+<tr><td>
+cluster  _bool A ->  non  empty   strict   deterministic  ;
+</td><td><span data-href='fsm_3.html#FC9'>fsm_3</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM22626'>
+<h2>3.   <span data-link='3116.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rewrite3.html#V2'>rewrite3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">E</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">F</font> be   <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span class="p1">(<span class="default"><font color="Maroon" title="c1">E</font> <span title="AFINSQ_1:func.8" data-link="236.html#ELM505">^omega</span></span>)</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">TS</font> be    <span title="REWRITE3:struct.1" data-link="7422.html#ELM22622">transition-system</span> over <font color="Maroon" title="c2">F</font>;<br><div about="#D11" typeof="oo:Definition" class="main-sentence">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c3">TS</font> is  <span title="REWRITE3:attr.2" data-link="3116.html#ELM22626">deterministic</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E11">Def1</font></span>: <a name="D1"><span class="comment"><font color="firebrick">:: REWRITE3:def 1</font></span><br></a>(  the <span title="REWRITE3:sel.1" data-href="rewrite3.html#U1">Tran</span> of <font color="Maroon" title="c3">TS</font> is   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span> &amp;  not  <span title="FLANG_1:func.2" data-link="234.html#ELM7595">&lt;%&gt;</span> <font color="Maroon" title="c1">E</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.2" data-link="3141.html#ELM22385">rng</span> <span class="p1">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span>  the <span title="REWRITE3:sel.1" data-href="rewrite3.html#U1">Tran</span> of <font color="Maroon" title="c3">TS</font></span>)</span> &amp; (  for <font color="Olive" title="b1">s</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c3">TS</font><br>  for <font color="Olive" title="b2">u</font>, <font color="Olive" title="b3">v</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">E</font> <span title="AFINSQ_1:func.8" data-link="236.html#ELM505">^omega</span>   st <font color="Olive" title="b2">u</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Olive" title="b3">v</font> &amp; <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">s</font>,<font color="Olive" title="b2">u</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span>  the <span title="REWRITE3:sel.1" data-href="rewrite3.html#U1">Tran</span> of <font color="Maroon" title="c3">TS</font> &amp; <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">s</font>,<font color="Olive" title="b3">v</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span>  the <span title="REWRITE3:sel.1" data-href="rewrite3.html#U1">Tran</span> of <font color="Maroon" title="c3">TS</font> holds <br> for <font color="Olive" title="b4">w</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">E</font> <span title="AFINSQ_1:func.8" data-link="236.html#ELM505">^omega</span>  holds <br> (  not <font color="Olive" title="b2">u</font> <span title="FLANG_1:func.1" data-link="235.html#ELM7594">^</span> <font color="Olive" title="b4">w</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b3">v</font> &amp;  not <font color="Olive" title="b3">v</font> <span title="FLANG_1:func.1" data-link="235.html#ELM7594">^</span> <font color="Olive" title="b4">w</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b2">u</font> ) ) );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  _bool TS ->  non  empty   strict   deterministic  ;
+</td><td><span data-href='fsm_3.html#FC2'>fsm_3</span></td></tr>
+<tr><td>
+cluster  non  empty   finite   strict   deterministic   for    transition-system over F;
+</td><td><span data-href='rewrite3.html#RC2'>rewrite3</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

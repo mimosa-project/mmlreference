@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Det</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Det</h1>
+<h2>List of Definitions (4)</h2>
+<ol>
+<li><span data-link='5084.html#ELM14645'>Det</span> [<span data-href='matrix_3.html#K12'>matrix_3</span>]</li>
+<li><span data-link='5084.html#ELM14732'>Det</span> [<span data-href='matrixj1.html#K21'>matrixj1</span>]</li>
+<li><span data-link='5084.html#ELM14733'>Det</span> [<span data-href='matrixj1.html#K22'>matrixj1</span>]</li>
+<li><span data-link='5084.html#ELM14779'>Det</span> [<span data-href='matrixr2.html#K3'>matrixr2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM14645'>
+<h2>1.   <span data-link='5084.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='matrix_3.html#K12'>matrix_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">K</font> be   <span title="VECTSP_1:NM.3" data-link="8605.html#ELM28500">Ring</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">M</font> be   <span title="MATRIX_1:NM.2" data-link="5063.html#ELM14604">Matrix</span> of <font color="Maroon" title="c1">n</font>,<font color="Maroon" title="c2">K</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K12"><span class="kw">func</span> </a> <span title="MATRIX_3:func.12" data-link="5084.html#ELM14645">Det</span> <font color="Maroon" title="c3">M</font><span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c2">K</font><span class="kw"> equals </span><a name="D9"><span class="comment"><font color="firebrick">:: MATRIX_3:def 9</font></span><br></a> the <span title="ALGSTR_0:sel.1" data-href="algstr_0.html#U1">addF</span> of <font color="Maroon" title="c2">K</font> <span title="SETWISEO:func.7" data-link="7864.html#ELM25067">$$</span> (<span class="p1">(<span class="default"><span title="SUBSET_1:func.10" data-link="8054.html#ELM25879">In</span> (<span class="p2">(<span class="default"><span title="MATRIX_1:func.9" data-link="5076.html#ELM14615">Permutations</span> <font color="Maroon" title="c1">n</font></span>)</span>,<span class="p2">(<span class="default"><span title="FINSUB_1:func.5" data-link="918.html#ELM7492">Fin</span> <span class="p3">(<span class="default"><span title="MATRIX_1:func.9" data-link="5076.html#ELM14615">Permutations</span> <font color="Maroon" title="c1">n</font></span>)</span></span>)</span>)</span>)</span>,<span class="p1">(<span class="default"><span title="MATRIX_3:func.11" data-link="5083.html#ELM14644">Path_product</span> <font color="Maroon" title="c3">M</font></span>)</span>);<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM14732'>
+<h2>2.   <span data-link='5084.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='matrixj1.html#K21'>matrixj1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">K</font> be   <span title="VECTSP_1:NM.5" data-link="4666.html#ELM28502">Field</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">R</font> be   <span title="MATRIXJ1:NM.4" data-link="5107.html#ELM14711">FinSequence_of_Square-Matrix</span> of <font color="Maroon" title="c1">K</font>;<br><div about="#D52" typeof="oo:Definition" class="main-sentence">
+<a name="K21"><span class="kw">func</span> </a> <span title="MATRIXJ1:func.21" data-link="5084.html#ELM14732">Det</span> <font color="Maroon" title="c2">R</font><span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.7" data-link="27.html#ELM25753">FinSequence</span> of <font color="Maroon" title="c1">K</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E52">Def7</font></span>: <a name="D7"><span class="comment"><font color="firebrick">:: MATRIXJ1:def 7</font></span><br></a>(  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <font color="Maroon" title="c2">R</font> &amp; (  for <font color="Olive" title="b1">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b1">i</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <span class="kw">it</span> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="MATRIX_3:func.12" data-link="5084.html#ELM14645">Det</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">R</font> <span title="MATRIXJ1:func.14" data-link="141.html#ELM14725">.</span> <font color="Olive" title="b1">i</font></span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM14733'>
+<h2>3.   <span data-link='5084.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='matrixj1.html#K22'>matrixj1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">K</font> be   <span title="VECTSP_1:NM.5" data-link="4666.html#ELM28502">Field</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">R</font> be   <span title="MATRIXJ1:NM.4" data-link="5107.html#ELM14711">FinSequence_of_Square-Matrix</span> of <font color="Maroon" title="c1">K</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="MATRIXJ1:func.21" data-link="5084.html#ELM14732">Det</span><br><span class="kw">redefine </span><a name="K22"><span class="kw">func</span> </a> <span title="MATRIXJ1:func.22" data-link="5084.html#ELM14733">Det</span> <font color="Maroon" title="c2">R</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of <span class="p1">(<span class="default"><span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c2">R</font></span>)</span> <span title="FINSEQ_2:func.4" data-link="2732.html#ELM7182">-tuples_on</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">K</font>;<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM14779'>
+<h2>4.   <span data-link='5084.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='matrixr2.html#K3'>matrixr2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font> be   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font> be   <span title="MATRIX_0:NM.3" data-link="5063.html#ELM14572">Matrix</span> of <font color="Maroon" title="c1">n</font>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="MATRIXR2:func.3" data-link="5084.html#ELM14779">Det</span> <font color="Maroon" title="c2">A</font><span class="kw"> -&gt; </span>  <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span><span class="kw"> equals </span><a name="D1"><span class="comment"><font color="firebrick">:: MATRIXR2:def 1</font></span><br></a> <span title="MATRIX_3:func.12" data-link="5084.html#ELM14645">Det</span> <span class="p1">(<span class="default"><span title="MATRIXR2:func.2" data-link="5117.html#ELM14778">MXR2MXF</span> <font color="Maroon" title="c2">A</font></span>)</span>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

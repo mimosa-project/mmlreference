@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>IntervalCoverPts</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>mode IntervalCoverPts</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='7300.html#ELM22097'>IntervalCoverPts</span> [<span data-href='rcomp_3.html#M2'>rcomp_3</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM22097'>
+<h2>1.   <span data-link='7300.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rcomp_3.html#M2'>rcomp_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">r</font>, <font color="Maroon" title="c2">s</font> be   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">F</font> be   <span title="STRUCT_0:NM.3" data-link="7849.html#ELM25749">Subset-Family</span> of <span class="p1">(<span class="default"><span title="TOPMETR:func.4" data-link="8293.html#ELM26818">Closed-Interval-TSpace</span> (<font color="Maroon" title="c1">r</font>,<font color="Maroon" title="c2">s</font>)</span>)</span>;<br><span class="kw">let </span><font color="Maroon" title="c4">C</font> be    <span title="RCOMP_3:mode.1" data-link="7299.html#ELM22096">IntervalCover</span> of <font color="Maroon" title="c3">F</font>;<br><span class="kw">assume </span><a name="E1:81"></a><span class="lab"><font color="Green" title="E55">A1</font></span>: 
+( <font color="Maroon" title="c3">F</font> is   <span title="STRUCT_0:NM.13" data-link="7850.html#ELM25759">Cover</span> of <span class="p1">(<span class="default"><span title="TOPMETR:func.4" data-link="8293.html#ELM26818">Closed-Interval-TSpace</span> (<font color="Maroon" title="c1">r</font>,<font color="Maroon" title="c2">s</font>)</span>)</span> &amp; <font color="Maroon" title="c3">F</font> is  <span title="TOPS_2:attr.1" data-link="1613.html#ELM27121">open</span>  &amp; <font color="Maroon" title="c3">F</font> is  <span title="RCOMP_3:attr.1" data-link="2026.html#ELM22098">connected</span>  &amp; <font color="Maroon" title="c1">r</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Maroon" title="c2">s</font> )
+ ;<br><div about="#D55" typeof="oo:Definition" class="main-sentence">
+<a name="M2"><span class="kw">mode</span> </a> <span title="RCOMP_3:mode.2" data-link="7300.html#ELM22097">IntervalCoverPts</span> of <font color="Maroon" title="c4">C</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E55">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: RCOMP_3:def 3</font></span><br></a>(  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c4">C</font></span>)</span> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1 &amp; <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> 1 <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">r</font> &amp; <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <span class="kw">it</span></span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">s</font> &amp; (  for <font color="Olive" title="b1">n</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st 1 <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b1">n</font> &amp; <font color="Olive" title="b1">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1 <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <span class="kw">it</span> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <span class="p1"><span title="RCOMP_1:func.2" data-link="5192.html#ELM22085">].</span><span class="default"><span class="p2">(<span class="default"><span title="SEQ_4:func.3" data-link="5926.html#ELM24914">lower_bound</span> <span class="p3">(<span class="default"><font color="Maroon" title="c4">C</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <span class="p4">(<span class="default"><font color="Olive" title="b1">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span></span>)</span></span>)</span>,<span class="p2">(<span class="default"><span title="SEQ_4:func.2" data-link="7048.html#ELM24913">upper_bound</span> <span class="p3">(<span class="default"><font color="Maroon" title="c4">C</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b1">n</font></span>)</span></span>)</span></span><span title="RCOMP_1:func.2" data-link="5192.html#ELM22085">.[</span></span> ) );<br>
+</div>
+<span class="kw">existence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Mx2FinS</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Mx2FinS</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='2419.html#ELM6237'>Mx2FinS</span> [<span data-href='entropy1.html#K2'>entropy1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM6237'>
+<h2>1.   <span data-link='2419.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='entropy1.html#K2'>entropy1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">D</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">M</font> be   <span title="MATRIX_0:NM.1" data-link="5063.html#ELM14570">Matrix</span> of <font color="Maroon" title="c2">D</font>;<br><div about="#D40" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="ENTROPY1:func.2" data-link="2419.html#ELM6237">Mx2FinS</span> <font color="Maroon" title="c2">M</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c1">D</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E40">Def5</font></span>: <a name="D5"><span class="comment"><font color="firebrick">:: ENTROPY1:def 5</font></span><br></a><span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span> <span class="kw"> if </span> <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c2">M</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> <br><span class="kw"> otherwise </span> ex <font color="Olive" title="b1">p</font> being    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c1">D</font> <span title="FINSEQ_2:func.3" data-link="47.html#ELM7181">*</span>  st <br>( <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">p</font> <span title="MATRPROB:func.1" data-link="141.html#ELM14854">.</span> <span class="p1">(<span class="default"><span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c2">M</font></span>)</span> &amp;  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Olive" title="b1">p</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c2">M</font> &amp; <font color="Olive" title="b1">p</font> <span title="MATRPROB:func.1" data-link="141.html#ELM14854">.</span> 1 <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">M</font> <span title="MATRPROB:func.1" data-link="141.html#ELM14854">.</span> 1 &amp; (  for <font color="Olive" title="b2">k</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b2">k</font> <span title="XXREAL_0:NR.2" data-link="786.html#ELM29820">&gt;=</span> 1 &amp; <font color="Olive" title="b2">k</font> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c2">M</font> holds <br><font color="Olive" title="b1">p</font> <span title="MATRPROB:func.1" data-link="141.html#ELM14854">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b2">k</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">p</font> <span title="MATRPROB:func.1" data-link="141.html#ELM14854">.</span> <font color="Olive" title="b2">k</font></span>)</span> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">M</font> <span title="MATRPROB:func.1" data-link="141.html#ELM14854">.</span> <span class="p2">(<span class="default"><font color="Olive" title="b2">k</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span></span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <span class="kw">consistency</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

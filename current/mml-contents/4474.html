@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>R_Cut</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func R_Cut</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='4474.html#ELM12938'>R_Cut</span> [<span data-href='jordan3.html#K3'>jordan3</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM12938'>
+<h2>1.   <span data-link='4474.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='jordan3.html#K3'>jordan3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">f</font> be   <span title="STRUCT_0:NM.7" data-link="27.html#ELM25753">FinSequence</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> 2</span>)</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">p</font> be   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> 2</span>)</span>;<br><div about="#D18" typeof="oo:Definition" class="">
+<a name="K2"><span class="kw">func</span> </a> <span title="JORDAN3:func.2" data-link="4473.html#ELM12937">L_Cut</span> (<font color="Maroon" title="c1">f</font>,<font color="Maroon" title="c2">p</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.7" data-link="27.html#ELM25753">FinSequence</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> 2</span>)</span><span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E18">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: JORDAN3:def 3</font></span><br></a><span class="p1"><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">&lt;*</span><span class="default"><font color="Maroon" title="c2">p</font></span><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">*&gt;</span></span> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <span class="p1">(<span class="default"><span title="FINSEQ_6:func.3" data-link="248.html#ELM7255">mid</span> (<font color="Maroon" title="c1">f</font>,<span class="p2">(<span class="default"><span class="p3">(<span class="default"><span title="JORDAN3:func.1" data-link="3882.html#ELM12936">Index</span> (<font color="Maroon" title="c2">p</font>,<font color="Maroon" title="c1">f</font>)</span>)</span> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span>,<span class="p2">(<span class="default"><span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c1">f</font></span>)</span>)</span>)</span><span class="kw"> if </span><font color="Maroon" title="c2">p</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Maroon" title="c1">f</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="JORDAN3:func.1" data-link="3882.html#ELM12936">Index</span> (<font color="Maroon" title="c2">p</font>,<font color="Maroon" title="c1">f</font>)</span>)</span> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span><br><span class="kw"> otherwise </span> <span title="FINSEQ_6:func.3" data-link="248.html#ELM7255">mid</span> (<font color="Maroon" title="c1">f</font>,<span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="JORDAN3:func.1" data-link="3882.html#ELM12936">Index</span> (<font color="Maroon" title="c2">p</font>,<font color="Maroon" title="c1">f</font>)</span>)</span> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span>,<span class="p1">(<span class="default"><span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c1">f</font></span>)</span>);<br>
+</div>
+<span class="kw">correctness </span><br><div about="#D19" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="JORDAN3:func.3" data-link="4474.html#ELM12938">R_Cut</span> (<font color="Maroon" title="c1">f</font>,<font color="Maroon" title="c2">p</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.7" data-link="27.html#ELM25753">FinSequence</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> 2</span>)</span><span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E19">Def4</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: JORDAN3:def 4</font></span><br></a><span class="p1">(<span class="default"><span title="FINSEQ_6:func.3" data-link="248.html#ELM7255">mid</span> (<font color="Maroon" title="c1">f</font>,1,<span class="p2">(<span class="default"><span title="JORDAN3:func.1" data-link="3882.html#ELM12936">Index</span> (<font color="Maroon" title="c2">p</font>,<font color="Maroon" title="c1">f</font>)</span>)</span>)</span>)</span> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <span class="p1"><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">&lt;*</span><span class="default"><font color="Maroon" title="c2">p</font></span><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">*&gt;</span></span><span class="kw"> if </span><font color="Maroon" title="c2">p</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Maroon" title="c1">f</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> 1<br><span class="kw"> otherwise </span><span class="p1"><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">&lt;*</span><span class="default"><font color="Maroon" title="c2">p</font></span><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">*&gt;</span></span>;<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

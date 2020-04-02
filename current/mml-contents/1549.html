@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>eval</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func eval</h1>
+<h2>List of Definitions (6)</h2>
+<ol>
+<li><span data-link='1549.html#ELM3799'>eval</span> [<span data-href='cat_8.html#K16'>cat_8</span>]</li>
+<li><span data-link='1549.html#ELM3801'>eval</span> [<span data-href='cat_8.html#K18'>cat_8</span>]</li>
+<li><span data-link='1549.html#ELM20732'>eval</span> [<span data-href='polynom2.html#K1'>polynom2</span>]</li>
+<li><span data-link='1549.html#ELM20733'>eval</span> [<span data-href='polynom2.html#K2'>polynom2</span>]</li>
+<li><span data-link='1549.html#ELM20779'>eval</span> [<span data-href='polynom4.html#K2'>polynom4</span>]</li>
+<li><span data-link='1549.html#ELM22037'>eval</span> [<span data-href='ratfunc1.html#K13'>ratfunc1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM3799'>
+<h2>1.   <span data-link='1549.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='cat_8.html#K16'>cat_8</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">C</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="CAT_8:attr.7" data-link="1552.html#ELM3808">with_binary_products</span>   <span title="CAT_8:attr.8" data-link="1553.html#ELM3809">with_exponential_objects</span>  <span title="CAT_6:NM.2" data-link="405.html#ELM3672">category</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">a</font>, <font color="Maroon" title="c3">b</font> be   <span title="CAT_6:NM.3" data-link="402.html#ELM3673">Object</span> of <font color="Maroon" title="c1">C</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K16"><span class="kw">func</span> </a> <span title="CAT_8:func.16" data-link="1549.html#ELM3799">eval</span> (<font color="Maroon" title="c2">a</font>,<font color="Maroon" title="c3">b</font>)<span class="kw"> -&gt; </span>   <span title="CAT_7:mode.1" data-link="403.html#ELM3735">Morphism</span> of <span class="p1">(<span class="default"><font color="Maroon" title="c3">b</font> <span title="CAT_8:func.15" data-link="634.html#ELM3798">|^</span> <font color="Maroon" title="c2">a</font></span>)</span> <span title="CAT_8:func.4" data-link="1465.html#ELM3785">[x]</span> <font color="Maroon" title="c2">a</font>,<font color="Maroon" title="c3">b</font><span class="kw"> equals </span><a name="D33"><span class="comment"><font color="firebrick">:: CAT_8:def 33</font></span><br></a> the    <span title="CAT_8:mode.4" data-link="1541.html#ELM3780">categorical_exponent</span> of <font color="Maroon" title="c2">a</font>,<font color="Maroon" title="c3">b</font> <span title="XTUPLE_0:func.2" data-link="55.html#ELM29771">`2</span> ;<br>
+</div>
+<span class="kw">correctness </span>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM3801'>
+<h2>2.   <span data-link='1549.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='cat_8.html#K18'>cat_8</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">C1</font>, <font color="Maroon" title="c2">C2</font> be   <span title="CAT_6:NM.2" data-link="405.html#ELM3672">category</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K18"><span class="kw">func</span> </a> <span title="CAT_8:func.18" data-link="1549.html#ELM3801">eval</span> (<font color="Maroon" title="c1">C1</font>,<font color="Maroon" title="c2">C2</font>)<span class="kw"> -&gt; </span>  <span title="CAT_6:NM.4" data-link="1432.html#ELM3674">Functor</span> of <span class="p1">(<span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c2">C2</font> <span title="CAT_8:func.17" data-link="634.html#ELM3800">|^</span> <font color="Maroon" title="c1">C1</font></span>)</span> <span title="CAT_8:func.8" data-link="1465.html#ELM3790">[x]</span> <font color="Maroon" title="c1">C1</font></span>)</span>,<font color="Maroon" title="c2">C2</font><span class="kw"> equals </span><a name="D37"><span class="comment"><font color="firebrick">:: CAT_8:def 37</font></span><br></a> the    <span title="CAT_8:mode.5" data-link="1541.html#ELM3781">categorical_exponent</span> of <font color="Maroon" title="c1">C1</font>,<font color="Maroon" title="c2">C2</font> <span title="XTUPLE_0:func.2" data-link="55.html#ELM29771">`2</span> ;<br>
+</div>
+<span class="kw">correctness </span>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  eval (C1,C2) ->  covariant  ;
+</td><td><span data-href='cat_8.html#FC12'>cat_8</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20732'>
+<h2>3.   <span data-link='1549.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='polynom2.html#K1'>polynom2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font> be   <span title="ORDINAL1:NM.3" data-link="6319.html#ELM19057">Ordinal</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">b</font> be   <span title="PRE_POLY:NM.2" data-link="6928.html#ELM21033">bag</span> of <font color="Maroon" title="c1">n</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">L</font> be   non  <span title="STRUCT_0:attr.7" data-link="3543.html#ELM25773">trivial</span>   <span title="VECTSP_1:attr.4" data-link="5661.html#ELM28516">well-unital</span>   <span title="ALGSTR_0:struct.6" data-link="324.html#ELM743">doubleLoopStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c4">x</font> be   <span title="STRUCT_0:NM.5" data-link="3155.html#ELM25751">Function</span> of <font color="Maroon" title="c1">n</font>,<font color="Maroon" title="c3">L</font>;<br><div about="#D8" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="POLYNOM2:func.1" data-link="1549.html#ELM20732">eval</span> (<font color="Maroon" title="c2">b</font>,<font color="Maroon" title="c4">x</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c3">L</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E8">Def1</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: POLYNOM2:def 2</font></span><br></a> ex <font color="Olive" title="b1">y</font> being    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c3">L</font> st <br>(  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Olive" title="b1">y</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <span class="p1">(<span class="default"><span title="PRE_POLY:func.7" data-link="6930.html#ELM21040">SgmX</span> (<span class="p2">(<span class="default"><span title="ORDERS_1:func.2" data-link="6279.html#ELM18873">RelIncl</span> <font color="Maroon" title="c1">n</font></span>)</span>,<span class="p2">(<span class="default"><span title="PRE_POLY:func.22" data-link="906.html#ELM21056">support</span> <font color="Maroon" title="c2">b</font></span>)</span>)</span>)</span> &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="GROUP_4:func.3" data-link="1344.html#ELM11166">Product</span> <font color="Olive" title="b1">y</font> &amp; (  for <font color="Olive" title="b2">i</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>   st 1 <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b2">i</font> &amp; <font color="Olive" title="b2">i</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Olive" title="b1">y</font> holds <br><font color="Olive" title="b1">y</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b2">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span title="GROUP_1:func.4" data-link="1008.html#ELM10987">power</span> <font color="Maroon" title="c3">L</font></span>)</span> <span title="NAT_1:func.9" data-link="141.html#ELM17456">.</span> (<span class="p1">(<span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c4">x</font> <span title="PARTFUN1:func.1" data-link="47.html#ELM19578">*</span> <span class="p3">(<span class="default"><span title="PRE_POLY:func.7" data-link="6930.html#ELM21040">SgmX</span> (<span class="p4">(<span class="default"><span title="ORDERS_1:func.2" data-link="6279.html#ELM18873">RelIncl</span> <font color="Maroon" title="c1">n</font></span>)</span>,<span class="p4">(<span class="default"><span title="PRE_POLY:func.22" data-link="906.html#ELM21056">support</span> <font color="Maroon" title="c2">b</font></span>)</span>)</span>)</span></span>)</span> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b2">i</font></span>)</span>,<span class="p1">(<span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c2">b</font> <span title="PRE_POLY:func.23" data-link="47.html#ELM21057">*</span> <span class="p3">(<span class="default"><span title="PRE_POLY:func.7" data-link="6930.html#ELM21040">SgmX</span> (<span class="p4">(<span class="default"><span title="ORDERS_1:func.2" data-link="6279.html#ELM18873">RelIncl</span> <font color="Maroon" title="c1">n</font></span>)</span>,<span class="p4">(<span class="default"><span title="PRE_POLY:func.22" data-link="906.html#ELM21056">support</span> <font color="Maroon" title="c2">b</font></span>)</span>)</span>)</span></span>)</span> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b2">i</font></span>)</span>) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  eval (b,x) ->  integer  ;
+</td><td><span data-href='hilb10_2.html#FC12'>hilb10_2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20733'>
+<h2>4.   <span data-link='1549.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='polynom2.html#K2'>polynom2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font> be   <span title="ORDINAL1:NM.3" data-link="6319.html#ELM19057">Ordinal</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">L</font> be   non  <span title="STRUCT_0:attr.7" data-link="3543.html#ELM25773">trivial</span>   <span title="ALGSTR_0:attr.13" data-link="337.html#ELM766">right_complementable</span>   <span title="RLVECT_1:attr.3" data-link="7514.html#ELM23296">add-associative</span>   <span title="RLVECT_1:attr.4" data-link="7515.html#ELM23297">right_zeroed</span>   <span title="VECTSP_1:attr.4" data-link="5661.html#ELM28516">well-unital</span>   <span title="VECTSP_1:attr.5" data-link="3919.html#ELM28517">distributive</span>   <span title="ALGSTR_0:struct.6" data-link="324.html#ELM743">doubleLoopStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">p</font> be   <span title="POLYNOM1:NM.2" data-link="6840.html#ELM20699">Polynomial</span> of <font color="Maroon" title="c1">n</font>,<font color="Maroon" title="c2">L</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">x</font> be   <span title="STRUCT_0:NM.5" data-link="3155.html#ELM25751">Function</span> of <font color="Maroon" title="c1">n</font>,<font color="Maroon" title="c2">L</font>;<br><div about="#D16" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="POLYNOM2:func.2" data-link="1549.html#ELM20733">eval</span> (<font color="Maroon" title="c3">p</font>,<font color="Maroon" title="c4">x</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c2">L</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E16">Def2</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: POLYNOM2:def 4</font></span><br></a> ex <font color="Olive" title="b1">y</font> being    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c2">L</font> st <br>(  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Olive" title="b1">y</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <span class="p1">(<span class="default"><span title="PRE_POLY:func.7" data-link="6930.html#ELM21040">SgmX</span> (<span class="p2">(<span class="default"><span title="PRE_POLY:func.17" data-link="6933.html#ELM21051">BagOrder</span> <font color="Maroon" title="c1">n</font></span>)</span>,<span class="p2">(<span class="default"><span title="POLYNOM1:func.3" data-link="6841.html#ELM20703">Support</span> <font color="Maroon" title="c3">p</font></span>)</span>)</span>)</span> &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="RLVECT_1:func.4" data-link="252.html#ELM23294">Sum</span> <font color="Olive" title="b1">y</font> &amp; (  for <font color="Olive" title="b2">i</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>   st 1 <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b2">i</font> &amp; <font color="Olive" title="b2">i</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Olive" title="b1">y</font> holds <br><font color="Olive" title="b1">y</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b2">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c3">p</font> <span title="PARTFUN1:func.1" data-link="47.html#ELM19578">*</span> <span class="p3">(<span class="default"><span title="PRE_POLY:func.7" data-link="6930.html#ELM21040">SgmX</span> (<span class="p4">(<span class="default"><span title="PRE_POLY:func.17" data-link="6933.html#ELM21051">BagOrder</span> <font color="Maroon" title="c1">n</font></span>)</span>,<span class="p4">(<span class="default"><span title="POLYNOM1:func.3" data-link="6841.html#ELM20703">Support</span> <font color="Maroon" title="c3">p</font></span>)</span>)</span>)</span></span>)</span> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b2">i</font></span>)</span> <span title="ALGSTR_0:func.6" data-link="47.html#ELM749">*</span> <span class="p1">(<span class="default"><span title="POLYNOM2:func.1" data-link="1549.html#ELM20732">eval</span> (<span class="p2">(<span class="default"><span class="p3">(<span class="default"><span title="PRE_POLY:func.7" data-link="6930.html#ELM21040">SgmX</span> (<span class="p4">(<span class="default"><span title="PRE_POLY:func.17" data-link="6933.html#ELM21051">BagOrder</span> <font color="Maroon" title="c1">n</font></span>)</span>,<span class="p4">(<span class="default"><span title="POLYNOM1:func.3" data-link="6841.html#ELM20703">Support</span> <font color="Maroon" title="c3">p</font></span>)</span>)</span>)</span> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Olive" title="b2">i</font></span>)</span>,<font color="Maroon" title="c4">x</font>)</span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  eval (p,x) ->  integer  ;
+</td><td><span data-href='hilb10_2.html#FC13'>hilb10_2</span></td></tr>
+<tr><td>
+cluster  eval (p,(@ x)) ->  integer  ;
+</td><td><span data-href='hilb10_5.html#FC2'>hilb10_5</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20779'>
+<h2>5.   <span data-link='1549.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='polynom4.html#K2'>polynom4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="GROUP_1:attr.1" data-link="646.html#ELM10993">unital</span>   <span title="ALGSTR_0:struct.6" data-link="324.html#ELM743">doubleLoopStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">p</font> be   <span title="POLYNOM3:NM.1" data-link="6840.html#ELM20747">Polynomial</span> of <font color="Maroon" title="c1">L</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">x</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>;<br><div about="#D14" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="POLYNOM4:func.2" data-link="1549.html#ELM20779">eval</span> (<font color="Maroon" title="c2">p</font>,<font color="Maroon" title="c3">x</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E14">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: POLYNOM4:def 2</font></span><br></a> ex <font color="Olive" title="b1">F</font> being    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">L</font> st <br>( <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="RLVECT_1:func.4" data-link="252.html#ELM23294">Sum</span> <font color="Olive" title="b1">F</font> &amp;  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Olive" title="b1">F</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="ALGSEQ_1:func.1" data-link="232.html#ELM722">len</span> <font color="Maroon" title="c2">p</font> &amp; (  for <font color="Olive" title="b2">n</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>   st <font color="Olive" title="b2">n</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <font color="Olive" title="b1">F</font> holds <br><font color="Olive" title="b1">F</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b2">n</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">p</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <span class="p2">(<span class="default"><font color="Olive" title="b2">n</font> <span title="NAT_D:func.7" data-link="497.html#ELM17598">-'</span> 1</span>)</span></span>)</span> <span title="ALGSTR_0:func.6" data-link="47.html#ELM749">*</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="GROUP_1:func.4" data-link="1008.html#ELM10987">power</span> <font color="Maroon" title="c1">L</font></span>)</span> <span title="NAT_1:func.9" data-link="141.html#ELM17456">.</span> (<font color="Maroon" title="c3">x</font>,<span class="p2">(<span class="default"><font color="Olive" title="b2">n</font> <span title="NAT_D:func.7" data-link="497.html#ELM17598">-'</span> 1</span>)</span>)</span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM22037'>
+<h2>6.   <span data-link='1549.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='ratfunc1.html#K13'>ratfunc1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be   <span title="VECTSP_1:NM.5" data-link="4666.html#ELM28502">Field</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">z</font> be    <span title="RATFUNC1:mode.1" data-link="7287.html#ELM22021">rational_function</span> of <font color="Maroon" title="c1">L</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">x</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K13"><span class="kw">func</span> </a> <span title="RATFUNC1:func.13" data-link="1549.html#ELM22037">eval</span> (<font color="Maroon" title="c2">z</font>,<font color="Maroon" title="c3">x</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font><span class="kw"> equals </span><a name="D19"><span class="comment"><font color="firebrick">:: RATFUNC1:def 19</font></span><br></a><span class="p1">(<span class="default"><span title="POLYNOM4:func.2" data-link="1549.html#ELM20779">eval</span> (<span class="p2">(<span class="default"><font color="Maroon" title="c2">z</font> <span title="RATFUNC1:func.4" data-link="54.html#ELM22026">`1</span></span>)</span>,<font color="Maroon" title="c3">x</font>)</span>)</span> <span title="ALGSTR_0:func.12" data-link="330.html#ELM755">/</span> <span class="p1">(<span class="default"><span title="POLYNOM4:func.2" data-link="1549.html#ELM20779">eval</span> (<span class="p2">(<span class="default"><font color="Maroon" title="c2">z</font> <span title="RATFUNC1:func.5" data-link="55.html#ELM22027">`2</span></span>)</span>,<font color="Maroon" title="c3">x</font>)</span>)</span>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

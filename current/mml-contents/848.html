@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>divides</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred divides</h1>
+<h2>List of Definitions (8)</h2>
+<ol>
+<li><span data-link='848.html#ELM2088'>divides</span> [<span data-href='arytm_3.html#R2'>arytm_3</span>]</li>
+<li><span data-link='848.html#ELM9601'>divides</span> [<span data-href='gcd_1.html#R1'>gcd_1</span>]</li>
+<li><span data-link='848.html#ELM9602'>divides</span> [<span data-href='gcd_1.html#R2'>gcd_1</span>]</li>
+<li><span data-link='848.html#ELM12178'>divides</span> [<span data-href='hurwitz.html#R1'>hurwitz</span>]</li>
+<li><span data-link='848.html#ELM12426'>divides</span> [<span data-href='int_1.html#R1'>int_1</span>]</li>
+<li><span data-link='848.html#ELM17589'>divides</span> [<span data-href='nat_d.html#R1'>nat_d</span>]</li>
+<li><span data-link='848.html#ELM21031'>divides</span> [<span data-href='pre_poly.html#R3'>pre_poly</span>]</li>
+<li><span data-link='848.html#ELM22966'>divides</span> [<span data-href='ring_4.html#R1'>ring_4</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM2088'>
+<h2>1.   <span data-link='848.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='arytm_3.html#R2'>arytm_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">k</font>, <font color="Maroon" title="c2">n</font> be   <span title="ORDINAL1:NM.3" data-link="6319.html#ELM19057">Ordinal</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c1">k</font> <span title="ARYTM_3:pred.2" data-link="848.html#ELM2088">divides</span> <font color="Maroon" title="c2">n</font><span class="kw"> means </span><a name="D3"><span class="comment"><font color="firebrick">:: ARYTM_3:def 3</font></span><br></a> ex <font color="Olive" title="b1">a</font> being   <span title="ORDINAL1:NM.3" data-link="6319.html#ELM19057">Ordinal</span> st <font color="Maroon" title="c2">n</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">k</font> <span title="ORDINAL2:func.11" data-link="6333.html#ELM19139">*^</span> <font color="Olive" title="b1">a</font>;<br>
+</div>
+<span class="kw">reflexivity</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM9601'>
+<h2>2.   <span data-link='848.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='gcd_1.html#R1'>gcd_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ALGSTR_0:struct.3" data-link="321.html#ELM740">multMagma</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">x</font>, <font color="Maroon" title="c3">y</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">R</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c2">x</font> <span title="GCD_1:pred.1" data-link="848.html#ELM9601">divides</span> <font color="Maroon" title="c3">y</font><span class="kw"> means </span><a name="D1"><span class="comment"><font color="firebrick">:: GCD_1:def 1</font></span><br></a> ex <font color="Olive" title="b1">z</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">R</font> st <font color="Maroon" title="c3">y</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">x</font> <span title="ALGSTR_0:func.6" data-link="47.html#ELM749">*</span> <font color="Olive" title="b1">z</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM9602'>
+<h2>3.   <span data-link='848.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='gcd_1.html#R2'>gcd_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="VECTSP_1:attr.3" data-link="8610.html#ELM28515">right_unital</span>   <span title="ALGSTR_0:struct.4" data-link="322.html#ELM741">multLoopStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">x</font>, <font color="Maroon" title="c3">y</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">R</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="GCD_1:pred.1" data-link="848.html#ELM9601">divides</span><br><span class="kw">redefine </span><a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c2">x</font> <span title="GCD_1:pred.2" data-link="848.html#ELM9602">divides</span> <font color="Maroon" title="c3">y</font>;<br><span class="kw">reflexivity</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12178'>
+<h2>4.   <span data-link='848.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='hurwitz.html#R1'>hurwitz</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ALGSTR_0:attr.13" data-link="337.html#ELM766">right_complementable</span>   <span title="ALGSTR_0:attr.33" data-link="348.html#ELM783">almost_left_invertible</span>   <span title="VECTSP_1:attr.4" data-link="5661.html#ELM28516">well-unital</span>   <span title="VECTSP_1:attr.5" data-link="3919.html#ELM28517">distributive</span>   <span title="RLVECT_1:attr.2" data-link="7513.html#ELM23295">Abelian</span>   <span title="RLVECT_1:attr.3" data-link="7514.html#ELM23296">add-associative</span>   <span title="RLVECT_1:attr.4" data-link="7515.html#ELM23297">right_zeroed</span>   <span title="GROUP_1:attr.3" data-link="414.html#ELM10995">associative</span>   <span title="GROUP_1:attr.5" data-link="25.html#ELM10997">commutative</span>   <span title="ALGSTR_0:struct.6" data-link="324.html#ELM743">doubleLoopStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">p</font>, <font color="Maroon" title="c3">s</font> be   <span title="POLYNOM3:NM.1" data-link="6840.html#ELM20747">Polynomial</span> of <font color="Maroon" title="c1">L</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c3">s</font> <span title="HURWITZ:pred.1" data-link="848.html#ELM12178">divides</span> <font color="Maroon" title="c2">p</font><span class="kw"> means </span><a name="D7"><span class="comment"><font color="firebrick">:: HURWITZ:def 7</font></span><br></a><font color="Maroon" title="c2">p</font> <span title="HURWITZ:func.6" data-link="687.html#ELM12185">mod</span> <font color="Maroon" title="c3">s</font> <span title="FUNCT_2:pred.2" data-link="1122.html#ELM8872">=</span>  <span title="POLYNOM3:func.9" data-link="6847.html#ELM20757">0_.</span> <font color="Maroon" title="c1">L</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12426'>
+<h2>5.   <span data-link='848.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='int_1.html#R1'>int_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">i1</font>, <font color="Maroon" title="c2">i2</font> be   <span title="INT_1:NM.1" data-link="4287.html#ELM12429">Integer</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c1">i1</font> <span title="INT_1:pred.1" data-link="848.html#ELM12426">divides</span> <font color="Maroon" title="c2">i2</font><span class="kw"> means </span><a name="D3"><span class="comment"><font color="firebrick">:: INT_1:def 3</font></span><br></a> ex <font color="Olive" title="b1">i3</font> being   <span title="INT_1:NM.1" data-link="4287.html#ELM12429">Integer</span> st <font color="Maroon" title="c2">i2</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">i1</font> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <font color="Olive" title="b1">i3</font>;<br>
+</div>
+<span class="kw">reflexivity</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM17589'>
+<h2>6.   <span data-link='848.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='nat_d.html#R1'>nat_d</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">k</font>, <font color="Maroon" title="c2">l</font> be   <span title="ORDINAL1:attr.7" data-link="6328.html#ELM19073">natural</span>   <span title="ORDINAL1:NM.1" data-link="6317.html#ELM19055">Number</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<span class="comment"><font color="firebrick">:: original: </font></span><span title="INT_1:pred.1" data-link="848.html#ELM12426">divides</span><br><span class="kw">redefine </span><a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c1">k</font> <span title="NAT_D:pred.1" data-link="848.html#ELM17589">divides</span> <font color="Maroon" title="c2">l</font><span class="kw"> means </span><a name="D3"><span class="comment"><font color="firebrick">:: NAT_D:def 3</font></span><br></a> ex <font color="Olive" title="b1">t</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> st <font color="Maroon" title="c2">l</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">k</font> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <font color="Olive" title="b1">t</font>;<br>
+</div>
+<span class="kw">compatibility</span> <span class="kw">reflexivity</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM21031'>
+<h2>7.   <span data-link='848.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='pre_poly.html#R3'>pre_poly</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">d</font>, <font color="Maroon" title="c3">b</font> be   <span title="PRE_POLY:NM.2" data-link="6928.html#ELM21033">bag</span> of <font color="Maroon" title="c1">X</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R3"><span class="kw">pred</span> </a><font color="Maroon" title="c2">d</font> <span title="PRE_POLY:pred.3" data-link="848.html#ELM21031">divides</span> <font color="Maroon" title="c3">b</font><span class="kw"> means </span><a name="D11"><span class="comment"><font color="firebrick">:: PRE_POLY:def 11</font></span><br></a> for <font color="Olive" title="b1">k</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>  holds  <font color="Maroon" title="c2">d</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">k</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Maroon" title="c3">b</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">k</font>;<br>
+</div>
+<span class="kw">reflexivity</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM22966'>
+<h2>8.   <span data-link='848.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='ring_4.html#R1'>ring_4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ALGSTR_0:attr.13" data-link="337.html#ELM766">right_complementable</span>   <span title="RLVECT_1:attr.3" data-link="7514.html#ELM23296">add-associative</span>   <span title="RLVECT_1:attr.4" data-link="7515.html#ELM23297">right_zeroed</span>   <span title="VECTSP_1:attr.5" data-link="3919.html#ELM28517">distributive</span>   <span title="ALGSTR_0:struct.6" data-link="324.html#ELM743">doubleLoopStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">p</font>, <font color="Maroon" title="c3">q</font> be   <span title="POLYNOM3:NM.1" data-link="6840.html#ELM20747">Polynomial</span> of <font color="Maroon" title="c1">L</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c2">p</font> <span title="RING_4:pred.1" data-link="848.html#ELM22966">divides</span> <font color="Maroon" title="c3">q</font><span class="kw"> means </span><a name="D3"><span class="comment"><font color="firebrick">:: RING_4:def 3</font></span><br></a> ex <font color="Olive" title="b1">a</font>, <font color="Olive" title="b2">b</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <span class="p1">(<span class="default"><span title="POLYNOM3:func.13" data-link="6842.html#ELM20761">Polynom-Ring</span> <font color="Maroon" title="c1">L</font></span>)</span> st <br>( <font color="Olive" title="b1">a</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">p</font> &amp; <font color="Olive" title="b2">b</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">q</font> &amp; <font color="Olive" title="b1">a</font> <span title="GCD_1:pred.1" data-link="848.html#ELM9601">divides</span> <font color="Olive" title="b2">b</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

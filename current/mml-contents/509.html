@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>jump-only</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr jump-only</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='509.html#ELM1246'>jump-only</span> [<span data-href='amistd_1.html#V1'>amistd_1</span>]</li>
+<li><span data-link='509.html#ELM1247'>jump-only</span> [<span data-href='amistd_1.html#V2'>amistd_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM1246'>
+<h2>1.   <span data-link='509.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='amistd_1.html#V1'>amistd_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">N</font> be   <span title="MEASURE6:NV.2" data-link="3055.html#ELM15092">with_zero</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="MEMSTR_0:attr.2" data-link="5247.html#ELM15446">with_non-empty_values</span>   <span title="EXTPRO_1:struct.1" data-link="2529.html#ELM6608">AMI-Struct</span> over <font color="Maroon" title="c1">N</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">T</font> be   <span title="COMPOS_0:NM.1" data-link="1914.html#ELM4968">InsType</span> of  the <span title="COMPOS_1:sel.1" data-href="compos_1.html#U1">InstructionsF</span> of <font color="Maroon" title="c2">S</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V1"><span class="kw">attr</span> </a><font color="Maroon" title="c3">T</font> is  <span title="AMISTD_1:attr.1" data-link="509.html#ELM1246">jump-only</span> <span class="kw"> means </span><a name="D1"><span class="comment"><font color="firebrick">:: AMISTD_1:def 1</font></span><br></a> for <font color="Olive" title="b1">s</font> being   <span title="MEMSTR_0:NM.2" data-link="1714.html#ELM15430">State</span> of <font color="Maroon" title="c2">S</font><br>  for <font color="Olive" title="b2">o</font> being   <span title="MEMSTR_0:NM.3" data-link="402.html#ELM15431">Object</span> of <font color="Maroon" title="c2">S</font><br>  for <font color="Olive" title="b3">I</font> being   <span title="COMPOS_1:NM.1" data-link="1931.html#ELM5020">Instruction</span> of <font color="Maroon" title="c2">S</font>  st  <span title="COMPOS_0:func.5" data-link="1916.html#ELM4977">InsCode</span> <font color="Olive" title="b3">I</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">T</font> &amp; <font color="Olive" title="b2">o</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="MEMSTR_0:NK.3" data-link="5238.html#ELM15435">Data-Locations</span>  holds <br><span class="p1">(<span class="default"><span title="EXTPRO_1:func.2" data-link="2532.html#ELM6611">Exec</span> (<font color="Olive" title="b3">I</font>,<font color="Olive" title="b1">s</font>)</span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b2">o</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">s</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b2">o</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  InsCode (halt SCM) ->  jump-only   for  InsType of  the InstructionsF of SCM;
+</td><td><span data-href='ami_6.html#FC16'>ami_6</span></td></tr>
+<tr><td>
+cluster  InsCode (SCM-goto i1) ->  jump-only   for  InsType of  the InstructionsF of SCM;
+</td><td><span data-href='ami_6.html#FC18'>ami_6</span></td></tr>
+<tr><td>
+cluster  InsCode (a =0_goto i1) ->  jump-only   for  InsType of  the InstructionsF of SCM;
+</td><td><span data-href='ami_6.html#FC20'>ami_6</span></td></tr>
+<tr><td>
+cluster  InsCode (a >0_goto i1) ->  jump-only   for  InsType of  the InstructionsF of SCM;
+</td><td><span data-href='ami_6.html#FC21'>ami_6</span></td></tr>
+<tr><td>
+cluster  InsCode (a := b) ->  non  jump-only   for  InsType of  the InstructionsF of SCM;
+</td><td><span data-href='ami_6.html#FC24'>ami_6</span></td></tr>
+<tr><td>
+cluster  InsCode (AddTo (a,b)) ->  non  jump-only   for  InsType of  the InstructionsF of SCM;
+</td><td><span data-href='ami_6.html#FC25'>ami_6</span></td></tr>
+<tr><td>
+cluster  InsCode (SubFrom (a,b)) ->  non  jump-only   for  InsType of  the InstructionsF of SCM;
+</td><td><span data-href='ami_6.html#FC26'>ami_6</span></td></tr>
+<tr><td>
+cluster  InsCode (MultBy (a,b)) ->  non  jump-only   for  InsType of  the InstructionsF of SCM;
+</td><td><span data-href='ami_6.html#FC27'>ami_6</span></td></tr>
+<tr><td>
+cluster  InsCode (Divide (a,b)) ->  non  jump-only   for  InsType of  the InstructionsF of SCM;
+</td><td><span data-href='ami_6.html#FC28'>ami_6</span></td></tr>
+<tr><td>
+cluster (halt SCM+FSA) `1_3  ->  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC24'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (goto i1) `1_3  ->  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC26'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (a =0_goto i1) `1_3  ->  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC28'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (a >0_goto i1) `1_3  ->  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC29'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (a := b) `1_3  ->  non  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC32'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (AddTo (a,b)) `1_3  ->  non  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC33'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (SubFrom (a,b)) `1_3  ->  non  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC34'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (MultBy (a,b)) `1_3  ->  non  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC35'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (Divide (a,b)) `1_3  ->  non  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC36'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (b := (f,a)) `1_3  ->  non  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC37'>scmfsa10</span></td></tr>
+<tr><td>
+cluster ((f,a) := b) `1_3  ->  non  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC38'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (a :=len f) `1_3  ->  non  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC41'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (f :=<0,...,0> a) `1_3  ->  non  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC42'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  InsCode (halt (SCM R)) ->  jump-only   for  InsType of  the InstructionsF of (SCM R);
+</td><td><span data-href='scmring3.html#FC15'>scmring3</span></td></tr>
+<tr><td>
+cluster  InsCode (goto (i1,R)) ->  jump-only   for  InsType of  the InstructionsF of (SCM R);
+</td><td><span data-href='scmring3.html#FC17'>scmring3</span></td></tr>
+<tr><td>
+cluster  InsCode (a =0_goto i1) ->  jump-only   for  InsType of  the InstructionsF of (SCM R);
+</td><td><span data-href='scmring3.html#FC19'>scmring3</span></td></tr>
+<tr><td>
+cluster  InsCode (p := q) ->  non  jump-only   for  InsType of  the InstructionsF of (SCM S);
+</td><td><span data-href='scmring3.html#FC21'>scmring3</span></td></tr>
+<tr><td>
+cluster  InsCode (AddTo (p,q)) ->  non  jump-only   for  InsType of  the InstructionsF of (SCM S);
+</td><td><span data-href='scmring3.html#FC23'>scmring3</span></td></tr>
+<tr><td>
+cluster  InsCode (SubFrom (p,q)) ->  non  jump-only   for  InsType of  the InstructionsF of (SCM S);
+</td><td><span data-href='scmring3.html#FC25'>scmring3</span></td></tr>
+<tr><td>
+cluster  InsCode (MultBy (p,q)) ->  non  jump-only   for  InsType of  the InstructionsF of (SCM S);
+</td><td><span data-href='scmring3.html#FC27'>scmring3</span></td></tr>
+<tr><td>
+cluster  InsCode (p := w) ->  non  jump-only   for  InsType of  the InstructionsF of (SCM S);
+</td><td><span data-href='scmring3.html#FC29'>scmring3</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM1247'>
+<h2>2.   <span data-link='509.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='amistd_1.html#V2'>amistd_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">N</font> be   <span title="MEASURE6:NV.2" data-link="3055.html#ELM15092">with_zero</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="MEMSTR_0:attr.2" data-link="5247.html#ELM15446">with_non-empty_values</span>   <span title="EXTPRO_1:struct.1" data-link="2529.html#ELM6608">AMI-Struct</span> over <font color="Maroon" title="c1">N</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">I</font> be   <span title="COMPOS_1:NM.1" data-link="1931.html#ELM5020">Instruction</span> of <font color="Maroon" title="c2">S</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c3">I</font> is  <span title="AMISTD_1:attr.2" data-link="509.html#ELM1247">jump-only</span> <span class="kw"> means </span><a name="D2"><span class="comment"><font color="firebrick">:: AMISTD_1:def 2</font></span><br></a> <span title="COMPOS_0:func.5" data-link="1916.html#ELM4977">InsCode</span> <font color="Maroon" title="c3">I</font> is  <span title="AMISTD_1:attr.1" data-link="509.html#ELM1246">jump-only</span> ;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  halt SCM ->  jump-only  ;
+</td><td><span data-href='ami_6.html#FC17'>ami_6</span></td></tr>
+<tr><td>
+cluster  SCM-goto i1 ->  non  ins-loc-free   jump-only   non  sequential  ;
+</td><td><span data-href='ami_6.html#FC19'>ami_6</span></td></tr>
+<tr><td>
+cluster a =0_goto i1 ->  non  ins-loc-free   jump-only   non  sequential  ;
+</td><td><span data-href='ami_6.html#FC22'>ami_6</span></td></tr>
+<tr><td>
+cluster a >0_goto i1 ->  non  ins-loc-free   jump-only   non  sequential  ;
+</td><td><span data-href='ami_6.html#FC23'>ami_6</span></td></tr>
+<tr><td>
+cluster a := b ->  non  jump-only  ;
+</td><td><span data-href='ami_6.html#FC29'>ami_6</span></td></tr>
+<tr><td>
+cluster  AddTo (a,b) ->  non  jump-only  ;
+</td><td><span data-href='ami_6.html#FC30'>ami_6</span></td></tr>
+<tr><td>
+cluster  SubFrom (a,b) ->  non  jump-only  ;
+</td><td><span data-href='ami_6.html#FC31'>ami_6</span></td></tr>
+<tr><td>
+cluster  MultBy (a,b) ->  non  jump-only  ;
+</td><td><span data-href='ami_6.html#FC32'>ami_6</span></td></tr>
+<tr><td>
+cluster  Divide (a,b) ->  non  jump-only  ;
+</td><td><span data-href='ami_6.html#FC33'>ami_6</span></td></tr>
+<tr><td>
+cluster  halt SCM+FSA ->  jump-only  ;
+</td><td><span data-href='scmfsa10.html#FC25'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  goto i1 ->  non  ins-loc-free   jump-only   non  sequential  ;
+</td><td><span data-href='scmfsa10.html#FC27'>scmfsa10</span></td></tr>
+<tr><td>
+cluster a =0_goto i1 ->  non  ins-loc-free   jump-only   non  sequential  ;
+</td><td><span data-href='scmfsa10.html#FC30'>scmfsa10</span></td></tr>
+<tr><td>
+cluster a >0_goto i1 ->  non  ins-loc-free   jump-only   non  sequential  ;
+</td><td><span data-href='scmfsa10.html#FC31'>scmfsa10</span></td></tr>
+<tr><td>
+cluster b := (f,a) ->  non  jump-only  ;
+</td><td><span data-href='scmfsa10.html#FC39'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (f,a) := b ->  non  jump-only  ;
+</td><td><span data-href='scmfsa10.html#FC40'>scmfsa10</span></td></tr>
+<tr><td>
+cluster a :=len f ->  non  jump-only  ;
+</td><td><span data-href='scmfsa10.html#FC43'>scmfsa10</span></td></tr>
+<tr><td>
+cluster f :=<0,...,0> a ->  non  jump-only  ;
+</td><td><span data-href='scmfsa10.html#FC44'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  halt (SCM R) ->  jump-only  ;
+</td><td><span data-href='scmring3.html#FC16'>scmring3</span></td></tr>
+<tr><td>
+cluster  goto (i1,R) ->  jump-only  ;
+</td><td><span data-href='scmring3.html#FC18'>scmring3</span></td></tr>
+<tr><td>
+cluster a =0_goto i1 ->  jump-only  ;
+</td><td><span data-href='scmring3.html#FC20'>scmring3</span></td></tr>
+<tr><td>
+cluster p := q ->  non  jump-only  ;
+</td><td><span data-href='scmring3.html#FC22'>scmring3</span></td></tr>
+<tr><td>
+cluster  AddTo (p,q) ->  non  jump-only  ;
+</td><td><span data-href='scmring3.html#FC24'>scmring3</span></td></tr>
+<tr><td>
+cluster  SubFrom (p,q) ->  non  jump-only  ;
+</td><td><span data-href='scmring3.html#FC26'>scmring3</span></td></tr>
+<tr><td>
+cluster  MultBy (p,q) ->  non  jump-only  ;
+</td><td><span data-href='scmring3.html#FC28'>scmring3</span></td></tr>
+<tr><td>
+cluster p := w ->  non  jump-only  ;
+</td><td><span data-href='scmring3.html#FC30'>scmring3</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>commutes_with</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred commutes_with</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='5089.html#ELM14657'>commutes_with</span> [<span data-href='matrix_6.html#R1'>matrix_6</span>]</li>
+<li><span data-link='5089.html#ELM22557'>commutes_with</span> [<span data-href='rewrite1.html#R11'>rewrite1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM14657'>
+<h2>1.   <span data-link='5089.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='matrix_6.html#R1'>matrix_6</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font> be   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">K</font> be   <span title="VECTSP_1:NM.5" data-link="4666.html#ELM28502">Field</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">M1</font>, <font color="Maroon" title="c4">M2</font> be   <span title="MATRIX_1:NM.2" data-link="5063.html#ELM14604">Matrix</span> of <font color="Maroon" title="c1">n</font>,<font color="Maroon" title="c2">K</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c3">M1</font> <span title="MATRIX_6:pred.1" data-link="5089.html#ELM14657">commutes_with</span> <font color="Maroon" title="c4">M2</font><span class="kw"> means </span><a name="D1"><span class="comment"><font color="firebrick">:: MATRIX_6:def 1</font></span><br></a><font color="Maroon" title="c3">M1</font> <span title="MATRIX_3:func.4" data-link="47.html#ELM14637">*</span> <font color="Maroon" title="c4">M2</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c4">M2</font> <span title="MATRIX_3:func.4" data-link="47.html#ELM14637">*</span> <font color="Maroon" title="c3">M1</font>;<br>
+</div>
+<span class="kw">reflexivity</span> <br><span class="kw">symmetry</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM22557'>
+<h2>2.   <span data-link='5089.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rewrite1.html#R11'>rewrite1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font>, <font color="Maroon" title="c2">Q</font> be   <span title="RELAT_1:NM.1" data-link="286.html#ELM22383">Relation</span>;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="R10"><span class="kw">pred</span> </a><font color="Maroon" title="c1">R</font> <span title="REWRITE1:pred.10" data-link="7402.html#ELM22556">commutes-weakly_with</span> <font color="Maroon" title="c2">Q</font><span class="kw"> means </span><a name="D17"><span class="comment"><font color="firebrick">:: REWRITE1:def 17</font></span><br></a> for <font color="Olive" title="b1">a</font>, <font color="Olive" title="b2">b</font>, <font color="Olive" title="b3">c</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>   st <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c1">R</font> &amp; <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b3">c</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c2">Q</font> holds <br> ex <font color="Olive" title="b4">d</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>  st <br>( <font color="Maroon" title="c2">Q</font> <span title="REWRITE1:pred.1" data-link="7393.html#ELM22547">reduces</span> <font color="Olive" title="b2">b</font>,<font color="Olive" title="b4">d</font> &amp; <font color="Maroon" title="c1">R</font> <span title="REWRITE1:pred.1" data-link="7393.html#ELM22547">reduces</span> <font color="Olive" title="b3">c</font>,<font color="Olive" title="b4">d</font> );<br>
+</div>
+<span class="kw">symmetry</span> <div about="#D47" typeof="oo:Definition" class="main-sentence">
+<a name="R11"><span class="kw">pred</span> </a><font color="Maroon" title="c1">R</font> <span title="REWRITE1:pred.11" data-link="5089.html#ELM22557">commutes_with</span> <font color="Maroon" title="c2">Q</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E47">Def18</font></span>: <a name="D18"><span class="comment"><font color="firebrick">:: REWRITE1:def 18</font></span><br></a> for <font color="Olive" title="b1">a</font>, <font color="Olive" title="b2">b</font>, <font color="Olive" title="b3">c</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>   st <font color="Maroon" title="c1">R</font> <span title="REWRITE1:pred.1" data-link="7393.html#ELM22547">reduces</span> <font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font> &amp; <font color="Maroon" title="c2">Q</font> <span title="REWRITE1:pred.1" data-link="7393.html#ELM22547">reduces</span> <font color="Olive" title="b1">a</font>,<font color="Olive" title="b3">c</font> holds <br> ex <font color="Olive" title="b4">d</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>  st <br>( <font color="Maroon" title="c2">Q</font> <span title="REWRITE1:pred.1" data-link="7393.html#ELM22547">reduces</span> <font color="Olive" title="b2">b</font>,<font color="Olive" title="b4">d</font> &amp; <font color="Maroon" title="c1">R</font> <span title="REWRITE1:pred.1" data-link="7393.html#ELM22547">reduces</span> <font color="Olive" title="b3">c</font>,<font color="Olive" title="b4">d</font> );<br>
+</div>
+<span class="kw">symmetry</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>meets</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred meets</h1>
+<h2>List of Definitions (8)</h2>
+<ol>
+<li><span data-link='1172.html#ELM2848'>meets</span> [<span data-href='boolealg.html#R2'>boolealg</span>]</li>
+<li><span data-link='1172.html#ELM2850'>meets</span> [<span data-href='boolealg.html#R3'>boolealg</span>]</li>
+<li><span data-link='1172.html#ELM19808'>meets</span> [<span data-href='pboole.html#NR6'>pboole</span>]</li>
+<li><span data-link='1172.html#ELM25866'>meets</span> [<span data-href='subset_1.html#R2'>subset_1</span>]</li>
+<li><span data-link='1172.html#ELM27440'>meets</span> [<span data-href='tsep_1.html#NR2'>tsep_1</span>]</li>
+<li><span data-link='1172.html#ELM29645'>meets</span> [<span data-href='xboole_0.html#NR5'>xboole_0</span>]</li>
+<li><span data-link='1172.html#ELM30316'>meets</span> [<span data-href='yellow_5.html#R1'>yellow_5</span>]</li>
+<li><span data-link='1172.html#ELM30319'>meets</span> [<span data-href='yellow_5.html#R2'>yellow_5</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM2848'>
+<h2>1.   <span data-link='1172.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='boolealg.html#R2'>boolealg</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be   <span title="LATTICES:NM.1" data-link="4731.html#ELM13590">Lattice</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font>, <font color="Maroon" title="c3">Y</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c2">X</font> <span title="BOOLEALG:pred.2" data-link="1172.html#ELM2848">meets</span> <font color="Maroon" title="c3">Y</font><span class="kw"> means </span><a name="D4"><span class="comment"><font color="firebrick">:: BOOLEALG:def 4</font></span><br></a><font color="Maroon" title="c2">X</font> <span title="LATTICES:func.4" data-link="1856.html#ELM13601">"/\"</span> <font color="Maroon" title="c3">Y</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="LATTICES:func.5" data-link="4739.html#ELM13602">Bottom</span> <font color="Maroon" title="c1">L</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM2850'>
+<h2>2.   <span data-link='1172.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='boolealg.html#R3'>boolealg</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be   <span title="LATTICES:NM.1" data-link="4731.html#ELM13590">Lattice</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font>, <font color="Maroon" title="c3">Y</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="BOOLEALG:pred.2" data-link="1172.html#ELM2848">meets</span><br><span class="kw">redefine </span><a name="R3"><span class="kw">pred</span> </a><font color="Maroon" title="c2">X</font> <span title="BOOLEALG:pred.3" data-link="1172.html#ELM2850">meets</span> <font color="Maroon" title="c3">Y</font>;<br><span class="kw">symmetry</span> <br><span class="comment"><font color="firebrick">:: original: </font></span><span title="BOOLEALG:func.2" data-link="1174.html#ELM2853">\+\</span><br><span class="kw">redefine </span><a name="K3"><span class="kw">func</span> </a><font color="Maroon" title="c2">X</font> <span title="BOOLEALG:func.3" data-link="1174.html#ELM2854">\+\</span> <font color="Maroon" title="c3">Y</font><span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>;<br><span class="kw">commutativity</span> <br><span class="comment"><font color="firebrick">:: original: </font></span><span title="BOOLEALG:pred.2" data-link="1172.html#ELM2848">meets</span><br><span class="kw">redefine </span><a name="R4"><span class="kw">pred</span> </a><font color="Maroon" title="c2">X</font> <span title="BOOLEALG:pred.4" data-link="1173.html#ELM2851">misses</span> <font color="Maroon" title="c3">Y</font>;<br><span class="kw">symmetry</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM19808'>
+<h2>3.   <span data-link='1172.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='pboole.html#NR6'>pboole</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">notation</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">I</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font>, <font color="Maroon" title="c3">Y</font> be   <span title="PBOOLE:NM.1" data-link="4273.html#ELM19812">ManySortedSet</span> of <font color="Maroon" title="c1">I</font>;<br><a name="NR6"><span class="kw">antonym </span><font color="Maroon" title="c2">X</font> </a><span title="PBOOLE:pred.5" data-link="1173.html#ELM19807">meets</span> <font color="Maroon" title="c3">Y</font><span class="kw"> for </span><font color="Maroon" title="c2">X</font> <span title="PBOOLE:pred.5" data-link="1173.html#ELM19807">misses</span> <font color="Maroon" title="c3">Y</font>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM25866'>
+<h2>4.   <span data-link='1172.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='subset_1.html#R2'>subset_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font>, <font color="Maroon" title="c2">Y</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="XBOOLE_0:pred.1" data-link="1173.html#ELM29641">misses</span><br><span class="kw">redefine </span><a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c1">X</font> <span title="SUBSET_1:pred.2" data-link="1172.html#ELM25866">meets</span> <font color="Maroon" title="c2">Y</font>;<br><span class="kw">reflexivity</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM27440'>
+<h2>5.   <span data-link='1172.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='tsep_1.html#NR2'>tsep_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">notation</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X1</font>, <font color="Maroon" title="c2">X2</font> be    <span title="STRUCT_0:struct.1" data-link="8048.html#ELM25742">1-sorted</span> ;<br><a name="NR2"><span class="kw">antonym </span><font color="Maroon" title="c1">X1</font> </a><span title="TSEP_1:pred.1" data-link="1173.html#ELM27439">meets</span> <font color="Maroon" title="c2">X2</font><span class="kw"> for </span><font color="Maroon" title="c1">X1</font> <span title="TSEP_1:pred.1" data-link="1173.html#ELM27439">misses</span> <font color="Maroon" title="c2">X2</font>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM29645'>
+<h2>6.   <span data-link='1172.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='xboole_0.html#NR5'>xboole_0</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">notation</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font>, <font color="Maroon" title="c2">Y</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><a name="NR5"><span class="kw">antonym </span><font color="Maroon" title="c1">X</font> </a><span title="XBOOLE_0:pred.1" data-link="1173.html#ELM29641">meets</span> <font color="Maroon" title="c2">Y</font><span class="kw"> for </span><font color="Maroon" title="c1">X</font> <span title="XBOOLE_0:pred.1" data-link="1173.html#ELM29641">misses</span> <font color="Maroon" title="c2">Y</font>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM30316'>
+<h2>7.   <span data-link='1172.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='yellow_5.html#R1'>yellow_5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">a</font>, <font color="Maroon" title="c3">b</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c2">a</font> <span title="YELLOW_5:pred.1" data-link="1172.html#ELM30316">meets</span> <font color="Maroon" title="c3">b</font><span class="kw"> means </span><a name="D3"><span class="comment"><font color="firebrick">:: YELLOW_5:def 3</font></span><br></a><font color="Maroon" title="c2">a</font> <span title="LATTICE3:func.11" data-link="1856.html#ELM13416">"/\"</span> <font color="Maroon" title="c3">b</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="YELLOW_0:func.3" data-link="4739.html#ELM30194">Bottom</span> <font color="Maroon" title="c1">L</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM30319'>
+<h2>8.   <span data-link='1172.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='yellow_5.html#R2'>yellow_5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be   <span title="ORDERS_2:attr.5" data-link="4790.html#ELM18899">antisymmetric</span>   <span title="LATTICE3:attr.2" data-link="4559.html#ELM13425">with_infima</span>   <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">a</font>, <font color="Maroon" title="c3">b</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="YELLOW_5:pred.1" data-link="1172.html#ELM30316">meets</span><br><span class="kw">redefine </span><a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c2">a</font> <span title="YELLOW_5:pred.2" data-link="1172.html#ELM30319">meets</span> <font color="Maroon" title="c3">b</font>;<br><span class="kw">symmetry</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

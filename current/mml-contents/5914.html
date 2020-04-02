@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Adjacent</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Adjacent</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='5914.html#ELM17392'>Adjacent</span> [<span data-href='mycielsk.html#K4'>mycielsk</span>]</li>
+<li><span data-link='5914.html#ELM24781'>Adjacent</span> [<span data-href='scmyciel.html#K4'>scmyciel</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM17392'>
+<h2>1.   <span data-link='5914.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='mycielsk.html#K4'>mycielsk</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font> be    <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">v</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">R</font>;<br><div about="#D29" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a> <span title="MYCIELSK:func.4" data-link="5914.html#ELM17392">Adjacent</span> <font color="Maroon" title="c2">v</font><span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">R</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E29">Def6</font></span>: <a name="D6"><span class="comment"><font color="firebrick">:: MYCIELSK:def 6</font></span><br></a> for <font color="Olive" title="b1">x</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">R</font> holds <br> ( <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <span class="kw">it</span> iff ( <font color="Olive" title="b1">x</font> <span title="ORDERS_2:pred.2" data-link="841.html#ELM18884">&lt;</span> <font color="Maroon" title="c2">v</font> or <font color="Maroon" title="c2">v</font> <span title="ORDERS_2:pred.2" data-link="841.html#ELM18884">&lt;</span> <font color="Olive" title="b1">x</font> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM24781'>
+<h2>2.   <span data-link='5914.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='scmyciel.html#K4'>scmyciel</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="SCMYCIEL:NM.1" data-link="7819.html#ELM24767">SimpleGraph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">v</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="SCMYCIEL:NK.2" data-link="7821.html#ELM24777">Vertices</span> <font color="Maroon" title="c1">G</font>;<br><div about="#D35" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a> <span title="SCMYCIEL:func.4" data-link="5914.html#ELM24781">Adjacent</span> <font color="Maroon" title="c2">v</font><span class="kw"> -&gt; </span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span class="p1">(<span class="default"><span title="SCMYCIEL:NK.2" data-link="7821.html#ELM24777">Vertices</span> <font color="Maroon" title="c1">G</font></span>)</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E35">Def8</font></span>: <a name="D8"><span class="comment"><font color="firebrick">:: SCMYCIEL:def 8</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="SCMYCIEL:NK.2" data-link="7821.html#ELM24777">Vertices</span> <font color="Maroon" title="c1">G</font> holds <br> ( <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <span class="kw">it</span> iff <span class="p1"><span title="TARSKI:func.2" data-link="857.html#ELM26066">{</span><span class="default"><font color="Maroon" title="c2">v</font>,<font color="Olive" title="b1">x</font></span><span title="TARSKI:func.2" data-link="857.html#ELM26066">}</span></span> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="SCMYCIEL:NK.3" data-link="7822.html#ELM24778">Edges</span> <font color="Maroon" title="c1">G</font> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

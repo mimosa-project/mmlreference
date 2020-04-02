@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>halt-free</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr halt-free</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='1943.html#ELM5037'>halt-free</span> [<span data-href='compos_1.html#V2'>compos_1</span>]</li>
+<li><span data-link='1943.html#ELM5040'>halt-free</span> [<span data-href='compos_1.html'>compos_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM5037'>
+<h2>1.   <span data-link='1943.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='compos_1.html#V2'>compos_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be    <span title="COMPOS_1:struct.1" data-link="1930.html#ELM5019">COM-Struct</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">I</font> be   the <span title="COMPOS_1:sel.1" data-href="compos_1.html#U1">InstructionsF</span> of <font color="Maroon" title="c1">S</font> <span title="RELAT_1:attr.5" data-link="7382.html#ELM22401">-valued</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><div about="#D2" typeof="oo:Definition" class="main-sentence">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c2">I</font> is  <span title="COMPOS_1:attr.2" data-link="1943.html#ELM5037">halt-free</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E2">Def3</font></span>: <a name="D11"><span class="comment"><font color="firebrick">:: COMPOS_1:def 11</font></span><br></a> not  <span title="COMPOS_1:func.2" data-link="1923.html#ELM5026">halt</span> <font color="Maroon" title="c1">S</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <font color="Maroon" title="c2">I</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Euclid-Algorithm  ->  NAT  -defined   the InstructionsF of SCM -valued   finite   non  halt-free  ;
+</td><td><span data-href='ami_4.html#FC2'>ami_4</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of S -valued  V10()  non  empty   trivial   Function-like   finite   initial   non  halt-free   halt-ending   unique-halt   countable  V152()  really-closed   for    set ;
+</td><td><span data-href='amistd_1.html#RC3'>amistd_1</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of S -valued   non  empty   Function-like   finite   non  halt-free   countable  V152()  parahalting   for    set ;
+</td><td><span data-href='amistd_1.html#RC4'>amistd_1</span></td></tr>
+<tr><td>
+cluster  IncIC (p,k) ->  Reloc (q,k) -halted  ;
+</td><td><span data-href='amistd_5.html#FC7'>amistd_5</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   the InstructionsF of S -valued   Function-like   finite   halt-ending   ->  non  empty   non  halt-free   for    set ;
+</td><td><span data-href='compos_1.html#CC1'>compos_1</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   the InstructionsF of S -valued   Function-like  V31()  finite   initial   non  halt-free   for    set ;
+</td><td><span data-href='compos_1.html#RC6'>compos_1</span></td></tr>
+<tr><td>
+cluster p +* q ->  non  halt-free  ;
+</td><td><span data-href='compos_1.html#FC15'>compos_1</span></td></tr>
+<tr><td>
+cluster  Reloc (p,k) ->  NAT  -defined   the InstructionsF of S -valued   finite   non  halt-free  ;
+</td><td><span data-href='compos_1.html#FC16'>compos_1</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   the InstructionsF of S -valued   Function-like  V31()  finite   initial   non  halt-free   for    set ;
+</td><td><span data-href='compos_1.html#RC7'>compos_1</span></td></tr>
+<tr><td>
+cluster  empty   Relation-like   NAT  -defined   the InstructionsF of S -valued   Function-like   finite   ->  halt-free   for    set ;
+</td><td><span data-href='compos_1.html#CC3'>compos_1</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   the InstructionsF of S -valued   Function-like   finite   halt-free   ->  non  empty   unique-halt   for    set ;
+</td><td><span data-href='compos_1.html#CC4'>compos_1</span></td></tr>
+<tr><td>
+cluster  stop p ->  unique-halt  ;
+</td><td><span data-href='compos_1.html#FC17'>compos_1</span></td></tr>
+<tr><td>
+cluster I ';' J ->  non  halt-free  ;
+</td><td><span data-href='compos_1.html#FC18'>compos_1</span></td></tr>
+<tr><td>
+cluster  CutLastLoc I ->  halt-free  ;
+</td><td><span data-href='compos_2.html#FC2'>compos_2</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   the InstructionsF of S -valued   Function-like  V28()  finite  V49()  non  halt-free   halt-ending   unique-halt   closed   for    set ;
+</td><td><span data-href='compos_2.html#RC3'>compos_2</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   the InstructionsF of S -valued   Function-like  V28()  finite  V49()  halt-free   for    set ;
+</td><td><span data-href='compos_2.html#RC4'>compos_2</span></td></tr>
+<tr><td>
+cluster I ^ J ->  halt-free  ;
+</td><td><span data-href='compos_2.html#FC6'>compos_2</span></td></tr>
+<tr><td>
+cluster  Load  ->  halt-free  ;
+</td><td><span data-href='compos_2.html#FC7'>compos_2</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   the carrier of S -defined   Function-like   the_Values_of S -compatible  V39()  countable  P -autonomic  P -halted   for    set ;
+</td><td><span data-href='extpro_1.html#RC9'>extpro_1</span></td></tr>
+<tr><td>
+cluster  Directed P ->  halt-free  ;
+</td><td><span data-href='scmfsa6a.html#FC3'>scmfsa6a</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued  V10()  non  empty   Function-like  V39()  initial   halt-free   for    set ;
+</td><td><span data-href='scmfsa6a.html#RC1'>scmfsa6a</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued  V13()  non  empty   Function-like  V37() V55()  non  halt-free   halt-ending   unique-halt   really-closed   parahalting  V154()  keeping_0   for    set ;
+</td><td><span data-href='scmfsa6b.html#RC1'>scmfsa6b</span></td></tr>
+<tr><td>
+cluster  Goto l ->  halt-free   good  ;
+</td><td><span data-href='scmfsa8a.html#FC4'>scmfsa8a</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   Function-like  V24() V30()  initial   halt-free   good   for    set ;
+</td><td><span data-href='scmfsa8a.html#RC1'>scmfsa8a</span></td></tr>
+<tr><td>
+cluster V4()  Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   Function-like  V24() V38()  initial   non  halt-free   halt-ending   unique-halt   keeping_0   good   really-closed   parahalting   for    set ;
+</td><td><span data-href='scmfsa8c.html#RC1'>scmfsa8c</span></td></tr>
+<tr><td>
+cluster  Insert-Sort-Algorithm  ->  non  halt-free  ;
+</td><td><span data-href='scmisort.html#FC1'>scmisort</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of SCMPDS -valued   non  empty  V16()  Function-like  V39() V78()  halt-free   parahalting   shiftable   for    set ;
+</td><td><span data-href='scmpds_5.html#RC2'>scmpds_5</span></td></tr>
+<tr><td>
+cluster I ';' J ->  halt-free  ;
+</td><td><span data-href='scmpds_5.html#FC24'>scmpds_5</span></td></tr>
+<tr><td>
+cluster  Load  ->  halt-free  ;
+</td><td><span data-href='scmpds_5.html#FC25'>scmpds_5</span></td></tr>
+<tr><td>
+cluster i ';' J ->  halt-free  ;
+</td><td><span data-href='scmpds_5.html#FC26'>scmpds_5</span></td></tr>
+<tr><td>
+cluster I ';' j ->  halt-free  ;
+</td><td><span data-href='scmpds_5.html#FC27'>scmpds_5</span></td></tr>
+<tr><td>
+cluster i ';' j ->  halt-free  ;
+</td><td><span data-href='scmpds_5.html#FC28'>scmpds_5</span></td></tr>
+<tr><td>
+cluster  Goto (n + 1) ->  halt-free  ;
+</td><td><span data-href='scmpds_6.html#FC3'>scmpds_6</span></td></tr>
+<tr><td>
+cluster  Goto (- (n + 1)) ->  halt-free  ;
+</td><td><span data-href='scmpds_6.html#FC4'>scmpds_6</span></td></tr>
+<tr><td>
+cluster  if=0 (a,k1,I,J) ->  halt-free  ;
+</td><td><span data-href='scmpds_6.html#FC6'>scmpds_6</span></td></tr>
+<tr><td>
+cluster  if=0 (a,k1,I) ->  halt-free  ;
+</td><td><span data-href='scmpds_6.html#FC8'>scmpds_6</span></td></tr>
+<tr><td>
+cluster  if<>0 (a,k1,I) ->  halt-free  ;
+</td><td><span data-href='scmpds_6.html#FC10'>scmpds_6</span></td></tr>
+<tr><td>
+cluster  if>0 (a,k1,I,J) ->  halt-free  ;
+</td><td><span data-href='scmpds_6.html#FC12'>scmpds_6</span></td></tr>
+<tr><td>
+cluster  if>0 (a,k1,I) ->  halt-free  ;
+</td><td><span data-href='scmpds_6.html#FC14'>scmpds_6</span></td></tr>
+<tr><td>
+cluster  if<=0 (a,k1,I) ->  halt-free  ;
+</td><td><span data-href='scmpds_6.html#FC16'>scmpds_6</span></td></tr>
+<tr><td>
+cluster  if<0 (a,k1,I,J) ->  halt-free  ;
+</td><td><span data-href='scmpds_6.html#FC18'>scmpds_6</span></td></tr>
+<tr><td>
+cluster  if<0 (a,k1,I) ->  halt-free  ;
+</td><td><span data-href='scmpds_6.html#FC20'>scmpds_6</span></td></tr>
+<tr><td>
+cluster  if>=0 (a,k1,I) ->  halt-free  ;
+</td><td><span data-href='scmpds_6.html#FC22'>scmpds_6</span></td></tr>
+<tr><td>
+cluster  for-up (a,i,n,I) ->  halt-free  ;
+</td><td><span data-href='scmpds_7.html#FC2'>scmpds_7</span></td></tr>
+<tr><td>
+cluster  for-down (a,i,n,I) ->  halt-free  ;
+</td><td><span data-href='scmpds_7.html#FC4'>scmpds_7</span></td></tr>
+<tr><td>
+cluster  while<0 (a,i,I) ->  halt-free  ;
+</td><td><span data-href='scmpds_8.html#FC2'>scmpds_8</span></td></tr>
+<tr><td>
+cluster  while>0 (a,i,I) ->  halt-free  ;
+</td><td><span data-href='scmpds_8.html#FC4'>scmpds_8</span></td></tr>
+<tr><td>
+cluster  while<>0 (a,i,I) ->  halt-free  ;
+</td><td><span data-href='scpinvar.html#FC2'>scpinvar</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM5040'>
+<h2>2.   <span data-link='1943.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='compos_1.html'>compos_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be    <span title="COMPOS_1:struct.1" data-link="1930.html#ELM5019">COM-Struct</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">IT</font> be   <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>  <span title="RELAT_1:attr.4" data-link="7381.html#ELM22400">-defined</span>   the <span title="COMPOS_1:sel.1" data-href="compos_1.html#U1">InstructionsF</span> of <font color="Maroon" title="c1">S</font> <span title="RELAT_1:attr.5" data-link="7382.html#ELM22401">-valued</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><div about="#D37" typeof="oo:Definition" class="main-sentence">
+<span class="kw">redefine </span><span class="kw">attr</span> <font color="Maroon" title="c2">IT</font> is  <span title="COMPOS_1:attr.2" data-link="1943.html#ELM5037">halt-free</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E37">Def14</font></span>: <a name="D27"><span class="comment"><font color="firebrick">:: COMPOS_1:def 27</font></span><br></a> for <font color="Olive" title="b1">x</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c2">IT</font> holds <br><font color="Maroon" title="c2">IT</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="COMPOS_1:func.2" data-link="1923.html#ELM5026">halt</span> <font color="Maroon" title="c1">S</font>;<br>
+</div>
+<span class="kw">compatibility</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

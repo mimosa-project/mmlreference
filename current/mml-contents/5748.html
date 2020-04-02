@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>MSAlgCat</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func MSAlgCat</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='5748.html#ELM16978'>MSAlgCat</span> [<span data-href='msinst_1.html#K4'>msinst_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM16978'>
+<h2>1.   <span data-link='5748.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='msinst_1.html#K4'>msinst_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   non  <span title="STRUCT_0:attr.11" data-link="17.html#ELM25778">void</span>   <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D7" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a> <span title="MSINST_1:func.4" data-link="5748.html#ELM16978">MSAlgCat</span> (<font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">A</font>)<span class="kw"> -&gt; </span>  non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ALTCAT_1:attr.6" data-href="altcat_1.html#V6">strict</span>   <span title="ALTCAT_1:struct.2" data-link="401.html#ELM977">AltCatStr</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E7">Def4</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: MSINST_1:def 4</font></span><br></a>(  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="MSINST_1:func.2" data-link="5746.html#ELM16976">MSAlg_set</span> (<font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">A</font>) &amp; (  for <font color="Olive" title="b1">i</font>, <font color="Olive" title="b2">j</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="MSINST_1:func.2" data-link="5746.html#ELM16976">MSAlg_set</span> (<font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">A</font>) holds   the <span title="ALTCAT_1:sel.1" data-href="altcat_1.html#U1">Arrows</span> of <span class="kw">it</span> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="MSINST_1:func.3" data-link="5747.html#ELM16977">MSAlg_morph</span> (<font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">A</font>,<font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font>) ) &amp; (  for <font color="Olive" title="b1">i</font>, <font color="Olive" title="b2">j</font>, <font color="Olive" title="b3">k</font> being   <span title="ALTCAT_1:NM.1" data-link="402.html#ELM978">Object</span> of <span class="kw">it</span><br>  for <font color="Olive" title="b4">f</font>, <font color="Olive" title="b5">g</font> being   <span title="FUNCOP_1:attr.1" data-link="3144.html#ELM8751">Function-yielding</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>  st <font color="Olive" title="b4">f</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  the <span title="ALTCAT_1:sel.1" data-href="altcat_1.html#U1">Arrows</span> of <span class="kw">it</span> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font>) &amp; <font color="Olive" title="b5">g</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  the <span title="ALTCAT_1:sel.1" data-href="altcat_1.html#U1">Arrows</span> of <span class="kw">it</span> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Olive" title="b2">j</font>,<font color="Olive" title="b3">k</font>) holds <br><span class="p1">(<span class="default"> the <span title="ALTCAT_1:sel.2" data-href="altcat_1.html#U2">Comp</span> of <span class="kw">it</span> <span title="ALTCAT_1:func.4" data-link="141.html#ELM986">.</span> (<font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font>,<font color="Olive" title="b3">k</font>)</span>)</span> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Olive" title="b5">g</font>,<font color="Olive" title="b4">f</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b5">g</font> <span title="PBOOLE:func.8" data-link="726.html#ELM19825">**</span> <font color="Olive" title="b4">f</font> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  MSAlgCat (S,A) ->  non  empty   transitive   strict   associative   with_units  ;
+</td><td><span data-href='msinst_1.html#FC3'>msinst_1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

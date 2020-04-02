@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>"**"</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func "**"</h1>
+<h2>List of Definitions (3)</h2>
+<ol>
+<li><span data-link='251.html#ELM583'>"**"</span> [<span data-href='afinsq_2.html#K6'>afinsq_2</span>]</li>
+<li><span data-link='251.html#ELM7484'>"**"</span> [<span data-href='finsop_1.html#K1'>finsop_1</span>]</li>
+<li><span data-link='251.html#ELM25079'>"**"</span> [<span data-href='setwop_2.html'>setwop_2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM583'>
+<h2>1.   <span data-link='251.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='afinsq_2.html#K6'>afinsq_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">D</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">F</font> be   <span title="AFINSQ_1:NM.1" data-link="231.html#ELM494">XFinSequence</span>;<br><span class="kw">assume </span><a name="E1:60"></a><span class="lab"><font color="Green" title="E34">A1</font></span>: 
+<font color="Maroon" title="c2">F</font> is <font color="Maroon" title="c1">D</font> <span title="RELAT_1:attr.5" data-link="7382.html#ELM22401">-valued</span> 
+ ;<br><span class="kw">let </span><font color="Maroon" title="c3">b</font> be   <span title="BINOP_1:NM.2" data-link="1124.html#ELM2752">BinOp</span> of <font color="Maroon" title="c1">D</font>;<br><span class="kw">assume </span><a name="E2:60"></a><span class="lab"><font color="Green" title="E35">A2</font></span>: 
+( <font color="Maroon" title="c3">b</font> is  <span title="SETWISEO:attr.1" data-link="7866.html#ELM25072">having_a_unity</span>  or  <span title="AFINSQ_1:func.1" data-link="232.html#ELM497">len</span> <font color="Maroon" title="c2">F</font> <span title="XXREAL_0:NR.2" data-link="786.html#ELM29820">&gt;=</span> 1 )
+ ;<br><div about="#D34" typeof="oo:Definition" class="main-sentence">
+<a name="K6"><span class="kw">func</span> </a><font color="Maroon" title="c3">b</font> <span title="AFINSQ_2:func.6" data-link="251.html#ELM583">"**"</span> <font color="Maroon" title="c2">F</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">D</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E34">Def8</font></span>: <a name="D8"><span class="comment"><font color="firebrick">:: AFINSQ_2:def 8</font></span><br></a><span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="BINOP_1:func.3" data-link="1125.html#ELM2755">the_unity_wrt</span> <font color="Maroon" title="c3">b</font><span class="kw"> if </span>( <font color="Maroon" title="c3">b</font> is  <span title="SETWISEO:attr.1" data-link="7866.html#ELM25072">having_a_unity</span>  &amp;  <span title="AFINSQ_1:func.1" data-link="232.html#ELM497">len</span> <font color="Maroon" title="c2">F</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  )<br><span class="kw"> otherwise </span> ex <font color="Olive" title="b1">f</font> being   <span title="NAT_1:NM.2" data-link="5927.html#ELM17447">sequence</span> of <font color="Maroon" title="c1">D</font> st <br>( <font color="Olive" title="b1">f</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">F</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> &amp; (  for <font color="Olive" title="b2">n</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b2">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1 <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span>  <span title="AFINSQ_1:func.1" data-link="232.html#ELM497">len</span> <font color="Maroon" title="c2">F</font> holds <br><font color="Olive" title="b1">f</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b2">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">b</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<span class="p1">(<span class="default"><font color="Olive" title="b1">f</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b2">n</font></span>)</span>,<span class="p1">(<span class="default"><font color="Maroon" title="c2">F</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p2">(<span class="default"><font color="Olive" title="b2">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span></span>)</span>) ) &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">f</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="AFINSQ_1:func.1" data-link="232.html#ELM497">len</span> <font color="Maroon" title="c2">F</font></span>)</span> <span title="XCMPLX_0:func.6" data-link="327.html#ELM29691">-</span> 1</span>)</span> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <span class="kw">consistency</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM7484'>
+<h2>2.   <span data-link='251.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='finsop_1.html#K1'>finsop_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">D</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">F</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c1">D</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">g</font> be   <span title="BINOP_1:NM.2" data-link="1124.html#ELM2752">BinOp</span> of <font color="Maroon" title="c1">D</font>;<br><span class="kw">assume </span><a name="E1:1"></a><span class="lab"><font color="Green" title="E1">A1</font></span>: 
+( <font color="Maroon" title="c3">g</font> is  <span title="SETWISEO:attr.1" data-link="7866.html#ELM25072">having_a_unity</span>  or  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c2">F</font> <span title="XXREAL_0:NR.2" data-link="786.html#ELM29820">&gt;=</span> 1 )
+ ;<br><div about="#D1" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a><font color="Maroon" title="c3">g</font> <span title="FINSOP_1:func.1" data-link="251.html#ELM7484">"**"</span> <font color="Maroon" title="c2">F</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">D</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E1">Def1</font></span>: <a name="D1"><span class="comment"><font color="firebrick">:: FINSOP_1:def 1</font></span><br></a><span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="BINOP_1:func.3" data-link="1125.html#ELM2755">the_unity_wrt</span> <font color="Maroon" title="c3">g</font><span class="kw"> if </span>( <font color="Maroon" title="c3">g</font> is  <span title="SETWISEO:attr.1" data-link="7866.html#ELM25072">having_a_unity</span>  &amp;  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c2">F</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  )<br><span class="kw"> otherwise </span> ex <font color="Olive" title="b1">f</font> being   <span title="NAT_1:NM.2" data-link="5927.html#ELM17447">sequence</span> of <font color="Maroon" title="c1">D</font> st <br>( <font color="Olive" title="b1">f</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> 1 <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">F</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> 1 &amp; (  for <font color="Olive" title="b2">n</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Olive" title="b2">n</font> &amp; <font color="Olive" title="b2">n</font> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c2">F</font> holds <br><font color="Olive" title="b1">f</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b2">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">g</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<span class="p1">(<span class="default"><font color="Olive" title="b1">f</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b2">n</font></span>)</span>,<span class="p1">(<span class="default"><font color="Maroon" title="c2">F</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p2">(<span class="default"><font color="Olive" title="b2">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span></span>)</span>) ) &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">f</font> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <span class="p1">(<span class="default"><span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c2">F</font></span>)</span> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <span class="kw">consistency</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM25079'>
+<h2>3.   <span data-link='251.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='setwop_2.html'>setwop_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">D</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">p</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c1">D</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">F</font> be   <span title="BINOP_1:NM.2" data-link="1124.html#ELM2752">BinOp</span> of <font color="Maroon" title="c1">D</font>;<br><span class="kw">assume </span><a name="E1:32"></a><span class="lab"><font color="Green" title="E15">A1</font></span>: 
+( ( <font color="Maroon" title="c3">F</font> is  <span title="SETWISEO:attr.1" data-link="7866.html#ELM25072">having_a_unity</span>  or  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c2">p</font> <span title="XXREAL_0:NR.2" data-link="786.html#ELM29820">&gt;=</span> 1 ) &amp; <font color="Maroon" title="c3">F</font> is  <span title="BINOP_1:attr.2" data-link="414.html#ELM2758">associative</span>  &amp; <font color="Maroon" title="c3">F</font> is  <span title="BINOP_1:attr.1" data-link="25.html#ELM2757">commutative</span>  )
+ ;<br><div about="#D15" typeof="oo:Definition" class="main-sentence">
+<span class="kw">redefine </span><span class="kw">func</span> <font color="Maroon" title="c3">F</font> <span title="FINSOP_1:func.1" data-link="251.html#ELM7484">"**"</span> <font color="Maroon" title="c2">p</font><span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E15">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: SETWOP_2:def 2</font></span><br></a><font color="Maroon" title="c3">F</font> <span title="SETWISEO:func.7" data-link="7864.html#ELM25067">$$</span> (<span class="p1">(<span class="default"><span title="FINSOP_1:func.3" data-link="2776.html#ELM7487">findom</span> <font color="Maroon" title="c2">p</font></span>)</span>,<span class="p1">(<span class="default"><span title="SETWOP_2:func.1" data-link="6464.html#ELM25075">[#]</span> (<font color="Maroon" title="c2">p</font>,<span class="p2">(<span class="default"><span title="BINOP_1:func.3" data-link="1125.html#ELM2755">the_unity_wrt</span> <font color="Maroon" title="c3">F</font></span>)</span>)</span>)</span>);<br>
+</div>
+<span class="kw">compatibility</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E15">A1</font></span><span class="ref" onmouseover="rs('finsop_1/T3')" onmouseout="rh()" data-href="finsop_1.html#T3">FINSOP_1:3</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Perm</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Perm</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='4174.html#ELM12054'>Perm</span> [<span data-href='hilbert3.html#K4'>hilbert3</span>]</li>
+<li><span data-link='4174.html#ELM12055'>Perm</span> [<span data-href='hilbert3.html#K5'>hilbert3</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM12054'>
+<h2>1.   <span data-link='4174.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='hilbert3.html#K4'>hilbert3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">V</font> be   <span title="HILBERT3:NM.1" data-link="4172.html#ELM12049">SetValuation</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">P</font> be    <span title="HILBERT3:mode.1" data-link="3161.html#ELM12050">Permutation</span> of <font color="Maroon" title="c1">V</font>;<br><div about="#D25" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a> <span title="HILBERT3:func.4" data-link="4174.html#ELM12054">Perm</span> <font color="Maroon" title="c2">P</font><span class="kw"> -&gt; </span>   <span title="PBOOLE:mode.2" data-link="5785.html#ELM19816">ManySortedFunction</span> of  <span title="HILBERT3:func.2" data-link="4173.html#ELM12052">SetVal</span> <font color="Maroon" title="c1">V</font>, <span title="HILBERT3:func.2" data-link="4173.html#ELM12052">SetVal</span> <font color="Maroon" title="c1">V</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E25">Def5</font></span>: <a name="D5"><span class="comment"><font color="firebrick">:: HILBERT3:def 5</font></span><br></a>( <span class="kw">it</span> <span title="MSUALG_3:func.1" data-link="141.html#ELM17127">.</span> <span title="HILBERT1:func.2" data-link="2070.html#ELM12017">VERUM</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="PARTFUN1:func.6" data-link="1435.html#ELM19583">id</span> 1 &amp; (  for <font color="Olive" title="b1">n</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>  holds  <span class="kw">it</span> <span title="MSUALG_3:func.1" data-link="141.html#ELM17127">.</span> <span class="p1">(<span class="default"><span title="HILBERT2:func.1" data-link="4168.html#ELM12036">prop</span> <font color="Olive" title="b1">n</font></span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">P</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">n</font> ) &amp; (  for <font color="Olive" title="b1">p</font>, <font color="Olive" title="b2">q</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="HILBERT1:func.1" data-link="4159.html#ELM12016">HP-WFF</span>   ex <font color="Olive" title="b3">p9</font> being   <span title="FUNCT_2:NM.2" data-link="3161.html#ELM8874">Permutation</span> of <span class="p1">(<span class="default"><span title="HILBERT3:func.3" data-link="4173.html#ELM12053">SetVal</span> (<font color="Maroon" title="c1">V</font>,<font color="Olive" title="b1">p</font>)</span>)</span> ex <font color="Olive" title="b4">q9</font> being   <span title="FUNCT_2:NM.2" data-link="3161.html#ELM8874">Permutation</span> of <span class="p1">(<span class="default"><span title="HILBERT3:func.3" data-link="4173.html#ELM12053">SetVal</span> (<font color="Maroon" title="c1">V</font>,<font color="Olive" title="b2">q</font>)</span>)</span> st <br>( <font color="Olive" title="b3">p9</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="kw">it</span> <span title="MSUALG_3:func.1" data-link="141.html#ELM17127">.</span> <font color="Olive" title="b1">p</font> &amp; <font color="Olive" title="b4">q9</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="kw">it</span> <span title="MSUALG_3:func.1" data-link="141.html#ELM17127">.</span> <font color="Olive" title="b2">q</font> &amp; <span class="kw">it</span> <span title="MSUALG_3:func.1" data-link="141.html#ELM17127">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">p</font> <span title="HILBERT1:func.4" data-link="799.html#ELM12019">'&amp;'</span> <font color="Olive" title="b2">q</font></span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1"><span title="FUNCT_3:func.16" data-link="395.html#ELM8930">[:</span><span class="default"><font color="Olive" title="b3">p9</font>,<font color="Olive" title="b4">q9</font></span><span title="FUNCT_3:func.16" data-link="395.html#ELM8930">:]</span></span> &amp; <span class="kw">it</span> <span title="MSUALG_3:func.1" data-link="141.html#ELM17127">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">p</font> <span title="HILBERT1:func.3" data-link="2071.html#ELM12018">=&gt;</span> <font color="Olive" title="b2">q</font></span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b3">p9</font> <span title="HILBERT3:func.1" data-link="2071.html#ELM12051">=&gt;</span> <font color="Olive" title="b4">q9</font> ) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12055'>
+<h2>2.   <span data-link='4174.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='hilbert3.html#K5'>hilbert3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">V</font> be   <span title="HILBERT3:NM.1" data-link="4172.html#ELM12049">SetValuation</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">P</font> be    <span title="HILBERT3:mode.1" data-link="3161.html#ELM12050">Permutation</span> of <font color="Maroon" title="c1">V</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">p</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="HILBERT1:func.1" data-link="4159.html#ELM12016">HP-WFF</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K5"><span class="kw">func</span> </a> <span title="HILBERT3:func.5" data-link="4174.html#ELM12055">Perm</span> (<font color="Maroon" title="c2">P</font>,<font color="Maroon" title="c3">p</font>)<span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"><span title="HILBERT3:func.3" data-link="4173.html#ELM12053">SetVal</span> (<font color="Maroon" title="c1">V</font>,<font color="Maroon" title="c3">p</font>)</span>)</span>,<span class="p1">(<span class="default"><span title="HILBERT3:func.3" data-link="4173.html#ELM12053">SetVal</span> (<font color="Maroon" title="c1">V</font>,<font color="Maroon" title="c3">p</font>)</span>)</span><span class="kw"> equals </span><a name="D6"><span class="comment"><font color="firebrick">:: HILBERT3:def 6</font></span><br></a><span class="p1">(<span class="default"><span title="HILBERT3:func.4" data-link="4174.html#ELM12054">Perm</span> <font color="Maroon" title="c2">P</font></span>)</span> <span title="MSUALG_3:func.1" data-link="141.html#ELM17127">.</span> <font color="Maroon" title="c3">p</font>;<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Perm (P,p) ->  bijective  ;
+</td><td><span data-href='hilbert3.html#FC8'>hilbert3</span></td></tr>
+<tr><td>
+cluster  Perm ((v tohilbperm),p) -> V67() ;
+</td><td><span data-href='hilbert4.html#FC17'>hilbert4</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

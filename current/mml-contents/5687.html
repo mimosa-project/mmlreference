@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>NFAlgebra</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func NFAlgebra</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='5687.html#ELM16703'>NFAlgebra</span> [<span data-href='msafree4.html#K10'>msafree4</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM16703'>
+<h2>1.   <span data-link='5687.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='msafree4.html#K10'>msafree4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   non  <span title="STRUCT_0:attr.11" data-link="17.html#ELM25778">void</span>   <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font> be  <span title="RELAT_1:attr.2" data-link="3057.html#ELM22398">V5</span>() <span title="STRUCT_0:NM.8" data-link="4273.html#ELM25754">ManySortedSet</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">R</font> be   <span title="MSUALG_6:attr.3" data-link="157.html#ELM17198">invariant</span>   <span title="MSUALG_6:attr.4" data-link="397.html#ELM17199">stable</span>   <span title="MSAFREE4:attr.12" data-link="5694.html#ELM16716">terminating</span>   <span title="MSAFREE4:attr.13" data-link="5695.html#ELM16717">with_UN_property</span>  <span title="MSUALG_4:NM.3" data-link="5788.html#ELM17140">ManySortedRelation</span> of <span class="p1">(<span class="default"><span title="MSAFREE3:func.1" data-link="5682.html#ELM16679">Free</span> (<font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">X</font>)</span>)</span>;<br><div about="#D77" typeof="oo:Definition" class="main-sentence">
+<a name="K10"><span class="kw">func</span> </a> <span title="MSAFREE4:func.10" data-link="5687.html#ELM16703">NFAlgebra</span> <font color="Maroon" title="c3">R</font><span class="kw"> -&gt; </span>  <span title="MSUALG_1:attr.3" data-href="msualg_1.html#V3">strict</span>   <span title="MSUALG_1:attr.4" data-link="3057.html#ELM17069">non-empty</span>   <span title="MSUALG_1:struct.3" data-link="5760.html#ELM17054">MSAlgebra</span> over <font color="Maroon" title="c1">S</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E77">Def20</font></span>: <a name="D20"><span class="comment"><font color="firebrick">:: MSAFREE4:def 20</font></span><br></a>(  the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <span class="kw">it</span> <span title="PBOOLE:pred.8" data-link="1122.html#ELM19811">=</span>  <span title="MSAFREE4:func.9" data-link="5686.html#ELM16702">NForms</span> <font color="Maroon" title="c3">R</font> &amp; (  for <font color="Olive" title="b1">o</font> being   <span title="MSUALG_1:NM.2" data-link="32.html#ELM17056">OperSymbol</span> of <font color="Maroon" title="c1">S</font><br>  for <font color="Olive" title="b2">a</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="MSUALG_1:func.3" data-link="5763.html#ELM17059">Args</span> (<font color="Olive" title="b1">o</font>,<span class="kw">it</span>) holds  <span class="p1">(<span class="default"><span title="MSUALG_1:func.5" data-link="5764.html#ELM17061">Den</span> (<font color="Olive" title="b1">o</font>,<span class="kw">it</span>)</span>)</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b2">a</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="REWRITE1:func.2" data-link="140.html#ELM22563">nf</span> (<span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="MSUALG_1:func.5" data-link="5764.html#ELM17061">Den</span> (<font color="Olive" title="b1">o</font>,<span class="p3">(<span class="default"><span title="MSAFREE3:func.1" data-link="5682.html#ELM16679">Free</span> (<font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">X</font>)</span>)</span>)</span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b2">a</font></span>)</span>,<span class="p1">(<span class="default"><font color="Maroon" title="c3">R</font> <span title="MSAFREE4:func.7" data-link="141.html#ELM16700">.</span> <span class="p2">(<span class="default"><span title="MSUALG_1:func.2" data-link="5762.html#ELM17058">the_result_sort_of</span> <font color="Olive" title="b1">o</font></span>)</span></span>)</span>) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  NFAlgebra R ->  strict   non-empty  X,S -terms  ;
+</td><td><span data-href='msafree4.html#FC19'>msafree4</span></td></tr>
+<tr><td>
+cluster  NFAlgebra R ->  strict   non-empty   all_vars_including   inheriting_operations   free_in_itself  ;
+</td><td><span data-href='msafree4.html#FC20'>msafree4</span></td></tr>
+<tr><td>
+cluster  NFAlgebra R ->  struct-invariant  ;
+</td><td><span data-href='msafree5.html#FC23'>msafree5</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_product_of</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_product_of</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='1535.html#ELM3771'>is_product_of</span> [<span data-href='cat_8.html#R1'>cat_8</span>]</li>
+<li><span data-link='1535.html#ELM3772'>is_product_of</span> [<span data-href='cat_8.html#R2'>cat_8</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM3771'>
+<h2>1.   <span data-link='1535.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='cat_8.html#R1'>cat_8</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">C</font> be   <span title="CAT_6:NM.2" data-link="405.html#ELM3672">category</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">a</font>, <font color="Maroon" title="c3">b</font>, <font color="Maroon" title="c4">c</font> be   <span title="CAT_6:NM.3" data-link="402.html#ELM3673">Object</span> of <font color="Maroon" title="c1">C</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">p1</font> be    <span title="CAT_7:mode.1" data-link="403.html#ELM3735">Morphism</span> of <font color="Maroon" title="c4">c</font>,<font color="Maroon" title="c2">a</font>;<br><span class="kw">assume </span><a name="E1:56"></a>
+ <span title="CAT_7:func.1" data-link="1433.html#ELM3737">Hom</span> (<font color="Maroon" title="c4">c</font>,<font color="Maroon" title="c2">a</font>) <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span> 
+ ;<br><span class="kw">let </span><font color="Maroon" title="c6">p2</font> be    <span title="CAT_7:mode.1" data-link="403.html#ELM3735">Morphism</span> of <font color="Maroon" title="c4">c</font>,<font color="Maroon" title="c3">b</font>;<br><span class="kw">assume </span><a name="E2:56"></a>
+ <span title="CAT_7:func.1" data-link="1433.html#ELM3737">Hom</span> (<font color="Maroon" title="c4">c</font>,<font color="Maroon" title="c3">b</font>) <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span> 
+ ;<br><div about="#D30" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c4">c</font>,<font color="Maroon" title="c5">p1</font>,<font color="Maroon" title="c6">p2</font> <span title="CAT_8:pred.1" data-link="1535.html#ELM3771">is_product_of</span> <font color="Maroon" title="c2">a</font>,<font color="Maroon" title="c3">b</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E30">Def10</font></span>: <a name="D10"><span class="comment"><font color="firebrick">:: CAT_8:def 10</font></span><br></a> for <font color="Olive" title="b1">c1</font> being   <span title="CAT_6:NM.3" data-link="402.html#ELM3673">Object</span> of <font color="Maroon" title="c1">C</font><br>  for <font color="Olive" title="b2">q1</font> being    <span title="CAT_7:mode.1" data-link="403.html#ELM3735">Morphism</span> of <font color="Olive" title="b1">c1</font>,<font color="Maroon" title="c2">a</font><br>  for <font color="Olive" title="b3">q2</font> being    <span title="CAT_7:mode.1" data-link="403.html#ELM3735">Morphism</span> of <font color="Olive" title="b1">c1</font>,<font color="Maroon" title="c3">b</font>  st  <span title="CAT_7:func.1" data-link="1433.html#ELM3737">Hom</span> (<font color="Olive" title="b1">c1</font>,<font color="Maroon" title="c2">a</font>) <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span>  &amp;  <span title="CAT_7:func.1" data-link="1433.html#ELM3737">Hom</span> (<font color="Olive" title="b1">c1</font>,<font color="Maroon" title="c3">b</font>) <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span>  holds <br>(  <span title="CAT_7:func.1" data-link="1433.html#ELM3737">Hom</span> (<font color="Olive" title="b1">c1</font>,<font color="Maroon" title="c4">c</font>) <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span>  &amp;  ex <font color="Olive" title="b4">h</font> being    <span title="CAT_7:mode.1" data-link="403.html#ELM3735">Morphism</span> of <font color="Olive" title="b1">c1</font>,<font color="Maroon" title="c4">c</font> st <br>( <font color="Maroon" title="c5">p1</font> <span title="CAT_7:func.4" data-link="47.html#ELM3740">*</span> <font color="Olive" title="b4">h</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b2">q1</font> &amp; <font color="Maroon" title="c6">p2</font> <span title="CAT_7:func.4" data-link="47.html#ELM3740">*</span> <font color="Olive" title="b4">h</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b3">q2</font> &amp; (  for <font color="Olive" title="b5">h1</font> being    <span title="CAT_7:mode.1" data-link="403.html#ELM3735">Morphism</span> of <font color="Olive" title="b1">c1</font>,<font color="Maroon" title="c4">c</font>  st <font color="Maroon" title="c5">p1</font> <span title="CAT_7:func.4" data-link="47.html#ELM3740">*</span> <font color="Olive" title="b5">h1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b2">q1</font> &amp; <font color="Maroon" title="c6">p2</font> <span title="CAT_7:func.4" data-link="47.html#ELM3740">*</span> <font color="Olive" title="b5">h1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b3">q2</font> holds <br><font color="Olive" title="b4">h</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b5">h1</font> ) ) );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM3772'>
+<h2>2.   <span data-link='1535.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='cat_8.html#R2'>cat_8</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">C1</font>, <font color="Maroon" title="c2">C2</font>, <font color="Maroon" title="c3">D</font> be   <span title="CAT_6:NM.2" data-link="405.html#ELM3672">category</span>;<br><span class="kw">let </span><font color="Maroon" title="c4">P1</font> be   <span title="CAT_6:NM.4" data-link="1432.html#ELM3674">Functor</span> of <font color="Maroon" title="c3">D</font>,<font color="Maroon" title="c1">C1</font>;<br><span class="kw">assume </span><a name="E1:69"></a>
+<font color="Maroon" title="c4">P1</font> is  <span title="CAT_6:attr.16" data-link="1521.html#ELM3707">covariant</span> 
+ ;<br><span class="kw">let </span><font color="Maroon" title="c5">P2</font> be   <span title="CAT_6:NM.4" data-link="1432.html#ELM3674">Functor</span> of <font color="Maroon" title="c3">D</font>,<font color="Maroon" title="c2">C2</font>;<br><span class="kw">assume </span><a name="E2:69"></a>
+<font color="Maroon" title="c5">P2</font> is  <span title="CAT_6:attr.16" data-link="1521.html#ELM3707">covariant</span> 
+ ;<br><div about="#D37" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c3">D</font>,<font color="Maroon" title="c4">P1</font>,<font color="Maroon" title="c5">P2</font> <span title="CAT_8:pred.2" data-link="1535.html#ELM3772">is_product_of</span> <font color="Maroon" title="c1">C1</font>,<font color="Maroon" title="c2">C2</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E37">Def17</font></span>: <a name="D17"><span class="comment"><font color="firebrick">:: CAT_8:def 17</font></span><br></a> for <font color="Olive" title="b1">D1</font> being   <span title="CAT_6:NM.2" data-link="405.html#ELM3672">category</span><br>  for <font color="Olive" title="b2">G1</font> being   <span title="CAT_6:NM.4" data-link="1432.html#ELM3674">Functor</span> of <font color="Olive" title="b1">D1</font>,<font color="Maroon" title="c1">C1</font><br>  for <font color="Olive" title="b3">G2</font> being   <span title="CAT_6:NM.4" data-link="1432.html#ELM3674">Functor</span> of <font color="Olive" title="b1">D1</font>,<font color="Maroon" title="c2">C2</font>  st <font color="Olive" title="b2">G1</font> is  <span title="CAT_6:attr.16" data-link="1521.html#ELM3707">covariant</span>  &amp; <font color="Olive" title="b3">G2</font> is  <span title="CAT_6:attr.16" data-link="1521.html#ELM3707">covariant</span>  holds <br> ex <font color="Olive" title="b4">H</font> being   <span title="CAT_6:NM.4" data-link="1432.html#ELM3674">Functor</span> of <font color="Olive" title="b1">D1</font>,<font color="Maroon" title="c3">D</font> st <br>( <font color="Olive" title="b4">H</font> is  <span title="CAT_6:attr.16" data-link="1521.html#ELM3707">covariant</span>  &amp; <font color="Maroon" title="c4">P1</font> <span title="CAT_6:func.11" data-link="615.html#ELM3685">(*)</span> <font color="Olive" title="b4">H</font> <span title="RELSET_1:pred.2" data-link="1122.html#ELM22505">=</span> <font color="Olive" title="b2">G1</font> &amp; <font color="Maroon" title="c5">P2</font> <span title="CAT_6:func.11" data-link="615.html#ELM3685">(*)</span> <font color="Olive" title="b4">H</font> <span title="RELSET_1:pred.2" data-link="1122.html#ELM22505">=</span> <font color="Olive" title="b3">G2</font> &amp; (  for <font color="Olive" title="b5">H1</font> being   <span title="CAT_6:NM.4" data-link="1432.html#ELM3674">Functor</span> of <font color="Olive" title="b1">D1</font>,<font color="Maroon" title="c3">D</font>  st <font color="Olive" title="b5">H1</font> is  <span title="CAT_6:attr.16" data-link="1521.html#ELM3707">covariant</span>  &amp; <font color="Maroon" title="c4">P1</font> <span title="CAT_6:func.11" data-link="615.html#ELM3685">(*)</span> <font color="Olive" title="b5">H1</font> <span title="RELSET_1:pred.2" data-link="1122.html#ELM22505">=</span> <font color="Olive" title="b2">G1</font> &amp; <font color="Maroon" title="c5">P2</font> <span title="CAT_6:func.11" data-link="615.html#ELM3685">(*)</span> <font color="Olive" title="b5">H1</font> <span title="RELSET_1:pred.2" data-link="1122.html#ELM22505">=</span> <font color="Olive" title="b3">G2</font> holds <br><font color="Olive" title="b4">H</font> <span title="RELSET_1:pred.2" data-link="1122.html#ELM22505">=</span> <font color="Olive" title="b5">H1</font> ) );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>-consequent-context-sequence</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr -consequent-context-sequence</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='5722.html#ELM16828'>-consequent-context-sequence</span> [<span data-href='msafree5.html#V21'>msafree5</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM16828'>
+<h2>1.   <span data-link='5722.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='msafree5.html#V21'>msafree5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   non  <span title="STRUCT_0:attr.11" data-link="17.html#ELM25778">void</span>   <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font> be  <span title="RELAT_1:attr.2" data-link="3057.html#ELM22398">V5</span>() <span title="PBOOLE:NM.1" data-link="4273.html#ELM19812">ManySortedSet</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">B</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">V1</font>, <font color="Maroon" title="c5">V2</font> be  <font color="Maroon" title="c3">B</font> <span title="MSAFREE5:attr.17" data-link="5720.html#ELM16824">-sorts</span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="CARD_3:func.3" data-link="752.html#ELM3293">Union</span> <font color="Maroon" title="c2">X</font>;<br><div about="#D107" typeof="oo:Definition">
+<a name="V20"><span class="kw">attr</span> </a><font color="Maroon" title="c5">V2</font> is <font color="Maroon" title="c4">V1</font> <span title="MSAFREE5:attr.20" data-link="5714.html#ELM16827">-omitting</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E107">OMIT2</font></span>: <a name="D39"><span class="comment"><font color="firebrick">:: MSAFREE5:def 39</font></span><br></a> <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <font color="Maroon" title="c4">V1</font> <span title="SUBSET_1:pred.1" data-link="1173.html#ELM25865">misses</span>  <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <font color="Maroon" title="c5">V2</font>;<br>
+</div>
+<span class="kw">let </span><font color="Maroon" title="c6">D</font> be  <font color="Maroon" title="c3">B</font> <span title="MSAFREE5:attr.18" data-link="5720.html#ELM16825">-sorts</span>  <span title="ABCMIZ_1:NM.2" data-link="27.html#ELM55">FinSequence</span> of <span class="p1">(<span class="default"><span title="MSAFREE3:func.1" data-link="5682.html#ELM16679">Free</span> (<font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">X</font>)</span>)</span>;<br><span class="kw">let </span><font color="Maroon" title="c7">F</font> be  <font color="Maroon" title="c5">V2</font> <span title="MSAFREE5:attr.19" data-link="5721.html#ELM16826">-context-sequence</span>  <span title="ABCMIZ_1:NM.2" data-link="27.html#ELM55">FinSequence</span> of <span class="p1">(<span class="default"><span title="MSAFREE3:func.1" data-link="5682.html#ELM16679">Free</span> (<font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">X</font>)</span>)</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V21"><span class="kw">attr</span> </a><font color="Maroon" title="c7">F</font> is <font color="Maroon" title="c4">V1</font>,<font color="Maroon" title="c5">V2</font>,<font color="Maroon" title="c6">D</font> <span title="MSAFREE5:attr.21" data-link="5722.html#ELM16828">-consequent-context-sequence</span> <span class="kw"> means </span><a name="D40"><span class="comment"><font color="firebrick">:: MSAFREE5:def 40</font></span><br></a> for <font color="Olive" title="b1">i</font>, <font color="Olive" title="b2">j</font> being    <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <font color="Maroon" title="c3">B</font>  st <font color="Olive" title="b1">i</font> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> 1 <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b2">j</font> holds <br><span class="p1">(<span class="default"><font color="Maroon" title="c7">F</font> <span title="MSAFREE5:func.28" data-link="141.html#ELM16807">.</span> <font color="Olive" title="b2">j</font></span>)</span> <span title="MSAFREE5:func.18" data-link="5704.html#ELM16797">-sub</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c4">V1</font> <span title="MSAFREE5:func.26" data-link="141.html#ELM16805">.</span> <font color="Olive" title="b2">j</font></span>)</span> <span title="MSAFREE5:func.6" data-link="63.html#ELM16784">-term</span></span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Maroon" title="c7">F</font> <span title="MSAFREE5:func.28" data-link="141.html#ELM16807">.</span> <font color="Olive" title="b1">i</font></span>)</span> <span title="MSAFREE5:func.18" data-link="5704.html#ELM16797">-sub</span> <span class="p1">(<span class="default"><font color="Maroon" title="c6">D</font> <span title="MSAFREE5:func.27" data-link="141.html#ELM16806">.</span> <font color="Olive" title="b1">i</font></span>)</span>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

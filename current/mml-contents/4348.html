@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>lower_sum</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func lower_sum</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='4348.html#ELM12624'>lower_sum</span> [<span data-href='integra1.html#K7'>integra1</span>]</li>
+<li><span data-link='4348.html#ELM12646'>lower_sum</span> [<span data-href='integra2.html#K4'>integra2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM12624'>
+<h2>1.   <span data-link='4348.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integra1.html#K7'>integra1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="MEASURE5:attr.2" data-link="5194.html#ELM15070">closed_interval</span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <font color="Maroon" title="c1">A</font>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">D</font> be    <span title="INTEGRA1:mode.1" data-link="4342.html#ELM12617">Division</span> of <font color="Maroon" title="c1">A</font>;<br><div about="#D0" typeof="oo:Definition">
+<a name="K6"><span class="kw">func</span> </a> <span title="INTEGRA1:func.6" data-link="4347.html#ELM12623">upper_sum</span> (<font color="Maroon" title="c2">f</font>,<font color="Maroon" title="c3">D</font>)<span class="kw"> -&gt; </span>  <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span><span class="kw"> equals </span><a name="D8"><span class="comment"><font color="firebrick">:: INTEGRA1:def 8</font></span><br></a> <span title="RVSUM_1:func.18" data-link="252.html#ELM23921">Sum</span> <span class="p1">(<span class="default"><span title="INTEGRA1:func.4" data-link="4345.html#ELM12621">upper_volume</span> (<font color="Maroon" title="c2">f</font>,<font color="Maroon" title="c3">D</font>)</span>)</span>;<br>
+</div>
+<span class="kw">correctness </span><br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K7"><span class="kw">func</span> </a> <span title="INTEGRA1:func.7" data-link="4348.html#ELM12624">lower_sum</span> (<font color="Maroon" title="c2">f</font>,<font color="Maroon" title="c3">D</font>)<span class="kw"> -&gt; </span>  <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span><span class="kw"> equals </span><a name="D9"><span class="comment"><font color="firebrick">:: INTEGRA1:def 9</font></span><br></a> <span title="RVSUM_1:func.18" data-link="252.html#ELM23921">Sum</span> <span class="p1">(<span class="default"><span title="INTEGRA1:func.5" data-link="4346.html#ELM12622">lower_volume</span> (<font color="Maroon" title="c2">f</font>,<font color="Maroon" title="c3">D</font>)</span>)</span>;<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12646'>
+<h2>2.   <span data-link='4348.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integra2.html#K4'>integra2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="MEASURE5:attr.2" data-link="5194.html#ELM15070">closed_interval</span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <font color="Maroon" title="c1">A</font>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">T</font> be   <span title="INTEGRA2:NM.1" data-link="4357.html#ELM12642">DivSequence</span> of <font color="Maroon" title="c1">A</font>;<br><div about="#D0" typeof="oo:Definition">
+<a name="K3"><span class="kw">func</span> </a> <span title="INTEGRA2:func.3" data-link="4347.html#ELM12645">upper_sum</span> (<font color="Maroon" title="c2">f</font>,<font color="Maroon" title="c3">T</font>)<span class="kw"> -&gt; </span>  <span title="SEQ_1:NM.1" data-link="7840.html#ELM24887">Real_Sequence</span><span class="kw"> means </span><a name="D2"><span class="comment"><font color="firebrick">:: INTEGRA2:def 2</font></span><br></a> for <font color="Olive" title="b1">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> holds  <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="INTEGRA1:func.6" data-link="4347.html#ELM12623">upper_sum</span> (<font color="Maroon" title="c2">f</font>,<span class="p1">(<span class="default"><font color="Maroon" title="c3">T</font> <span title="INTEGRA2:func.2" data-link="141.html#ELM12644">.</span> <font color="Olive" title="b1">i</font></span>)</span>);<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a> <span title="INTEGRA2:func.4" data-link="4348.html#ELM12646">lower_sum</span> (<font color="Maroon" title="c2">f</font>,<font color="Maroon" title="c3">T</font>)<span class="kw"> -&gt; </span>  <span title="SEQ_1:NM.1" data-link="7840.html#ELM24887">Real_Sequence</span><span class="kw"> means </span><a name="D3"><span class="comment"><font color="firebrick">:: INTEGRA2:def 3</font></span><br></a> for <font color="Olive" title="b1">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> holds  <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="INTEGRA1:func.7" data-link="4348.html#ELM12624">lower_sum</span> (<font color="Maroon" title="c2">f</font>,<span class="p1">(<span class="default"><font color="Maroon" title="c3">T</font> <span title="INTEGRA2:func.2" data-link="141.html#ELM12644">.</span> <font color="Olive" title="b1">i</font></span>)</span>);<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

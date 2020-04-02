@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Coordinate</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Coordinate</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='8989.html#ELM30617'>Coordinate</span> [<span data-href='zmatrlin.html#K12'>zmatrlin</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM30617'>
+<h2>1.   <span data-link='8989.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='zmatrlin.html#K12'>zmatrlin</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">V</font> be   <span title="VECTSP_7:attr.3" data-link="3058.html#ELM28628">free</span>  <span title="ZMODUL01:NM.1" data-link="9022.html#ELM30843">Z_Module</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">B</font> be   <span title="ZMODUL03:NM.1" data-link="1320.html#ELM30891">Basis</span> of <font color="Maroon" title="c1">V</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">u</font> be   <span title="VECTSP_1:NM.8" data-link="4832.html#ELM28505">Vector</span> of <font color="Maroon" title="c1">V</font>;<br><div about="#D57" typeof="oo:Definition" class="main-sentence">
+<a name="K12"><span class="kw">func</span> </a> <span title="ZMATRLIN:func.12" data-link="8989.html#ELM30617">Coordinate</span> (<font color="Maroon" title="c3">u</font>,<font color="Maroon" title="c2">B</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.6" data-link="3155.html#ELM25752">Function</span> of <font color="Maroon" title="c1">V</font>,<span title="INT_3:func.1" data-link="4294.html#ELM12468">INT.Ring</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E57">defCoord</font></span>: <a name="D11"><span class="comment"><font color="firebrick">:: ZMATRLIN:def 11</font></span><br></a>( (  for <font color="Olive" title="b1">v</font> being   <span title="VECTSP_1:NM.8" data-link="4832.html#ELM28505">Vector</span> of <font color="Maroon" title="c1">V</font>  ex <font color="Olive" title="b2">Lu</font> being    <span title="VECTSP_6:mode.2" data-link="7516.html#ELM28614">Linear_Combination</span> of <font color="Maroon" title="c2">B</font> st <br>( <font color="Olive" title="b1">v</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="VECTSP_6:func.4" data-link="252.html#ELM28618">Sum</span> <font color="Olive" title="b2">Lu</font> &amp; <span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">v</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b2">Lu</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Maroon" title="c3">u</font> ) ) &amp; (  for <font color="Olive" title="b1">v</font> being   <span title="VECTSP_1:NM.8" data-link="4832.html#ELM28505">Vector</span> of <font color="Maroon" title="c1">V</font><br>  for <font color="Olive" title="b2">Lv</font> being    <span title="VECTSP_6:mode.2" data-link="7516.html#ELM28614">Linear_Combination</span> of <font color="Maroon" title="c2">B</font>  st <font color="Olive" title="b1">v</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="VECTSP_6:func.4" data-link="252.html#ELM28618">Sum</span> <font color="Olive" title="b2">Lv</font> holds <br><span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">v</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b2">Lv</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Maroon" title="c3">u</font> ) &amp; (  for <font color="Olive" title="b1">v1</font>, <font color="Olive" title="b2">v2</font> being   <span title="VECTSP_1:NM.8" data-link="4832.html#ELM28505">Vector</span> of <font color="Maroon" title="c1">V</font> holds  <span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">v1</font> <span title="RLVECT_1:func.3" data-link="229.html#ELM23291">+</span> <font color="Olive" title="b2">v2</font></span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">v1</font></span>)</span> <span title="RLVECT_1:func.3" data-link="229.html#ELM23291">+</span> <span class="p1">(<span class="default"><span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b2">v2</font></span>)</span> ) &amp; (  for <font color="Olive" title="b1">v</font> being   <span title="VECTSP_1:NM.8" data-link="4832.html#ELM28505">Vector</span> of <font color="Maroon" title="c1">V</font><br>  for <font color="Olive" title="b2">r</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <span title="INT_3:func.1" data-link="4294.html#ELM12468">INT.Ring</span> holds  <span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b2">r</font> <span title="VECTSP_1:func.3" data-link="47.html#ELM28511">*</span> <font color="Olive" title="b1">v</font></span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b2">r</font> <span title="GROUP_1:func.8" data-link="47.html#ELM10992">*</span> <span class="p1">(<span class="default"><span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">v</font></span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

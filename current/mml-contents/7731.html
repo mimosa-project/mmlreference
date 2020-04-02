@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>ExitsAtWhile>0</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func ExitsAtWhile>0</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='7731.html#ELM24275'>ExitsAtWhile>0</span> [<span data-href='scmfsa9a.html#K2'>scmfsa9a</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM24275'>
+<h2>1.   <span data-link='7731.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='scmfsa9a.html#K2'>scmfsa9a</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c3">p</font> be   <span title="COMPOS_1:NM.2" data-link="1932.html#ELM5021">Instruction-Sequence</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span>;<br><span class="kw">let </span><font color="Maroon" title="c4">s</font> be   <span title="MEMSTR_0:NM.2" data-link="1714.html#ELM15430">State</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span>;<br><span class="kw">let </span><font color="Maroon" title="c5">a</font> be   <span title="SCMFSA_M:NV.2" data-link="7773.html#ELM24453">read-write</span>  <span title="SCMFSA_2:NM.1" data-link="7743.html#ELM24345">Int-Location</span>;<br><span class="kw">let </span><font color="Maroon" title="c6">I</font> be   <span title="AMISTD_1:attr.5" data-link="511.html#ELM1250">really-closed</span>  <span title="COMPOS_1:NM.5" data-link="1935.html#ELM5024">MacroInstruction</span> of  <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span> ;<br><span class="kw">assume </span><span class="kw">that </span><br><a name="E1:41"></a><span class="lab"><font color="Green" title="E32">A1</font></span>: 
+(  <span title="SCMFSA9A:pred.3" data-link="7727.html#ELM24271">ProperBodyWhile&gt;0</span> <font color="Maroon" title="c5">a</font>,<font color="Maroon" title="c6">I</font>,<font color="Maroon" title="c4">s</font>,<font color="Maroon" title="c3">p</font> or <font color="Maroon" title="c6">I</font> is  <span title="AMISTD_1:attr.6" data-link="512.html#ELM1251">parahalting</span>  )
+ <span class="kw">and </span><br><a name="E2:41"></a><span class="lab"><font color="Green" title="E33">A2</font></span>: 
+ <span title="SCMFSA9A:pred.4" data-link="7728.html#ELM24272">WithVariantWhile&gt;0</span> <font color="Maroon" title="c5">a</font>,<font color="Maroon" title="c6">I</font>,<font color="Maroon" title="c4">s</font>,<font color="Maroon" title="c3">p</font>
+ ;<br><div about="#D32" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="SCMFSA9A:func.2" data-link="7731.html#ELM24275">ExitsAtWhile&gt;0</span> (<font color="Maroon" title="c3">a</font>,<font color="Maroon" title="c4">I</font>,<font color="Maroon" title="c1">p</font>,<font color="Maroon" title="c2">s</font>)<span class="kw"> -&gt; </span>  <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E32">Def6</font></span>: <a name="D6"><span class="comment"><font color="firebrick">:: SCMFSA9A:def 6</font></span><br></a> ex <font color="Olive" title="b1">k</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> st <br>( <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">k</font> &amp; <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="SCMFSA_9:func.2" data-link="7755.html#ELM24418">StepWhile&gt;0</span> (<font color="Maroon" title="c3">a</font>,<font color="Maroon" title="c4">I</font>,<font color="Maroon" title="c1">p</font>,<font color="Maroon" title="c2">s</font>)</span>)</span> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b1">k</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c3">a</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  &amp; (  for <font color="Olive" title="b2">i</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="SCMFSA_9:func.2" data-link="7755.html#ELM24418">StepWhile&gt;0</span> (<font color="Maroon" title="c3">a</font>,<font color="Maroon" title="c4">I</font>,<font color="Maroon" title="c1">p</font>,<font color="Maroon" title="c2">s</font>)</span>)</span> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b2">i</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c3">a</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  holds <br><font color="Olive" title="b1">k</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b2">i</font> ) &amp;  <span title="MEMSTR_0:func.6" data-link="5241.html#ELM15440">DataPart</span> <span class="p1">(<span class="default"><span title="EXTPRO_1:func.5" data-link="2534.html#ELM6614">Comput</span> (<span class="p2">(<span class="default"><font color="Maroon" title="c1">p</font> <span title="FUNCT_4:func.1" data-link="517.html#ELM8937">+*</span> <span class="p3">(<span class="default"><span title="SCMFSA_X:func.4" data-link="7775.html#ELM24470">while&gt;0</span> (<font color="Maroon" title="c3">a</font>,<font color="Maroon" title="c4">I</font>)</span>)</span></span>)</span>,<span class="p2">(<span class="default"><span title="MEMSTR_0:func.8" data-link="5243.html#ELM15442">Initialize</span> <font color="Maroon" title="c2">s</font></span>)</span>,<span class="p2">(<span class="default"><span title="EXTPRO_1:func.8" data-link="2535.html#ELM6617">LifeSpan</span> (<span class="p3">(<span class="default"><font color="Maroon" title="c1">p</font> <span title="FUNCT_4:func.1" data-link="517.html#ELM8937">+*</span> <span class="p4">(<span class="default"><span title="SCMFSA_X:func.4" data-link="7775.html#ELM24470">while&gt;0</span> (<font color="Maroon" title="c3">a</font>,<font color="Maroon" title="c4">I</font>)</span>)</span></span>)</span>,<span class="p3">(<span class="default"><span title="MEMSTR_0:func.8" data-link="5243.html#ELM15442">Initialize</span> <font color="Maroon" title="c2">s</font></span>)</span>)</span>)</span>)</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="MEMSTR_0:func.6" data-link="5241.html#ELM15440">DataPart</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="SCMFSA_9:func.2" data-link="7755.html#ELM24418">StepWhile&gt;0</span> (<font color="Maroon" title="c3">a</font>,<font color="Maroon" title="c4">I</font>,<font color="Maroon" title="c1">p</font>,<font color="Maroon" title="c2">s</font>)</span>)</span> <span title="NAT_1:func.8" data-link="141.html#ELM17455">.</span> <font color="Olive" title="b1">k</font></span>)</span> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,338 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>integral</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func integral</h1>
+<h2>List of Definitions (16)</h2>
+<ol>
+<li><span data-link='4318.html#ELM12540'>integral</span> [<span data-href='integr1c.html#K2'>integr1c</span>]</li>
+<li><span data-link='4318.html#ELM12541'>integral</span> [<span data-href='integr1c.html#K3'>integr1c</span>]</li>
+<li><span data-link='4318.html#ELM12570'>integral</span> [<span data-href='integr15.html#K10'>integr15</span>]</li>
+<li><span data-link='4318.html#ELM12571'>integral</span> [<span data-href='integr15.html#K11'>integr15</span>]</li>
+<li><span data-link='4318.html#ELM12572'>integral</span> [<span data-href='integr15.html#K12'>integr15</span>]</li>
+<li><span data-link='4318.html#ELM12584'>integral</span> [<span data-href='integr16.html#K6'>integr16</span>]</li>
+<li><span data-link='4318.html#ELM12585'>integral</span> [<span data-href='integr16.html#K7'>integr16</span>]</li>
+<li><span data-link='4318.html#ELM12586'>integral</span> [<span data-href='integr16.html#K8'>integr16</span>]</li>
+<li><span data-link='4318.html#ELM12598'>integral</span> [<span data-href='integr18.html#K4'>integr18</span>]</li>
+<li><span data-link='4318.html#ELM12599'>integral</span> [<span data-href='integr18.html#K5'>integr18</span>]</li>
+<li><span data-link='4318.html#ELM12600'>integral</span> [<span data-href='integr18.html#K6'>integr18</span>]</li>
+<li><span data-link='4318.html#ELM12613'>integral</span> [<span data-href='integr22.html#K5'>integr22</span>]</li>
+<li><span data-link='4318.html#ELM12629'>integral</span> [<span data-href='integra1.html#K12'>integra1</span>]</li>
+<li><span data-link='4318.html#ELM12655'>integral</span> [<span data-href='integra5.html#K2'>integra5</span>]</li>
+<li><span data-link='4318.html#ELM12657'>integral</span> [<span data-href='integra5.html#K4'>integra5</span>]</li>
+<li><span data-link='4318.html#ELM15576'>integral</span> [<span data-href='mesfunc3.html#K1'>mesfunc3</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM12540'>
+<h2>1.   <span data-link='4318.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integr1c.html#K2'>integr1c</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">a</font>, <font color="Maroon" title="c2">b</font> be   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">x</font>, <font color="Maroon" title="c4">y</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c5">Z</font> be   <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c6">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.2" data-link="5210.html#ELM18625">COMPLEX</span>,<span title="NUMBERS:func.2" data-link="5210.html#ELM18625">COMPLEX</span>;<br><div about="#D2" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="INTEGR1C:func.2" data-link="4318.html#ELM12540">integral</span> (<font color="Maroon" title="c6">f</font>,<font color="Maroon" title="c3">x</font>,<font color="Maroon" title="c4">y</font>,<font color="Maroon" title="c1">a</font>,<font color="Maroon" title="c2">b</font>,<font color="Maroon" title="c5">Z</font>)<span class="kw"> -&gt; </span>  <span title="XCMPLX_0:NM.1" data-link="8851.html#ELM29685">Complex</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E2">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: INTEGR1C:def 2</font></span><br></a> ex <font color="Olive" title="b1">u0</font>, <font color="Olive" title="b2">v0</font> being   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span> st <br>( <font color="Olive" title="b1">u0</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="COMSEQ_3:func.5" data-link="1903.html#ELM5251">Re</span> <font color="Maroon" title="c6">f</font></span>)</span> <span title="PARTFUN1:func.1" data-link="47.html#ELM19578">*</span> <span title="INTEGR1C:func.1" data-link="4317.html#ELM12539">R2-to-C</span></span>)</span> <span title="FUNCT_1:NK.3" data-link="47.html#ELM8820">*</span> <span class="p1"><span title="FUNCT_3:func.13" data-link="1450.html#ELM8927">&lt;:</span><span class="default"><font color="Maroon" title="c3">x</font>,<font color="Maroon" title="c4">y</font></span><span title="FUNCT_3:func.13" data-link="1450.html#ELM8927">:&gt;</span></span> &amp; <font color="Olive" title="b2">v0</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="COMSEQ_3:func.6" data-link="1904.html#ELM5252">Im</span> <font color="Maroon" title="c6">f</font></span>)</span> <span title="PARTFUN1:func.1" data-link="47.html#ELM19578">*</span> <span title="INTEGR1C:func.1" data-link="4317.html#ELM12539">R2-to-C</span></span>)</span> <span title="FUNCT_1:NK.3" data-link="47.html#ELM8820">*</span> <span class="p1"><span title="FUNCT_3:func.13" data-link="1450.html#ELM8927">&lt;:</span><span class="default"><font color="Maroon" title="c3">x</font>,<font color="Maroon" title="c4">y</font></span><span title="FUNCT_3:func.13" data-link="1450.html#ELM8927">:&gt;</span></span> &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span title="INTEGRA5:func.4" data-link="4318.html#ELM12657">integral</span> (<span class="p2">(<span class="default"><span class="p3">(<span class="default"><font color="Olive" title="b1">u0</font> <span title="VALUED_1:func.20" data-link="728.html#ELM28007">(#)</span> <span class="p4">(<span class="default"><font color="Maroon" title="c3">x</font> <span title="FDIFF_1:func.2" data-link="1608.html#ELM6748">`|</span> <font color="Maroon" title="c5">Z</font></span>)</span></span>)</span> <span title="VALUED_1:func.47" data-link="327.html#ELM28035">-</span> <span class="p3">(<span class="default"><font color="Olive" title="b2">v0</font> <span title="VALUED_1:func.20" data-link="728.html#ELM28007">(#)</span> <span class="p4">(<span class="default"><font color="Maroon" title="c4">y</font> <span title="FDIFF_1:func.2" data-link="1608.html#ELM6748">`|</span> <font color="Maroon" title="c5">Z</font></span>)</span></span>)</span></span>)</span>,<font color="Maroon" title="c1">a</font>,<font color="Maroon" title="c2">b</font>)</span>)</span> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="INTEGRA5:func.4" data-link="4318.html#ELM12657">integral</span> (<span class="p3">(<span class="default"><span class="p4">(<span class="default"><font color="Olive" title="b2">v0</font> <span title="VALUED_1:func.20" data-link="728.html#ELM28007">(#)</span> <span class="p5">(<span class="default"><font color="Maroon" title="c3">x</font> <span title="FDIFF_1:func.2" data-link="1608.html#ELM6748">`|</span> <font color="Maroon" title="c5">Z</font></span>)</span></span>)</span> <span title="VALUED_1:func.3" data-link="229.html#ELM27989">+</span> <span class="p4">(<span class="default"><font color="Olive" title="b1">u0</font> <span title="VALUED_1:func.20" data-link="728.html#ELM28007">(#)</span> <span class="p5">(<span class="default"><font color="Maroon" title="c4">y</font> <span title="FDIFF_1:func.2" data-link="1608.html#ELM6748">`|</span> <font color="Maroon" title="c5">Z</font></span>)</span></span>)</span></span>)</span>,<font color="Maroon" title="c1">a</font>,<font color="Maroon" title="c2">b</font>)</span>)</span> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <span title="COMPLEX1:func.7" data-link="1907.html#ELM4937">&lt;i&gt;</span></span>)</span> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12541'>
+<h2>2.   <span data-link='4318.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integr1c.html#K3'>integr1c</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.2" data-link="5210.html#ELM18625">COMPLEX</span>,<span title="NUMBERS:func.2" data-link="5210.html#ELM18625">COMPLEX</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">C</font> be   <span title="INTEGR1C:NM.1" data-link="4316.html#ELM12538">C1-curve</span>;<br><span class="kw">assume </span><a name="E1:8"></a><span class="lab"><font color="Green" title="E6">A1</font></span>: 
+ <span title="RELSET_1:func.2" data-link="3141.html#ELM22509">rng</span> <font color="Maroon" title="c2">C</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <font color="Maroon" title="c1">f</font>
+ ;<br><div about="#D6" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="INTEGR1C:func.3" data-link="4318.html#ELM12541">integral</span> (<font color="Maroon" title="c1">f</font>,<font color="Maroon" title="c2">C</font>)<span class="kw"> -&gt; </span>  <span title="XCMPLX_0:NM.1" data-link="8851.html#ELM29685">Complex</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E6">Def4</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: INTEGR1C:def 4</font></span><br></a> ex <font color="Olive" title="b1">a</font>, <font color="Olive" title="b2">b</font> being   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span> ex <font color="Olive" title="b3">x</font>, <font color="Olive" title="b4">y</font> being   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span> ex <font color="Olive" title="b5">Z</font> being   <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span> st <br>( <font color="Olive" title="b1">a</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b2">b</font> &amp; <span class="p1"><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">[.</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font></span><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">.]</span></span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <font color="Maroon" title="c2">C</font> &amp; <span class="p1"><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">[.</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font></span><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">.]</span></span> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <font color="Olive" title="b3">x</font> &amp; <span class="p1"><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">[.</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font></span><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">.]</span></span> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <font color="Olive" title="b4">y</font> &amp; <font color="Olive" title="b5">Z</font> is  <span title="RCOMP_1:attr.3" data-link="1613.html#ELM22090">open</span>  &amp; <span class="p1"><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">[.</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font></span><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">.]</span></span> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span> <font color="Olive" title="b5">Z</font> &amp; <font color="Olive" title="b3">x</font> <span title="FDIFF_1:pred.2" data-link="1602.html#ELM6744">is_differentiable_on</span> <font color="Olive" title="b5">Z</font> &amp; <font color="Olive" title="b4">y</font> <span title="FDIFF_1:pred.2" data-link="1602.html#ELM6744">is_differentiable_on</span> <font color="Olive" title="b5">Z</font> &amp; <font color="Olive" title="b3">x</font> <span title="FDIFF_1:func.2" data-link="1608.html#ELM6748">`|</span> <font color="Olive" title="b5">Z</font> is  <span title="FCONT_1:attr.1" data-link="1206.html#ELM6709">continuous</span>  &amp; <font color="Olive" title="b4">y</font> <span title="FDIFF_1:func.2" data-link="1608.html#ELM6748">`|</span> <font color="Olive" title="b5">Z</font> is  <span title="FCONT_1:attr.1" data-link="1206.html#ELM6709">continuous</span>  &amp; <font color="Maroon" title="c2">C</font> <span title="RELSET_1:pred.2" data-link="1122.html#ELM22505">=</span> <span class="p1">(<span class="default"><font color="Olive" title="b3">x</font> <span title="VALUED_1:func.2" data-link="229.html#ELM27988">+</span> <span class="p2">(<span class="default"><span title="COMPLEX1:func.7" data-link="1907.html#ELM4937">&lt;i&gt;</span> <span title="VALUED_1:func.25" data-link="728.html#ELM28013">(#)</span> <font color="Olive" title="b4">y</font></span>)</span></span>)</span> <span title="PARTFUN1:func.2" data-link="909.html#ELM19579">|</span> <span class="p1"><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">[.</span><span class="default"><font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font></span><span title="RCOMP_1:func.1" data-link="3849.html#ELM22084">.]</span></span> &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="INTEGR1C:func.2" data-link="4318.html#ELM12540">integral</span> (<font color="Maroon" title="c1">f</font>,<font color="Olive" title="b3">x</font>,<font color="Olive" title="b4">y</font>,<font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font>,<font color="Olive" title="b5">Z</font>) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12570'>
+<h2>3.   <span data-link='4318.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integr15.html#K10'>integr15</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="MEASURE5:attr.2" data-link="5194.html#ELM15070">closed_interval</span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">f</font> be   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c2">A</font>,<span class="p1">(<span class="default"><span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c1">n</font></span>)</span>;<br><div about="#D24" typeof="oo:Definition" class="main-sentence">
+<a name="K10"><span class="kw">func</span> </a> <span title="INTEGR15:func.10" data-link="4318.html#ELM12570">integral</span> <font color="Maroon" title="c3">f</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of  <span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c1">n</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E24">Def14</font></span>: <a name="D14"><span class="comment"><font color="firebrick">:: INTEGR15:def 14</font></span><br></a>(  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="FINSEQ_1:func.2" data-link="2722.html#ELM7094">Seg</span> <font color="Maroon" title="c1">n</font> &amp; (  for <font color="Olive" title="b1">i</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>   st <font color="Olive" title="b1">i</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.2" data-link="2722.html#ELM7094">Seg</span> <font color="Maroon" title="c1">n</font> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="INTEGRA1:func.12" data-link="4318.html#ELM12629">integral</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="PDIFF_1:func.1" data-link="1348.html#ELM20065">proj</span> (<font color="Olive" title="b1">i</font>,<font color="Maroon" title="c1">n</font>)</span>)</span> <span title="PARTFUN1:func.1" data-link="47.html#ELM19578">*</span> <font color="Maroon" title="c3">f</font></span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12571'>
+<h2>4.   <span data-link='4318.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integr15.html#K11'>integr15</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="MEASURE5:attr.2" data-link="5194.html#ELM15070">closed_interval</span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>,<span class="p1">(<span class="default"><span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c1">n</font></span>)</span>;<br><div about="#D26" typeof="oo:Definition" class="main-sentence">
+<a name="K11"><span class="kw">func</span> </a> <span title="INTEGR15:func.11" data-link="4318.html#ELM12571">integral</span> (<font color="Maroon" title="c3">f</font>,<font color="Maroon" title="c2">A</font>)<span class="kw"> -&gt; </span>   <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of  <span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c1">n</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E26">Def17</font></span>: <a name="D17"><span class="comment"><font color="firebrick">:: INTEGR15:def 17</font></span><br></a>(  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="FINSEQ_1:func.2" data-link="2722.html#ELM7094">Seg</span> <font color="Maroon" title="c1">n</font> &amp; (  for <font color="Olive" title="b1">i</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>   st <font color="Olive" title="b1">i</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.2" data-link="2722.html#ELM7094">Seg</span> <font color="Maroon" title="c1">n</font> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="INTEGRA5:func.2" data-link="4318.html#ELM12655">integral</span> (<span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="PDIFF_1:func.1" data-link="1348.html#ELM20065">proj</span> (<font color="Olive" title="b1">i</font>,<font color="Maroon" title="c1">n</font>)</span>)</span> <span title="PARTFUN1:func.1" data-link="47.html#ELM19578">*</span> <font color="Maroon" title="c3">f</font></span>)</span>,<font color="Maroon" title="c2">A</font>) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12572'>
+<h2>5.   <span data-link='4318.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integr15.html#K12'>integr15</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">a</font>, <font color="Maroon" title="c2">b</font> be   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">n</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> ;<br><span class="kw">let </span><font color="Maroon" title="c4">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>,<span class="p1">(<span class="default"><span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c3">n</font></span>)</span>;<br><div about="#D27" typeof="oo:Definition" class="main-sentence">
+<a name="K12"><span class="kw">func</span> </a> <span title="INTEGR15:func.12" data-link="4318.html#ELM12572">integral</span> (<font color="Maroon" title="c4">f</font>,<font color="Maroon" title="c1">a</font>,<font color="Maroon" title="c2">b</font>)<span class="kw"> -&gt; </span>   <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of  <span title="EUCLID:func.1" data-link="1653.html#ELM6324">REAL</span> <font color="Maroon" title="c3">n</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E27">Def18</font></span>: <a name="D18"><span class="comment"><font color="firebrick">:: INTEGR15:def 18</font></span><br></a>(  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="FINSEQ_1:func.2" data-link="2722.html#ELM7094">Seg</span> <font color="Maroon" title="c3">n</font> &amp; (  for <font color="Olive" title="b1">i</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>   st <font color="Olive" title="b1">i</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.2" data-link="2722.html#ELM7094">Seg</span> <font color="Maroon" title="c3">n</font> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">i</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="INTEGRA5:func.4" data-link="4318.html#ELM12657">integral</span> (<span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="PDIFF_1:func.1" data-link="1348.html#ELM20065">proj</span> (<font color="Olive" title="b1">i</font>,<font color="Maroon" title="c3">n</font>)</span>)</span> <span title="PARTFUN1:func.1" data-link="47.html#ELM19578">*</span> <font color="Maroon" title="c4">f</font></span>)</span>,<font color="Maroon" title="c1">a</font>,<font color="Maroon" title="c2">b</font>) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12584'>
+<h2>6.   <span data-link='4318.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integr16.html#K6'>integr16</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="MEASURE5:attr.2" data-link="5194.html#ELM15070">closed_interval</span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c1">A</font>,<span title="NUMBERS:func.2" data-link="5210.html#ELM18625">COMPLEX</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K6"><span class="kw">func</span> </a> <span title="INTEGR16:func.6" data-link="4318.html#ELM12584">integral</span> <font color="Maroon" title="c2">f</font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:func.2" data-link="5210.html#ELM18625">COMPLEX</span> <span class="kw"> equals </span><a name="D6"><span class="comment"><font color="firebrick">:: INTEGR16:def 6</font></span><br></a><span class="p1">(<span class="default"><span title="INTEGRA1:func.12" data-link="4318.html#ELM12629">integral</span> <span class="p2">(<span class="default"><span title="COMSEQ_3:func.5" data-link="1903.html#ELM5251">Re</span> <font color="Maroon" title="c2">f</font></span>)</span></span>)</span> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="INTEGRA1:func.12" data-link="4318.html#ELM12629">integral</span> <span class="p3">(<span class="default"><span title="COMSEQ_3:func.6" data-link="1904.html#ELM5252">Im</span> <font color="Maroon" title="c2">f</font></span>)</span></span>)</span> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <span title="COMPLEX1:func.7" data-link="1907.html#ELM4937">&lt;i&gt;</span></span>)</span>;<br>
+</div>
+<span class="kw">correctness </span><span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('xcmplx_0/D2')" onmouseout="rh()" data-href="xcmplx_0.html#D2">XCMPLX_0:def 2</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12585'>
+<h2>7.   <span data-link='4318.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integr16.html#K7'>integr16</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="MEASURE5:attr.2" data-link="5194.html#ELM15070">closed_interval</span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>,<span title="NUMBERS:func.2" data-link="5210.html#ELM18625">COMPLEX</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K7"><span class="kw">func</span> </a> <span title="INTEGR16:func.7" data-link="4318.html#ELM12585">integral</span> (<font color="Maroon" title="c2">f</font>,<font color="Maroon" title="c1">A</font>)<span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:func.2" data-link="5210.html#ELM18625">COMPLEX</span> <span class="kw"> equals </span><a name="D8"><span class="comment"><font color="firebrick">:: INTEGR16:def 8</font></span><br></a><span class="p1">(<span class="default"><span title="INTEGRA5:func.2" data-link="4318.html#ELM12655">integral</span> (<span class="p2">(<span class="default"><span title="COMSEQ_3:func.5" data-link="1903.html#ELM5251">Re</span> <font color="Maroon" title="c2">f</font></span>)</span>,<font color="Maroon" title="c1">A</font>)</span>)</span> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="INTEGRA5:func.2" data-link="4318.html#ELM12655">integral</span> (<span class="p3">(<span class="default"><span title="COMSEQ_3:func.6" data-link="1904.html#ELM5252">Im</span> <font color="Maroon" title="c2">f</font></span>)</span>,<font color="Maroon" title="c1">A</font>)</span>)</span> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <span title="COMPLEX1:func.7" data-link="1907.html#ELM4937">&lt;i&gt;</span></span>)</span>;<br>
+</div>
+<span class="kw">correctness </span><span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('xcmplx_0/D2')" onmouseout="rh()" data-href="xcmplx_0.html#D2">XCMPLX_0:def 2</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12586'>
+<h2>8.   <span data-link='4318.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integr16.html#K8'>integr16</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">a</font>, <font color="Maroon" title="c2">b</font> be   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>,<span title="NUMBERS:func.2" data-link="5210.html#ELM18625">COMPLEX</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K8"><span class="kw">func</span> </a> <span title="INTEGR16:func.8" data-link="4318.html#ELM12586">integral</span> (<font color="Maroon" title="c3">f</font>,<font color="Maroon" title="c1">a</font>,<font color="Maroon" title="c2">b</font>)<span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:func.2" data-link="5210.html#ELM18625">COMPLEX</span> <span class="kw"> equals </span><a name="D9"><span class="comment"><font color="firebrick">:: INTEGR16:def 9</font></span><br></a><span class="p1">(<span class="default"><span title="INTEGRA5:func.4" data-link="4318.html#ELM12657">integral</span> (<span class="p2">(<span class="default"><span title="COMSEQ_3:func.5" data-link="1903.html#ELM5251">Re</span> <font color="Maroon" title="c3">f</font></span>)</span>,<font color="Maroon" title="c1">a</font>,<font color="Maroon" title="c2">b</font>)</span>)</span> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="INTEGRA5:func.4" data-link="4318.html#ELM12657">integral</span> (<span class="p3">(<span class="default"><span title="COMSEQ_3:func.6" data-link="1904.html#ELM5252">Im</span> <font color="Maroon" title="c3">f</font></span>)</span>,<font color="Maroon" title="c1">a</font>,<font color="Maroon" title="c2">b</font>)</span>)</span> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <span title="COMPLEX1:func.7" data-link="1907.html#ELM4937">&lt;i&gt;</span></span>)</span>;<br>
+</div>
+<span class="kw">correctness </span><span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('xcmplx_0/D2')" onmouseout="rh()" data-href="xcmplx_0.html#D2">XCMPLX_0:def 2</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12598'>
+<h2>9.   <span data-link='4318.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integr18.html#K4'>integr18</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   <span title="NORMSP_1:NM.1" data-link="6167.html#ELM18544">RealNormSpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="MEASURE5:attr.2" data-link="5194.html#ELM15070">closed_interval</span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">f</font> be   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c2">A</font>, the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">X</font>;<br><span class="kw">assume </span><a name="E1:10"></a><span class="lab"><font color="Green" title="E6">A1</font></span>: 
+<font color="Maroon" title="c3">f</font> is  <span title="INTEGR18:attr.1" data-link="4335.html#ELM12601">integrable</span> 
+ ;<br><div about="#D6" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a> <span title="INTEGR18:func.4" data-link="4318.html#ELM12598">integral</span> <font color="Maroon" title="c3">f</font><span class="kw"> -&gt; </span>  <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <font color="Maroon" title="c1">X</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E6">Def6</font></span>: <a name="D6"><span class="comment"><font color="firebrick">:: INTEGR18:def 6</font></span><br></a> for <font color="Olive" title="b1">T</font> being   <span title="INTEGRA2:NM.1" data-link="4357.html#ELM12642">DivSequence</span> of <font color="Maroon" title="c2">A</font><br>  for <font color="Olive" title="b2">S</font> being    <span title="INTEGR18:mode.2" data-link="4333.html#ELM12594">middle_volume_Sequence</span> of <font color="Maroon" title="c3">f</font>,<font color="Olive" title="b1">T</font>  st  <span title="INTEGRA3:func.2" data-link="2005.html#ELM12650">delta</span> <font color="Olive" title="b1">T</font> is  <span title="COMSEQ_2:attr.2" data-link="1045.html#ELM5234">convergent</span>  &amp;  <span title="SEQ_2:func.1" data-link="1041.html#ELM24895">lim</span> <span class="p1">(<span class="default"><span title="INTEGRA3:func.2" data-link="2005.html#ELM12650">delta</span> <font color="Olive" title="b1">T</font></span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  holds <br>(  <span title="INTEGR18:func.3" data-link="4334.html#ELM12597">middle_sum</span> (<font color="Maroon" title="c3">f</font>,<font color="Olive" title="b2">S</font>) is  <span title="NORMSP_1:attr.3" data-link="1045.html#ELM18551">convergent</span>  &amp;  <span title="NORMSP_1:func.5" data-link="1041.html#ELM18549">lim</span> <span class="p1">(<span class="default"><span title="INTEGR18:func.3" data-link="4334.html#ELM12597">middle_sum</span> (<font color="Maroon" title="c3">f</font>,<font color="Olive" title="b2">S</font>)</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="kw">it</span> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E6">A1</font></span></span>;<br><span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12599'>
+<h2>10.   <span data-link='4318.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integr18.html#K5'>integr18</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">X</font> be   <span title="NORMSP_1:NM.1" data-link="6167.html#ELM18544">RealNormSpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="MEASURE5:attr.2" data-link="5194.html#ELM15070">closed_interval</span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c4">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>, the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c2">X</font>;<br><span class="kw">assume </span><a name="E1:16"></a><span class="lab"><font color="Green" title="E10">A1</font></span>: 
+<font color="Maroon" title="c3">A</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <font color="Maroon" title="c4">f</font>
+ ;<br><div about="#D10" typeof="oo:Definition" class="main-sentence">
+<a name="K5"><span class="kw">func</span> </a> <span title="INTEGR18:func.5" data-link="4318.html#ELM12599">integral</span> (<font color="Maroon" title="c3">f</font>,<font color="Maroon" title="c2">A</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">X</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E10">Def8</font></span>: <a name="D8"><span class="comment"><font color="firebrick">:: INTEGR18:def 8</font></span><br></a> ex <font color="Olive" title="b1">g</font> being   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c2">A</font>, the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">X</font> st <br>( <font color="Olive" title="b1">g</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">f</font> <span title="PARTFUN1:func.2" data-link="909.html#ELM19579">|</span> <font color="Maroon" title="c2">A</font> &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="INTEGR18:func.4" data-link="4318.html#ELM12598">integral</span> <font color="Olive" title="b1">g</font> );<br>
+</div>
+<span class="kw">correctness </span>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12600'>
+<h2>11.   <span data-link='4318.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integr18.html#K6'>integr18</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">X</font> be   <span title="NORMSP_1:NM.1" data-link="6167.html#ELM18544">RealNormSpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>, the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c2">X</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">a</font>, <font color="Maroon" title="c5">b</font> be   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>;<br><div about="#D15" typeof="oo:Definition" class="main-sentence">
+<a name="K6"><span class="kw">func</span> </a> <span title="INTEGR18:func.6" data-link="4318.html#ELM12600">integral</span> (<font color="Maroon" title="c2">f</font>,<font color="Maroon" title="c3">a</font>,<font color="Maroon" title="c4">b</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">X</font><span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E15">Def9</font></span>: <a name="D9"><span class="comment"><font color="firebrick">:: INTEGR18:def 9</font></span><br></a> <span title="INTEGR18:func.5" data-link="4318.html#ELM12599">integral</span> (<font color="Maroon" title="c2">f</font>,<span class="p1"><span title="INTEGRA5:func.3" data-link="4360.html#ELM12656">['</span><span class="default"><font color="Maroon" title="c3">a</font>,<font color="Maroon" title="c4">b</font></span><span title="INTEGRA5:func.3" data-link="4360.html#ELM12656">']</span></span>)<span class="kw"> if </span><font color="Maroon" title="c3">a</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Maroon" title="c4">b</font><br><span class="kw"> otherwise </span> <span title="ALGSTR_0:func.4" data-link="327.html#ELM747">-</span> <span class="p1">(<span class="default"><span title="INTEGR18:func.5" data-link="4318.html#ELM12599">integral</span> (<font color="Maroon" title="c2">f</font>,<span class="p2"><span title="INTEGRA5:func.3" data-link="4360.html#ELM12656">['</span><span class="default"><font color="Maroon" title="c4">b</font>,<font color="Maroon" title="c3">a</font></span><span title="INTEGRA5:func.3" data-link="4360.html#ELM12656">']</span></span>)</span>)</span>;<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12613'>
+<h2>12.   <span data-link='4318.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integr22.html#K5'>integr22</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="MEASURE5:attr.2" data-link="5194.html#ELM15070">closed_interval</span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">rho</font> be   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c1">A</font>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">u</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">assume </span><a name="E1:17"></a><span class="lab"><font color="Green" title="E10">A1</font></span>: 
+( <font color="Maroon" title="c2">rho</font> is  <span title="INTEGR22:attr.1" data-link="4341.html#ELM12614">bounded_variation</span>  &amp;  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <font color="Maroon" title="c3">u</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">A</font> &amp; <font color="Maroon" title="c3">u</font> <span title="INTEGR22:pred.1" data-link="4337.html#ELM12605">is_RiemannStieltjes_integrable_with</span> <font color="Maroon" title="c2">rho</font> )
+ ;<br><div about="#D10" typeof="oo:Definition" class="main-sentence">
+<a name="K5"><span class="kw">func</span> </a> <span title="INTEGR22:func.5" data-link="4318.html#ELM12613">integral</span> (<font color="Maroon" title="c3">u</font>,<font color="Maroon" title="c2">rho</font>)<span class="kw"> -&gt; </span>  <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E10">Def6</font></span>: <a name="D9"><span class="comment"><font color="firebrick">:: INTEGR22:def 9</font></span><br></a> for <font color="Olive" title="b1">T</font> being   <span title="INTEGRA2:NM.1" data-link="4357.html#ELM12642">DivSequence</span> of <font color="Maroon" title="c1">A</font><br>  for <font color="Olive" title="b2">S</font> being    <span title="INTEGR22:mode.3" data-link="4333.html#ELM12608">middle_volume_Sequence</span> of <font color="Maroon" title="c2">rho</font>,<font color="Maroon" title="c3">u</font>,<font color="Olive" title="b1">T</font>  st  <span title="INTEGRA3:func.2" data-link="2005.html#ELM12650">delta</span> <font color="Olive" title="b1">T</font> is  <span title="COMSEQ_2:attr.2" data-link="1045.html#ELM5234">convergent</span>  &amp;  <span title="SEQ_2:func.1" data-link="1041.html#ELM24895">lim</span> <span class="p1">(<span class="default"><span title="INTEGRA3:func.2" data-link="2005.html#ELM12650">delta</span> <font color="Olive" title="b1">T</font></span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  holds <br>(  <span title="INTEGR22:func.4" data-link="4334.html#ELM12612">middle_sum</span> <font color="Olive" title="b2">S</font> is  <span title="COMSEQ_2:attr.2" data-link="1045.html#ELM5234">convergent</span>  &amp;  <span title="SEQ_2:func.1" data-link="1041.html#ELM24895">lim</span> <span class="p1">(<span class="default"><span title="INTEGR22:func.4" data-link="4334.html#ELM12612">middle_sum</span> <font color="Olive" title="b2">S</font></span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="kw">it</span> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E10">A1</font></span></span>;<br><span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12629'>
+<h2>13.   <span data-link='4318.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integra1.html#K12'>integra1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="MEASURE5:attr.2" data-link="5194.html#ELM15070">closed_interval</span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <font color="Maroon" title="c1">A</font>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K12"><span class="kw">func</span> </a> <span title="INTEGRA1:func.12" data-link="4318.html#ELM12629">integral</span> <font color="Maroon" title="c2">f</font><span class="kw"> -&gt; </span>  <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span><span class="kw"> equals </span><a name="D17"><span class="comment"><font color="firebrick">:: INTEGRA1:def 17</font></span><br></a> <span title="INTEGRA1:func.10" data-link="4351.html#ELM12627">upper_integral</span> <font color="Maroon" title="c2">f</font>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12655'>
+<h2>14.   <span data-link='4318.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integra5.html#K2'>integra5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="MEASURE5:attr.2" data-link="5194.html#ELM15070">closed_interval</span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="INTEGRA5:func.2" data-link="4318.html#ELM12655">integral</span> (<font color="Maroon" title="c2">f</font>,<font color="Maroon" title="c1">A</font>)<span class="kw"> -&gt; </span>  <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span><span class="kw"> equals </span><a name="D2"><span class="comment"><font color="firebrick">:: INTEGRA5:def 2</font></span><br></a> <span title="INTEGRA1:func.12" data-link="4318.html#ELM12629">integral</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">f</font> <span title="INTEGRA5:func.1" data-link="4359.html#ELM12654">||</span> <font color="Maroon" title="c1">A</font></span>)</span>;<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12657'>
+<h2>15.   <span data-link='4318.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='integra5.html#K4'>integra5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">a</font>, <font color="Maroon" title="c2">b</font> be   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><div about="#D15" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a> <span title="INTEGRA5:func.4" data-link="4318.html#ELM12657">integral</span> (<font color="Maroon" title="c3">f</font>,<font color="Maroon" title="c1">a</font>,<font color="Maroon" title="c2">b</font>)<span class="kw"> -&gt; </span>  <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span><span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E15">Def4</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: INTEGRA5:def 4</font></span><br></a> <span title="INTEGRA5:func.2" data-link="4318.html#ELM12655">integral</span> (<font color="Maroon" title="c3">f</font>,<span class="p1"><span title="INTEGRA5:func.3" data-link="4360.html#ELM12656">['</span><span class="default"><font color="Maroon" title="c1">a</font>,<font color="Maroon" title="c2">b</font></span><span title="INTEGRA5:func.3" data-link="4360.html#ELM12656">']</span></span>)<span class="kw"> if </span><font color="Maroon" title="c1">a</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Maroon" title="c2">b</font><br><span class="kw"> otherwise </span> <span title="XCMPLX_0:func.4" data-link="327.html#ELM29689">-</span> <span class="p1">(<span class="default"><span title="INTEGRA5:func.2" data-link="4318.html#ELM12655">integral</span> (<font color="Maroon" title="c3">f</font>,<span class="p2"><span title="INTEGRA5:func.3" data-link="4360.html#ELM12656">['</span><span class="default"><font color="Maroon" title="c2">b</font>,<font color="Maroon" title="c1">a</font></span><span title="INTEGRA5:func.3" data-link="4360.html#ELM12656">']</span></span>)</span>)</span>;<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM15576'>
+<h2>16.   <span data-link='4318.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='mesfunc3.html#K1'>mesfunc3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be   <span title="PROB_1:NM.3" data-link="6995.html#ELM21277">SigmaField</span> of <font color="Maroon" title="c1">X</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">M</font> be   <span title="MEASURE1:NM.5" data-link="5181.html#ELM15018">sigma_Measure</span> of <font color="Maroon" title="c2">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <font color="Maroon" title="c1">X</font>,<span title="NUMBERS:func.6" data-link="6193.html#ELM18629">ExtREAL</span>;<br><span class="kw">assume </span><a name="E1:21"></a><span class="lab"><font color="Green" title="E18">A1</font></span>: 
+( <font color="Maroon" title="c4">f</font> <span title="MESFUNC2:pred.1" data-link="5257.html#ELM15568">is_simple_func_in</span> <font color="Maroon" title="c2">S</font> &amp; <font color="Maroon" title="c4">f</font> is  <span title="SUPINF_2:attr.6" data-link="1641.html#ELM26028">nonnegative</span>  )
+ ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="MESFUNC3:func.1" data-link="4318.html#ELM15576">integral</span> (<font color="Maroon" title="c3">M</font>,<font color="Maroon" title="c4">f</font>)<span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:func.6" data-link="6193.html#ELM18629">ExtREAL</span> <span class="kw"> means </span><a name="D2"><span class="comment"><font color="firebrick">:: MESFUNC3:def 2</font></span><br></a> ex <font color="Olive" title="b1">F</font> being   <span title="MESFUNC2:NM.1" data-link="5281.html#ELM15569">Finite_Sep_Sequence</span> of <font color="Maroon" title="c2">S</font> ex <font color="Olive" title="b2">a</font>, <font color="Olive" title="b3">x</font> being    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:func.6" data-link="6193.html#ELM18629">ExtREAL</span>  st <br>( <font color="Olive" title="b1">F</font>,<font color="Olive" title="b2">a</font> <span title="MESFUNC3:pred.1" data-link="5258.html#ELM15575">are_Re-presentation_of</span> <font color="Maroon" title="c4">f</font> &amp; <font color="Olive" title="b2">a</font> <span title="SUPINF_2:func.12" data-link="141.html#ELM26016">.</span> 1 <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="SUPINF_2:func.1" data-link="5074.html#ELM26003">0.</span>  &amp; (  for <font color="Olive" title="b4">n</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st 2 <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b4">n</font> &amp; <font color="Olive" title="b4">n</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <font color="Olive" title="b2">a</font> holds <br>(  <span title="SUPINF_2:func.1" data-link="5074.html#ELM26003">0.</span>  <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Olive" title="b2">a</font> <span title="SUPINF_2:func.12" data-link="141.html#ELM26016">.</span> <font color="Olive" title="b4">n</font> &amp; <font color="Olive" title="b2">a</font> <span title="SUPINF_2:func.12" data-link="141.html#ELM26016">.</span> <font color="Olive" title="b4">n</font> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span>  <span title="SUPINF_1:func.1" data-link="8109.html#ELM25991">+infty</span>  ) ) &amp;  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <font color="Olive" title="b3">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <font color="Olive" title="b1">F</font> &amp; (  for <font color="Olive" title="b4">n</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b4">n</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <font color="Olive" title="b3">x</font> holds <br><font color="Olive" title="b3">x</font> <span title="SUPINF_2:func.12" data-link="141.html#ELM26016">.</span> <font color="Olive" title="b4">n</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><font color="Olive" title="b2">a</font> <span title="SUPINF_2:func.12" data-link="141.html#ELM26016">.</span> <font color="Olive" title="b4">n</font></span>)</span> <span title="EXTREAL1:func.1" data-link="47.html#ELM6637">*</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c3">M</font> <span title="FINSEQOP:func.4" data-link="47.html#ELM7418">*</span> <font color="Olive" title="b1">F</font></span>)</span> <span title="SUPINF_2:func.12" data-link="141.html#ELM26016">.</span> <font color="Olive" title="b4">n</font></span>)</span> ) &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="EXTREAL1:func.4" data-link="252.html#ELM6640">Sum</span> <font color="Olive" title="b3">x</font> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>AtomicTermsOf</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func AtomicTermsOf</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='2887.html#ELM7914'>AtomicTermsOf</span> [<span data-href='fomodel1.html#K11'>fomodel1</span>]</li>
+<li><span data-link='2887.html#ELM7929'>AtomicTermsOf</span> [<span data-href='fomodel1.html#K26'>fomodel1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM7914'>
+<h2>1.   <span data-link='2887.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fomodel1.html#K11'>fomodel1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be    <span title="FOMODEL1:struct.1" data-link="2875.html#ELM7900">Language-like</span> ;<br><a name="NM1"><span class="kw">mode </span>Element of <font color="Maroon" title="c1">S</font><span class="kw"> is </span></a>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="FOMODEL1:func.1" data-link="2877.html#ELM7904">AllSymbolsOf</span> <font color="Maroon" title="c1">S</font>;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="K10"><span class="kw">func</span> </a> <span title="FOMODEL1:func.10" data-link="2886.html#ELM7913">AtomicFormulaSymbolsOf</span> <font color="Maroon" title="c1">S</font><span class="kw"> -&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> <span class="kw"> equals </span><a name="D10"><span class="comment"><font color="firebrick">:: FOMODEL1:def 10</font></span><br></a><span class="p1">(<span class="default"><span title="FOMODEL1:func.1" data-link="2877.html#ELM7904">AllSymbolsOf</span> <font color="Maroon" title="c1">S</font></span>)</span> <span title="SUBSET_1:func.6" data-link="724.html#ELM25875">\</span> <span class="p1"><span title="TARSKI:func.1" data-link="857.html#ELM26065">{</span><span class="default"><span class="p2">(<span class="default"><span title="FOMODEL1:func.8" data-link="2884.html#ELM7911">TheNorSymbOf</span> <font color="Maroon" title="c1">S</font></span>)</span></span><span title="TARSKI:func.1" data-link="857.html#ELM26065">}</span></span>;<br>
+</div>
+<span class="kw">coherence</span> <br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K11"><span class="kw">func</span> </a> <span title="FOMODEL1:func.11" data-link="2887.html#ELM7914">AtomicTermsOf</span> <font color="Maroon" title="c1">S</font><span class="kw"> -&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> <span class="kw"> equals </span><a name="D11"><span class="comment"><font color="firebrick">:: FOMODEL1:def 11</font></span><br></a>1 <span title="FINSEQ_2:func.4" data-link="2732.html#ELM7182">-tuples_on</span> <span class="p1">(<span class="default"><span title="FOMODEL1:func.2" data-link="2878.html#ELM7905">LettersOf</span> <font color="Maroon" title="c1">S</font></span>)</span>;<br>
+</div>
+<span class="kw">coherence</span> <br><div about="#D0" typeof="oo:Definition">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c1">S</font> is  <span title="FOMODEL1:attr.2" data-link="2900.html#ELM7947">operational</span> <span class="kw"> means </span><a name="D12"><span class="comment"><font color="firebrick">:: FOMODEL1:def 12</font></span><br></a> not  <span title="FOMODEL1:func.3" data-link="2879.html#ELM7906">OpSymbolsOf</span> <font color="Maroon" title="c1">S</font> is  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span> ;<br>
+</div>
+<div about="#D0" typeof="oo:Definition">
+<a name="V3"><span class="kw">attr</span> </a><font color="Maroon" title="c1">S</font> is  <span title="FOMODEL1:attr.3" data-link="2901.html#ELM7948">relational</span> <span class="kw"> means </span><a name="D13"><span class="comment"><font color="firebrick">:: FOMODEL1:def 13</font></span><br></a> not <span class="p1">(<span class="default"><span title="FOMODEL1:func.4" data-link="2880.html#ELM7907">RelSymbolsOf</span> <font color="Maroon" title="c1">S</font></span>)</span> <span title="SUBSET_1:func.6" data-link="724.html#ELM25875">\</span> <span class="p1"><span title="TARSKI:func.1" data-link="857.html#ELM26065">{</span><span class="default"><span class="p2">(<span class="default"><span title="FOMODEL1:func.7" data-link="2883.html#ELM7910">TheEqSymbOf</span> <font color="Maroon" title="c1">S</font></span>)</span></span><span title="TARSKI:func.1" data-link="857.html#ELM26065">}</span></span> is  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span> ;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  AtomicTermsOf S ->  infinite   for   set ;
+</td><td><span data-href='fomodel1.html#FC50'>fomodel1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM7929'>
+<h2>2.   <span data-link='2887.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fomodel1.html#K26'>fomodel1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   <span title="FOMODEL1:NM.2" data-link="744.html#ELM7902">Language</span>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="FOMODEL1:func.11" data-link="2887.html#ELM7914">AtomicTermsOf</span><br><span class="kw">redefine </span><a name="K26"><span class="kw">func</span> </a> <span title="FOMODEL1:func.26" data-link="2887.html#ELM7929">AtomicTermsOf</span> <font color="Maroon" title="c1">S</font><span class="kw"> -&gt; </span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="FOMODEL1:func.15" data-link="2877.html#ELM7918">AllSymbolsOf</span> <font color="Maroon" title="c1">S</font></span>)</span> <span title="FINSEQ_2:func.3" data-link="47.html#ELM7181">*</span></span>)</span>;<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

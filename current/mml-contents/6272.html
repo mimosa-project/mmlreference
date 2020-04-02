@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_minimal_in</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_minimal_in</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='6272.html#ELM18865'>is_minimal_in</span> [<span data-href='orders_1.html#R7'>orders_1</span>]</li>
+<li><span data-link='6272.html#ELM29388'>is_minimal_in</span> [<span data-href='waybel_4.html#R5'>waybel_4</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM18865'>
+<h2>1.   <span data-link='6272.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='orders_1.html#R7'>orders_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font> be   <span title="RELAT_1:NM.1" data-link="286.html#ELM22383">Relation</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">x</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="R6"><span class="kw">pred</span> </a><font color="Maroon" title="c2">x</font> <span title="ORDERS_1:pred.6" data-link="6271.html#ELM18864">is_maximal_in</span> <font color="Maroon" title="c1">R</font><span class="kw"> means </span><a name="D12"><span class="comment"><font color="firebrick">:: ORDERS_1:def 12</font></span><br></a>( <font color="Maroon" title="c2">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">R</font> &amp; (  for <font color="Olive" title="b1">y</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   holds <br>(  not <font color="Olive" title="b1">y</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">R</font> or  not <font color="Olive" title="b1">y</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Maroon" title="c2">x</font> or  not <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Maroon" title="c2">x</font>,<font color="Olive" title="b1">y</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c1">R</font> ) ) );<br>
+</div>
+<div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R7"><span class="kw">pred</span> </a><font color="Maroon" title="c2">x</font> <span title="ORDERS_1:pred.7" data-link="6272.html#ELM18865">is_minimal_in</span> <font color="Maroon" title="c1">R</font><span class="kw"> means </span><a name="D13"><span class="comment"><font color="firebrick">:: ORDERS_1:def 13</font></span><br></a>( <font color="Maroon" title="c2">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">R</font> &amp; (  for <font color="Olive" title="b1">y</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   holds <br>(  not <font color="Olive" title="b1">y</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">R</font> or  not <font color="Olive" title="b1">y</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Maroon" title="c2">x</font> or  not <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">y</font>,<font color="Maroon" title="c2">x</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c1">R</font> ) ) );<br>
+</div>
+<div about="#D0" typeof="oo:Definition">
+<a name="R8"><span class="kw">pred</span> </a><font color="Maroon" title="c2">x</font> <span title="ORDERS_1:pred.8" data-link="6273.html#ELM18866">is_superior_of</span> <font color="Maroon" title="c1">R</font><span class="kw"> means </span><a name="D14"><span class="comment"><font color="firebrick">:: ORDERS_1:def 14</font></span><br></a>( <font color="Maroon" title="c2">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">R</font> &amp; (  for <font color="Olive" title="b1">y</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">y</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">R</font> &amp; <font color="Olive" title="b1">y</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Maroon" title="c2">x</font> holds <br><span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">y</font>,<font color="Maroon" title="c2">x</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c1">R</font> ) );<br>
+</div>
+<div about="#D0" typeof="oo:Definition" class="">
+<a name="R9"><span class="kw">pred</span> </a><font color="Maroon" title="c2">x</font> <span title="ORDERS_1:pred.9" data-link="6274.html#ELM18867">is_inferior_of</span> <font color="Maroon" title="c1">R</font><span class="kw"> means </span><a name="D15"><span class="comment"><font color="firebrick">:: ORDERS_1:def 15</font></span><br></a>( <font color="Maroon" title="c2">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">R</font> &amp; (  for <font color="Olive" title="b1">y</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">y</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:func.1" data-link="6052.html#ELM22386">field</span> <font color="Maroon" title="c1">R</font> &amp; <font color="Olive" title="b1">y</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Maroon" title="c2">x</font> holds <br><span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Maroon" title="c2">x</font>,<font color="Olive" title="b1">y</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c1">R</font> ) );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM29388'>
+<h2>2.   <span data-link='6272.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='waybel_4.html#R5'>waybel_4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be    <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">x</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R5"><span class="kw">pred</span> </a><font color="Maroon" title="c3">x</font> <span title="WAYBEL_4:pred.5" data-link="6272.html#ELM29388">is_minimal_in</span> <font color="Maroon" title="c2">X</font><span class="kw"> means </span><a name="D26"><span class="comment"><font color="firebrick">:: WAYBEL_4:def 26</font></span><br></a><font color="Maroon" title="c3">x</font> <span title="WAYBEL_4:pred.4" data-link="8788.html#ELM29387">is_minimal_wrt</span> <font color="Maroon" title="c2">X</font>, the <span title="ORDERS_2:sel.1" data-href="orders_2.html#U1">InternalRel</span> of <font color="Maroon" title="c1">L</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

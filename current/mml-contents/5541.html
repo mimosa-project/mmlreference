@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_subformula_of</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_subformula_of</h1>
+<h2>List of Definitions (3)</h2>
+<ol>
+<li><span data-link='5541.html#ELM16256'>is_subformula_of</span> [<span data-href='modelc_2.html#R2'>modelc_2</span>]</li>
+<li><span data-link='5541.html#ELM21626'>is_subformula_of</span> [<span data-href='qc_lang2.html#R2'>qc_lang2</span>]</li>
+<li><span data-link='5541.html#ELM30498'>is_subformula_of</span> [<span data-href='zf_lang.html#R2'>zf_lang</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM16256'>
+<h2>1.   <span data-link='5541.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='modelc_2.html#R2'>modelc_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">H</font>, <font color="Maroon" title="c2">F</font> be   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c1">H</font> <span title="MODELC_2:pred.2" data-link="5541.html#ELM16256">is_subformula_of</span> <font color="Maroon" title="c2">F</font><span class="kw"> means </span><a name="D22"><span class="comment"><font color="firebrick">:: MODELC_2:def 22</font></span><br></a> ex <font color="Olive" title="b1">n</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> ex <font color="Olive" title="b2">L</font> being   <span title="FINSEQ_1:NM.1" data-link="27.html#ELM7089">FinSequence</span> st <br>( 1 <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b1">n</font> &amp;  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Olive" title="b2">L</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">n</font> &amp; <font color="Olive" title="b2">L</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> 1 <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">H</font> &amp; <font color="Olive" title="b2">L</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">n</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">F</font> &amp; (  for <font color="Olive" title="b3">k</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st 1 <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b3">k</font> &amp; <font color="Olive" title="b3">k</font> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Olive" title="b1">n</font> holds <br> ex <font color="Olive" title="b4">H1</font>, <font color="Olive" title="b5">F1</font> being   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span> st <br>( <font color="Olive" title="b2">L</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b3">k</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b4">H1</font> &amp; <font color="Olive" title="b2">L</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b3">k</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b5">F1</font> &amp; <font color="Olive" title="b4">H1</font> <span title="MODELC_2:pred.1" data-link="5540.html#ELM16255">is_immediate_constituent_of</span> <font color="Olive" title="b5">F1</font> ) ) );<br>
+</div>
+<span class="kw">reflexivity</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM21626'>
+<h2>2.   <span data-link='5541.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='qc_lang2.html#R2'>qc_lang2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be    <span title="QC_LANG1:mode.1" data-link="7084.html#ELM21567">QC-alphabet</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">G</font>, <font color="Maroon" title="c3">H</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="QC_LANG1:func.9" data-link="7100.html#ELM21586">QC-WFF</span> <font color="Maroon" title="c1">A</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c2">G</font> <span title="QC_LANG2:pred.2" data-link="5541.html#ELM21626">is_subformula_of</span> <font color="Maroon" title="c3">H</font><span class="kw"> means </span><a name="D20"><span class="comment"><font color="firebrick">:: QC_LANG2:def 20</font></span><br></a> ex <font color="Olive" title="b1">n</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> ex <font color="Olive" title="b2">L</font> being   <span title="FINSEQ_1:NM.1" data-link="27.html#ELM7089">FinSequence</span> st <br>( 1 <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b1">n</font> &amp;  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Olive" title="b2">L</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">n</font> &amp; <font color="Olive" title="b2">L</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> 1 <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">G</font> &amp; <font color="Olive" title="b2">L</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">n</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">H</font> &amp; (  for <font color="Olive" title="b3">k</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st 1 <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b3">k</font> &amp; <font color="Olive" title="b3">k</font> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Olive" title="b1">n</font> holds <br> ex <font color="Olive" title="b4">G1</font>, <font color="Olive" title="b5">H1</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="QC_LANG1:func.9" data-link="7100.html#ELM21586">QC-WFF</span> <font color="Maroon" title="c1">A</font> st <br>( <font color="Olive" title="b2">L</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b3">k</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b4">G1</font> &amp; <font color="Olive" title="b2">L</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b3">k</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b5">H1</font> &amp; <font color="Olive" title="b4">G1</font> <span title="QC_LANG2:pred.1" data-link="5540.html#ELM21625">is_immediate_constituent_of</span> <font color="Olive" title="b5">H1</font> ) ) );<br>
+</div>
+<span class="kw">reflexivity</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM30498'>
+<h2>3.   <span data-link='5541.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='zf_lang.html#R2'>zf_lang</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">H</font>, <font color="Maroon" title="c2">F</font> be   <span title="ZF_LANG:NM.2" data-link="8963.html#ELM30501">ZF-formula</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c1">H</font> <span title="ZF_LANG:pred.2" data-link="5541.html#ELM30498">is_subformula_of</span> <font color="Maroon" title="c2">F</font><span class="kw"> means </span><a name="D40"><span class="comment"><font color="firebrick">:: ZF_LANG:def 40</font></span><br></a> ex <font color="Olive" title="b1">n</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>  ex <font color="Olive" title="b2">L</font> being   <span title="FINSEQ_1:NM.1" data-link="27.html#ELM7089">FinSequence</span> st <br>( 1 <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b1">n</font> &amp;  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Olive" title="b2">L</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">n</font> &amp; <font color="Olive" title="b2">L</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> 1 <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">H</font> &amp; <font color="Olive" title="b2">L</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">n</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">F</font> &amp; (  for <font color="Olive" title="b3">k</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>   st 1 <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b3">k</font> &amp; <font color="Olive" title="b3">k</font> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Olive" title="b1">n</font> holds <br> ex <font color="Olive" title="b4">H1</font>, <font color="Olive" title="b5">F1</font> being   <span title="ZF_LANG:NM.2" data-link="8963.html#ELM30501">ZF-formula</span> st <br>( <font color="Olive" title="b2">L</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b3">k</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b4">H1</font> &amp; <font color="Olive" title="b2">L</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b3">k</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b5">F1</font> &amp; <font color="Olive" title="b4">H1</font> <span title="ZF_LANG:pred.1" data-link="5540.html#ELM30497">is_immediate_constituent_of</span> <font color="Olive" title="b5">F1</font> ) ) );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

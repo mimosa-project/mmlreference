@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>chosen_succ</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func chosen_succ</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='5593.html#ELM16379'>chosen_succ</span> [<span data-href='modelc_3.html#K25'>modelc_3</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM16379'>
+<h2>1.   <span data-link='5593.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='modelc_3.html#K25'>modelc_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">w</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="MODELC_2:func.25" data-link="5550.html#ELM16297">Inf_seq</span> <span title="MODELC_2:func.43" data-link="5561.html#ELM16315">AtomicFamily</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">v</font> be   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">U</font> be   <span title="ORDERS_1:NM.3" data-link="6276.html#ELM18870">Choice_Function</span> of <span class="p1">(<span class="default"><span title="ORDERS_1:func.1" data-link="6278.html#ELM18872">BOOL</span> <span class="p2">(<span class="default"><span title="MODELC_3:func.1" data-link="4170.html#ELM16355">Subformulae</span> <font color="Maroon" title="c2">v</font></span>)</span></span>)</span>;<br><span class="kw">let </span><font color="Maroon" title="c4">N</font> be   <span title="MODELC_3:attr.1" data-href="modelc_3.html#V1">strict</span>   <span title="MODELC_3:struct.1" data-link="5578.html#ELM16353">LTLnode</span> over <font color="Maroon" title="c2">v</font>;<br><div about="#D96" typeof="oo:Definition" class="main-sentence">
+<a name="K25"><span class="kw">func</span> </a> <span title="MODELC_3:func.25" data-link="5593.html#ELM16379">chosen_succ</span> (<font color="Maroon" title="c1">w</font>,<font color="Maroon" title="c2">v</font>,<font color="Maroon" title="c3">U</font>,<font color="Maroon" title="c4">N</font>)<span class="kw"> -&gt; </span>  <span title="MODELC_3:attr.1" data-href="modelc_3.html#V1">strict</span>   <span title="MODELC_3:struct.1" data-link="5578.html#ELM16353">LTLnode</span> over <font color="Maroon" title="c2">v</font><span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E96">Def35</font></span>: <a name="D35"><span class="comment"><font color="firebrick">:: MODELC_3:def 35</font></span><br></a> <span title="MODELC_3:func.5" data-link="5583.html#ELM16359">SuccNode1</span> (<span class="p1">(<span class="default"><span title="MODELC_3:func.24" data-link="5592.html#ELM16378">chosen_formula</span> (<font color="Maroon" title="c3">U</font>,<font color="Maroon" title="c4">N</font>)</span>)</span>,<font color="Maroon" title="c4">N</font>)<span class="kw"> if </span>( (  not  <span title="MODELC_3:func.24" data-link="5592.html#ELM16378">chosen_formula</span> (<font color="Maroon" title="c3">U</font>,<font color="Maroon" title="c4">N</font>) is  <span title="MODELC_2:attr.7" data-link="5569.html#ELM16327">Until</span>  &amp; <font color="Maroon" title="c1">w</font> <span title="MODELC_2:pred.8" data-link="1309.html#ELM16264">|=</span>  <span title="MODELC_3:func.14" data-link="47.html#ELM16368">*</span> <span class="p1">(<span class="default"><span title="MODELC_3:func.5" data-link="5583.html#ELM16359">SuccNode1</span> (<span class="p2">(<span class="default"><span title="MODELC_3:func.24" data-link="5592.html#ELM16378">chosen_formula</span> (<font color="Maroon" title="c3">U</font>,<font color="Maroon" title="c4">N</font>)</span>)</span>,<font color="Maroon" title="c4">N</font>)</span>)</span> ) or (  <span title="MODELC_3:func.24" data-link="5592.html#ELM16378">chosen_formula</span> (<font color="Maroon" title="c3">U</font>,<font color="Maroon" title="c4">N</font>) is  <span title="MODELC_2:attr.7" data-link="5569.html#ELM16327">Until</span>  &amp; <font color="Maroon" title="c1">w</font> <span title="MODELC_2:NR.9" data-link="5474.html#ELM16263">|/=</span>  <span title="MODELC_2:func.12" data-link="5493.html#ELM16281">the_right_argument_of</span> <span class="p1">(<span class="default"><span title="MODELC_3:func.24" data-link="5592.html#ELM16378">chosen_formula</span> (<font color="Maroon" title="c3">U</font>,<font color="Maroon" title="c4">N</font>)</span>)</span> ) )<br><span class="kw"> otherwise </span> <span title="MODELC_3:func.6" data-link="5584.html#ELM16360">SuccNode2</span> (<span class="p1">(<span class="default"><span title="MODELC_3:func.24" data-link="5592.html#ELM16378">chosen_formula</span> (<font color="Maroon" title="c3">U</font>,<font color="Maroon" title="c4">N</font>)</span>)</span>,<font color="Maroon" title="c4">N</font>);<br>
+</div>
+<span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

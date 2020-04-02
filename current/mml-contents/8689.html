@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>currying</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr currying</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='8689.html#ELM28986'>currying</span> [<span data-href='waybel27.html#V2'>waybel27</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM28986'>
+<h2>1.   <span data-link='8689.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='waybel27.html#V2'>waybel27</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">F</font> be   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><div about="#D1" typeof="oo:Definition">
+<a name="V1"><span class="kw">attr</span> </a><font color="Maroon" title="c1">F</font> is  <span title="WAYBEL27:attr.1" data-link="8688.html#ELM28985">uncurrying</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E1">Def1</font></span>: <a name="D1"><span class="comment"><font color="firebrick">:: WAYBEL27:def 1</font></span><br></a>( (  for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">F</font> holds <br><font color="Olive" title="b1">x</font> is   <span title="FUNCOP_1:attr.1" data-link="3144.html#ELM8751">Function-yielding</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span> ) &amp; (  for <font color="Olive" title="b1">f</font> being   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>  st <font color="Olive" title="b1">f</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">F</font> holds <br><font color="Maroon" title="c1">F</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">f</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="FUNCT_5:func.2" data-link="3170.html#ELM8971">uncurry</span> <font color="Olive" title="b1">f</font> ) );<br>
+</div>
+<div about="#D2" typeof="oo:Definition" class="main-sentence">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c1">F</font> is  <span title="WAYBEL27:attr.2" data-link="8689.html#ELM28986">currying</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E2">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: WAYBEL27:def 2</font></span><br></a>( (  for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">F</font> holds <br>( <font color="Olive" title="b1">x</font> is   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span> &amp;  <span title="XTUPLE_0:func.9" data-link="6895.html#ELM29781">proj1</span> <font color="Olive" title="b1">x</font> is   <span title="RELAT_1:NM.1" data-link="286.html#ELM22383">Relation</span> ) ) &amp; (  for <font color="Olive" title="b1">f</font> being   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>  st <font color="Olive" title="b1">f</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">F</font> holds <br><font color="Maroon" title="c1">F</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">f</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="FUNCT_5:func.1" data-link="3169.html#ELM8970">curry</span> <font color="Olive" title="b1">f</font> ) );<br>
+</div>
+<div about="#D3" typeof="oo:Definition" class="">
+<a name="V3"><span class="kw">attr</span> </a><font color="Maroon" title="c1">F</font> is  <span title="WAYBEL27:attr.3" data-link="8690.html#ELM28987">commuting</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E3">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: WAYBEL27:def 3</font></span><br></a>( (  for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">F</font> holds <br><font color="Olive" title="b1">x</font> is   <span title="FUNCOP_1:attr.1" data-link="3144.html#ELM8751">Function-yielding</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span> ) &amp; (  for <font color="Olive" title="b1">f</font> being   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>  st <font color="Olive" title="b1">f</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">F</font> holds <br><font color="Maroon" title="c1">F</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">f</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="FUNCT_6:func.9" data-link="3176.html#ELM8994">commute</span> <font color="Olive" title="b1">f</font> ) );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  empty   Relation-like   Function-like   ->  uncurrying   currying   commuting   for    set ;
+</td><td><span data-href='waybel27.html#CC1'>waybel27</span></td></tr>
+<tr><td>
+cluster  Relation-like   Function-like   uncurrying   currying   commuting   for    set ;
+</td><td><span data-href='waybel27.html#RC1'>waybel27</span></td></tr>
+<tr><td>
+cluster F | X ->  currying  ;
+</td><td><span data-href='waybel27.html#FC2'>waybel27</span></td></tr>
+<tr><td>
+cluster  Relation-like   Funcs ([:X,Y:],Z) -defined   Function-like  V27( Funcs ([:X,Y:],Z))  currying   for    set ;
+</td><td><span data-href='waybel27.html#RC3'>waybel27</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

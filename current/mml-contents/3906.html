@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_finer_than</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_finer_than</h1>
+<h2>List of Definitions (4)</h2>
+<ol>
+<li><span data-link='3906.html#ELM11270'>is_finer_than</span> [<span data-href='group_9.html#R4'>group_9</span>]</li>
+<li><span data-link='3906.html#ELM24999'>is_finer_than</span> [<span data-href='setfam_1.html#R1'>setfam_1</span>]</li>
+<li><span data-link='3906.html#ELM30300'>is_finer_than</span> [<span data-href='yellow_4.html#R1'>yellow_4</span>]</li>
+<li><span data-link='3906.html#ELM30302'>is_finer_than</span> [<span data-href='yellow_4.html#R3'>yellow_4</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM11270'>
+<h2>1.   <span data-link='3906.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='group_9.html#R4'>group_9</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">O</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">G</font> be   <span title="GROUP_9:NM.1" data-link="3910.html#ELM11274">GroupWithOperators</span> of <font color="Maroon" title="c1">O</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">s1</font>, <font color="Maroon" title="c4">s2</font> be   <span title="GROUP_9:NM.4" data-link="3912.html#ELM11277">CompositionSeries</span> of <font color="Maroon" title="c2">G</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R4"><span class="kw">pred</span> </a><font color="Maroon" title="c3">s1</font> <span title="GROUP_9:pred.4" data-link="3906.html#ELM11270">is_finer_than</span> <font color="Maroon" title="c4">s2</font><span class="kw"> means </span><a name="D29"><span class="comment"><font color="firebrick">:: GROUP_9:def 29</font></span><br></a> ex <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>  st <br>( <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span>  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <font color="Maroon" title="c3">s1</font> &amp; <font color="Maroon" title="c4">s2</font> <span title="RELSET_1:pred.2" data-link="1122.html#ELM22505">=</span> <font color="Maroon" title="c3">s1</font> <span title="PARTFUN1:func.1" data-link="47.html#ELM19578">*</span> <span class="p1">(<span class="default"><span title="FINSEQ_1:func.14" data-link="2723.html#ELM7107">Sgm</span> <font color="Olive" title="b1">x</font></span>)</span> );<br>
+</div>
+<span class="kw">reflexivity</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM24999'>
+<h2>2.   <span data-link='3906.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='setfam_1.html#R1'>setfam_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">SFX</font>, <font color="Maroon" title="c2">SFY</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c1">SFX</font> <span title="SETFAM_1:pred.1" data-link="3906.html#ELM24999">is_finer_than</span> <font color="Maroon" title="c2">SFY</font><span class="kw"> means </span><a name="D2"><span class="comment"><font color="firebrick">:: SETFAM_1:def 2</font></span><br></a> for <font color="Olive" title="b1">X</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">X</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c1">SFX</font> holds <br> ex <font color="Olive" title="b2">Y</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>  st <br>( <font color="Olive" title="b2">Y</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">SFY</font> &amp; <font color="Olive" title="b1">X</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span> <font color="Olive" title="b2">Y</font> );<br>
+</div>
+<span class="kw">reflexivity</span> <br><div about="#D0" typeof="oo:Definition" class="">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c2">SFY</font> <span title="SETFAM_1:pred.2" data-link="7848.html#ELM25000">is_coarser_than</span> <font color="Maroon" title="c1">SFX</font><span class="kw"> means </span><a name="D3"><span class="comment"><font color="firebrick">:: SETFAM_1:def 3</font></span><br></a> for <font color="Olive" title="b1">Y</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">Y</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">SFY</font> holds <br> ex <font color="Olive" title="b2">X</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>  st <br>( <font color="Olive" title="b2">X</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c1">SFX</font> &amp; <font color="Olive" title="b2">X</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span> <font color="Olive" title="b1">Y</font> );<br>
+</div>
+<span class="kw">reflexivity</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM30300'>
+<h2>3.   <span data-link='3906.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='yellow_4.html#R1'>yellow_4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be    <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font>, <font color="Maroon" title="c3">B</font> be   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">L</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c2">A</font> <span title="YELLOW_4:pred.1" data-link="3906.html#ELM30300">is_finer_than</span> <font color="Maroon" title="c3">B</font><span class="kw"> means </span><a name="D1"><span class="comment"><font color="firebrick">:: YELLOW_4:def 1</font></span><br></a> for <font color="Olive" title="b1">a</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>  st <font color="Olive" title="b1">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">A</font> holds <br> ex <font color="Olive" title="b2">b</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font> st <br>( <font color="Olive" title="b2">b</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c3">B</font> &amp; <font color="Olive" title="b1">a</font> <span title="ORDERS_2:pred.1" data-link="491.html#ELM18882">&lt;=</span> <font color="Olive" title="b2">b</font> );<br>
+</div>
+<div about="#D0" typeof="oo:Definition" class="">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c3">B</font> <span title="YELLOW_4:pred.2" data-link="7848.html#ELM30301">is_coarser_than</span> <font color="Maroon" title="c2">A</font><span class="kw"> means </span><a name="D2"><span class="comment"><font color="firebrick">:: YELLOW_4:def 2</font></span><br></a> for <font color="Olive" title="b1">b</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>  st <font color="Olive" title="b1">b</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c3">B</font> holds <br> ex <font color="Olive" title="b2">a</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font> st <br>( <font color="Olive" title="b2">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">A</font> &amp; <font color="Olive" title="b2">a</font> <span title="ORDERS_2:pred.1" data-link="491.html#ELM18882">&lt;=</span> <font color="Olive" title="b1">b</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM30302'>
+<h2>4.   <span data-link='3906.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='yellow_4.html#R3'>yellow_4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ORDERS_2:attr.3" data-link="433.html#ELM18897">reflexive</span>   <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font>, <font color="Maroon" title="c3">B</font> be   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">L</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="YELLOW_4:pred.1" data-link="3906.html#ELM30300">is_finer_than</span><br><span class="kw">redefine </span><a name="R3"><span class="kw">pred</span> </a><font color="Maroon" title="c2">A</font> <span title="YELLOW_4:pred.3" data-link="3906.html#ELM30302">is_finer_than</span> <font color="Maroon" title="c3">B</font>;<br><span class="kw">reflexivity</span> <span class="comment"><font color="firebrick">:: original: </font></span><span title="YELLOW_4:pred.2" data-link="7848.html#ELM30301">is_coarser_than</span><br><span class="kw">redefine </span><a name="R4"><span class="kw">pred</span> </a><font color="Maroon" title="c3">B</font> <span title="YELLOW_4:pred.4" data-link="7848.html#ELM30303">is_coarser_than</span> <font color="Maroon" title="c2">A</font>;<br><span class="kw">reflexivity</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

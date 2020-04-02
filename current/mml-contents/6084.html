@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>global_overlapping</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func global_overlapping</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='6084.html#ELM18378'>global_overlapping</span> [<span data-href='nomin_1.html#K16'>nomin_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM18378'>
+<h2>1.   <span data-link='6084.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='nomin_1.html#K16'>nomin_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">V</font>, <font color="Maroon" title="c2">A</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">d1</font>, <font color="Maroon" title="c4">d2</font> be    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span> ;<br><span class="kw">assume </span><span class="kw">that </span><br><a name="E1:93"></a><span class="lab"><font color="Green" title="E52">A1</font></span>: 
+<font color="Maroon" title="c3">d1</font> is    <span title="NOMIN_1:mode.2" data-link="6073.html#ELM18361">TypeSCNominativeData</span> of <font color="Maroon" title="c1">V</font>,<font color="Maroon" title="c2">A</font>
+ <span class="kw">and </span><br><a name="E2:93"></a><span class="lab"><font color="Green" title="E53">A2</font></span>: 
+<font color="Maroon" title="c4">d2</font> is    <span title="NOMIN_1:mode.2" data-link="6073.html#ELM18361">TypeSCNominativeData</span> of <font color="Maroon" title="c1">V</font>,<font color="Maroon" title="c2">A</font>
+ ;<br><div about="#D52" typeof="oo:Definition" class="main-sentence">
+<a name="K16"><span class="kw">func</span> </a> <span title="NOMIN_1:func.16" data-link="6084.html#ELM18378">global_overlapping</span> (<font color="Maroon" title="c1">V</font>,<font color="Maroon" title="c2">A</font>,<font color="Maroon" title="c3">d1</font>,<font color="Maroon" title="c4">d2</font>)<span class="kw"> -&gt; </span>   <span title="NOMIN_1:mode.2" data-link="6073.html#ELM18361">TypeSCNominativeData</span> of <font color="Maroon" title="c1">V</font>,<font color="Maroon" title="c2">A</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E52">Def16</font></span>: <a name="D16"><span class="comment"><font color="firebrick">:: NOMIN_1:def 16</font></span><br></a> ex <font color="Olive" title="b1">f1</font>, <font color="Olive" title="b2">f2</font> being   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span> st <br>( <font color="Olive" title="b1">f1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">d1</font> &amp; <font color="Olive" title="b2">f2</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c4">d2</font> &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b2">f2</font> <span title="XBOOLE_0:func.2" data-link="1743.html#ELM29649">\/</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">f1</font> <span title="RELAT_1:func.5" data-link="909.html#ELM22391">|</span> <span class="p2">(<span class="default"><span class="p3">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Olive" title="b1">f1</font></span>)</span> <span title="SUBSET_1:func.6" data-link="724.html#ELM25875">\</span> <span class="p3">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Olive" title="b2">f2</font></span>)</span></span>)</span></span>)</span> )<span class="kw"> if </span>(  not <font color="Maroon" title="c3">d1</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c2">A</font> &amp;  not <font color="Maroon" title="c4">d2</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c2">A</font> )<br><span class="kw"> otherwise </span><span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c4">d2</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <br><span class="kw">consistency</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  global_overlapping (V,A,d1,d2) ->  Relation-like   Function-like  ;
+</td><td><span data-href='nomin_2.html#FC4'>nomin_2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

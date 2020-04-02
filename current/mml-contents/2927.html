@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>xnot</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func xnot</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='2927.html#ELM8093'>xnot</span> [<span data-href='fomodel2.html#K35'>fomodel2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM8093'>
+<h2>1.   <span data-link='2927.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fomodel2.html#K35'>fomodel2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   <span title="FOMODEL1:NM.2" data-link="744.html#ELM7902">Language</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">w</font> be   <span title="FOMODEL1:NM.3" data-link="2876.html#ELM7903">string</span> of <font color="Maroon" title="c1">S</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K35"><span class="kw">func</span> </a> <span title="FOMODEL2:func.35" data-link="2927.html#ELM8093">xnot</span> <font color="Maroon" title="c2">w</font><span class="kw"> -&gt; </span>  <span title="FOMODEL1:NM.3" data-link="2876.html#ELM7903">string</span> of <font color="Maroon" title="c1">S</font><span class="kw"> equals </span><a name="D33"><span class="comment"><font color="firebrick">:: FOMODEL2:def 33</font></span><br></a><span class="p1">(<span class="default"><span class="p2"><span title="FOMODEL1:func.43" data-link="669.html#ELM7946">&lt;*</span><span class="default"><span class="p3">(<span class="default"><span title="FOMODEL2:func.1" data-link="2884.html#ELM8058">TheNorSymbOf</span> <font color="Maroon" title="c1">S</font></span>)</span></span><span title="FOMODEL1:func.43" data-link="669.html#ELM7946">*&gt;</span></span> <span title="FOMODEL1:func.42" data-link="235.html#ELM7945">^</span> <font color="Maroon" title="c2">w</font></span>)</span> <span title="FOMODEL1:func.42" data-link="235.html#ELM7945">^</span> <font color="Maroon" title="c2">w</font>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  xnot phi -> m + 1 -wff   for  string of S;
+</td><td><span data-href='fomodel2.html#FC44'>fomodel2</span></td></tr>
+<tr><td>
+cluster  xnot phi ->  wff   for  string of S;
+</td><td><span data-href='fomodel2.html#FC45'>fomodel2</span></td></tr>
+<tr><td>
+cluster (I -TruthEval (xnot phi)) \+\ ('not' (I -TruthEval phi)) ->  empty   for   set ;
+</td><td><span data-href='fomodel2.html#FC67'>fomodel2</span></td></tr>
+<tr><td>
+cluster [(H null (phi1 ^ phi2)),(xnot phi)] -> 1,{[(H \/ {phi}),phi1],[(H \/ {phi}),((<*(TheNorSymbOf S)*> ^ phi1) ^ phi2)]},{(R#8 S)} -derivable   for   object ;
+</td><td><span data-href='fomodel4.html#FC46'>fomodel4</span></td></tr>
+<tr><td>
+cluster [(H null phi2),(xnot phi1)] -> 2,{[H,((<*(TheNorSymbOf S)*> ^ phi1) ^ phi2)]},({(R#0 S)} \/ {(R#1 S)}) \/ {(R#8 S)} -derivable  ;
+</td><td><span data-href='fomodel4.html#FC53'>fomodel4</span></td></tr>
+<tr><td>
+cluster [(H null phi1),(xnot phi2)] -> 3,{[H,((<*(TheNorSymbOf S)*> ^ phi1) ^ phi2)]},(({(R#0 S)} \/ {(R#1 S)}) \/ {(R#8 S)}) \/ {(R#7 S)} -derivable   for   object ;
+</td><td><span data-href='fomodel4.html#FC54'>fomodel4</span></td></tr>
+<tr><td>
+cluster [{(xnot phi1),(xnot phi2)},((<*(TheNorSymbOf S)*> ^ phi1) ^ phi2)] -> 1,{[{(xnot phi1),(xnot phi2)},(xnot phi1)],[{(xnot phi1),(xnot phi2)},(xnot phi2)]},{(R#6 S)} -derivable   for   object ;
+</td><td><span data-href='fomodel4.html#FC55'>fomodel4</span></td></tr>
+<tr><td>
+cluster (<*(TheNorSymbOf S)*> ^ phi1) ^ phi2 -> {(xnot phi1),(xnot phi2)},{(R#0 S)} \/ {(R#6 S)} -provable   for   set ;
+</td><td><span data-href='fomodel4.html#FC60'>fomodel4</span></td></tr>
+<tr><td>
+cluster [H,phi] null 1 -> 1,{[H,(xnot (xnot phi))]},{(R#9 S)} -derivable   for   set ;
+</td><td><span data-href='fomodel4.html#FC79'>fomodel4</span></td></tr>
+<tr><td>
+cluster  xnot (xnot phi) ->  wff  X -implied   for  wff  string of S;
+</td><td><span data-href='fomodel4.html#FC80'>fomodel4</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

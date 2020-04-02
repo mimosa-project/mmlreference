@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>ContMaps</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func ContMaps</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='8681.html#ELM28917'>ContMaps</span> [<span data-href='waybel24.html#K3'>waybel24</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM28917'>
+<h2>1.   <span data-link='8681.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='waybel24.html#K3'>waybel24</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be    <span title="PRE_TOPC:struct.1" data-link="6937.html#ELM21123">TopStruct</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">T</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="WAYBEL_9:struct.1" data-link="8828.html#ELM29531">TopRelStr</span> ;<br><div about="#D13" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="WAYBEL24:func.3" data-link="8681.html#ELM28917">ContMaps</span> (<font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">T</font>)<span class="kw"> -&gt; </span>  <span title="ORDERS_2:attr.1" data-href="orders_2.html#V1">strict</span>   <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E13">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: WAYBEL24:def 3</font></span><br></a>( <span class="kw">it</span> is   <span title="YELLOW_0:attr.4" data-link="434.html#ELM30203">full</span>   <span title="YELLOW_0:mode.1" data-link="8903.html#ELM30189">SubRelStr</span> of <font color="Maroon" title="c2">T</font> <span title="YELLOW_1:func.5" data-link="634.html#ELM30231">|^</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">S</font> &amp; (  for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>  holds <br> ( <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <span class="kw">it</span> iff  ex <font color="Olive" title="b2">f</font> being   <span title="STRUCT_0:NM.6" data-link="3155.html#ELM25752">Function</span> of <font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">T</font> st <br>( <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b2">f</font> &amp; <font color="Olive" title="b2">f</font> is  <span title="PRE_TOPC:attr.5" data-link="1206.html#ELM21132">continuous</span>  ) ) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  ContMaps (S,T) ->  non  empty   strict  ;
+</td><td><span data-href='waybel24.html#FC6'>waybel24</span></td></tr>
+<tr><td>
+cluster  ContMaps (S,T) ->  constituted-Functions   strict  ;
+</td><td><span data-href='waybel24.html#FC7'>waybel24</span></td></tr>
+<tr><td>
+cluster  ContMaps (S,T) ->  strict   reflexive  ;
+</td><td><span data-href='waybel24.html#FC8'>waybel24</span></td></tr>
+<tr><td>
+cluster  ContMaps (S,T) ->  strict   transitive  ;
+</td><td><span data-href='waybel24.html#FC9'>waybel24</span></td></tr>
+<tr><td>
+cluster  ContMaps (S,T) ->  strict   antisymmetric  ;
+</td><td><span data-href='waybel24.html#FC10'>waybel24</span></td></tr>
+<tr><td>
+cluster  ContMaps (S,T) ->  strict   complete  ;
+</td><td><span data-href='waybel24.html#FC13'>waybel24</span></td></tr>
+<tr><td>
+cluster  commute (N,x,(Omega Y)) ->  strict   eventually-directed  ;
+</td><td><span data-href='waybel25.html#FC13'>waybel25</span></td></tr>
+<tr><td>
+cluster  non  empty   transitive   directed   ->  Function-yielding   for    NetStr over  ContMaps (X,(Omega Y));
+</td><td><span data-href='waybel25.html#CC5'>waybel25</span></td></tr>
+<tr><td>
+cluster  ContMaps (X,L) ->  up-complete  ;
+</td><td><span data-href='waybel29.html#FC1'>waybel29</span></td></tr>
+<tr><td>
+cluster  ContMaps (X,L) ->  lower-bounded  ;
+</td><td><span data-href='waybel29.html#FC3'>waybel29</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

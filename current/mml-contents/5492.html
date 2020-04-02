@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>the_left_argument_of</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func the_left_argument_of</h1>
+<h2>List of Definitions (4)</h2>
+<ol>
+<li><span data-link='5492.html#ELM16182'>the_left_argument_of</span> [<span data-href='modelc_1.html#K15'>modelc_1</span>]</li>
+<li><span data-link='5492.html#ELM16280'>the_left_argument_of</span> [<span data-href='modelc_2.html#K11'>modelc_2</span>]</li>
+<li><span data-link='5492.html#ELM21596'>the_left_argument_of</span> [<span data-href='qc_lang1.html#K19'>qc_lang1</span>]</li>
+<li><span data-link='5492.html#ELM30521'>the_left_argument_of</span> [<span data-href='zf_lang.html#K20'>zf_lang</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM16182'>
+<h2>1.   <span data-link='5492.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='modelc_1.html#K15'>modelc_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">H</font> be   <span title="MODELC_1:NM.1" data-link="5477.html#ELM16164">CTL-formula</span>;<br><span class="kw">assume </span><a name="E1:35"></a><span class="lab"><font color="Green" title="E29">A1</font></span>: 
+( <font color="Maroon" title="c1">H</font> is  <span title="MODELC_1:attr.4" data-link="3995.html#ELM16235">conjunctive</span>  or <font color="Maroon" title="c1">H</font> is  <span title="MODELC_1:attr.7" data-link="5538.html#ELM16238">ExistUntill</span>  )
+ ;<br><div about="#D29" typeof="oo:Definition" class="main-sentence">
+<a name="K15"><span class="kw">func</span> </a> <span title="MODELC_1:func.15" data-link="5492.html#ELM16182">the_left_argument_of</span> <font color="Maroon" title="c1">H</font><span class="kw"> -&gt; </span>  <span title="MODELC_1:NM.1" data-link="5477.html#ELM16164">CTL-formula</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E29">Def22</font></span>: <a name="D22"><span class="comment"><font color="firebrick">:: MODELC_1:def 22</font></span><br></a> ex <font color="Olive" title="b1">H1</font> being   <span title="MODELC_1:NM.1" data-link="5477.html#ELM16164">CTL-formula</span> st <span class="kw">it</span> <span title="MODELC_1:func.8" data-link="799.html#ELM16175">'&amp;'</span> <font color="Olive" title="b1">H1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">H</font><span class="kw"> if </span><font color="Maroon" title="c1">H</font> is  <span title="MODELC_1:attr.4" data-link="3995.html#ELM16235">conjunctive</span> <br><span class="kw"> otherwise </span> ex <font color="Olive" title="b1">H1</font> being   <span title="MODELC_1:NM.1" data-link="5477.html#ELM16164">CTL-formula</span> st <span class="kw">it</span> <span title="MODELC_1:func.11" data-link="5489.html#ELM16178">EU</span> <font color="Olive" title="b1">H1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">H</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E29">A1</font></span></span>;<br><span class="kw">uniqueness</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E21">Lm12</font></span><span class="lab"><font color="Green" title="E22">Lm13</font></span></span>;<br><span class="kw">consistency</span> <br><div about="#D30" typeof="oo:Definition">
+<a name="K16"><span class="kw">func</span> </a> <span title="MODELC_1:func.16" data-link="5493.html#ELM16183">the_right_argument_of</span> <font color="Maroon" title="c1">H</font><span class="kw"> -&gt; </span>  <span title="MODELC_1:NM.1" data-link="5477.html#ELM16164">CTL-formula</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E30">Def23</font></span>: <a name="D23"><span class="comment"><font color="firebrick">:: MODELC_1:def 23</font></span><br></a> ex <font color="Olive" title="b1">H1</font> being   <span title="MODELC_1:NM.1" data-link="5477.html#ELM16164">CTL-formula</span> st <font color="Olive" title="b1">H1</font> <span title="MODELC_1:func.8" data-link="799.html#ELM16175">'&amp;'</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">H</font><span class="kw"> if </span><font color="Maroon" title="c1">H</font> is  <span title="MODELC_1:attr.4" data-link="3995.html#ELM16235">conjunctive</span> <br><span class="kw"> otherwise </span> ex <font color="Olive" title="b1">H1</font> being   <span title="MODELC_1:NM.1" data-link="5477.html#ELM16164">CTL-formula</span> st <font color="Olive" title="b1">H1</font> <span title="MODELC_1:func.11" data-link="5489.html#ELM16178">EU</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">H</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E29">A1</font></span></span>;<br><span class="kw">uniqueness</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E21">Lm12</font></span><span class="lab"><font color="Green" title="E22">Lm13</font></span></span>;<br><span class="kw">consistency</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM16280'>
+<h2>2.   <span data-link='5492.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='modelc_2.html#K11'>modelc_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">H</font> be   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span>;<br><span class="kw">assume </span><a name="E1:35"></a><span class="lab"><font color="Green" title="E29">A1</font></span>: 
+( <font color="Maroon" title="c1">H</font> is  <span title="MODELC_2:attr.4" data-link="3995.html#ELM16324">conjunctive</span>  or <font color="Maroon" title="c1">H</font> is  <span title="MODELC_2:attr.5" data-link="5567.html#ELM16325">disjunctive</span>  or <font color="Maroon" title="c1">H</font> is  <span title="MODELC_2:attr.7" data-link="5569.html#ELM16327">Until</span>  or <font color="Maroon" title="c1">H</font> is  <span title="MODELC_2:attr.8" data-link="5570.html#ELM16328">Release</span>  )
+ ;<br><div about="#D29" typeof="oo:Definition" class="main-sentence">
+<a name="K11"><span class="kw">func</span> </a> <span title="MODELC_2:func.11" data-link="5492.html#ELM16280">the_left_argument_of</span> <font color="Maroon" title="c1">H</font><span class="kw"> -&gt; </span>  <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E29">Def19</font></span>: <a name="D19"><span class="comment"><font color="firebrick">:: MODELC_2:def 19</font></span><br></a> ex <font color="Olive" title="b1">H1</font> being   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span> st <span class="kw">it</span> <span title="MODELC_2:func.4" data-link="799.html#ELM16273">'&amp;'</span> <font color="Olive" title="b1">H1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">H</font><span class="kw"> if </span><font color="Maroon" title="c1">H</font> is  <span title="MODELC_2:attr.4" data-link="3995.html#ELM16324">conjunctive</span> <br> ex <font color="Olive" title="b1">H1</font> being   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span> st <span class="kw">it</span> <span title="MODELC_2:func.5" data-link="1107.html#ELM16274">'or'</span> <font color="Olive" title="b1">H1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">H</font><span class="kw"> if </span><font color="Maroon" title="c1">H</font> is  <span title="MODELC_2:attr.5" data-link="5567.html#ELM16325">disjunctive</span> <br> ex <font color="Olive" title="b1">H1</font> being   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span> st <span class="kw">it</span> <span title="MODELC_2:func.7" data-link="4943.html#ELM16276">'U'</span> <font color="Olive" title="b1">H1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">H</font><span class="kw"> if </span><font color="Maroon" title="c1">H</font> is  <span title="MODELC_2:attr.7" data-link="5569.html#ELM16327">Until</span> <br><span class="kw"> otherwise </span> ex <font color="Olive" title="b1">H1</font> being   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span> st <span class="kw">it</span> <span title="MODELC_2:func.8" data-link="4950.html#ELM16277">'R'</span> <font color="Olive" title="b1">H1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">H</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E29">A1</font></span></span>;<br><span class="kw">uniqueness</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E18">Lm12</font></span><span class="lab"><font color="Green" title="E19">Lm13</font></span><span class="lab"><font color="Green" title="E20">Lm14</font></span><span class="lab"><font color="Green" title="E21">Lm15</font></span></span>;<br><span class="kw">consistency</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E23">Lm17</font></span><span class="lab"><font color="Green" title="E24">Lm18</font></span></span>;<br><div about="#D30" typeof="oo:Definition">
+<a name="K12"><span class="kw">func</span> </a> <span title="MODELC_2:func.12" data-link="5493.html#ELM16281">the_right_argument_of</span> <font color="Maroon" title="c1">H</font><span class="kw"> -&gt; </span>  <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E30">Def20</font></span>: <a name="D20"><span class="comment"><font color="firebrick">:: MODELC_2:def 20</font></span><br></a> ex <font color="Olive" title="b1">H1</font> being   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span> st <font color="Olive" title="b1">H1</font> <span title="MODELC_2:func.4" data-link="799.html#ELM16273">'&amp;'</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">H</font><span class="kw"> if </span><font color="Maroon" title="c1">H</font> is  <span title="MODELC_2:attr.4" data-link="3995.html#ELM16324">conjunctive</span> <br> ex <font color="Olive" title="b1">H1</font> being   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span> st <font color="Olive" title="b1">H1</font> <span title="MODELC_2:func.5" data-link="1107.html#ELM16274">'or'</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">H</font><span class="kw"> if </span><font color="Maroon" title="c1">H</font> is  <span title="MODELC_2:attr.5" data-link="5567.html#ELM16325">disjunctive</span> <br> ex <font color="Olive" title="b1">H1</font> being   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span> st <font color="Olive" title="b1">H1</font> <span title="MODELC_2:func.7" data-link="4943.html#ELM16276">'U'</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">H</font><span class="kw"> if </span><font color="Maroon" title="c1">H</font> is  <span title="MODELC_2:attr.7" data-link="5569.html#ELM16327">Until</span> <br><span class="kw"> otherwise </span> ex <font color="Olive" title="b1">H1</font> being   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span> st <font color="Olive" title="b1">H1</font> <span title="MODELC_2:func.8" data-link="4950.html#ELM16277">'R'</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">H</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E29">A1</font></span></span>;<br><span class="kw">uniqueness</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E18">Lm12</font></span><span class="lab"><font color="Green" title="E19">Lm13</font></span><span class="lab"><font color="Green" title="E20">Lm14</font></span><span class="lab"><font color="Green" title="E21">Lm15</font></span></span>;<br><span class="kw">consistency</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E24">Lm18</font></span><span class="lab"><font color="Green" title="E26">Lm20</font></span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM21596'>
+<h2>3.   <span data-link='5492.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='qc_lang1.html#K19'>qc_lang1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be    <span title="QC_LANG1:mode.1" data-link="7084.html#ELM21567">QC-alphabet</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">F</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="QC_LANG1:func.9" data-link="7100.html#ELM21586">QC-WFF</span> <font color="Maroon" title="c1">A</font>;<br><span class="kw">assume </span><a name="E1:47"></a><span class="lab"><font color="Green" title="E27">A1</font></span>: 
+<font color="Maroon" title="c2">F</font> is  <span title="QC_LANG1:attr.4" data-link="3995.html#ELM21612">conjunctive</span> 
+ ;<br><div about="#D27" typeof="oo:Definition" class="main-sentence">
+<a name="K19"><span class="kw">func</span> </a> <span title="QC_LANG1:func.19" data-link="5492.html#ELM21596">the_left_argument_of</span> <font color="Maroon" title="c2">F</font><span class="kw"> -&gt; </span>  <span title="QC_LANG1:NM.10" data-link="7092.html#ELM21576">QC-formula</span> of <font color="Maroon" title="c1">A</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E27">Def25</font></span>: <a name="D25"><span class="comment"><font color="firebrick">:: QC_LANG1:def 25</font></span><br></a> ex <font color="Olive" title="b1">q</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="QC_LANG1:func.9" data-link="7100.html#ELM21586">QC-WFF</span> <font color="Maroon" title="c1">A</font> st <font color="Maroon" title="c2">F</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="kw">it</span> <span title="QC_LANG1:func.14" data-link="799.html#ELM21591">'&amp;'</span> <font color="Olive" title="b1">q</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E27">A1</font></span></span>;<br><span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM30521'>
+<h2>4.   <span data-link='5492.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='zf_lang.html#K20'>zf_lang</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">H</font> be   <span title="ZF_LANG:NM.2" data-link="8963.html#ELM30501">ZF-formula</span>;<br><span class="kw">assume </span><a name="E1:51"></a><span class="lab"><font color="Green" title="E29">A1</font></span>: 
+( <font color="Maroon" title="c1">H</font> is  <span title="ZF_LANG:attr.5" data-link="3995.html#ELM30534">conjunctive</span>  or <font color="Maroon" title="c1">H</font> is  <span title="ZF_LANG:attr.8" data-link="5567.html#ELM30537">disjunctive</span>  )
+ ;<br><div about="#D29" typeof="oo:Definition" class="main-sentence">
+<a name="K20"><span class="kw">func</span> </a> <span title="ZF_LANG:func.20" data-link="5492.html#ELM30521">the_left_argument_of</span> <font color="Maroon" title="c1">H</font><span class="kw"> -&gt; </span>  <span title="ZF_LANG:NM.2" data-link="8963.html#ELM30501">ZF-formula</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E29">Def31</font></span>: <a name="D31"><span class="comment"><font color="firebrick">:: ZF_LANG:def 31</font></span><br></a> ex <font color="Olive" title="b1">H1</font> being   <span title="ZF_LANG:NM.2" data-link="8963.html#ELM30501">ZF-formula</span> st <span class="kw">it</span> <span title="ZF_LANG:func.6" data-link="799.html#ELM30507">'&amp;'</span> <font color="Olive" title="b1">H1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">H</font><span class="kw"> if </span><font color="Maroon" title="c1">H</font> is  <span title="ZF_LANG:attr.5" data-link="3995.html#ELM30534">conjunctive</span> <br><span class="kw"> otherwise </span> ex <font color="Olive" title="b1">H1</font> being   <span title="ZF_LANG:NM.2" data-link="8963.html#ELM30501">ZF-formula</span> st <span class="kw">it</span> <span title="ZF_LANG:func.9" data-link="1107.html#ELM30510">'or'</span> <font color="Olive" title="b1">H1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">H</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E29">A1</font></span></span>;<br><span class="kw">uniqueness</span> <span class="kw">by</span> <span class="lab"><span class="ref" target="_self" onmouseover="rs('zf_lang/T30')" onmouseout="rh()" data-href="zf_lang.html#T30">Th30</span>, <span class="ref" target="_self" onmouseover="rs('zf_lang/T31')" onmouseout="rh()" data-href="zf_lang.html#T31">Th31</span></span>;<br><span class="kw">consistency</span> <br><div about="#D30" typeof="oo:Definition">
+<a name="K21"><span class="kw">func</span> </a> <span title="ZF_LANG:func.21" data-link="5493.html#ELM30522">the_right_argument_of</span> <font color="Maroon" title="c1">H</font><span class="kw"> -&gt; </span>  <span title="ZF_LANG:NM.2" data-link="8963.html#ELM30501">ZF-formula</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E30">Def32</font></span>: <a name="D32"><span class="comment"><font color="firebrick">:: ZF_LANG:def 32</font></span><br></a> ex <font color="Olive" title="b1">H1</font> being   <span title="ZF_LANG:NM.2" data-link="8963.html#ELM30501">ZF-formula</span> st <font color="Olive" title="b1">H1</font> <span title="ZF_LANG:func.6" data-link="799.html#ELM30507">'&amp;'</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">H</font><span class="kw"> if </span><font color="Maroon" title="c1">H</font> is  <span title="ZF_LANG:attr.5" data-link="3995.html#ELM30534">conjunctive</span> <br><span class="kw"> otherwise </span> ex <font color="Olive" title="b1">H1</font> being   <span title="ZF_LANG:NM.2" data-link="8963.html#ELM30501">ZF-formula</span> st <font color="Olive" title="b1">H1</font> <span title="ZF_LANG:func.9" data-link="1107.html#ELM30510">'or'</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">H</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E29">A1</font></span></span>;<br><span class="kw">uniqueness</span> <span class="kw">by</span> <span class="lab"><span class="ref" target="_self" onmouseover="rs('zf_lang/T30')" onmouseout="rh()" data-href="zf_lang.html#T30">Th30</span>, <span class="ref" target="_self" onmouseover="rs('zf_lang/T31')" onmouseout="rh()" data-href="zf_lang.html#T31">Th31</span></span>;<br><span class="kw">consistency</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

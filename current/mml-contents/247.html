@@ -1,0 +1,298 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>/^</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func /^</h1>
+<h2>List of Definitions (7)</h2>
+<ol>
+<li><span data-link='247.html#ELM579'>/^</span> [<span data-href='afinsq_2.html#K2'>afinsq_2</span>]</li>
+<li><span data-link='247.html#ELM14718'>/^</span> [<span data-href='matrixj1.html#K7'>matrixj1</span>]</li>
+<li><span data-link='247.html#ELM14730'>/^</span> [<span data-href='matrixj1.html#K19'>matrixj1</span>]</li>
+<li><span data-link='247.html#ELM14751'>/^</span> [<span data-href='matrixj2.html#K5'>matrixj2</span>]</li>
+<li><span data-link='247.html#ELM14754'>/^</span> [<span data-href='matrixj2.html#K8'>matrixj2</span>]</li>
+<li><span data-link='247.html#ELM22634'>/^</span> [<span data-href='rfinseq.html#K1'>rfinseq</span>]</li>
+<li><span data-link='247.html#ELM22635'>/^</span> [<span data-href='rfinseq.html#K2'>rfinseq</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM579'>
+<h2>1.   <span data-link='247.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='afinsq_2.html#K2'>afinsq_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">p</font> be   <span title="AFINSQ_1:NM.1" data-link="231.html#ELM494">XFinSequence</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><div about="#D8" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a><font color="Maroon" title="c1">p</font> <span title="AFINSQ_2:func.2" data-link="247.html#ELM579">/^</span> <font color="Maroon" title="c2">n</font><span class="kw"> -&gt; </span>  <span title="AFINSQ_1:NM.1" data-link="231.html#ELM494">XFinSequence</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E8">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: AFINSQ_2:def 2</font></span><br></a>(  <span title="AFINSQ_1:func.1" data-link="232.html#ELM497">len</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span title="AFINSQ_1:func.1" data-link="232.html#ELM497">len</span> <font color="Maroon" title="c1">p</font></span>)</span> <span title="NAT_D:func.7" data-link="497.html#ELM17598">-'</span> <font color="Maroon" title="c2">n</font> &amp; (  for <font color="Olive" title="b1">m</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b1">m</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <span class="kw">it</span> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">m</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c1">p</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">m</font> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> <font color="Maroon" title="c2">n</font></span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster f /^ n ->  one-to-one  ;
+</td><td><span data-href='afinsq_2.html#FC25'>afinsq_2</span></td></tr>
+<tr><td>
+cluster f /^ ((dom f) + n) ->  empty  ;
+</td><td><span data-href='afinsq_2.html#FC27'>afinsq_2</span></td></tr>
+<tr><td>
+cluster f /^ n -> D -valued  ;
+</td><td><span data-href='afinsq_2.html#FC28'>afinsq_2</span></td></tr>
+<tr><td>
+cluster A /^ n ->  Ordinal-yielding  ;
+</td><td><span data-href='afinsq_2.html#FC41'>afinsq_2</span></td></tr>
+<tr><td>
+cluster A /^ n ->  Cantor-normal-form  ;
+</td><td><span data-href='ordinal7.html#FC9'>ordinal7</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-reduce'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>reduce</th></tr></thead>
+<tbody>
+<tr><td>
+reduce (f | n) ^ (f /^ n) to f;
+</td><td><span data-href='afinsq_2.html#RD2'>afinsq_2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM14718'>
+<h2>2.   <span data-link='247.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='matrixj1.html#K7'>matrixj1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">D</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">F</font> be   <span title="MATRIXJ1:NM.1" data-link="5106.html#ELM14708">FinSequence_of_Matrix</span> of <font color="Maroon" title="c1">D</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="FINSEQ_1:func.16" data-link="909.html#ELM7109">|</span><br><span class="kw">redefine </span><a name="K6"><span class="kw">func</span> </a><font color="Maroon" title="c3">F</font> <span title="MATRIXJ1:func.6" data-link="909.html#ELM14717">|</span> <font color="Maroon" title="c2">n</font><span class="kw"> -&gt; </span>  <span title="MATRIXJ1:NM.1" data-link="5106.html#ELM14708">FinSequence_of_Matrix</span> of <font color="Maroon" title="c1">D</font>;<br><span class="kw">coherence</span> <span class="comment"><font color="firebrick">:: original: </font></span><span title="RFINSEQ:func.1" data-link="247.html#ELM22634">/^</span><br><span class="kw">redefine </span><a name="K7"><span class="kw">func</span> </a><font color="Maroon" title="c3">F</font> <span title="MATRIXJ1:func.7" data-link="247.html#ELM14718">/^</span> <font color="Maroon" title="c2">n</font><span class="kw"> -&gt; </span>  <span title="MATRIXJ1:NM.1" data-link="5106.html#ELM14708">FinSequence_of_Matrix</span> of <font color="Maroon" title="c1">D</font>;<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM14730'>
+<h2>3.   <span data-link='247.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='matrixj1.html#K19'>matrixj1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">D</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">S</font> be   <span title="MATRIXJ1:NM.3" data-link="5107.html#ELM14710">FinSequence_of_Square-Matrix</span> of <font color="Maroon" title="c1">D</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="FINSEQ_1:func.16" data-link="909.html#ELM7109">|</span><br><span class="kw">redefine </span><a name="K18"><span class="kw">func</span> </a><font color="Maroon" title="c3">S</font> <span title="MATRIXJ1:func.18" data-link="909.html#ELM14729">|</span> <font color="Maroon" title="c2">n</font><span class="kw"> -&gt; </span>  <span title="MATRIXJ1:NM.3" data-link="5107.html#ELM14710">FinSequence_of_Square-Matrix</span> of <font color="Maroon" title="c1">D</font>;<br><span class="kw">coherence</span> <span class="comment"><font color="firebrick">:: original: </font></span><span title="RFINSEQ:func.1" data-link="247.html#ELM22634">/^</span><br><span class="kw">redefine </span><a name="K19"><span class="kw">func</span> </a><font color="Maroon" title="c3">S</font> <span title="MATRIXJ1:func.19" data-link="247.html#ELM14730">/^</span> <font color="Maroon" title="c2">n</font><span class="kw"> -&gt; </span>  <span title="MATRIXJ1:NM.3" data-link="5107.html#ELM14710">FinSequence_of_Square-Matrix</span> of <font color="Maroon" title="c1">D</font>;<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM14751'>
+<h2>4.   <span data-link='247.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='matrixj2.html#K5'>matrixj2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">K</font> be   <span title="VECTSP_1:NM.5" data-link="4666.html#ELM28502">Field</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">J</font> be   <span title="MATRIXJ2:NM.1" data-link="5113.html#ELM14745">FinSequence_of_Jordan_block</span> of <font color="Maroon" title="c1">K</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="FINSEQ_1:func.16" data-link="909.html#ELM7109">|</span><br><span class="kw">redefine </span><a name="K4"><span class="kw">func</span> </a><font color="Maroon" title="c3">J</font> <span title="MATRIXJ2:func.4" data-link="909.html#ELM14750">|</span> <font color="Maroon" title="c2">n</font><span class="kw"> -&gt; </span>  <span title="MATRIXJ2:NM.1" data-link="5113.html#ELM14745">FinSequence_of_Jordan_block</span> of <font color="Maroon" title="c1">K</font>;<br><span class="kw">coherence</span> <span class="comment"><font color="firebrick">:: original: </font></span><span title="RFINSEQ:func.1" data-link="247.html#ELM22634">/^</span><br><span class="kw">redefine </span><a name="K5"><span class="kw">func</span> </a><font color="Maroon" title="c3">J</font> <span title="MATRIXJ2:func.5" data-link="247.html#ELM14751">/^</span> <font color="Maroon" title="c2">n</font><span class="kw"> -&gt; </span>  <span title="MATRIXJ2:NM.1" data-link="5113.html#ELM14745">FinSequence_of_Jordan_block</span> of <font color="Maroon" title="c1">K</font>;<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM14754'>
+<h2>5.   <span data-link='247.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='matrixj2.html#K8'>matrixj2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">K</font> be   <span title="VECTSP_1:NM.5" data-link="4666.html#ELM28502">Field</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">L</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">K</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c4">J</font> be    <span title="MATRIXJ2:mode.1" data-link="5113.html#ELM14746">FinSequence_of_Jordan_block</span> of <font color="Maroon" title="c2">L</font>,<font color="Maroon" title="c1">K</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="FINSEQ_1:func.16" data-link="909.html#ELM7109">|</span><br><span class="kw">redefine </span><a name="K7"><span class="kw">func</span> </a><font color="Maroon" title="c4">J</font> <span title="MATRIXJ2:func.7" data-link="909.html#ELM14753">|</span> <font color="Maroon" title="c3">n</font><span class="kw"> -&gt; </span>   <span title="MATRIXJ2:mode.1" data-link="5113.html#ELM14746">FinSequence_of_Jordan_block</span> of <font color="Maroon" title="c2">L</font>,<font color="Maroon" title="c1">K</font>;<br><span class="kw">coherence</span> <span class="comment"><font color="firebrick">:: original: </font></span><span title="RFINSEQ:func.1" data-link="247.html#ELM22634">/^</span><br><span class="kw">redefine </span><a name="K8"><span class="kw">func</span> </a><font color="Maroon" title="c4">J</font> <span title="MATRIXJ2:func.8" data-link="247.html#ELM14754">/^</span> <font color="Maroon" title="c3">n</font><span class="kw"> -&gt; </span>   <span title="MATRIXJ2:mode.1" data-link="5113.html#ELM14746">FinSequence_of_Jordan_block</span> of <font color="Maroon" title="c2">L</font>,<font color="Maroon" title="c1">K</font>;<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM22634'>
+<h2>6.   <span data-link='247.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rfinseq.html#K1'>rfinseq</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be   <span title="FINSEQ_1:NM.1" data-link="27.html#ELM7089">FinSequence</span>;<br><div about="#D6" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a><font color="Maroon" title="c2">f</font> <span title="RFINSEQ:func.1" data-link="247.html#ELM22634">/^</span> <font color="Maroon" title="c1">n</font><span class="kw"> -&gt; </span>  <span title="FINSEQ_1:NM.1" data-link="27.html#ELM7089">FinSequence</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E6">Def1</font></span>: <a name="D1"><span class="comment"><font color="firebrick">:: RFINSEQ:def 1</font></span><br></a>(  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c2">f</font></span>)</span> <span title="XCMPLX_0:func.6" data-link="327.html#ELM29691">-</span> <font color="Maroon" title="c1">n</font> &amp; (  for <font color="Olive" title="b1">m</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b1">m</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="FINSEQ_1:func.4" data-link="41.html#ELM7097">dom</span> <span class="kw">it</span> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">m</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">f</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">m</font> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> <font color="Maroon" title="c1">n</font></span>)</span> ) )<span class="kw"> if </span><font color="Maroon" title="c1">n</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c2">f</font><br><span class="kw"> otherwise </span><span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span> ;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <span class="kw">consistency</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster f /^ i ->  one-to-one  ;
+</td><td><span data-href='finseq_5.html#FC4'>finseq_5</span></td></tr>
+<tr><td>
+cluster p /^ n ->  Graph-yielding  ;
+</td><td><span data-href='glib_008.html#FC48'>glib_008</span></td></tr>
+<tr><td>
+cluster p /^ n ->  finite  ;
+</td><td><span data-href='glib_008.html#FC52'>glib_008</span></td></tr>
+<tr><td>
+cluster p /^ n ->  loopless  ;
+</td><td><span data-href='glib_008.html#FC56'>glib_008</span></td></tr>
+<tr><td>
+cluster p /^ n ->  trivial  ;
+</td><td><span data-href='glib_008.html#FC60'>glib_008</span></td></tr>
+<tr><td>
+cluster p /^ n ->  non-trivial  ;
+</td><td><span data-href='glib_008.html#FC64'>glib_008</span></td></tr>
+<tr><td>
+cluster p /^ n ->  non-multi  ;
+</td><td><span data-href='glib_008.html#FC68'>glib_008</span></td></tr>
+<tr><td>
+cluster p /^ n ->  non-Dmulti  ;
+</td><td><span data-href='glib_008.html#FC72'>glib_008</span></td></tr>
+<tr><td>
+cluster p /^ n ->  simple  ;
+</td><td><span data-href='glib_008.html#FC76'>glib_008</span></td></tr>
+<tr><td>
+cluster p /^ n ->  Dsimple  ;
+</td><td><span data-href='glib_008.html#FC80'>glib_008</span></td></tr>
+<tr><td>
+cluster p /^ n ->  connected  ;
+</td><td><span data-href='glib_008.html#FC84'>glib_008</span></td></tr>
+<tr><td>
+cluster p /^ n ->  acyclic  ;
+</td><td><span data-href='glib_008.html#FC88'>glib_008</span></td></tr>
+<tr><td>
+cluster p /^ n ->  Tree-like  ;
+</td><td><span data-href='glib_008.html#FC92'>glib_008</span></td></tr>
+<tr><td>
+cluster p /^ n ->  edgeless  ;
+</td><td><span data-href='glib_008.html#FC96'>glib_008</span></td></tr>
+<tr><td>
+cluster f /^ n ->  INT  -valued  ;
+</td><td><span data-href='int_6.html#FC3'>int_6</span></td></tr>
+<tr><td>
+cluster f /^ n -> D -valued  ;
+</td><td><span data-href='newton02.html#FC4'>newton02</span></td></tr>
+<tr><td>
+cluster {} /^ n ->  empty  ;
+</td><td><span data-href='newton02.html#FC5'>newton02</span></td></tr>
+<tr><td>
+cluster (f | n) /^ n ->  empty  ;
+</td><td><span data-href='newton02.html#FC6'>newton02</span></td></tr>
+<tr><td>
+cluster f /^ n -> D -valued  ;
+</td><td><span data-href='newton02.html#FC7'>newton02</span></td></tr>
+<tr><td>
+cluster f /^ (len f) ->  empty  ;
+</td><td><span data-href='newton04.html#FC4'>newton04</span></td></tr>
+<tr><td>
+cluster f /^ ((len f) + n) ->  empty  ;
+</td><td><span data-href='newton04.html#FC5'>newton04</span></td></tr>
+<tr><td>
+cluster (f /^ (len f)) . n ->  zero  ;
+</td><td><span data-href='newton04.html#FC6'>newton04</span></td></tr>
+<tr><td>
+cluster (f | n) /^ n ->  empty  ;
+</td><td><span data-href='newton04.html#FC23'>newton04</span></td></tr>
+<tr><td>
+cluster f /^ (max ((len f),n)) ->  empty  ;
+</td><td><span data-href='newton04.html#FC24'>newton04</span></td></tr>
+<tr><td>
+cluster f /^ n ->  nonnegative-yielding  ;
+</td><td><span data-href='newton04.html#FC28'>newton04</span></td></tr>
+<tr><td>
+cluster f /^ n ->  unfolded   for  FinSequence of (TOP-REAL 2);
+</td><td><span data-href='sppol_2.html#FC2'>sppol_2</span></td></tr>
+<tr><td>
+cluster f /^ n ->  s.n.c.   for  FinSequence of (TOP-REAL 2);
+</td><td><span data-href='sppol_2.html#FC5'>sppol_2</span></td></tr>
+<tr><td>
+cluster f /^ n ->  special   for  FinSequence of (TOP-REAL 2);
+</td><td><span data-href='sppol_2.html#FC10'>sppol_2</span></td></tr>
+<tr><td>
+cluster f /^ 1 ->  one-to-one  ;
+</td><td><span data-href='sprect_5.html#FC1'>sprect_5</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-reduce'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>reduce</th></tr></thead>
+<tbody>
+<tr><td>
+reduce f /^ 0 to f;
+</td><td><span data-href='finseq_5.html#RD1'>finseq_5</span></td></tr>
+<tr><td>
+reduce (f ^ g) /^ (len f) to g;
+</td><td><span data-href='finseq_5.html#RD2'>finseq_5</span></td></tr>
+<tr><td>
+reduce (f | n) ^ (f /^ n) to f;
+</td><td><span data-href='rfinseq.html#RD1'>rfinseq</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM22635'>
+<h2>7.   <span data-link='247.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rfinseq.html#K2'>rfinseq</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">D</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">f</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c1">D</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="RFINSEQ:func.1" data-link="247.html#ELM22634">/^</span><br><span class="kw">redefine </span><a name="K2"><span class="kw">func</span> </a><font color="Maroon" title="c3">f</font> <span title="RFINSEQ:func.2" data-link="247.html#ELM22635">/^</span> <font color="Maroon" title="c2">n</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of <font color="Maroon" title="c1">D</font>;<br><span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster ((f | n) /^ 1) . k ->  natural  ;
+</td><td><span data-href='newton02.html#FC10'>newton02</span></td></tr>
+<tr><td>
+cluster (f /^ j) . i ->  non  negative  ;
+</td><td><span data-href='newton04.html#FC15'>newton04</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

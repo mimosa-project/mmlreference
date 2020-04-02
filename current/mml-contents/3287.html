@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_less_than</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_less_than</h1>
+<h2>List of Definitions (6)</h2>
+<ol>
+<li><span data-link='3287.html#ELM9352'>is_less_than</span> [<span data-href='fuzzy_1.html#R1'>fuzzy_1</span>]</li>
+<li><span data-link='3287.html#ELM9354'>is_less_than</span> [<span data-href='fuzzy_1.html#R2'>fuzzy_1</span>]</li>
+<li><span data-link='3287.html#ELM13402'>is_less_than</span> [<span data-href='lattice3.html#R3'>lattice3</span>]</li>
+<li><span data-link='3287.html#ELM13403'>is_less_than</span> [<span data-href='lattice3.html#R4'>lattice3</span>]</li>
+<li><span data-link='3287.html#ELM13747'>is_less_than</span> [<span data-href='lfuzzy_1.html#R1'>lfuzzy_1</span>]</li>
+<li><span data-link='3287.html#ELM14428'>is_less_than</span> [<span data-href='matrix10.html#R1'>matrix10</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM9352'>
+<h2>1.   <span data-link='3287.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fuzzy_1.html#R1'>fuzzy_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">f</font>, <font color="Maroon" title="c2">g</font> be   <span title="VALUED_0:attr.3" data-link="5284.html#ELM27838">real-valued</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c1">f</font> <span title="FUZZY_1:pred.1" data-link="3287.html#ELM9352">is_less_than</span> <font color="Maroon" title="c2">g</font><span class="kw"> means </span><a name="D1"><span class="comment"><font color="firebrick">:: FUZZY_1:def 1</font></span><br></a>(  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c2">g</font> &amp; (  for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font> holds <br><font color="Maroon" title="c1">f</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Maroon" title="c2">g</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font> ) );<br>
+</div>
+<span class="kw">reflexivity</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM9354'>
+<h2>2.   <span data-link='3287.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fuzzy_1.html#R2'>fuzzy_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font>, <font color="Maroon" title="c3">g</font> be   <span title="FUZZY_1:NM.1" data-link="3288.html#ELM9355">Membership_Func</span> of <font color="Maroon" title="c1">X</font>;<br><div about="#D1" typeof="oo:Definition" class="main-sentence">
+<span class="comment"><font color="firebrick">:: original: </font></span><span title="FUZZY_1:pred.1" data-link="3287.html#ELM9352">is_less_than</span><br><span class="kw">redefine </span><a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c2">f</font> <span title="FUZZY_1:pred.2" data-link="3287.html#ELM9354">is_less_than</span> <font color="Maroon" title="c3">g</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E1">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: FUZZY_1:def 2</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">X</font> holds  <font color="Maroon" title="c2">f</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">x</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Maroon" title="c3">g</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">x</font>;<br>
+</div>
+<span class="kw">compatibility</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM13402'>
+<h2>3.   <span data-link='3287.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='lattice3.html#R3'>lattice3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="LATTICES:struct.3" data-link="4730.html#ELM13589">LattStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">p</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R3"><span class="kw">pred</span> </a><font color="Maroon" title="c2">p</font> <span title="LATTICE3:pred.3" data-link="3287.html#ELM13402">is_less_than</span> <font color="Maroon" title="c3">X</font><span class="kw"> means </span><a name="D16"><span class="comment"><font color="firebrick">:: LATTICE3:def 16</font></span><br></a> for <font color="Olive" title="b1">q</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>  st <font color="Olive" title="b1">q</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c3">X</font> holds <br><font color="Maroon" title="c2">p</font> <span title="LATTICES:pred.1" data-link="4726.html#ELM13584">[=</span> <font color="Olive" title="b1">q</font>;<br>
+</div>
+<div about="#D0" typeof="oo:Definition">
+<a name="R4"><span class="kw">pred</span> </a><font color="Maroon" title="c3">X</font> <span title="LATTICE3:pred.4" data-link="3287.html#ELM13403">is_less_than</span> <font color="Maroon" title="c2">p</font><span class="kw"> means </span><a name="D17"><span class="comment"><font color="firebrick">:: LATTICE3:def 17</font></span><br></a> for <font color="Olive" title="b1">q</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>  st <font color="Olive" title="b1">q</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c3">X</font> holds <br><font color="Olive" title="b1">q</font> <span title="LATTICES:pred.1" data-link="4726.html#ELM13584">[=</span> <font color="Maroon" title="c2">p</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM13403'>
+<h2>4.   <span data-link='3287.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='lattice3.html#R4'>lattice3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="LATTICES:struct.3" data-link="4730.html#ELM13589">LattStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">p</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D0" typeof="oo:Definition" class="">
+<a name="R3"><span class="kw">pred</span> </a><font color="Maroon" title="c2">p</font> <span title="LATTICE3:pred.3" data-link="3287.html#ELM13402">is_less_than</span> <font color="Maroon" title="c3">X</font><span class="kw"> means </span><a name="D16"><span class="comment"><font color="firebrick">:: LATTICE3:def 16</font></span><br></a> for <font color="Olive" title="b1">q</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>  st <font color="Olive" title="b1">q</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c3">X</font> holds <br><font color="Maroon" title="c2">p</font> <span title="LATTICES:pred.1" data-link="4726.html#ELM13584">[=</span> <font color="Olive" title="b1">q</font>;<br>
+</div>
+<div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R4"><span class="kw">pred</span> </a><font color="Maroon" title="c3">X</font> <span title="LATTICE3:pred.4" data-link="3287.html#ELM13403">is_less_than</span> <font color="Maroon" title="c2">p</font><span class="kw"> means </span><a name="D17"><span class="comment"><font color="firebrick">:: LATTICE3:def 17</font></span><br></a> for <font color="Olive" title="b1">q</font> being   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>  st <font color="Olive" title="b1">q</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c3">X</font> holds <br><font color="Olive" title="b1">q</font> <span title="LATTICES:pred.1" data-link="4726.html#ELM13584">[=</span> <font color="Maroon" title="c2">p</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM13747'>
+<h2>5.   <span data-link='3287.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='lfuzzy_1.html#R1'>lfuzzy_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font>, <font color="Maroon" title="c2">Y</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">f</font>, <font color="Maroon" title="c4">g</font> be   <span title="FUZZY_2:NM.1" data-link="3293.html#ELM9366">RMembership_Func</span> of <font color="Maroon" title="c1">X</font>,<font color="Maroon" title="c2">Y</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<span class="comment"><font color="firebrick">:: original: </font></span><span title="FUZZY_1:pred.1" data-link="3287.html#ELM9352">is_less_than</span><br><span class="kw">redefine </span><a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c3">f</font> <span title="LFUZZY_1:pred.1" data-link="3287.html#ELM13747">is_less_than</span> <font color="Maroon" title="c4">g</font><span class="kw"> means </span><a name="D1"><span class="comment"><font color="firebrick">:: LFUZZY_1:def 1</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">X</font><br>  for <font color="Olive" title="b2">y</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c2">Y</font> holds  <font color="Maroon" title="c3">f</font> <span title="LFUZZY_0:func.8" data-link="141.html#ELM13727">.</span> (<font color="Olive" title="b1">x</font>,<font color="Olive" title="b2">y</font>) <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Maroon" title="c4">g</font> <span title="LFUZZY_0:func.8" data-link="141.html#ELM13727">.</span> (<font color="Olive" title="b1">x</font>,<font color="Olive" title="b2">y</font>);<br>
+</div>
+<span class="kw">compatibility</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM14428'>
+<h2>6.   <span data-link='3287.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='matrix10.html#R1'>matrix10</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">M1</font>, <font color="Maroon" title="c2">M2</font> be   <span title="MATRIX_0:NM.1" data-link="5063.html#ELM14570">Matrix</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c1">M1</font> <span title="MATRIX10:pred.1" data-link="3287.html#ELM14428">is_less_than</span> <font color="Maroon" title="c2">M2</font><span class="kw"> means </span><a name="D5"><span class="comment"><font color="firebrick">:: MATRIX10:def 5</font></span><br></a> for <font color="Olive" title="b1">i</font>, <font color="Olive" title="b2">j</font> being   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>  st <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="MATRIX_0:func.2" data-link="5065.html#ELM14574">Indices</span> <font color="Maroon" title="c1">M1</font> holds <br><font color="Maroon" title="c1">M1</font> <span title="MATRIX_0:func.3" data-link="47.html#ELM14575">*</span> (<font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font>) <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Maroon" title="c2">M2</font> <span title="MATRIX_0:func.3" data-link="47.html#ELM14575">*</span> (<font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font>);<br>
+</div>
+<div about="#D0" typeof="oo:Definition" class="">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c1">M1</font> <span title="MATRIX10:pred.2" data-link="5011.html#ELM14429">is_less_or_equal_with</span> <font color="Maroon" title="c2">M2</font><span class="kw"> means </span><a name="D6"><span class="comment"><font color="firebrick">:: MATRIX10:def 6</font></span><br></a> for <font color="Olive" title="b1">i</font>, <font color="Olive" title="b2">j</font> being   <span title="ORDINAL1:NM.6" data-link="5402.html#ELM19060">Nat</span>  st <span class="p1"><span title="TARSKI:func.4" data-link="802.html#ELM26068">[</span><span class="default"><font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font></span><span title="TARSKI:func.4" data-link="802.html#ELM26068">]</span></span> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  <span title="MATRIX_0:func.2" data-link="5065.html#ELM14574">Indices</span> <font color="Maroon" title="c1">M1</font> holds <br><font color="Maroon" title="c1">M1</font> <span title="MATRIX_0:func.3" data-link="47.html#ELM14575">*</span> (<font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font>) <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Maroon" title="c2">M2</font> <span title="MATRIX_0:func.3" data-link="47.html#ELM14575">*</span> (<font color="Olive" title="b1">i</font>,<font color="Olive" title="b2">j</font>);<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

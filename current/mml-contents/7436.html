@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_strictly_convex_on</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_strictly_convex_on</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='7436.html#ELM22717'>is_strictly_convex_on</span> [<span data-href='rfunct_4.html#R1'>rfunct_4</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM22717'>
+<h2>1.   <span data-link='7436.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rfunct_4.html#R1'>rfunct_4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c1">f</font> <span title="RFUNCT_4:pred.1" data-link="7436.html#ELM22717">is_strictly_convex_on</span> <font color="Maroon" title="c2">X</font><span class="kw"> means </span><a name="D1"><span class="comment"><font color="firebrick">:: RFUNCT_4:def 1</font></span><br></a>( <font color="Maroon" title="c2">X</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span>  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">f</font> &amp; (  for <font color="Olive" title="b1">p</font> being   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>  st  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <font color="Olive" title="b1">p</font> &amp; <font color="Olive" title="b1">p</font> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> 1 holds <br> for <font color="Olive" title="b2">r</font>, <font color="Olive" title="b3">s</font> being   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span>  st <font color="Olive" title="b2">r</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c2">X</font> &amp; <font color="Olive" title="b3">s</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c2">X</font> &amp; <span class="p1">(<span class="default"><font color="Olive" title="b1">p</font> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <font color="Olive" title="b2">r</font></span>)</span> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default">1 <span title="XCMPLX_0:func.6" data-link="327.html#ELM29691">-</span> <font color="Olive" title="b1">p</font></span>)</span> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <font color="Olive" title="b3">s</font></span>)</span> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">X</font> &amp; <font color="Olive" title="b2">r</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Olive" title="b3">s</font> holds <br><font color="Maroon" title="c1">f</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><font color="Olive" title="b1">p</font> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <font color="Olive" title="b2">r</font></span>)</span> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> <span class="p2">(<span class="default"><span class="p3">(<span class="default">1 <span title="XCMPLX_0:func.6" data-link="327.html#ELM29691">-</span> <font color="Olive" title="b1">p</font></span>)</span> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <font color="Olive" title="b3">s</font></span>)</span></span>)</span> <span title="XXREAL_0:NR.3" data-link="841.html#ELM29821">&lt;</span> <span class="p1">(<span class="default"><font color="Olive" title="b1">p</font> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <span class="p2">(<span class="default"><font color="Maroon" title="c1">f</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b2">r</font></span>)</span></span>)</span> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default">1 <span title="XCMPLX_0:func.6" data-link="327.html#ELM29691">-</span> <font color="Olive" title="b1">p</font></span>)</span> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <span class="p2">(<span class="default"><font color="Maroon" title="c1">f</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b3">s</font></span>)</span></span>)</span> ) );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

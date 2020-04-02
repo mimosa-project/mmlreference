@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>nonnegative</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr nonnegative</h1>
+<h2>List of Definitions (7)</h2>
+<ol>
+<li><span data-link='1641.html#ELM4115'>nonnegative</span> [<span data-href='cgames_1.html#V5'>cgames_1</span>]</li>
+<li><span data-link='1641.html#ELM6244'>nonnegative</span> [<span data-href='entropy1.html#NV1'>entropy1</span>]</li>
+<li><span data-link='1641.html#ELM15026'>nonnegative</span> [<span data-href='measure1.html#V1'>measure1</span>]</li>
+<li><span data-link='1641.html#ELM22731'>nonnegative</span> [<span data-href='rinfsup1.html#NV1'>rinfsup1</span>]</li>
+<li><span data-link='1641.html#ELM26027'>nonnegative</span> [<span data-href='supinf_2.html#V5'>supinf_2</span>]</li>
+<li><span data-link='1641.html#ELM26028'>nonnegative</span> [<span data-href='supinf_2.html#V6'>supinf_2</span>]</li>
+<li><span data-link='1641.html#ELM26076'>nonnegative</span> [<span data-href='taxonom1.html#V1'>taxonom1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM4115'>
+<h2>1.   <span data-link='1641.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='cgames_1.html#V5'>cgames_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">g</font> be   <span title="CGAMES_1:NM.1" data-link="1626.html#ELM4097">ConwayGame</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V5"><span class="kw">attr</span> </a><font color="Maroon" title="c1">g</font> is  <span title="CGAMES_1:attr.5" data-link="1641.html#ELM4115">nonnegative</span> <span class="kw"> means </span><a name="D15"><span class="comment"><font color="firebrick">:: CGAMES_1:def 15</font></span><br></a> ex <font color="Olive" title="b1">s</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>  st <br>( <font color="Maroon" title="c1">g</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Olive" title="b1">s</font> &amp; (  for <font color="Olive" title="b2">g1</font> being   <span title="CGAMES_1:NM.1" data-link="1626.html#ELM4097">ConwayGame</span>  st <font color="Olive" title="b2">g1</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Olive" title="b1">s</font> holds <br> for <font color="Olive" title="b3">gR</font> being   <span title="CGAMES_1:NM.1" data-link="1626.html#ELM4097">ConwayGame</span>  st <font color="Olive" title="b3">gR</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="CGAMES_1:func.7" data-link="1633.html#ELM4105">the_RightOptions_of</span> <font color="Olive" title="b2">g1</font> holds <br> ex <font color="Olive" title="b4">gRL</font> being   <span title="CGAMES_1:NM.1" data-link="1626.html#ELM4097">ConwayGame</span> st <br>( <font color="Olive" title="b4">gRL</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="CGAMES_1:func.6" data-link="1632.html#ELM4104">the_LeftOptions_of</span> <font color="Olive" title="b3">gR</font> &amp; <font color="Olive" title="b4">gRL</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Olive" title="b1">s</font> ) ) );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  ConwayGame-like   zero   ->  nonnegative   nonpositive   for    set ;
+</td><td><span data-href='cgames_1.html#CC5'>cgames_1</span></td></tr>
+<tr><td>
+cluster  ConwayGame-like   nonnegative   nonpositive   ->  zero   for    set ;
+</td><td><span data-href='cgames_1.html#CC6'>cgames_1</span></td></tr>
+<tr><td>
+cluster  ConwayGame-like   positive   ->  nonnegative   non  zero   for    set ;
+</td><td><span data-href='cgames_1.html#CC9'>cgames_1</span></td></tr>
+<tr><td>
+cluster  ConwayGame-like   nonnegative   non  zero   ->  positive   for    set ;
+</td><td><span data-href='cgames_1.html#CC10'>cgames_1</span></td></tr>
+<tr><td>
+cluster  ConwayGame-like   fuzzy   ->  non  nonnegative   non  nonpositive   for    set ;
+</td><td><span data-href='cgames_1.html#CC11'>cgames_1</span></td></tr>
+<tr><td>
+cluster  ConwayGame-like   non  nonnegative   non  nonpositive   ->  fuzzy   for    set ;
+</td><td><span data-href='cgames_1.html#CC12'>cgames_1</span></td></tr>
+<tr><td>
+cluster  - g ->  nonnegative  ;
+</td><td><span data-href='cgames_1.html#FC14'>cgames_1</span></td></tr>
+<tr><td>
+cluster  - g ->  nonpositive  ;
+</td><td><span data-href='cgames_1.html#FC15'>cgames_1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM6244'>
+<h2>2.   <span data-link='1641.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='entropy1.html#NV1'>entropy1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">notation</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">p</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span> ;<br><a name="NV1"><span class="kw">synonym </span> </a><span title="PARTFUN3:attr.4" data-link="2128.html#ELM19609">nonnegative</span> <font color="Maroon" title="c1">p</font><span class="kw"> for </span> <span title="PARTFUN3:attr.4" data-link="2128.html#ELM19609">nonnegative-yielding</span> ;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM15026'>
+<h2>3.   <span data-link='1641.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='measure1.html#V1'>measure1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">F</font> be   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <font color="Maroon" title="c1">X</font>,<span title="NUMBERS:func.6" data-link="6193.html#ELM18629">ExtREAL</span>;<br><div about="#D4" typeof="oo:Definition" class="main-sentence">
+<span class="comment"><font color="firebrick">:: original: </font></span><span title="SUPINF_2:attr.6" data-link="1641.html#ELM26028">nonnegative</span><br><span class="kw">redefine </span><a name="V1"><span class="kw">attr</span> </a><font color="Maroon" title="c2">F</font> is  <span title="MEASURE1:attr.1" data-link="1641.html#ELM15026">nonnegative</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E4">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: MEASURE1:def 2</font></span><br></a> for <font color="Olive" title="b1">A</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">X</font> holds   <span title="SUPINF_2:func.1" data-link="5074.html#ELM26003">0.</span>  <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Maroon" title="c2">F</font> <span title="SUPINF_2:func.12" data-link="141.html#ELM26016">.</span> <font color="Olive" title="b1">A</font>;<br>
+</div>
+<span class="kw">compatibility</span> <span class="kw">by</span> <span class="lab"><span class="ref" onmouseover="rs('supinf_2/T39')" onmouseout="rh()" data-href="supinf_2.html#T39">SUPINF_2:39</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM22731'>
+<h2>4.   <span data-link='1641.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rinfsup1.html#NV1'>rinfsup1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">notation</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">f</font> be   <span title="SEQ_1:NM.1" data-link="7840.html#ELM24887">Real_Sequence</span>;<br><a name="NV1"><span class="kw">synonym </span> </a><span title="PARTFUN3:attr.4" data-link="2128.html#ELM19609">nonnegative</span> <font color="Maroon" title="c1">f</font><span class="kw"> for </span> <span title="PARTFUN3:attr.4" data-link="2128.html#ELM19609">nonnegative-yielding</span> ;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM26027'>
+<h2>5.   <span data-link='1641.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='supinf_2.html#V5'>supinf_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">IT</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V5"><span class="kw">attr</span> </a><font color="Maroon" title="c1">IT</font> is  <span title="SUPINF_2:attr.5" data-link="1641.html#ELM26027">nonnegative</span> <span class="kw"> means </span><a name="D9"><span class="comment"><font color="firebrick">:: SUPINF_2:def 9</font></span><br></a> for <font color="Olive" title="b1">x</font> being   <span title="XXREAL_0:NM.1" data-link="8864.html#ELM29823">ExtReal</span>  st <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c1">IT</font> holds <br> <span title="SUPINF_2:func.1" data-link="5074.html#ELM26003">0.</span>  <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b1">x</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  ext-real-membered  V85()  nonnegative   for    Element of K19(ExtREAL);
+</td><td><span data-href='supinf_2.html#RC2'>supinf_2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM26028'>
+<h2>6.   <span data-link='1641.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='supinf_2.html#V6'>supinf_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">R</font> be   <span title="RELAT_1:NM.1" data-link="286.html#ELM22383">Relation</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V6"><span class="kw">attr</span> </a><font color="Maroon" title="c1">R</font> is  <span title="SUPINF_2:attr.6" data-link="1641.html#ELM26028">nonnegative</span> <span class="kw"> means </span><a name="D11"><span class="comment"><font color="firebrick">:: SUPINF_2:def 11</font></span><br></a> <span title="RELAT_1:NK.2" data-link="3141.html#ELM22385">rng</span> <font color="Maroon" title="c1">R</font> is  <span title="SUPINF_2:attr.5" data-link="1641.html#ELM26027">nonnegative</span> ;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  non  empty  V7() V10(X) V11( REAL )  Function-like   total  V32(X, REAL )  complex-valued   ext-real-valued   real-valued   nonnegative   nonpositive   for    Element of  bool [:X,REAL:];
+</td><td><span data-href='dblseq_3.html#RC1'>dblseq_3</span></td></tr>
+<tr><td>
+cluster  non  empty  V7() V10(X) V11( ExtREAL )  Function-like   total  V32(X, ExtREAL )  ext-real-valued   nonnegative   nonpositive  V183() V184()  for    Element of  bool [:X,ExtREAL:];
+</td><td><span data-href='dblseq_3.html#RC2'>dblseq_3</span></td></tr>
+<tr><td>
+cluster  Function-like  V32(X, ExtREAL )  nonnegative   -> V183()  for    Element of  bool [:X,ExtREAL:];
+</td><td><span data-href='dblseq_3.html#CC1'>dblseq_3</span></td></tr>
+<tr><td>
+cluster  - f ->  nonpositive  ;
+</td><td><span data-href='dblseq_3.html#FC3'>dblseq_3</span></td></tr>
+<tr><td>
+cluster  - f ->  nonnegative  ;
+</td><td><span data-href='dblseq_3.html#FC4'>dblseq_3</span></td></tr>
+<tr><td>
+cluster  ~ f ->  nonnegative  ;
+</td><td><span data-href='dblseq_3.html#FC7'>dblseq_3</span></td></tr>
+<tr><td>
+cluster  Partial_Sums seq ->  nonnegative  ;
+</td><td><span data-href='dblseq_3.html#FC9'>dblseq_3</span></td></tr>
+<tr><td>
+cluster  Partial_Sums_in_cod2 f ->  nonnegative   for  Function of [:NAT,NAT:],ExtREAL;
+</td><td><span data-href='dblseq_3.html#FC17'>dblseq_3</span></td></tr>
+<tr><td>
+cluster  Partial_Sums_in_cod1 f ->  nonnegative   for  Function of [:NAT,NAT:],ExtREAL;
+</td><td><span data-href='dblseq_3.html#FC21'>dblseq_3</span></td></tr>
+<tr><td>
+cluster  ProjMap1 (f,n) ->  nonnegative  ;
+</td><td><span data-href='dblseq_3.html#FC23'>dblseq_3</span></td></tr>
+<tr><td>
+cluster  ProjMap2 (f,n) ->  nonnegative  ;
+</td><td><span data-href='dblseq_3.html#FC24'>dblseq_3</span></td></tr>
+<tr><td>
+cluster  ProjMap1 ((Partial_Sums_in_cod2 f),m) ->  non-decreasing  ;
+</td><td><span data-href='dblseq_3.html#FC25'>dblseq_3</span></td></tr>
+<tr><td>
+cluster  ProjMap2 ((Partial_Sums_in_cod1 f),m) ->  non-decreasing  ;
+</td><td><span data-href='dblseq_3.html#FC26'>dblseq_3</span></td></tr>
+<tr><td>
+cluster |.f.| ->  nonnegative  ;
+</td><td><span data-href='lpspacc1.html#FC4'>lpspacc1</span></td></tr>
+<tr><td>
+cluster |.f.| ->  nonnegative  ;
+</td><td><span data-href='lpspace2.html#FC1'>lpspace2</span></td></tr>
+<tr><td>
+cluster  chi (A,B) ->  nonnegative  ;
+</td><td><span data-href='measur10.html#FC1'>measur10</span></td></tr>
+<tr><td>
+cluster  Xchi (A,X) ->  nonnegative  ;
+</td><td><span data-href='measur10.html#FC3'>measur10</span></td></tr>
+<tr><td>
+cluster  Relation-like  S -defined   ExtREAL  -valued   Function-like   non  empty  V14(S) V18(S, ExtREAL )  ext-real-valued   zeroed  V94()  additive   for    Element of  bool [:S,ExtREAL:];
+</td><td><span data-href='measure1.html#RC1'>measure1</span></td></tr>
+<tr><td>
+cluster  Relation-like  S -defined   ExtREAL  -valued   Function-like   non  empty  V14(S) V18(S, ExtREAL )  ext-real-valued   zeroed  V94()  sigma-additive   for    Element of  bool [:S,ExtREAL:];
+</td><td><span data-href='measure1.html#RC6'>measure1</span></td></tr>
+<tr><td>
+cluster  Function-like  V18(S, ExtREAL )  zeroed  V94()  sigma-additive   ->  zeroed  V94()  additive   for    Element of  bool [:S,ExtREAL:];
+</td><td><span data-href='measure1.html#CC8'>measure1</span></td></tr>
+<tr><td>
+cluster  sigma_Meas C ->  zeroed  V92()  sigma-additive  ;
+</td><td><span data-href='measure4.html#FC2'>measure4</span></td></tr>
+<tr><td>
+cluster  Relation-like  P -defined   ExtREAL  -valued   non  empty   Function-like   total  V31(P, ExtREAL )  ext-real-valued   zeroed  V224()  additive   for    Element of  bool [:P,ExtREAL:];
+</td><td><span data-href='measure9.html#RC3'>measure9</span></td></tr>
+<tr><td>
+cluster  Relation-like   omega  -defined   ExtREAL  -valued   Function-like  V34()  FinSequence-like   FinSubsequence-like   ext-real-valued   nonnegative   for    FinSequence of  ExtREAL ;
+</td><td><span data-href='measure9.html#RC5'>measure9</span></td></tr>
+<tr><td>
+cluster  nonnegative   -> V251()  for    FinSequence of  ExtREAL ;
+</td><td><span data-href='measure9.html#CC1'>measure9</span></td></tr>
+<tr><td>
+cluster G * F -> V224()  for  Function of X,ExtREAL;
+</td><td><span data-href='measure9.html#FC3'>measure9</span></td></tr>
+<tr><td>
+cluster  Relation-like  X -defined   REAL  -valued   Function-like  V54() V55() V56()  nonnegative   for    Element of K16(K17(X,REAL));
+</td><td><span data-href='mesfun6c.html#RC1'>mesfun6c</span></td></tr>
+<tr><td>
+cluster f to_power k ->  nonnegative  ;
+</td><td><span data-href='mesfun6c.html#FC1'>mesfun6c</span></td></tr>
+<tr><td>
+cluster  - f ->  nonpositive  ;
+</td><td><span data-href='mesfun11.html#FC1'>mesfun11</span></td></tr>
+<tr><td>
+cluster  - f ->  nonnegative  ;
+</td><td><span data-href='mesfun11.html#FC2'>mesfun11</span></td></tr>
+<tr><td>
+cluster  Function-like   nonnegative   -> ()  for    Element of  bool [:X,ExtREAL:];
+</td><td><span data-href='mesfunc5.html#CC1'>mesfunc5</span></td></tr>
+<tr><td>
+cluster  Relation-like  X -defined   ExtREAL  -valued   Function-like   extreal-yielding   nonnegative   for    Element of K16(K17(X,ExtREAL));
+</td><td><span data-href='mesfunc7.html#RC1'>mesfunc7</span></td></tr>
+<tr><td>
+cluster |.f.| ->  nonnegative   for  PartFunc of X,ExtREAL;
+</td><td><span data-href='mesfunc7.html#FC1'>mesfunc7</span></td></tr>
+<tr><td>
+cluster  Relation-like  Omega -defined   REAL  -valued   Function-like   non  empty   total   quasi_total  V153() V154() V155()  nonnegative   for    Real-Valued-Random-Variable of Sigma;
+</td><td><span data-href='random_2.html#RC1'>random_2</span></td></tr>
+<tr><td>
+cluster |.X.| ->  nonnegative  ;
+</td><td><span data-href='random_2.html#FC1'>random_2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM26076'>
+<h2>7.   <span data-link='1641.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='taxonom1.html#V1'>taxonom1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <span class="p1"><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">[:</span><span class="default"><font color="Maroon" title="c1">X</font>,<font color="Maroon" title="c1">X</font></span><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">:]</span></span>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V1"><span class="kw">attr</span> </a><font color="Maroon" title="c2">f</font> is  <span title="TAXONOM1:attr.1" data-link="1641.html#ELM26076">nonnegative</span> <span class="kw"> means </span><a name="D4"><span class="comment"><font color="firebrick">:: TAXONOM1:def 4</font></span><br></a> for <font color="Olive" title="b1">x</font>, <font color="Olive" title="b2">y</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">X</font> holds  <font color="Maroon" title="c2">f</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Olive" title="b1">x</font>,<font color="Olive" title="b2">y</font>) <span title="XXREAL_0:NR.2" data-link="786.html#ELM29820">&gt;=</span>  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> ;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

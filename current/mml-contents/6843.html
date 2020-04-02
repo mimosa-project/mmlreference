@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Polynom-Evaluation</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Polynom-Evaluation</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='6843.html#ELM20734'>Polynom-Evaluation</span> [<span data-href='polynom2.html#K3'>polynom2</span>]</li>
+<li><span data-link='6843.html#ELM20780'>Polynom-Evaluation</span> [<span data-href='polynom4.html#K3'>polynom4</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM20734'>
+<h2>1.   <span data-link='6843.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='polynom2.html#K3'>polynom2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font> be   <span title="ORDINAL1:NM.3" data-link="6319.html#ELM19057">Ordinal</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">L</font> be   non  <span title="STRUCT_0:attr.7" data-link="3543.html#ELM25773">trivial</span>   <span title="ALGSTR_0:attr.13" data-link="337.html#ELM766">right_complementable</span>   <span title="RLVECT_1:attr.3" data-link="7514.html#ELM23296">add-associative</span>   <span title="RLVECT_1:attr.4" data-link="7515.html#ELM23297">right_zeroed</span>   <span title="VECTSP_1:attr.4" data-link="5661.html#ELM28516">well-unital</span>   <span title="VECTSP_1:attr.5" data-link="3919.html#ELM28517">distributive</span>   <span title="ALGSTR_0:struct.6" data-link="324.html#ELM743">doubleLoopStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">x</font> be   <span title="STRUCT_0:NM.5" data-link="3155.html#ELM25751">Function</span> of <font color="Maroon" title="c1">n</font>,<font color="Maroon" title="c2">L</font>;<br><div about="#D27" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="POLYNOM2:func.3" data-link="6843.html#ELM20734">Polynom-Evaluation</span> (<font color="Maroon" title="c1">n</font>,<font color="Maroon" title="c2">L</font>,<font color="Maroon" title="c3">x</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.6" data-link="3155.html#ELM25752">Function</span> of <span class="p1">(<span class="default"><span title="POLYNOM1:func.12" data-link="6842.html#ELM20712">Polynom-Ring</span> (<font color="Maroon" title="c1">n</font>,<font color="Maroon" title="c2">L</font>)</span>)</span>,<font color="Maroon" title="c2">L</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E27">Def3</font></span>: <a name="D5"><span class="comment"><font color="firebrick">:: POLYNOM2:def 5</font></span><br></a> for <font color="Olive" title="b1">p</font> being   <span title="POLYNOM1:NM.2" data-link="6840.html#ELM20699">Polynomial</span> of <font color="Maroon" title="c1">n</font>,<font color="Maroon" title="c2">L</font> holds  <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">p</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="POLYNOM2:func.2" data-link="1549.html#ELM20733">eval</span> (<font color="Olive" title="b1">p</font>,<font color="Maroon" title="c3">x</font>);<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Polynom-Evaluation (n,L,x) ->  unity-preserving  ;
+</td><td><span data-href='polynom2.html#FC4'>polynom2</span></td></tr>
+<tr><td>
+cluster  Polynom-Evaluation (n,L,x) ->  additive  ;
+</td><td><span data-href='polynom2.html#FC5'>polynom2</span></td></tr>
+<tr><td>
+cluster  Polynom-Evaluation (n,L,x) ->  multiplicative  ;
+</td><td><span data-href='polynom2.html#FC6'>polynom2</span></td></tr>
+<tr><td>
+cluster  Polynom-Evaluation (n,L,x) ->  RingHomomorphism  ;
+</td><td><span data-href='polynom2.html#FC7'>polynom2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM20780'>
+<h2>2.   <span data-link='6843.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='polynom4.html#K3'>polynom4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">L</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ALGSTR_0:attr.13" data-link="337.html#ELM766">right_complementable</span>   <span title="RLVECT_1:attr.3" data-link="7514.html#ELM23296">add-associative</span>   <span title="RLVECT_1:attr.4" data-link="7515.html#ELM23297">right_zeroed</span>   <span title="VECTSP_1:attr.5" data-link="3919.html#ELM28517">distributive</span>   <span title="GROUP_1:attr.1" data-link="646.html#ELM10993">unital</span>   <span title="ALGSTR_0:struct.6" data-link="324.html#ELM743">doubleLoopStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">x</font> be   <span title="STRUCT_0:NM.1" data-link="667.html#ELM25747">Element</span> of <font color="Maroon" title="c1">L</font>;<br><div about="#D24" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="POLYNOM4:func.3" data-link="6843.html#ELM20780">Polynom-Evaluation</span> (<font color="Maroon" title="c1">L</font>,<font color="Maroon" title="c2">x</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.6" data-link="3155.html#ELM25752">Function</span> of <span class="p1">(<span class="default"><span title="POLYNOM3:func.13" data-link="6842.html#ELM20761">Polynom-Ring</span> <font color="Maroon" title="c1">L</font></span>)</span>,<font color="Maroon" title="c1">L</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E24">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: POLYNOM4:def 3</font></span><br></a> for <font color="Olive" title="b1">p</font> being   <span title="POLYNOM3:NM.1" data-link="6840.html#ELM20747">Polynomial</span> of <font color="Maroon" title="c1">L</font> holds  <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">p</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="POLYNOM4:func.2" data-link="1549.html#ELM20779">eval</span> (<font color="Olive" title="b1">p</font>,<font color="Maroon" title="c2">x</font>);<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Polynom-Evaluation (L,x) ->  unity-preserving  ;
+</td><td><span data-href='polynom4.html#FC2'>polynom4</span></td></tr>
+<tr><td>
+cluster  Polynom-Evaluation (L,x) ->  additive  ;
+</td><td><span data-href='polynom4.html#FC3'>polynom4</span></td></tr>
+<tr><td>
+cluster  Polynom-Evaluation (L,x) ->  multiplicative  ;
+</td><td><span data-href='polynom4.html#FC4'>polynom4</span></td></tr>
+<tr><td>
+cluster  Polynom-Evaluation (L,x) ->  RingHomomorphism  ;
+</td><td><span data-href='polynom4.html#FC5'>polynom4</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

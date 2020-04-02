@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>AP:GetAugPath</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func AP:GetAugPath</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='3686.html#ELM10303'>AP:GetAugPath</span> [<span data-href='glib_005.html#K7'>glib_005</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM10303'>
+<h2>1.   <span data-link='3686.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='glib_005.html#K7'>glib_005</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GLIB_000:attr.2" data-link="2772.html#ELM9804">finite</span>   <span title="GLIB_003:attr.7" data-link="3646.html#ELM10109">real-weighted</span>  <span title="GLIB_003:NM.1" data-link="3600.html#ELM10054">WGraph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">EL</font> be   <span title="GLIB_005:NM.1" data-link="3677.html#ELM10293">FF:ELabeling</span> of <font color="Maroon" title="c1">G</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">source</font>, <font color="Maroon" title="c4">sink</font> be   <span title="GLIB_000:NM.10" data-link="3509.html#ELM9761">Vertex</span> of <font color="Maroon" title="c1">G</font>;<br><div about="#D21" typeof="oo:Definition" class="main-sentence">
+<a name="K7"><span class="kw">func</span> </a> <span title="GLIB_005:func.7" data-link="3686.html#ELM10303">AP:GetAugPath</span> (<font color="Maroon" title="c2">EL</font>,<font color="Maroon" title="c3">source</font>,<font color="Maroon" title="c4">sink</font>)<span class="kw"> -&gt; </span>  <span title="GLIB_001:attr.6" data-link="3587.html#ELM9967">vertex-distinct</span>  <span title="GLIB_001:NM.5" data-link="1211.html#ELM9919">Path</span> of <font color="Maroon" title="c1">G</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E21">Def14</font></span>: <a name="D14"><span class="comment"><font color="firebrick">:: GLIB_005:def 14</font></span><br></a>( <span class="kw">it</span> <span title="GLIB_001:pred.1" data-link="3553.html#ELM9914">is_Walk_from</span> <font color="Maroon" title="c3">source</font>,<font color="Maroon" title="c4">sink</font> &amp; <span class="kw">it</span> <span title="GLIB_005:pred.5" data-link="3676.html#ELM10292">is_augmenting_wrt</span> <font color="Maroon" title="c2">EL</font> &amp; (  for <font color="Olive" title="b1">n</font> being   <span title="ABIAN:attr.1" data-link="112.html#ELM300">even</span>  <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b1">n</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <span class="kw">it</span> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">n</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span title="GLIB_005:func.6" data-link="3685.html#ELM10302">AP:FindAugPath</span> (<font color="Maroon" title="c2">EL</font>,<font color="Maroon" title="c3">source</font>)</span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p2">(<span class="default"><font color="Olive" title="b1">n</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span></span>)</span> ) )<span class="kw"> if </span><font color="Maroon" title="c4">sink</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="RELSET_1:func.1" data-link="41.html#ELM22508">dom</span> <span class="p1">(<span class="default"><span title="GLIB_005:func.6" data-link="3685.html#ELM10302">AP:FindAugPath</span> (<font color="Maroon" title="c2">EL</font>,<font color="Maroon" title="c3">source</font>)</span>)</span><br><span class="kw"> otherwise </span><span class="kw">it</span> <span title="RELSET_1:pred.2" data-link="1122.html#ELM22505">=</span> <font color="Maroon" title="c1">G</font> <span title="GLIB_001:func.1" data-link="3562.html#ELM9935">.walkOf</span> <font color="Maroon" title="c3">source</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <span class="kw">consistency</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

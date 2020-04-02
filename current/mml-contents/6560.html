@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>pcs-tol-symmetric</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr pcs-tol-symmetric</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='6560.html#ELM19911'>pcs-tol-symmetric</span> [<span data-href='pcs_0.html#V6'>pcs_0</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM19911'>
+<h2>1.   <span data-link='6560.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='pcs_0.html#V6'>pcs_0</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c3">P</font> be    <span title="PCS_0:struct.1" data-link="6531.html#ELM19865">TolStr</span> ;<br><div about="#D10" typeof="oo:Definition">
+<a name="V3"><span class="kw">attr</span> </a><font color="Maroon" title="c1">P</font> is  <span title="PCS_0:attr.3" data-link="6557.html#ELM19908">pcs-tol-total</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E10">Def8</font></span>: <a name="D8"><span class="comment"><font color="firebrick">:: PCS_0:def 8</font></span><br></a> the <span title="PCS_0:sel.1" data-href="pcs_0.html#U1">ToleranceRel</span> of <font color="Maroon" title="c1">P</font> is  <span title="PARTFUN1:attr.1" data-link="6290.html#ELM19585">total</span> ;<br>
+</div>
+<div about="#D11" typeof="oo:Definition" class="">
+<a name="V4"><span class="kw">attr</span> </a><font color="Maroon" title="c1">P</font> is  <span title="PCS_0:attr.4" data-link="6558.html#ELM19909">pcs-tol-reflexive</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E11">Def9</font></span>: <a name="D9"><span class="comment"><font color="firebrick">:: PCS_0:def 9</font></span><br></a> the <span title="PCS_0:sel.1" data-href="pcs_0.html#U1">ToleranceRel</span> of <font color="Maroon" title="c1">P</font> <span title="RELAT_2:pred.1" data-link="7383.html#ELM22454">is_reflexive_in</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">P</font>;<br>
+</div>
+<div about="#D12" typeof="oo:Definition" class="">
+<a name="V5"><span class="kw">attr</span> </a><font color="Maroon" title="c1">P</font> is  <span title="PCS_0:attr.5" data-link="6559.html#ELM19910">pcs-tol-irreflexive</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E12">Def10</font></span>: <a name="D10"><span class="comment"><font color="firebrick">:: PCS_0:def 10</font></span><br></a> the <span title="PCS_0:sel.1" data-href="pcs_0.html#U1">ToleranceRel</span> of <font color="Maroon" title="c1">P</font> <span title="RELAT_2:pred.2" data-link="7384.html#ELM22455">is_irreflexive_in</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">P</font>;<br>
+</div>
+<div about="#D13" typeof="oo:Definition" class="main-sentence">
+<a name="V6"><span class="kw">attr</span> </a><font color="Maroon" title="c1">P</font> is  <span title="PCS_0:attr.6" data-link="6560.html#ELM19911">pcs-tol-symmetric</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E13">Def11</font></span>: <a name="D11"><span class="comment"><font color="firebrick">:: PCS_0:def 11</font></span><br></a> the <span title="PCS_0:sel.1" data-href="pcs_0.html#U1">ToleranceRel</span> of <font color="Maroon" title="c1">P</font> <span title="RELAT_2:pred.3" data-link="7385.html#ELM22456">is_symmetric_in</span>  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">P</font>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  empty   ->  pcs-tol-reflexive   pcs-tol-irreflexive   pcs-tol-symmetric   for    TolStr ;
+</td><td><span data-href='pcs_0.html#CC4'>pcs_0</span></td></tr>
+<tr><td>
+cluster  the ToleranceRel of P ->  symmetric  ;
+</td><td><span data-href='pcs_0.html#FC15'>pcs_0</span></td></tr>
+<tr><td>
+cluster  TolStr(# D,(nabla D) #) ->  pcs-tol-reflexive   pcs-tol-symmetric  ;
+</td><td><span data-href='pcs_0.html#FC17'>pcs_0</span></td></tr>
+<tr><td>
+cluster  TolStr(# D,({} (D,D)) #) ->  pcs-tol-irreflexive   pcs-tol-symmetric  ;
+</td><td><span data-href='pcs_0.html#FC18'>pcs_0</span></td></tr>
+<tr><td>
+cluster  non  empty   strict   pcs-tol-reflexive   pcs-tol-symmetric   for    TolStr ;
+</td><td><span data-href='pcs_0.html#RC5'>pcs_0</span></td></tr>
+<tr><td>
+cluster  non  empty   strict   pcs-tol-irreflexive   pcs-tol-symmetric   for    TolStr ;
+</td><td><span data-href='pcs_0.html#RC6'>pcs_0</span></td></tr>
+<tr><td>
+cluster I --> P ->  pcs-tol-symmetric-yielding   for  ManySortedSet of I;
+</td><td><span data-href='pcs_0.html#FC22'>pcs_0</span></td></tr>
+<tr><td>
+cluster C . i ->  pcs-tol-symmetric   for   TolStr ;
+</td><td><span data-href='pcs_0.html#FC26'>pcs_0</span></td></tr>
+<tr><td>
+cluster [^P,Q^] ->  pcs-tol-symmetric  ;
+</td><td><span data-href='pcs_0.html#FC29'>pcs_0</span></td></tr>
+<tr><td>
+cluster  pcs-like   ->  reflexive   transitive   pcs-tol-reflexive   pcs-tol-symmetric   pcs-compatible   for    pcs-Str ;
+</td><td><span data-href='pcs_0.html#CC7'>pcs_0</span></td></tr>
+<tr><td>
+cluster  reflexive   transitive   pcs-tol-reflexive   pcs-tol-symmetric   pcs-compatible   ->  pcs-like   for    pcs-Str ;
+</td><td><span data-href='pcs_0.html#CC8'>pcs_0</span></td></tr>
+<tr><td>
+cluster  anti-pcs-like   ->  reflexive   transitive   pcs-tol-irreflexive   pcs-tol-symmetric   pcs-compatible   for    pcs-Str ;
+</td><td><span data-href='pcs_0.html#CC9'>pcs_0</span></td></tr>
+<tr><td>
+cluster  reflexive   transitive   pcs-tol-irreflexive   pcs-tol-symmetric   pcs-compatible   ->  anti-pcs-like   for    pcs-Str ;
+</td><td><span data-href='pcs_0.html#CC10'>pcs_0</span></td></tr>
+<tr><td>
+cluster  pcs-total D ->  reflexive   transitive   pcs-tol-reflexive   pcs-tol-symmetric  ;
+</td><td><span data-href='pcs_0.html#FC32'>pcs_0</span></td></tr>
+<tr><td>
+cluster  pcs-union C ->  pcs-tol-symmetric   strict  ;
+</td><td><span data-href='pcs_0.html#FC41'>pcs_0</span></td></tr>
+<tr><td>
+cluster <%P,Q%> ->  pcs-tol-symmetric-yielding  ;
+</td><td><span data-href='pcs_0.html#FC50'>pcs_0</span></td></tr>
+<tr><td>
+cluster  pcs-sum (P,Q) ->  pcs-tol-symmetric  ;
+</td><td><span data-href='pcs_0.html#FC54'>pcs_0</span></td></tr>
+<tr><td>
+cluster  pcs-extension (P,a) ->  pcs-tol-symmetric   strict  ;
+</td><td><span data-href='pcs_0.html#FC58'>pcs_0</span></td></tr>
+<tr><td>
+cluster  pcs-reverse P ->  pcs-tol-symmetric   strict  ;
+</td><td><span data-href='pcs_0.html#FC64'>pcs_0</span></td></tr>
+<tr><td>
+cluster P pcs-times Q ->  pcs-tol-symmetric  ;
+</td><td><span data-href='pcs_0.html#FC72'>pcs_0</span></td></tr>
+<tr><td>
+cluster P --> Q ->  pcs-tol-symmetric  ;
+</td><td><span data-href='pcs_0.html#FC80'>pcs_0</span></td></tr>
+<tr><td>
+cluster  pcs-general-power (P,D) ->  pcs-tol-symmetric  ;
+</td><td><span data-href='pcs_0.html#FC88'>pcs_0</span></td></tr>
+<tr><td>
+cluster  pcs-power P ->  pcs-tol-symmetric  ;
+</td><td><span data-href='pcs_0.html#FC97'>pcs_0</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

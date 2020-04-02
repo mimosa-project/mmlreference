@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>S_Bound</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func S_Bound</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='8092.html#ELM25958'>S_Bound</span> [<span data-href='substut1.html#K35'>substut1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM25958'>
+<h2>1.   <span data-link='8092.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='substut1.html#K35'>substut1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be    <span title="QC_LANG1:mode.1" data-link="7084.html#ELM21567">QC-alphabet</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">Z</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <span class="p1"><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">[:</span><span class="default"><span class="p2">(<span class="default"><span title="QC_LANG1:func.9" data-link="7100.html#ELM21586">QC-WFF</span> <font color="Maroon" title="c1">A</font></span>)</span>,<span class="p2">(<span class="default"><span title="SUBSTUT1:func.1" data-link="8073.html#ELM25924">vSUB</span> <font color="Maroon" title="c1">A</font></span>)</span></span><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">:]</span></span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K35"><span class="kw">func</span> </a> <span title="SUBSTUT1:func.35" data-link="8092.html#ELM25958">S_Bound</span> <font color="Maroon" title="c2">Z</font><span class="kw"> -&gt; </span>  <span title="QC_LANG1:NM.5" data-link="7088.html#ELM21571">bound_QC-variable</span> of <font color="Maroon" title="c1">A</font><span class="kw"> equals </span><a name="D36"><span class="comment"><font color="firebrick">:: SUBSTUT1:def 36</font></span><br></a> <span title="QC_LANG3:func.2" data-link="2073.html#ELM21649">x.</span> <span class="p1">(<span class="default"><span title="SUBSTUT1:func.13" data-link="8080.html#ELM25936">upVar</span> (<span class="p2">(<span class="default"><span title="SUBSTUT1:func.7" data-link="8075.html#ELM25930">RestrictSub</span> (<span class="p3">(<span class="default"><span title="QC_LANG1:func.21" data-link="3750.html#ELM21598">bound_in</span> <span class="p4">(<span class="default"><font color="Maroon" title="c2">Z</font> <span title="SUBSTUT1:func.33" data-link="54.html#ELM25956">`1</span></span>)</span></span>)</span>,<span class="p3">(<span class="default"><font color="Maroon" title="c2">Z</font> <span title="SUBSTUT1:func.33" data-link="54.html#ELM25956">`1</span></span>)</span>,<span class="p3">(<span class="default"><font color="Maroon" title="c2">Z</font> <span title="SUBSTUT1:func.34" data-link="55.html#ELM25957">`2</span></span>)</span>)</span>)</span>,<span class="p2">(<span class="default"><span title="QC_LANG1:func.22" data-link="3751.html#ELM21599">the_scope_of</span> <span class="p3">(<span class="default"><font color="Maroon" title="c2">Z</font> <span title="SUBSTUT1:func.33" data-link="54.html#ELM25956">`1</span></span>)</span></span>)</span>)</span>)</span><span class="kw"> if </span> <span title="QC_LANG1:func.21" data-link="3750.html#ELM21598">bound_in</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">Z</font> <span title="SUBSTUT1:func.33" data-link="54.html#ELM25956">`1</span></span>)</span> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="XTUPLE_0:func.10" data-link="6896.html#ELM29782">rng</span> <span class="p1">(<span class="default"><span title="SUBSTUT1:func.7" data-link="8075.html#ELM25930">RestrictSub</span> (<span class="p2">(<span class="default"><span title="QC_LANG1:func.21" data-link="3750.html#ELM21598">bound_in</span> <span class="p3">(<span class="default"><font color="Maroon" title="c2">Z</font> <span title="SUBSTUT1:func.33" data-link="54.html#ELM25956">`1</span></span>)</span></span>)</span>,<span class="p2">(<span class="default"><font color="Maroon" title="c2">Z</font> <span title="SUBSTUT1:func.33" data-link="54.html#ELM25956">`1</span></span>)</span>,<span class="p2">(<span class="default"><font color="Maroon" title="c2">Z</font> <span title="SUBSTUT1:func.34" data-link="55.html#ELM25957">`2</span></span>)</span>)</span>)</span><br><span class="kw"> otherwise </span> <span title="QC_LANG1:func.21" data-link="3750.html#ELM21598">bound_in</span> <span class="p1">(<span class="default"><font color="Maroon" title="c2">Z</font> <span title="SUBSTUT1:func.33" data-link="54.html#ELM25956">`1</span></span>)</span>;<br>
+</div>
+<span class="kw">coherence</span> <br><span class="kw">consistency</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

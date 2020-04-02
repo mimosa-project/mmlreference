@@ -1,0 +1,486 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>SCM+FSA</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func SCM+FSA</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='7745.html#ELM24347'>SCM+FSA</span> [<span data-href='scmfsa_2.html#K1'>scmfsa_2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM24347'>
+<h2>1.   <span data-link='7745.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='scmfsa_2.html#K1'>scmfsa_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span> <span class="kw"> -&gt; </span>  <span title="EXTPRO_1:attr.1" data-href="extpro_1.html#V1">strict</span>   <span title="EXTPRO_1:struct.1" data-link="2529.html#ELM6608">AMI-Struct</span> over  <span title="CARD_1:func.5" data-link="1332.html#ELM3237">Segm</span> 3<span class="kw"> equals </span><a name="D1"><span class="comment"><font color="firebrick">:: SCMFSA_2:def 1</font></span><br></a> <span title="EXTPRO_1:aggr.1" data-href="extpro_1.html#G1">AMI-Struct</span>(# <span title="SCMFSA_1:func.1" data-link="7736.html#ELM24329">SCM+FSA-Memory</span>,<span class="p1">(<span class="default"><span title="SUBSET_1:func.10" data-link="8054.html#ELM25879">In</span> (<span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>,<span title="SCMFSA_1:func.1" data-link="7736.html#ELM24329">SCM+FSA-Memory</span>)</span>)</span>,<span title="SCMFSA_I:func.2" data-link="7756.html#ELM24426">SCM+FSA-Instr</span>,<span title="SCMFSA_1:func.4" data-link="7738.html#ELM24332">SCM+FSA-OK</span>,<span title="SCMFSA_1:func.5" data-link="7739.html#ELM24333">SCM*-VAL</span>,<span title="SCMFSA_1:func.12" data-link="7742.html#ELM24340">SCM+FSA-Exec</span> #);<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   Function-like  V34() V63() V73() V167()  InitHalting   for    set ;
+</td><td><span data-href='scm_halt.html#RC1'>scm_halt</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   Function-like  V34() V73()  parahalting   ->  InitHalting   for    set ;
+</td><td><span data-href='scm_halt.html#CC1'>scm_halt</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   Function-like  V34() V73()  keeping_0   ->  keepInt0_1   for    set ;
+</td><td><span data-href='scm_halt.html#CC2'>scm_halt</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   Function-like  V34() V73()  InitHalting   ->   for    set ;
+</td><td><span data-href='scm_halt.html#CC3'>scm_halt</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   Function-like  V34() V63() V73()  keeping_0  V167()  InitHalting   for    set ;
+</td><td><span data-href='scm_halt.html#RC2'>scm_halt</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   Function-like  V34() V63() V73()  really-closed  V167()  InitHalting   keepInt0_1   for    set ;
+</td><td><span data-href='scm_halt.html#RC3'>scm_halt</span></td></tr>
+<tr><td>
+cluster I ";" J ->  InitHalting  ;
+</td><td><span data-href='scm_halt.html#FC1'>scm_halt</span></td></tr>
+<tr><td>
+cluster  Macro i ->  InitHalting  ;
+</td><td><span data-href='scm_halt.html#FC2'>scm_halt</span></td></tr>
+<tr><td>
+cluster i ";" J ->  InitHalting  ;
+</td><td><span data-href='scm_halt.html#FC3'>scm_halt</span></td></tr>
+<tr><td>
+cluster i ";" J ->  InitHalting  ;
+</td><td><span data-href='scm_halt.html#FC4'>scm_halt</span></td></tr>
+<tr><td>
+cluster I ";" J ->  keepInt0_1  ;
+</td><td><span data-href='scm_halt.html#FC5'>scm_halt</span></td></tr>
+<tr><td>
+cluster I ";" j ->  InitHalting   keepInt0_1  ;
+</td><td><span data-href='scm_halt.html#FC6'>scm_halt</span></td></tr>
+<tr><td>
+cluster i ";" J ->  InitHalting   keepInt0_1  ;
+</td><td><span data-href='scm_halt.html#FC7'>scm_halt</span></td></tr>
+<tr><td>
+cluster I ";" j ->  InitHalting  ;
+</td><td><span data-href='scm_halt.html#FC8'>scm_halt</span></td></tr>
+<tr><td>
+cluster i ";" j ->  InitHalting  ;
+</td><td><span data-href='scm_halt.html#FC9'>scm_halt</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   Function-like  V34() V63() V73()  good  V167()  InitHalting   for    set ;
+</td><td><span data-href='scm_halt.html#RC4'>scm_halt</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   Function-like  V34() V73()  really-closed   good   ->  keepInt0_1   for    set ;
+</td><td><span data-href='scm_halt.html#CC4'>scm_halt</span></td></tr>
+<tr><td>
+cluster  Stop SCM+FSA ->  good   InitHalting  ;
+</td><td><span data-href='scm_halt.html#FC10'>scm_halt</span></td></tr>
+<tr><td>
+cluster  if=0 (a,I,J) ->  InitHalting  ;
+</td><td><span data-href='scm_halt.html#FC11'>scm_halt</span></td></tr>
+<tr><td>
+cluster  if>0 (a,I,J) ->  InitHalting  ;
+</td><td><span data-href='scm_halt.html#FC12'>scm_halt</span></td></tr>
+<tr><td>
+cluster  Times (a,I) ->  good  ;
+</td><td><span data-href='scm_halt.html#FC13'>scm_halt</span></td></tr>
+<tr><td>
+cluster  Directed P ->  halt-free  ;
+</td><td><span data-href='scmfsa6a.html#FC3'>scmfsa6a</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued  V10()  non  empty   Function-like  V39()  initial   halt-free   for    set ;
+</td><td><span data-href='scmfsa6a.html#RC1'>scmfsa6a</span></td></tr>
+<tr><td>
+cluster  with_explicit_jumps   IC-relocable   sequential   for    Element of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa6a.html#RC2'>scmfsa6a</span></td></tr>
+<tr><td>
+cluster  sequential   ->  No-StopCode   for    Element of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa6a.html#CC1'>scmfsa6a</span></td></tr>
+<tr><td>
+cluster i ";" j ->  halt-ending   unique-halt  ;
+</td><td><span data-href='scmfsa6a.html#FC5'>scmfsa6a</span></td></tr>
+<tr><td>
+cluster I ";" j ->  halt-ending   unique-halt  ;
+</td><td><span data-href='scmfsa6a.html#FC6'>scmfsa6a</span></td></tr>
+<tr><td>
+cluster i ";" J ->  halt-ending   unique-halt  ;
+</td><td><span data-href='scmfsa6a.html#FC7'>scmfsa6a</span></td></tr>
+<tr><td>
+cluster  Stop SCM+FSA ->  parahalting   keeping_0  ;
+</td><td><span data-href='scmfsa6b.html#FC1'>scmfsa6b</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued  V13()  non  empty   Function-like  V37() V55()  non  halt-free   halt-ending   unique-halt   really-closed   parahalting  V154()  keeping_0   for    set ;
+</td><td><span data-href='scmfsa6b.html#RC1'>scmfsa6b</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   non  empty   Function-like  V37() V55()  parahalting   ->   for    set ;
+</td><td><span data-href='scmfsa6b.html#CC1'>scmfsa6b</span></td></tr>
+<tr><td>
+cluster  halt SCM+FSA ->  keeping_0  ;
+</td><td><span data-href='scmfsa6c.html#FC1'>scmfsa6c</span></td></tr>
+<tr><td>
+cluster  Macro i ->  parahalting  ;
+</td><td><span data-href='scmfsa6c.html#FC2'>scmfsa6c</span></td></tr>
+<tr><td>
+cluster  sequential  V155( Segm 3, SCM+FSA ) V157( Segm 3, SCM+FSA )  keeping_0   for   M3( the InstructionsF of SCM+FSA);
+</td><td><span data-href='scmfsa6c.html#RC1'>scmfsa6c</span></td></tr>
+<tr><td>
+cluster  Macro i ->  keeping_0  ;
+</td><td><span data-href='scmfsa6c.html#FC9'>scmfsa6c</span></td></tr>
+<tr><td>
+cluster  Macro i ->  really-closed  ;
+</td><td><span data-href='scmfsa6c.html#FC13'>scmfsa6c</span></td></tr>
+<tr><td>
+cluster i ";" J ->  really-closed   parahalting  ;
+</td><td><span data-href='scmfsa6c.html#FC14'>scmfsa6c</span></td></tr>
+<tr><td>
+cluster I ";" j ->  really-closed   parahalting  ;
+</td><td><span data-href='scmfsa6c.html#FC15'>scmfsa6c</span></td></tr>
+<tr><td>
+cluster i ";" j ->  really-closed   parahalting  ;
+</td><td><span data-href='scmfsa6c.html#FC16'>scmfsa6c</span></td></tr>
+<tr><td>
+cluster i ";" J ->  keeping_0  ;
+</td><td><span data-href='scmfsa6c.html#FC17'>scmfsa6c</span></td></tr>
+<tr><td>
+cluster I ";" j ->  keeping_0  ;
+</td><td><span data-href='scmfsa6c.html#FC18'>scmfsa6c</span></td></tr>
+<tr><td>
+cluster i ";" j ->  keeping_0  ;
+</td><td><span data-href='scmfsa6c.html#FC19'>scmfsa6c</span></td></tr>
+<tr><td>
+cluster i ';' j ->  really-closed  ;
+</td><td><span data-href='scmfsa6c.html#FC22'>scmfsa6c</span></td></tr>
+<tr><td>
+cluster I ';' j ->  really-closed  ;
+</td><td><span data-href='scmfsa6c.html#FC23'>scmfsa6c</span></td></tr>
+<tr><td>
+cluster i ';' J ->  really-closed  ;
+</td><td><span data-href='scmfsa6c.html#FC24'>scmfsa6c</span></td></tr>
+<tr><td>
+cluster  Stop SCM+FSA ->  parahalting   good  ;
+</td><td><span data-href='scmfsa7b.html#FC5'>scmfsa7b</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   non  empty  V16()  Function-like  V31()  initial   halt-ending   unique-halt   parahalting   good   for    set ;
+</td><td><span data-href='scmfsa7b.html#RC1'>scmfsa7b</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   non  empty   Function-like  V31()  initial   really-closed   good   ->  keeping_0   for    set ;
+</td><td><span data-href='scmfsa7b.html#CC1'>scmfsa7b</span></td></tr>
+<tr><td>
+cluster  Directed I ->  good  ;
+</td><td><span data-href='scmfsa8a.html#FC1'>scmfsa8a</span></td></tr>
+<tr><td>
+cluster  Directed I ->  initial  ;
+</td><td><span data-href='scmfsa8a.html#FC2'>scmfsa8a</span></td></tr>
+<tr><td>
+cluster I ";" J ->  good  ;
+</td><td><span data-href='scmfsa8a.html#FC3'>scmfsa8a</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   Function-like  V24() V30()  initial   halt-free   good   for    set ;
+</td><td><span data-href='scmfsa8a.html#RC1'>scmfsa8a</span></td></tr>
+<tr><td>
+cluster I +* J ->  good  ;
+</td><td><span data-href='scmfsa8a.html#FC5'>scmfsa8a</span></td></tr>
+<tr><td>
+cluster  if=0 (a,I,J) ->  really-closed  ;
+</td><td><span data-href='scmfsa8b.html#FC1'>scmfsa8b</span></td></tr>
+<tr><td>
+cluster  if>0 (a,I,J) ->  really-closed  ;
+</td><td><span data-href='scmfsa8b.html#FC2'>scmfsa8b</span></td></tr>
+<tr><td>
+cluster  if=0 (a,I,J) ->  parahalting  ;
+</td><td><span data-href='scmfsa8b.html#FC3'>scmfsa8b</span></td></tr>
+<tr><td>
+cluster  if>0 (a,I,J) ->  parahalting  ;
+</td><td><span data-href='scmfsa8b.html#FC4'>scmfsa8b</span></td></tr>
+<tr><td>
+cluster  if=0 (a,I,J) ->  halt-ending   unique-halt  ;
+</td><td><span data-href='scmfsa8b.html#FC5'>scmfsa8b</span></td></tr>
+<tr><td>
+cluster  if>0 (a,I,J) ->  halt-ending   unique-halt  ;
+</td><td><span data-href='scmfsa8b.html#FC6'>scmfsa8b</span></td></tr>
+<tr><td>
+cluster  if=0 (a,b,I,J) ->  really-closed  ;
+</td><td><span data-href='scmfsa8b.html#FC7'>scmfsa8b</span></td></tr>
+<tr><td>
+cluster  if>0 (a,b,I,J) ->  really-closed  ;
+</td><td><span data-href='scmfsa8b.html#FC8'>scmfsa8b</span></td></tr>
+<tr><td>
+cluster  if=0 (a,b,I,J) ->  halt-ending   unique-halt  ;
+</td><td><span data-href='scmfsa8b.html#FC9'>scmfsa8b</span></td></tr>
+<tr><td>
+cluster  if>0 (a,b,I,J) ->  halt-ending   unique-halt  ;
+</td><td><span data-href='scmfsa8b.html#FC10'>scmfsa8b</span></td></tr>
+<tr><td>
+cluster  if=0 (a,b,I,J) ->  parahalting  ;
+</td><td><span data-href='scmfsa8b.html#FC11'>scmfsa8b</span></td></tr>
+<tr><td>
+cluster  if>0 (a,b,I,J) ->  parahalting  ;
+</td><td><span data-href='scmfsa8b.html#FC12'>scmfsa8b</span></td></tr>
+<tr><td>
+cluster  if=0 (a,b,I,J) ->  really-closed  ;
+</td><td><span data-href='scmfsa8b.html#FC13'>scmfsa8b</span></td></tr>
+<tr><td>
+cluster  if>0 (a,b,I,J) ->  really-closed  ;
+</td><td><span data-href='scmfsa8b.html#FC14'>scmfsa8b</span></td></tr>
+<tr><td>
+cluster V4()  Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   Function-like  V24() V38()  initial   non  halt-free   halt-ending   unique-halt   keeping_0   good   really-closed   parahalting   for    set ;
+</td><td><span data-href='scmfsa8c.html#RC1'>scmfsa8c</span></td></tr>
+<tr><td>
+cluster  Times (a,I) ->  halt-ending   unique-halt  ;
+</td><td><span data-href='scmfsa8c.html#FC1'>scmfsa8c</span></td></tr>
+<tr><td>
+cluster  Times (a,I) ->  really-closed  ;
+</td><td><span data-href='scmfsa9a.html#FC2'>scmfsa9a</span></td></tr>
+<tr><td>
+cluster  JUMP (halt SCM+FSA) ->  empty  ;
+</td><td><span data-href='scmfsa10.html#FC1'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  SCM+FSA  ->  standard  ;
+</td><td><span data-href='scmfsa10.html#FC23'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (halt SCM+FSA) `1_3  ->  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC24'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  halt SCM+FSA ->  jump-only  ;
+</td><td><span data-href='scmfsa10.html#FC25'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (goto i1) `1_3  ->  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC26'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (a =0_goto i1) `1_3  ->  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC28'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (a >0_goto i1) `1_3  ->  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC29'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (a := b) `1_3  ->  non  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC32'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (AddTo (a,b)) `1_3  ->  non  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC33'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (SubFrom (a,b)) `1_3  ->  non  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC34'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (MultBy (a,b)) `1_3  ->  non  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC35'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (Divide (a,b)) `1_3  ->  non  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC36'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (b := (f,a)) `1_3  ->  non  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC37'>scmfsa10</span></td></tr>
+<tr><td>
+cluster ((f,a) := b) `1_3  ->  non  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC38'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (a :=len f) `1_3  ->  non  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC41'>scmfsa10</span></td></tr>
+<tr><td>
+cluster (f :=<0,...,0> a) `1_3  ->  non  jump-only   for  InsType of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='scmfsa10.html#FC42'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  SCM+FSA  ->  with_explicit_jumps  ;
+</td><td><span data-href='scmfsa10.html#FC45'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  SCM+FSA  ->  IC-relocable  ;
+</td><td><span data-href='scmfsa10.html#FC46'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  SCM+FSA  ->  non  empty   with_non-empty_values   strict  ;
+</td><td><span data-href='scmfsa_2.html#FC1'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster  SCM+FSA  ->  strict   with_non_trivial_Instructions  ;
+</td><td><span data-href='scmfsa_2.html#FC2'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster  Int-like   for    Element of  the carrier of SCM+FSA;
+</td><td><span data-href='scmfsa_2.html#RC1'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster s . d ->  integer  ;
+</td><td><span data-href='scmfsa_2.html#FC4'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster  SCM+FSA  ->  IC-Ins-separated   strict  ;
+</td><td><span data-href='scmfsa_2.html#FC5'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster a := b ->  non  halting  ;
+</td><td><span data-href='scmfsa_2.html#FC6'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster  AddTo (a,b) ->  non  halting  ;
+</td><td><span data-href='scmfsa_2.html#FC7'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster  SubFrom (a,b) ->  non  halting  ;
+</td><td><span data-href='scmfsa_2.html#FC8'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster  MultBy (a,b) ->  non  halting  ;
+</td><td><span data-href='scmfsa_2.html#FC9'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster  Divide (a,b) ->  non  halting  ;
+</td><td><span data-href='scmfsa_2.html#FC10'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster a =0_goto la ->  non  halting  ;
+</td><td><span data-href='scmfsa_2.html#FC12'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster a >0_goto la ->  non  halting  ;
+</td><td><span data-href='scmfsa_2.html#FC13'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster c := (f,a) ->  non  halting  ;
+</td><td><span data-href='scmfsa_2.html#FC14'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster (f,a) := c ->  non  halting  ;
+</td><td><span data-href='scmfsa_2.html#FC15'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster c :=len f ->  non  halting  ;
+</td><td><span data-href='scmfsa_2.html#FC16'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster f :=<0,...,0> c ->  non  halting  ;
+</td><td><span data-href='scmfsa_2.html#FC17'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster  SCM+FSA  ->  strict   halting  ;
+</td><td><span data-href='scmfsa_2.html#FC18'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster f .--> w ->  data-only   for  PartState of SCM+FSA;
+</td><td><span data-href='scmfsa_2.html#FC19'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster x .--> i ->  data-only   for  PartState of SCM+FSA;
+</td><td><span data-href='scmfsa_2.html#FC20'>scmfsa_2</span></td></tr>
+<tr><td>
+cluster  SCM+FSA  ->  IC-recognized  ;
+</td><td><span data-href='scmfsa_3.html#FC1'>scmfsa_3</span></td></tr>
+<tr><td>
+cluster  SCM+FSA  ->  CurIns-recognized  ;
+</td><td><span data-href='scmfsa_3.html#FC2'>scmfsa_3</span></td></tr>
+<tr><td>
+cluster  SCM+FSA  ->  relocable  ;
+</td><td><span data-href='scmfsa_4.html#FC10'>scmfsa_4</span></td></tr>
+<tr><td>
+cluster  SCM+FSA  ->  relocable1   relocable2  ;
+</td><td><span data-href='scmfsa_5.html#FC1'>scmfsa_5</span></td></tr>
+<tr><td>
+cluster  if=0 (a,I,J) ->  good  ;
+</td><td><span data-href='scmfsa_9.html#FC1'>scmfsa_9</span></td></tr>
+<tr><td>
+cluster  if=0 (a,I) ->  good  ;
+</td><td><span data-href='scmfsa_9.html#FC2'>scmfsa_9</span></td></tr>
+<tr><td>
+cluster  while=0 (a,I) ->  good  ;
+</td><td><span data-href='scmfsa_9.html#FC3'>scmfsa_9</span></td></tr>
+<tr><td>
+cluster  if>0 (a,I,J) ->  good  ;
+</td><td><span data-href='scmfsa_9.html#FC4'>scmfsa_9</span></td></tr>
+<tr><td>
+cluster  if>0 (a,I) ->  good  ;
+</td><td><span data-href='scmfsa_9.html#FC5'>scmfsa_9</span></td></tr>
+<tr><td>
+cluster  while>0 (a,I) ->  good  ;
+</td><td><span data-href='scmfsa_9.html#FC6'>scmfsa_9</span></td></tr>
+<tr><td>
+cluster (intloc n) .--> i ->  the_Values_of SCM+FSA -compatible  ;
+</td><td><span data-href='scmfsa_m.html#FC1'>scmfsa_m</span></td></tr>
+<tr><td>
+cluster  Initialized I ->  0  -started  ;
+</td><td><span data-href='scmfsa_m.html#FC2'>scmfsa_m</span></td></tr>
+<tr><td>
+cluster  Initialized I ->  finite  ;
+</td><td><span data-href='scmfsa_m.html#FC3'>scmfsa_m</span></td></tr>
+<tr><td>
+cluster  Initialized s ->  total  ;
+</td><td><span data-href='scmfsa_m.html#FC4'>scmfsa_m</span></td></tr>
+<tr><td>
+cluster  Int-like   read-write   for    Element of  the carrier of SCM+FSA;
+</td><td><span data-href='scmfsa_m.html#RC1'>scmfsa_m</span></td></tr>
+<tr><td>
+cluster s +* (li,k) ->  the_Values_of SCM+FSA -compatible  ;
+</td><td><span data-href='scmfsa_m.html#FC7'>scmfsa_m</span></td></tr>
+<tr><td>
+cluster a .--> n ->  data-only   for  PartState of SCM+FSA;
+</td><td><span data-href='scmfsa_m.html#FC8'>scmfsa_m</span></td></tr>
+<tr><td>
+cluster f .--> t ->  the_Values_of SCM+FSA -compatible  ;
+</td><td><span data-href='scmfsa_m.html#FC12'>scmfsa_m</span></td></tr>
+<tr><td>
+cluster  while=0 (a,I) ->  halt-ending   unique-halt  ;
+</td><td><span data-href='scmfsa_x.html#FC1'>scmfsa_x</span></td></tr>
+<tr><td>
+cluster  while>0 (a,I) ->  halt-ending   unique-halt  ;
+</td><td><span data-href='scmfsa_x.html#FC2'>scmfsa_x</span></td></tr>
+<tr><td>
+cluster  if=0 (a,I) ->  really-closed  ;
+</td><td><span data-href='scmfsa_x.html#FC3'>scmfsa_x</span></td></tr>
+<tr><td>
+cluster  if>0 (a,I) ->  really-closed  ;
+</td><td><span data-href='scmfsa_x.html#FC4'>scmfsa_x</span></td></tr>
+<tr><td>
+cluster  while=0 (a,I) ->  really-closed  ;
+</td><td><span data-href='scmfsa_x.html#FC5'>scmfsa_x</span></td></tr>
+<tr><td>
+cluster  while>0 (a,I) ->  really-closed  ;
+</td><td><span data-href='scmfsa_x.html#FC6'>scmfsa_x</span></td></tr>
+<tr><td>
+cluster  UsedILoc p ->  finite  ;
+</td><td><span data-href='sf_mastr.html#FC2'>sf_mastr</span></td></tr>
+<tr><td>
+cluster  UsedI*Loc p ->  finite  ;
+</td><td><span data-href='sf_mastr.html#FC4'>sf_mastr</span></td></tr>
+<tr><td>
+cluster  FirstNotUsed p ->  read-write  ;
+</td><td><span data-href='sf_mastr.html#FC5'>sf_mastr</span></td></tr>
+<tr><td>
+cluster  with_explicit_jumps   IC-relocable   sequential   good   for    Element of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='sfmastr1.html#RC1'>sfmastr1</span></td></tr>
+<tr><td>
+cluster  Macro i ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC13'>sfmastr1</span></td></tr>
+<tr><td>
+cluster i ";" j ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC14'>sfmastr1</span></td></tr>
+<tr><td>
+cluster i ";" I ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC15'>sfmastr1</span></td></tr>
+<tr><td>
+cluster I ";" i ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC16'>sfmastr1</span></td></tr>
+<tr><td>
+cluster  Times (a,I) ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC18'>sfmastr1</span></td></tr>
+<tr><td>
+cluster n -thNotUsed p ->  read-write  ;
+</td><td><span data-href='sfmastr1.html#FC19'>sfmastr1</span></td></tr>
+<tr><td>
+cluster  times* (a,I) ->  really-closed  ;
+</td><td><span data-href='sfmastr2.html#FC1'>sfmastr2</span></td></tr>
+<tr><td>
+cluster  times (a,I) ->  really-closed  ;
+</td><td><span data-href='sfmastr2.html#FC2'>sfmastr2</span></td></tr>
+<tr><td>
+cluster  times (a,I) ->  good  ;
+</td><td><span data-href='sfmastr2.html#FC3'>sfmastr2</span></td></tr>
+<tr><td>
+cluster  if>0 (a,b,I,J) ->  good  ;
+</td><td><span data-href='sfmastr3.html#FC1'>sfmastr3</span></td></tr>
+<tr><td>
+cluster  for-up (a,b,c,I) ->  really-closed  ;
+</td><td><span data-href='sfmastr3.html#FC2'>sfmastr3</span></td></tr>
+<tr><td>
+cluster  for-up (a,b,c,I) ->  good  ;
+</td><td><span data-href='sfmastr3.html#FC3'>sfmastr3</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

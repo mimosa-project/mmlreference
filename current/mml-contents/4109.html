@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Consistent</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr Consistent</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='4109.html#ELM11819'>Consistent</span> [<span data-href='henmodel.html#V1'>henmodel</span>]</li>
+<li><span data-link='4109.html#ELM11821'>Consistent</span> [<span data-href='henmodel.html#V2'>henmodel</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM11819'>
+<h2>1.   <span data-link='4109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='henmodel.html#V1'>henmodel</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">Al</font> be    <span title="QC_LANG1:mode.1" data-link="7084.html#ELM21567">QC-alphabet</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font> be   <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span class="p1">(<span class="default"><span title="CQC_LANG:func.3" data-link="2068.html#ELM5496">CQC-WFF</span> <font color="Maroon" title="c1">Al</font></span>)</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V1"><span class="kw">attr</span> </a><font color="Maroon" title="c2">X</font> is  <span title="HENMODEL:attr.1" data-link="4109.html#ELM11819">Consistent</span> <span class="kw"> means </span><a name="D2"><span class="comment"><font color="firebrick">:: HENMODEL:def 2</font></span><br></a> for <font color="Olive" title="b1">p</font> being    <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of  <span title="CQC_LANG:func.3" data-link="2068.html#ELM5496">CQC-WFF</span> <font color="Maroon" title="c1">Al</font>  holds <br>(  not <font color="Maroon" title="c2">X</font> <span title="HENMODEL:pred.1" data-link="1307.html#ELM11814">|-</span> <font color="Olive" title="b1">p</font> or  not <font color="Maroon" title="c2">X</font> <span title="HENMODEL:pred.1" data-link="1307.html#ELM11814">|-</span>  <span title="CQC_LANG:func.6" data-link="1109.html#ELM5499">'not'</span> <font color="Olive" title="b1">p</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Consistent   ->  satisfiable   for    Element of  bool (CQC-WFF Al);
+</td><td><span data-href='goedcpuc.html#CC1'>goedcpuc</span></td></tr>
+<tr><td>
+cluster  Consistent   for    Element of  bool (CQC-WFF Al);
+</td><td><span data-href='henmodel.html#RC1'>henmodel</span></td></tr>
+<tr><td>
+cluster  non  empty   Consistent   for    Element of  bool (CQC-WFF Al);
+</td><td><span data-href='qc_trans.html#RC3'>qc_trans</span></td></tr>
+<tr><td>
+cluster  Consistent   -> Al -Consistent   for    Element of  bool (CQC-WFF Al);
+</td><td><span data-href='qc_trans.html#CC1'>qc_trans</span></td></tr>
+<tr><td>
+cluster Al -Consistent   ->  Consistent   for    Element of  bool (CQC-WFF Al);
+</td><td><span data-href='qc_trans.html#CC2'>qc_trans</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM11821'>
+<h2>2.   <span data-link='4109.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='henmodel.html#V2'>henmodel</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">Al</font> be    <span title="QC_LANG1:mode.1" data-link="7084.html#ELM21567">QC-alphabet</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="CQC_LANG:func.3" data-link="2068.html#ELM5496">CQC-WFF</span> <font color="Maroon" title="c1">Al</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c2">f</font> is  <span title="HENMODEL:attr.2" data-link="4109.html#ELM11821">Consistent</span> <span class="kw"> means </span><a name="D3"><span class="comment"><font color="firebrick">:: HENMODEL:def 3</font></span><br></a> for <font color="Olive" title="b1">p</font> being    <span title="SUBSET_1:mode.2" data-link="667.html#ELM25869">Element</span> of  <span title="CQC_LANG:func.3" data-link="2068.html#ELM5496">CQC-WFF</span> <font color="Maroon" title="c1">Al</font>  holds <br>(  not  <span title="CALCUL_1:pred.4" data-link="1307.html#ELM3196">|-</span> <font color="Maroon" title="c2">f</font> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <span class="p1"><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">&lt;*</span><span class="default"><font color="Olive" title="b1">p</font></span><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">*&gt;</span></span> or  not  <span title="CALCUL_1:pred.4" data-link="1307.html#ELM3196">|-</span> <font color="Maroon" title="c2">f</font> <span title="FINSEQ_1:func.8" data-link="235.html#ELM7101">^</span> <span class="p1"><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">&lt;*</span><span class="default"><span class="p2">(<span class="default"><span title="CQC_LANG:func.6" data-link="1109.html#ELM5499">'not'</span> <font color="Olive" title="b1">p</font></span>)</span></span><span title="FINSEQ_1:func.12" data-link="669.html#ELM7105">*&gt;</span></span> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>.Result()</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func .Result()</h1>
+<h2>List of Definitions (3)</h2>
+<ol>
+<li><span data-link='3540.html#ELM9802'>.Result()</span> [<span data-href='glib_000.html#K40'>glib_000</span>]</li>
+<li><span data-link='3540.html#ELM13680'>.Result()</span> [<span data-href='lexbfs.html#K14'>lexbfs</span>]</li>
+<li><span data-link='3540.html#ELM13690'>.Result()</span> [<span data-href='lexbfs.html#K24'>lexbfs</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM9802'>
+<h2>1.   <span data-link='3540.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='glib_000.html#K40'>glib_000</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">F</font> be   <span title="PBOOLE:NM.1" data-link="4273.html#ELM19812">ManySortedSet</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K40"><span class="kw">func</span> </a><font color="Maroon" title="c1">F</font> <span title="GLIB_000:func.40" data-link="3540.html#ELM9802">.Result()</span> <span class="kw"> -&gt; </span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> <span class="kw"> equals </span><a name="D57"><span class="comment"><font color="firebrick">:: GLIB_000:def 57</font></span><br></a><font color="Maroon" title="c1">F</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Maroon" title="c1">F</font> <span title="GLIB_000:func.39" data-link="3539.html#ELM9801">.Lifespan()</span></span>)</span>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM13680'>
+<h2>2.   <span data-link='3540.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='lexbfs.html#K14'>lexbfs</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GLIB_000:NM.2" data-link="3502.html#ELM9753">_Graph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be    <span title="LEXBFS:mode.2" data-link="4758.html#ELM13664">LexBFS:LabelingSeq</span> of <font color="Maroon" title="c1">G</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="GLIB_000:func.40" data-link="3540.html#ELM9802">.Result()</span><br><span class="kw">redefine </span><a name="K14"><span class="kw">func</span> </a><font color="Maroon" title="c2">S</font> <span title="LEXBFS:func.14" data-link="3540.html#ELM13680">.Result()</span> <span class="kw"> -&gt; </span>  <span title="LEXBFS:NM.3" data-link="4757.html#ELM13663">LexBFS:Labeling</span> of <font color="Maroon" title="c1">G</font>;<br><span class="kw">coherence</span> <span class="kw">by</span> <span class="lab"><span class="ref" target="_self" onmouseover="rs('lexbfs/D15')" onmouseout="rh()" data-href="lexbfs.html#D15">Def14</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM13690'>
+<h2>3.   <span data-link='3540.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='lexbfs.html#K24'>lexbfs</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GLIB_000:NM.2" data-link="3502.html#ELM9753">_Graph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be    <span title="LEXBFS:mode.3" data-link="4760.html#ELM13666">MCS:LabelingSeq</span> of <font color="Maroon" title="c1">G</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="GLIB_000:func.40" data-link="3540.html#ELM9802">.Result()</span><br><span class="kw">redefine </span><a name="K24"><span class="kw">func</span> </a><font color="Maroon" title="c2">S</font> <span title="LEXBFS:func.24" data-link="3540.html#ELM13690">.Result()</span> <span class="kw"> -&gt; </span>  <span title="LEXBFS:NM.5" data-link="4759.html#ELM13665">MCS:Labeling</span> of <font color="Maroon" title="c1">G</font>;<br><span class="kw">coherence</span> <span class="kw">by</span> <span class="lab"><span class="ref" target="_self" onmouseover="rs('lexbfs/D24')" onmouseout="rh()" data-href="lexbfs.html#D24">Def23</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

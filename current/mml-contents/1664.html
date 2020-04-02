@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>VertexSeparator</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>mode VertexSeparator</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='1664.html#ELM4196'>VertexSeparator</span> [<span data-href='chord.html#M2'>chord</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM4196'>
+<h2>1.   <span data-link='1664.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='chord.html#M2'>chord</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">G</font> be   <span title="GLIB_000:NM.2" data-link="3502.html#ELM9753">_Graph</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">a</font>, <font color="Maroon" title="c3">b</font> be   <span title="GLIB_000:NM.10" data-link="3509.html#ELM9761">Vertex</span> of <font color="Maroon" title="c1">G</font>;<br><span class="kw">assume </span><span class="kw">that </span><br><a name="E1:79"></a><span class="lab"><font color="Green" title="E63">A1</font></span>: 
+<font color="Maroon" title="c2">a</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> <font color="Maroon" title="c3">b</font>
+ <span class="kw">and </span><br><a name="E2:79"></a><span class="lab"><font color="Green" title="E64">A2</font></span>: 
+ not <font color="Maroon" title="c2">a</font>,<font color="Maroon" title="c3">b</font> <span title="CHORD:pred.1" data-link="1662.html#ELM4194">are_adjacent</span> 
+ ;<br><div about="#D63" typeof="oo:Definition" class="main-sentence">
+<a name="M2"><span class="kw">mode</span> </a> <span title="CHORD:mode.2" data-link="1664.html#ELM4196">VertexSeparator</span> of <font color="Maroon" title="c2">a</font>,<font color="Maroon" title="c3">b</font><span class="kw"> -&gt; </span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span class="p1">(<span class="default"><span title="GLIB_000:func.6" data-link="3516.html#ELM9768">the_Vertices_of</span> <font color="Maroon" title="c1">G</font></span>)</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E63">Def8</font></span>: <a name="D8"><span class="comment"><font color="firebrick">:: CHORD:def 8</font></span><br></a>(  not <font color="Maroon" title="c2">a</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <span class="kw">it</span> &amp;  not <font color="Maroon" title="c3">b</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <span class="kw">it</span> &amp; (  for <font color="Olive" title="b1">G2</font> being   <span title="GLIB_000:NM.7" data-link="3506.html#ELM9758">removeVertices</span> of <font color="Maroon" title="c1">G</font>,<span class="kw">it</span><br>  for <font color="Olive" title="b2">W</font> being    <span title="GLIB_001:mode.3" data-link="3556.html#ELM9917">Walk</span> of <font color="Olive" title="b1">G2</font>  holds  not <font color="Olive" title="b2">W</font> <span title="GLIB_001:pred.1" data-link="3553.html#ELM9914">is_Walk_from</span> <font color="Maroon" title="c2">a</font>,<font color="Maroon" title="c3">b</font> ) );<br>
+</div>
+<span class="kw">existence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-attr'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>attr</th></tr></thead>
+<tbody>
+<tr><td><span data-link='985.html#ELM4205'>minimal</span></td><td><span data-href='chord.html#V4'>chord</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

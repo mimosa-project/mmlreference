@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>variance</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func variance</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='7259.html#ELM21944'>variance</span> [<span data-href='random_2.html#K1'>random_2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM21944'>
+<h2>1.   <span data-link='7259.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='random_2.html#K1'>random_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">Omega</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">Sigma</font> be   <span title="PROB_1:NM.3" data-link="6995.html#ELM21277">SigmaField</span> of <font color="Maroon" title="c1">Omega</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">P</font> be    <span title="PROB_1:mode.2" data-link="2290.html#ELM21281">Probability</span> of <font color="Maroon" title="c2">Sigma</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">X</font> be    <span title="RANDOM_1:mode.1" data-link="7256.html#ELM21934">Real-Valued-Random-Variable</span> of <font color="Maroon" title="c2">Sigma</font>;<br><span class="kw">assume </span><a name="E1:9"></a><span class="lab"><font color="Green" title="E7">A1</font></span>: 
+( <font color="Maroon" title="c4">X</font> <span title="RANDOM_1:pred.1" data-link="4314.html#ELM21933">is_integrable_on</span> <font color="Maroon" title="c3">P</font> &amp; <span class="p1">(<span class="default"><span title="RANDOM_1:func.7" data-link="2452.html#ELM21942">abs</span> <font color="Maroon" title="c4">X</font></span>)</span> <span title="MESFUN6C:func.2" data-link="865.html#ELM15490">to_power</span> 2 <span title="MESFUNC6:pred.2" data-link="4314.html#ELM15600">is_integrable_on</span>  <span title="PROB_4:func.2" data-link="7009.html#ELM21341">P2M</span> <font color="Maroon" title="c3">P</font> )
+ ;<br><div about="#D7" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="RANDOM_2:func.1" data-link="7259.html#ELM21944">variance</span> (<font color="Maroon" title="c4">X</font>,<font color="Maroon" title="c3">P</font>)<span class="kw"> -&gt; </span>  <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E7">Def1</font></span>: <a name="D1"><span class="comment"><font color="firebrick">:: RANDOM_2:def 1</font></span><br></a> ex <font color="Olive" title="b1">Y</font>, <font color="Olive" title="b2">E</font> being    <span title="RANDOM_1:mode.1" data-link="7256.html#ELM21934">Real-Valued-Random-Variable</span> of <font color="Maroon" title="c2">Sigma</font> st <br>( <font color="Olive" title="b2">E</font> <span title="FUNCT_2:pred.1" data-link="1122.html#ELM8871">=</span> <font color="Maroon" title="c1">Omega</font> <span title="FUNCOP_1:func.7" data-link="488.html#ELM8736">--&gt;</span> <span class="p1">(<span class="default"><span title="RANDOM_1:func.8" data-link="7258.html#ELM21943">expect</span> (<font color="Maroon" title="c4">X</font>,<font color="Maroon" title="c3">P</font>)</span>)</span> &amp; <font color="Olive" title="b1">Y</font> <span title="FUNCT_2:pred.2" data-link="1122.html#ELM8872">=</span> <font color="Maroon" title="c4">X</font> <span title="RANDOM_1:func.4" data-link="327.html#ELM21939">-</span> <font color="Olive" title="b2">E</font> &amp; <font color="Olive" title="b1">Y</font> <span title="RANDOM_1:pred.1" data-link="4314.html#ELM21933">is_integrable_on</span> <font color="Maroon" title="c3">P</font> &amp; <span class="p1">(<span class="default"><span title="RANDOM_1:func.7" data-link="2452.html#ELM21942">abs</span> <font color="Olive" title="b1">Y</font></span>)</span> <span title="MESFUN6C:func.2" data-link="865.html#ELM15490">to_power</span> 2 <span title="MESFUNC6:pred.2" data-link="4314.html#ELM15600">is_integrable_on</span>  <span title="PROB_4:func.2" data-link="7009.html#ELM21341">P2M</span> <font color="Maroon" title="c3">P</font> &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="MESFUNC6:func.1" data-link="5254.html#ELM15601">Integral</span> (<span class="p1">(<span class="default"><span title="PROB_4:func.2" data-link="7009.html#ELM21341">P2M</span> <font color="Maroon" title="c3">P</font></span>)</span>,<span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="RANDOM_1:func.7" data-link="2452.html#ELM21942">abs</span> <font color="Olive" title="b1">Y</font></span>)</span> <span title="MESFUN6C:func.2" data-link="865.html#ELM15490">to_power</span> 2</span>)</span>) );<br>
+</div>
+<span class="kw">correctness </span>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

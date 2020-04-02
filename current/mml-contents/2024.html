@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_a_component_of</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_a_component_of</h1>
+<h2>List of Definitions (3)</h2>
+<ol>
+<li><span data-link='2024.html#ELM5364'>is_a_component_of</span> [<span data-href='connsp_1.html#R3'>connsp_1</span>]</li>
+<li><span data-link='2024.html#ELM7547'>is_a_component_of</span> [<span data-href='fintopo6.html#R1'>fintopo6</span>]</li>
+<li><span data-link='2024.html#ELM7548'>is_a_component_of</span> [<span data-href='fintopo6.html#R2'>fintopo6</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM5364'>
+<h2>1.   <span data-link='2024.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='connsp_1.html#R3'>connsp_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">GX</font> be    <span title="PRE_TOPC:struct.1" data-link="6937.html#ELM21123">TopStruct</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font>, <font color="Maroon" title="c3">B</font> be   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">GX</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R3"><span class="kw">pred</span> </a><font color="Maroon" title="c3">B</font> <span title="CONNSP_1:pred.3" data-link="2024.html#ELM5364">is_a_component_of</span> <font color="Maroon" title="c2">A</font><span class="kw"> means </span><a name="D6"><span class="comment"><font color="firebrick">:: CONNSP_1:def 6</font></span><br></a> ex <font color="Olive" title="b1">B1</font> being   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <span class="p1">(<span class="default"><font color="Maroon" title="c1">GX</font> <span title="PRE_TOPC:func.1" data-link="909.html#ELM21127">|</span> <font color="Maroon" title="c2">A</font></span>)</span> st <br>( <font color="Olive" title="b1">B1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">B</font> &amp; <font color="Olive" title="b1">B1</font> is  <span title="CONNSP_1:attr.3" data-link="2027.html#ELM5368">a_component</span>  );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM7547'>
+<h2>2.   <span data-link='2024.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fintopo6.html#R1'>fintopo6</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">FT</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font> be   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">FT</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c2">A</font> <span title="FINTOPO6:pred.1" data-link="2024.html#ELM7547">is_a_component_of</span> <font color="Maroon" title="c1">FT</font><span class="kw"> means </span><a name="D4"><span class="comment"><font color="firebrick">:: FINTOPO6:def 4</font></span><br></a>( <font color="Maroon" title="c2">A</font> is  <span title="FIN_TOPO:attr.4" data-link="2026.html#ELM6947">connected</span>  &amp; (  for <font color="Olive" title="b1">B</font> being   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">FT</font>  st <font color="Olive" title="b1">B</font> is  <span title="FIN_TOPO:attr.4" data-link="2026.html#ELM6947">connected</span>  &amp; <font color="Maroon" title="c2">A</font> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span> <font color="Olive" title="b1">B</font> holds <br><font color="Maroon" title="c2">A</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">B</font> ) );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM7548'>
+<h2>3.   <span data-link='2024.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fintopo6.html#R2'>fintopo6</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">FT</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ORDERS_2:struct.1" data-link="6284.html#ELM18887">RelStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>  <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">FT</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">B</font> be   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">FT</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c3">B</font> <span title="FINTOPO6:pred.2" data-link="2024.html#ELM7548">is_a_component_of</span> <font color="Maroon" title="c2">A</font><span class="kw"> means </span><a name="D5"><span class="comment"><font color="firebrick">:: FINTOPO6:def 5</font></span><br></a> ex <font color="Olive" title="b1">B1</font> being   <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <span class="p1">(<span class="default"><font color="Maroon" title="c1">FT</font> <span title="FINTOPO6:func.1" data-link="909.html#ELM7551">|</span> <font color="Maroon" title="c2">A</font></span>)</span> st <br>( <font color="Olive" title="b1">B1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">B</font> &amp; <font color="Olive" title="b1">B1</font> <span title="FINTOPO6:pred.1" data-link="2024.html#ELM7547">is_a_component_of</span> <font color="Maroon" title="c1">FT</font> <span title="FINTOPO6:func.1" data-link="909.html#ELM7551">|</span> <font color="Maroon" title="c2">A</font> );<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

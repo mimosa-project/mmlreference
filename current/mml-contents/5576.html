@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>is_succ_homomorphism</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred is_succ_homomorphism</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='5576.html#ELM16350'>is_succ_homomorphism</span> [<span data-href='modelc_3.html#R7'>modelc_3</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM16350'>
+<h2>1.   <span data-link='5576.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='modelc_3.html#R7'>modelc_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">v</font> be   <span title="MODELC_2:NM.1" data-link="5544.html#ELM16267">LTL-formula</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">w</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="MODELC_2:func.25" data-link="5550.html#ELM16297">Inf_seq</span> <span title="MODELC_2:func.43" data-link="5561.html#ELM16315">AtomicFamily</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">f</font> be   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R7"><span class="kw">pred</span> </a><font color="Maroon" title="c3">f</font> <span title="MODELC_3:pred.7" data-link="5576.html#ELM16350">is_succ_homomorphism</span> <font color="Maroon" title="c1">v</font>,<font color="Maroon" title="c2">w</font><span class="kw"> means </span><a name="D32"><span class="comment"><font color="firebrick">:: MODELC_3:def 32</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="MODELC_3:func.22" data-link="5590.html#ELM16376">LTLNodes</span> <font color="Maroon" title="c1">v</font> &amp;  not  <span title="MODELC_3:func.10" data-link="5587.html#ELM16364">CastNode</span> (<font color="Olive" title="b1">x</font>,<font color="Maroon" title="c1">v</font>) is  <span title="MODELC_3:attr.3" data-link="712.html#ELM16393">elementary</span>  &amp; <font color="Maroon" title="c2">w</font> <span title="MODELC_2:pred.8" data-link="1309.html#ELM16264">|=</span>  <span title="MODELC_3:func.14" data-link="47.html#ELM16368">*</span> <span class="p1">(<span class="default"><span title="MODELC_3:func.10" data-link="5587.html#ELM16364">CastNode</span> (<font color="Olive" title="b1">x</font>,<font color="Maroon" title="c1">v</font>)</span>)</span> holds <br>(  <span title="MODELC_3:func.10" data-link="5587.html#ELM16364">CastNode</span> (<span class="p1">(<span class="default"><font color="Maroon" title="c3">f</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font></span>)</span>,<font color="Maroon" title="c1">v</font>) <span title="MODELC_3:pred.4" data-link="5571.html#ELM16347">is_succ_of</span>  <span title="MODELC_3:func.10" data-link="5587.html#ELM16364">CastNode</span> (<font color="Olive" title="b1">x</font>,<font color="Maroon" title="c1">v</font>) &amp; <font color="Maroon" title="c2">w</font> <span title="MODELC_2:pred.8" data-link="1309.html#ELM16264">|=</span>  <span title="MODELC_3:func.14" data-link="47.html#ELM16368">*</span> <span class="p1">(<span class="default"><span title="MODELC_3:func.10" data-link="5587.html#ELM16364">CastNode</span> (<span class="p2">(<span class="default"><font color="Maroon" title="c3">f</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font></span>)</span>,<font color="Maroon" title="c1">v</font>)</span>)</span> );<br>
+</div>
+<div about="#D0" typeof="oo:Definition" class="">
+<a name="R8"><span class="kw">pred</span> </a><font color="Maroon" title="c3">f</font> <span title="MODELC_3:pred.8" data-link="281.html#ELM16351">is_homomorphism</span> <font color="Maroon" title="c1">v</font>,<font color="Maroon" title="c2">w</font><span class="kw"> means </span><a name="D33"><span class="comment"><font color="firebrick">:: MODELC_3:def 33</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span>   st <font color="Olive" title="b1">x</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="MODELC_3:func.22" data-link="5590.html#ELM16376">LTLNodes</span> <font color="Maroon" title="c1">v</font> &amp;  not  <span title="MODELC_3:func.10" data-link="5587.html#ELM16364">CastNode</span> (<font color="Olive" title="b1">x</font>,<font color="Maroon" title="c1">v</font>) is  <span title="MODELC_3:attr.3" data-link="712.html#ELM16393">elementary</span>  &amp; <font color="Maroon" title="c2">w</font> <span title="MODELC_2:pred.8" data-link="1309.html#ELM16264">|=</span>  <span title="MODELC_3:func.14" data-link="47.html#ELM16368">*</span> <span class="p1">(<span class="default"><span title="MODELC_3:func.10" data-link="5587.html#ELM16364">CastNode</span> (<font color="Olive" title="b1">x</font>,<font color="Maroon" title="c1">v</font>)</span>)</span> holds <br><font color="Maroon" title="c2">w</font> <span title="MODELC_2:pred.8" data-link="1309.html#ELM16264">|=</span>  <span title="MODELC_3:func.14" data-link="47.html#ELM16368">*</span> <span class="p1">(<span class="default"><span title="MODELC_3:func.10" data-link="5587.html#ELM16364">CastNode</span> (<span class="p2">(<span class="default"><font color="Maroon" title="c3">f</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font></span>)</span>,<font color="Maroon" title="c1">v</font>)</span>)</span>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

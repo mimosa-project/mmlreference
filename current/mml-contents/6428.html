@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>OSQuotArgs</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func OSQuotArgs</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='6428.html#ELM19501'>OSQuotArgs</span> [<span data-href='osalg_4.html#K11'>osalg_4</span>]</li>
+<li><span data-link='6428.html#ELM19503'>OSQuotArgs</span> [<span data-href='osalg_4.html#K13'>osalg_4</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM19501'>
+<h2>1.   <span data-link='6428.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='osalg_4.html#K11'>osalg_4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   <span title="OSALG_4:attr.2" data-link="6435.html#ELM19515">locally_directed</span>  <span title="OSALG_1:NM.3" data-link="6391.html#ELM19394">OrderSortedSign</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">o</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  the <span title="STRUCT_0:sel.4" data-href="struct_0.html#U4">carrier'</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">A</font> be   <span title="MSUALG_1:attr.4" data-link="3057.html#ELM17069">non-empty</span>  <span title="OSALG_1:NM.5" data-link="6393.html#ELM19396">OSAlgebra</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">R</font> be   <span title="OSALG_4:NM.4" data-link="6421.html#ELM19489">OSCongruence</span> of <font color="Maroon" title="c3">A</font>;<br><div about="#D18" typeof="oo:Definition">
+<a name="K10"><span class="kw">func</span> </a> <span title="OSALG_4:func.10" data-link="6427.html#ELM19500">OSQuotRes</span> (<font color="Maroon" title="c4">R</font>,<font color="Maroon" title="c2">o</font>)<span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"><span class="p2">(<span class="default"> the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c3">A</font> <span title="FUNCT_1:NK.3" data-link="47.html#ELM8820">*</span>  the <span title="MSUALG_1:sel.2" data-href="msualg_1.html#U2">ResultSort</span> of <font color="Maroon" title="c1">S</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c2">o</font></span>)</span>,<span class="p1">(<span class="default"><span class="p2">(<span class="default"><span class="p3">(<span class="default"><span title="OSALG_4:func.7" data-link="6380.html#ELM19497">OSClass</span> <font color="Maroon" title="c4">R</font></span>)</span> <span title="FUNCT_1:NK.3" data-link="47.html#ELM8820">*</span>  the <span title="MSUALG_1:sel.2" data-href="msualg_1.html#U2">ResultSort</span> of <font color="Maroon" title="c1">S</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c2">o</font></span>)</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E18">Def14</font></span>: <a name="D14"><span class="comment"><font color="firebrick">:: OSALG_4:def 14</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c3">A</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><span title="MSUALG_1:func.2" data-link="5762.html#ELM17058">the_result_sort_of</span> <font color="Maroon" title="c2">o</font></span>)</span> holds  <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="OSALG_4:func.8" data-link="6380.html#ELM19498">OSClass</span> (<font color="Maroon" title="c4">R</font>,<font color="Olive" title="b1">x</font>);<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K11"><span class="kw">func</span> </a> <span title="OSALG_4:func.11" data-link="6428.html#ELM19501">OSQuotArgs</span> (<font color="Maroon" title="c4">R</font>,<font color="Maroon" title="c2">o</font>)<span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span class="p3">(<span class="default"> the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c3">A</font> <span title="FINSEQ_2:func.6" data-link="76.html#ELM7184">#</span></span>)</span> <span title="FUNCT_1:NK.3" data-link="47.html#ELM8820">*</span>  the <span title="MSUALG_1:sel.1" data-href="msualg_1.html#U1">Arity</span> of <font color="Maroon" title="c1">S</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c2">o</font></span>)</span>,<span class="p1">(<span class="default"><span class="p2">(<span class="default"><span class="p3">(<span class="default"><span class="p4">(<span class="default"><span title="OSALG_4:func.7" data-link="6380.html#ELM19497">OSClass</span> <font color="Maroon" title="c4">R</font></span>)</span> <span title="FINSEQ_2:func.6" data-link="76.html#ELM7184">#</span></span>)</span> <span title="FUNCT_1:NK.3" data-link="47.html#ELM8820">*</span>  the <span title="MSUALG_1:sel.1" data-href="msualg_1.html#U1">Arity</span> of <font color="Maroon" title="c1">S</font></span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Maroon" title="c2">o</font></span>)</span><span class="kw"> means </span><a name="D15"><span class="comment"><font color="firebrick">:: OSALG_4:def 15</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="MSUALG_1:func.3" data-link="5763.html#ELM17059">Args</span> (<font color="Maroon" title="c2">o</font>,<font color="Maroon" title="c3">A</font>) holds  <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c4">R</font> <span title="OSALG_4:func.9" data-link="6426.html#ELM19499">#_os</span> <font color="Olive" title="b1">x</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM19503'>
+<h2>2.   <span data-link='6428.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='osalg_4.html#K13'>osalg_4</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   <span title="OSALG_4:attr.2" data-link="6435.html#ELM19515">locally_directed</span>  <span title="OSALG_1:NM.3" data-link="6391.html#ELM19394">OrderSortedSign</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">A</font> be   <span title="MSUALG_1:attr.4" data-link="3057.html#ELM17069">non-empty</span>  <span title="OSALG_1:NM.5" data-link="6393.html#ELM19396">OSAlgebra</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">R</font> be   <span title="OSALG_4:NM.4" data-link="6421.html#ELM19489">OSCongruence</span> of <font color="Maroon" title="c2">A</font>;<br><div about="#D0" typeof="oo:Definition">
+<a name="K12"><span class="kw">func</span> </a> <span title="OSALG_4:func.12" data-link="6427.html#ELM19502">OSQuotRes</span> <font color="Maroon" title="c3">R</font><span class="kw"> -&gt; </span>   <span title="PBOOLE:mode.2" data-link="5785.html#ELM19816">ManySortedFunction</span> of  the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c2">A</font> <span title="FUNCT_1:NK.3" data-link="47.html#ELM8820">*</span>  the <span title="MSUALG_1:sel.2" data-href="msualg_1.html#U2">ResultSort</span> of <font color="Maroon" title="c1">S</font>,<span class="p1">(<span class="default"><span title="OSALG_4:func.7" data-link="6380.html#ELM19497">OSClass</span> <font color="Maroon" title="c3">R</font></span>)</span> <span title="FUNCT_1:NK.3" data-link="47.html#ELM8820">*</span>  the <span title="MSUALG_1:sel.2" data-href="msualg_1.html#U2">ResultSort</span> of <font color="Maroon" title="c1">S</font><span class="kw"> means </span><a name="D16"><span class="comment"><font color="firebrick">:: OSALG_4:def 16</font></span><br></a> for <font color="Olive" title="b1">o</font> being   <span title="OSALG_1:NM.2" data-link="32.html#ELM19393">OperSymbol</span> of <font color="Maroon" title="c1">S</font> holds  <span class="kw">it</span> <span title="MSUALG_4:func.5" data-link="141.html#ELM17146">.</span> <font color="Olive" title="b1">o</font> <span title="FUNCT_2:pred.2" data-link="1122.html#ELM8872">=</span>  <span title="OSALG_4:func.10" data-link="6427.html#ELM19500">OSQuotRes</span> (<font color="Maroon" title="c3">R</font>,<font color="Olive" title="b1">o</font>);<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K13"><span class="kw">func</span> </a> <span title="OSALG_4:func.13" data-link="6428.html#ELM19503">OSQuotArgs</span> <font color="Maroon" title="c3">R</font><span class="kw"> -&gt; </span>   <span title="PBOOLE:mode.2" data-link="5785.html#ELM19816">ManySortedFunction</span> of <span class="p1">(<span class="default"> the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c2">A</font> <span title="FINSEQ_2:func.6" data-link="76.html#ELM7184">#</span></span>)</span> <span title="FUNCT_1:NK.3" data-link="47.html#ELM8820">*</span>  the <span title="MSUALG_1:sel.1" data-href="msualg_1.html#U1">Arity</span> of <font color="Maroon" title="c1">S</font>,<span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="OSALG_4:func.7" data-link="6380.html#ELM19497">OSClass</span> <font color="Maroon" title="c3">R</font></span>)</span> <span title="FINSEQ_2:func.6" data-link="76.html#ELM7184">#</span></span>)</span> <span title="FUNCT_1:NK.3" data-link="47.html#ELM8820">*</span>  the <span title="MSUALG_1:sel.1" data-href="msualg_1.html#U1">Arity</span> of <font color="Maroon" title="c1">S</font><span class="kw"> means </span><a name="D17"><span class="comment"><font color="firebrick">:: OSALG_4:def 17</font></span><br></a> for <font color="Olive" title="b1">o</font> being   <span title="OSALG_1:NM.2" data-link="32.html#ELM19393">OperSymbol</span> of <font color="Maroon" title="c1">S</font> holds  <span class="kw">it</span> <span title="MSUALG_4:func.5" data-link="141.html#ELM17146">.</span> <font color="Olive" title="b1">o</font> <span title="FUNCT_2:pred.2" data-link="1122.html#ELM8872">=</span>  <span title="OSALG_4:func.11" data-link="6428.html#ELM19501">OSQuotArgs</span> (<font color="Maroon" title="c3">R</font>,<font color="Olive" title="b1">o</font>);<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

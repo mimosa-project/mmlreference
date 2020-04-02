@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>good</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr good</h1>
+<h2>List of Definitions (3)</h2>
+<ol>
+<li><span data-link='7702.html#ELM24131'>good</span> [<span data-href='scm_halt.html'>scm_halt</span>]</li>
+<li><span data-link='7702.html#ELM24228'>good</span> [<span data-href='scmfsa7b.html#V1'>scmfsa7b</span>]</li>
+<li><span data-link='7702.html#ELM25097'>good</span> [<span data-href='sfmastr1.html#V1'>sfmastr1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM24131'>
+<h2>1.   <span data-link='7702.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='scm_halt.html'>scm_halt</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c6">i</font> be   <span title="COMPOS_1:NM.1" data-link="1931.html#ELM5020">Instruction</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<span class="kw">redefine </span><span class="kw">attr</span> <font color="Maroon" title="c1">i</font> is  <span title="SFMASTR1:attr.1" data-link="7702.html#ELM25097">good</span> <span class="kw"> means </span><a name="D4"><span class="comment"><font color="firebrick">:: SCM_HALT:def 4</font></span><br></a> not <font color="Maroon" title="c1">i</font> <span title="SCMFSA7B:pred.3" data-link="7717.html#ELM24225">destroys</span>  <span title="SCMFSA_2:func.4" data-link="7748.html#ELM24351">intloc</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>;<br>
+</div>
+<span class="kw">compatibility</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM24228'>
+<h2>2.   <span data-link='7702.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='scmfsa7b.html#V1'>scmfsa7b</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">I</font> be   <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>  <span title="RELAT_1:attr.4" data-link="7381.html#ELM22400">-defined</span>   the <span title="COMPOS_1:sel.1" data-href="compos_1.html#U1">InstructionsF</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span> <span title="RELAT_1:attr.5" data-link="7382.html#ELM22401">-valued</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="V1"><span class="kw">attr</span> </a><font color="Maroon" title="c1">I</font> is  <span title="SCMFSA7B:attr.1" data-link="7702.html#ELM24228">good</span> <span class="kw"> means </span><a name="D5"><span class="comment"><font color="firebrick">:: SCMFSA7B:def 5</font></span><br></a> not <font color="Maroon" title="c1">I</font> <span title="SCMFSA7B:pred.4" data-link="7717.html#ELM24226">destroys</span>  <span title="SCMFSA_2:func.4" data-link="7748.html#ELM24351">intloc</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   Function-like  V34() V63() V73()  good  V167()  InitHalting   for    set ;
+</td><td><span data-href='scm_halt.html#RC4'>scm_halt</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   Function-like  V34() V73()  really-closed   good   ->  keepInt0_1   for    set ;
+</td><td><span data-href='scm_halt.html#CC4'>scm_halt</span></td></tr>
+<tr><td>
+cluster  Stop SCM+FSA ->  good   InitHalting  ;
+</td><td><span data-href='scm_halt.html#FC10'>scm_halt</span></td></tr>
+<tr><td>
+cluster  Times (a,I) ->  good  ;
+</td><td><span data-href='scm_halt.html#FC13'>scm_halt</span></td></tr>
+<tr><td>
+cluster  Stop SCM+FSA ->  parahalting   good  ;
+</td><td><span data-href='scmfsa7b.html#FC5'>scmfsa7b</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   non  empty  V16()  Function-like  V31()  initial   halt-ending   unique-halt   parahalting   good   for    set ;
+</td><td><span data-href='scmfsa7b.html#RC1'>scmfsa7b</span></td></tr>
+<tr><td>
+cluster  Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   non  empty   Function-like  V31()  initial   really-closed   good   ->  keeping_0   for    set ;
+</td><td><span data-href='scmfsa7b.html#CC1'>scmfsa7b</span></td></tr>
+<tr><td>
+cluster a := k ->  good  ;
+</td><td><span data-href='scmfsa7b.html#FC6'>scmfsa7b</span></td></tr>
+<tr><td>
+cluster  Directed I ->  good  ;
+</td><td><span data-href='scmfsa8a.html#FC1'>scmfsa8a</span></td></tr>
+<tr><td>
+cluster I ";" J ->  good  ;
+</td><td><span data-href='scmfsa8a.html#FC3'>scmfsa8a</span></td></tr>
+<tr><td>
+cluster  Goto l ->  halt-free   good  ;
+</td><td><span data-href='scmfsa8a.html#FC4'>scmfsa8a</span></td></tr>
+<tr><td>
+cluster  non  empty   Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   Function-like  V24() V30()  initial   halt-free   good   for    set ;
+</td><td><span data-href='scmfsa8a.html#RC1'>scmfsa8a</span></td></tr>
+<tr><td>
+cluster I +* J ->  good  ;
+</td><td><span data-href='scmfsa8a.html#FC5'>scmfsa8a</span></td></tr>
+<tr><td>
+cluster V4()  Relation-like   NAT  -defined   the InstructionsF of SCM+FSA -valued   Function-like  V24() V38()  initial   non  halt-free   halt-ending   unique-halt   keeping_0   good   really-closed   parahalting   for    set ;
+</td><td><span data-href='scmfsa8c.html#RC1'>scmfsa8c</span></td></tr>
+<tr><td>
+cluster  if=0 (a,I,J) ->  good  ;
+</td><td><span data-href='scmfsa_9.html#FC1'>scmfsa_9</span></td></tr>
+<tr><td>
+cluster  if=0 (a,I) ->  good  ;
+</td><td><span data-href='scmfsa_9.html#FC2'>scmfsa_9</span></td></tr>
+<tr><td>
+cluster  while=0 (a,I) ->  good  ;
+</td><td><span data-href='scmfsa_9.html#FC3'>scmfsa_9</span></td></tr>
+<tr><td>
+cluster  if>0 (a,I,J) ->  good  ;
+</td><td><span data-href='scmfsa_9.html#FC4'>scmfsa_9</span></td></tr>
+<tr><td>
+cluster  if>0 (a,I) ->  good  ;
+</td><td><span data-href='scmfsa_9.html#FC5'>scmfsa_9</span></td></tr>
+<tr><td>
+cluster  while>0 (a,I) ->  good  ;
+</td><td><span data-href='scmfsa_9.html#FC6'>scmfsa_9</span></td></tr>
+<tr><td>
+cluster  Macro i ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC13'>sfmastr1</span></td></tr>
+<tr><td>
+cluster i ";" j ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC14'>sfmastr1</span></td></tr>
+<tr><td>
+cluster i ";" I ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC15'>sfmastr1</span></td></tr>
+<tr><td>
+cluster I ";" i ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC16'>sfmastr1</span></td></tr>
+<tr><td>
+cluster  swap (a,b) ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC17'>sfmastr1</span></td></tr>
+<tr><td>
+cluster  Times (a,I) ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC18'>sfmastr1</span></td></tr>
+<tr><td>
+cluster  times (a,I) ->  good  ;
+</td><td><span data-href='sfmastr2.html#FC3'>sfmastr2</span></td></tr>
+<tr><td>
+cluster  if>0 (a,b,I,J) ->  good  ;
+</td><td><span data-href='sfmastr3.html#FC1'>sfmastr3</span></td></tr>
+<tr><td>
+cluster  for-up (a,b,c,I) ->  good  ;
+</td><td><span data-href='sfmastr3.html#FC3'>sfmastr3</span></td></tr>
+<tr><td>
+cluster  FinSeqMin (f,start,finish,minpos) ->  really-closed   good  ;
+</td><td><span data-href='sfmastr3.html#FC4'>sfmastr3</span></td></tr>
+<tr><td>
+cluster  swap (f,a,b) ->  parahalting   good  ;
+</td><td><span data-href='sfmastr3.html#FC5'>sfmastr3</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM25097'>
+<h2>3.   <span data-link='7702.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='sfmastr1.html#V1'>sfmastr1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">i</font> be   <span title="COMPOS_1:NM.1" data-link="1931.html#ELM5020">Instruction</span> of <span title="SCMFSA_2:func.1" data-link="7745.html#ELM24347">SCM+FSA</span>;<br><div about="#D1" typeof="oo:Definition" class="main-sentence">
+<a name="V1"><span class="kw">attr</span> </a><font color="Maroon" title="c1">i</font> is  <span title="SFMASTR1:attr.1" data-link="7702.html#ELM25097">good</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E1">Def1</font></span>: <a name="D1"><span class="comment"><font color="firebrick">:: SFMASTR1:def 1</font></span><br></a> <span title="COMPOS_1:func.11" data-link="1942.html#ELM5036">Macro</span> <font color="Maroon" title="c1">i</font> is  <span title="SCMFSA7B:attr.1" data-link="7702.html#ELM24228">good</span> ;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster a := b ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC1'>sfmastr1</span></td></tr>
+<tr><td>
+cluster  AddTo (a,b) ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC2'>sfmastr1</span></td></tr>
+<tr><td>
+cluster  SubFrom (a,b) ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC3'>sfmastr1</span></td></tr>
+<tr><td>
+cluster  MultBy (a,b) ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC4'>sfmastr1</span></td></tr>
+<tr><td>
+cluster  with_explicit_jumps   IC-relocable   sequential   good   for    Element of  the InstructionsF of SCM+FSA;
+</td><td><span data-href='sfmastr1.html#RC1'>sfmastr1</span></td></tr>
+<tr><td>
+cluster  Divide (a,b) ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC5'>sfmastr1</span></td></tr>
+<tr><td>
+cluster  goto l ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC6'>sfmastr1</span></td></tr>
+<tr><td>
+cluster a =0_goto l ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC7'>sfmastr1</span></td></tr>
+<tr><td>
+cluster a >0_goto l ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC8'>sfmastr1</span></td></tr>
+<tr><td>
+cluster b := (f,a) ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC9'>sfmastr1</span></td></tr>
+<tr><td>
+cluster b :=len f ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC10'>sfmastr1</span></td></tr>
+<tr><td>
+cluster f :=<0,...,0> a ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC11'>sfmastr1</span></td></tr>
+<tr><td>
+cluster (f,a) := b ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC12'>sfmastr1</span></td></tr>
+<tr><td>
+cluster  Macro i ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC13'>sfmastr1</span></td></tr>
+<tr><td>
+cluster i ";" j ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC14'>sfmastr1</span></td></tr>
+<tr><td>
+cluster i ";" I ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC15'>sfmastr1</span></td></tr>
+<tr><td>
+cluster I ";" i ->  good  ;
+</td><td><span data-href='sfmastr1.html#FC16'>sfmastr1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

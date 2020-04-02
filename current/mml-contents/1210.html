@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>are_homotopic</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred are_homotopic</h1>
+<h2>List of Definitions (4)</h2>
+<ol>
+<li><span data-link='1210.html#ELM2922'>are_homotopic</span> [<span data-href='borsuk_2.html#R3'>borsuk_2</span>]</li>
+<li><span data-link='1210.html#ELM2923'>are_homotopic</span> [<span data-href='borsuk_2.html#R4'>borsuk_2</span>]</li>
+<li><span data-link='1210.html#ELM26526'>are_homotopic</span> [<span data-href='topalg_6.html#R1'>topalg_6</span>]</li>
+<li><span data-link='1210.html#ELM26527'>are_homotopic</span> [<span data-href='topalg_6.html#R2'>topalg_6</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM2922'>
+<h2>1.   <span data-link='1210.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='borsuk_2.html#R3'>borsuk_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">T</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="PRE_TOPC:struct.1" data-link="6937.html#ELM21123">TopStruct</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">a</font>, <font color="Maroon" title="c3">b</font> be   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <font color="Maroon" title="c1">T</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">P</font>, <font color="Maroon" title="c5">Q</font> be    <span title="BORSUK_2:mode.1" data-link="1211.html#ELM2924">Path</span> of <font color="Maroon" title="c2">a</font>,<font color="Maroon" title="c3">b</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R3"><span class="kw">pred</span> </a><font color="Maroon" title="c4">P</font>,<font color="Maroon" title="c5">Q</font> <span title="BORSUK_2:pred.3" data-link="1210.html#ELM2922">are_homotopic</span> <span class="kw"> means </span><a name="D7"><span class="comment"><font color="firebrick">:: BORSUK_2:def 7</font></span><br></a> ex <font color="Olive" title="b1">f</font> being   <span title="STRUCT_0:NM.6" data-link="3155.html#ELM25752">Function</span> of <span class="p1"><span title="BORSUK_1:func.2" data-link="395.html#ELM2886">[:</span><span class="default"><span title="TOPMETR:func.5" data-link="1203.html#ELM26819">I[01]</span>,<span title="TOPMETR:func.5" data-link="1203.html#ELM26819">I[01]</span></span><span title="BORSUK_1:func.2" data-link="395.html#ELM2886">:]</span></span>,<font color="Maroon" title="c1">T</font> st <br>( <font color="Olive" title="b1">f</font> is  <span title="PRE_TOPC:attr.5" data-link="1206.html#ELM21132">continuous</span>  &amp; (  for <font color="Olive" title="b2">t</font> being   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <span title="TOPMETR:func.5" data-link="1203.html#ELM26819">I[01]</span> holds <br> ( <font color="Olive" title="b1">f</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Olive" title="b2">t</font>,<span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c4">P</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b2">t</font> &amp; <font color="Olive" title="b1">f</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<font color="Olive" title="b2">t</font>,1) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c5">Q</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b2">t</font> &amp; <font color="Olive" title="b1">f</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (<span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>,<font color="Olive" title="b2">t</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">a</font> &amp; <font color="Olive" title="b1">f</font> <span title="BINOP_1:func.1" data-link="141.html#ELM2753">.</span> (1,<font color="Olive" title="b2">t</font>) <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">b</font> ) ) );<br>
+</div>
+<span class="kw">symmetry</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM2923'>
+<h2>2.   <span data-link='1210.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='borsuk_2.html#R4'>borsuk_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">T</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="BORSUK_2:attr.1" data-link="1212.html#ELM2929">pathwise_connected</span>  <span title="PRE_TOPC:NM.1" data-link="6938.html#ELM21124">TopSpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">a</font>, <font color="Maroon" title="c3">b</font> be   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <font color="Maroon" title="c1">T</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">P</font>, <font color="Maroon" title="c5">Q</font> be    <span title="BORSUK_2:mode.1" data-link="1211.html#ELM2924">Path</span> of <font color="Maroon" title="c2">a</font>,<font color="Maroon" title="c3">b</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="BORSUK_2:pred.3" data-link="1210.html#ELM2922">are_homotopic</span><br><span class="kw">redefine </span><a name="R4"><span class="kw">pred</span> </a><font color="Maroon" title="c4">P</font>,<font color="Maroon" title="c5">Q</font> <span title="BORSUK_2:pred.4" data-link="1210.html#ELM2923">are_homotopic</span> ;<br><span class="kw">reflexivity</span> <span class="kw">by</span> <span class="lab"><span class="ref" target="_self" onmouseover="rs('borsuk_2/T12')" onmouseout="rh()" data-href="borsuk_2.html#T12">Th10</span>, <span class="ref" target="_self" onmouseover="rs('borsuk_2/D3')" onmouseout="rh()" data-href="borsuk_2.html#D3">Def3</span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM26526'>
+<h2>3.   <span data-link='1210.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='topalg_6.html#R1'>topalg_6</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">T</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="PRE_TOPC:struct.1" data-link="6937.html#ELM21123">TopStruct</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">c1</font>, <font color="Maroon" title="c3">c2</font> be   <span title="TOPALG_6:attr.7" data-link="8237.html#ELM26541">with_endpoints</span>  <span title="TOPALG_6:NM.1" data-link="8227.html#ELM26528">Curve</span> of <font color="Maroon" title="c1">T</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c2">c1</font>,<font color="Maroon" title="c3">c2</font> <span title="TOPALG_6:pred.1" data-link="1210.html#ELM26526">are_homotopic</span> <span class="kw"> means </span><a name="D11"><span class="comment"><font color="firebrick">:: TOPALG_6:def 11</font></span><br></a> ex <font color="Olive" title="b1">a</font>, <font color="Olive" title="b2">b</font> being   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <font color="Maroon" title="c1">T</font> ex <font color="Olive" title="b3">p1</font>, <font color="Olive" title="b4">p2</font> being    <span title="BORSUK_2:mode.1" data-link="1211.html#ELM2924">Path</span> of <font color="Olive" title="b1">a</font>,<font color="Olive" title="b2">b</font> st <br>( <font color="Olive" title="b3">p1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">c1</font> <span title="FUNCT_1:NK.3" data-link="47.html#ELM8820">*</span> <span class="p1">(<span class="default"><span title="BORSUK_6:func.1" data-link="1218.html#ELM2989">L[01]</span> (<span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>,1,<span class="p2">(<span class="default"><span title="XXREAL_2:func.2" data-link="5260.html#ELM29873">inf</span> <span class="p3">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c2">c1</font></span>)</span></span>)</span>,<span class="p2">(<span class="default"><span title="XXREAL_2:func.1" data-link="5261.html#ELM29872">sup</span> <span class="p3">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c2">c1</font></span>)</span></span>)</span>)</span>)</span> &amp; <font color="Olive" title="b4">p2</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">c2</font> <span title="FUNCT_1:NK.3" data-link="47.html#ELM8820">*</span> <span class="p1">(<span class="default"><span title="BORSUK_6:func.1" data-link="1218.html#ELM2989">L[01]</span> (<span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>,1,<span class="p2">(<span class="default"><span title="XXREAL_2:func.2" data-link="5260.html#ELM29873">inf</span> <span class="p3">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c3">c2</font></span>)</span></span>)</span>,<span class="p2">(<span class="default"><span title="XXREAL_2:func.1" data-link="5261.html#ELM29872">sup</span> <span class="p3">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c3">c2</font></span>)</span></span>)</span>)</span>)</span> &amp; <font color="Olive" title="b3">p1</font>,<font color="Olive" title="b4">p2</font> <span title="BORSUK_2:pred.3" data-link="1210.html#ELM2922">are_homotopic</span>  );<br>
+</div>
+<span class="kw">symmetry</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM26527'>
+<h2>4.   <span data-link='1210.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='topalg_6.html#R2'>topalg_6</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">T</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>  <span title="PRE_TOPC:NM.1" data-link="6938.html#ELM21124">TopSpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">c1</font>, <font color="Maroon" title="c3">c2</font> be   <span title="TOPALG_6:attr.7" data-link="8237.html#ELM26541">with_endpoints</span>  <span title="TOPALG_6:NM.1" data-link="8227.html#ELM26528">Curve</span> of <font color="Maroon" title="c1">T</font>;<br><span class="comment"><font color="firebrick">:: original: </font></span><span title="TOPALG_6:pred.1" data-link="1210.html#ELM26526">are_homotopic</span><br><span class="kw">redefine </span><a name="R2"><span class="kw">pred</span> </a><font color="Maroon" title="c2">c1</font>,<font color="Maroon" title="c3">c2</font> <span title="TOPALG_6:pred.2" data-link="1210.html#ELM26527">are_homotopic</span> ;<br><span class="kw">reflexivity</span> <span class="kw">symmetry</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

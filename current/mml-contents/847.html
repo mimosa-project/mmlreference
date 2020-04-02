@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>are_coprime</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>pred are_coprime</h1>
+<h2>List of Definitions (4)</h2>
+<ol>
+<li><span data-link='847.html#ELM2087'>are_coprime</span> [<span data-href='arytm_3.html#R1'>arytm_3</span>]</li>
+<li><span data-link='847.html#ELM12455'>are_coprime</span> [<span data-href='int_2.html#R1'>int_2</span>]</li>
+<li><span data-link='847.html#ELM21539'>are_coprime</span> [<span data-href='pythtrip.html'>pythtrip</span>]</li>
+<li><span data-link='847.html#ELM21540'>are_coprime</span> [<span data-href='pythtrip.html'>pythtrip</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM2087'>
+<h2>1.   <span data-link='847.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='arytm_3.html#R1'>arytm_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">a</font>, <font color="Maroon" title="c2">b</font> be   <span title="ORDINAL1:NM.3" data-link="6319.html#ELM19057">Ordinal</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c1">a</font>,<font color="Maroon" title="c2">b</font> <span title="ARYTM_3:pred.1" data-link="847.html#ELM2087">are_coprime</span> <span class="kw"> means </span><a name="D2"><span class="comment"><font color="firebrick">:: ARYTM_3:def 2</font></span><br></a> for <font color="Olive" title="b1">c</font>, <font color="Olive" title="b2">d1</font>, <font color="Olive" title="b3">d2</font> being   <span title="ORDINAL1:NM.3" data-link="6319.html#ELM19057">Ordinal</span>  st <font color="Maroon" title="c1">a</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">c</font> <span title="ORDINAL2:func.11" data-link="6333.html#ELM19139">*^</span> <font color="Olive" title="b2">d1</font> &amp; <font color="Maroon" title="c2">b</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">c</font> <span title="ORDINAL2:func.11" data-link="6333.html#ELM19139">*^</span> <font color="Olive" title="b3">d2</font> holds <br><font color="Olive" title="b1">c</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> 1;<br>
+</div>
+<span class="kw">symmetry</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM12455'>
+<h2>2.   <span data-link='847.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='int_2.html#R1'>int_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">a</font>, <font color="Maroon" title="c2">b</font> be   <span title="INT_1:NM.1" data-link="4287.html#ELM12429">Integer</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="R1"><span class="kw">pred</span> </a><font color="Maroon" title="c1">a</font>,<font color="Maroon" title="c2">b</font> <span title="INT_2:pred.1" data-link="847.html#ELM12455">are_coprime</span> <span class="kw"> means </span><a name="D3"><span class="comment"><font color="firebrick">:: INT_2:def 3</font></span><br></a><font color="Maroon" title="c1">a</font> <span title="INT_2:func.3" data-link="3411.html#ELM12458">gcd</span> <font color="Maroon" title="c2">b</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> 1;<br>
+</div>
+<span class="kw">symmetry</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM21539'>
+<h2>3.   <span data-link='847.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='pythtrip.html'>pythtrip</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">m</font>, <font color="Maroon" title="c2">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<span class="kw">redefine </span><span class="kw">pred</span> <font color="Maroon" title="c1">m</font>,<font color="Maroon" title="c2">n</font> <span title="INT_2:pred.1" data-link="847.html#ELM12455">are_coprime</span> <span class="kw"> means </span><a name="D1"><span class="comment"><font color="firebrick">:: PYTHTRIP:def 1</font></span><br></a> for <font color="Olive" title="b1">k</font> being   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  st <font color="Olive" title="b1">k</font> <span title="NAT_D:pred.1" data-link="848.html#ELM17589">divides</span> <font color="Maroon" title="c1">m</font> &amp; <font color="Olive" title="b1">k</font> <span title="NAT_D:pred.1" data-link="848.html#ELM17589">divides</span> <font color="Maroon" title="c2">n</font> holds <br><font color="Olive" title="b1">k</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> 1;<br>
+</div>
+<span class="kw">compatibility</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM21540'>
+<h2>4.   <span data-link='847.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='pythtrip.html'>pythtrip</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">m</font>, <font color="Maroon" title="c2">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<span class="kw">redefine </span><span class="kw">pred</span> <font color="Maroon" title="c1">m</font>,<font color="Maroon" title="c2">n</font> <span title="INT_2:pred.1" data-link="847.html#ELM12455">are_coprime</span> <span class="kw"> means </span><a name="D2"><span class="comment"><font color="firebrick">:: PYTHTRIP:def 2</font></span><br></a> for <font color="Olive" title="b1">p</font> being   <span title="INT_2:attr.1" data-link="2392.html#ELM12459">prime</span>  <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>  holds <br>(  not <font color="Olive" title="b1">p</font> <span title="NAT_D:pred.1" data-link="848.html#ELM17589">divides</span> <font color="Maroon" title="c1">m</font> or  not <font color="Olive" title="b1">p</font> <span title="NAT_D:pred.1" data-link="848.html#ELM17589">divides</span> <font color="Maroon" title="c2">n</font> );<br>
+</div>
+<span class="kw">compatibility</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

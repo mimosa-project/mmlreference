@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>DES-KS</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func DES-KS</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='2208.html#ELM5790'>DES-KS</span> [<span data-href='descip_1.html#K38'>descip_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM5790'>
+<h2>1.   <span data-link='2208.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='descip_1.html#K38'>descip_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">Key</font> be    <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of 64 <span title="FINSEQ_2:func.4" data-link="2732.html#ELM7182">-tuples_on</span> <span title="MARGREL1:func.5" data-link="4998.html#ELM14378">BOOLEAN</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K38"><span class="kw">func</span> </a> <span title="DESCIP_1:func.38" data-link="2208.html#ELM5790">DES-KS</span> <font color="Maroon" title="c1">Key</font><span class="kw"> -&gt; </span>   <span title="FINSEQ_2:mode.2" data-link="667.html#ELM7177">Element</span> of 16 <span title="FINSEQ_2:func.4" data-link="2732.html#ELM7182">-tuples_on</span> <span class="p1">(<span class="default">48 <span title="FINSEQ_2:func.4" data-link="2732.html#ELM7182">-tuples_on</span> <span title="MARGREL1:func.5" data-link="4998.html#ELM14378">BOOLEAN</span></span>)</span><span class="kw"> means </span><a name="D28"><span class="comment"><font color="firebrick">:: DESCIP_1:def 28</font></span><br></a> ex <font color="Olive" title="b1">C</font>, <font color="Olive" title="b2">D</font> being   <span title="NAT_1:NM.2" data-link="5927.html#ELM17447">sequence</span> of <span class="p1">(<span class="default">28 <span title="FINSEQ_2:func.4" data-link="2732.html#ELM7182">-tuples_on</span> <span title="MARGREL1:func.5" data-link="4998.html#ELM14378">BOOLEAN</span></span>)</span> st <br>( <font color="Olive" title="b1">C</font> <span title="DESCIP_1:func.13" data-link="141.html#ELM5764">.</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="DESCIP_1:func.2" data-link="2177.html#ELM5750">Op-Left</span> (<span class="p1">(<span class="default"><span title="DESCIP_1:func.35" data-link="2205.html#ELM5787">DES-PC1</span> <font color="Maroon" title="c1">Key</font></span>)</span>,28) &amp; <font color="Olive" title="b2">D</font> <span title="DESCIP_1:func.13" data-link="141.html#ELM5764">.</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="DESCIP_1:func.3" data-link="2178.html#ELM5751">Op-Right</span> (<span class="p1">(<span class="default"><span title="DESCIP_1:func.35" data-link="2205.html#ELM5787">DES-PC1</span> <font color="Maroon" title="c1">Key</font></span>)</span>,28) &amp; (  for <font color="Olive" title="b3">i</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span>   st  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b3">i</font> &amp; <font color="Olive" title="b3">i</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> 15 holds <br>( <span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b3">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="DESCIP_1:func.36" data-link="2206.html#ELM5788">DES-PC2</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><font color="Olive" title="b1">C</font> <span title="DESCIP_1:func.13" data-link="141.html#ELM5764">.</span> <span class="p3">(<span class="default"><font color="Olive" title="b3">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span></span>)</span> <span title="DESCIP_1:func.9" data-link="235.html#ELM5759">^</span> <span class="p2">(<span class="default"><font color="Olive" title="b2">D</font> <span title="DESCIP_1:func.13" data-link="141.html#ELM5764">.</span> <span class="p3">(<span class="default"><font color="Olive" title="b3">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span></span>)</span></span>)</span> &amp; <font color="Olive" title="b1">C</font> <span title="DESCIP_1:func.13" data-link="141.html#ELM5764">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b3">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="DESCIP_1:func.8" data-link="2183.html#ELM5758">Op-Shift</span> (<span class="p1">(<span class="default"><font color="Olive" title="b1">C</font> <span title="DESCIP_1:func.13" data-link="141.html#ELM5764">.</span> <font color="Olive" title="b3">i</font></span>)</span>,<span class="p1">(<span class="default"><span title="DESCIP_1:func.37" data-link="2207.html#ELM5789">bitshift_DES</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b3">i</font></span>)</span>) &amp; <font color="Olive" title="b2">D</font> <span title="DESCIP_1:func.13" data-link="141.html#ELM5764">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b3">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="DESCIP_1:func.8" data-link="2183.html#ELM5758">Op-Shift</span> (<span class="p1">(<span class="default"><font color="Olive" title="b2">D</font> <span title="DESCIP_1:func.13" data-link="141.html#ELM5764">.</span> <font color="Olive" title="b3">i</font></span>)</span>,<span class="p1">(<span class="default"><span title="DESCIP_1:func.37" data-link="2207.html#ELM5789">bitshift_DES</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b3">i</font></span>)</span>) ) ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

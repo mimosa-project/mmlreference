@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Upper_Support</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Upper_Support</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='3863.html#ELM10974'>Upper_Support</span> [<span data-href='groeb_3.html#K3'>groeb_3</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM10974'>
+<h2>1.   <span data-link='3863.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='groeb_3.html#K3'>groeb_3</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font> be   <span title="ORDINAL1:NM.3" data-link="6319.html#ELM19057">Ordinal</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">T</font> be   <span title="RELAT_2:attr.6" data-link="2026.html#ELM22467">connected</span>  <span title="BAGORDER:NM.1" data-link="916.html#ELM2258">TermOrder</span> of <font color="Maroon" title="c1">n</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">L</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="ALGSTR_0:attr.13" data-link="337.html#ELM766">right_complementable</span>   <span title="RLVECT_1:attr.3" data-link="7514.html#ELM23296">add-associative</span>   <span title="RLVECT_1:attr.4" data-link="7515.html#ELM23297">right_zeroed</span>   <span title="ALGSTR_0:struct.2" data-link="320.html#ELM739">addLoopStr</span> ;<br><span class="kw">let </span><font color="Maroon" title="c4">p</font> be   <span title="POLYNOM1:NM.2" data-link="6840.html#ELM20699">Polynomial</span> of <font color="Maroon" title="c1">n</font>,<font color="Maroon" title="c3">L</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">i</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><span class="kw">assume </span><a name="E1:24"></a><span class="lab"><font color="Green" title="E19">A1</font></span>: 
+<font color="Maroon" title="c5">i</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span>  <span title="CARD_1:func.4" data-link="1329.html#ELM3236">card</span> <span class="p1">(<span class="default"><span title="POLYNOM1:func.3" data-link="6841.html#ELM20703">Support</span> <font color="Maroon" title="c4">p</font></span>)</span>
+ ;<br><div about="#D19" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="GROEB_3:func.3" data-link="3863.html#ELM10974">Upper_Support</span> (<font color="Maroon" title="c4">p</font>,<font color="Maroon" title="c2">T</font>,<font color="Maroon" title="c5">i</font>)<span class="kw"> -&gt; </span>  <span title="FINSET_1:attr.1" data-link="2772.html#ELM7423">finite</span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span class="p1">(<span class="default"><span title="PRE_POLY:func.15" data-link="6931.html#ELM21048">Bags</span> <font color="Maroon" title="c1">n</font></span>)</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E19">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: GROEB_3:def 2</font></span><br></a>( <span class="kw">it</span> <span title="TARSKI:pred.1" data-link="2755.html#ELM26062">c=</span>  <span title="POLYNOM1:func.3" data-link="6841.html#ELM20703">Support</span> <font color="Maroon" title="c4">p</font> &amp;  <span title="CARD_1:func.4" data-link="1329.html#ELM3236">card</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c5">i</font> &amp; (  for <font color="Olive" title="b1">b</font>, <font color="Olive" title="b2">b9</font> being   <span title="PRE_POLY:NM.2" data-link="6928.html#ELM21033">bag</span> of <font color="Maroon" title="c1">n</font>  st <font color="Olive" title="b1">b</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <span class="kw">it</span> &amp; <font color="Olive" title="b2">b9</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="POLYNOM1:func.3" data-link="6841.html#ELM20703">Support</span> <font color="Maroon" title="c4">p</font> &amp; <font color="Olive" title="b1">b</font> <span title="TERMORD:pred.1" data-link="491.html#ELM26190">&lt;=</span> <font color="Olive" title="b2">b9</font>,<font color="Maroon" title="c2">T</font> holds <br><font color="Olive" title="b2">b9</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <span class="kw">it</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>LegendreSymbol</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func LegendreSymbol</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='5941.html#ELM17544'>LegendreSymbol</span> [<span data-href='nat_6.html#K1'>nat_6</span>]</li>
+<li><span data-link='5941.html#ELM17545'>LegendreSymbol</span> [<span data-href='nat_6.html'>nat_6</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM17544'>
+<h2>1.   <span data-link='5941.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='nat_6.html#K1'>nat_6</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">p</font> be   <span title="ORDINAL1:attr.7" data-link="6328.html#ELM19073">natural</span>   <span title="ORDINAL1:NM.2" data-link="6318.html#ELM19056">number</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">a</font> be   <span title="INT_1:attr.1" data-link="701.html#ELM12436">integer</span>   <span title="ORDINAL1:NM.2" data-link="6318.html#ELM19056">number</span> ;<br><div about="#D27" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="NAT_6:func.1" data-link="5941.html#ELM17544">LegendreSymbol</span> (<font color="Maroon" title="c2">a</font>,<font color="Maroon" title="c1">p</font>)<span class="kw"> -&gt; </span>  <span title="INT_1:attr.1" data-link="701.html#ELM12436">integer</span>   <span title="ORDINAL1:NM.1" data-link="6317.html#ELM19055">Number</span> <span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E27">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: NAT_6:def 3</font></span><br></a>1<span class="kw"> if </span>( <font color="Maroon" title="c2">a</font> <span title="INT_2:func.3" data-link="3411.html#ELM12458">gcd</span> <font color="Maroon" title="c1">p</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> 1 &amp; <font color="Maroon" title="c2">a</font> <span title="INT_5:pred.1" data-link="4299.html#ELM12498">is_quadratic_residue_mod</span> <font color="Maroon" title="c1">p</font> &amp; <font color="Maroon" title="c1">p</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> 1 )<br> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> <span class="kw"> if </span><font color="Maroon" title="c1">p</font> <span title="INT_1:pred.1" data-link="848.html#ELM12426">divides</span> <font color="Maroon" title="c2">a</font><br> <span title="XCMPLX_0:func.4" data-link="327.html#ELM29689">-</span> 1<span class="kw"> if </span>( <font color="Maroon" title="c2">a</font> <span title="INT_2:func.3" data-link="3411.html#ELM12458">gcd</span> <font color="Maroon" title="c1">p</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> 1 &amp; <font color="Maroon" title="c2">a</font> <span title="NAT_6:NR.1" data-link="5939.html#ELM17542">is_quadratic_non_residue_mod</span> <font color="Maroon" title="c1">p</font> &amp; <font color="Maroon" title="c1">p</font> <span title="HIDDEN:NR.2" data-link="4138.html#ELM11933">&lt;&gt;</span> 1 )<br>;<br>
+</div>
+<span class="kw">coherence</span> <br><span class="kw">consistency</span> <span class="kw">by</span> <span class="lab"><span class="lab"><font color="Green" title="E7">Lm3</font></span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM17545'>
+<h2>2.   <span data-link='5941.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='nat_6.html'>nat_6</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">p</font> be   <span title="ORDINAL1:attr.7" data-link="6328.html#ELM19073">natural</span>   <span title="INT_2:attr.1" data-link="2392.html#ELM12459">prime</span>   <span title="ORDINAL1:NM.2" data-link="6318.html#ELM19056">number</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">a</font> be   <span title="INT_1:attr.1" data-link="701.html#ELM12436">integer</span>   <span title="ORDINAL1:NM.2" data-link="6318.html#ELM19056">number</span> ;<br><div about="#D28" typeof="oo:Definition" class="main-sentence">
+<span class="kw">redefine </span><span class="kw">func</span>  <span title="NAT_6:func.1" data-link="5941.html#ELM17544">LegendreSymbol</span> (<font color="Maroon" title="c2">a</font>,<font color="Maroon" title="c1">p</font>)<span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E28">Def4</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: NAT_6:def 4</font></span><br></a>1<span class="kw"> if </span>( <font color="Maroon" title="c2">a</font> <span title="INT_2:func.3" data-link="3411.html#ELM12458">gcd</span> <font color="Maroon" title="c1">p</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> 1 &amp; <font color="Maroon" title="c2">a</font> <span title="INT_5:pred.1" data-link="4299.html#ELM12498">is_quadratic_residue_mod</span> <font color="Maroon" title="c1">p</font> )<br> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span> <span class="kw"> if </span><font color="Maroon" title="c1">p</font> <span title="INT_1:pred.1" data-link="848.html#ELM12426">divides</span> <font color="Maroon" title="c2">a</font><br> <span title="XCMPLX_0:func.4" data-link="327.html#ELM29689">-</span> 1<span class="kw"> if </span>( <font color="Maroon" title="c2">a</font> <span title="INT_2:func.3" data-link="3411.html#ELM12458">gcd</span> <font color="Maroon" title="c1">p</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> 1 &amp; <font color="Maroon" title="c2">a</font> <span title="NAT_6:NR.1" data-link="5939.html#ELM17542">is_quadratic_non_residue_mod</span> <font color="Maroon" title="c1">p</font> )<br>;<br>
+</div>
+<span class="kw">consistency</span> <span class="kw">compatibility</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

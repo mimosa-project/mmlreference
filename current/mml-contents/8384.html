@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>-Subtrees</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func -Subtrees</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='8384.html#ELM27379'>-Subtrees</span> [<span data-href='trees_9.html#K7'>trees_9</span>]</li>
+<li><span data-link='8384.html#ELM27384'>-Subtrees</span> [<span data-href='trees_9.html#K12'>trees_9</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM27379'>
+<h2>1.   <span data-link='8384.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='trees_9.html#K7'>trees_9</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">t</font> be   <span title="TREES_2:NM.4" data-link="8365.html#ELM27244">DecoratedTree</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">C</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K7"><span class="kw">func</span> </a><font color="Maroon" title="c2">C</font> <span title="TREES_9:func.7" data-link="8384.html#ELM27379">-Subtrees</span> <font color="Maroon" title="c1">t</font><span class="kw"> -&gt; </span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span class="p1">(<span class="default"><span title="TREES_9:func.3" data-link="8382.html#ELM27375">Subtrees</span> <font color="Maroon" title="c1">t</font></span>)</span><span class="kw"> equals </span><a name="D9"><span class="comment"><font color="firebrick">:: TREES_9:def 9</font></span><br></a><span class="p1"> { <span class="default"> <span class="p2">(<span class="default"><font color="Maroon" title="c1">t</font> <span title="TREES_2:func.5" data-link="909.html#ELM27250">|</span> <font color="Olive" title="b1">p</font></span>)</span> where <font color="Olive" title="b1">p</font> is   <span title="TREES_4:NM.1" data-link="8380.html#ELM27355">Node</span> of <font color="Maroon" title="c1">t</font> : (  not <font color="Olive" title="b1">p</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="TREES_1:func.3" data-link="8360.html#ELM27219">Leaves</span> <span class="p1">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Maroon" title="c1">t</font></span>)</span> or <font color="Maroon" title="c1">t</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">p</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">C</font> ) </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM27384'>
+<h2>2.   <span data-link='8384.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='trees_9.html#K12'>trees_9</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="TREES_3:attr.3" data-link="8376.html#ELM27296">constituted-DTrees</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">C</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K12"><span class="kw">func</span> </a><font color="Maroon" title="c2">C</font> <span title="TREES_9:func.12" data-link="8384.html#ELM27384">-Subtrees</span> <font color="Maroon" title="c1">X</font><span class="kw"> -&gt; </span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span class="p1">(<span class="default"><span title="TREES_9:func.9" data-link="8382.html#ELM27381">Subtrees</span> <font color="Maroon" title="c1">X</font></span>)</span><span class="kw"> equals </span><a name="D12"><span class="comment"><font color="firebrick">:: TREES_9:def 12</font></span><br></a><span class="p1"> { <span class="default"> <span class="p2">(<span class="default"><font color="Olive" title="b1">t</font> <span title="TREES_2:func.5" data-link="909.html#ELM27250">|</span> <font color="Olive" title="b2">p</font></span>)</span> where <font color="Olive" title="b1">t</font> is    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of <font color="Maroon" title="c1">X</font>, <font color="Olive" title="b2">p</font> is   <span title="TREES_4:NM.1" data-link="8380.html#ELM27355">Node</span> of <font color="Olive" title="b1">t</font> : (  not <font color="Olive" title="b2">p</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="TREES_1:func.3" data-link="8360.html#ELM27219">Leaves</span> <span class="p1">(<span class="default"><span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <font color="Olive" title="b1">t</font></span>)</span> or <font color="Olive" title="b1">t</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b2">p</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span> <font color="Maroon" title="c2">C</font> ) </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

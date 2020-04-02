@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Integral</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Integral</h1>
+<h2>List of Definitions (3)</h2>
+<ol>
+<li><span data-link='5254.html#ELM15489'>Integral</span> [<span data-href='mesfun6c.html#K1'>mesfun6c</span>]</li>
+<li><span data-link='5254.html#ELM15585'>Integral</span> [<span data-href='mesfunc5.html#K7'>mesfunc5</span>]</li>
+<li><span data-link='5254.html#ELM15601'>Integral</span> [<span data-href='mesfunc6.html#K1'>mesfunc6</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM15489'>
+<h2>1.   <span data-link='5254.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='mesfun6c.html#K1'>mesfun6c</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be   <span title="PROB_1:NM.3" data-link="6995.html#ELM21277">SigmaField</span> of <font color="Maroon" title="c1">X</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">M</font> be   <span title="MEASURE1:NM.5" data-link="5181.html#ELM15018">sigma_Measure</span> of <font color="Maroon" title="c2">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <font color="Maroon" title="c1">X</font>,<span title="NUMBERS:func.2" data-link="5210.html#ELM18625">COMPLEX</span>;<br><span class="kw">assume </span><a name="E1:18"></a><span class="lab"><font color="Green" title="E9">A1</font></span>: 
+<font color="Maroon" title="c4">f</font> <span title="MESFUN6C:pred.1" data-link="4314.html#ELM15488">is_integrable_on</span> <font color="Maroon" title="c3">M</font>
+ ;<br><div about="#D9" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="MESFUN6C:func.1" data-link="5254.html#ELM15489">Integral</span> (<font color="Maroon" title="c3">M</font>,<font color="Maroon" title="c4">f</font>)<span class="kw"> -&gt; </span>  <span title="XCMPLX_0:NM.1" data-link="8851.html#ELM29685">Complex</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E9">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: MESFUN6C:def 3</font></span><br></a> ex <font color="Olive" title="b1">R</font>, <font color="Olive" title="b2">I</font> being   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span> st <br>( <font color="Olive" title="b1">R</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="MESFUNC6:func.1" data-link="5254.html#ELM15601">Integral</span> (<font color="Maroon" title="c3">M</font>,<span class="p1">(<span class="default"><span title="COMSEQ_3:func.5" data-link="1903.html#ELM5251">Re</span> <font color="Maroon" title="c4">f</font></span>)</span>) &amp; <font color="Olive" title="b2">I</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="MESFUNC6:func.1" data-link="5254.html#ELM15601">Integral</span> (<font color="Maroon" title="c3">M</font>,<span class="p1">(<span class="default"><span title="COMSEQ_3:func.6" data-link="1904.html#ELM5252">Im</span> <font color="Maroon" title="c4">f</font></span>)</span>) &amp; <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">R</font> <span title="XCMPLX_0:func.2" data-link="229.html#ELM29687">+</span> <span class="p1">(<span class="default"><font color="Olive" title="b2">I</font> <span title="XCMPLX_0:func.3" data-link="47.html#ELM29688">*</span> <span title="COMPLEX1:func.7" data-link="1907.html#ELM4937">&lt;i&gt;</span></span>)</span> );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM15585'>
+<h2>2.   <span data-link='5254.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='mesfunc5.html#K7'>mesfunc5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">X</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">S</font> be   <span title="PROB_1:NM.3" data-link="6995.html#ELM21277">SigmaField</span> of <font color="Maroon" title="c2">X</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">M</font> be   <span title="MEASURE1:NM.5" data-link="5181.html#ELM15018">sigma_Measure</span> of <font color="Maroon" title="c3">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <font color="Maroon" title="c2">X</font>,<span title="NUMBERS:func.6" data-link="6193.html#ELM18629">ExtREAL</span>;<br><div class="comment mathjax"><font color="firebrick">:: <img src="http://mws.cs.ru.nl/~mptp/WP.ico" alt="WP: "> <span title="See Wikipedia entry for Lebesgue Measure and Integration" data-href="http://en.wikipedia.org/wiki/Lebesgue_Measure_and_Integration">Lebesgue Measure and Integration</span><br>  
+:: <img src="http://mws.cs.ru.nl/~mptp/WP.ico" alt="WP: "> <span title="See Wikipedia entry for Integral of Measurable Function" data-href="http://en.wikipedia.org/wiki/Integral_of_Measurable_Function">Integral of Measurable Function</span><br>  
+</font></div>
+<div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K7"><span class="kw">func</span> </a> <span title="MESFUNC5:func.7" data-link="5254.html#ELM15585">Integral</span> (<font color="Maroon" title="c3">M</font>,<font color="Maroon" title="c4">f</font>)<span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:func.6" data-link="6193.html#ELM18629">ExtREAL</span> <span class="kw"> equals </span><a name="D16"><span class="comment"><font color="firebrick">:: MESFUNC5:def 16</font></span><br></a><span class="p1">(<span class="default"><span title="MESFUNC5:func.6" data-link="5287.html#ELM15584">integral+</span> (<font color="Maroon" title="c3">M</font>,<span class="p2">(<span class="default"><span title="MESFUNC2:func.1" data-link="5282.html#ELM15570">max+</span> <font color="Maroon" title="c4">f</font></span>)</span>)</span>)</span> <span title="SUPINF_2:func.4" data-link="327.html#ELM26006">-</span> <span class="p1">(<span class="default"><span title="MESFUNC5:func.6" data-link="5287.html#ELM15584">integral+</span> (<font color="Maroon" title="c3">M</font>,<span class="p2">(<span class="default"><span title="MESFUNC2:func.2" data-link="5283.html#ELM15571">max-</span> <font color="Maroon" title="c4">f</font></span>)</span>)</span>)</span>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM15601'>
+<h2>3.   <span data-link='5254.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='mesfunc6.html#K1'>mesfunc6</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be   <span title="PROB_1:NM.3" data-link="6995.html#ELM21277">SigmaField</span> of <font color="Maroon" title="c1">X</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">M</font> be   <span title="MEASURE1:NM.5" data-link="5181.html#ELM15018">sigma_Measure</span> of <font color="Maroon" title="c2">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">f</font> be   <span title="PARTFUN1:NM.1" data-link="6450.html#ELM19577">PartFunc</span> of <font color="Maroon" title="c1">X</font>,<span title="NUMBERS:func.1" data-link="1653.html#ELM18624">REAL</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="MESFUNC6:func.1" data-link="5254.html#ELM15601">Integral</span> (<font color="Maroon" title="c3">M</font>,<font color="Maroon" title="c4">f</font>)<span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="NUMBERS:func.6" data-link="6193.html#ELM18629">ExtREAL</span> <span class="kw"> equals </span><a name="D3"><span class="comment"><font color="firebrick">:: MESFUNC6:def 3</font></span><br></a> <span title="MESFUNC5:func.7" data-link="5254.html#ELM15585">Integral</span> (<font color="Maroon" title="c3">M</font>,<span class="p1">(<span class="default"><span title="MESFUNC5:func.1" data-link="5259.html#ELM15579">R_EAL</span> <font color="Maroon" title="c4">f</font></span>)</span>);<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

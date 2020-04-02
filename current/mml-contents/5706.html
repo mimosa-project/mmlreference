@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>transl</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func transl</h1>
+<h2>List of Definitions (3)</h2>
+<ol>
+<li><span data-link='5706.html#ELM16803'>transl</span> [<span data-href='msafree5.html#K24'>msafree5</span>]</li>
+<li><span data-link='5706.html#ELM17189'>transl</span> [<span data-href='msualg_6.html#K4'>msualg_6</span>]</li>
+<li><span data-link='5706.html#ELM23241'>transl</span> [<span data-href='rltopsp1.html#K3'>rltopsp1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM16803'>
+<h2>1.   <span data-link='5706.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='msafree5.html#K24'>msafree5</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   non  <span title="STRUCT_0:attr.11" data-link="17.html#ELM25778">void</span>   <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">X</font> be  <span title="RELAT_1:attr.2" data-link="3057.html#ELM22398">V5</span>() <span title="PBOOLE:NM.1" data-link="4273.html#ELM19812">ManySortedSet</span> of  the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">s</font> be   <span title="MSUALG_1:NM.1" data-link="5761.html#ELM17055">SortSymbol</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c4">x</font> be    <span title="MSAFREE4:mode.1" data-link="667.html#ELM16692">Element</span> of <font color="Maroon" title="c2">X</font> <span title="MSAFREE4:func.1" data-link="141.html#ELM16694">.</span> <font color="Maroon" title="c3">s</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">C</font> be   <span title="MSAFREE5:NM.3" data-link="5697.html#ELM16776">context</span> of <font color="Maroon" title="c4">x</font>;<br><div about="#D95" typeof="oo:Definition" class="main-sentence">
+<a name="K24"><span class="kw">func</span> </a> <span title="MSAFREE5:func.24" data-link="5706.html#ELM16803">transl</span> <font color="Maroon" title="c5">C</font><span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"> the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <span class="p2">(<span class="default"><span title="MSAFREE3:func.1" data-link="5682.html#ELM16679">Free</span> (<font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">X</font>)</span>)</span> <span title="MSAFREE4:func.1" data-link="141.html#ELM16694">.</span> <font color="Maroon" title="c3">s</font></span>)</span>,<span class="p1">(<span class="default"> the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <span class="p2">(<span class="default"><span title="MSAFREE3:func.1" data-link="5682.html#ELM16679">Free</span> (<font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">X</font>)</span>)</span> <span title="MSAFREE4:func.1" data-link="141.html#ELM16694">.</span> <span class="p2">(<span class="default"><span title="MSAFREE5:func.3" data-link="1708.html#ELM16781">the_sort_of</span> <font color="Maroon" title="c5">C</font></span>)</span></span>)</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E95">TRANS</font></span>: <a name="D35"><span class="comment"><font color="firebrick">:: MSAFREE5:def 35</font></span><br></a> for <font color="Olive" title="b1">t</font> being   <span title="MSAFREE3:NM.1" data-link="667.html#ELM16678">Element</span> of <span class="p1">(<span class="default"><span title="MSAFREE3:func.1" data-link="5682.html#ELM16679">Free</span> (<font color="Maroon" title="c1">S</font>,<font color="Maroon" title="c2">X</font>)</span>)</span>  st  <span title="MSAFREE5:func.3" data-link="1708.html#ELM16781">the_sort_of</span> <font color="Olive" title="b1">t</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c3">s</font> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">t</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c5">C</font> <span title="MSAFREE5:func.18" data-link="5704.html#ELM16797">-sub</span> <font color="Olive" title="b1">t</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM17189'>
+<h2>2.   <span data-link='5706.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='msualg_6.html#K4'>msualg_6</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   non  <span title="STRUCT_0:attr.11" data-link="17.html#ELM25778">void</span>   <span title="MSUALG_1:struct.1" data-link="5758.html#ELM17052">ManySortedSign</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">o</font> be   <span title="MSUALG_1:NM.2" data-link="32.html#ELM17056">OperSymbol</span> of <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">i</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c4">A</font> be    <span title="MSUALG_1:struct.3" data-link="5760.html#ELM17054">MSAlgebra</span> over <font color="Maroon" title="c1">S</font>;<br><span class="kw">let </span><font color="Maroon" title="c5">a</font> be   <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br><div about="#D13" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a> <span title="MSUALG_6:func.4" data-link="5706.html#ELM17189">transl</span> (<font color="Maroon" title="c2">o</font>,<font color="Maroon" title="c3">i</font>,<font color="Maroon" title="c5">a</font>,<font color="Maroon" title="c4">A</font>)<span class="kw"> -&gt; </span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E13">Def4</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: MSUALG_6:def 4</font></span><br></a>(  <span title="RELAT_1:NK.1" data-link="41.html#ELM22384">dom</span> <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c4">A</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="MSUALG_1:func.1" data-link="4995.html#ELM17057">the_arity_of</span> <font color="Maroon" title="c2">o</font></span>)</span> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Maroon" title="c3">i</font></span>)</span> &amp; (  for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>   st <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span>  the <span title="MSUALG_1:sel.3" data-href="msualg_1.html#U3">Sorts</span> of <font color="Maroon" title="c4">A</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="MSUALG_1:func.1" data-link="4995.html#ELM17057">the_arity_of</span> <font color="Maroon" title="c2">o</font></span>)</span> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Maroon" title="c3">i</font></span>)</span> holds <br><span class="kw">it</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span title="MSUALG_1:func.5" data-link="5764.html#ELM17061">Den</span> (<font color="Maroon" title="c2">o</font>,<font color="Maroon" title="c4">A</font>)</span>)</span> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <span class="p1">(<span class="default"><font color="Maroon" title="c5">a</font> <span title="FUNCT_7:func.1" data-link="517.html#ELM9000">+*</span> (<font color="Maroon" title="c3">i</font>,<font color="Olive" title="b1">x</font>)</span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM23241'>
+<h2>3.   <span data-link='5706.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rltopsp1.html#K3'>rltopsp1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">X</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="RLTOPSP1:struct.1" data-link="7500.html#ELM23235">RLTopStruct</span> ;<br><span class="kw">let </span><font color="Maroon" title="c3">a</font> be   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <font color="Maroon" title="c2">X</font>;<br><div about="#D38" typeof="oo:Definition" class="main-sentence">
+<a name="K3"><span class="kw">func</span> </a> <span title="RLTOPSP1:func.3" data-link="5706.html#ELM23241">transl</span> (<font color="Maroon" title="c2">a</font>,<font color="Maroon" title="c1">X</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.6" data-link="3155.html#ELM25752">Function</span> of <font color="Maroon" title="c1">X</font>,<font color="Maroon" title="c1">X</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E38">Def10</font></span>: <a name="D10"><span class="comment"><font color="firebrick">:: RLTOPSP1:def 10</font></span><br></a> for <font color="Olive" title="b1">x</font> being   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <font color="Maroon" title="c1">X</font> holds  <span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Maroon" title="c2">a</font> <span title="ALGSTR_0:func.1" data-link="229.html#ELM744">+</span> <font color="Olive" title="b1">x</font>;<br>
+</div>
+<span class="kw">existence</span> <span class="kw">uniqueness</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  transl (a,X) ->  being_homeomorphism  ;
+</td><td><span data-href='rltopsp1.html#FC6'>rltopsp1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

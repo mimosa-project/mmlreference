@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>LSeg</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func LSeg</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='7504.html#ELM23239'>LSeg</span> [<span data-href='rltopsp1.html#K1'>rltopsp1</span>]</li>
+<li><span data-link='7504.html#ELM26836'>LSeg</span> [<span data-href='topreal1.html#K2'>topreal1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM23239'>
+<h2>1.   <span data-link='7504.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='rltopsp1.html#K1'>rltopsp1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c2">X</font> be   <span title="RLVECT_1:NM.2" data-link="7511.html#ELM23288">RealLinearSpace</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">v</font>, <font color="Maroon" title="c4">w</font> be   <span title="PRE_TOPC:NM.2" data-link="6939.html#ELM21125">Point</span> of <font color="Maroon" title="c2">X</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K1"><span class="kw">func</span> </a> <span title="RLTOPSP1:func.1" data-link="7504.html#ELM23239">LSeg</span> (<font color="Maroon" title="c2">v</font>,<font color="Maroon" title="c3">w</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <font color="Maroon" title="c1">X</font><span class="kw"> equals </span><a name="D2"><span class="comment"><font color="firebrick">:: RLTOPSP1:def 2</font></span><br></a><span class="p1"> { <span class="default"> <span class="p2">(<span class="default"><span class="p3">(<span class="default"><span class="p4">(<span class="default">1 <span title="XCMPLX_0:func.6" data-link="327.html#ELM29691">-</span> <font color="Olive" title="b1">r</font></span>)</span> <span title="RLVECT_1:func.1" data-link="47.html#ELM23289">*</span> <font color="Maroon" title="c2">v</font></span>)</span> <span title="RLVECT_1:func.3" data-link="229.html#ELM23291">+</span> <span class="p3">(<span class="default"><font color="Olive" title="b1">r</font> <span title="RLVECT_1:func.1" data-link="47.html#ELM23289">*</span> <font color="Maroon" title="c3">w</font></span>)</span></span>)</span> where <font color="Olive" title="b1">r</font> is   <span title="XREAL_0:NM.1" data-link="8853.html#ELM29718">Real</span> : (  <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>  <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b1">r</font> &amp; <font color="Olive" title="b1">r</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> 1 ) </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> <span class="kw">commutativity</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  LSeg ((SW-corner P),(SE-corner P)) ->  horizontal  ;
+</td><td><span data-href='jordan.html#FC3'>jordan</span></td></tr>
+<tr><td>
+cluster  LSeg ((NW-corner P),(SW-corner P)) ->  vertical  ;
+</td><td><span data-href='jordan.html#FC4'>jordan</span></td></tr>
+<tr><td>
+cluster  LSeg ((NE-corner P),(SE-corner P)) ->  vertical  ;
+</td><td><span data-href='jordan.html#FC5'>jordan</span></td></tr>
+<tr><td>
+cluster  LSeg ((SE-corner P),(SW-corner P)) ->  horizontal  ;
+</td><td><span data-href='jordan.html#FC6'>jordan</span></td></tr>
+<tr><td>
+cluster  LSeg ((SW-corner P),(NW-corner P)) ->  vertical  ;
+</td><td><span data-href='jordan.html#FC7'>jordan</span></td></tr>
+<tr><td>
+cluster  LSeg ((SE-corner P),(NE-corner P)) ->  vertical  ;
+</td><td><span data-href='jordan.html#FC8'>jordan</span></td></tr>
+<tr><td>
+cluster  LSeg (q1,q2) ->  boundary  ;
+</td><td><span data-href='jordan2c.html#FC4'>jordan2c</span></td></tr>
+<tr><td>
+cluster  LSeg (v,w) ->  non  empty   convex  ;
+</td><td><span data-href='rltopsp1.html#FC2'>rltopsp1</span></td></tr>
+<tr><td>
+cluster  LSeg (p1,p2) ->  compact  ;
+</td><td><span data-href='sppol_1.html#FC1'>sppol_1</span></td></tr>
+<tr><td>
+cluster  LSeg (p1,p2) ->  closed  ;
+</td><td><span data-href='sppol_1.html#FC2'>sppol_1</span></td></tr>
+<tr><td>
+cluster  LSeg (p1,p2) ->  compact  ;
+</td><td><span data-href='sppol_2.html#FC13'>sppol_2</span></td></tr>
+<tr><td>
+cluster  LSeg ((NW-corner C),(NE-corner C)) ->  horizontal  ;
+</td><td><span data-href='sprect_3.html#FC1'>sprect_3</span></td></tr>
+<tr><td>
+cluster  LSeg (a,b) ->  connected  ;
+</td><td><span data-href='topreal6.html#FC2'>topreal6</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM26836'>
+<h2>2.   <span data-link='7504.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='topreal1.html#K2'>topreal1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">n</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><span class="kw">let </span><font color="Maroon" title="c2">f</font> be   <span title="STRUCT_0:NM.7" data-link="27.html#ELM25753">FinSequence</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> <font color="Maroon" title="c1">n</font></span>)</span>;<br><span class="kw">let </span><font color="Maroon" title="c3">i</font> be   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span>;<br><div about="#D14" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="TOPREAL1:func.2" data-link="7504.html#ELM26836">LSeg</span> (<font color="Maroon" title="c2">f</font>,<font color="Maroon" title="c3">i</font>)<span class="kw"> -&gt; </span>  <span title="STRUCT_0:NM.2" data-link="26.html#ELM25748">Subset</span> of <span class="p1">(<span class="default"><span title="EUCLID:func.15" data-link="2457.html#ELM6338">TOP-REAL</span> <font color="Maroon" title="c1">n</font></span>)</span><span class="kw"> equals </span>:<span class="lab"><font color="Green" title="E14">Def3</font></span>: <a name="D3"><span class="comment"><font color="firebrick">:: TOPREAL1:def 3</font></span><br></a> <span title="RLTOPSP1:func.1" data-link="7504.html#ELM23239">LSeg</span> (<span class="p1">(<span class="default"><font color="Maroon" title="c2">f</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <font color="Maroon" title="c3">i</font></span>)</span>,<span class="p1">(<span class="default"><font color="Maroon" title="c2">f</font> <span title="PARTFUN1:func.7" data-link="1458.html#ELM19584">/.</span> <span class="p2">(<span class="default"><font color="Maroon" title="c3">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1</span>)</span></span>)</span>)<span class="kw"> if </span>( 1 <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Maroon" title="c3">i</font> &amp; <font color="Maroon" title="c3">i</font> <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> 1 <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c2">f</font> )<br><span class="kw"> otherwise </span> <span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span> ;<br>
+</div>
+<span class="kw">coherence</span> <span class="kw">correctness </span><br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  LSeg (f,i) ->  closed  ;
+</td><td><span data-href='sppol_1.html#FC3'>sppol_1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

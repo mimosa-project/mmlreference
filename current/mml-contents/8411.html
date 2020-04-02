@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>TuringStr</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>struct TuringStr</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='8411.html#ELM27523'>TuringStr</span> [<span data-href='turing_1.html#L1'>turing_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM27523'>
+<h2>1.   <span data-link='8411.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='turing_1.html#L1'>turing_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<a name="V1"><span class="kw">attr</span> </a><font color="Maroon">c<sub>1</sub></font> is  <span title="TURING_1:attr.1" data-href="turing_1.html#V1">strict</span> ;<br><a name="L1"><span class="kw">struct</span> </a> <span title="TURING_1:struct.1" data-link="8411.html#ELM27523">TuringStr</span> <span class="kw"> -&gt; </span>;<br><a name="G1"><span class="kw">aggr</span> </a><span title="TURING_1:aggr.1" data-href="turing_1.html#G1">TuringStr</span>(# <span title="TURING_1:sel.1" data-href="turing_1.html#U1">Symbols</span>, <span title="TURING_1:sel.2" data-href="turing_1.html#U2">FStates</span>, <span title="TURING_1:sel.3" data-href="turing_1.html#U3">Tran</span>, <span title="TURING_1:sel.4" data-href="turing_1.html#U4">InitS</span>, <span title="TURING_1:sel.5" data-href="turing_1.html#U5">AcceptS</span> #)<span class="kw"> -&gt; </span>   <span title="TURING_1:struct.1" data-link="8411.html#ELM27523">TuringStr</span> ;<br><a name="U1"><span class="kw">sel</span> </a> <span title="TURING_1:sel.1" data-href="turing_1.html#U1">Symbols</span> <font color="Maroon">c<sub>1</sub></font><span class="kw"> -&gt; </span>  non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="FINSET_1:attr.1" data-link="2772.html#ELM7423">finite</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><a name="U2"><span class="kw">sel</span> </a> <span title="TURING_1:sel.2" data-href="turing_1.html#U2">FStates</span> <font color="Maroon">c<sub>1</sub></font><span class="kw"> -&gt; </span>  non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="FINSET_1:attr.1" data-link="2772.html#ELM7423">finite</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><a name="U3"><span class="kw">sel</span> </a> <span title="TURING_1:sel.3" data-href="turing_1.html#U3">Tran</span> <font color="Maroon">c<sub>1</sub></font><span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1"><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">[:</span><span class="default"> the <span title="TURING_1:sel.2" data-href="turing_1.html#U2">FStates</span> of <font color="Maroon">c<sub>1</sub></font>, the <span title="TURING_1:sel.1" data-href="turing_1.html#U1">Symbols</span> of <font color="Maroon">c<sub>1</sub></font></span><span title="ZFMISC_1:func.2" data-link="395.html#ELM30580">:]</span></span>,<span class="p1"><span title="ZFMISC_1:func.3" data-link="395.html#ELM30581">[:</span><span class="default"> the <span title="TURING_1:sel.2" data-href="turing_1.html#U2">FStates</span> of <font color="Maroon">c<sub>1</sub></font>, the <span title="TURING_1:sel.1" data-href="turing_1.html#U1">Symbols</span> of <font color="Maroon">c<sub>1</sub></font>,<span class="p2"><span title="ENUMSET1:func.1" data-link="857.html#ELM6252">{</span><span class="default"><span class="p3">(<span class="default"><span title="XCMPLX_0:func.4" data-link="327.html#ELM29689">-</span> 1</span>)</span>,<span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span>,1</span><span title="ENUMSET1:func.1" data-link="857.html#ELM6252">}</span></span></span><span title="ZFMISC_1:func.3" data-link="395.html#ELM30581">:]</span></span>;<br><a name="U4"><span class="kw">sel</span> </a> <span title="TURING_1:sel.4" data-href="turing_1.html#U4">InitS</span> <font color="Maroon">c<sub>1</sub></font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  the <span title="TURING_1:sel.2" data-href="turing_1.html#U2">FStates</span> of <font color="Maroon">c<sub>1</sub></font>;<br><a name="U5"><span class="kw">sel</span> </a> <span title="TURING_1:sel.5" data-href="turing_1.html#U5">AcceptS</span> <font color="Maroon">c<sub>1</sub></font><span class="kw"> -&gt; </span>   <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  the <span title="TURING_1:sel.2" data-href="turing_1.html#U2">FStates</span> of <font color="Maroon">c<sub>1</sub></font>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-mode'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>mode</th></tr></thead>
+<tbody>
+<tr><td><span data-link='8413.html#ELM27527'>All-State</span></td><td><span data-href='turing_1.html#NM4'>turing_1</span></td></tr>
+<tr><td><span data-link='1714.html#ELM27524'>State</span></td><td><span data-href='turing_1.html#NM1'>turing_1</span></td></tr>
+<tr><td><span data-link='4592.html#ELM27526'>Symbol</span></td><td><span data-href='turing_1.html#NM3'>turing_1</span></td></tr>
+<tr><td><span data-link='8412.html#ELM27525'>Tape</span></td><td><span data-href='turing_1.html#NM2'>turing_1</span></td></tr>
+<tr><td><span data-link='8415.html#ELM27529'>Tran-Goal</span></td><td><span data-href='turing_1.html#NM6'>turing_1</span></td></tr>
+<tr><td><span data-link='8414.html#ELM27528'>Tran-Source</span></td><td><span data-href='turing_1.html#NM5'>turing_1</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-pred'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>pred</th></tr></thead>
+<tbody>
+<tr><td><span data-link='2528.html#ELM27522'>computes</span></td><td><span data-href='turing_1.html#R3'>turing_1</span></td></tr>
+<tr><td><span data-link='8409.html#ELM27520'>is_1_between</span></td><td><span data-href='turing_1.html#R1'>turing_1</span></td></tr>
+<tr><td><span data-link='8410.html#ELM27521'>storeData</span></td><td><span data-href='turing_1.html#R2'>turing_1</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-attr'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>attr</th></tr></thead>
+<tbody>
+<tr><td><span data-link='8438.html#ELM27563'>Accept-Halt</span></td><td><span data-href='turing_1.html#V2'>turing_1</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-func'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>func</th></tr></thead>
+<tbody>
+<tr><td><span data-link='1940.html#ELM27562'>';'</span></td><td><span data-href='turing_1.html#K31'>turing_1</span></td></tr>
+<tr><td><span data-link='54.html#ELM27554'>`1</span></td><td><span data-href='turing_1.html#K23'>turing_1</span></td></tr>
+<tr><td><span data-link='55.html#ELM27555'>`2</span></td><td><span data-href='turing_1.html#K24'>turing_1</span></td></tr>
+<tr><td><span data-link='1726.html#ELM27540'>Computation</span></td><td><span data-href='turing_1.html#K9'>turing_1</span></td></tr>
+<tr><td><span data-link='8432.html#ELM27556'>FirstTuringState</span></td><td><span data-href='turing_1.html#K25'>turing_1</span></td></tr>
+<tr><td><span data-link='8430.html#ELM27552'>FirstTuringTran</span></td><td><span data-href='turing_1.html#K21'>turing_1</span></td></tr>
+<tr><td><span data-link='1724.html#ELM27539'>Following</span></td><td><span data-href='turing_1.html#K8'>turing_1</span></td></tr>
+<tr><td><span data-link='8419.html#ELM27537'>Head</span></td><td><span data-href='turing_1.html#K6'>turing_1</span></td></tr>
+<tr><td><span data-link='8418.html#ELM27536'>offset</span></td><td><span data-href='turing_1.html#K5'>turing_1</span></td></tr>
+<tr><td><span data-link='1675.html#ELM27541'>Result</span></td><td><span data-href='turing_1.html#K10'>turing_1</span></td></tr>
+<tr><td><span data-link='8433.html#ELM27557'>SecondTuringState</span></td><td><span data-href='turing_1.html#K26'>turing_1</span></td></tr>
+<tr><td><span data-link='8431.html#ELM27553'>SecondTuringTran</span></td><td><span data-href='turing_1.html#K22'>turing_1</span></td></tr>
+<tr><td><span data-link='8417.html#ELM27535'>Tape-Chg</span></td><td><span data-href='turing_1.html#K4'>turing_1</span></td></tr>
+<tr><td><span data-link='8420.html#ELM27538'>TRAN</span></td><td><span data-href='turing_1.html#K7'>turing_1</span></td></tr>
+<tr><td><span data-link='8429.html#ELM27551'>UnionSt</span></td><td><span data-href='turing_1.html#K20'>turing_1</span></td></tr>
+<tr><td><span data-link='8436.html#ELM27560'>Uniontran</span></td><td><span data-href='turing_1.html#K29'>turing_1</span></td></tr>
+<tr><td><span data-link='8437.html#ELM27561'>UnionTran</span></td><td><span data-href='turing_1.html#K30'>turing_1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>real-functions-membered</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>attr real-functions-membered</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='8327.html#ELM27018'>real-functions-membered</span> [<span data-href='toprealc.html#V2'>toprealc</span>]</li>
+<li><span data-link='8327.html#ELM28292'>real-functions-membered</span> [<span data-href='valued_2.html#V3'>valued_2</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM27018'>
+<h2>1.   <span data-link='8327.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='toprealc.html#V2'>toprealc</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be    <span title="STRUCT_0:struct.1" data-link="8048.html#ELM25742">1-sorted</span> ;<br><div about="#D11" typeof="oo:Definition" class="">
+<a name="V1"><span class="kw">attr</span> </a><font color="Maroon" title="c1">S</font> is  <span title="TOPREALC:attr.1" data-link="8326.html#ELM27017">complex-functions-membered</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E11">Def1</font></span>: <a name="D1"><span class="comment"><font color="firebrick">:: TOPREALC:def 1</font></span><br></a> the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">S</font> is  <span title="VALUED_2:attr.1" data-link="8326.html#ELM28290">complex-functions-membered</span> ;<br>
+</div>
+<div about="#D12" typeof="oo:Definition" class="main-sentence">
+<a name="V2"><span class="kw">attr</span> </a><font color="Maroon" title="c1">S</font> is  <span title="TOPREALC:attr.2" data-link="8327.html#ELM27018">real-functions-membered</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E12">Def2</font></span>: <a name="D2"><span class="comment"><font color="firebrick">:: TOPREALC:def 2</font></span><br></a> the <span title="STRUCT_0:sel.1" data-href="struct_0.html#U1">carrier</span> of <font color="Maroon" title="c1">S</font> is  <span title="VALUED_2:attr.3" data-link="8327.html#ELM28292">real-functions-membered</span> ;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  TOP-REAL n ->  real-functions-membered  ;
+</td><td><span data-href='toprealc.html#FC8'>toprealc</span></td></tr>
+<tr><td>
+cluster  real-functions-membered   ->  complex-functions-membered   for    1-sorted ;
+</td><td><span data-href='toprealc.html#CC1'>toprealc</span></td></tr>
+<tr><td>
+cluster  strict   non  empty   real-functions-membered   for    1-sorted ;
+</td><td><span data-href='toprealc.html#RC1'>toprealc</span></td></tr>
+<tr><td>
+cluster  the carrier of S ->  real-functions-membered  ;
+</td><td><span data-href='toprealc.html#FC12'>toprealc</span></td></tr>
+<tr><td>
+cluster  non  empty   strict   TopSpace-like   real-functions-membered   for    TopStruct ;
+</td><td><span data-href='toprealc.html#RC2'>toprealc</span></td></tr>
+<tr><td>
+cluster   ->  real-functions-membered   for    SubSpace of S;
+</td><td><span data-href='toprealc.html#CC3'>toprealc</span></td></tr>
+<tr><td>
+cluster  Euclid n ->  real-functions-membered  ;
+</td><td><span data-href='toprealc.html#FC17'>toprealc</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM28292'>
+<h2>2.   <span data-link='8327.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='valued_2.html#V3'>valued_2</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">X</font> be    <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div about="#D4" typeof="oo:Definition" class="main-sentence">
+<a name="V3"><span class="kw">attr</span> </a><font color="Maroon" title="c1">X</font> is  <span title="VALUED_2:attr.3" data-link="8327.html#ELM28292">real-functions-membered</span> <span class="kw"> means </span>:<span class="lab"><font color="Green" title="E4">Def4</font></span>: <a name="D4"><span class="comment"><font color="firebrick">:: VALUED_2:def 4</font></span><br></a> for <font color="Olive" title="b1">x</font> being    <span title="HIDDEN:mode.1" data-link="4140.html#ELM11935">object</span>   st <font color="Olive" title="b1">x</font> <span title="HIDDEN:pred.2" data-link="4139.html#ELM11934">in</span> <font color="Maroon" title="c1">X</font> holds <br><font color="Olive" title="b1">x</font> is   <span title="VALUED_0:attr.3" data-link="5284.html#ELM27838">real-valued</span>  <span title="FUNCT_1:NM.1" data-link="3155.html#ELM8817">Function</span>;<br>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  REAL n ->  real-functions-membered  ;
+</td><td><span data-href='euclid.html#FC10'>euclid</span></td></tr>
+<tr><td>
+cluster {f} ->  real-functions-membered  ;
+</td><td><span data-href='euclid_9.html#FC16'>euclid_9</span></td></tr>
+<tr><td>
+cluster {f,g} ->  real-functions-membered  ;
+</td><td><span data-href='euclid_9.html#FC17'>euclid_9</span></td></tr>
+<tr><td>
+cluster  functional   convex   non  boundary   compact  V256() V257() V258()  for    Element of  bool  the carrier of (TOP-REAL n);
+</td><td><span data-href='tietze_2.html#RC1'>tietze_2</span></td></tr>
+<tr><td>
+cluster  the carrier of S ->  real-functions-membered  ;
+</td><td><span data-href='toprealc.html#FC12'>toprealc</span></td></tr>
+<tr><td>
+cluster  (-) X ->  complex-functions-membered   real-functions-membered  ;
+</td><td><span data-href='toprealc.html#FC15'>toprealc</span></td></tr>
+<tr><td>
+cluster  rational-functions-membered   ->  real-functions-membered   for    set ;
+</td><td><span data-href='valued_2.html#CC3'>valued_2</span></td></tr>
+<tr><td>
+cluster  real-functions-membered   ->  complex-functions-membered   for    set ;
+</td><td><span data-href='valued_2.html#CC4'>valued_2</span></td></tr>
+<tr><td>
+cluster  real-functions-membered   ->  ext-real-functions-membered   for    set ;
+</td><td><span data-href='valued_2.html#CC5'>valued_2</span></td></tr>
+<tr><td>
+cluster   ->  real-functions-membered   for    Element of K19(X);
+</td><td><span data-href='valued_2.html#CC11'>valued_2</span></td></tr>
+<tr><td>
+cluster  R_PFuncs X ->  real-functions-membered  ;
+</td><td><span data-href='valued_2.html#FC6'>valued_2</span></td></tr>
+<tr><td>
+cluster  R_Funcs X ->  real-functions-membered  ;
+</td><td><span data-href='valued_2.html#FC7'>valued_2</span></td></tr>
+<tr><td>
+cluster   ->  real-valued   for    Element of X;
+</td><td><span data-href='valued_2.html#CC17'>valued_2</span></td></tr>
+<tr><td>
+cluster f . x ->  real-valued  ;
+</td><td><span data-href='valued_2.html#FC18'>valued_2</span></td></tr>
+<tr><td>
+cluster  PFuncs (X,Y) ->  real-functions-membered  ;
+</td><td><span data-href='valued_2.html#FC24'>valued_2</span></td></tr>
+<tr><td>
+cluster  Funcs (X,Y) ->  real-functions-membered  ;
+</td><td><span data-href='valued_2.html#FC30'>valued_2</span></td></tr>
+<tr><td>
+cluster  rng R ->  real-functions-membered  ;
+</td><td><span data-href='valued_2.html#FC36'>valued_2</span></td></tr>
+<tr><td>
+cluster  Function-like   ->  real-functions-valued   for    Element of K19(K20(X,Y));
+</td><td><span data-href='valued_2.html#CC30'>valued_2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>-firstChar</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func -firstChar</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='2844.html#ELM7658'>-firstChar</span> [<span data-href='fomodel0.html#K7'>fomodel0</span>]</li>
+<li><span data-link='2844.html#ELM7925'>-firstChar</span> [<span data-href='fomodel1.html#K22'>fomodel1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM7658'>
+<h2>1.   <span data-link='2844.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fomodel0.html#K7'>fomodel0</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">D</font> be   non  <span title="XBOOLE_0:attr.1" data-link="1570.html#ELM29653">empty</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><div class="comment mathjax"><font color="firebrick">::# A function-like extracting the first item of a non empty FinSequence of D<br>  
+</font></div>
+<div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K7"><span class="kw">func</span> </a><font color="Maroon" title="c1">D</font> <span title="FOMODEL0:func.7" data-link="2844.html#ELM7658">-firstChar</span> <span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"><span class="p2">(<span class="default"><font color="Maroon" title="c1">D</font> <span title="FINSEQ_2:func.3" data-link="47.html#ELM7181">*</span></span>)</span> <span title="SUBSET_1:func.6" data-link="724.html#ELM25875">\</span> <span class="p2"><span title="TARSKI:func.1" data-link="857.html#ELM26065">{</span><span class="default"><span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span></span><span title="TARSKI:func.1" data-link="857.html#ELM26065">}</span></span></span>)</span>,<font color="Maroon" title="c1">D</font><span class="kw"> equals </span><a name="D11"><span class="comment"><font color="firebrick">:: FOMODEL0:def 11</font></span><br></a> <span title="FOMODEL0:func.6" data-link="2843.html#ELM7657">MultPlace</span> <span class="p1">(<span class="default"><font color="Maroon" title="c1">D</font> <span title="FOMODEL0:func.2" data-link="2842.html#ELM7653">-pr1</span></span>)</span>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster ((U -firstChar) . (<*u*> ^ q)) \+\ u ->  empty  ;
+</td><td><span data-href='fomodel0.html#FC98'>fomodel0</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM7925'>
+<h2>2.   <span data-link='2844.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='fomodel1.html#K22'>fomodel1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">S</font> be   <span title="FOMODEL1:NM.2" data-link="744.html#ELM7902">Language</span>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K22"><span class="kw">func</span> </a><font color="Maroon" title="c1">S</font> <span title="FOMODEL1:func.22" data-link="2844.html#ELM7925">-firstChar</span> <span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"><span class="p2">(<span class="default"><span class="p3">(<span class="default"><span title="FOMODEL1:func.15" data-link="2877.html#ELM7918">AllSymbolsOf</span> <font color="Maroon" title="c1">S</font></span>)</span> <span title="FINSEQ_2:func.3" data-link="47.html#ELM7181">*</span></span>)</span> <span title="SUBSET_1:func.6" data-link="724.html#ELM25875">\</span> <span class="p2"><span title="TARSKI:func.1" data-link="857.html#ELM26065">{</span><span class="default"><span title="XBOOLE_0:func.1" data-link="857.html#ELM29648">{}</span></span><span title="TARSKI:func.1" data-link="857.html#ELM26065">}</span></span></span>)</span>,<span class="p1">(<span class="default"><span title="FOMODEL1:func.15" data-link="2877.html#ELM7918">AllSymbolsOf</span> <font color="Maroon" title="c1">S</font></span>)</span><span class="kw"> equals </span><a name="D27"><span class="comment"><font color="firebrick">:: FOMODEL1:def 27</font></span><br></a><span class="p1">(<span class="default"><span title="FOMODEL1:func.15" data-link="2877.html#ELM7918">AllSymbolsOf</span> <font color="Maroon" title="c1">S</font></span>)</span> <span title="FOMODEL0:func.7" data-link="2844.html#ELM7658">-firstChar</span> ;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster (S -firstChar) . w ->  literal   for  Element of S;
+</td><td><span data-href='fomodel1.html#FC12'>fomodel1</span></td></tr>
+<tr><td>
+cluster (S -firstChar) . w ->  termal   for  Element of S;
+</td><td><span data-href='fomodel1.html#FC13'>fomodel1</span></td></tr>
+<tr><td>
+cluster (S -firstChar) . phi ->  relational   for  Element of S;
+</td><td><span data-href='fomodel1.html#FC17'>fomodel1</span></td></tr>
+<tr><td>
+cluster  SubTerms phi -> |.(ar ((S -firstChar) . phi)).| -element   for  FinSequence;
+</td><td><span data-href='fomodel1.html#FC23'>fomodel1</span></td></tr>
+<tr><td>
+cluster  SubTerms phi0 -> (TermSymbolsOf S) *  -valued  |.(ar ((S -firstChar) . phi0)).| -element  ;
+</td><td><span data-href='fomodel1.html#FC38'>fomodel1</span></td></tr>
+<tr><td>
+cluster (S -firstChar) . w ->  non  relational   for  Element of S;
+</td><td><span data-href='fomodel2.html#FC30'>fomodel2</span></td></tr>
+<tr><td>
+cluster (S -firstChar) . w ->  literal   for  Element of S;
+</td><td><span data-href='fomodel2.html#FC37'>fomodel2</span></td></tr>
+<tr><td>
+cluster ((S -firstChar) . phi) \+\ (TheNorSymbOf S) ->  empty   for   set ;
+</td><td><span data-href='fomodel2.html#FC51'>fomodel2</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Contravariant_Functor</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>mode Contravariant_Functor</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='6259.html#ELM18828'>Contravariant_Functor</span> [<span data-href='oppcat_1.html#M1'>oppcat_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM18828'>
+<h2>1.   <span data-link='6259.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='oppcat_1.html#M1'>oppcat_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">C</font>, <font color="Maroon" title="c2">D</font> be   <span title="CAT_1:NM.4" data-link="1431.html#ELM3503">Category</span>;<br><div about="#D22" typeof="oo:Definition" class="main-sentence">
+<a name="M1"><span class="kw">mode</span> </a> <span title="OPPCAT_1:mode.1" data-link="6259.html#ELM18828">Contravariant_Functor</span> of <font color="Maroon" title="c1">C</font>,<font color="Maroon" title="c2">D</font><span class="kw"> -&gt; </span>  <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of  the <span title="STRUCT_0:sel.4" data-href="struct_0.html#U4">carrier'</span> of <font color="Maroon" title="c1">C</font>, the <span title="STRUCT_0:sel.4" data-href="struct_0.html#U4">carrier'</span> of <font color="Maroon" title="c2">D</font><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E22">Def9</font></span>: <a name="D9"><span class="comment"><font color="firebrick">:: OPPCAT_1:def 9</font></span><br></a>( (  for <font color="Olive" title="b1">c</font> being   <span title="CAT_1:NM.1" data-link="402.html#ELM3500">Object</span> of <font color="Maroon" title="c1">C</font>  ex <font color="Olive" title="b2">d</font> being   <span title="CAT_1:NM.1" data-link="402.html#ELM3500">Object</span> of <font color="Maroon" title="c2">D</font> st <span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <span class="p1">(<span class="default"><span title="CAT_1:func.4" data-link="1435.html#ELM3508">id</span> <font color="Olive" title="b1">c</font></span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="CAT_1:func.4" data-link="1435.html#ELM3508">id</span> <font color="Olive" title="b2">d</font> ) &amp; (  for <font color="Olive" title="b1">f</font> being   <span title="CAT_1:NM.2" data-link="403.html#ELM3501">Morphism</span> of <font color="Maroon" title="c1">C</font> holds <br> ( <span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <span class="p1">(<span class="default"><span title="CAT_1:func.4" data-link="1435.html#ELM3508">id</span> <span class="p2">(<span class="default"><span title="GRAPH_1:func.3" data-link="41.html#ELM10722">dom</span> <font color="Olive" title="b1">f</font></span>)</span></span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="CAT_1:func.4" data-link="1435.html#ELM3508">id</span> <span class="p1">(<span class="default"><span title="GRAPH_1:func.4" data-link="1503.html#ELM10723">cod</span> <span class="p2">(<span class="default"><span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">f</font></span>)</span></span>)</span> &amp; <span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <span class="p1">(<span class="default"><span title="CAT_1:func.4" data-link="1435.html#ELM3508">id</span> <span class="p2">(<span class="default"><span title="GRAPH_1:func.4" data-link="1503.html#ELM10723">cod</span> <font color="Olive" title="b1">f</font></span>)</span></span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="CAT_1:func.4" data-link="1435.html#ELM3508">id</span> <span class="p1">(<span class="default"><span title="GRAPH_1:func.3" data-link="41.html#ELM10722">dom</span> <span class="p2">(<span class="default"><span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">f</font></span>)</span></span>)</span> ) ) &amp; (  for <font color="Olive" title="b1">f</font>, <font color="Olive" title="b2">g</font> being   <span title="CAT_1:NM.2" data-link="403.html#ELM3501">Morphism</span> of <font color="Maroon" title="c1">C</font>  st  <span title="GRAPH_1:func.3" data-link="41.html#ELM10722">dom</span> <font color="Olive" title="b2">g</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="GRAPH_1:func.4" data-link="1503.html#ELM10723">cod</span> <font color="Olive" title="b1">f</font> holds <br><span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <span class="p1">(<span class="default"><font color="Olive" title="b2">g</font> <span title="CAT_1:func.1" data-link="615.html#ELM3505">(*)</span> <font color="Olive" title="b1">f</font></span>)</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <span class="p1">(<span class="default"><span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b1">f</font></span>)</span> <span title="CAT_1:func.1" data-link="615.html#ELM3505">(*)</span> <span class="p1">(<span class="default"><span class="kw">it</span> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b2">g</font></span>)</span> ) );<br>
+</div>
+<span class="kw">existence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-attr'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>attr</th></tr></thead>
+<tbody>
+<tr><td><span data-link='1442.html#ELM30464'>faithful</span></td><td><span data-href='yoneda_1.html#V1'>yoneda_1</span></td></tr>
+<tr><td><span data-link='434.html#ELM30465'>full</span></td><td><span data-href='yoneda_1.html#V2'>yoneda_1</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class='related-func'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>func</th></tr></thead>
+<tbody>
+<tr><td><span data-link='141.html#ELM30463'>.</span></td><td><span data-href='yoneda_1.html#K5'>yoneda_1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

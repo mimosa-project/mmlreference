@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>JUMP</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func JUMP</h1>
+<h2>List of Definitions (1)</h2>
+<ol>
+<li><span data-link='506.html#ELM1243'>JUMP</span> [<span data-href='amistd_1.html#K2'>amistd_1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM1243'>
+<h2>1.   <span data-link='506.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='amistd_1.html#K2'>amistd_1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">N</font> be   <span title="MEASURE6:NV.2" data-link="3055.html#ELM15092">with_zero</span>   <span title="HIDDEN:mode.2" data-link="4141.html#ELM11936">set</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">S</font> be   non  <span title="STRUCT_0:attr.2" data-link="1570.html#ELM25771">empty</span>   <span title="MEMSTR_0:attr.2" data-link="5247.html#ELM15446">with_non-empty_values</span>   <span title="MEMSTR_0:attr.3" data-link="5248.html#ELM15447">IC-Ins-separated</span>   <span title="EXTPRO_1:struct.1" data-link="2529.html#ELM6608">AMI-Struct</span> over <font color="Maroon" title="c1">N</font>;<br><span class="kw">let </span><font color="Maroon" title="c3">i</font> be    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  the <span title="COMPOS_1:sel.1" data-href="compos_1.html#U1">InstructionsF</span> of <font color="Maroon" title="c2">S</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K2"><span class="kw">func</span> </a> <span title="AMISTD_1:func.2" data-link="506.html#ELM1243">JUMP</span> <font color="Maroon" title="c3">i</font><span class="kw"> -&gt; </span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span title="NUMBERS:NK.1" data-link="6191.html#ELM18623">NAT</span><span class="kw"> equals </span><a name="D4"><span class="comment"><font color="firebrick">:: AMISTD_1:def 4</font></span><br></a> <span title="SETFAM_1:func.1" data-link="1742.html#ELM25003">meet</span> <span class="p1"> { <span class="default"> <span class="p2">(<span class="default"><span title="AMISTD_1:func.1" data-link="505.html#ELM1242">NIC</span> (<font color="Maroon" title="c3">i</font>,<font color="Olive" title="b1">l</font>)</span>)</span> where <font color="Olive" title="b1">l</font> is   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> : verum </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  JUMP (halt SCM) ->  empty  ;
+</td><td><span data-href='ami_6.html#FC1'>ami_6</span></td></tr>
+<tr><td>
+cluster  JUMP (a := b) ->  empty  ;
+</td><td><span data-href='ami_6.html#FC7'>ami_6</span></td></tr>
+<tr><td>
+cluster  JUMP (AddTo (a,b)) ->  empty  ;
+</td><td><span data-href='ami_6.html#FC8'>ami_6</span></td></tr>
+<tr><td>
+cluster  JUMP (SubFrom (a,b)) ->  empty  ;
+</td><td><span data-href='ami_6.html#FC9'>ami_6</span></td></tr>
+<tr><td>
+cluster  JUMP (MultBy (a,b)) ->  empty  ;
+</td><td><span data-href='ami_6.html#FC10'>ami_6</span></td></tr>
+<tr><td>
+cluster  JUMP (Divide (a,b)) ->  empty  ;
+</td><td><span data-href='ami_6.html#FC11'>ami_6</span></td></tr>
+<tr><td>
+cluster  JUMP (SCM-goto i1) -> 1 -element  ;
+</td><td><span data-href='ami_6.html#FC12'>ami_6</span></td></tr>
+<tr><td>
+cluster  JUMP (a =0_goto i1) -> 1 -element  ;
+</td><td><span data-href='ami_6.html#FC13'>ami_6</span></td></tr>
+<tr><td>
+cluster  JUMP (a >0_goto i1) -> 1 -element  ;
+</td><td><span data-href='ami_6.html#FC14'>ami_6</span></td></tr>
+<tr><td>
+cluster  JUMP I ->  empty  ;
+</td><td><span data-href='amistd_2.html#FC1'>amistd_2</span></td></tr>
+<tr><td>
+cluster  JUMP I ->  empty  ;
+</td><td><span data-href='amistd_2.html#FC3'>amistd_2</span></td></tr>
+<tr><td>
+cluster  JUMP I ->  empty  ;
+</td><td><span data-href='amistd_2.html#FC5'>amistd_2</span></td></tr>
+<tr><td>
+cluster  JUMP (halt SCM+FSA) ->  empty  ;
+</td><td><span data-href='scmfsa10.html#FC1'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  JUMP (a := b) ->  empty  ;
+</td><td><span data-href='scmfsa10.html#FC7'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  JUMP (AddTo (a,b)) ->  empty  ;
+</td><td><span data-href='scmfsa10.html#FC8'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  JUMP (SubFrom (a,b)) ->  empty  ;
+</td><td><span data-href='scmfsa10.html#FC9'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  JUMP (MultBy (a,b)) ->  empty  ;
+</td><td><span data-href='scmfsa10.html#FC10'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  JUMP (Divide (a,b)) ->  empty  ;
+</td><td><span data-href='scmfsa10.html#FC11'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  JUMP (goto i1) -> 1 -element  ;
+</td><td><span data-href='scmfsa10.html#FC12'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  JUMP (a =0_goto i1) -> 1 -element  ;
+</td><td><span data-href='scmfsa10.html#FC13'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  JUMP (a >0_goto i1) -> 1 -element  ;
+</td><td><span data-href='scmfsa10.html#FC14'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  JUMP (a := (f,b)) ->  empty  ;
+</td><td><span data-href='scmfsa10.html#FC16'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  JUMP ((f,b) := a) ->  empty  ;
+</td><td><span data-href='scmfsa10.html#FC18'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  JUMP (a :=len f) ->  empty  ;
+</td><td><span data-href='scmfsa10.html#FC20'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  JUMP (f :=<0,...,0> a) ->  empty  ;
+</td><td><span data-href='scmfsa10.html#FC22'>scmfsa10</span></td></tr>
+<tr><td>
+cluster  JUMP (goto k) ->  empty  ;
+</td><td><span data-href='scmpds_9.html#FC1'>scmpds_9</span></td></tr>
+<tr><td>
+cluster  JUMP (return a) ->  infinite  ;
+</td><td><span data-href='scmpds_9.html#FC2'>scmpds_9</span></td></tr>
+<tr><td>
+cluster  JUMP (saveIC (a,k1)) ->  empty  ;
+</td><td><span data-href='scmpds_9.html#FC3'>scmpds_9</span></td></tr>
+<tr><td>
+cluster  JUMP (a := k1) ->  empty  ;
+</td><td><span data-href='scmpds_9.html#FC4'>scmpds_9</span></td></tr>
+<tr><td>
+cluster  JUMP ((a,k1) := k2) ->  empty  ;
+</td><td><span data-href='scmpds_9.html#FC5'>scmpds_9</span></td></tr>
+<tr><td>
+cluster  JUMP ((a,k1) := (b,k2)) ->  empty  ;
+</td><td><span data-href='scmpds_9.html#FC6'>scmpds_9</span></td></tr>
+<tr><td>
+cluster  JUMP (AddTo (a,k1,k2)) ->  empty  ;
+</td><td><span data-href='scmpds_9.html#FC7'>scmpds_9</span></td></tr>
+<tr><td>
+cluster  JUMP (AddTo (a,k1,b,k2)) ->  empty  ;
+</td><td><span data-href='scmpds_9.html#FC8'>scmpds_9</span></td></tr>
+<tr><td>
+cluster  JUMP (SubFrom (a,k1,b,k2)) ->  empty  ;
+</td><td><span data-href='scmpds_9.html#FC9'>scmpds_9</span></td></tr>
+<tr><td>
+cluster  JUMP (MultBy (a,k1,b,k2)) ->  empty  ;
+</td><td><span data-href='scmpds_9.html#FC10'>scmpds_9</span></td></tr>
+<tr><td>
+cluster  JUMP (Divide (a,k1,b,k2)) ->  empty  ;
+</td><td><span data-href='scmpds_9.html#FC11'>scmpds_9</span></td></tr>
+<tr><td>
+cluster  JUMP ((a,k1) <>0_goto k2) ->  empty  ;
+</td><td><span data-href='scmpds_9.html#FC12'>scmpds_9</span></td></tr>
+<tr><td>
+cluster  JUMP ((a,k1) <=0_goto k2) ->  empty  ;
+</td><td><span data-href='scmpds_9.html#FC13'>scmpds_9</span></td></tr>
+<tr><td>
+cluster  JUMP ((a,k1) >=0_goto k2) ->  empty  ;
+</td><td><span data-href='scmpds_9.html#FC14'>scmpds_9</span></td></tr>
+<tr><td>
+cluster  JUMP (halt (SCM R)) ->  empty  ;
+</td><td><span data-href='scmring3.html#FC1'>scmring3</span></td></tr>
+<tr><td>
+cluster  JUMP (a := b) ->  empty  ;
+</td><td><span data-href='scmring3.html#FC7'>scmring3</span></td></tr>
+<tr><td>
+cluster  JUMP (AddTo (a,b)) ->  empty  ;
+</td><td><span data-href='scmring3.html#FC8'>scmring3</span></td></tr>
+<tr><td>
+cluster  JUMP (SubFrom (a,b)) ->  empty  ;
+</td><td><span data-href='scmring3.html#FC9'>scmring3</span></td></tr>
+<tr><td>
+cluster  JUMP (MultBy (a,b)) ->  empty  ;
+</td><td><span data-href='scmring3.html#FC10'>scmring3</span></td></tr>
+<tr><td>
+cluster  JUMP (a := r) ->  empty  ;
+</td><td><span data-href='scmring3.html#FC11'>scmring3</span></td></tr>
+<tr><td>
+cluster  JUMP (goto (i1,R)) -> 1 -element  ;
+</td><td><span data-href='scmring3.html#FC12'>scmring3</span></td></tr>
+<tr><td>
+cluster  JUMP (a =0_goto i1) -> 1 -element  ;
+</td><td><span data-href='scmring3.html#FC13'>scmring3</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

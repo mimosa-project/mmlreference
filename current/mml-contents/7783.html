@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>GCD-Algorithm</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func GCD-Algorithm</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='7783.html#ELM24486'>GCD-Algorithm</span> [<span data-href='scmp_gcd.html#K4'>scmp_gcd</span>]</li>
+<li><span data-link='7783.html#ELM24868'>GCD-Algorithm</span> [<span data-href='scpinvar.html#K4'>scpinvar</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM24486'>
+<h2>1.   <span data-link='7783.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='scmp_gcd.html#K4'>scmp_gcd</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<div class="comment mathjax"><font color="firebrick">::Def04<br>  
+</font></div>
+<div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a> <span title="SCMP_GCD:func.4" data-link="7783.html#ELM24486">GCD-Algorithm</span> <span class="kw"> -&gt; </span>  <span title="COMPOS_1:NM.4" data-link="1934.html#ELM5023">Program</span> of <span title="SCMPDS_2:func.1" data-link="7788.html#ELM24494">SCMPDS</span><span class="kw"> equals </span><a name="D4"><span class="comment"><font color="firebrick">:: SCMP_GCD:def 4</font></span><br></a><span class="p1">(<span class="default"><span class="p2">(<span class="default"><span class="p3">(<span class="default"><span class="p4">(<span class="default"><span class="p5">(<span class="default"><span class="p0">(<span class="default"><span class="p1">(<span class="default"><span class="p2">(<span class="default"><span class="p3">(<span class="default"><span class="p4">(<span class="default"><span class="p5">(<span class="default"><span class="p0">(<span class="default"><span class="p1">(<span class="default"><span class="p2">(<span class="default"><span title="SCMP_GCD:func.2" data-link="7781.html#ELM24484">GBP</span> <span title="SCMPDS_2:func.5" data-link="478.html#ELM24498">:=</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span></span>)</span> <span title="SCMPDS_4:func.4" data-link="1940.html#ELM24524">';'</span> <span class="p2">(<span class="default"><span title="SCMP_GCD:func.3" data-link="7782.html#ELM24485">SBP</span> <span title="SCMPDS_2:func.5" data-link="478.html#ELM24498">:=</span> 7</span>)</span></span>)</span> <span title="SCMPDS_4:func.3" data-link="1940.html#ELM24523">';'</span> <span class="p1">(<span class="default"><span title="SCMPDS_2:func.6" data-link="7791.html#ELM24499">saveIC</span> (<span title="SCMP_GCD:func.3" data-link="7782.html#ELM24485">SBP</span>,<span title="SCMPDS_I:func.15" data-link="7816.html#ELM24668">RetIC</span>)</span>)</span></span>)</span> <span title="SCMPDS_4:func.3" data-link="1940.html#ELM24523">';'</span> <span class="p0">(<span class="default"><span title="SCMPDS_2:func.3" data-link="7750.html#ELM24496">goto</span> 2</span>)</span></span>)</span> <span title="SCMPDS_4:func.3" data-link="1940.html#ELM24523">';'</span> <span class="p5">(<span class="default"><span title="COMPOS_1:func.2" data-link="1923.html#ELM5026">halt</span> <span title="SCMPDS_2:func.1" data-link="7788.html#ELM24494">SCMPDS</span></span>)</span></span>)</span> <span title="SCMPDS_4:func.3" data-link="1940.html#ELM24523">';'</span> <span class="p4">(<span class="default">(<span title="SCMP_GCD:func.3" data-link="7782.html#ELM24485">SBP</span>,3) <span title="SCMPDS_2:func.8" data-link="7793.html#ELM24501">&lt;=0_goto</span> 9</span>)</span></span>)</span> <span title="SCMPDS_4:func.3" data-link="1940.html#ELM24523">';'</span> <span class="p3">(<span class="default">(<span title="SCMP_GCD:func.3" data-link="7782.html#ELM24485">SBP</span>,6) <span title="SCMPDS_2:func.16" data-link="478.html#ELM24509">:=</span> (<span title="SCMP_GCD:func.3" data-link="7782.html#ELM24485">SBP</span>,3)</span>)</span></span>)</span> <span title="SCMPDS_4:func.3" data-link="1940.html#ELM24523">';'</span> <span class="p2">(<span class="default"><span title="SCMPDS_2:func.15" data-link="482.html#ELM24508">Divide</span> (<span title="SCMP_GCD:func.3" data-link="7782.html#ELM24485">SBP</span>,2,<span title="SCMP_GCD:func.3" data-link="7782.html#ELM24485">SBP</span>,3)</span>)</span></span>)</span> <span title="SCMPDS_4:func.3" data-link="1940.html#ELM24523">';'</span> <span class="p1">(<span class="default">(<span title="SCMP_GCD:func.3" data-link="7782.html#ELM24485">SBP</span>,7) <span title="SCMPDS_2:func.16" data-link="478.html#ELM24509">:=</span> (<span title="SCMP_GCD:func.3" data-link="7782.html#ELM24485">SBP</span>,3)</span>)</span></span>)</span> <span title="SCMPDS_4:func.3" data-link="1940.html#ELM24523">';'</span> <span class="p0">(<span class="default">(<span title="SCMP_GCD:func.3" data-link="7782.html#ELM24485">SBP</span>,<span class="p1">(<span class="default">4 <span title="NAT_1:func.1" data-link="229.html#ELM17448">+</span> <span title="SCMPDS_I:func.14" data-link="7815.html#ELM24667">RetSP</span></span>)</span>) <span title="SCMPDS_2:func.16" data-link="478.html#ELM24509">:=</span> (<span title="SCMP_GCD:func.2" data-link="7781.html#ELM24484">GBP</span>,1)</span>)</span></span>)</span> <span title="SCMPDS_4:func.3" data-link="1940.html#ELM24523">';'</span> <span class="p5">(<span class="default"><span title="SCMPDS_2:func.11" data-link="479.html#ELM24504">AddTo</span> (<span title="SCMP_GCD:func.2" data-link="7781.html#ELM24484">GBP</span>,1,4)</span>)</span></span>)</span> <span title="SCMPDS_4:func.3" data-link="1940.html#ELM24523">';'</span> <span class="p4">(<span class="default"><span title="SCMPDS_2:func.6" data-link="7791.html#ELM24499">saveIC</span> (<span title="SCMP_GCD:func.3" data-link="7782.html#ELM24485">SBP</span>,<span title="SCMPDS_I:func.15" data-link="7816.html#ELM24668">RetIC</span>)</span>)</span></span>)</span> <span title="SCMPDS_4:func.3" data-link="1940.html#ELM24523">';'</span> <span class="p3">(<span class="default"><span title="SCMPDS_2:func.3" data-link="7750.html#ELM24496">goto</span> <span class="p4">(<span class="default"><span title="XCMPLX_0:func.4" data-link="327.html#ELM29689">-</span> 7</span>)</span></span>)</span></span>)</span> <span title="SCMPDS_4:func.3" data-link="1940.html#ELM24523">';'</span> <span class="p2">(<span class="default">(<span title="SCMP_GCD:func.3" data-link="7782.html#ELM24485">SBP</span>,2) <span title="SCMPDS_2:func.16" data-link="478.html#ELM24509">:=</span> (<span title="SCMP_GCD:func.3" data-link="7782.html#ELM24485">SBP</span>,6)</span>)</span></span>)</span> <span title="SCMPDS_4:func.3" data-link="1940.html#ELM24523">';'</span> <span class="p1">(<span class="default"><span title="SCMPDS_2:func.4" data-link="7790.html#ELM24497">return</span> <span title="SCMP_GCD:func.3" data-link="7782.html#ELM24485">SBP</span></span>)</span>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM24868'>
+<h2>2.   <span data-link='7783.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='scpinvar.html#K4'>scpinvar</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K4"><span class="kw">func</span> </a> <span title="SCPINVAR:func.4" data-link="7783.html#ELM24868">GCD-Algorithm</span> <span class="kw"> -&gt; </span>  <span title="COMPOS_1:NM.4" data-link="1934.html#ELM5023">Program</span> of <span title="SCMPDS_2:func.1" data-link="7788.html#ELM24494">SCMPDS</span><span class="kw"> equals </span><a name="D4"><span class="comment"><font color="firebrick">:: SCPINVAR:def 4</font></span><br></a><span class="p1">(<span class="default"><span class="p2">(<span class="default"><span class="p3">(<span class="default"><span title="SCMP_GCD:func.2" data-link="7781.html#ELM24484">GBP</span> <span title="SCMPDS_2:func.5" data-link="478.html#ELM24498">:=</span> <span title="NUMBERS:func.5" data-link="6192.html#ELM18628">0</span></span>)</span> <span title="SCMPDS_4:func.4" data-link="1940.html#ELM24524">';'</span> <span class="p3">(<span class="default">(<span title="SCMP_GCD:func.2" data-link="7781.html#ELM24484">GBP</span>,3) <span title="SCMPDS_2:func.16" data-link="478.html#ELM24509">:=</span> (<span title="SCMP_GCD:func.2" data-link="7781.html#ELM24484">GBP</span>,1)</span>)</span></span>)</span> <span title="SCMPDS_4:func.3" data-link="1940.html#ELM24523">';'</span> <span class="p2">(<span class="default"><span title="SCMPDS_2:func.13" data-link="480.html#ELM24506">SubFrom</span> (<span title="SCMP_GCD:func.2" data-link="7781.html#ELM24484">GBP</span>,3,<span title="SCMP_GCD:func.2" data-link="7781.html#ELM24484">GBP</span>,2)</span>)</span></span>)</span> <span title="SCMPDS_4:func.1" data-link="1940.html#ELM24521">';'</span> <span class="p1">(<span class="default"><span title="SCPINVAR:func.3" data-link="7831.html#ELM24867">while&lt;&gt;0</span> (<span title="SCMP_GCD:func.2" data-link="7781.html#ELM24484">GBP</span>,3,<span class="p2">(<span class="default"><span class="p3">(<span class="default"><span class="p4">(<span class="default"><span title="SCMPDS_6:func.3" data-link="7723.html#ELM24593">if&gt;0</span> (<span title="SCMP_GCD:func.2" data-link="7781.html#ELM24484">GBP</span>,3,<span class="p5">(<span class="default"><span title="COMPOS_1:func.9" data-link="1937.html#ELM5034">Load</span> <span class="p0">(<span class="default"><span title="SCMPDS_2:func.13" data-link="480.html#ELM24506">SubFrom</span> (<span title="SCMP_GCD:func.2" data-link="7781.html#ELM24484">GBP</span>,1,<span title="SCMP_GCD:func.2" data-link="7781.html#ELM24484">GBP</span>,2)</span>)</span></span>)</span>,<span class="p5">(<span class="default"><span title="COMPOS_1:func.9" data-link="1937.html#ELM5034">Load</span> <span class="p0">(<span class="default"><span title="SCMPDS_2:func.13" data-link="480.html#ELM24506">SubFrom</span> (<span title="SCMP_GCD:func.2" data-link="7781.html#ELM24484">GBP</span>,2,<span title="SCMP_GCD:func.2" data-link="7781.html#ELM24484">GBP</span>,1)</span>)</span></span>)</span>)</span>)</span> <span title="SCMPDS_4:func.3" data-link="1940.html#ELM24523">';'</span> <span class="p4">(<span class="default">(<span title="SCMP_GCD:func.2" data-link="7781.html#ELM24484">GBP</span>,3) <span title="SCMPDS_2:func.16" data-link="478.html#ELM24509">:=</span> (<span title="SCMP_GCD:func.2" data-link="7781.html#ELM24484">GBP</span>,1)</span>)</span></span>)</span> <span title="SCMPDS_4:func.3" data-link="1940.html#ELM24523">';'</span> <span class="p3">(<span class="default"><span title="SCMPDS_2:func.13" data-link="480.html#ELM24506">SubFrom</span> (<span title="SCMP_GCD:func.2" data-link="7781.html#ELM24484">GBP</span>,3,<span title="SCMP_GCD:func.2" data-link="7781.html#ELM24484">GBP</span>,2)</span>)</span></span>)</span>)</span>)</span>;<br>
+</div>
+<span class="kw">coherence</span> <br>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>

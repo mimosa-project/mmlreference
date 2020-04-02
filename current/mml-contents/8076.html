@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Bound_Vars</title>
+</head>
+<body>
+<div class='mml-summary'>
+<h1>func Bound_Vars</h1>
+<h2>List of Definitions (2)</h2>
+<ol>
+<li><span data-link='8076.html#ELM25931'>Bound_Vars</span> [<span data-href='substut1.html#K8'>substut1</span>]</li>
+<li><span data-link='8076.html#ELM25932'>Bound_Vars</span> [<span data-href='substut1.html#K9'>substut1</span>]</li>
+</ol>
+</div>
+<div class='mml-element' id='ELM25931'>
+<h2>1.   <span data-link='8076.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='substut1.html#K8'>substut1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be    <span title="QC_LANG1:mode.1" data-link="7084.html#ELM21567">QC-alphabet</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">l1</font> be    <span title="FINSEQ_1:mode.2" data-link="27.html#ELM7091">FinSequence</span> of  <span title="QC_LANG1:func.2" data-link="7094.html#ELM21579">QC-variables</span> <font color="Maroon" title="c1">A</font>;<br><div about="#D0" typeof="oo:Definition" class="main-sentence">
+<a name="K8"><span class="kw">func</span> </a> <span title="SUBSTUT1:func.8" data-link="8076.html#ELM25931">Bound_Vars</span> <font color="Maroon" title="c2">l1</font><span class="kw"> -&gt; </span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span class="p1">(<span class="default"><span title="QC_LANG1:func.3" data-link="7095.html#ELM21580">bound_QC-variables</span> <font color="Maroon" title="c1">A</font></span>)</span><span class="kw"> equals </span><a name="D7"><span class="comment"><font color="firebrick">:: SUBSTUT1:def 7</font></span><br></a><span class="p1"> { <span class="default"> <span class="p2">(<span class="default"><font color="Maroon" title="c2">l1</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">k</font></span>)</span> where <font color="Olive" title="b1">k</font> is   <span title="NAT_1:NM.1" data-link="5402.html#ELM17446">Nat</span> : ( 1 <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span> <font color="Olive" title="b1">k</font> &amp; <font color="Olive" title="b1">k</font> <span title="XXREAL_0:pred.1" data-link="491.html#ELM29819">&lt;=</span>  <span title="FINSEQ_1:func.3" data-link="232.html#ELM7096">len</span> <font color="Maroon" title="c2">l1</font> &amp; <font color="Maroon" title="c2">l1</font> <span title="FUNCT_1:func.1" data-link="141.html#ELM8818">.</span> <font color="Olive" title="b1">k</font> <span title="TARSKI:pred.2" data-link="4139.html#ELM26063">in</span>  <span title="QC_LANG1:func.3" data-link="7095.html#ELM21580">bound_QC-variables</span> <font color="Maroon" title="c1">A</font> ) </span> } </span> ;<br>
+</div>
+<span class="kw">coherence</span> </div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+</div>
+<hr/>
+<div class='mml-element' id='ELM25932'>
+<h2>2.   <span data-link='8076.html'>[Back to top]</span></h2>
+<div class='source'>
+<h3>Source <span class='defined-in'> [<span data-href='substut1.html#K9'>substut1</span>]</span></h3>
+<div class='source-box'>
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span><font color="Maroon" title="c1">A</font> be    <span title="QC_LANG1:mode.1" data-link="7084.html#ELM21567">QC-alphabet</span> ;<br><span class="kw">let </span><font color="Maroon" title="c2">p</font> be   <span title="QC_LANG1:NM.10" data-link="7092.html#ELM21576">QC-formula</span> of <font color="Maroon" title="c1">A</font>;<br><div about="#D3" typeof="oo:Definition" class="main-sentence">
+<a name="K9"><span class="kw">func</span> </a> <span title="SUBSTUT1:func.9" data-link="8076.html#ELM25932">Bound_Vars</span> <font color="Maroon" title="c2">p</font><span class="kw"> -&gt; </span>  <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span class="p1">(<span class="default"><span title="QC_LANG1:func.3" data-link="7095.html#ELM21580">bound_QC-variables</span> <font color="Maroon" title="c1">A</font></span>)</span><span class="kw"> means </span>:<span class="lab"><font color="Green" title="E3">Def8</font></span>: <a name="D8"><span class="comment"><font color="firebrick">:: SUBSTUT1:def 8</font></span><br></a> ex <font color="Olive" title="b1">F</font> being   <span title="FUNCT_2:NM.1" data-link="3155.html#ELM8873">Function</span> of <span class="p1">(<span class="default"><span title="QC_LANG1:func.9" data-link="7100.html#ELM21586">QC-WFF</span> <font color="Maroon" title="c1">A</font></span>)</span>,<span class="p1">(<span class="default"><span title="ZFMISC_1:func.1" data-link="1652.html#ELM30579">bool</span> <span class="p2">(<span class="default"><span title="QC_LANG1:func.3" data-link="7095.html#ELM21580">bound_QC-variables</span> <font color="Maroon" title="c1">A</font></span>)</span></span>)</span> st <br>( <span class="kw">it</span> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">F</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Maroon" title="c2">p</font> &amp; (  for <font color="Olive" title="b2">p</font> being    <span title="SUBSET_1:mode.1" data-link="667.html#ELM25867">Element</span> of  <span title="QC_LANG1:func.9" data-link="7100.html#ELM21586">QC-WFF</span> <font color="Maroon" title="c1">A</font><br>  for <font color="Olive" title="b3">d1</font>, <font color="Olive" title="b4">d2</font> being   <span title="SUBSET_1:NM.2" data-link="26.html#ELM25868">Subset</span> of <span class="p1">(<span class="default"><span title="QC_LANG1:func.3" data-link="7095.html#ELM21580">bound_QC-variables</span> <font color="Maroon" title="c1">A</font></span>)</span> holds <br> ( ( <font color="Olive" title="b2">p</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="CQC_LANG:func.5" data-link="2070.html#ELM5498">VERUM</span> <font color="Maroon" title="c1">A</font> implies <font color="Olive" title="b1">F</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b2">p</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="SUBSET_1:func.1" data-link="857.html#ELM25870">{}</span> <span class="p1">(<span class="default"><span title="QC_LANG1:func.3" data-link="7095.html#ELM21580">bound_QC-variables</span> <font color="Maroon" title="c1">A</font></span>)</span> ) &amp; ( <font color="Olive" title="b2">p</font> is  <span title="QC_LANG1:attr.2" data-link="3994.html#ELM21610">atomic</span>  implies <font color="Olive" title="b1">F</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b2">p</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span>  <span title="SUBSTUT1:func.8" data-link="8076.html#ELM25931">Bound_Vars</span> <span class="p1">(<span class="default"><span title="QC_LANG1:func.17" data-link="7102.html#ELM21594">the_arguments_of</span> <font color="Olive" title="b2">p</font></span>)</span> ) &amp; ( <font color="Olive" title="b2">p</font> is  <span title="QC_LANG1:attr.3" data-link="83.html#ELM21611">negative</span>  &amp; <font color="Olive" title="b3">d1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">F</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <span class="p1">(<span class="default"><span title="QC_LANG1:func.18" data-link="5491.html#ELM21595">the_argument_of</span> <font color="Olive" title="b2">p</font></span>)</span> implies <font color="Olive" title="b1">F</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b2">p</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b3">d1</font> ) &amp; ( <font color="Olive" title="b2">p</font> is  <span title="QC_LANG1:attr.4" data-link="3995.html#ELM21612">conjunctive</span>  &amp; <font color="Olive" title="b3">d1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">F</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <span class="p1">(<span class="default"><span title="QC_LANG1:func.19" data-link="5492.html#ELM21596">the_left_argument_of</span> <font color="Olive" title="b2">p</font></span>)</span> &amp; <font color="Olive" title="b4">d2</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">F</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <span class="p1">(<span class="default"><span title="QC_LANG1:func.20" data-link="5493.html#ELM21597">the_right_argument_of</span> <font color="Olive" title="b2">p</font></span>)</span> implies <font color="Olive" title="b1">F</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b2">p</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b3">d1</font> <span title="SUBSET_1:func.4" data-link="1743.html#ELM25873">\/</span> <font color="Olive" title="b4">d2</font> ) &amp; ( <font color="Olive" title="b2">p</font> is  <span title="QC_LANG1:attr.5" data-link="1748.html#ELM21613">universal</span>  &amp; <font color="Olive" title="b3">d1</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b1">F</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <span class="p1">(<span class="default"><span title="QC_LANG1:func.22" data-link="3751.html#ELM21599">the_scope_of</span> <font color="Olive" title="b2">p</font></span>)</span> implies <font color="Olive" title="b1">F</font> <span title="FUNCT_2:func.3" data-link="141.html#ELM8880">.</span> <font color="Olive" title="b2">p</font> <span title="HIDDEN:pred.1" data-link="1122.html#ELM11932">=</span> <font color="Olive" title="b3">d1</font> <span title="SUBSET_1:func.4" data-link="1743.html#ELM25873">\/</span> <span class="p1"><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">{</span><span class="default"><span class="p2">(<span class="default"><span title="QC_LANG1:func.21" data-link="3750.html#ELM21598">bound_in</span> <font color="Olive" title="b2">p</font></span>)</span></span><span title="DOMAIN_1:func.6" data-link="857.html#ELM5997">}</span></span> ) ) ) );<br>
+</div>
+<span class="kw">correctness </span>
+</div>
+<span class="kw">end;</span>
+</div>
+
+</div>
+</div>
+<div class='reference'>
+<h3>Referenced In</h3>
+<div class='related-cluster'>
+<table class='pure-table'>
+<thead><tr><th colspan='2'>cluster</th></tr></thead>
+<tbody>
+<tr><td>
+cluster  Bound_Vars p ->  finite  ;
+</td><td><span data-href='substut1.html#FC3'>substut1</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr/>
+</body>
+</html>
